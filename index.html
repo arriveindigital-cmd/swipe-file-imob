@@ -52,6 +52,15 @@ body{background:var(--bg);color:var(--tx);font-family:'Inter',-apple-system,Blin
 .step .sn{width:34px;height:34px;border-radius:10px;background:var(--grad);display:grid;place-items:center;font-weight:900;font-size:15px;color:#fff;margin-bottom:13px}
 .step h3{font-size:15.5px;font-weight:800;letter-spacing:-.01em;margin-bottom:6px}
 .step p{font-size:13px;color:var(--tx2);line-height:1.5}
+.objsec{padding:38px 0 4px}
+.objsec .lbl{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--tx3);margin-bottom:8px}
+.objsec .lead{font-size:14px;color:var(--tx2);margin-bottom:18px;max-width:620px;line-height:1.55}
+.objgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(178px,1fr));gap:12px}
+.ocard{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px 16px 17px;position:relative;overflow:hidden}
+.ocard::before{content:"";position:absolute;left:0;top:0;right:0;height:2px;background:var(--oc)}
+.ocard .oh{display:flex;align-items:center;gap:8px;font-weight:800;font-size:14px;color:var(--oc);margin-bottom:7px}
+.ocard .oh .od{width:8px;height:8px;border-radius:50%;background:var(--oc)}
+.ocard p{font-size:12.3px;color:var(--tx2);line-height:1.5}
 
 /* CONTROLE */
 .ctrl{position:sticky;top:0;z-index:20;padding:14px 0;margin-top:34px;background:rgba(0,0,0,.85);backdrop-filter:blur(14px);border-bottom:1px solid var(--bd);border-top:1px solid var(--bd)}
@@ -190,6 +199,18 @@ footer{border-top:1px solid var(--bd);padding:24px 0 46px;color:var(--tx3);font-
     <div class="step"><div class="sn">1</div><h3>Escolha pelo objetivo</h3><p>Filtre pelo que você precisa — atrair, conectar, dar autoridade, provar ou converter — e ache o formato certo.</p></div>
     <div class="step"><div class="sn">2</div><h3>Estude e assista</h3><p>Abra o formato: o esqueleto reutilizável, a análise detalhada e o exemplo real com o vídeo aplicado.</p></div>
     <div class="step"><div class="sn">3</div><h3>Copie o prompt e crie</h3><p>Pegue o mega-prompt, preencha seus dados e gere o roteiro/copy do seu conteúdo em minutos.</p></div>
+  </div>
+</section>
+
+<section class="objsec">
+  <div class="lbl">Os objetivos</div>
+  <p class="lead">Todo formato serve a um objetivo dentro do funil de conteúdo. Entenda cada um e filtre por ele pra achar o formato certo pro seu momento.</p>
+  <div class="objgrid">
+    <div class="ocard" style="--oc:#5090e0"><div class="oh"><span class="od"></span>Atrair</div><p>Alcance e descoberta. Chega em quem ainda não te conhece — o topo do funil. Gancho, curiosidade, provocação.</p></div>
+    <div class="ocard" style="--oc:#e11d48"><div class="oh"><span class="od"></span>Conectar</div><p>Vínculo e humanização. Cria identificação e transforma seguidor em fã — bastidor, história, opinião.</p></div>
+    <div class="ocard" style="--oc:#7c3aed"><div class="oh"><span class="od"></span>Autoridade</div><p>Confiança. Educa, rebate mitos e mostra que você domina o assunto — dicas, análises, "o que ninguém conta".</p></div>
+    <div class="ocard" style="--oc:#00c896"><div class="oh"><span class="od"></span>Prova social</div><p>Resultados. Depoimentos, cases e entregas que provam que funciona — "vendido", entrega de chaves.</p></div>
+    <div class="ocard" style="--oc:#f97316"><div class="oh"><span class="od"></span>Converter</div><p>Ação. Gera lead e venda — imóveis, ofertas, parcela que cabe no bolso e CTAs diretos.</p></div>
   </div>
 </section></div>
 
