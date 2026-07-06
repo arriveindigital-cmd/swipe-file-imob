@@ -18,20 +18,37 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{background:radial-gradient(60% 45% at 100% 0%,rgba(76,29,149,.5) 0%,rgba(124,58,237,.1) 34%,transparent 60%),radial-gradient(40% 35% at 90% 3%,rgba(220,38,38,.14) 0%,transparent 42%),var(--bg);
-  color:var(--tx);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.55;min-height:100vh;overflow-x:hidden}
+body{background:var(--bg);color:var(--tx);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.55;min-height:100vh;overflow-x:hidden}
 ::selection{background:var(--roxo);color:#fff}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
 
-header{padding:32px 0 4px}
-.top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:22px}
-.top img{height:28px;display:block}
-.tag-sf{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--tx3)}
-h1{font-size:clamp(27px,5.4vw,44px);font-weight:900;letter-spacing:-.035em;line-height:1.04}
-h1 .g{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.sub{color:var(--tx2);font-size:14.5px;margin-top:12px;max-width:560px}
+/* HERO */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--bd);
+  background:radial-gradient(70% 90% at 100% -10%,rgba(76,29,149,.55) 0%,rgba(124,58,237,.12) 34%,transparent 62%),radial-gradient(50% 60% at 88% 0%,rgba(220,38,38,.16) 0%,transparent 44%),#000}
+.hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:60px 60px;mask-image:linear-gradient(#000,transparent 75%);pointer-events:none}
+.hero .wrap{position:relative;padding:26px 22px 42px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:44px}
+.top img{height:29px;display:block}
+.tag-sf{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--tx3);border:1px solid var(--bd);padding:6px 11px;border-radius:20px}
+.hero h1{font-size:clamp(32px,6.6vw,58px);font-weight:900;letter-spacing:-.04em;line-height:1.02;max-width:14ch}
+.hero h1 .g{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero .sub{color:var(--tx2);font-size:clamp(15px,2.2vw,17px);margin-top:16px;max-width:560px}
+.stats{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
+.stat{background:rgba(20,20,20,.7);backdrop-filter:blur(6px);border:1px solid var(--bd);border-radius:13px;padding:13px 18px;min-width:96px}
+.stat b{font-size:24px;font-weight:900;letter-spacing:-.02em;display:block}
+.stat span{font-size:10.5px;color:var(--tx3);text-transform:uppercase;letter-spacing:.1em;margin-top:2px}
 
-.ctrl{position:sticky;top:0;z-index:20;padding:14px 0;margin-top:22px;background:rgba(0,0,0,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--bd)}
+/* COMO USAR */
+.howto{padding:40px 0 8px}
+.howto .lbl{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--tx3);margin-bottom:18px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.step{background:var(--card);border:1px solid var(--bd);border-radius:15px;padding:20px}
+.step .sn{width:34px;height:34px;border-radius:10px;background:var(--grad);display:grid;place-items:center;font-weight:900;font-size:15px;color:#fff;margin-bottom:13px}
+.step h3{font-size:15.5px;font-weight:800;letter-spacing:-.01em;margin-bottom:6px}
+.step p{font-size:13px;color:var(--tx2);line-height:1.5}
+
+/* CONTROLE */
+.ctrl{position:sticky;top:0;z-index:20;padding:14px 0;margin-top:34px;background:rgba(0,0,0,.85);backdrop-filter:blur(14px);border-bottom:1px solid var(--bd);border-top:1px solid var(--bd)}
 .ctrl .row{display:flex;gap:10px;align-items:center}
 .searchwrap{flex:1;position:relative;min-width:0}
 .searchwrap svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);opacity:.4}
@@ -39,12 +56,10 @@ input[type=search]{width:100%;background:var(--card);border:1px solid var(--bd);
 input[type=search]::placeholder{color:var(--tx3)}
 input[type=search]:focus{outline:none;border-color:var(--roxo);background:var(--card2)}
 .fbtn{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--bd);border-radius:11px;padding:12px 15px;color:var(--tx);font-size:14px;font-weight:600;cursor:pointer;font-family:inherit;white-space:nowrap}
-.fbtn:hover{border-color:var(--bd2)}
-.fbtn.act{border-color:var(--bdrx)}
+.fbtn:hover{border-color:var(--bd2)}.fbtn.act{border-color:var(--bdrx)}
 .fbtn .fn{background:var(--grad);color:#fff;border-radius:20px;font-size:11px;padding:1px 7px;font-weight:700;display:none}
 .fbtn .fn.show{display:inline-block}
-.fbtn .cv{transition:.2s;color:var(--tx3)}
-.fbtn.open .cv{transform:rotate(180deg)}
+.fbtn .cv{transition:.2s;color:var(--tx3)}.fbtn.open .cv{transform:rotate(180deg)}
 .panel{display:none;margin-top:12px;background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px 16px 6px}
 .panel.open{display:block}
 .fgroup{display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap;padding-bottom:12px;margin-bottom:12px;border-bottom:1px solid var(--bd)}
@@ -58,21 +73,27 @@ input[type=search]:focus{outline:none;border-color:var(--roxo);background:var(--
 .pfoot .count{color:var(--tx3);font-size:12.5px}
 .pfoot .clear{background:none;border:none;color:var(--azul);font-size:12.5px;cursor:pointer;font-family:inherit;font-weight:600}
 
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:15px;padding:24px 0 80px}
+/* SEÇÕES + CARDS */
+main{padding:30px 0 80px}
+.section{margin-bottom:40px}
+.section .sh{display:flex;align-items:baseline;gap:12px;margin-bottom:16px}
+.section .sh h2{font-size:16px;font-weight:800;letter-spacing:.01em}
+.section .sh .sc{font-size:12.5px;color:var(--tx3)}
+.section .sh .bar{flex:1;height:1px;background:var(--bd)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:15px}
 .card{background:var(--card);border:1px solid var(--bd);border-radius:15px;overflow:hidden;cursor:pointer;transition:.16s;display:flex;flex-direction:column}
 .card:hover{border-color:var(--bdrx);transform:translateY(-3px);box-shadow:0 16px 40px rgba(0,0,0,.55)}
-.cbanner{height:74px;position:relative;display:flex;align-items:center;padding:0 16px;border-bottom:1px solid var(--bd);
-  background:radial-gradient(120% 150% at 12% 0%,var(--gl,rgba(124,58,237,.4)) 0%,rgba(20,20,20,.2) 55%),#101010;overflow:hidden}
-.cbanner::after{content:"";position:absolute;right:-14px;bottom:-30px;width:120px;height:120px;border-radius:50%;background:var(--gl,rgba(124,58,237,.3));filter:blur(30px);opacity:.5}
-.cnum{font-size:34px;font-weight:900;letter-spacing:-.04em;color:#fff;position:relative;text-shadow:0 2px 12px rgba(0,0,0,.4)}
-.ctp{position:absolute;top:11px;right:12px;font-size:9.5px;font-weight:800;padding:3px 7px;border-radius:5px;letter-spacing:.05em;background:rgba(0,0,0,.4);backdrop-filter:blur(4px)}
-.ctp.org{color:#2ee6b0}.ctp.anu{color:#c99bff}
-.cbody{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
-.cbody h3{font-size:16.5px;font-weight:800;letter-spacing:-.02em;line-height:1.2}
+.cbanner{position:relative;padding:16px 16px 14px;border-bottom:1px solid var(--bd);display:flex;flex-direction:column;gap:5px;
+  background:radial-gradient(130% 130% at 10% 0%,var(--gl,rgba(124,58,237,.4)) 0%,rgba(20,20,20,.15) 58%),#101010;overflow:hidden}
+.cbanner::after{content:"";position:absolute;right:-16px;bottom:-34px;width:130px;height:130px;border-radius:50%;background:var(--gl,rgba(124,58,237,.3));filter:blur(32px);opacity:.55}
+.cnum{font-size:27px;font-weight:900;letter-spacing:-.04em;color:#fff;position:relative;line-height:1;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.ctitle{font-size:17.5px;font-weight:800;letter-spacing:-.02em;color:#fff;position:relative;line-height:1.15}
+.cbody{padding:14px 16px 16px;display:flex;flex-direction:column;gap:9px;flex:1}
 .cdesc{font-size:12.7px;color:var(--tx2);line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;flex:1}
 .cobj{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:20px;align-self:flex-start;letter-spacing:.02em}
-.empty{grid-column:1/-1;text-align:center;color:var(--tx3);padding:56px 0;font-size:15px}
+.empty{color:var(--tx3);padding:30px 0;font-size:14px}
 
+/* modal */
 .overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);backdrop-filter:blur(8px);z-index:50;overflow-y:auto}
 .overlay.open{display:block}
 .modal{max-width:820px;margin:22px auto;background:#0b0b0b;border:1px solid var(--bd2);border-radius:20px;overflow:hidden}
@@ -88,8 +109,7 @@ input[type=search]:focus{outline:none;border-color:var(--roxo);background:var(--
 .close:hover{border-color:var(--pink);color:var(--pink)}
 .tabs{display:flex;gap:4px;padding:0 26px;border-bottom:1px solid var(--bd)}
 .tabs button{background:none;border:none;color:var(--tx2);padding:15px 16px;font-size:14px;font-weight:700;cursor:pointer;border-bottom:2px solid transparent;font-family:inherit}
-.tabs button:hover{color:var(--tx)}
-.tabs button.on{color:var(--tx);border-bottom-color:var(--roxo)}
+.tabs button:hover{color:var(--tx)}.tabs button.on{color:var(--tx);border-bottom-color:var(--roxo)}
 .mbody{padding:22px 26px 32px;font-size:14.5px}
 .mbody h4{font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin:22px 0 10px;font-weight:800;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .mbody h4:first-child{margin-top:0}
@@ -106,10 +126,8 @@ a.src{color:var(--azul);text-decoration:none;font-size:13px;word-break:break-wor
 .divider{height:1px;background:var(--bd);margin:24px 0}
 .pcollapse{border:1px solid var(--bd);border-radius:12px;overflow:hidden;margin-top:6px}
 .pcollapse>button{width:100%;background:var(--card);border:none;color:var(--tx);padding:15px 16px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit;display:flex;justify-content:space-between;align-items:center}
-.pcollapse>button .chev{color:var(--tx3);transition:.2s}
-.pcollapse.open>button .chev{transform:rotate(90deg);color:var(--laranja)}
-.pcollapse .pbody{display:none;padding:16px}
-.pcollapse.open .pbody{display:block}
+.pcollapse>button .chev{color:var(--tx3);transition:.2s}.pcollapse.open>button .chev{transform:rotate(90deg);color:var(--laranja)}
+.pcollapse .pbody{display:none;padding:16px}.pcollapse.open .pbody{display:block}
 .usebox{background:var(--card2);border:1px solid var(--bd);border-radius:11px;padding:14px 16px;font-size:13px;color:var(--tx2);margin-bottom:14px;line-height:1.6}
 .usebox b{color:var(--tx)}
 pre{background:#000;border:1px solid var(--bd2);border-radius:12px;padding:16px;white-space:pre-wrap;font-size:12.5px;font-family:ui-monospace,'Cascadia Code',Menlo,monospace;max-height:440px;overflow-y:auto;color:#d0d0d0;line-height:1.55}
@@ -136,21 +154,31 @@ pre{background:#000;border:1px solid var(--bd2);border-radius:12px;padding:16px;
 .transc{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;font-size:13.5px;color:#cfcfcf;white-space:pre-wrap;line-height:1.65;max-height:380px;overflow-y:auto}
 .note{color:var(--tx3);font-size:13.5px;background:var(--card);border:1px dashed var(--bd2);border-radius:12px;padding:16px;text-align:center}
 footer{border-top:1px solid var(--bd);padding:24px 0 46px;color:var(--tx3);font-size:12.5px}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
 @media(max-width:640px){
-  .wrap{padding:0 16px}
-  .grid{grid-template-columns:1fr 1fr;gap:11px}
-  .flabel{width:100%}
+  .wrap{padding:0 16px}.hero .wrap{padding:22px 16px 34px}.top{margin-bottom:30px}
+  .grid{grid-template-columns:1fr 1fr;gap:11px}.flabel{width:100%}
   .modal{margin:0;border-radius:0;min-height:100vh}.mhead,.tabs,.mbody{padding-left:16px;padding-right:16px}
 }
 @media(max-width:400px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<div class="hero"><div class="wrap">
   <div class="top"><img src="assets/logo-arrive-white.png" alt="Arrive In Digital"><span class="tag-sf">Swipe File</span></div>
-  <h1>Formatos que <span class="g">viralizam</span><br>no mercado imobiliário</h1>
-  <p class="sub">Estude o esqueleto do formato, veja o exemplo real e replique com o prompt pronto.</p>
-</div></header>
+  <h1>Formatos que <span class="g">viralizam</span> no mercado imobiliário</h1>
+  <p class="sub">A biblioteca de referência da Arrive: os padrões de vídeo que performam no orgânico e nos anúncios — dissecados, com o exemplo real e o prompt pronto pra você replicar.</p>
+  <div class="stats" id="stats"></div>
+</div></div>
+
+<div class="wrap"><section class="howto">
+  <div class="lbl">Como usar</div>
+  <div class="steps">
+    <div class="step"><div class="sn">1</div><h3>Escolha pelo objetivo</h3><p>Filtre pelo que você precisa — atrair, conectar, dar autoridade, provar ou converter — e ache o formato certo.</p></div>
+    <div class="step"><div class="sn">2</div><h3>Estude e assista</h3><p>Abra o formato: o esqueleto reutilizável, a análise detalhada e o exemplo real com o vídeo aplicado.</p></div>
+    <div class="step"><div class="sn">3</div><h3>Copie o prompt e crie</h3><p>Pegue o mega-prompt, preencha seus dados e gere o roteiro/copy do seu conteúdo em minutos.</p></div>
+  </div>
+</section></div>
 
 <div class="ctrl"><div class="wrap">
   <div class="row">
@@ -167,7 +195,10 @@ footer{border-top:1px solid var(--bd);padding:24px 0 46px;color:var(--tx3);font-
   <div class="panel" id="panel"></div>
 </div></div>
 
-<div class="wrap"><div class="grid" id="grid"></div></div>
+<main><div class="wrap">
+  <section class="section" id="sec-organico"><div class="sh"><h2>Orgânico</h2><span class="sc" id="sc-organico"></span><span class="bar"></span></div><div class="grid" id="grid-organico"></div></section>
+  <section class="section" id="sec-anuncio"><div class="sh"><h2>Anúncios</h2><span class="sc" id="sc-anuncio"></span><span class="bar"></span></div><div class="grid" id="grid-anuncio"></div></section>
+</div></main>
 <footer><div class="wrap"><b>Arrive In Digital</b> · Swipe File Viral — biblioteca de formatos do mercado imobiliário.</div></footer>
 
 <div class="overlay" id="overlay"><div class="modal">
@@ -207,41 +238,46 @@ const promptTxt=t=>{const m=(t||"").match(/```([\s\S]*?)```/);return m?m[1].trim
 const objColor=o=>({Base:"#5090e0","Conexão":"#e11d48",Autoridade:"#7c3aed",Prova:"#00c896","Conversão":"#f97316"}[o]||"#7c3aed");
 const rgba=(hex,a)=>{const n=parseInt(hex.slice(1),16);return `rgba(${n>>16&255},${n>>8&255},${n&255},${a})`;};
 
-// ── filtros ──
-const FIL={tipo:"",obj:"",plat:"",status:""};
+(function(){const org=F.filter(f=>f.tipo==="organico").length,nv=F.filter(f=>f.exemplos.some(e=>e.driveId)).length;
+  $("stats").innerHTML=`<div class="stat"><b>${F.length}</b><span>Formatos</span></div><div class="stat"><b>${org}</b><span>Orgânicos</span></div><div class="stat"><b>${F.length-org}</b><span>Anúncios</span></div><div class="stat"><b>${nv}</b><span>Com vídeo</span></div>`;})();
+
+const FIL={obj:"",plat:"",status:""};
 const GROUPS=[
-  ["tipo","Tipo",[["","Todos"],["organico","Orgânico"],["anuncio","Anúncio"]]],
   ["obj","Objetivo",[["","Todos"],["Base","Atrair"],["Conexão","Conectar"],["Autoridade","Autoridade"],["Prova","Prova social"],["Conversão","Converter"]]],
   ["plat","Plataforma",[["","Todas"],["Instagram","Instagram"],["TikTok","TikTok"],["YouTube","YouTube"],["Meta Ads","Meta Ads"]]],
   ["status","Status",[["","Todos"],["confirmado","🟢 Confirmado"],["candidato","🟡 Candidato"]]],
 ];
 function buildPanel(){
-  $("panel").innerHTML=GROUPS.map(([g,lbl,chips])=>`<div class="fgroup"><span class="flabel">${lbl}</span><div class="fchips" data-g="${g}">${chips.map(([v,l])=>`<button data-v="${v}" class="${FIL[g]===v?'on':''}">${l}</button>`).join("")}</div></div>`).join("")
-    +`<div class="pfoot"><span class="count" id="count"></span><button class="clear" onclick="clearFilters()">Limpar filtros</button></div>`;
-  $("panel").querySelectorAll(".fchips button").forEach(b=>b.onclick=()=>{
-    const g=b.parentNode.dataset.g;FIL[g]=b.dataset.v;
-    b.parentNode.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x.dataset.v===FIL[g]));render();});
+  $("panel").innerHTML=GROUPS.map(([g,lbl,chips])=>`<div class="fgroup"><span class="flabel">${lbl}</span><div class="fchips" data-g="${g}">${chips.map(([v,l])=>`<button data-v="${v}" class="${FIL[g]===v?'on':''}">${l}</button>`).join("")}</div></div>`).join("")+`<div class="pfoot"><span class="count" id="count"></span><button class="clear" onclick="clearFilters()">Limpar filtros</button></div>`;
+  $("panel").querySelectorAll(".fchips button").forEach(b=>b.onclick=()=>{const g=b.parentNode.dataset.g;FIL[g]=b.dataset.v;b.parentNode.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x.dataset.v===FIL[g]));render();});
 }
-function activeCount(){return Object.values(FIL).filter(Boolean).length}
+const activeCount=()=>Object.values(FIL).filter(Boolean).length;
 function togglePanel(){$("panel").classList.toggle("open");$("fbtn").classList.toggle("open");}
 function clearFilters(){Object.keys(FIL).forEach(k=>FIL[k]="");buildPanel();render();}
 
+function match(f,q){
+  if(FIL.obj&&!(f.objetivos||[]).includes(FIL.obj))return false;
+  if(FIL.plat&&f.plataforma!==FIL.plat)return false;
+  if(FIL.status&&f.status!==FIL.status)return false;
+  if(q&&!(f.num+" "+f.nome+" "+f.desc+" "+f.exemplo+" "+((f.formato||{}).hook||"")).toLowerCase().includes(q))return false;
+  return true;
+}
+function cardHTML(f){const oc=objColor(f.objetivos[0]||"");
+  return `<div class="card" onclick="openModal('${f.id}')">
+    <div class="cbanner" style="--gl:${rgba(oc,.42)}"><span class="cnum">${pad(f.num)}</span><span class="ctitle">${esc(f.nome)}</span></div>
+    <div class="cbody"><p class="cdesc">${esc(f.desc)}</p><span class="cobj" style="background:${rgba(oc,.16)};color:${oc}">${f.objetivos[0]||""}</span></div>
+  </div>`;}
 function render(){
   const q=$("q").value.toLowerCase().trim();
-  let list=F.filter(f=>{
-    if(FIL.tipo&&f.tipo!==FIL.tipo)return false;
-    if(FIL.obj&&!(f.objetivos||[]).includes(FIL.obj))return false;
-    if(FIL.plat&&f.plataforma!==FIL.plat)return false;
-    if(FIL.status&&f.status!==FIL.status)return false;
-    if(q&&!(f.num+" "+f.nome+" "+f.desc+" "+f.exemplo+" "+((f.formato||{}).hook||"")).toLowerCase().includes(q))return false;
-    return true;});
   const n=activeCount();$("fn").textContent=n;$("fn").classList.toggle("show",n>0);$("fbtn").classList.toggle("act",n>0);
-  const cEl=$("count");if(cEl)cEl.textContent=list.length+" de "+F.length+" formatos";
-  $("grid").innerHTML=list.map(f=>{const oc=objColor(f.objetivos[0]||"");
-    return `<div class="card" onclick="openModal('${f.id}')">
-      <div class="cbanner" style="--gl:${rgba(oc,.42)}"><span class="cnum">${pad(f.num)}</span><span class="ctp ${f.tipo==="organico"?"org":"anu"}">${f.tipo==="organico"?"ORGÂNICO":"ANÚNCIO"}</span></div>
-      <div class="cbody"><h3>${esc(f.nome)}</h3><p class="cdesc">${esc(f.desc)}</p><span class="cobj" style="background:${rgba(oc,.16)};color:${oc}">${f.objetivos[0]||""}</span></div>
-    </div>`;}).join("")||`<div class="empty">Nenhum formato com esses filtros.</div>`;
+  let total=0;
+  ["organico","anuncio"].forEach(tp=>{
+    const list=F.filter(f=>f.tipo===tp&&match(f,q));total+=list.length;
+    $("grid-"+tp).innerHTML=list.map(cardHTML).join("")||`<div class="empty">Nenhum formato aqui com esses filtros.</div>`;
+    $("sc-"+tp).textContent=list.length+" formato"+(list.length!==1?"s":"");
+    $("sec-"+tp).style.display=list.length?"":"none";
+  });
+  const cEl=$("count");if(cEl)cEl.textContent=total+" de "+F.length+" formatos";
 }
 
 let cur=null,curEx=0,curVideoTab="analise",exOpen=false,curTab="analise";
@@ -278,13 +314,11 @@ function paint(){
 function exemplosHTML(){
   const ex=cur.exemplos[curEx]||{};
   const sel=cur.exemplos.length>1?`<div class="exrow">${cur.exemplos.map((e,i)=>`<button class="expill ${i===curEx?'on':''}" onclick="selEx(${i})">Exemplo ${i+1} · @${esc(e.criador)}</button>`).join("")}</div>`:"";
-  // Compacto (fechado): só a miniatura. Um clique abre TUDO — player + análise do vídeo + transcrição.
   if(!exOpen){
     const thumb=ex.driveId?`<img class="th" src="${driveThumb(ex.driveId)}" onerror="this.outerHTML='<div class=&quot;thn&quot;>sem thumb</div>'">`:`<div class="thn">sem vídeo</div>`;
     const hint=(ex.analise&&ex.analise.length)?"vídeo + análise detalhada":"vídeo do exemplo";
     return sel+`<div class="excompact" onclick="exOpen=true;paint()"><div class="thwrap">${thumb}${ex.driveId?'<span class="pl"></span>':''}</div><div class="info"><b>▶ Abrir exemplo — @${esc(ex.criador||"—")}</b><span>${hint}${ex.metrica&&ex.metrica!=="—"?" · "+esc(ex.metrica):""}</span></div></div>`;
   }
-  // Aberto: player + metadados + sub-abas de análise/transcrição
   const player=ex.driveId?`<div class="player"><iframe src="${drivePlay(ex.driveId)}" allow="autoplay; fullscreen" allowfullscreen></iframe></div>`
       :`<div class="player"><div class="novid">Sem vídeo${/photo/.test(ex.link||"")?" (carrossel)":""}.${ex.link?` <a class="src" href="${ex.link}" target="_blank" rel="noopener">ver original ↗</a>`:""}</div></div>`;
   const exmeta=`<div class="exmeta"><span>👤 <b>@${esc(ex.criador||"—")}</b></span>${ex.metrica&&ex.metrica!=="—"?`<span>📊 ${esc(ex.metrica)}</span>`:""}${ex.link?`<span><a class="src" href="${ex.link}" target="_blank" rel="noopener">post original ↗</a></span>`:""}<span><a class="src" href="#" onclick="exOpen=false;paint();return false">▲ recolher</a></span></div>`;
@@ -301,6 +335,7 @@ function copyPrompt(){navigator.clipboard.writeText($("ptext").innerText).then((
 function closeModal(){$("overlay").classList.remove("open");document.body.style.overflow="";$("m-body").innerHTML="";}
 $("overlay").addEventListener("click",e=>{if(e.target===$("overlay"))closeModal()});
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
+$("q").addEventListener("input",render);
 buildPanel();render();
 </script>
 </body>
