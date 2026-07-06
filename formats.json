@@ -1744,6 +1744,7 @@
   "desc": "Um caso real dissecado número a número, expondo os custos escondidos que ninguém conta.",
   "slug": "react-split-screen-comentando-caso-real",
   "formato": {
+   "estrutura": "Serve pra dissecar qualquer processo com custos escondidos. Ordem dos slots:\n1. **[HOOK-DÚVIDA + ISCA]** a objeção nº1 + a promessa que ilude (\"parcela a partir de R$X\"). → *slot: a dúvida + a isca do mercado.*\n2. **[ENQUADRAMENTO]** o que o processo realmente é (ex.: comprar o projeto, não o pronto). → *slot: a mecânica.*\n3. **[DISSECAÇÃO]** um caso REAL, custo por custo, nomeando cada armadilha (INCC, ITBI, parcela-balão…). → *slot: caso + todos os números.*\n4. **[PROVA VISUAL]** b-roll de cada ponto (placa, planilha, imóvel vazio). → *slot: as provas.*\n5. **[CONCLUSÃO HONESTA]** quando vale / quando não + CTA de \"comenta sua experiência\".\n\n- **Fixo:** caso real com números completos; nomear cada custo; b-roll de prova; conclusão equilibrada; duração longa (filtra).\n- **Variável:** o processo (planta, leilão, financiamento), o caso, os custos.",
    "hook": "Pergunta-dúvida universal + promessa de dissecar um caso real: **\"Apartamento na planta vale a pena ou é furada pra classe média?\"** + \"peguei um caso real de TODOS os custos\". Combina a objeção nº1 com a promessa de transparência total.",
    "blocos": "- **Dúvida + armadilha (0-15s):** \"a placa bonita de parcela a partir de R$800\" que ilude.\n- **O caso real, número a número (15-90s):** a Caterine comprou por 265k → 5k na assinatura → 20% até as chaves (53k) → parcela sobe de 700 pra 1.817 → parcelas anuais (4.448 / 4.732 / 5.635) → INCC corrigindo tudo → ITBI + cartório ~10k → contrapiso exige reforma.\n- **Conclusão + CTA:** \"o preço tem que ser bem mais barato que o pronto; comenta sua experiência e segue\".",
    "porque": "- **Disseca UM caso real com TODOS os números** — a transparência total é rara e valiosíssima (2.500 saves).\n- **Expõe as armadilhas escondidas** (INCC, parcela anual, ITBI, contrapiso) que \"ninguém conta\".\n- **Ancora na objeção real** do público (classe média com medo de furada).",
@@ -1759,7 +1760,44 @@
     "link": "https://tiktok.com/@gemeos.investem/video/7653967988789415186",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 41 · Custos Reais (caso real dissecado, react/teardown) |\n| Criador | @gemeos.investem · TikTok |\n| Link | tiktok.com/@gemeos.investem/video/7653967988789415186 |\n| Métrica | **20,8K likes / 2.500 saves / 480 comentários** |\n| Duração | ~3min · vertical 9:16 · talking head + b-roll |"
+     },
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Pega **um caso real** (a compradora Caterine) e **disseca TODOS os custos escondidos** da compra na planta, número por número em vermelho — a transparência total num vídeo longo **filtra e qualifica** (2.500 saves = \"vou reler isso antes de comprar\")."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto/fala | Função |\n|---|---|---|---|\n| **0–8s** | Split: placa da Caixa \"parcelas a partir de R$800\" em cima, apresentador (talking head, mic de podcast) embaixo | \"Apartamento na planta vale a pena ou é furada pra classe média?\" | **Hook-dúvida + a armadilha** (a placa que ilude) |\n| **8–20s** | Talking head, estúdio | Explica que na planta você compra o PROJETO; leva 2-4 anos; tem que ser mais barato que o pronto | **Enquadramento do problema** |\n| **20–90s** | Talking head + números em VERMELHO na tela (R$5.000, 20%, R$53.000, R$4.448…) + corte pra compradora real | O caso da Caterine: 265k, 5k na assinatura, 53k até as chaves, parcela sobe de 700 pra 1.817, parcelas anuais (4.448/4.732/5.635) | **Dissecação número a número** — cada custo escondido nomeado |\n| **90–150s** | Corte pra planilha (INCC histórico mensal) + apê vazio no contrapiso | INCC corrigindo tudo (265k→287k), ITBI + cartório ~10k, contrapiso exige reforma | **As armadilhas invisíveis** provadas com b-roll |\n| **150s–fim** | Talking head | \"O preço tem que ser bem mais barato que o pronto. Comenta sua experiência e segue\" | **Conclusão honesta + CTA de debate** |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Hook-dúvida binário + vilão visual:** \"vale a pena ou é furada?\" + a placa \"parcela a partir de R$800\" (a isca que o mercado usa). Ele nomeia a manipulação antes de desmontá-la.\n- **Ancoragem num caso real com nome (Caterine):** não é teoria — é \"uma pessoa de verdade que comprou\". Isso dá peso e credibilidade.\n- **Cada custo é nomeado explicitamente:** entrada, parcela-balão, parcela anual, **INCC**, **ITBI**, cartório, contrapiso. Nomear o inimigo (\"INCC\") é o que gera os saves — o espectador aprende o vocabulário do golpe.\n- **Conclusão que não é anti-planta, é pró-consciência:** \"planta pode valer, MAS só se for bem mais barato que o pronto\" — postura de consultor honesto, não de hater. Isso protege a autoridade.\n- **CTA de experiência:** \"comenta sua experiência\" → 480 comentários de gente contando os próprios custos = debate = alcance."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Estúdio de podcast (mic grande, prateleiras, luz RGB ambiente):** comunica \"canal sério de análise\", autoridade. O oposto do vídeo caseiro.\n- **Números em VERMELHO sobre o rosto:** o vermelho = alerta/custo/sangria. Cada valor \"dói\" visualmente. É o recurso gráfico central — separa o que é fala (legenda branca) do que é dinheiro perdido (vermelho).\n- **B-roll de prova intercalado:** a placa da Caixa (a promessa), a planilha do INCC (o dado técnico), o apê vazio no contrapiso (a realidade da entrega). Cada corte PROVA um ponto — não é só talking head.\n- **Duração longa (3min) é proposital:** filtra. Quem assiste 3 minutos de custos está realmente considerando comprar → save e lead qualificado.\n- **Vertical, legendado 100%** (funciona no mudo, essencial no feed)."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Voz clara, didática, ritmo de aula-enxuta.** Sem música competindo. Os cortes pra b-roll quebram a monotonia do talking head e mantêm o ritmo numa peça longa."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Aversão à perda + medo de armadilha:** expor os custos escondidos ativa o medo de ser enganado → utilidade máxima (2.500 saves).\n2. **Autoridade por transparência:** quem mostra TUDO, inclusive o desconfortável, vira a fonte confiável.\n3. **Caso real (identificação):** \"a Caterine\" podia ser você.\n4. **Vocabulário de poder:** ensinar \"INCC/ITBI/contrapiso\" dá ao espectador armas — ele salva pra usar."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Esconder algum custo pra simplificar — o valor É a completude; faltar um custo quebra a confiança.\n- ❌ Virar anti-planta raivoso — a conclusão tem que ser equilibrada (quando vale, quando não vale).\n- ❌ Usar caso genérico/inventado — sem o nome e os números reais, perde o peso.\n- ❌ Cortar a duração pra \"prender mais\" — aqui a duração é o filtro de qualificação.\n- ❌ Números sem b-roll de prova — a placa, a planilha e o apê vazio são o que torna irrefutável."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Pegue UM caso real** (cliente com autorização ou próprio) e levante TODOS os custos, do ato às chaves.\n2. **Hook com a dúvida + a isca do mercado** (\"a placa de parcela a partir de R$X\").\n3. **Disseque número a número**, nomeando cada custo escondido (INCC, ITBI, parcela anual, contrapiso).\n4. **Intercale b-roll de prova** (print da simulação, planilha, foto do imóvel vazio).\n5. **Feche honesto** (quando vale / quando não) + \"comenta sua experiência\".\n6. **Números em vermelho** na tela; legenda branca pra fala. Deixe longo — filtra o lead certo.\n\n> **Adaptação pro corretor:** o mesmo raio-X pode ser feito PRÓ-produto (\"os custos reais, e por que ainda assim compensa neste caso\") — honestidade que vende mais que esconder."
+     }
+    ],
     "transcricao": "apartamento na planta, vale a pena ou é furada para a classe média, você vai no stand de vendas\ne tem uma placa bonitona, parcelas a partir de 800 reais, você se deslumbra, eu pago mais de aluguel\ne entra para ver, ver o decorado, tudo muito arrumado, se apaixona e fecha o contrato\nporém, sem saber das entrelinhas, e pior, sem fazer o básico, quando você está comprando imóvel na planta\nestá comprando o projeto, o imóvel ainda não está de pé, a média para subir é entre 2 e 4 anos aqui no Brasil\nou seja, você precisa estar pagando muito mais barato do que o imóvel, no mesmo padrão, na mesma região\njá pronto, se for o mesmo preço não faz sentido algum, melhor já pegar o imóvel pronto\nentão eu resolvi pegar um caso real de todos os custos para se comprar o imóvel na planta\na Caterine comprou um apartamento de 265 mil, 41 metros quadrados, varendinha, área de lazer completa\nna hora de assinar o contrato, ela deixou 5 mil reais, e até a entrega das chaves, você tem que pagar no mínimo 20%\npara conseguir financiar, ou seja, 53 mil, nos primeiros 3 meses ela pagou 700 reais de parcela\nque é aquela placa bonitona para chamar a atenção, mas depois começou uma parcela mais forte, 1817\nmas somente essa parcela não daria para pagar a entrada, e por conta disso nós temos uma parcela extra\na anual, que no caso dela a primeira foi de 4.448, a segunda anual 4.732 e a última 5.635\nmas por que foi subindo? E aí que entra o INCC, índice que corrige o custo de construção todo mês\ne reajustou o valor das parcelas, para vocês verem em maio foi 0,77% em abril 1,04, em março 0,36\ntanto que ela começa pagando 1.800 de parcela mas depois de 2 anos estava pagando 2,100, ou seja, 14% de aumento\nmas não para por aí, o valor total do imóvel da Caterine também corrigiu pelo INCC, esses 265 mil\nviraram 287, e muita gente só assina o contrato no sonho, sem saber sobre INCC, sem saber que dependendo do caso\npode ter taxa de evolução de obra, não consegue pagar e acaba devolvendo o imóvel para a construtora\ne na hora de entregar as chaves nós temos mais uma coisa, o ITBI, imposto que você paga simplesmente para\npassar o imóvel que você comprou para o seu nome, aqui em São Paulo é 3% em cima do valor do imóvel\ne somando com custos de cartório, para a Caterine deu quase 10 mil reais\nfora que a maioria dos imóveis na planta, hoje, vem no contrapiso, para você conseguir se mudar\nvai ter que fazer no mínimo uma pequena reforma, ou seja, você precisa se planejar muito bem\ne o preço tem que ser atrativo, tem que ser bem mais barato do que o imóvel já pronto\ncomenta aí qualquer sua experiência comprando imóvel na planta e segue o perfil para mais vídeos como esse"
    }
   ],
@@ -2010,6 +2048,7 @@
   "desc": "Custo de vida item a item escrito à mão, com o total segurado até o último segundo.",
   "slug": "quanto-custa-morar-em",
   "formato": {
+   "estrutura": "Funciona com qualquer local/cenário. Preencha os slots na ordem:\n1. **[HOOK-BUSCA]** a pergunta exata que o público digita (\"quanto custa morar em [LOCAL]\"). → *slot: local específico.*\n2. **[CONTEXTO]** situa o cenário (bairro, perfil de moradia). → *slot: contexto honesto.*\n3. **[LISTA ACUMULATIVA]** itens um a um, valor real, do menor pro maior — escritos à mão, cada um com o porquê. → *slot: itens + valores reais.*\n4. **[TOTAL SEGURADO]** a soma só aparece no último segundo. → *slot: o total.*\n5. **[CTA-CROWDSOURCING]** devolve a pergunta (\"quanto você paga aí?\"). \n\n- **Fixo:** total no fim; escrita à mão; números honestos; título com local por extenso (SEO).\n- **Variável:** o local, o cenário (alugado/próprio/kitnet), os itens.",
    "hook": "A pergunta que todo mundo que sonha morar sozinho já buscou: **\"Quanto eu gasto por mês morando sozinho em Salvador?\"** — escrito à mão no caderno (humaniza). A transparência financeira total + o total segurado até o fim garantem retenção quase completa.",
    "blocos": "- **Hook da pergunta + caderno (0-3s):** \"quanto custa morar em [cidade]\" à mão.\n- **Lista item a item (3-45s):** cada linha com valor real — aluguel+água R$600, energia R$80-100, alimentação R$500, internet R$60 — retenção por acumulação.\n- **Total só no último segundo (fim):** R$1.240/mês — o clímax + \"quanto você paga aí?\".",
    "porque": "- **Responde uma busca real** — ranqueia e performa por meses (evergreen de SEO).\n- **Total segurado até o fim** = retenção quase 100%.\n- **Comentários viram crowdsourcing** (cada um dá seus números) — 1.501 comentários.\n- **Quem publica os números da cidade vira referência da cidade.**",
@@ -2027,32 +2066,40 @@
     "temTranscricao": true,
     "analise": [
      {
-      "titulo": "Hook (0-3s)",
-      "corpo": "- **Visual:** mão escrevendo num caderno pautado, caneta listando \"DESPESAS MENSAIS MORANDO SOZINHO\" — em cima do vídeo, o quarto/apartamento real de fundo.\n- **Texto na tela:** \"Quanto eu gasto por mês morando sozinho em Salvador BA\"\n- **Mecanismo:** transparência financeira total + pergunta que TODO mundo que sonha em morar sozinho já fez no Google. O caderno à mão humaniza (anti-planilha)."
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 47 · Quanto Custa Morar (custo de vida item a item) |\n| Criador | @soteroinvestidor · YouTube Shorts |\n| Link | youtube.com/shorts/hZojCD8A9oc |\n| Métrica | **527 mil views / 29 mil likes / 1.501 comentários** |\n| Duração | ~57s · vertical 9:16 · 1ª pessoa |"
      },
      {
-      "titulo": "Estrutura por blocos",
-      "corpo": "1. **Hook da pergunta (0-3s):** título + caderno.\n2. **Lista item a item (3-40s):** cada linha escrita/revelada na tela com valor real: \"Aluguel+água R$600\", \"Luz R$80-100\"... — ritmo de checklist, retenção por acumulação (o espectador espera o total).\n3. **Total no final:** o número consolidado é o clímax — segurado até o último segundo (retenção completa).\n4. **Barra de busca sugerida no vídeo:** \"custo de vida em salvador bahia\" — hack de SEO do YouTube.\n\n> ⚠️ Itens e total exatos a confirmar com o vídeo baixado."
+      "titulo": "Veredito em uma linha",
+      "corpo": "Responde uma **busca real do Google** (\"quanto custa morar em [cidade]\") com transparência financeira total, escrita **à mão num caderno** item a item — o analógico gera confiança, e o **total só no fim** trava a retenção até o último segundo."
      },
      {
-      "titulo": "Elementos de edição",
-      "corpo": "- Caderno + caneta como \"interface\": barato, humano e legível.\n- Faixas de valor honestas (\"R$80-100\") aumentam credibilidade."
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto/fala | Função |\n|---|---|---|---|\n| **0–3s** | Sala do apê (sofá com manta verde, janela) | Texto na tela: **\"Quanto eu gasto por mês morando sozinho em Salvador BA\"** | **Hook de busca** — a pergunta exata que o público digita no Google |\n| **3–8s** | Mão começando a escrever no caderno espiral \"DESPESAS MENSAIS\" | Narração explica o bairro (Cajazeiras, afastado) | **Ancoragem de contexto** — situa e humaniza |\n| **8–42s** | Close da mão escrevendo cada item; legenda amarela aparece a cada linha | \"Aluguel+água R$600\" → \"Luz R$80-100\" → \"Alimentação R$500\" → \"Internet R$60\", cada um narrado com o porquê | **Acumulação** — cada item é uma micro-revelação; a retenção cresce por curiosidade (\"quanto vai dar no total?\") |\n| **42–52s** | Caderno com a lista completa, escrevendo o total | **\"TOTAL R$1240\"** — o clímax segurado até aqui | **Payoff** — o número que todo mundo esperava |\n| **52–57s** | Página final | \"Deixa o like e segue @soteroinvestidor. Quanto você paga aí?\" | **CTA + crowdsourcing** — devolve a pergunta pra plateia |"
      },
      {
-      "titulo": "Assunto viral",
-      "corpo": "- **Universal:** morar sozinho / independência — sonho de toda uma faixa etária.\n- **Do nicho:** custo de vida da CIDADE específica — busca local massiva.\n- **Emoções:** fria — **curiosidade calma** (\"sempre quis saber\") + pertencimento (quem mora compara nos comentários: \"em Salvador?? aqui pago X\"). Os 1.501 comentários são pessoas dando SEUS números — o post vira fórum."
+      "titulo": "Análise de copy",
+      "corpo": "- **Hook = query de busca literal:** \"quanto eu gasto por mês morando sozinho em Salvador\" é exatamente o que se digita no YouTube/Google → o Shorts ranqueia e performa por meses (SEO orgânico). O nome da cidade por extenso é decisivo.\n- **1ª pessoa + \"sozinho\":** fala direto com o público que sonha em sair da casa dos pais/morar só — máxima identificação.\n- **Ordem dos itens (menor→maior impacto, total no fim):** manual de retenção. Ele narra cada valor com uma justificativa honesta (\"como fico o dia todo fora, só gasto com chuveiro e ventilador\") — a honestidade é o que gera os 1.501 comentários.\n- **CTA de crowdsourcing (\"quanto você paga aí?\"):** transforma o espectador em contribuinte — cada comentário com os próprios números alimenta o algoritmo e vira prova social coletiva."
      },
      {
-      "titulo": "Por que funciona",
-      "corpo": "1. **Responde uma busca real** (SEO puro) — este formato ranqueia e performa por meses.\n2. **Total segurado até o fim** = retenção quase 100%.\n3. **Comentários viram crowdsourcing:** cada cidade/bairro nos comentários é conteúdo novo e sinal de relevância.\n4. **Autoridade local automática:** quem publica os números da cidade vira referência da cidade."
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **O caderno escrito à mão é o coração da estética.** Num nicho de planilhas e edições, a caneta no papel espiral comunica \"conta real, sincera, sem photoshop financeiro\". O analógico = confiança.\n- **Suspense visual:** ver a mão ESCREVENDO cada item (em vez de aparecer pronto) cria expectativa — o espectador espera a próxima linha.\n- **Legendas amarelas acumulativas:** cada valor fica fixado na parte de baixo enquanto os próximos aparecem — reforça a soma mental e serve pra quem assiste sem som.\n- **Luz natural, enquadramento cru:** o apê real no hook (sofá simples, manta) ancora \"vida normal\", não aspiracional. Vertical, sem filtro.\n- **Total escrito por último, à mão, com um traço de \"//\" de fechamento:** o gesto de \"fechar a conta\" é o clímax visual."
      },
      {
-      "titulo": "CTA",
-      "corpo": "Implícito (comparação nos comentários). Nenhuma venda."
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Voz própria, tom de conversa**, narrando enquanto escreve. Ritmo pausado (a lentidão da escrita é o que segura). Sem trend — a intimidade seria quebrada por música alta."
      },
      {
-      "titulo": "Como aplicar a MESMA estrutura (versão corretor)",
-      "corpo": "- **\"Quanto custa MORAR no [bairro X]\":** aluguel/parcela + condomínio + IPTU + mercado da região — o corretor tem esses dados melhor que ninguém.\n- **\"Quanto custa manter um apê de R$300 mil em [cidade]\":** parcela + condomínio + IPTU + seguro — quebra a objeção invisível do comprador de primeira viagem.\n- **\"Quanto custa um Airbnb em [cidade] por mês\":** versão investidor.\n- **Regra do formato:** valores REAIS item a item, escritos à mão (ou texto simples), total só no final, título com a cidade/bairro pra busca.\n- Série natural: 1 vídeo por bairro = calendário de conteúdo de meses."
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **SEO/busca:** responde uma intenção de busca real → tráfego evergreen (por isso 527 mil views).\n2. **Total segurado (efeito Zeigarnik):** a conta aberta obriga a ficar até o fim.\n3. **Transparência radical:** expor os próprios números (incluindo os baixos) desarma e gera confiança.\n4. **Crowdsourcing nos comentários:** a pergunta devolvida vira participação em massa."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Revelar o total no começo — destrói a retenção.\n- ❌ Fazer em planilha/edição bonita — perde a autenticidade do caderno.\n- ❌ Arredondar pra baixo pra \"vender\" o bairro — moradores corrigem nos comentários e sua autoridade cai.\n- ❌ Esconder IPTU/condomínio (na versão de imóvel) — são o que o público não sabe estimar; omitir = perder o valor.\n- ❌ Título genérico (\"meus gastos\") — o nome da cidade/bairro por extenso é o que ranqueia."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Escolha o local específico** (\"Zona Sul de Ribeirão\", não só \"Ribeirão\") — especificidade é a vantagem do corretor local.\n2. **Liste seus itens reais** num caderno (aluguel/parcela, condomínio, IPTU, luz, água, internet, mercado) com valores honestos.\n3. **Grave a mão escrevendo** cada item, narrando o porquê de cada valor.\n4. **Segure o total pro último segundo.** Feche com \"quanto você paga aí?\".\n5. **Título com cidade/bairro por extenso** (SEO). Poste também no YouTube Shorts (menos concorrência imob).\n6. **Série natural:** 1 bairro/cenário por semana = um trimestre de conteúdo.\n\n> **Adaptação pro corretor:** \"Quanto custa MANTER um apê de R$300 mil\" (parcela + condomínio + IPTU) — quebra a objeção invisível do comprador, que é o custo mensal total, não o preço."
      }
     ],
     "transcricao": "quanto eu gasto por mês morando sozinho aqui em Salvador Bahia\neu moro em um dos maiores bairros da América Latina chamado Cajazeira\nque é um pouco afastado do centro\ne começando aqui com aluguel, aqui é aluguel mais água, é o mais pesado de todos\neu gasto em torno de R$ 600 a todos os meses\ncomo eu fico praticamente o dia todo fora\no único gasto que eu tenho aqui é só com chuveiro mesmo, o televisão e o ventilador\nque fica em torno aí de R$ 80 a R$ 100 de energia elétrica a todos os meses\nmeu segundo maior gasto vai pra alimentação\neu faço as compras em torno de duas vezes no mês, de duas em duas semanas\ne eu gasto em torno de R$ 500\neu vou repondo as coisas e às vezes até economizo, gasto até menos que isso\ne por fim, minha internet daqui de casa não é internet do meu celular\nmas internet que eu uso aqui em casa no wi-fi\né em torno de R$ 60, é uma internet de bairro\nserve dar pra poder assistir algumas coisas e utilizar normalmente\ne meus gastos e mensais girem em torno de R$ 1240, R$ 1250 mensais\ndeixe aí nos comentários quanto é que você gasta por mês\ndeixa seu like e não esquece de seguir, só até o investidor"
@@ -3175,6 +3222,7 @@
   "desc": "A 1ª palavra filtra o público + dupla promessa (velocidade + garantia) + nota do Google.",
   "slug": "captacao-de-proprietario",
   "formato": {
+   "estrutura": "Anúncio de captação. Ordem dos slots:\n1. **[CHAMADA NOMINAL]** a 1ª palavra É o público (\"Proprietário, …\"). → *slot: o público-alvo.*\n2. **[DUPLA PROMESSA]** velocidade + segurança/garantia, mensuráveis. → *slot: as 2 promessas.*\n3. **[DIFERENCIAÇÃO]** contraste com o concorrente (\"a maioria faz X, nós Y\"). → *slot: o diferencial.*\n4. **[PROVA DE DEMANDA]** fila de espera / número que justifica a velocidade. → *slot: a prova.*\n5. **[CREDENCIAL + CTA]** CRECI, nota Google 4.8+, nº de imóveis + WhatsApp.\n\n- **Fixo:** público na 1ª palavra; promessas mensuráveis (não \"atendimento diferenciado\"); credencial verificável; camisa da marca + ponto reconhecível da cidade.\n- **Variável:** aluguel/venda/temporada, a dor nº1 do proprietário local, a prova.",
    "hook": "A primeira palavra filtra o público + dupla promessa: **\"Proprietário, nunca foi tão rápido alugar seu imóvel.\"** + garantia de pagamento. As duas maiores dores de quem tem imóvel parado (velocidade + segurança) endereçadas de cara.",
    "blocos": "- **Chamada nominal ao público (0-3s):** \"Proprietário, …\" — segmenta na primeira palavra.\n- **Dupla promessa (3-20s):** alugar rápido + garantia do pagamento até o fim do contrato (não só 3 meses).\n- **Credenciais (20-40s):** CRECI + selo ⭐4.98/5.0 do Google como headline do botão.\n- **CTA WhatsApp (fim).**",
    "porque": "- **Resolve o gargalo real:** toda imobiliária briga por INVENTÁRIO — captação tem menos concorrência no leilão do Meta.\n- **A primeira palavra segmenta** melhor que qualquer público salvo.\n- **Promessas mensuráveis**, não \"atendimento diferenciado\". Nota do Google como criativo: prova terceirizada.",
@@ -3192,16 +3240,40 @@
     "temTranscricao": true,
     "analise": [
      {
-      "titulo": "Estrutura do criativo",
-      "corpo": "1. **Chamada nominal ao público certo:** \"**Proprietário**, nunca foi tão rápido alugar seu apartamento ou casa.\" — a primeira palavra filtra o público (quem não é proprietário ignora; quem é, para).\n2. **Dupla promessa nas dores certas:** velocidade (\"alugar rápido\") + segurança (\"garantia do pagamento do aluguel\") — as duas maiores dores de quem tem imóvel parado.\n3. **CTA WhatsApp:** \"Clique no botão e saiba mais pelo whatsapp.\"\n4. **Credenciais como prova:** CRECI no texto + **selo ⭐⭐⭐⭐⭐ (4.98/5.0)** no card do link — avaliação do Google como headline do botão."
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 74 · Proprietário, Alugue Rápido (captação, anúncio) |\n| Anunciante | Utilbrás Imóveis (CRECI 2529) · Meta Ads |\n| Link | facebook.com/ads/library/?id=1645301306201097 |\n| Métrica | **604 dias rodando ativo** |\n| Duração | ~50s · vertical 9:16 · talking head |"
      },
      {
-      "titulo": "Por que roda há 604 dias",
-      "corpo": "1. **Resolve o gargalo real do negócio:** toda imobiliária briga por INVENTÁRIO, não só por inquilino. Anúncio de captação tem menos concorrência no leilão do Meta que anúncio de imóvel.\n2. **Primeira palavra segmenta** melhor que qualquer público salvo — \"Proprietário,\" é o filtro.\n3. **Promessas mensuráveis:** rapidez + garantia de pagamento, não \"atendimento diferenciado\".\n4. **Nota do Google (4.98) como criativo:** prova social terceirizada, impossível de imitar por concorrente mal avaliado."
+      "titulo": "Veredito em uma linha",
+      "corpo": "Corretora **de camisa da marca**, na frente de um **cartão-postal de BH** (Igrejinha da Pampulha), fala direto com o PROPRIETÁRIO e faz **duas promessas mensuráveis** (velocidade + garantia de pagamento) — anúncio de captação que roda há 604 dias porque resolve o gargalo real: inventário."
      },
      {
-      "titulo": "Como aplicar a MESMA estrutura",
-      "corpo": "- **Corretor autônomo:** \"Proprietário, seu imóvel está parado há mais de 90 dias? Eu explico o porquê\" + prova (vendas na região).\n- **Versão venda:** \"Proprietário, saiba quanto seu imóvel vale hoje — avaliação gratuita em 24h.\"\n- **Versão temporada/Airbnb:** cruzar com B29 (isca de projeção de ganhos) — \"receba uma projeção gratuita\".\n- **Fórmula:** [público nomeado na 1ª palavra] + [dor nº1: velocidade/segurança] + [credencial verificável] + CTA WhatsApp.\n- Regra: ter a prova real (avaliações, número de imóveis alugados) antes de prometer."
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Fala / legenda (destaque) | Função |\n|---|---|---|---|\n| **0–3s** | Corretora falando pra câmera, camisa Utilbrás, mic de lapela, Pampulha ao fundo | \"Proprietários de casas e apartamentos em Belo **HORIZONTE**\" | **Chamada nominal** — a 1ª palavra segmenta o público |\n| **3–12s** | Talking head, legenda karaokê | \"Quer receber seu aluguel em dia sem preocupações? A Utilbrás garante isso, sem seguradora por trás\" | **Dupla promessa** (velocidade + segurança) |\n| **12–30s** | Talking head + destaques vermelhos (\"a ÚNICA\", \"MAIORIA\", \"até o TÉRMINO\") | \"Somos a única que assegura o pagamento até o término do contrato, mesmo se o inquilino não pagar. Enquanto a maioria garante só 3 meses…\" | **Diferenciação com prova** — contraste com o concorrente |\n| **30–45s** | Talking head | \"Contamos com rapidez na locação graças à nossa fila de espera de clientes ansiosos\" | **Prova de demanda** (velocidade justificada) |\n| **45–50s** | CTA | \"Clique no botão e descubra como\" + credencial (CRECI, nota Google ⭐4.98) | **CTA WhatsApp + credencial** |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A primeira palavra É a segmentação:** \"Proprietário…\" filtra o público melhor que qualquer público salvo do Meta. Quem não tem imóvel, ignora; quem tem, para.\n- **Dupla promessa mensurável:** \"alugar rápido\" + \"garantia de pagamento até o fim do contrato\". Não é \"atendimento diferenciado\" (vago) — são promessas verificáveis.\n- **Contraste com o concorrente (\"a maioria garante só 3 meses\"):** posiciona o diferencial de forma concreta e memorável.\n- **Prova de demanda (\"fila de espera de clientes ansiosos\"):** justifica a velocidade prometida — não é promessa vazia.\n- **Credencial no fim (CRECI + nota Google 4.98):** prova terceirizada que fecha a confiança."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Camisa da marca (polo branca com logo Utilbrás):** uniformiza = \"empresa séria, com identidade\", não corretor avulso. Reforça institucionalidade.\n- **Cenário = cartão-postal de BH (Igrejinha da Pampulha, Niemeyer):** ancora \"somos DAQUI, locais, reais\" — confiança geográfica instantânea pro público de BH. Escolha de locação estratégica.\n- **Luz do dia, sol, exterior:** transmite transparência e energia (o oposto de um escritório fechado).\n- **Legendas karaokê com palavras-chave em vermelho** (\"ÚNICA\", \"TÉRMINO\", \"MAIORIA\"): guiam o olho, reforçam os argumentos e garantem consumo no mudo (essencial no feed pago).\n- **Mic de lapela:** áudio limpo = percepção de profissionalismo."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala firme, confiante, ritmo de quem sabe o que faz.** Áudio limpo (lapela). As legendas dinâmicas dão movimento a um formato estático (pessoa parada falando)."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Segmentação por identidade (\"Proprietário\"):** o público-alvo se reconhece na 1ª palavra.\n2. **Alívio da dor nº1** (imóvel parado + medo de calote): as duas promessas atacam exatamente isso.\n3. **Prova social (nota Google) + autoridade (CRECI):** derrubam a desconfiança.\n4. **Contraste com concorrente:** \"todos garantem 3 meses, nós até o fim\" cria superioridade clara."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Falar com \"todo mundo\" — a 1ª palavra TEM que nomear o proprietário.\n- ❌ Promessa vaga (\"atendimento diferenciado\") — só promessa mensurável converte captação.\n- ❌ Prometer o que não cumpre (garantia de pagamento) — capta e destrói reputação.\n- ❌ Gravar em escritório fechado/genérico — o cartão-postal local é parte da confiança.\n- ❌ Sem credencial (CRECI/nota) — o proprietário pensa como investidor: quer prova, não sonho."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Abra nomeando o público:** \"Proprietário, …\".\n2. **Duas promessas mensuráveis** (velocidade + segurança/garantia), não adjetivos.\n3. **Diferencie com contraste** (\"a maioria faz X, nós fazemos Y\").\n4. **Prove a demanda** (\"fila de espera\", \"47 imóveis alugados em 2025\").\n5. **Feche com credencial** (CRECI, nota Google 4.8+, nº de imóveis) + CTA WhatsApp.\n6. **Grave num ponto reconhecível da cidade**, de camisa da marca, com lapela. Legenda karaokê com palavras-chave destacadas.\n\n> **Campanha:** verba baixa e constante, raio geográfico local, objetivo mensagem/WhatsApp. Medir por **custo por conversa com proprietário real**, não por clique."
      }
     ],
     "transcricao": "proprietários de casas e apartamentos em Belo Horizonte.\nQuer receber o seu aluguel em dia sem preocupações?\nA útil Brasimóveis garante isso para você, sem precisar de seguradores por trás.\nSomos a única imobiliária que de fato assegura o pagamento do seu aluguel e encarnos.\nEnquanto a maioria garante apenas os três primeiros meses,\nnós garantimos o pagamento até o término do seu contrato,\nmesmo se o inquilino não efetuar o pagamento.\nAlém disso, contamos com rapidez na locação de seu imóvel,\ngraças a nossa fila de espera de clientes ansiosos em busca de casas e apartamentos para alugar.\nClique no botão desse vídeo e descubra como a útil Brasimóveis é a solução ideal\npara cuidar dos seus imóveis, com tranquilidade, segurança e rapidez na locação."
@@ -3388,6 +3460,7 @@
   "desc": "Série educativa 'planta ou pronto?' como anúncio evergreen — recorde de 685 dias.",
   "slug": "serie-educativa-x-ou-y",
   "formato": {
+   "estrutura": "Anúncio educativo evergreen. Ordem dos slots:\n1. **[HOOK-DUELO]** \"[X] ou [Y]? O que é mais vantajoso?\". → *slot: o duelo que você mais escuta.*\n2. **[LEGITIMAÇÃO]** \"é a pergunta que mais me perguntam\". → *slot: a validação.*\n3. **[OS DOIS LADOS]** 2-3 vantagens E 1-2 desvantagens REAIS deste lado, cada uma com exemplo. → *slot: vantagens + desvantagens.*\n4. **[GANCHO DE SÉRIE]** \"no próximo vídeo, o outro lado\". → *slot: o ep. 2.*\n5. **[CTA SUAVE]** assistir/seguir — **nunca** comprar.\n\n- **Fixo:** admitir as desvantagens (é o coração); CTA de assistir, não de compra; duração longa (filtra); de preferência com a marca ao fundo.\n- **Variável:** o duelo (planta/pronto, financiar/consórcio, comprar/alugar), o lado do episódio.",
    "hook": "Pergunta-duelo universal + legitimação: **\"Na planta ou pronto? O que é mais vantajoso? É a pergunta que eu mais escuto dos clientes — fiz uma série de vídeos.\"** A dúvida vem dos clientes, não do marketing.",
    "blocos": "- **Pergunta-duelo (0-5s):** \"[X] ou [Y]? O que é mais vantajoso?\".\n- **Legitimação (5-10s):** \"a pergunta que mais escuto\".\n- **Conteúdo honesto dos dois lados (10-90s):** vantagens E desvantagens REAIS do lado deste episódio.\n- **Gancho de série + CTA suave:** \"no próximo vídeo, o outro lado — assista e descubra a escolha mais assertiva pra você\".",
    "porque": "- **\"Planta ou pronto?\" nunca envelhece** → zero fadiga (685 dias, recorde).\n- **Educação como pré-venda:** quem assiste 2min chega qualificado no WhatsApp.\n- **Construtora admitindo desvantagens** gera confiança desproporcional.\n- **Série cria remarketing barato** (quem viu o ep.1 é público quente do ep.2). A duração FILTRA: o clique é qualificado.",
@@ -3405,20 +3478,40 @@
     "temTranscricao": true,
     "analise": [
      {
-      "titulo": "Estrutura do criativo",
-      "corpo": "1. **Pergunta universal como hook (copy e vídeo):** \"🏢 IMÓVEIS NA PLANTA OU PRONTO? O QUE É MAIS VANTAJOSO?\" — a dúvida que TODO comprador tem, em formato de duelo.\n2. **Legitimação:** \"Para responder a esta pergunta que costumo ouvir com muita frequência...\" — a pergunta vem dos clientes, não do marketing.\n3. **Anúncio de série:** \"fiz uma série de vídeos com dicas\" — este anúncio é o episódio 1 (imóvel pronto: vantagens e desvantagens).\n4. **Honestidade dos dois lados:** promete vantagens E desvantagens — postura de consultor, não de vendedor (mesmo sendo uma construtora!).\n5. **CTA suave:** \"Assista ao primeiro vídeo... e descubra qual é a escolha mais assertiva para você\" — CTA de consumo de conteúdo, não de compra."
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 79 · X ou Y? (série educativa como anúncio evergreen) |\n| Anunciante | Pernambuco Construtora · Meta Ads |\n| Link | facebook.com/ads/library/?id=868086018033918 |\n| Métrica | **685 dias rodando — recorde do catálogo** |\n| Duração | ~1min56 · vertical 9:16 · aula em quadro |"
      },
      {
-      "titulo": "Por que roda há 685 dias",
-      "corpo": "1. **A pergunta nunca envelhece** — \"planta ou pronto?\" é dúvida permanente do mercado; zero fadiga de criativo.\n2. **Educação como pré-venda:** quem assiste 2 minutos de aula está MUITO mais qualificado quando chega no WhatsApp.\n3. **Honestidade desarma:** construtora admitindo desvantagens gera confiança desproporcional.\n4. **Formato série** cria retorno: quem viu o ep. 1 é público quente para o ep. 2 (remarketing barato).\n5. **Duração longa (1:56) filtra:** só o interessado real assiste — o clique que vem é qualificado."
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma **consultora dando aula num flip-chart**, no escritório da construtora, sobre \"planta ou pronto?\" — admite **vantagens E desvantagens dos dois lados**, e essa honestidade de professora (não de vendedora) é o que faz o anúncio rodar **685 dias** e trazer lead já qualificado."
      },
      {
-      "titulo": "Estrutura de campanha (inferida)",
-      "corpo": "- TOF/MOF educativo → retarget de quem assistiu 50%+ com anúncios de produto.\n- O criativo educa e QUALIFICA; a venda acontece na sequência."
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Fala / legenda | Função |\n|---|---|---|---|\n| **0–6s** | Ela em pé, marcador vermelho na mão, parede \"Pernambuco Construtora\" ao fundo | \"Hoje vou falar das vantagens e desvantagens de comprar apartamento pronto ou na planta\" | **Hook-duelo + promessa de honestidade** |\n| **6–10s** | Escreve no quadro \"Pronto\" | \"Cada opção tem vantagens e desvantagens que eu vou mostrar\" | **Legitimação** (é a pergunta que ela mais escuta) |\n| **10–55s** | Aponta pro quadro, escreve \"Desvantagens à vista\" | Desvantagem 1: se não conseguir o financiamento máximo, paga a diferença à vista. Desvantagem 2: a valorização já foi de quem comprou antes | **Lado honesto: as desvantagens do pronto** |\n| **55–105s** | Escreve \"Vantagens / Entrega / Financiamento\" | Vantagem: recebe de imediato (bom pra quem paga aluguel), começa a rentabilizar/quitar na hora | **As vantagens do pronto, com exemplos** |\n| **105–116s** | Talking + quadro completo | \"No próximo vídeo, os imóveis na planta\" | **Gancho de série** (ep. 2) + CTA suave |"
      },
      {
-      "titulo": "Como aplicar a MESMA estrutura",
-      "corpo": "- **Fórmula:** [dúvida-duelo universal do nicho] + \"essa é a pergunta que mais escuto\" + série com vantagens E desvantagens + CTA de assistir.\n- Duelos prontos pro corretor: \"Financiar ou consórcio?\", \"Comprar ou alugar?\", \"Casa ou apartamento?\", \"Usado reformado ou novo na planta?\", \"Leilão vale a pena?\".\n- Rodar como anúncio de verba baixa e constante — é ativo de longo prazo, não campanha de promoção.\n- Cruza com o formato orgânico A33 (Versus/duelo) — o mesmo conteúdo serve nos dois eixos."
+      "titulo": "Análise de copy",
+      "corpo": "- **Hook-duelo universal:** \"planta ou pronto?\" é a dúvida nº1 que TODO comprador tem — nunca envelhece (por isso 685 dias sem fadiga).\n- **Legitimação (\"é a pergunta que mais escuto\"):** posiciona como quem atende gente de verdade, não como quem inventou um script.\n- **Vantagens E desvantagens REAIS:** o elemento que diferencia. Uma construtora admitindo as desvantagens do próprio produto gera confiança desproporcional.\n- **Cada ponto com exemplo prático** (financiamento máximo, quem paga aluguel, rentabilizar na hora) — didático, não abstrato.\n- **Gancho de série (ep. 2 = planta):** cria remarketing barato — quem viu o ep.1 é público quente do ep.2. E o CTA é \"assista\", nunca \"compre\" (comprar no fim mataria o formato)."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Quadro/flip-chart escrito à mão com marcador vermelho:** estética de **aula particular**. O ato de escrever \"Pronto / Desvantagens / Vantagens\" organiza o raciocínio na frente do espectador — didatismo puro. O vermelho estrutura (títulos, setas).\n- **Parede \"Pernambuco Construtora\" ao fundo:** credencial constante — você está sendo ensinado por quem constrói, no lugar onde constrói. Autoridade ambiental.\n- **Figurino bege/loungewear + rabo de cavalo:** aproximável, \"professora acessível\", não corporativa/distante — reduz a barreira.\n- **Ela aponta e gesticula pro quadro:** movimento e direcionamento de atenção (guia o olho pro que importa).\n- **Legendas brancas (subtítulo):** consumo no mudo; a duração longa (~2min) FILTRA — o clique que vem é qualificado."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Tom de professora paciente,** explicando devagar. A escrita no quadro dá o ritmo (pausas naturais). Sem música — é uma aula, e a seriedade vende a honestidade."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Autoridade didática:** quem ensina (quadro, aula) é percebido como especialista, não vendedor.\n2. **Confiança por vulnerabilidade:** admitir desvantagens do próprio produto = credibilidade rara.\n3. **Educação como pré-venda:** quem assiste 2min chega no WhatsApp já qualificado.\n4. **Loop de série:** o \"próximo vídeo\" cria retorno e remarketing barato."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Só falar vantagens — a admissão das desvantagens é o coração; sem ela vira propaganda.\n- ❌ CTA de compra no fim — a venda é no remarketing; pedir compra aqui quebra a postura de professora.\n- ❌ Escolher a dúvida \"mais inteligente\" — use a que você MAIS escuta no WhatsApp.\n- ❌ Cortar a duração — o tamanho é o filtro de qualificação.\n- ❌ Cenário genérico — a parede da marca é autoridade de graça."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Escolha o duelo que você mais escuta** (\"financiar ou consórcio?\", \"comprar ou alugar?\", \"casa ou apê?\").\n2. **Hook:** \"[X] ou [Y]? O que é mais vantajoso?\" + \"é a pergunta que mais me perguntam\".\n3. **Dê 2-3 vantagens E 1-2 desvantagens REAIS** do lado deste episódio, cada uma com exemplo.\n4. **Escreva num quadro** enquanto fala (estrutura visível) — de preferência com a marca ao fundo.\n5. **Feche com gancho de série** (\"no próximo, o outro lado\") + CTA de assistir/seguir.\n6. **Avalie por custo por lead qualificado**, não CTR da 1ª semana. Verba baixa e constante — é ativo de longo prazo.\n\n> **Cruza com o formato orgânico 33 (Versus):** o mesmo conteúdo serve nos dois eixos (orgânico e anúncio)."
      }
     ],
     "transcricao": "Hoje a gente vai falar das vantagens e desvantagens de comprar apartamento pronto ou na planta.\nCada opção ou na planta ou pronto tem suas vantagens e desvantagens que a gente vai mostrar.\nDesvantagem número 1, que caso você não consiga o valor máximo de financiamento,\nque dependendo do banco pode ser 80 ou 90% do valor da avaliação do imóvel,\nvocê tem que pagar aquela diferença à vista, para poder receber o apartamento.\nA diferença você tem que pagar à vista. Outra desvantagem seria a valorização do imóvel.\nSeu patrimônio vai começar a valorizar de quando você comprou para a frente,\nmas aí você não vai ter ganho a valorização do patragem, alguém vai ter ganho por você.\nAlguém comprou lá atrás, re-etabilizou e vai te vender pronto.\nEntão isso são as desvantagens dos prontos.\nE a vantagem pessoal do pronto, vantagem do pronto primeiro de tudo, já recebe de imediato.\nEntão dependendo da sua necessidade, pode ser se você estiver morando de aluguel,\nprecisando trocar o valor que você paga do aluguel para o financiamento.\nVocê mora na casa dos pais, então a grande vantagem é a entrega.\nÉ você receber de imediato.\nE outra vantagem também de estar pronto, é você já começar a pagar ou re-etabilizar também.\nEntão você já tira o financiamento e de imediato, se for para alugar, se for para investir,\nvocê já começa a receber para quitar o financiamento.\nEntão a gente está falando de imóveis.\nPronto, eu vou apagar aqui e a gente vai falar agora de imóveis na plana."
