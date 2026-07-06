@@ -254,11 +254,10 @@ const rgba=(hex,a)=>{const n=parseInt(hex.slice(1),16);return `rgba(${n>>16&255}
 (function(){const org=F.filter(f=>f.tipo==="organico").length;
   $("stats").innerHTML=`<div class="hn-main"><span class="big">${F.length}</span><span class="biglbl">formatos<br>dissecados</span></div><span class="vdiv"></span><span class="minor">${org} orgânicos<br>${F.length-org} anúncios</span>`;})();
 
-const FIL={obj:"",plat:"",status:""};
+const FIL={tipo:"",obj:""};
 const GROUPS=[
+  ["tipo","Tipo",[["","Todos"],["organico","Orgânico"],["anuncio","Anúncio"]]],
   ["obj","Objetivo",[["","Todos"],["Base","Atrair"],["Conexão","Conectar"],["Autoridade","Autoridade"],["Prova","Prova social"],["Conversão","Converter"]]],
-  ["plat","Plataforma",[["","Todas"],["Instagram","Instagram"],["TikTok","TikTok"],["YouTube","YouTube"],["Meta Ads","Meta Ads"]]],
-  ["status","Status",[["","Todos"],["confirmado","🟢 Confirmado"],["candidato","🟡 Candidato"]]],
 ];
 function buildPanel(){
   $("panel").innerHTML=GROUPS.map(([g,lbl,chips])=>`<div class="fgroup"><span class="flabel">${lbl}</span><div class="fchips" data-g="${g}">${chips.map(([v,l])=>`<button data-v="${v}" class="${FIL[g]===v?'on':''}">${l}</button>`).join("")}</div></div>`).join("")+`<div class="pfoot"><span class="count" id="count"></span><button class="clear" onclick="clearFilters()">Limpar filtros</button></div>`;
@@ -269,9 +268,8 @@ function togglePanel(){$("panel").classList.toggle("open");$("fbtn").classList.t
 function clearFilters(){Object.keys(FIL).forEach(k=>FIL[k]="");buildPanel();render();}
 
 function match(f,q){
+  if(FIL.tipo&&f.tipo!==FIL.tipo)return false;
   if(FIL.obj&&!(f.objetivos||[]).includes(FIL.obj))return false;
-  if(FIL.plat&&f.plataforma!==FIL.plat)return false;
-  if(FIL.status&&f.status!==FIL.status)return false;
   if(q&&!(f.num+" "+f.nome+" "+f.desc+" "+f.exemplo+" "+((f.formato||{}).hook||"")).toLowerCase().includes(q))return false;
   return true;
 }
