@@ -52,8 +52,8 @@ def parse_sections(md):
 
 def fmt_key(title):
     t = title.lower()
-    for k, needle in [("hook","hook"),("blocos","estrutura"),("porque","por que"),
-                      ("aplicar","como aplicar"),("guia","guia"),("prompt","prompt")]:
+    for k, needle in [("estrutura","esqueleto"),("hook","hook"),("blocos","estrutura em blocos"),
+                      ("porque","por que"),("aplicar","como aplicar"),("guia","guia"),("prompt","prompt")]:
         if needle in t: return k
     return None
 
