@@ -1965,12 +1965,39 @@
   "desc": "'Por que eu saí de X' — loop aberto + origem improvável que converte espectador em fã.",
   "slug": "storytime-de-carreira",
   "formato": {
+   "estrutura": "1. **[HOOK-LOOP + SÉRIE]** abrir com a revelação prometida (\"por que eu saí de X\") + \"Part 1\". → *slot: o loop + a série.*\n2. **[ORIGEM IMPROVÁVEL]** o começo humilde/engraçado (com autoironia). → *slot: a origem.*\n3. **[A VIRADA COM TIMING]** o momento de mudança ancorado num evento dramático. → *slot: a virada.*\n4. **[O MOMENTO-CLIQUE]** a vulnerabilidade real + o insight que mudou tudo. → *slot: o clique.*\n5. **[O SALTO + GANCHO]** o grande sucesso + gancho pra próxima parte (loop não fechado). → *slot: o cliffhanger.*\n\n- **Fixo:** abrir um loop grande que só fecha na próxima parte; humor autodepreciativo; vulnerabilidade real; jornada de herói.\n- **Variável:** a história, os marcos, o loop.",
    "hook": "Declaração de ruptura + loop aberto: **\"Eu saí do Million Dollar Listing. E antes de te contar por quê, deixa eu te contar como eu entrei nisso.\"** O \"por quê\" fica pendurado (curiosity gap) enquanto ele conta a origem improvável (ator, modelo de mãos, quebrou em 2008, virou corretor por acaso).",
    "blocos": "- **Ruptura + loop (0-10s):** \"eu saí de X — mas antes, como cheguei lá\".\n- **Origem improvável (10-40s):** a jornada torta (ator fracassado → sem dinheiro → corretagem por acaso) — humaniza e prende.\n- **A virada/lição (fim):** por que saiu e o que aprendeu — fecha o loop aberto no hook.",
    "porque": "- **Loop aberto no hook** (o \"por quê\" adiado) segura até o fim.\n- **Origem vulnerável e improvável** (\"eu interpretei uma árvore, depois morri numa novela\") gera identificação e afeto.\n- **Narrativa de carreira** converte espectador em fã da pessoa, não do imóvel.",
    "aplicar": "- \"Por que eu saí de [emprego CLT / outra profissão] pra ser corretor\" — a virada de carreira.\n- A origem improvável é o coração: quanto mais torta e honesta, melhor.\n- Feche com a lição que conecta ao presente.",
    "guia": "- Abra com a ruptura + adie o \"porquê\" (não entregue no início).\n- A origem precisa de detalhes concretos e humanos (o fracasso específico).\n- Talking head simples; a história carrega.\n- Feche o loop no fim — nunca deixe a promessa do hook sem resposta.",
-   "prompt": "```\nVocê é roteirista de storytime de carreira. Crie um roteiro \"por que eu saí de [X]\":\n1) RUPTURA + LOOP (0-10s): \"eu saí de [X] — mas antes, como cheguei lá\"; 2) ORIGEM improvável e vulnerável com detalhes concretos; 3) A VIRADA/LIÇÃO que fecha o loop do hook.\nMEUS DADOS: A ruptura (o que deixei): [ ]. Minha origem improvável: [ ]. A lição que conecta ao hoje: [ ].\nTOM: honesto, vulnerável, 1ª pessoa. Adiar o \"porquê\". Detalhes concretos do fracasso/jornada.\nENTREGUE: 1) roteiro falado; 2) legenda; 3) 5 hashtags; 4) frase de hook alternativa.\n```"
+   "prompt": "Você é um roteirista especialista em storytelling de marca pessoal. Crie um roteiro de \"storytime de carreira\" (jornada improvável, em série), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK-LOOP + SÉRIE (0-10s): abra com uma pergunta/revelação que você só responde na próxima parte + \"Part 1\"\n2. ORIGEM IMPROVÁVEL: o começo humilde/engraçado, com humor autodepreciativo\n3. A VIRADA COM TIMING: o momento de mudança ancorado num evento dramático (uma crise, uma data)\n4. O MOMENTO-CLIQUE: a vulnerabilidade real (o fundo do poço) + o insight que mudou tudo\n5. O SALTO + GANCHO: o grande sucesso + gancho pra próxima parte (NÃO responda o loop do hook)\n\n**Meus dados:**\n- Autor + @: [NOME + @]\n- O loop do hook (o que você só revela na Part 2): [A PERGUNTA/REVELAÇÃO]\n- Origem improvável: [O COMEÇO HUMILDE/ENGRAÇADO]\n- A virada + o evento que a ancora: [O MOMENTO + O CONTEXTO]\n- O fundo do poço + o insight: [A VULNERABILIDADE + O CLIQUE]\n- O salto de sucesso: [O GRANDE MARCO]\n\n**Regras de tom:**\n- Abra um loop GRANDE que só fecha na próxima parte — é o que traz o público de volta\n- Humor autodepreciativo obrigatório — rir de si torna o sucesso palatável\n- Vulnerabilidade real (o fracasso, o medo) — é o que conecta de verdade\n- Estrutura de jornada do herói: origem → virada → clímax (não uma lista de fatos)\n\n**Entregue:**\n1. O roteiro do episódio (Part 1) com os 5 blocos\n2. A frase de hook-loop + a marcação de série\n3. O gancho de fechamento pra Part 2\n4. 5 hashtags\n5. O esboço do que entra na Part 2 (fechando o loop)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **vínculo + autoridade humana** (conexão). Não vende imóvel — vende VOCÊ como personagem, cria identificação e uma base que acompanha sua história.\n- Ideal em **série** (Part 1, 2, 3…). O loop aberto entre partes é o que gera hábito de retorno."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O LOOP]:** a pergunta/revelação que você guarda pra próxima parte. Quanto mais intrigante, mais forte o retorno.\n- **[VULNERABILIDADE]:** o fundo do poço real (a falência, o medo, a dúvida). É a moeda da conexão — sem ela, é só currículo.\n- **[HUMOR]:** o começo improvável/engraçado. Rir de si derruba a arrogância do \"história de sucesso\"."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se contar tudo de uma vez:\n\n> \"Fatie em partes e deixe o loop do hook aberto pra próxima. O poder está na continuação, não em resolver tudo agora.\"\n\nSe ficar arrogante/currículo:\n\n> \"Adicione humor autodepreciativo e vulnerabilidade real (o fracasso, o medo financeiro). A ascensão só conecta se o começo for humano e humilde.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Contar tudo num vídeo** — perde o loop que traz o público de volta.\n2. **Esconder o fracasso** — a vulnerabilidade é o que conecta.\n3. **Tom arrogante** — sem humor autodepreciativo, o sucesso afasta.\n4. **Lista de fatos sem arco** — precisa de origem → virada → clímax."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Talking head (estúdio ou ambiente com identidade). Cortes de arquivo/prova quebram o monólogo.\n- Long-form (1-3 min) se sustenta com arco narrativo. Marque \"Part 1/2/3\" claramente.\n- Feche cada parte com o gancho pra próxima."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta retenção (a jornada prende) + vínculo profundo (a vulnerabilidade conecta). O ganho é uma base que \"torce\" por você e acompanha a série. Responda os comentários alimentando a curiosidade sobre as próximas partes — o loop é o motor."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1980,7 +2007,40 @@
     "link": "",
     "en": true,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma jornada improvável (ator falido → maior corretor de NY) contada com humor e vulnerabilidade — o storytime de carreira transforma a biografia numa novela que vende o personagem."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-10s | Talking head estúdio; legenda \"Why I Left Million Dollar Listing New York — Part 1\" | \"Eu saí do Million Dollar Listing. Mas antes de te contar por quê, deixa eu contar como entrei\" | Hook: promessa de revelação (por que saiu?) + série (Part 1) — abre um loop enorme |\n| 10-60s | Gesticulando | \"Vim pra NY em 2006 pra ser ator. Interpretei uma árvore, entrei numa novela, morri. Fui modelo de mãos\" | Origem improvável com humor autodepreciativo — cria simpatia |\n| 60-110s | Expressivo | \"Verão de 2008, fiquei sem dinheiro. Um amigo disse: tira licença de corretor. Meu 1º dia foi o dia que o Lehman quebrou\" | A virada + timing dramático (a crise como pano de fundo) |\n| 110-160s | Fala íntima | \"Aluguei um apê, ganhei mil dólares num dia. Fiquei viciado — em comer, pagar aluguel, não chorar no metrô\" | O momento-clique + vulnerabilidade real (o fundo do poço) |\n| 160-187s | Corte do reality | \"2010: casting do Million Dollar Listing. Falei que era o maior corretor do universo. Me escalaram\" | O grande salto + gancho pra Part 2 (o \"porquê\" fica sem resposta) |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook abre um loop enorme** (\"por que eu saí…\") que só fecha na Part 2 — a promessa não cumprida é o que garante o retorno do público.\n- **Jornada do herói improvável:** ator fracassado (árvore, modelo de mãos) → viciado em real estate → estrela de TV. O contraste é o que prende.\n- **Humor autodepreciativo** (interpretou uma árvore, \"morri\" na novela) derruba a arrogância e cria afeto.\n- **Vulnerabilidade real** (\"chorar no metrô porque o cartão era recusado\") — a honestidade sobre o fundo do poço é o que gera conexão."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Talking head de estúdio branded** (cenário azul/marca) — profissionalismo que sustenta long-form.\n- **Gestos expressivos** e entonação de contador de história.\n- **Cortes de arquivo** (o clipe do reality) provam a narrativa e quebram o talking head."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração contínua de storytelling** — o long-form (3 min) se sustenta porque é história com arco, não aula.\n- Cada beat tem seu timing dramático (o Lehman no 1º dia); as pausas marcam as viradas."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Loop aberto** — \"por que saiu?\" fica sem resposta = retorno garantido pra Part 2.\n2. **Jornada do herói** — a ascensão improvável é a estrutura narrativa mais viciante.\n3. **Vulnerabilidade** — expor o fracasso e o medo financeiro gera conexão profunda.\n4. **Humor autodepreciativo** — rir de si torna o sucesso palatável (não arrogante).\n5. **Série** — \"Part 1\" cria expectativa e hábito de acompanhar."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Contar tudo num vídeo só — o poder está em fatiar e deixar o loop aberto pra próxima parte.\n- ❌ Esconder o fracasso — a vulnerabilidade (a falência, o medo) é o que conecta.\n- ❌ Tom arrogante — sem o humor autodepreciativo, a história de sucesso afasta.\n- ❌ História sem arco — precisa de origem → virada → clímax, não uma lista de fatos."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com um loop grande** (uma pergunta/revelação que você só responde na próxima parte) + marque \"Part 1\".\n2. **Conte a origem improvável** com humor autodepreciativo (o começo humilde/engraçado).\n3. **Marque a virada com um timing dramático** (um evento que ancore o momento).\n4. **Exponha o momento-clique** com vulnerabilidade real (o fundo do poço + o insight).\n5. **Feche no salto de sucesso + gancho** pra próxima parte (não responda o loop do hook). Fatie a história em série."
+     }
+    ],
     "transcricao": "I left million dollar listing.\nAnd before I tell you why, let me tell you how I got into it in the first place.\nI graduated college and I moved to New York City in 2006.\nAnd I came here to be an actor.\nI didn't grow up wanting to be a real estate agent, a real estate broker, own a real estate firm.\nAll the stuff that is my life now is basically just by accident.\nAnd so when I came to New York City trying to be an actor, I played a tree, I got into a soap opera, and then I died.\nThat clip is still on YouTube, by the way.\nEdmund Walsh the fourth with the syringe. Man, such was my life back then. I was almost so famous.\nThen I was hand modeling. I'm Ryan Serhant. I work as an actor and a hand model. Holding phones and\neverything. And then summer of 2008, I ran out of money. Not because the market crashed. It's not\nlike I had a stock portfolio, but because I literally ran out of money. Hand jobs and soap\noperas and playing trees and off, off, off, off, off, off, off, off, off, off, off, Broadway shows\ndon't actually pay a whole lot of money. And I had to pay my rent. And a friend of mine said,\nhey, you like acting? You like stage acting? You like film? You like TV? But it's not really\nworking out for you? Great. You know what will work out for you? Real estate. Get your real\nestate license. My first day was the day Lehman Brothers filed for bankruptcy. The world fell\napart. Subprime mortgage collapsed. Agents getting out of the business left and right. People losing\ntheir jobs all over the place. That was day one for me. And so I was still trying to do theater.\nI was still trying to act. I was still, that was my passion. That was my dream my entire life.\nbut then I rented an apartment and I made a thousand dollars in a day for showing someone\nan apartment that they probably would have rented on their own but I just advised them on the process\nhandled the paperwork I got paid for it okay what if I did that every day I could just sell and rent\napartment oh my god that's a job and I became addicted to it because I also became addicted to\naffording food and paying for my rent and not being stressed out about money all the time living in\nYork City not crying on the subway because my credit card was getting\ndeclined at the grocery store. Real estate gave me freedom so that I could\nstill stay in New York City and I put acting and all those dreams to the side.\nFast forward about a year. Beginning of 2010 a casting notice goes out for the\nNew York version of million-dollar listing. Reality TV back then was like\nthe Kardashians, Survivor, the original million-dollar listing, the Housewives,\nstuff like that American Idol social media was Twitter and Facebook right and\nyou were just sharing some grainy photos for the most part most of us had only\njust gotten iPhones I still had a Blackberry my iPhone was like my\npersonal phone that was still kind of weird okay that's what life was like I\nwent in there I told them that I was the greatest real estate agent in the\nhistory of the known universe even though I've only been doing it for about\na year I told him I had a Range Rover I had this I had that I wasn't gonna tell\nthem that I was like the lowly poor real estate agent who lives in Koreatown\nshares a bathroom with 17 people and gets really excited at cream cheese bagels.\nThat's not good TV.\nI gave them what was good TV and they cast me.\nThe New York City real estate market right now is on fire.\nEvery day I wake up at 4.23 in the morning.\nI'm in the gym by 5 o'clock.\nI'm out by 6 o'clock.\nThree of us made it on that first season that premiered in March of 2012."
    }
   ],
@@ -2120,12 +2180,39 @@
   "desc": "Tour com preço + entrada + parcela mensal na capa — a métrica real de decisão do comprador.",
   "slug": "tour-com-preco-parcela-mensal-estimada",
   "formato": {
+   "estrutura": "1. **[HOOK: 3 NÚMEROS]** preço + entrada + parcela mensal na legenda fixa. → *slot: os números.*\n2. **[DESTRAVADOR: ENTRADA BAIXA]** enfatizar o valor de entrada acessível. → *slot: a entrada.*\n3. **[LOCALIZAÇÃO-BÔNUS]** distância de um ponto de referência. → *slot: a localização.*\n4. **[TOUR-RELÂMPAGO + CTA]** ambientes + \"me segue / chama no direct\".\n\n- **Fixo:** os 3 números financeiros na tela; entrada em destaque; números reais/simuláveis; CTA.\n- **Variável:** o imóvel, os valores, a localização.",
    "hook": "Preço + entrada + parcela mensal já na primeira frase: **\"Essa casa nova saiu por R$229 mil, e pode ser sua com R$8 mil de entrada e parcelas de ~R$1.800/mês. Bora ver, me segue.\"** Traduz o imóvel em \"cabe no meu bolso?\" — o número que o comprador realmente calcula.",
    "blocos": "- **Affordability na capa (0-5s):** preço + entrada + parcela mensal estimada.\n- **Convite (\"me segue\") + tour (5-30s):** mostra a casa que corresponde àqueles números.\n- **CTA (fim):** \"quer simular? Chama no direct\".",
    "porque": "- **Parcela mensal é a métrica real de decisão** do comprador — mais que o preço cheio.\n- **Remove a barreira de \"não sei se cabe\":** o cálculo já vem pronto.\n- **Qualifica o lead:** quem chama já sabe o valor e a parcela.",
    "aplicar": "- Todo imóvel financiável: capa com preço + entrada + parcela estimada.\n- Versão MCMV: \"entrada de R$X, parcela de R$Y, subsídio de R$Z\".\n- Deixe claro que é ESTIMATIVA (sujeita a análise) pra evitar problema.",
    "guia": "- Números reais de uma simulação (não invente parcela).\n- \"Estimada\" sempre visível — protege juridicamente.\n- Parcela na capa é o que para o scroll do comprador MCMV.\n- CTA de simulação personalizada → lead qualificado.",
-   "prompt": "```\nVocê é corretor(a) de imóveis financiáveis. Crie um tour \"affordability\":\n1) CAPA (0-5s): preço + entrada + parcela mensal estimada; 2) CONVITE (\"me segue\") + tour do imóvel; 3) CTA de simulação personalizada.\nMEUS DADOS: Imóvel + preço: [ ]. Entrada: [ ]. Parcela estimada (de simulação real): [ ]. Programa (MCMV/SBPE): [ ].\nTOM: \"cabe no seu bolso\", prático. Números reais, \"estimada\" visível. Foco na parcela.\nENTREGUE: 1) texto de capa com os 3 números; 2) roteiro do tour; 3) legenda com aviso de estimativa; 4) 5 hashtags; 5) CTA de simulação.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo imobiliário de conversão. Crie um roteiro de \"tour com os 3 números da decisão\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: 3 NÚMEROS (0-3s): preço + entrada + parcela mensal estimada, em legenda grande e fixa\n2. DESTRAVADOR: ENTRADA BAIXA (3-8s): enfatize o valor de entrada acessível (\"só R$X de entrada\")\n3. LOCALIZAÇÃO-BÔNUS: distância de um ponto de referência (centro, aeroporto, metrô)\n4. TOUR-RELÂMPAGO + CTA (fim): ambientes prontos + \"me segue / chama no direct\"\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Imóvel + localização: [DADOS]\n- Preço + entrada + parcela mensal estimada: [OS 3 NÚMEROS]\n- Ponto de referência de distância: [EX.: 20 min do centro]\n\n**Regras de tom:**\n- Os 3 números financeiros são a estrela — grandes e legíveis em 1 segundo\n- A entrada baixa é o destravador — dê destaque a ela\n- Números reais e simuláveis (o comprador confere)\n- Curto e direto; CTA no fim\n\n**Entregue:**\n1. O texto das legendas de specs financeiros\n2. A narração do hook + CTA\n3. A ordem dos ambientes pro tour-relâmpago\n4. 5 hashtags\n5. Resposta pronta pro \"e a documentação/juros?\" nos comentários",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **conversão + qualificação** (e funciona muito bem como ad). O comprador que tem o orçamento se identifica na hora — é lead quente.\n- Ideal pra imóveis de entrada/MCMV e lançamentos com boa condição de financiamento, onde a acessibilidade é o argumento."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[OS 3 NÚMEROS]:** preço, entrada e parcela mensal. A entrada baixa é o destravador — dê o maior destaque a ela.\n- **[LOCALIZAÇÃO]:** uma distância prática (centro, aeroporto, metrô) agrega valor sem inflar a mensagem.\n- **[NÚMEROS REAIS]:** o comprador simula. Parcela irreal destrói a confiança e gera lead frustrado."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se focar só no preço cheio:\n\n> \"Adicione entrada e parcela mensal e dê destaque à entrada — é o número que destrava a decisão. O preço sozinho assusta; a parcela cabe no bolso.\"\n\nSe os números vierem inflados:\n\n> \"Use valores reais e simuláveis. O comprador confere no banco; parcela otimista demais vira frustração e desconfiança.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Só o preço** — falta a entrada e a parcela, que são o que converte.\n2. **Números irreais** — o comprador simula; parcela furada destrói a confiança.\n3. **Tour longo** — os números são a estrela; o tour é suporte.\n4. **Sem CTA** — o lead qualificado precisa de próximo passo."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Fachada valorizada no hook (golden hour ajuda). Legendas de specs financeiros grandes e fixas.\n- Tour interno rápido dos ambientes prontos. CTA no fim."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta qualificação de lead — quem comenta/salva geralmente tem o orçamento. Ótimo desempenho como anúncio de captação de comprador. Responda os \"e os juros/documentação?\" nos comentários pra nutrir o lead e virar autoridade."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2135,7 +2222,40 @@
     "link": "https://instagram.com/p/DUjMRiwE0yg",
     "en": true,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Os três números que o comprador realmente quer saber — preço, entrada e parcela mensal — estampados sobre o tour transformam \"quanto custa?\" em \"cabe no meu bolso?\"."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-3s | Fachada nova (golden hour); legenda \"40 min from Houston 📍 $229,000 / Est. Monthly: $1,800\" | \"This brand new home just got listed at $229,000\" | Hook: preço + parcela na tela — filtra e fisga quem tem o orçamento |\n| 3-8s | Legenda \"$8,000 DOWNPAYMENT / 25 min from Airport ✈️\"; corretor na frente | \"…can be yours for as little as $8,000 down, $1,800/month. Let's go check it out, follow me\" | A entrada baixa (o número que destrava a decisão) + localização + CTA |\n| 8-23s | Tour rápido (cozinha, banheiro, quartos vazios) | (b-roll dos ambientes) | Tour-relâmpago mostrando o que o pacote entrega |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Os 3 números financeiros SÃO o conteúdo** (preço, entrada, parcela) — respondem exatamente o que trava a decisão de compra.\n- **A entrada baixa ($8k) é o destravador psicológico** — \"só $8 mil de entrada\" derruba a barreira mais que o preço cheio.\n- **Localização como bônus** (\"25 min do aeroporto\") agrega valor sem inflar a mensagem.\n- **CTA simples** (\"follow me\") conduz pro tour e pro perfil."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Fachada em golden hour** valoriza o imóvel no hook.\n- **Legendas de specs financeiros grandes e fixas** — o número precisa ser lido em 1 segundo.\n- **Tour interno rápido** (ambientes vazios, prontos) — mostra o produto sem enrolar."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala direta e convidativa** + ritmo ágil de tour.\n- Curto (~23s) — densidade de informação financeira alta, premia rewatch."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Acessibilidade concreta** — a parcela real ($1.800/mês) torna o sonho calculável.\n2. **Destravador da entrada** — o valor de entrada baixo é o gatilho de \"eu consigo\".\n3. **Qualificação** — quem tem o orçamento se identifica na hora (lead quente).\n4. **Localização** — a referência de distância agrega valor prático.\n5. **CTA de baixo atrito** — \"follow me\" transforma interesse em audiência/lead."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Só o preço cheio — sem a entrada e a parcela, falta o que destrava a decisão.\n- ❌ Números irreais/escondidos — a parcela precisa ser defensável (o comprador simula).\n- ❌ Tour longo — o formato é rápido; os números são a estrela.\n- ❌ Sem CTA — o interesse qualificado precisa de um próximo passo."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Estampe os 3 números no hook:** preço + entrada + parcela mensal estimada, em legenda grande e fixa.\n2. **Enfatize a entrada baixa** — é o destravador (\"só R$X de entrada\").\n3. **Some a localização** como bônus (distância de um ponto de referência).\n4. **Faça um tour-relâmpago** pelos ambientes prontos.\n5. **Feche com CTA** (\"me segue / chama no direct\"). Números reais e simuláveis sempre."
+     }
+    ],
     "transcricao": "This brand new home just got listed at $229,000 and it can be yours for as little as $8,000\ndown with estimated monthly payments of $1,800 a month.\nLet's go check it out.\nFollow me."
    }
   ],
@@ -2160,12 +2280,39 @@
   "desc": "Descrença provocada sobre um spec ('esse lote é 12x25?') + a prova visual.",
   "slug": "hook-de-descrenca-sobre-spec-do",
   "formato": {
+   "estrutura": "1. **[HOOK DE DESCRENÇA]** \"dá pra acreditar que [SPEC impressionante]?\" (legenda destacada). → *slot: o spec de choque.*\n2. **[BENEFÍCIO-SURPRESA]** um extra inesperado (mobiliada, condição). → *slot: o extra.*\n3. **[PERGUNTAS DE PROJEÇÃO]** \"consegue se imaginar vivendo aqui?\". → *slot: as perguntas.*\n4. **[HUMOR + SPEC]** uma legenda com piada + um diferencial. → *slot: o humor.*\n5. **[CTA DE SEGUIR]** \"gostou? me segue\".\n\n- **Fixo:** hook de descrença sobre spec real; legendas de pergunta por ambiente; palavra-chave destacada; CTA de seguir.\n- **Variável:** o spec, o imóvel, as perguntas.",
    "hook": "Descrença provocada sobre um número: **\"Dá pra acreditar que esse lote é 12x25?\"**. A incredulidade força o espectador a olhar com atenção pra \"conferir\" o que parece grande/pequeno demais.",
    "blocos": "- **Descrença + spec (0-3s):** \"dá pra acreditar que [SPEC]?\" — o número que surpreende.\n- **Prova visual (3-25s):** o tour/andada que confirma o spec (mostra a dimensão real).\n- **CTA (fim):** \"quer conhecer? Chama no direct\".",
    "porque": "- **A descrença é um convite a verificar:** o espectador fica pra confirmar se o número bate.\n- **Spec incomum** (lote grande por preço baixo, apê pequeno bem aproveitado) gera comentário e debate.\n- **A prova visual** entrega o \"uau\" e valida o corretor.",
    "aplicar": "- Qualquer imóvel com um spec que \"não parece\": lote grande, pé-direito alto, apê compacto bem resolvido, preço fora da curva.\n- \"Dá pra acreditar que…\" + o número + a prova andando pelo espaço.\n- Versão preço: \"dá pra acreditar que isso custa só R$X?\".",
    "guia": "- O spec tem que ser real e verificável (o debate vai medir).\n- Mostre a prova física da dimensão (andar, comparar com objetos).\n- Deixe o número na capa pra parar o scroll.\n- CTA de direct pra converter a curiosidade.",
-   "prompt": "```\nVocê é corretor(a) criando um hook de descrença sobre spec:\n1) DESCRENÇA + SPEC (0-3s): \"dá pra acreditar que [SPEC/número]?\"; 2) PROVA VISUAL andando/mostrando a dimensão real; 3) CTA de direct.\nMEUS DADOS: Imóvel + o spec surpreendente: [ ]. Como provo visualmente: [ ]. Público: [ ].\nTOM: incredulidade que convida a conferir. Spec real e verificável. Número na capa.\nENTREGUE: 1) hook de capa; 2) roteiro da prova visual; 3) legenda; 4) 5 hashtags; 5) CTA.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo imobiliário de engajamento. Crie um roteiro de \"hook de descrença + tour guiado por legendas\" (o áudio é música; o conteúdo vai nas legendas), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK DE DESCRENÇA (0-5s): \"dá pra acreditar que [SPEC impressionante e real]?\" com a palavra-chave em destaque\n2. BENEFÍCIO-SURPRESA: um extra inesperado (mobiliada, opção com móveis, condição especial)\n3. PERGUNTAS DE PROJEÇÃO: \"consegue se imaginar vivendo aqui?\" — faça o espectador se ver morando\n4. HUMOR + SPEC: uma legenda com piada + um diferencial (\"claraboia + 2 chuveiros = paz no casamento\")\n5. CTA DE SEGUIR (fim): \"gostou? já me segue pra mais vídeos como esse\"\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Imóvel + o spec de choque do hook: [O DADO IMPROVÁVEL — ex.: lote pequeno, metragem surpreendente]\n- Benefício-surpresa: [O EXTRA — ex.: mobiliada]\n- Specs de valor pra destacar: [LISTA]\n- Uma piada/observação de humor: [SOBRE UM DIFERENCIAL]\n\n**Regras de tom:**\n- O hook precisa de um spec REAL e surpreendente (a descrença é o motor)\n- Alterne legendas de benefício com PERGUNTAS (é o que gera comentário)\n- Destaque a palavra-chave de cada legenda em cor diferente\n- Áudio é música — não precisa narrar; tudo vai na legenda\n\n**Entregue:**\n1. A sequência de legendas por ambiente (com a palavra-chave destacada)\n2. A legenda de hook de descrença\n3. A legenda de humor + o CTA de seguir\n4. Sugestão de música/trend pra trilha\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance + engajamento + conversão**. É um tour que não parece tour: o hook de descrença fisga e as perguntas puxam comentário.\n- Perfeito pra quem **não gosta de falar na câmera** — o conteúdo vai todo nas legendas, com música por cima."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[SPEC DE CHOQUE]:** o hook depende de um dado real e surpreendente (um lote pequeno com uma casa grande, uma metragem inesperada, um preço/condição). Sem surpresa, não há descrença.\n- **[PERGUNTAS]:** alterne as legendas informativas com perguntas de projeção (\"imagina vivendo aqui?\"). A pergunta é o que gera comentário.\n- **[PALAVRA-CHAVE]:** destaque uma palavra por legenda em cor diferente — guia o olho sem som."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o hook vier fraco:\n\n> \"O hook precisa de um spec real e surpreendente que gere descrença ('dá pra acreditar que…?'). Sem o dado improvável, não para o scroll.\"\n\nSe as legendas ficarem só descritivas:\n\n> \"Alterne com perguntas diretas de projeção e engajamento. Cada 2-3 legendas, uma pergunta que puxe comentário.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Hook sem spec de choque** — a descrença precisa de um dado surpreendente.\n2. **Só legendas descritivas** — sem perguntas, não há comentário.\n3. **Palavra-chave sem destaque** — o realce é o que guia a leitura sem som.\n4. **Sem CTA de seguir** — perde a conversão de alcance em base."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- B-roll dos ambientes; corretor pode aparecer conduzindo em alguns takes.\n- Legendas com palavra-chave destacada (cor) + emojis. Música em alta como trilha.\n- Alterne benefício → pergunta → humor. Feche com CTA de seguir."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto engajamento pelas perguntas (cada uma puxa comentário) + alcance pelo hook de descrença. É um dos formatos mais fáceis de produzir (sem narração). Responda os comentários de \"quanto custa?\" no direct — o interesse já vem qualificado pelo tour."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2174,9 +2321,41 @@
     "metrica": "2.956 curtidas",
     "link": "https://instagram.com/p/DW7OaS6EXdf",
     "en": false,
-    "temTranscricao": true,
-    "analise": [],
-    "transcricao": "Eu vou na sua casa, bato na sua porta, abri o portão que é o amor em que tá aqui fora\nOlha na minha cara, eu te trouxe rosa, toda perfumada de você é mais cheirosa\nOlha que eu vou na sua casa, bato na sua porta, abri o portão que é o amor em que tá aqui fora\nOlha na minha cara, que eu te trouxe rosas Todas defumadas de você a mais cheirosa\nSe eu não for te buscar, me busca pelo amor de Deus\nMorrei de saudade\nQue!\nOh!\nOh!\nOh!\nOh!\nOh!\nOh!\nCanta, Bim!\nTá complicado sim, dá pra relevar Tu é uma gata danada\nOh, raiva boa de passar\nPra brigar e no fim\nNão vai querer me dar\nCê é tão quente da sede\nMeu corpo começa a queimar\nUm carro"
+    "temTranscricao": false,
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Dá pra acreditar que esse lote é 12x25?\" — a descrença sobre um spec impressionante abre o vídeo, e cada ambiente vira uma pergunta que puxa o comentário."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Legenda (o conteúdo está aqui) | Função |\n|---|---|---|---|\n| 0-5s | Fachada + entrada | \"DA PARA ACREDITAR QUE ESSE LOTE É **12x25**? 😱😱\" | Hook de descrença: um spec que parece impossível (casa dessas num lote pequeno) |\n| 5-20s | Cozinha, sala | \"VOCÊ TEM A OPÇÃO DE ADQUIRIR COM **TODOS OS MÓVEIS**! 😍\" | Benefício-surpresa (mobiliada) — reforça o valor |\n| 20-40s | Área externa, piscina | \"ESSA CASA É UM **SONHO**! 😍\" / \"CONSEGUE SE IMAGINAR **VIVENDO AQUI**?? 👀\" | Perguntas de projeção — o espectador se imagina morando |\n| 40-55s | Quartos | \"VOCÊ GOSTA DE **PROJETO** COMO ESSE? 🤔\" / \"3 SUÍTES **ESPAÇOSAS**! 😍\" | Pergunta de engajamento + spec de valor |\n| 55-64s | Banheiro/closet | \"Claraboia + 2 chuveiros = **paz no casamento** 😂\" / \"GOSTOU?? JÁ ME SEGUE PARA MAIS VÍDEOS **COMO ESSE**! 😊\" | Humor + CTA de seguir |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook de descrença é o motor:** afirmar um spec que parece improvável (\"esse lote é 12x25?\") gera o \"não acredito, deixa eu ver\" que para o scroll.\n- **As legendas alternam benefício + pergunta de projeção + humor** — cada ambiente tem uma legenda com função (informar, fazer imaginar, arrancar sorriso).\n- **Palavras-chave destacadas em verde** guiam o olho pro que importa.\n- **Perguntas diretas** (\"consegue se imaginar vivendo aqui?\") convidam o comentário — engajamento que alimenta o alcance."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Tour caseiro** com b-roll dos ambientes; corretor aparece em alguns takes conduzindo.\n- **Legendas verdes com palavra-chave em destaque + emojis** — a linguagem visual que carrega a mensagem (o áudio é música).\n- **Música de fundo** (sem narração) — reforça a importância das legendas como veículo do conteúdo."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música conduz o clima**; o ritmo é dado pelos cortes entre ambientes, cada um com sua legenda.\n- Sem narração — todo o \"roteiro\" é visual/legenda. Isso torna o formato replicável mesmo por quem não gosta de falar na câmera."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Descrença / surpresa** — o spec improvável no hook é curiosidade pura.\n2. **Projeção** — \"imagina vivendo aqui\" faz o espectador se ver no imóvel (passo pra desejar).\n3. **Perguntas de engajamento** — cada pergunta é um convite a comentar.\n4. **Humor** — a piada (\"paz no casamento\") gera simpatia e compartilhamento.\n5. **CTA de seguir** — capitaliza o interesse em audiência recorrente."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Hook sem spec de choque — a descrença precisa de um dado realmente surpreendente.\n- ❌ Legendas só descritivas — precisam alternar com PERGUNTAS pra gerar comentário.\n- ❌ Palavra-chave sem destaque — o realce visual é o que guia a leitura sem som.\n- ❌ Esquecer o CTA de seguir — é o que transforma o alcance em base."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com um hook de descrença** sobre um spec real e surpreendente do imóvel (\"dá pra acreditar que [SPEC]?\").\n2. **Guie o tour por legendas**, alternando benefício, pergunta de projeção e humor.\n3. **Destaque a palavra-chave** de cada legenda (cor diferente) pra guiar o olho.\n4. **Inclua perguntas diretas** (\"consegue se imaginar aqui?\") pra puxar comentário.\n5. **Feche com humor + CTA de seguir**. Música em alta como trilha; não precisa narrar."
+     }
+    ]
    }
   ],
   "num": 27
@@ -2345,12 +2524,39 @@
   "desc": "Dois amigos fazem a matemática completa de um investimento, do capital ao lucro líquido.",
   "slug": "simulacao-financeira-em-dialogo-casual-dois",
   "formato": {
+   "estrutura": "1. **[HOOK: PROMESSA + CASO CONCRETO]** \"mercado explicado: olha só\" + começa a montar com números reais. → *slot: o caso.*\n2. **[MECÂNICA PASSO A PASSO]** a conta do financiamento/investimento, número por número. → *slot: os passos.*\n3. **[HONESTIDADE DOS CUSTOS]** incluir taxas/impostos (credibilidade). → *slot: os custos.*\n4. **[PAYOFF]** o resultado que impressiona (\"100 vira 274\"). → *slot: o número final.*\n5. **[REAÇÃO + CTA]** o interlocutor reage (\"preciso fazer isso\") + CTA. → *slot: a prova social + chamada.*\n\n- **Fixo:** diálogo de dois (um explica, outro reage); números reais passo a passo; incluir custos; payoff claro; CTA.\n- **Variável:** a operação, os números, o CTA.",
    "hook": "Dois amigos fazendo a conta em voz alta, do jeito que se fala num boteco: **\"Tu ganha 7 mil, tua mulher 5, dá 12 mil de renda… com isso aprova um financiamento de terreno+construção de 400 mil…\"**. A matemática completa contada como conversa desarma e ensina.",
    "blocos": "- **Premissa concreta (0-10s):** renda do casal → capacidade de financiamento.\n- **A conta passo a passo (10-45s):** terreno+construção R$500k → banco financia 80% → você entra com 100k → casa pronta vende por 750k → menos comissão e imposto → lucro líquido R$174k em ~1 ano.\n- **Reação + CTA (fim):** \"meu Deus, preciso fazer isso!\" / \"clica no link e se inscreve no workshop\".",
    "porque": "- **Diálogo casual desarma:** a matemática pesada vira conversa entre amigos, fácil de acompanhar.\n- **Números concretos e sequenciais** (100k → 274k) tornam o lucro tangível e verificável.\n- **A reação do \"amigo\"** (\"preciso fazer isso agora\") faz o trabalho de persuasão pelo espectador.",
    "aplicar": "- Qualquer operação com matemática de retorno: construção-pra-venda, comprar-reformar-vender, comprar-pra-alugar.\n- Formato de diálogo (2 pessoas) ou narração da conta com números na tela.\n- CTA pode ser workshop, consultoria, ou \"simula comigo\".",
    "guia": "- Números REAIS e defensáveis — o comentário vai refazer a conta.\n- Sequência clara: entrada → financiamento → valor final → custos → lucro líquido.\n- Incluir os custos que \"ninguém conta\" (comissão, imposto de ganho de capital) dá credibilidade.\n- O tom é conversa, não aula — a graça é a informalidade.",
-   "prompt": "```\nVocê é roteirista de conteúdo imobiliário de investimento. Crie uma \"simulação financeira em diálogo casual\":\n1) PREMISSA concreta (renda/capital); 2) A CONTA passo a passo (entrada → financiamento → valor final → custos reais → lucro líquido); 3) REAÇÃO do interlocutor + CTA.\nMEUS DADOS: Operação: [construção-venda / reforma-venda / aluguel]. Números reais de cada etapa: [ ]. Custos \"escondidos\" (comissão/imposto): [ ]. CTA: [ ].\nTOM: conversa entre amigos, informal. Números reais e sequenciais. Incluir custos que ninguém conta.\nENTREGUE: 1) roteiro em diálogo com os números; 2) textos de tela dos valores; 3) legenda; 4) 5 hashtags; 5) CTA.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo imobiliário de conversão. Crie um roteiro de \"simulação financeira em diálogo casual (dois)\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: PROMESSA + CASO CONCRETO (0-6s): \"mercado imobiliário explicado: olha só\" + começa a montar com números reais (renda, etc.)\n2. MECÂNICA PASSO A PASSO: a conta do financiamento/investimento, um número por vez (renda → aprovação → financiamento → valor do imóvel → entrada)\n3. HONESTIDADE DOS CUSTOS: inclua as taxas/impostos (comissão, imposto sobre ganho) — é o que dá credibilidade\n4. PAYOFF: o resultado que impressiona (\"transformou X em Y em Z tempo\")\n5. REAÇÃO + CTA: o interlocutor reage (\"preciso fazer isso\") + CTA (workshop/planilha/direct)\n\n**Meus dados:**\n- Dupla + @: [QUEM EXPLICA e QUEM REAGE + @]\n- A operação: [EX.: construção pra venda, compra na planta pra revender]\n- Os números reais (renda, financiamento, custo, venda, lucro): [DADOS]\n- Os custos a incluir: [COMISSÃO, IMPOSTO, TAXAS]\n- O CTA: [WORKSHOP / PLANILHA / DIRECT]\n\n**Regras de tom:**\n- Diálogo de DOIS — um explica, o outro faz o papel do espectador (pergunta, reage, se convence)\n- Números reais e passo a passo — cada etapa abre a próxima\n- Inclua TODOS os custos (imposto, comissão) — omitir infla o resultado e destrói a confiança\n- Feche no pico do desejo com o CTA\n\n**Entregue:**\n1. O roteiro em diálogo (com as falas dos dois)\n2. As legendas de palavra-chave pra cada etapa da conta\n3. A frase de payoff + a reação de fechamento\n4. O CTA\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade + conversão** (ótimo como ad). A conta concreta prova o argumento e o CTA captura o lead no pico do desejo.\n- Ideal pra quem vende workshop, mentoria, planilha ou capta investidor — o resultado impressionante é a isca."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[OS NÚMEROS]:** reais e passo a passo. A conta precisa ser reproduzível — o espectador vai querer refazer.\n- **[OS CUSTOS]:** inclua imposto, comissão, taxas. É contraintuitivo, mas incluir os custos AUMENTA a credibilidade (não parece papo de guru).\n- **[A DUPLA]:** um explica, o outro reage. A reação (\"meu Deus, preciso fazer isso\") é prova social embutida."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier monólogo:\n\n> \"Transforme em diálogo de dois — um explica, o outro pergunta e reage pelo espectador. A reação é o que torna a conta digerível e crível.\"\n\nSe omitir custos:\n\n> \"Inclua imposto sobre ganho, comissão e taxas na conta. Omitir infla o lucro e destrói a confiança. A honestidade é o diferencial.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Monólogo** — perde a identificação que o \"amigo que reage\" traz.\n2. **Esconder custos** — infla o resultado e derruba a credibilidade.\n3. **Números vagos** — cada etapa precisa de valor concreto e defensável.\n4. **Sem CTA** — desperdiça o pico de desejo pós-payoff."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Dois sentados casualmente (varanda, obra, calçada) — cenário informal reforça a prova.\n- Câmera fixa; legendas de palavra-chave acompanhando cada número.\n- Diálogo natural e empolgado; feche com o CTA no clímax."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta salvabilidade (as pessoas salvam pra refazer a conta) e forte conversão pro CTA (workshop/lead). O comentário mais comum questiona um número — responda com transparência pra virar autoridade. Funciona muito bem como anúncio de captação de investidor."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2360,7 +2566,40 @@
     "link": "https://instagram.com/p/DTVGrHmEYrh",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Dois amigos sentados fazem a conta de um investimento imobiliário passo a passo (\"100 mil viram 274 mil em 1 ano\") — o diálogo casual torna a matemática digerível e o resultado, irresistível."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-6s | Dois sentados na varanda de uma casa; legenda \"Mercado imobiliário explicado: cara olha só\" | \"Cara, olha só: tu ganha 7 mil, tua mulher 5 = 12 mil de renda\" | Hook: promessa de explicação + começa a montar o caso concreto |\n| 6-25s | Diálogo; legenda \"como o banco financia no máximo 80%\" | \"Com 12 mil aprova financiamento terreno+construção de 400 mil; banco financia 80% → imóvel de 500 mil; você só precisa de 100 mil\" | A mecânica do financiamento, passo a passo |\n| 25-45s | Legendas \"então depois de vender a casa / mais todas as taxas\" | \"Custa 500 mil, vende por 750 mil; paga comissão + 15% de imposto sobre ganho de capital\" | A conta da venda — INCLUINDO os custos (honestidade) |\n| 45-58s | Legendas \"te sobraria um lucro líquido / tu transformou 100 mil reais\" | \"Sobra 174 mil líquido. Em ~1 ano, você transformou 100 mil em 274 mil\" | O payoff — o número que impressiona |\n| 58-62s | Legenda \"tu precisa e tu também precisa\" | \"Meu Deus, preciso fazer isso. Clica no link e se inscreve no workshop\" | Reação (prova social) + CTA (workshop) |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O diálogo de dois desarma:** um explica, o outro reage (\"meu Deus, preciso fazer isso\") — a reação é prova social embutida (o espectador se identifica com o cético convencido).\n- **A conta é passo a passo com números reais** — renda → aprovação → financiamento → custo → venda → lucro. Cada etapa é digerível.\n- **Inclui os custos (comissão, 15% de imposto)** — a honestidade sobre as despesas é o que dá credibilidade ao resultado.\n- **O payoff é o gancho** (\"100 mil viram 274 mil em 1 ano\") — concreto e memorável.\n- **CTA pra workshop** captura o lead quente no pico do desejo."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Dois sentados casualmente na varanda de uma casa** (cenário de prova) — informal, sem estúdio, como uma conversa real entre amigos.\n- **Legendas de palavra-chave** acompanham cada etapa da conta (essencial pra seguir os números sem som).\n- **Câmera fixa** — o foco é a conversa e os números, não a produção."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Diálogo natural e empolgado** — o ritmo da conversa conduz; a reação do interlocutor marca o clímax.\n- Sem trilha dominante; a matemática progressiva segura a atenção (cada passo abre o próximo)."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Didática por diálogo** — o \"amigo que reage\" pensa em voz alta pelo espectador (identificação).\n2. **Números concretos passo a passo** — a conta real torna o abstrato tangível.\n3. **Honestidade dos custos** — incluir impostos/taxas gera confiança (não é papo de guru).\n4. **Payoff impressionante** — o resultado (100→274k) é o que faz salvar e compartilhar.\n5. **CTA de conversão** — o workshop capitaliza o desejo no auge."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Monólogo — o diálogo (a reação do outro) é o que torna a conta digerível e crível.\n- ❌ Esconder os custos — omitir imposto/comissão infla o resultado e destrói a credibilidade.\n- ❌ Números vagos — cada etapa precisa de um valor concreto e defensável.\n- ❌ Sem CTA — o pico de desejo pós-payoff é o momento de converter."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Monte a dupla:** um explica, o outro faz o papel do espectador (pergunta, reage, se convence).\n2. **Construa a conta passo a passo** com números reais (renda → financiamento → custo → venda).\n3. **Inclua TODOS os custos** (comissão, imposto) — a honestidade é o que sustenta o resultado.\n4. **Entregue o payoff claro** (\"X vira Y em Z tempo\") como clímax.\n5. **Feche com CTA** (workshop, planilha, direct) no pico do desejo. Cenário casual (varanda, obra) reforça a prova."
+     }
+    ],
     "transcricao": "Cara, olha só, tu ganha 7 mil reais e a tua mulher ganha mais 5.\nEntão vocês têm 12 mil reais de renda mensal comprovada.\nCom 12 mil reais de renda, vocês conseguem aprovar um financiamento de terreno mais construção de 400 mil reais.\nComo o banco financia no máximo 80% do valor do imóvel, a gente estaria falando de um imóvel de 500 mil.\nEntão vocês só precisariam ter 100 mil reais, os outros 400 mil vêm do banco.\nUma casa que o custo total de terreno, mais construção, mais todas as taxas, custa R$500 mil,\nfacilmente seria vendida por uns R$750 mil.\nEntão, depois de vender a casa, você teria que pagar ali a comissão da imobiliária\ne mais 15% do imposto sobre ganho de capital.\nDepois de pagar tudo isso, te sobraria um lucro líquido de R$174 mil.\nOu seja, em uma operação que vai durar mais ou menos um ano,\nvocê transformou R$100 mil em R$274 mil.\nMeu Deus, eu preciso fazer isso agora.\nTu precisa e tu também precisa.\nEntão clica no link da minha Bill e já se inscreve no workshop\nonde eu vou mostrar o passo a passo da construção para a venda."
    }
   ],
