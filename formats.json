@@ -1051,12 +1051,39 @@
   "desc": "Programa habitacional (MCMV) traduzido em lista de benefícios sobre b-roll de rotina.",
   "slug": "explicador-de-programa-habitacional-texto-informativo",
   "formato": {
+   "estrutura": "1. **[INFORMAÇÃO VALIOSA E ATUAL]** o benefício/mudança do programa. → *slot: a info.*\n2. **[PROMESSA NUMERADA]** \"X ajudas/benefícios\". → *slot: o número.*\n3. **[GANCHO PRA LEGENDA]** \"dica/detalhes na legenda\". → *slot: o gancho.*\n\n- **Fixo:** informação atual e valiosa do programa; promessa numerada; empurrar pra legenda; b-roll de suporte.\n- **Variável:** o programa, o benefício, o número.",
    "hook": "Título-benefício direto na tela: **\"MCMV 2026: 4 ajudas que você não sabia\"** sobre b-roll de rotina banal (dirigindo, caminhando). O contraste \"assunto valioso / cena comum\" prende, e a promessa numerada garante retenção.",
    "blocos": "- **Título-benefício na tela (0-3s):** o programa + o número de \"ajudas/benefícios\".\n- **Lista numerada em texto (3-30s):** cada benefício em 1 cartão de texto (subsídio, FGTS, cota, taxa reduzida), sobre b-roll neutro.\n- **CTA suave (fim):** \"salva pra não esquecer\" / \"chama no direct pra simular\".",
    "porque": "- **Programa habitacional é busca constante** do público MCMV — conteúdo evergreen e salvável.\n- **Texto sobre b-roll banal** = produção zero, foco total na informação.\n- **Formato numerado** (\"4 ajudas\") cria loop de contagem e retenção.",
    "aplicar": "- Traduza qualquer regra do MCMV/subsídio/FGTS em uma lista numerada de benefícios.\n- Atualize a cada mudança de faixa/regra (evergreen que se recicla).\n- Versão específica: \"MCMV pra autônomo\", \"MCMV faixa 4\", \"como juntar renda de 3 pessoas\".",
    "guia": "- Números da regra vigente, corretos e datados (\"MCMV 2026\").\n- Um benefício por cartão de texto; leitura em <2s cada.\n- B-roll neutro (não competir com o texto). CTA de salvar/simular.\n- Legenda com a lista escrita por extenso = saves.",
-   "prompt": "```\nVocê é corretor(a) especialista em habitação popular. Crie um Reel \"explicador em texto sobre b-roll\":\n1) TÍTULO-BENEFÍCIO na tela (0-3s): \"[PROGRAMA ANO]: X ajudas que você não sabia\"; 2) LISTA numerada de X benefícios, 1 cartão de texto cada, sobre b-roll neutro; 3) CTA de salvar/simular.\nMEUS DADOS: Programa + ano: [ ]. Os X benefícios com números da regra vigente: [ ]. Público: [ ].\nTOM: informativo, texto na tela (sem narração obrigatória). Números corretos e datados. Zero venda dura.\nENTREGUE: 1) título de capa; 2) os X cartões de texto; 3) legenda com a lista por extenso; 4) 5 hashtags; 5) CTA.\n```"
+   "prompt": "Você é um roteirista de conteúdo imobiliário informativo. Crie um \"explicador de programa habitacional (texto sobre b-roll + dica na legenda)\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. INFORMAÇÃO VALIOSA E ATUAL: o benefício/mudança do programa (\"no [programa] [ano], se for seu 1º imóvel…\")\n2. PROMESSA NUMERADA: \"X ajudas / benefícios / mudanças\"\n3. GANCHO PRA LEGENDA: \"dica na legenda\" (o detalhe vai no texto do post)\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O programa + a novidade: [MCMV/ano + o benefício]\n- Os X benefícios (o detalhe pra legenda): [LISTE]\n- O b-roll de suporte: [A IMAGEM]\n\n**Regras de tom:**\n- Informação ATUAL e valiosa (a novidade é o gancho)\n- Numere a promessa (\"4 ajudas\")\n- Mande o detalhe pra legenda (aumenta engajamento)\n- Texto grande e fixo sobre b-roll de suporte; música\n\n**Entregue:**\n1. O texto da tela (a promessa numerada)\n2. O detalhe completo pra legenda (as X ajudas)\n3. Sugestão de b-roll + música\n4. 5 hashtags\n5. Variações do hook pra testar",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance + conversão** com informação de programa (MCMV, subsídios, mudanças). Toda novidade de programa é um vídeo.\n- Formato rápido de produzir e altamente compartilhável (informação útil e atual)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A NOVIDADE]:** informação atual e valiosa (uma mudança, um benefício novo). A atualidade é o gancho.\n- **[A PROMESSA NUMERADA]:** \"X ajudas/benefícios\" — organiza e cria curiosidade.\n- **[O DETALHE NA LEGENDA]:** mande o \"como\" pro texto do post — aumenta tempo, comentário e salvamento."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se entregar tudo na tela:\n\n> \"Coloque a promessa numerada na tela e mande o detalhe (as X ajudas) pra legenda. Mandar pro texto aumenta o engajamento e o tempo no conteúdo.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Informação desatualizada** — a atualidade do programa é o valor.\n2. **Entregar tudo na tela** — o detalhe na legenda gera engajamento.\n3. **Promessa sem número** — \"algumas ajudas\" é fraco; \"4 ajudas\" prende.\n4. **B-roll que distrai** — deve ser suporte, não protagonista."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- B-roll de suporte (qualquer movimento) + texto informativo grande e fixo + \"dica na legenda\". Música."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance e salvamento (informação útil e atual) + engajamento pela legenda. Ótimo como ad de captação MCMV. Atualize sempre que o programa mudar — cada mudança é um novo vídeo."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1066,7 +1093,40 @@
     "link": "https://instagram.com/p/DTQjKV2Ed4p",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"No MCMV 2026, se for seu primeiro imóvel, você tem 4 'ajudas'\" — o explicador de programa embala uma informação valiosa e atual num texto fixo, mandando o detalhe pra legenda (o gancho de engajamento)."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto (na tela) | Função |\n|---|---|---|---|\n| 0-7s | B-roll de trabalho (instalação de cuba na cozinha) | \"VOCÊ DESCOBRE QUE NO MINHA CASA MINHA VIDA 2026, SE FOR SEU PRIMEIRO IMÓVEL, VOCÊ TEM ESSAS 4 'AJUDAS'\" + \"Dica na legenda\" | O texto informativo + o gancho pra legenda |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A informação é valiosa e ATUAL** (MCMV 2026, benefícios pra 1º imóvel) — novidade de programa gera interesse imediato.\n- **A promessa numerada** (\"4 ajudas\") organiza e cria curiosidade (quais são?).\n- **\"Dica na legenda\"** empurra pro texto do post — aumenta o tempo no conteúdo e o engajamento (comentário/salvamento).\n- **O b-roll (instalação) é só suporte visual** — não relacionado; o valor está no texto."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **B-roll qualquer** (trabalho manual) só pra ter movimento na tela.\n- **Texto informativo grande e fixo** — a mensagem central.\n- **\"Dica na legenda\" pequeno** — o gancho pra legenda."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música/loop** — o vídeo é curto e o texto fixo permite leitura calma.\n- Formato de \"curiosidade na tela → resposta na legenda\"."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Informação valiosa e atual** — a novidade do programa é o gancho.\n2. **Curiosidade numerada** — \"as 4 ajudas\" faz querer saber quais.\n3. **Gancho pra legenda** — mandar pro texto aumenta tempo/engajamento.\n4. **Utilidade** — o benefício real (dinheiro/facilidade) faz salvar."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Informação desatualizada/genérica — a atualidade do programa é o valor.\n- ❌ Entregar tudo na tela — mandar o detalhe pra legenda é o que gera engajamento.\n- ❌ Promessa sem número — \"algumas ajudas\" é fraco; \"4 ajudas\" prende.\n- ❌ B-roll que distrai — deve ser suporte, não protagonista."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escolha uma informação atual e valiosa** de um programa habitacional (mudança, benefício novo).\n2. **Numere a promessa** (\"X ajudas / benefícios / mudanças\").\n3. **Coloque o texto grande e fixo** sobre um b-roll de suporte.\n4. **Mande o detalhe pra legenda** (\"dica na legenda\") — o gancho de engajamento.\n5. Música, sem narração. Atualize sempre que o programa mudar."
+     }
+    ]
    }
   ],
   "num": 12
@@ -1789,12 +1849,39 @@
   "desc": "Selo 'vendido' sobre walk cinematográfico — prova social pura, sem fala.",
   "slug": "just-sold-flex-de-venda-fechada",
   "formato": {
+   "estrutura": "1. **[CENA CINEMATOGRÁFICA]** corretor(a) + imóvel de peso, estética de sucesso. → *slot: a cena.*\n2. **[ANIMAÇÃO \"JUST SOLD\"]** o texto animado como reveal. → *slot: o texto.*\n3. **[COMEMORAÇÃO]** a linguagem corporal da vitória. → *slot: a emoção.*\n\n- **Fixo:** estética cinematográfica; \"JUST SOLD\" animado; comemoração corporal; imóvel de peso como lastro; música.\n- **Variável:** o imóvel, a cena, a corretora.",
    "hook": "Letreiro **\"JUST SOLD\"** (ou \"VENDIDO\") sobre a casa vendida, com walk cinematográfico e música. A prova de resultado é o conteúdo — sem uma palavra dita.",
    "blocos": "- **Selo de venda (0-3s):** \"JUST SOLD / VENDIDO\" sobre o imóvel.\n- **Walk cinematográfico (3-25s):** takes lentos e bonitos da casa vendida, música.\n- **Assinatura (fim):** nome/contato do corretor no card — prova social permanente.",
    "porque": "- **Prova social pura:** cada \"vendido\" acumula percepção de corretor que fecha.\n- **Sem fala = alcance amplo + estética premium** (funciona no mudo, replay).\n- **Formato de selo (#justsold)** é reconhecível e replicável a cada fechamento.",
    "aplicar": "- Todo fechamento vira um \"vendido\" cinematográfico — construa um feed de provas.\n- Variação: \"vendido em X dias\" (cruza com prova de velocidade).\n- Acumule: uma grade de \"vendidos\" no perfil comunica volume.",
    "guia": "- Selo grande e legível logo no primeiro frame.\n- Takes lentos, golden hour se possível; música que valoriza.\n- Nome/contato no card final (o post vira cartão de visita).\n- Sem narração — a imagem + o selo bastam.",
-   "prompt": "```\nVocê é editor(a) de conteúdo de corretor(a). Monte um \"just sold / vendido\" cinematográfico:\n1) SELO \"VENDIDO\" (0-3s) sobre o imóvel; 2) WALK cinematográfico de 5-7 takes lentos com música; 3) ASSINATURA com nome/contato.\nMEUS DADOS: Imóvel vendido: [ ]. Dado de destaque (tempo/valor/recorde): [ ]. Nome+contato: [ ].\nTOM: prova social, estética premium, sem fala. Selo legível no 1º frame.\nENTREGUE: 1) shot list; 2) texto do selo e do card final; 3) estilo de música; 4) legenda; 5) 5 hashtags (incl. #vendido).\n```"
+   "prompt": "Você é um diretor criativo de conteúdo imobiliário. Monte a direção de um \"Just Sold\" (flex cinematográfico de venda fechada), seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. CENA CINEMATOGRÁFICA (0-2s): você + o imóvel de peso vendido, estética de sucesso; \"just\" (script) aparecendo\n2. ANIMAÇÃO \"JUST SOLD\" (2-5s): \"SOLD\" completa como reveal + você comemorando com o corpo (braços pra cima)\n3. FECHO DE ESTILO (5-6s): você satisfeito(a), caminhando\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O imóvel vendido (de peso): [O IMÓVEL]\n- A cena/local de gravação: [ONDE]\n\n**Regras de tom:**\n- Simplicidade radical: 2 palavras (\"just SOLD\") + a cena. Nada de informação extra\n- Estética cinematográfica (o design/produção é metade do formato)\n- Comemoração corporal genuína (a vitória sem palavras)\n- Música, sem legenda informativa — é flex e prova social\n\n**Entregue:**\n1. A direção da cena (enquadramento, movimento, luz)\n2. O timing da animação \"JUST SOLD\" + a comemoração\n3. Sugestão de tipografia + música\n4. 5 hashtags\n5. Legenda curta pro post",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **prova social + branding** (base). Exibe suas vitórias com classe, atrai proprietários (\"esse corretor vende\") e constrói autoridade.\n- Melhor com imóveis de peso e uma estética caprichada. Sem produção, o flex perde a força."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O IMÓVEL]:** de peso — é o lastro do flex. Quanto mais impressionante, mais forte a prova.\n- **[A CENA]:** cinematográfica (você bem vestido, o imóvel, boa luz). O design é metade do formato.\n- **[A COMEMORAÇÃO]:** genuína e corporal (braços pra cima) — a emoção sem palavras."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se quiser adicionar informação:\n\n> \"Não polua. O formato vive da simplicidade: 2 palavras ('just SOLD') + a cena + a comemoração. Qualquer texto extra enfraquece o flex.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Poluir com informação** — a simplicidade é o poder.\n2. **Estética amadora** — o formato vive do capricho cinematográfico.\n3. **Comemoração forçada** — a emoção tem que ser real.\n4. **Imóvel sem impacto** — a mansão é o lastro do flex."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Cena cinematográfica (você + imóvel, boa luz). Tipografia elegante animada (\"just SOLD\").\n- Sincronize a animação com a comemoração. Música, sem legenda informativa."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Formato de prova social/branding — o flex de venda fechada atrai proprietários e constrói autoridade. Estética + emoção geram salvamento e admiração. Use com parcimônia (cada venda de peso é um flex)."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1804,7 +1891,40 @@
     "link": "",
     "en": true,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um \"JUST SOLD\" elegante animando sobre uma mansão, com a corretora comemorando — o flex cinematográfico de fechar transforma a venda em prova social desejável."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto (na tela) | Função |\n|---|---|---|---|\n| 0-2s | Corretora de vestido bege caminhando de costas em direção à piscina/mansão; \"just\" (script) aparecendo | \"just\" | Hook visual: a cena elegante + suspense do que vem |\n| 2-5s | \"SOLD\" (bold) completa; ela comemora (braços pra cima, flex) | \"just SOLD\" | O reveal + a comemoração corporal (a emoção da vitória) |\n| 5-6s | Ela caminhando, satisfeita | — | Fecho de estilo |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O texto É o conteúdo** — duas palavras (\"just SOLD\") animadas com elegância dizem tudo.\n- **A comemoração corporal** (braços pra cima, flex) comunica a vitória sem uma palavra falada.\n- **A mansão dá o lastro** — \"vendi ISSO\" é a prova social implícita.\n- **Estética acima de informação** — é um flex de status, não um anúncio."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Cinematográfico** — corretora bem vestida, mansão, piscina, luz de fim de tarde.\n- **Tipografia elegante animada** (script \"just\" + bold \"SOLD\") — o design é metade do formato.\n- **Sem legenda informativa** — puro estilo e emoção."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música** define o clima; o vídeo é curtíssimo e impactante.\n- O timing da animação \"SOLD\" coincide com a comemoração — o pico visual + emocional juntos."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Prova social / flex** — fechar uma venda de peso é status; o formato o exibe com classe.\n2. **Aspiração** — a estética de sucesso atrai (todo corretor quer esse momento).\n3. **Simplicidade** — duas palavras que qualquer um entende em 1 segundo.\n4. **Emoção** — a comemoração genuína contagia."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Poluir com informação — o poder está na simplicidade (2 palavras + a cena).\n- ❌ Estética amadora — o formato vive do capricho cinematográfico.\n- ❌ Comemoração forçada — a emoção tem que ser genuína.\n- ❌ Imóvel sem impacto — a mansão é o lastro do flex."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Grave uma cena cinematográfica** com você e o imóvel de peso que vendeu (estética de sucesso).\n2. **Anime \"JUST SOLD\"** (tipografia elegante) como reveal.\n3. **Comemore com o corpo** (braços pra cima) — a vitória sem palavras.\n4. **Sincronize** a animação com a comemoração (pico visual + emocional).\n5. Música, sem legenda informativa — é puro estilo e prova social."
+     }
+    ]
    }
   ],
   "num": 20
