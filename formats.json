@@ -6416,12 +6416,39 @@
   "desc": "Storytelling de transformação em frases curtas com herói inesperado e números.",
   "slug": "storytelling-de-transformacao-financeira-em-frases",
   "formato": {
+   "estrutura": "1. **[HOOK PARADOXAL]** uma contradição que intriga (\"ganhava X e estava quebrado\"). → *slot: o paradoxo.*\n2. **[O PROBLEMA + A DECISÃO]** o antes + a virada (herói improvável). → *slot: a decisão.*\n3. **[A CONSTRUÇÃO]** o método em ação (o ciclo, com números). → *slot: o método.*\n4. **[PAYOFF EMOCIONAL]** o resultado além do dinheiro (a família). → *slot: o payoff.*\n5. **[MORAL + CTA]** a tese + o posicionamento do método. → *slot: a moral.*\n\n- **Fixo:** hook paradoxal; arco (problema→decisão→construção→payoff); herói improvável; payoff emocional; moral que posiciona.\n- **Variável:** a história, os números, o método.",
    "hook": "Paradoxo humano em uma frase + herói inesperado: **\"Ele ganhava R$60 mil por mês e estava quebrado. Foi a esposa dele que virou o jogo.\"** O paradoxo (renda alta + falido) intriga; o herói inesperado (a esposa sem formação em finanças) cria a narrativa.",
    "blocos": "- **Paradoxo + herói (0-8s):** \"ganhava muito e estava quebrado — foi [herói inesperado] que virou o jogo\".\n- **A jornada em frases curtas (8-40s):** ela cortou supérfluos, pegou R$5 mil/mês que sobrava, comprou na planta, vendeu, comprou dois, alugou, repetiu 3x em 4 anos.\n- **O resultado + tese (fim):** R$16 mil de renda passiva, o marido mais presente — \"não precisa de fórmula mágica, precisa de coragem pra sair do status quo\".",
    "porque": "- **Paradoxo no hook** para o scroll (\"como ganhar bem e estar quebrado?\").\n- **Frases curtas** dão ritmo de storytelling e mantêm o avanço.\n- **Herói inesperado + transformação concreta** (números da jornada) tornam o sonho crível e replicável.",
    "aplicar": "- Case real de cliente investidor contado como narrativa de transformação (com autorização).\n- Estruture: situação-paradoxo → a decisão → a jornada com números → o resultado → a tese.\n- Frases curtas, ritmo de história.",
    "guia": "- A história tem que ser real ou claramente ilustrativa; números plausíveis.\n- Herói identificável (a esposa, o casal comum) gera projeção.\n- Frases curtas — cada uma avança a história.\n- Fechar com a tese/CTA (a decisão que o espectador pode tomar).",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário de transformação. Crie um anúncio \"storytelling em frases curtas\":\n1) PARADOXO + HERÓI (0-8s): \"[situação paradoxal] — foi [herói inesperado] que virou o jogo\"; 2) JORNADA em frases curtas com números; 3) RESULTADO + tese/CTA.\nMEUS DADOS: O paradoxo inicial: [ ]. O herói: [ ]. A jornada com números: [ ]. O resultado: [ ]. A tese: [ ].\nTOM: storytelling, frases curtas, herói identificável. Real/ilustrativo. Números plausíveis.\nENTREGUE: 1) roteiro em frases curtas; 2) copy; 3) headline com o paradoxo; 4) o arco da jornada; 5) CTA.\n```"
+   "prompt": "Você é um roteirista especialista em storytelling de autoridade financeira. Crie o roteiro de \"storytelling de transformação financeira em frases\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK PARADOXAL (0-6s): uma contradição que intriga (\"ele ganhava [muito] e estava quebrado\")\n2. O PROBLEMA + A DECISÃO: o antes + a virada (com um herói improvável, \"qualquer um consegue\")\n3. A CONSTRUÇÃO: o método em ação (o ciclo, os passos) com números\n4. PAYOFF EMOCIONAL: o resultado além do dinheiro (a família, a liberdade)\n5. MORAL + CTA: a tese memorável + o posicionamento do seu método (\"me segue pra entender…\")\n\n**Meus dados:**\n- Autor + @ + método: [NOME + @ + o que você ensina]\n- O paradoxo do hook: [A CONTRADIÇÃO]\n- O problema + a decisão: [O ANTES + A VIRADA]\n- O método/ciclo (com números): [OS PASSOS]\n- O payoff emocional: [O RESULTADO ALÉM DO DINHEIRO]\n- A moral/tese: [O APRENDIZADO]\n\n**Regras de tom:**\n- Hook paradoxal (uma contradição que exige explicação)\n- Herói improvável (\"qualquer um consegue\"), não gênio\n- Payoff emocional (a família/liberdade), não só o número\n- Moral memorável que posiciona seu método; CTA suave\n\n**Entregue:**\n1. O roteiro (paradoxo → decisão → construção → payoff → moral)\n2. O título fixo + as legendas de frase-chave (uma por corte)\n3. A frase do hook paradoxal\n4. A moral + o CTA suave\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade + captação** de quem vende método/mentoria/consultoria patrimonial. A história prova o método e posiciona você.\n- Funciona pra investimento imobiliário, engenharia patrimonial, educação financeira."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O PARADOXO]:** a contradição do hook (\"ganhava muito e quebrado\"). É o que intriga e prende.\n- **[O HERÓI IMPROVÁVEL]:** alguém que \"qualquer um\" se identifica (a esposa sem formação). Reduz a barreira do \"não é pra mim\".\n- **[O PAYOFF EMOCIONAL]:** o resultado além do dinheiro (a família, a liberdade). É o que conecta."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se faltar arco:\n\n> \"Estruture como jornada: problema → decisão → construção → payoff → moral. Uma sequência de fatos não prende; o arco narrativo sim.\"\n\nSe o payoff vier só financeiro:\n\n> \"Adicione o payoff emocional (a família reunida, a liberdade). O número impressiona, mas a emoção conecta e faz compartilhar.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **História sem arco** — precisa de problema → decisão → construção → payoff.\n2. **Payoff só financeiro** — o emocional é o que conecta.\n3. **Herói gênio** — o improvável (\"qualquer um\") reduz a barreira.\n4. **CTA agressivo** — o \"me segue pra entender\" posiciona sem espantar."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Talking head sofisticado; título fixo + legendas de frase-chave (uma por corte).\n- Tom de contador de história, pausado. Moral + CTA suave no fim."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Conteúdo de autoridade — a história de transformação retém, emociona e posiciona o método. O CTA suave capta quem se identificou. Ideal como ad de branding/captação pra mentoria/consultoria patrimonial."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -6431,7 +6458,40 @@
     "link": "https://www.facebook.com/ads/library/?id=1271545375148022",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Ele ganhava 60 mil e estava quebrado\" — a história de transformação de uma família via imóveis prova que o método (não a renda) muda tudo, e vende a autoridade de quem ensina."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-6s | Talking head; título fixo \"A DECISÃO QUE MUDOU UMA FAMÍLIA INTEIRA\"; legenda \"ele ganhava 60 mil por mês\" | \"Ele ganhava 60 mil por mês e estava quebrado. Foi a esposa dele que virou o jogo\" | Hook paradoxal (ganhava muito e quebrado) + promessa de transformação |\n| 6-30s | Legendas de frase | \"Médico, 16h/dia, cartão no limite. A esposa (sem formação em finanças) tomou as rédeas, cortou o supérfluo, pegou os 5 mil que sobravam e comprou um imóvel na planta\" | O problema + a virada (a decisão) |\n| 30-55s | Legendas \"repetiu o ciclo 3 vezes / pela primeira vez\" | \"Vendeu, comprou dois, colocou pra alugar. Em 4 anos repetiu 3x. Hoje: 16 mil de renda passiva; o marido reduziu plantões, mais presente com os filhos\" | A construção (o método em ação) + o payoff emocional |\n| 55-75s | Legendas \"parar de gastar e começar a construir / pensar\" | \"Tudo começou com uma decisão simples: parar de gastar tudo e começar a construir. Não precisa de fórmula mágica, mas de coragem\" | A moral/tese |\n| 75-87s | Fala | \"Construir patrimônio é o projeto da sua família. Se fez sentido, me segue pra entender como a engenharia patrimonial encurta o tempo\" | O posicionamento + CTA suave |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook é um paradoxo** (\"ganhava 60 mil e estava quebrado\") — a contradição intriga e prende.\n- **A heroína improvável** (a esposa sem formação em finanças) comunica \"qualquer um consegue\" — reduz a barreira.\n- **O payoff é emocional, não só financeiro** (\"mais presente com os filhos\") — conecta além do dinheiro.\n- **A moral é memorável e contraintuitiva** (\"método > renda\", \"as mesmas ações não produzem resultados diferentes\").\n- **CTA suave** (\"me segue pra entender…\") posiciona o método (engenharia patrimonial) sem pressão."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Talking head sofisticado** (ambiente elegante) — coerente com a autoridade financeira.\n- **Título fixo** (\"A decisão que mudou uma família inteira\") + **legendas de frase-chave** (uma por corte).\n- **Tom de contador de história**, gestos medidos."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração de storytelling**, pausada, com peso nas viradas.\n- Ritmo de arco: problema → decisão → construção → payoff → moral."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Paradoxo / curiosidade** — \"ganhava muito e quebrado\" exige explicação.\n2. **Arco narrativo** — a jornada de transformação é viciante.\n3. **Herói improvável** — a esposa sem formação = \"eu também consigo\".\n4. **Payoff emocional** — a família reunida conecta mais que o número.\n5. **Moral que posiciona** — a tese (\"método > renda\") vende a autoridade de quem ensina."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ História sem arco — precisa de problema → decisão → construção → payoff.\n- ❌ Payoff só financeiro — o emocional (a família) é o que conecta.\n- ❌ Herói \"gênio\" — o improvável (qualquer um) reduz a barreira; o gênio afasta.\n- ❌ CTA agressivo — o \"me segue pra entender\" posiciona sem espantar."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com um paradoxo** que intrigue (\"ganhava X e estava quebrado\").\n2. **Conte o problema + a decisão** (a virada), com um herói improvável.\n3. **Mostre a construção** (o método em ação, o ciclo).\n4. **Entregue o payoff emocional** (o resultado além do dinheiro).\n5. **Feche com a moral + CTA suave** que posiciona seu método. Legendas de frase-chave por corte."
+     }
+    ],
     "transcricao": "Ele ganhava 60 mil reais por mês e estava quebrado.\nFoi a esposa dele que virou o jogo.\nEle é médico, trabalhava 16 horas por dia, ganhava bem,\nmas o cartão sempre estava no limite.\nFinanciamento de casa, carro, pagamento de escola, reforma.\nEle não via a cor do dinheiro pelo qual ele vendia a sua vida para ter.\nA esposa, por outro lado, que não tinha formação em finanças,\ndecidiu tomar as rédias.\nEla cortou porque era supérfluo,\nela pegou 5 mil reais por mês que sobrava e comprou o imóvel na planta.\nPouco tempo depois, vendeu esse mesmo imóvel e comprou outros dois.\nColocou os dois para alugar.\nEm quatro anos, ela repetiu esse ciclo três vezes.\nE hoje, cinco anos depois, essa família tem 16 mil reais de renda passiva só de aluguéis.\nE esse marido pôde, pela primeira vez, reduzir a sua carga de plantões.\nEstá mais presente com seus filhos.\nE tudo começou com uma decisão muito simples.\nparar de gastar tudo e começar a construir.\nVocê não precisa de uma fórmula mágica e ela não existe,\nmas é necessário coragem e atitude para sair do status quo.\nAfinal de contas, é muito irracional pensar que as mesmas ações vão produzir resultados diferentes.\nConstruir patrimônio é o projeto da sua família e ele não é só importante para você,\nmas sim para quem está do seu lado.\nSe isso fez sentido para você e você quer entender como a engenharia patrimonial\npode encurtar o tempo até a construção de ativos, me segue para mais conteúdos como esse."
    }
   ],
@@ -6559,12 +6619,39 @@
   "desc": "Imóvel descrito pela ótica do rendimento: cada spec justificado pela ocupação/ROI.",
   "slug": "imovel-produto-para-investidor-de-aluguel",
   "formato": {
+   "estrutura": "1. **[HOOK DE INVESTIMENTO]** \"quer um imóvel com alto rendimento?\". → *slot: o gancho de renda.*\n2. **[FEATURES PRA LOCAÇÃO]** o que atrai inquilino (não morador). → *slot: as features.*\n3. **[A TESE DE RENTABILIDADE]** a localização/driver de ocupação. → *slot: a tese.*\n4. **[CTA DE INVESTIMENTO]** \"conheça seu futuro investimento\". → *slot: o CTA.*\n\n- **Fixo:** vender como ativo de renda (não moradia); features pela ótica do inquilino; localização como driver; CTA de investimento.\n- **Variável:** o imóvel, a localização, as features.",
    "hook": "Descreve o imóvel pela ótica do RENDIMENTO, em 1ª pessoa do investidor: **\"Quero um apartamento versátil de 40m² com alto rendimento — 1 dormitório amplo, varanda gourmet, sala-cozinha integrada, perfeito pra locação. A 50m da USP favorece alta ocupação e rentabilidade.\"** O imóvel é vendido como produto financeiro, não como lar.",
    "blocos": "- **Desejo do investidor (0-8s):** \"quero um apê versátil de alto rendimento\".\n- **Specs traduzidos em rentabilidade (8-30s):** cada característica justificada pela ótica do aluguel (integrado = fácil de alugar; 50m da USP = ocupação alta).\n- **CTA (fim):** \"agende visita ao estande e conheça seu futuro investimento\".",
    "porque": "- **Falar a língua do investidor** (rendimento, ocupação, rentabilidade) atrai o público certo.\n- **Cada spec justificado pelo retorno** (não pela beleza) — argumento financeiro.\n- **Âncora de demanda** (perto da USP) prova a ocupação.",
    "aplicar": "- Qualquer imóvel-produto pra investidor: descreva pela ótica de ocupação/rentabilidade.\n- Cada característica = uma razão de rendimento (\"integrado aluga mais rápido\").\n- Âncora de demanda real (universidade, hospital, centro comercial).",
    "guia": "- Linguagem de investidor: rendimento, ocupação, ROI — não \"lar dos sonhos\".\n- Cada spec com sua justificativa de retorno.\n- Prova de demanda (o que gera ocupação alta ali).\n- CTA de \"conheça seu investimento\", não \"realize seu sonho\".",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário pra investidor. Crie um anúncio \"imóvel-produto de renda\":\n1) DESEJO DO INVESTIDOR (0-8s): \"quero um [imóvel] de alto rendimento\"; 2) SPECS traduzidos em rentabilidade (cada característica = razão de retorno); 3) ÂNCORA de demanda + CTA de investimento.\nMEUS DADOS: Imóvel + specs: [ ]. Justificativa de retorno de cada spec: [ ]. Âncora de demanda (universidade/hospital/centro): [ ].\nTOM: língua de investidor (rendimento/ocupação/ROI). Specs como retorno. Prova de demanda.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) specs→rentabilidade; 5) CTA de investimento.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de imóvel para investidor. Crie o roteiro de \"imóvel-produto para investidor de aluguel\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK DE INVESTIMENTO (0-5s): \"quer um apartamento [versátil] com alto rendimento?\"\n2. FEATURES PRA LOCAÇÃO: as amenidades pela ótica do INQUILINO (o que atrai quem aluga)\n3. A TESE DE RENTABILIDADE: a localização/driver de ocupação (ex.: perto da universidade/polo)\n4. CTA DE INVESTIMENTO: \"conheça seu futuro investimento / agende visita\"\n\n**Meus dados:**\n- Incorporadora + @: [NOME + @]\n- O imóvel (metragem, tipo): [DADOS]\n- As features orientadas a locação: [O QUE ATRAI INQUILINO]\n- A tese de rentabilidade (localização/driver): [POR QUE ALUGA FÁCIL]\n- O CTA: [VISITA / WHATSAPP]\n\n**Regras de tom:**\n- Venda ATIVO DE RENDA, não moradia — o público é o investidor\n- Cada feature justifica a ocupação/aluguel (ótica do inquilino)\n- A localização precisa estar conectada à tese (ocupação → rentabilidade)\n- Enquadre como \"seu futuro investimento\"\n\n**Entregue:**\n1. O roteiro (hook de renda → features → tese → CTA)\n2. Os product cards + o selo \"perfeito pra locação\"\n3. A tese de rentabilidade (localização = ocupação)\n4. O CTA de investimento\n5. Sugestão de segmentação (investidor)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **captação de investidor** de renda (locação) via tráfego pago. Vende o imóvel como ativo, não como lar.\n- Ideal pra studios/compactos perto de polos geradores de demanda (universidade, hospital, centro empresarial)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[AS FEATURES]:** pela ótica do INQUILINO (coworking, espaço influencer, mobiliado). Cada uma justifica por que aluga fácil.\n- **[A TESE DE RENTABILIDADE]:** a localização/driver (perto da USP = demanda constante). É o argumento central de retorno.\n- **[O ENQUADRAMENTO]:** \"seu futuro investimento\", não \"seu lar\". O público é o investidor."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vender como moradia:\n\n> \"Reenquadre como ATIVO DE RENDA. O público é o investidor — fale de rendimento, ocupação, rentabilidade, não de 'morar bem'.\"\n\nSe as features vierem soltas:\n\n> \"Conecte cada feature à ocupação (o que atrai o inquilino). 'Coworking' vale porque atrai quem aluga; justifique pela ótica do ROI.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Vender como moradia** — o público é o investidor; enquadre como ativo.\n2. **Features sem a ótica do inquilino** — cada uma deve justificar a ocupação.\n3. **Localização sem tese** — \"perto de X\" só vale conectado a ocupação/rentabilidade.\n4. **Sem CTA de investimento** — \"conheça seu futuro investimento\" reforça o enquadramento."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Institucional polido (drone, decorado, mapa, product cards com selo \"perfeito pra locação\"). Branding.\n- Narração de oferta objetiva. Mapa como prova da localização. WhatsApp CTA."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de captação de investidor — o enquadramento de ativo + a tese de rentabilidade (localização = ocupação) atraem quem busca renda. Segmente por interesse em investimento. O CTA de visita ao stand gera lead qualificado."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -6574,7 +6661,40 @@
     "link": "https://www.facebook.com/ads/library/?id=1482858766762224",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um apê de 40m² vendido não como casa, mas como PRODUTO DE RENDA — a proximidade da USP e as amenidades de locação transformam o imóvel numa tese de rentabilidade."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-5s | Drone do prédio LIVIN; \"Quer um apartamento versátil de 40m² com alto rendimento?\" | \"Quer um apartamento versátil de 40m² com alto rendimento?\" | Hook: o imóvel como INVESTIMENTO (rendimento, não moradia) |\n| 5-18s | Varanda gourmet, coworking, espaço influencer | \"1 dormitório amplo, varanda gourmet, sala-cozinha integrada, perfeito pra locação. Piscina aquecida, coworking mobiliado, espaço influencer\" | As features orientadas a LOCAÇÃO (o que atrai inquilino) |\n| 18-28s | Mapa \"50m da USP\"; legendas \"Alta ocupação / Rentabilidade\" | \"A 50m da USP favorece alta ocupação e rentabilidade\" | A tese de rentabilidade — localização = demanda de aluguel |\n| 28-34s | Logo LIVIN + \"Clique e agende sua visita\" (WhatsApp) | \"Clique e agende sua visita ao stand e conheça seu futuro investimento\" | CTA (visita / \"futuro investimento\") |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook vende INVESTIMENTO, não moradia** (\"alto rendimento\") — fala com o investidor, não com quem vai morar.\n- **As features são vendidas pela ótica do INQUILINO** (coworking, espaço influencer, varanda gourmet = o que atrai quem aluga) — cada uma justifica a ocupação.\n- **A localização é a tese de rentabilidade:** \"50m da USP\" → demanda constante de aluguel → alta ocupação → rentabilidade.\n- **\"Seu futuro investimento\"** (não \"seu lar\") reforça o enquadramento de ativo.\n- **CTA de visita ao stand** com WhatsApp fecha."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Institucional polido** (drone, decorado, mapa, product cards com selo ✓ \"perfeito pra locação\").\n- **Branding LIVIN / Rocha Vaz** consistente.\n- **Mapa da USP** como prova visual da localização (o driver de rentabilidade)."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração de oferta** objetiva, listando features + a tese.\n- Ritmo enxuto (34s) — anúncio de conversão direto."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Interesse de investidor** — \"alto rendimento\" fisga quem busca ativo.\n2. **Lógica de rentabilidade** — localização (USP) = ocupação = retorno.\n3. **Features orientadas a ROI** — cada amenidade justifica o aluguel.\n4. **Autoridade de marca** — a incorporadora dá lastro.\n5. **CTA de baixo atrito** — visita ao stand via WhatsApp."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Vender como moradia — o público é o INVESTIDOR; o enquadramento é ativo de renda.\n- ❌ Features sem a ótica do inquilino — cada uma deve justificar a ocupação/aluguel.\n- ❌ Localização sem a tese — \"perto da USP\" só vale se conectado a ocupação/rentabilidade.\n- ❌ Sem CTA de investimento — \"conheça seu futuro investimento\" reforça o enquadramento."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o gancho de renda** (\"quer um imóvel com alto rendimento?\").\n2. **Apresente as features pela ótica do inquilino** (o que atrai quem vai alugar).\n3. **Construa a tese de rentabilidade** (a localização/driver de ocupação).\n4. **Feche com CTA de investimento** (\"conheça seu futuro investimento\").\n5. Enquadre tudo como ATIVO (não lar); use mapa/dados como prova da tese."
+     }
+    ],
     "transcricao": "Quer um apartamento versátil de 40 metros quadrados com alto rendimento?\nUm dormitório amplo, varanda gourmet, sala cozinha integradas, perfeito para locação.\nPiscina aquecida, co-working mobiliado e espaço influencer são um dos espaços que compõem o living.\nA 50 metros da USP favorece alta ocupação e rentabilidade.\nClique agora, agende sua visita ao Stand e conheça seu futuro investimento."
    }
   ],
