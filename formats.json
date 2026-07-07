@@ -410,6 +410,7 @@
   "desc": "Hook de arrependimento + revelação de um direito/benefício desconhecido com valor em R$.",
   "slug": "regret-fomo-se-eu-soubesse-antes",
   "formato": {
+   "estrutura": "1. **[HOOK-ARREPENDIMENTO]** \"Se eu soubesse disso antes… 🥲\" sobre b-roll aspiracional, SEM revelar o \"disso\". → *slot: a consequência emocional.*\n2. **[B-ROLL ASPIRACIONAL]** imóvel bonito, sem pessoa (identificação ampla). → *slot: o que filmar.*\n3. **[REVELAÇÃO]** o direito/benefício desconhecido, com base (lei/regra) e valor em R$. → *slot: a informação verificável.*\n4. **[INSTRUÇÃO/LEGENDA]** o passo prático + a fonte, na legenda.\n\n- **Fixo:** não revelar no hook; informação verificável; tom melancólico (não alarmista); curtíssimo (10-15s).\n- **Variável:** o benefício/direito (cartório, ITBI, FGTS, subsídio), o b-roll.",
    "hook": "B-roll de casa nova bonita + texto de arrependimento: **\"Se eu soubesse disso antes, teria aproveitado essa oportunidade 🥲\"**. Curiosity gap + aversão à perda — o \"disso\" não é revelado, obrigando a ficar pra descobrir.",
    "blocos": "- **Hook de arrependimento (0-3s):** frase de FOMO sobre b-roll aspiracional, SEM revelar o segredo.\n- **Revelação (3-20s):** o benefício desconhecido — desconto de 50% nas taxas de cartório na 1ª compra financiada (Lei 6.015/73).\n- **Instrução prática (20-30s):** INFORMAR ao cartório que é a primeira compra — \"muitos pagam o valor cheio sem saber\".\n- **Fechamento protetor:** \"se ninguém mencionar, não deixe de pedir o seu desconto\".",
    "porque": "- **Informação com valor monetário concreto e verificável** (uma lei) — compartilhável por utilidade.\n- **Enquadramento de arrependimento** transfere a dor: \"não deixe acontecer com você\".\n- **Barreira zero de produção:** b-roll + texto; o que viraliza é a INFORMAÇÃO.",
@@ -427,32 +428,40 @@
     "temTranscricao": false,
     "analise": [
      {
-      "titulo": "Hook (0-3s)",
-      "corpo": "- **Visual:** b-roll de casa nova (área externa com grama, céu azul) — nada de rosto.\n- **Texto na tela:** \"Se eu soubesse disso antes, teria aproveitado essa oportunidade 🥲\"\n- **Mecanismo:** curiosity gap + aversão à perda. O \"disso\" não é revelado — obriga a continuar. O emoji de choro contido sinaliza arrependimento real, não clickbait agressivo."
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 11 · Se Eu Soubesse (Regret/FOMO) |\n| Criador | @isaiasreiscorretor · Instagram Reels |\n| Link | instagram.com/p/DFvxxTzB1uk |\n| Métrica | **529 mil curtidas** |\n| Duração | ~10s · vertical 9:16 · sem fala (b-roll + texto + música) |"
      },
      {
-      "titulo": "Estrutura por blocos",
-      "corpo": "1. **Hook de arrependimento (0-3s):** frase de regret sobre b-roll bonito.\n2. **Revelação da informação (3-20s):** a \"oportunidade\" é um direito desconhecido: **desconto de 50% nas taxas de cartório na primeira compra de imóvel financiado** (Lei 6.015/73). Entregue via texto na tela sobre o b-roll.\n3. **Instrução prática (20-30s):** o segredo é INFORMAR ao cartório que é a primeira compra financiada — \"muitas pessoas não sabem e pagam o valor cheio\".\n4. **Reforço de confiança (final):** \"alguns corretores e bancos já ajudam a incluir isso no contrato. Se ninguém mencionar, não deixe de pedir o seu desconto.\"\n\n> ⚠️ Divisão por tempo a confirmar com o vídeo baixado. Conteúdo integral confirmado pela legenda."
+      "titulo": "Veredito em uma linha",
+      "corpo": "B-roll de uma casa dos sonhos + a frase **\"Se eu soubesse disso antes… 🥲\"** — o hook de arrependimento segura, e a revelação (**50% de desconto no cartório na 1ª compra, por lei**) entrega valor concreto e verificável, que compartilha por utilidade."
      },
      {
-      "titulo": "Elementos de edição",
-      "corpo": "- B-roll simples do imóvel + texto na tela. Sem talking head — formato replicável por QUALQUER corretor tímido.\n- Legenda faz o trabalho pesado (SEO + valor completo por escrito)."
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto na tela | Função |\n|---|---|---|---|\n| **0–3s** | Quintal com grama verde perfeita, céu azul (casa moderna) | **\"Se eu soubesse disso antes, teria aproveitado essa oportunidade 🥲\"** | **Hook de arrependimento** — curiosity gap: o \"disso\" não é revelado |\n| **3–7s** | Corte pro interior (sala vazia, moderna, janelões, iluminação em LED) | (mesmo hook segue) | **B-roll aspiracional** mantém o desejo enquanto a curiosidade cresce |\n| **7–10s** | Interior | **\"Se for o seu primeiro imóvel financiado, você tem direito, por lei, a 50% de desconto em registro e escritura do imóvel.\"** | **Revelação** — a informação de valor, com base legal |"
      },
      {
-      "titulo": "Assunto viral",
-      "corpo": "- **Do nicho:** medo de ser enganado / pagar mais do que devia (dor central do comprador de primeiro imóvel).\n- **Universal:** dinheiro perdido por desconhecimento.\n- **Emoções:** quente — **raiva branda** (\"ninguém me contou isso!\") + surpresa (dado desconhecido). Fria — **esperança** (dá pra economizar).\n- **Validação em cascata:** o comentário fixado de um engenheiro cita a lei e amplia a dica (isenção parcial de ITBI com FGTS) — a comunidade completa o conteúdo."
+      "titulo": "Análise de copy",
+      "corpo": "- **Hook = arrependimento + curiosity gap:** \"se eu soubesse DISSO antes\" — a palavra \"disso\" é uma lacuna que o cérebro precisa fechar. O 🥲 dá tom melancólico (não alarmista) — mais confiável.\n- **A revelação é a estrela:** \"50% de desconto em registro e escritura, por lei, na 1ª compra financiada\". Informação com **valor monetário concreto e verificável** (é lei). Isso é o que gera o compartilhamento — as pessoas mandam pra quem vai comprar.\n- **Enquadramento de transferência de dor:** o \"se eu soubesse\" faz o espectador pensar \"não quero perder isso também\" → salva/compartilha pra não esquecer.\n- **A legenda carrega o resto** (o passo prático: informar ao cartório) — o vídeo é curto de propósito."
      },
      {
-      "titulo": "Por que funciona",
-      "corpo": "1. **Informação de valor monetário concreto e verificável** — não é opinião, é lei. Compartilhável por utilidade (\"manda pra quem vai comprar\").\n2. **Enquadramento de arrependimento** transfere a dor pro espectador: \"não deixe acontecer com você\".\n3. **Barreira zero de produção** — b-roll + texto. O que viraliza é a INFORMAÇÃO, não a execução.\n4. **Autoridade emprestada:** quem conta o segredo do cartório vira \"o corretor que sabe das coisas\"."
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **B-roll aspiracional, brilhante, sem pessoa:** grama verde impecável + céu azul + casa moderna vazia. É o \"sonho da casa própria\" genérico — funciona pra qualquer um se projetar. A ausência de rosto amplia a identificação.\n- **Texto branco com contorno preto, centralizado:** legível sobre qualquer fundo, padrão de Reel de informação.\n- **Zero produção de fala/edição sofisticada:** o que viraliza é a INFORMAÇÃO, não a estética. Câmera estável, luz natural, cortes simples.\n- **Curtíssimo (~10s):** força o replay e o \"quê? deixa eu ler de novo\" — ótimo pro algoritmo."
      },
      {
-      "titulo": "CTA",
-      "corpo": "Implícito (a legenda encerra com instrução prática, não com venda). O ativo construído é autoridade."
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música de fundo (sem fala).** Ritmo rápido — hook → b-roll → revelação em 10s. A brevidade é a arma: entrega o valor e solta."
      },
      {
-      "titulo": "Como aplicar a MESMA estrutura",
-      "corpo": "- Qualquer **direito/benefício desconhecido**: isenção de ITBI em alguns municípios, uso do FGTS a cada 2 anos p/ amortizar, desconto no leilão da Caixa, subsídio MCMV por faixa, portabilidade de financiamento.\n- Qualquer **erro caro evitável**: \"Se eu soubesse que a vistoria de entrega podia ser acompanhada por engenheiro...\", \"Se eu soubesse que dava pra negociar a taxa do banco...\".\n- **Fora do imobiliário** (generalização): funciona pra qualquer nicho onde exista custo invisível + regra desconhecida (contador, advogado, médico).\n- **Fórmula:** b-roll aspiracional + \"Se eu soubesse disso antes...\" + revelação com número concreto + instrução prática + fechamento protetor (\"não deixe de pedir o seu\")."
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Curiosity gap** (\"disso\"): a lacuna obriga a ver a revelação.\n2. **Aversão à perda / FOMO:** \"teria aproveitado\" → medo de estar perdendo isso agora.\n3. **Utilidade verificável:** informação legal concreta = compartilhável e salvável (529 mil curtidas).\n4. **Transferência de dor:** \"não deixe acontecer com você\"."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Revelar o \"disso\" no hook — a lacuna é o motor.\n- ❌ Informação não verificável — erro numa \"lei\" destrói a reputação. Confirme antes.\n- ❌ Tom alarmista (\"VOCÊ ESTÁ SENDO ROUBADO!!\") — o 🥲 melancólico converte mais.\n- ❌ Não converter em R$ — \"50% do cartório\" vira \"até R$4.000 num imóvel de R$300 mil\" na legenda."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Escolha um direito/benefício desconhecido e verificável** (desconto cartório 1ª compra, isenção de ITBI, FGTS a cada 2 anos, subsídio MCMV).\n2. **Hook:** \"Se eu soubesse disso antes… 🥲\" sobre b-roll aspiracional, SEM revelar.\n3. **Revele no fim** com a base (lei/regra) e o valor em R$.\n4. **Legenda** com o passo prático + a fonte. Fixe o melhor comentário técnico como prova.\n5. **Mantenha curto** (10-15s) e a estética limpa — a informação é a estrela.\n\n> **Fórmula:** b-roll aspiracional + \"Se eu soubesse antes…\" + revelação com número + instrução prática + fechamento protetor (\"se ninguém te falar, exija\")."
      }
     ]
    }
@@ -634,6 +643,7 @@
   "desc": "Inimigo comum + revelação de uma mecânica escondida (amortização) com matemática simples.",
   "slug": "segredo-insider-o-banco-nao-quer",
   "formato": {
+   "estrutura": "1. **[HOOK 3-CAMADAS]** \"[INIMIGO INSTITUCIONAL] não quer / que você saiba disso / ❌ mas eu te conto 🤫\". → *slot: o inimigo (categoria).*\n2. **[TESE CONTRAINTUITIVA]** a crença comum quebrada em 1 frase. → *slot: a mecânica escondida.*\n3. **[PROVA NUMÉRICA]** card com o exemplo em números redondos. → *slot: os valores.*\n4. **[CTA LEGENDA]** \"leia a legenda\" + a aula completa por escrito.\n\n- **Fixo:** inimigo = CATEGORIA (nunca empresa nomeada); números redondos; dominar a mecânica (os comentários testam); tom firme-cúmplice.\n- **Variável:** a mecânica (amortização, portabilidade, FGTS), o inimigo (banco, construtora, cartório, portal).",
    "hook": "Hook conspiratório em 3 camadas de texto: **\"O BANCO NÃO QUER / QUE VOCÊ SAIBA DISSO / ❌ mas eu te conto 🤫\"**. Inimigo comum + aliança com o espectador = o gatilho de confiança mais forte.",
    "blocos": "- **Hook conspiratório (0-3s):** o inimigo institucional + a promessa de revelar.\n- **Conceito (3-15s):** numa prestação de R$1.000, ~R$700 são juros e só R$300 amortizam.\n- **A sacada (15-35s):** pagar extras abate direto o saldo — amortizar R$300 economiza os R$700 de juros da parcela.\n- **Efeito acumulado (35-45s):** repetindo, quita muito antes.\n- **Objeção autorespondida:** \"Ah, mas eu não vou ter R$1.300 todo mês…\".",
    "porque": "- **Inimigo comum** (o banco, categoria) é o gatilho de aliança mais forte — quem revela o segredo do vilão vira aliado.\n- **Matemática simples e verificável** = compartilhável; economia concreta de R$700/mês.\n- **Autoresposta à objeção** mantém o cético até o fim.",
@@ -651,32 +661,40 @@
     "temTranscricao": false,
     "analise": [
      {
-      "titulo": "Hook (0-3s)",
-      "corpo": "- **Visual:** b-roll de obra (estrutura de tijolos e concreto em construção) — nada de rosto.\n- **Texto na tela (3 camadas):** \"O BANCO NÃO QUER\" (destaque amarelo) / \"QUE VOCÊ SAIBA DISSO\" / \"❌ mas eu te conto 🤫\"\n- **Mecanismo:** conspiração + inimigo comum (banco) + aliança com o espectador (\"mas eu te conto\"). O ❌ e o 🤫 fazem o papel de conflito e cumplicidade."
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 16 · Segredo do Banco (insider / inimigo comum) |\n| Criador | @rafaelwainer · Instagram Reels |\n| Link | instagram.com/p/CtrL8uNA6dL |\n| Métrica | **136 mil curtidas** |\n| Duração | ~14s · vertical 9:16 · sem fala (b-roll de obra + texto + música) |"
      },
      {
-      "titulo": "Estrutura por blocos",
-      "corpo": "1. **Hook conspiratório (0-3s):** o banco esconde algo de você.\n2. **Conceito (3-15s):** amortização — em uma prestação de R$1.000, ~R$700 são juros e só R$300 amortizam a dívida.\n3. **A sacada (15-35s):** pagar valores extras todo mês abate DIRETO no saldo devedor: amortizar R$300 extras economiza os R$700 de juros daquela parcela — \"uma economia de R$700\".\n4. **Efeito acumulado (35-45s):** repetindo todo mês, o financiamento quita em prazo muito menor.\n5. **Objeção antecipada (final):** \"Ah, Rafael, mas eu não vou ter todos os meses R$1.300 para pagar\" — ele mesmo levanta e responde a objeção (assimetria de conhecimento vira diálogo).\n\n> ⚠️ Divisão por tempo a confirmar com o vídeo. Conteúdo integral confirmado pela legenda (a legenda é uma mini-aula completa)."
+      "titulo": "Veredito em uma linha",
+      "corpo": "Hook conspiratório em 3 camadas (\"**O BANCO NÃO QUER que você saiba disso… mas eu te conto 🤫**\") sobre b-roll de obra, e um **card preto com a matemática da amortização** — o inimigo comum + a conta simples e verificável = aliança e compartilhamento."
      },
      {
-      "titulo": "Elementos de edição",
-      "corpo": "- B-roll de obra + texto na tela; a legenda entrega a aula por escrito (salvável).\n- Exemplo numérico redondo (R$1.000 / R$700 / R$300) — matemática que se acompanha de cabeça."
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto na tela | Função |\n|---|---|---|---|\n| **0–3s** | B-roll de obra (casa em construção, tijolo, pilares de concreto) | **\"O BANCO NÃO QUER\"** (amarelo) / **\"QUE VOCÊ SAIBA DISSO\"** (branco) / **\"❌ mas eu te conto 🤫\"** | **Hook conspiratório** — inimigo comum + aliança |\n| **3–8s** | Obra | **\"PAGAR NORMALMENTE AS PRESTAÇÕES É A PIOR ESTRATÉGIA! Todo valor que você paga ALÉM da prestação é LIVRE DE JUROS\"** (destaques amarelos) | **A tese** — quebra a crença de que pagar a parcela é o certo |\n| **8–14s** | Obra + card preto | Card com o exemplo: **Parcela R$1.000 · Juros R$700 · Amortização R$300**. \"Amortizar +R$300 economiza os R$700 de juros. Imagina fazer isso todo mês!\" + **\"Leia a legenda!\"** | **A prova numérica** + CTA pra legenda |"
      },
      {
-      "titulo": "Assunto viral",
-      "corpo": "- **Do nicho:** juros de financiamento — a maior dor financeira do comprador.\n- **Universal:** \"o sistema te explora e escondem isso de você\".\n- **Emoções:** quente — **raiva** (banco lucrando com sua ignorância) + surpresa (a mecânica da amortização é desconhecida). Fria — esperança (dá pra quitar antes)."
+      "titulo": "Análise de copy",
+      "corpo": "- **Hook de inimigo comum:** \"O BANCO NÃO QUER que você saiba\" — o gatilho de aliança mais forte que existe. Quem revela o segredo do vilão vira aliado do espectador. O 🤫 reforça a cumplicidade.\n- **A tese contraintuitiva:** \"pagar a parcela normalmente é a PIOR estratégia\" — choca porque contraria o senso comum, e prende até a explicação.\n- **Matemática redonda e verificável:** R$1.000 / R$700 / R$300. Números limpos que o espectador refaz de cabeça. A economia concreta (R$700/mês) é o que gera o save.\n- **\"Leia a legenda!\":** empurra pro texto longo (a aula completa), aumentando tempo no post e saves.\n- **Inimigo = CATEGORIA (o banco), nunca empresa nomeada** — proteção jurídica."
      },
      {
-      "titulo": "Por que funciona",
-      "corpo": "1. **Inimigo comum** é o gatilho de aliança mais forte que existe: quem revela o segredo do vilão vira aliado automático.\n2. **Matemática simples e verificável** — o espectador consegue refazer a conta, e conteúdo verificável é compartilhável.\n3. **Economia concreta (R$700/mês)** — valor maior que a promessa de muitos salários.\n4. **Autoresposta à objeção** mantém o cético assistindo até o fim (retenção)."
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **B-roll de obra (casa em construção):** genial — \"patrimônio sendo construído\", real, tangível. Conecta com quem está financiando/construindo. Não é aspiracional-vazio, é \"trabalho real\".\n- **Hook em 3 camadas com cores:** amarelo (destaque/alerta) + branco + o ❌ vermelho. Hierarquia visual que guia a leitura em 2s.\n- **Card preto de informação:** separa a \"aula\" do b-roll — fundo escuro, checkmarks amarelos, números organizados. Estética de \"documento/segredo revelado\".\n- **Sem rosto, sem fala:** o conteúdo é a mecânica; a obra + os cards carregam. Barreira zero de produção."
      },
      {
-      "titulo": "CTA",
-      "corpo": "Implícito — autoridade e save. A legenda-aula gera salvamentos, o melhor sinal de \"conteúdo útil\" pro algoritmo."
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música (sem fala).** Curto (~14s) e denso — hook → tese → prova. A brevidade + a legenda-aula é a combinação: gancho no vídeo, profundidade no texto."
      },
      {
-      "titulo": "Como aplicar a MESMA estrutura",
-      "corpo": "- **Fórmula:** \"[INIMIGO PODEROSO] não quer que você saiba disso — mas eu te conto\" + mecânica técnica com exemplo numérico redondo + objeção autorespondida.\n- Variações: \"A construtora não quer que você saiba disso\" (tabela de reajuste INCC), \"O cartório não te conta isso\" (desconto 1ª compra — cruza com A11), \"O portal de imóveis esconde isso de você\" (imóveis fora dos portais).\n- Cuidado: o inimigo precisa ser instituição, nunca pessoa/empresa nomeada (risco jurídico).\n- Generalização: qualquer nicho com intermediário poderoso e taxa invisível (planos de saúde, telefonia, bancos em geral)."
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Inimigo comum (aliança):** \"o banco contra você, e eu do seu lado\".\n2. **Contraintuição:** \"pagar a parcela é errado?!\" prende.\n3. **Matemática verificável:** o espectador refaz a conta → confia e salva.\n4. **Curiosidade + autoridade:** revelar um \"segredo\" técnico posiciona como quem entende."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Acusar empresa/banco nomeado — risco jurídico. Sempre a categoria.\n- ❌ Conta que não fecha — se os números quebram, use \"aproximadamente\"; o comentário vai testar.\n- ❌ Tom histérico (\"O BANCO TE ROUBA!!\") — atrai denúncia; o tom firme-cúmplice converte.\n- ❌ Não dominar a mecânica — os comentários testam, e sua resposta é metade do valor."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Escolha uma mecânica escondida** que beneficia o espectador (amortização, portabilidade, quitar com FGTS).\n2. **Hook 3 camadas:** \"[INIMIGO INSTITUCIONAL] não quer / que você saiba disso / ❌ mas eu te conto 🤫\" sobre b-roll (obra/imóvel).\n3. **Tese contraintuitiva** em 1 frase + **prova numérica redonda** num card.\n4. **CTA \"leia a legenda\"** e escreva a aula completa no texto (= saves).\n5. **Recicle a cada 6 meses** com números atualizados — é evergreen.\n\n> **Variações:** \"A construtora não te conta\" (INCC), \"O cartório esconde\" (desconto 1ª compra), \"O portal não mostra\" (imóveis fora dos portais)."
      }
     ]
    }
@@ -976,6 +994,7 @@
   "desc": "'Não pergunte o preço, pergunte isso' — inversão + armadilhas reais com número.",
   "slug": "advertencia-de-especialista",
   "formato": {
+   "estrutura": "1. **[INVERSÃO]** \"não pergunte [o óbvio], pergunte isso\". → *slot: o óbvio que todos perguntam.*\n2. **[PROMESSA NUMERADA]** \"X perguntas — a última é a que mais salva\". → *slot: nº de perguntas.*\n3. **[ARMADILHAS]** cada pergunta expõe um risco real com número/consequência. → *slot: as perguntas + armadilhas.*\n4. **[ASSINATURA + CTA]** sua credencial + \"comenta seu caso\".\n\n- **Fixo:** guardar a melhor pergunta pro fim; cada armadilha com número; estética de autoridade; CTA de comentar (não de venda).\n- **Variável:** o tema (planta, financiamento, contrato), as perguntas.",
    "hook": "Inversão contraintuitiva: **\"Quando for comprar seu primeiro imóvel, não pergunte o preço primeiro. Pergunte isso.\"** + promessa de 3 perguntas, \"e a terceira é a que mais salva seu dinheiro, mas ninguém faz\". Autoridade + curiosity gap + aversão à perda.",
    "blocos": "- **Inversão + promessa numerada (0-10s):** \"não pergunte o preço\" + \"3 perguntas, a 3ª é a que mais salva\".\n- **Pergunta 1 (10-30s):** \"qual o valor TOTAL com todos os reajustes?\" — explica o INCC corrigindo a parcela +20% antes das chaves.\n- **Pergunta 2 (30-45s):** \"e se eu desistir?\" — cláusula que retém até 50% do pago.\n- **Pergunta 3 (45-60s):** \"posso levar o contrato pra casa antes de assinar?\" — se não pode, saia. Contrato de 40 páginas, juros escondidos.\n- **Assinatura + CTA:** \"sou Priscila, 11 anos protegendo patrimônio… comenta seu caso\".",
    "porque": "- **Inverte o senso comum** (preço não é o que importa) — para o scroll e ensina.\n- **Cada pergunta expõe uma armadilha real** com número (INCC +20%, multa de 50%) — utilidade que salva (64,5K saves).\n- **Autoridade nomeada** (advogada, 11 anos) + CTA de comentar caso = leads.",
@@ -991,7 +1010,44 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 24 · Alerta do Expert (advertência de especialista) |\n| Criadora | @advogadaexpert (Priscila) · TikTok |\n| Link | tiktok.com/@advogadaexpert/video/7646548313923226881 |\n| Métrica | **176,8K likes / 64,5K saves / 25,7K shares** — também roda como anúncio (183 dias) |\n| Duração | ~2min · vertical 9:16 · talking head |"
+     },
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Advogada num escritório de luxo inverte o senso comum (\"**não pergunte o preço primeiro, pergunte isso**\") e entrega **3 perguntas que expõem armadilhas reais do contrato** — autoridade cara + utilidade que salva dinheiro = 64,5 mil saves."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Fala (legenda) | Função |\n|---|---|---|---|\n| **0–10s** | Talking head, terno risca-de-giz, mesa de mármore | \"Quando for comprar seu 1º imóvel, não pergunte o preço primeiro. Pergunte isso. São 3 perguntas — e a 3ª é a que mais salva dinheiro, mas ninguém faz\" | **Inversão + promessa numerada** (curiosity gap na 3ª) |\n| **10–35s** | Talking head + gestos | **Pergunta 1:** \"Qual o valor TOTAL com todos os reajustes?\" — explica o INCC corrigindo a parcela +20% antes das chaves | **Armadilha 1** com número |\n| **35–55s** | Corte (adega/detalhe de luxo) + talking | **Pergunta 2:** \"E se eu precisar desistir?\" — cláusula que retém até 50% do pago; a construtora ainda revende | **Armadilha 2** (distrato) |\n| **55–90s** | Talking head | **Pergunta 3:** \"Posso levar o contrato pra casa antes de assinar?\" — se não pode, saia. 40 páginas, juros escondidos | **A pergunta-clímax** (a prometida) |\n| **90–120s** | Talking head | \"Sou Priscila, há 11 anos protejo o patrimônio de quem é lesado… comenta seu caso\" | **Assinatura de autoridade + CTA de comentar** |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Inversão contraintuitiva no hook:** \"não pergunte o preço\" contraria o instinto de todo comprador → para o scroll. + promessa numerada com curiosity gap (\"a 3ª é a que mais salva, mas ninguém faz\") = retenção até o fim.\n- **Cada pergunta expõe uma armadilha real com número** (INCC +20%, multa de 50%). Não é conselho vago — é utilidade que economiza dinheiro (por isso 64,5 mil saves).\n- **A ordem crescente** (a \"melhor\" pergunta guardada pro fim) sustenta a curva de retenção.\n- **Assinatura de autoridade** (\"11 anos protegendo patrimônio\") + **CTA de comentar caso** → os comentários viram consultório (leads)."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Setup de autoridade de alto padrão:** terno risca-de-giz, mesa de mármore, arte dourada texturizada na parede, luz de sconce quente e cinematográfica. Comunica \"especialista cara que protege seu dinheiro\" — a estética VENDE a competência antes da fala.\n- **Enquadramento estável, meia-figura, à mesa:** postura de autoridade/consultoria (como quem te atende no escritório).\n- **Gestos de mão marcados:** pontuam cada argumento, dão energia ao talking head e mantêm o olho.\n- **Legendas brancas discretas, centralizadas:** consumo no mudo sem competir com o rosto.\n- **Corte pontual pra detalhe de luxo (adega):** reforça o status/autoridade sem quebrar o fluxo."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala firme, articulada, ritmo de quem domina o assunto.** Sem música competindo (a voz e a autoridade são o produto). Cortes limpos entre as perguntas mantêm a peça longa dinâmica."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Inversão do senso comum:** \"não pergunte o preço\" quebra o padrão → atenção.\n2. **Aversão à perda + medo de armadilha:** cada pergunta expõe um jeito de você ser lesado.\n3. **Autoridade cara:** a estética de luxo empresta credibilidade à mensagem.\n4. **Curiosity gap numerado:** a \"3ª pergunta\" prometida segura até o fim."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Informação juridicamente incorreta — aqui o erro é grave; confirme a base legal.\n- ❌ Perguntas vagas sem número/consequência — cada uma precisa expor uma armadilha concreta.\n- ❌ Revelar a \"melhor\" pergunta no começo — guarde a promessa do hook pro fim.\n- ❌ Estética amadora — parte da autoridade deste formato é o ambiente/figurino de expert.\n- ❌ CTA de venda — o CTA é \"comenta seu caso\" (gera leads sem parecer venda)."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Inverta o óbvio:** \"não pergunte [o que todos perguntam], pergunte isso\" + prometa X perguntas (\"a última é a que mais salva\").\n2. **Cada pergunta expõe uma armadilha real** do seu mercado, com número/consequência (reajuste, distrato, contrato).\n3. **Guarde a melhor pro fim.**\n4. **Feche com sua credencial** + \"comenta seu caso/dúvida\".\n5. **Estética de autoridade:** ambiente cuidado, figurino de especialista, luz quente, legendas limpas. Grave em meia-figura, com gestos.\n\n> **Uso pelo corretor honesto:** a versão \"o que perguntar antes de assinar\" posiciona você como aliado do comprador (não vendedor a qualquer custo) — e recicla bem como anúncio educativo."
+     }
+    ],
     "transcricao": "Quando for comprar seu primeiro imóvel, não pergunte o preço primeiro.\nPergunte isso.\nO que eu preço é a informação que eles querem que você olhe.\nO que você deveria olhar é o que estão escondendo atrás dele.\nPor isso eu separei três perguntas que você precisa fazer antes de assinar qualquer coisa.\nE a terceira é a que mais salva seu dinheiro, mas ninguém faz.\nPrimeira, qual é o valor total que eu vou pagar no final com todos os reajustes?\nQuando te mostro uma parcela de 1500, que cabe no seu bolso, ninguém te explica que\nessa parcela é corrigida todo mês.\nPor um índice da construção civil chamado em NCC.\nA prática, a parcela que cabe hoje, pode subir mais de 20% antes de você receber a chave.\nE quando isso acontece, você não pode reclamar.\nPorque dá no contrato que você assinou sem entender.\nE tenha certeza que nenhum corretor ou construtor vai te contar.\nSem contar que muitas vezes, construtoras e loteadoras cobram juros sobre juros de forma indebida.\nCoisa que só a instituição financeira pode fazer.\nSegunda, o que acontece com o meu dinheiro se eu precisar desistir?\nNinguém compra achando que vai desistir.\nMas a vida muda e de repente você precisa abandonar esse investimento.\nSe você descobre que tem uma cláusula dizendo que se desistir, perde até 50% de tudo que pagou.\nDetalhe, a construtor ainda revende o imóvel pelo preço cheio para outra pessoa.\nSe isso acontecer, corre para algum especialista.\nPorque você está sendo lesado e pode recuperar muito mais do que 50%.\nPor isso é importante que compartilhe esse vídeo com qualquer pessoa que está pensando em comprar o primeiro imóvel.\nAs duas perguntas ajudam, mas a terceira é a que mais custa dinheiro para quem não faz ela.\nTerceira, me mostro o contrato para eu levar para casa antes de assinar.\nSe a resposta for, não pode levar, simplesmente saia do local e agradeça pelo tempo.\nContrato de imóvel na planta tem média 40 páginas.\nNinguém lê tudo isso numa mesa de vendas com corretora ali te apressando.\nNessas páginas que estão os juros escondidos, as multas de um lado só,\ne os prazos que protegem somente quem vendeu, não quem comprou.\nEu sou Priscila Glebe, há 11 anos protege o patrimônio de quem compre imóvel\ne é lesado por falta de informação.\nPor isso, se você tem alguma dúvida ou conhece algum caso de alguém que foi lesado por construtora,\ncomenta aqui embaixo.\nEu estou lendo todos os comentários para tezer mais conteúdo de valor para você."
    }
   ],
@@ -1135,6 +1191,7 @@
   "desc": "'POV: você acabou de comprar…' — texto em 2ª pessoa + tour cinematográfico sem fala.",
   "slug": "pov-voce-acabou-de-comprar",
   "formato": {
+   "estrutura": "1. **[HOOK POV]** \"POV: você acabou de comprar [imóvel + 1-2 detalhes hiperespecíficos COM número]\", em 2ª pessoa, minúsculas. → *slot: o imóvel + o detalhe.*\n2. **[IMERSÃO]** 6-8 takes lentos, sem fala e sem texto. → *slot: os ambientes.*\n3. **[PAYOFF]** um detalhe/localização surpreendente no fim. → *slot: a virada.*\n4. **[LEGENDA COMERCIAL]** specs + preço + CTA de DM (só na legenda).\n\n- **Fixo:** 2ª pessoa; ao menos 1 detalhe hiperespecífico com número; silêncio (sem narração); venda só na legenda; avatar de costas (= \"você\").\n- **Variável:** o imóvel, o detalhe, a \"fantasia\" (alto ou médio padrão).",
    "hook": "Texto em 2ª pessoa que coloca o espectador DENTRO da fantasia: **\"POV: você acabou de comprar uma casa mid-century em quase 16 mil m² de mata, com sua própria cachoeira de 36 metros…\"**. A especificidade numérica torna o sonho tangível.",
    "blocos": "- **Hook POV (0-3s):** texto em 2ª pessoa + a cena mais impressionante + 1 detalhe hiperespecífico com número.\n- **Imersão silenciosa (3-30s):** takes cinematográficos SEM narração — música e ritmo fazem o espectador \"morar\" ali.\n- **Legenda comercial:** pergunta retórica + specs (quartos/banheiros/m²) + preço + \"me chama na DM pra visita\".",
    "porque": "- **POV em 2ª pessoa transforma espectador em protagonista** — engajamento emocional maior que tour narrado.\n- **Sem fala = alcance global + replay.**\n- **Especificidade numérica** dá credibilidade à fantasia; funil completo num post (viral pra quem sonha + specs pra quem compra).",
@@ -1152,32 +1209,40 @@
     "temTranscricao": false,
     "analise": [
      {
-      "titulo": "Hook (0-3s)",
-      "corpo": "- **Visual:** interior mid-century modern com pedra, lareira e janelas para a floresta — 1 cena forte, câmera lenta.\n- **Texto na tela (original):** \"pov: you just bought an untouched, authentic mcm on almost 4 acres of protected woodlands with your very own 120ft waterfall...\"\n- **Tradução PT:** \"POV: você acabou de comprar uma casa mid-century intocada, em quase 16 mil m² de mata preservada, com a sua própria cachoeira de 36 metros...\"\n- **Mecanismo:** o \"POV: você\" coloca o espectador DENTRO da fantasia. Especificidade extrema (4 acres, 120ft) torna o sonho tangível."
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 28 · POV do Dono (fantasia de posse, tour sem fala) |\n| Criadora | @alextuckerrealty 🇺🇸 · Instagram Reels |\n| Link | instagram.com/p/DM-1KONuSje |\n| Métrica | **371 mil curtidas** |\n| Duração | ~8s · vertical 9:16 · sem fala (texto + música) |\n| ⚠️ | Exemplo em inglês — o texto/legenda adaptar ao PT |"
      },
      {
-      "titulo": "Estrutura por blocos",
-      "corpo": "1. **Hook POV (0-3s):** texto em 2ª pessoa + cena mais impressionante.\n2. **Imersão silenciosa (3-30s):** sequência de takes cinematográficos (lareira de pedra, madeira original, mata, cachoeira). SEM narração — a música e o ritmo lento fazem o espectador \"morar\" ali por 30 segundos.\n3. **Legenda como fechamento comercial:** \"Would you believe me if I told you...?\" (Acreditaria se eu te dissesse...?) → specs (4 quartos, 3 banheiros, 2.280 sqft, 3,4 acres) → preço ($3.999.900) → **\"Full tour dropping soon. DM me\"** (tour completo em breve + me chama na DM).\n\n> ⚠️ Sequência exata dos takes a confirmar com o vídeo baixado."
+      "titulo": "Veredito em uma linha",
+      "corpo": "Texto em **2ª pessoa** (\"**POV: você acabou de comprar…**\") + detalhes hiperespecíficos com número (**4 acres, cachoeira de 120ft**) sobre um tour cinematográfico sem fala — o espectador vira o DONO da fantasia, e a especificidade a torna crível."
      },
      {
-      "titulo": "Elementos de edição",
-      "corpo": "- Câmera lenta/estabilizada, color grading quente, cortes no ritmo da música.\n- Zero texto além do hook — o luxo fala sozinho.\n- Título \"SOLD ✨\" adicionado depois (a corretora atualizou a legenda ao vender — o post vira prova social permanente)."
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto na tela | Função |\n|---|---|---|---|\n| **0–2s** | Mulher (de costas) caminhando pela alameda em direção à casa mid-century na floresta | **\"pov - you just bought an untouched, authentic mcm on almost 4 acres of protected woodlands with your very own 120ft waterfall…\"** | **Hook POV** — 2ª pessoa + detalhes hiperespecíficos |\n| **2–5s** | Interior: lareira de pedra, móveis mid-century, janelões pra floresta verde | (texto POV segue) | **Imersão** — takes cinematográficos, você \"mora\" ali |\n| **5–8s** | Ela atravessando a ponte de madeira sobre o riacho / em pé na cachoeira | **\"…all in the heart of atlanta, ga\"** | **Payoff de localização** (o choque: isso no meio de Atlanta) |"
      },
      {
-      "titulo": "Assunto viral",
-      "corpo": "- **Universal:** fantasia de riqueza/casa dos sonhos — combustível infinito.\n- **Do nicho:** arquitetura mid-century + natureza (nichos apaixonados que compartilham).\n- **Emoções:** frias — **admiração** (beleza extraordinária) e **desejo aspiracional**. O POV adiciona **pertencimento simulado** (\"e se fosse meu?\")."
+      "titulo": "Análise de copy",
+      "corpo": "- **POV em 2ª pessoa (\"VOCÊ acabou de comprar\"):** transforma o espectador em protagonista da fantasia — engajamento emocional muito maior que \"olha essa casa\".\n- **Detalhes hiperespecíficos com número:** \"4 acres\", \"cachoeira de 120ft\", \"mid-century autêntica\" — a especificidade torna o sonho TANGÍVEL e crível (não é \"casa linda\", é ESSA casa com ESSES números).\n- **O twist de localização no fim** (\"no coração de Atlanta\"): o choque de que uma floresta com cachoeira existe dentro da cidade — o payoff que faz compartilhar.\n- **Minúsculas, tom sussurrado:** estética de \"diário/sonho\", íntima.\n- **A legenda (não o vídeo) vende:** specs completos + preço + CTA de DM ficam no texto do post — o vídeo é pura fantasia."
      },
      {
-      "titulo": "Por que funciona",
-      "corpo": "1. **POV transforma espectador em protagonista** — engajamento emocional muito maior que tour narrado.\n2. **Sem fala = alcance global** e replay (vídeo \"descansável\", assiste-se 2x).\n3. **Especificidade numérica no hook** (4 acres, 120ft) dá credibilidade à fantasia.\n4. **Funil completo num post:** viral pra quem sonha + specs/preço na legenda pra quem pode comprar + DM aberta."
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Cinematográfico e onírico:** floresta verde exuberante, luz natural suave (dia nublado/sombra), tons terrosos e quentes (madeira, pedra, couro mid-century). Parece um filme, não um anúncio.\n- **A pessoa aparece de COSTAS, casual:** ela é um \"avatar\" do espectador — você não vê o rosto porque VOCÊ é ela. Recurso central do POV.\n- **Arquitetura como personagem:** mid-century modern (madeira quente, pedra, janelões integrando com a mata) — desejo aspiracional forte.\n- **Takes lentos, 3-4s cada, com movimento suave:** dão tempo de \"morar\" em cada ambiente. Câmera estável/gimbal.\n- **Sem texto após o hook** (só reaparece no payoff): o silêncio visual é a estética — deixa a imagem e a música falarem."
      },
      {
-      "titulo": "CTA",
-      "corpo": "Na legenda: \"DM me if you're interested in a private showing\" (me chame na DM para visita privada). O vídeo não vende; a legenda vende."
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música (sem fala/narração).** O silêncio de narração é proposital — narrar quebraria a imersão. Ritmo contemplativo. Sem fala = **alcance global + replay** (funciona em qualquer idioma)."
      },
      {
-      "titulo": "Como aplicar a MESMA estrutura (adaptação BR)",
-      "corpo": "- **Imóvel de alto padrão da carteira:** \"POV: você acabou de comprar uma casa com vista pro mar em [cidade] com seu próprio deck de 20 metros...\"\n- **Médio padrão também funciona** — a fantasia é relativa ao público: \"POV: você acabou de sair do aluguel e essa varanda é sua\", \"POV: seu primeiro apê na planta ficou pronto\".\n- **Lançamento/decorado:** filmar o decorado em câmera lenta com o POV do dia da mudança.\n- **Regra do formato:** texto POV em 2ª pessoa + 1 detalhe hiperespecífico + takes lentos sem fala + specs e CTA SÓ na legenda.\n- **Erro a evitar na adaptação:** narrar por cima. A força é o silêncio."
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **POV/2ª pessoa:** você vira o dono — projeção máxima.\n2. **Especificidade = credibilidade:** números concretos tornam a fantasia real.\n3. **Twist de contexto:** \"isso em plena cidade\" = surpresa que compartilha.\n4. **Aspiração + escapismo:** a natureza + arquitetura ativam desejo puro."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Narrar por cima — o silêncio é a estética.\n- ❌ \"Imóvel dos sonhos\" genérico — precisa de 1-2 detalhes hiperespecíficos COM número.\n- ❌ Texto na tela depois do hook — polui a imersão.\n- ❌ Vender no vídeo — os specs/preço/CTA vão SÓ na legenda; sem ela, o viral não vira lead.\n- ❌ Mostrar o rosto o tempo todo — o avatar de costas é o que faz o \"você\"."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Ache 1-2 características fotogênicas e específicas COM número** (terreno 800m², pé-direito 6m, vista pro mar) — ande pelo imóvel procurando.\n2. **Hook POV em 2ª pessoa, minúsculas:** \"POV: você acabou de comprar [imóvel + detalhe hiperespecífico]…\".\n3. **Grave 6-8 takes lentos** (3-4s), sem texto nem narração, golden hour se tiver área externa.\n4. **Reserve um \"payoff\"** pro fim (localização surpreendente, vista, um detalhe).\n5. **Legenda comercial:** specs completos + preço (ou sob consulta) + CTA de DM.\n\n> **Adaptação BR (a fantasia é relativa!):** alto padrão (\"POV: você comprou a casa com vista pro mar em [cidade]\") OU médio padrão (\"POV: você saiu do aluguel e essa varanda é sua\"). Exemplo em inglês — traduzir texto/legenda pro PT."
      }
     ]
    }
