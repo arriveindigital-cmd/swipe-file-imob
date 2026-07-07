@@ -1954,33 +1954,7 @@
    "porque": "- **Preço segurado = retenção quase total:** ninguém sai antes de saber o valor.\n- **Palpite mental:** o espectador chuta o preço e volta pra conferir (replay).\n- **Ordem crescente** de ambientes mantém a curva de interesse subindo.",
    "aplicar": "- Qualquer imóvel com um valor \"surpreendente\" (mais barato ou mais caro do que parece).\n- Peça o palpite na legenda (\"quanto você acha?\") — dobra o comentário.\n- Funciona pra alto E baixo padrão (a surpresa pode ser \"só R$X\").",
    "guia": "- NUNCA revele o preço antes do fim — é a única regra inviolável.\n- Ambientes em ordem crescente de impacto.\n- Peça o palpite no texto/legenda; revele no último segundo.\n- Capa com \"adivinha o preço\" reforça a isca.",
-   "prompt": "Você é um diretor de conteúdo imobiliário de retenção. Monte a direção de \"tour com preço revelado só no final\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. PROMESSA DO PREÇO (0-3s / capa): \"quanto custa esse imóvel?\" — abre o loop\n2. TOUR SEM REVELAR: os ambientes de luxo, o desejo crescendo (preço adiado)\n3. REVELAÇÃO NO FINAL: o preço (texto/legenda) — o payoff que fecha o loop\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O imóvel + os ambientes de destaque: [DADOS]\n- O preço (a revelação): [R$X]\n\n**Regras de tom:**\n- O adiamento do preço é o motor de retenção — não revele cedo\n- O desejo cresce com o luxo mostrado antes do valor\n- Revele o preço no FINAL (impacto máximo)\n- Música, sem narração\n\n**Entregue:**\n1. A promessa de hook (capa/legenda)\n2. O roteiro do tour (crescendo até a revelação)\n3. Como revelar o preço no fim\n4. Sugestão de música\n5. 5 hashtags + legenda",
-   "guiaPrompt": [
-    {
-     "titulo": "Quando usar",
-     "corpo": "- Pra **retenção + alcance** com imóveis de destaque. O loop do \"quanto custa?\" segura o espectador até o fim.\n- Funciona com qualquer imóvel impressionante — a curiosidade do preço é universal."
-    },
-    {
-     "titulo": "Como preencher",
-     "corpo": "- **[A PROMESSA]:** \"quanto custa?\" na capa/legenda — abre o loop de retenção.\n- **[O ADIAMENTO]:** não revele o preço até o final. O desejo cresce enquanto o valor é adiado.\n- **[A REVELAÇÃO]:** o preço no fim (texto/legenda) — o payoff e o gatilho do debate."
-    },
-    {
-     "titulo": "Direção de copywriting para a IA",
-     "corpo": "Se revelar o preço cedo:\n\n> \"Adie a revelação do preço até o final. O loop de 'quanto custa?' é o motor de retenção — mostrar cedo mata o formato.\""
-    },
-    {
-     "titulo": "Erros comuns",
-     "corpo": "1. **Revelar o preço cedo** — o adiamento é o motor.\n2. **Não entregar o preço** — o payoff (revelação) tem que vir.\n3. **B-roll fraco** — o desejo precisa crescer.\n4. **Sem a promessa inicial** — \"quanto custa?\" abre o loop."
-    },
-    {
-     "titulo": "Gravação",
-     "corpo": "- Tour cinematográfico crescendo até a revelação. Promessa do preço na capa. Preço no fim. Música."
-    },
-    {
-     "titulo": "Métricas de referência",
-     "corpo": "Alta retenção (o loop do preço segura até o fim) + debate (caro/barato) nos comentários. A ancoragem tardia maximiza o impacto do número. Reaproveite o formato pra cada imóvel de destaque."
-    }
-   ]
+   "prompt": "```\nVocê é roteirista de tour imobiliário. Crie um \"tour com preço no final\":\n1) ISCA (0-3s): \"olha esse imóvel — adivinha o preço?\"; 2) TOUR crescente sem revelar o valor; 3) REVELAÇÃO do preço no clímax.\nMEUS DADOS: Imóvel + ambientes em ordem de impacto: [ ]. Preço (surpreendente pra mais ou pra menos): [ ]. Público: [ ].\nTOM: curiosidade, palpite. Preço só no fim, sempre. Capa \"adivinha o preço\".\nENTREGUE: 1) ordem dos ambientes; 2) texto de capa; 3) legenda pedindo palpite; 4) 5 hashtags; 5) momento exato da revelação.\n```"
   },
   "exemplos": [
    {
@@ -1990,40 +1964,7 @@
     "link": "https://tiktok.com/@rafaelbrottoo/video/7595203527199313173",
     "en": false,
     "temTranscricao": false,
-    "analise": [
-     {
-      "titulo": "Veredito em uma linha",
-      "corpo": "Um tour de mansão que segura o \"quanto custa?\" até o final — a curiosidade do preço é o loop que faz o espectador assistir tudo pra descobrir."
-     },
-     {
-      "titulo": "Estrutura segundo a segundo",
-      "corpo": "| Tempo | Imagem | Elemento | Função |\n|---|---|---|---|\n| 0-3s | B-roll da mansão (área de lazer, fogo de chão, piscina) | Promessa de descobrir o preço (na capa/legenda) | Hook: \"quanto custa esse imóvel?\" — abre o loop do preço |\n| 3-12s | Tour dos ambientes de luxo | (música) | O desejo cresce enquanto o preço é adiado |\n| 12-15s | Fecho | O PREÇO revelado (texto no fim / legenda) | Payoff: o valor que fecha o loop |\n\n> Nota: o gancho do formato é adiar o preço — que é revelado no **final** (ou na legenda). O vídeo é o b-roll aspiracional; a curiosidade do valor é o motor de retenção."
-     },
-     {
-      "titulo": "Análise de copy",
-      "corpo": "- **O loop do preço é a mecânica** — \"quanto custa?\" fica sem resposta até o final, o que obriga a assistir tudo.\n- **O desejo cresce com o adiamento** — quanto mais luxo mostrado sem o preço, mais forte a curiosidade.\n- **A revelação no fim é o payoff** — o número fecha o loop (e gera o comentário \"caro/barato\").\n- **Sem fala** — a imagem + a promessa do preço bastam."
-     },
-     {
-      "titulo": "Análise de estética & imagem",
-      "corpo": "- **Tour cinematográfico** de mansão (ambientes de luxo em sequência).\n- **A promessa do preço** (na capa/legenda) enquadra a expectativa.\n- **Música** dá o clima; a revelação final é o clímax."
-     },
-     {
-      "titulo": "Áudio & ritmo",
-      "corpo": "- **Música** conduz; o ritmo constrói o desejo até a revelação.\n- O adiamento do preço é o que segura a retenção do início ao fim."
-     },
-     {
-      "titulo": "Gatilhos psicológicos",
-      "corpo": "1. **Loop aberto (curiosidade do preço)** — \"quanto custa?\" sem resposta é retenção pura.\n2. **Desejo aspiracional** — o luxo mostrado antes do preço amplia a curiosidade.\n3. **Ancoragem tardia** — revelar o preço no fim maximiza o impacto do número.\n4. **Debate** — o preço revelado gera o comentário \"caro ou barato?\"."
-     },
-     {
-      "titulo": "O que NÃO fazer",
-      "corpo": "- ❌ Revelar o preço cedo — o adiamento É o motor de retenção.\n- ❌ Prometer o preço e não entregar — o payoff (a revelação) tem que vir.\n- ❌ B-roll fraco — o desejo precisa crescer pra a curiosidade valer.\n- ❌ Sem a promessa inicial — \"quanto custa?\" na capa é o que abre o loop."
-     },
-     {
-      "titulo": "Como replicar",
-      "corpo": "1. **Abra prometendo o preço** (\"quanto custa esse imóvel?\") na capa/legenda — abre o loop.\n2. **Faça o tour dos ambientes de luxo** sem revelar o valor (o desejo cresce).\n3. **Revele o preço só no final** (texto/legenda) — o payoff que fecha o loop.\n4. **Deixe a música conduzir** (sem narração).\n5. Funciona com qualquer imóvel de destaque; o adiamento do preço é a estrela."
-     }
-    ]
+    "analise": []
    }
   ],
   "num": 21
@@ -2328,33 +2269,7 @@
    "porque": "- **Número grande = parada de scroll instantânea** — não precisa de narração.\n- **Empilhar specs** cria sensação de \"isso é surreal\" que compartilha.\n- **B-roll bonito** dá lastro visual aos números.",
    "aplicar": "- Qualquer imóvel com um número impressionante (metragem, valor, vagas, altura).\n- Empilhe 3 números fortes na abertura.\n- Funciona pra alto padrão E pra \"número surpreendente\" de baixo padrão (\"R$149 mil / 2 quartos / pronto pra morar\").",
    "guia": "- Os 3 números têm que ser os mais impressionantes, grandes e legíveis no 1º frame.\n- B-roll estável e bonito; música que valoriza.\n- Sem narração; os números + a imagem bastam.\n- CTA discreto no fim.",
-   "prompt": "Você é um diretor de conteúdo imobiliário de alcance. Monte a direção de \"número como hook sobre b-roll de mansão\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. NÚMERO-HOOK (0-3s / capa / legenda): o dado bruto mais impressionante (m², R$, spec absurdo) em destaque\n2. B-ROLL CINEMATOGRÁFICO: o tour que prova o que o número promete\n3. FECHO DE GRANDIOSIDADE: aérea/escala\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O número-hook (o dado mais impressionante): [M² / R$ / SPEC]\n- O imóvel + ambientes de destaque: [DADOS]\n\n**Regras de tom:**\n- O número precisa ser bruto e impressionante (o maior spec)\n- Coloque-o em destaque (capa/legenda/1º frame) — é a isca\n- B-roll cinematográfico prova o número\n- Música, sem narração — o dado + a imagem carregam\n\n**Entregue:**\n1. 3 variações do número-hook (capa/legenda)\n2. O roteiro visual do b-roll\n3. Sugestão de música\n4. 5 hashtags + legenda com o número\n5. Outros números do imóvel que rendem versões",
-   "guiaPrompt": [
-    {
-     "titulo": "Quando usar",
-     "corpo": "- Pra **alcance + desejo** com imóveis de destaque. Um número absurdo para o scroll e o b-roll entrega o voyeurismo.\n- Funciona pra qualquer imóvel com um dado impressionante (metragem, preço, um spec único)."
-    },
-    {
-     "titulo": "Como preencher",
-     "corpo": "- **[O NÚMERO]:** o mais bruto e impressionante do imóvel. É a isca — sem número forte, não para o scroll.\n- **[O DESTAQUE]:** capa/legenda/primeiro frame. O número tem que ser a primeira coisa que a pessoa vê.\n- **[O B-ROLL]:** cinematográfico, que prove o que o número promete."
-    },
-    {
-     "titulo": "Direção de copywriting para a IA",
-     "corpo": "Se o número vier fraco:\n\n> \"Use o dado mais absurdo do imóvel (a maior metragem, o preço, o spec único). O número é a isca — genérico não para o scroll.\""
-    },
-    {
-     "titulo": "Erros comuns",
-     "corpo": "1. **Número fraco** — precisa ser bruto e impressionante.\n2. **B-roll amador** — o desejo depende do capricho.\n3. **Enterrar o número** — ele é a isca; capa/legenda/1º frame.\n4. **Explicar demais** — o número + a imagem bastam."
-    },
-    {
-     "titulo": "Gravação",
-     "corpo": "- Tour cinematográfico de mansão. Número em destaque na capa/legenda. Música, sem narração."
-    },
-    {
-     "titulo": "Métricas de referência",
-     "corpo": "Alto alcance (número absurdo + voyeurismo). O número na legenda é o gatilho; o b-roll é o payoff. Reaproveite vários números do mesmo imóvel pra múltiplas versões."
-    }
-   ]
+   "prompt": "```\nVocê é editor(a) de conteúdo imobiliário. Crie um vídeo \"números como hook\":\n1) NÚMEROS-CHOQUE na tela (0-3s): 3 specs de maior impacto (m²/R$/suítes/vagas); 2) B-ROLL cinematográfico que prova os números; 3) CTA/assinatura.\nMEUS DADOS: Imóvel: [ ]. Os 3 números mais impressionantes: [ ]. Contato/CTA: [ ].\nTOM: escala, impacto, sem fala. Números grandes e legíveis no 1º frame.\nENTREGUE: 1) os 3 números da capa; 2) shot list do b-roll; 3) legenda; 4) 5 hashtags; 5) CTA.\n```"
   },
   "exemplos": [
    {
@@ -2364,40 +2279,7 @@
     "link": "https://tiktok.com/@diegovieiracorretor/video/7590951885239012616",
     "en": false,
     "temTranscricao": false,
-    "analise": [
-     {
-      "titulo": "Veredito em uma linha",
-      "corpo": "Um número que impressiona (a metragem, o preço, um spec absurdo) como isca sobre um b-roll de mansão — o dado bruto para o scroll e o desejo entrega o resto."
-     },
-     {
-      "titulo": "Estrutura segundo a segundo",
-      "corpo": "| Tempo | Imagem | Elemento | Função |\n|---|---|---|---|\n| 0-3s | B-roll da mansão (piscina, vidro, escada helicoidal) | O NÚMERO-HOOK na capa/legenda (metragem, R$, spec) | Hook: o dado bruto que impressiona (para o scroll) |\n| 3-25s | Tour cinematográfico dos ambientes de luxo | (música) | O desejo — a mansão que o número descreve |\n| 25-28s | Aérea/fecho | (música) | Fecho de grandiosidade |\n\n> Nota: o número-hook do formato vive no **texto de capa / legenda do post** (não é narrado). O vídeo é o b-roll aspiracional que o número \"vende\"."
-     },
-     {
-      "titulo": "Análise de copy",
-      "corpo": "- **O número é a isca** — um dado bruto e impressionante (m², R$, \"12 banheiros\", \"elevador privativo\") na capa/legenda para o scroll sem precisar de frase.\n- **O b-roll entrega o desejo** — a imagem prova o que o número promete.\n- **Sem fala** — o número + a imagem bastam; a música dá a épica.\n- **A curiosidade do número** (\"como é X m²?\") é o que leva o espectador a assistir o tour inteiro."
-     },
-     {
-      "titulo": "Análise de estética & imagem",
-      "corpo": "- **Tour cinematográfico** de mansão (drone + interiores de altíssimo padrão).\n- **O número em destaque** na capa/legenda — a âncora do formato.\n- **Música** dá o clima aspiracional."
-     },
-     {
-      "titulo": "Áudio & ritmo",
-      "corpo": "- **Música** conduz; o ritmo é o da revelação de ambientes.\n- O número na capa é o gatilho; o tour é o payoff."
-     },
-     {
-      "titulo": "Gatilhos psicológicos",
-      "corpo": "1. **Ancoragem de número** — um dado bruto e absurdo recalibra a percepção e para o scroll.\n2. **Voyeurismo** — ver o que o número representa é irresistível.\n3. **Desejo aspiracional** — a mansão alimenta a fantasia.\n4. **Curiosidade** — \"como é [o número]?\" leva a assistir tudo."
-     },
-     {
-      "titulo": "O que NÃO fazer",
-      "corpo": "- ❌ Número fraco/genérico — precisa ser bruto e impressionante (o maior spec do imóvel).\n- ❌ B-roll amador — o desejo depende do capricho cinematográfico.\n- ❌ Enterrar o número — ele é a isca; tem que estar em destaque (capa/legenda/1º frame).\n- ❌ Explicar demais — o número + a imagem bastam."
-     },
-     {
-      "titulo": "Como replicar",
-      "corpo": "1. **Escolha o número mais impressionante** do imóvel (metragem, preço, um spec absurdo) como hook.\n2. **Coloque-o em destaque** (capa/legenda/primeiro frame) — é a isca que para o scroll.\n3. **Entregue um b-roll cinematográfico** que prove o que o número promete.\n4. **Deixe a música conduzir** (sem narração) — o dado + a imagem carregam.\n5. Funciona com qualquer imóvel de destaque; o número é a estrela, o tour é o payoff."
-     }
-    ]
+    "analise": []
    }
   ],
   "num": 25
@@ -3995,12 +3877,39 @@
   "desc": "Casal documenta a própria jornada de compra/obra em série — fidelização de novela.",
   "slug": "jornada-do-casal-comprador-em-serie",
   "formato": {
+   "estrutura": "1. **[HOOK INSIDER]** \"o que ninguém te conta sobre [processo] — mas nós vamos te contar\" (foto do casal). → *slot: a promessa.*\n2. **[DICAS REAIS EM SÉRIE]** cada slide uma dica vivida (com foto). → *slot: as dicas.*\n3. **[TRANSPARÊNCIA DOS PERRENGUES]** incluir os cuidados/armadilhas. → *slot: a honestidade.*\n4. **[CTA DE COMENTÁRIO]** \"qual dica você daria? comenta\". → *slot: o CTA.*\n\n- **Fixo:** hook insider; dicas reais vividas (uma por slide, com foto); transparência (inclui armadilhas); CTA de comentário.\n- **Variável:** o processo, as dicas.",
    "hook": "O casal documenta a própria jornada de compra/obra como diário aberto: **\"Essa foi um pouco da nossa experiência\"** + fotos da evolução (juros de obra, taxas, o apê tomando forma). O acompanhar a vida real de quem está comprando cria vínculo de novela.",
    "blocos": "- **Slide 1 — o convite (hook):** \"nossa experiência comprando o apê\" + foto marcante.\n- **Slides do meio — a evolução:** cada etapa (assinatura, obra, custos reais, decisões) em foto + legenda.\n- **Slide final — o presente + gancho:** onde estão agora + \"continua\" (próximo capítulo).",
    "porque": "- **Diário em série = fidelização de novela:** o público volta pra ver o próximo capítulo do casal.\n- **Carrossel de fotos permite densidade** (números, prints, evolução) que o vídeo não comporta — save alto.\n- **Casal real, não corretor:** confiança de \"gente como a gente\" passando pelo processo.",
    "aplicar": "- Corretor pode acompanhar um cliente (com autorização) em série, ou um investidor documentar a própria obra.\n- Cada post é um capítulo: escolha, financiamento, obra, mudança.\n- Carrossel de fotos com legendas ricas (números, decisões, sentimentos).",
    "guia": "- Consistência de série (mesma identidade visual, \"Capítulo X\").\n- Fotos reais da evolução + legendas com números e decisões.\n- Gancho de continuação em cada post.\n- CTA de seguir pra acompanhar.",
-   "prompt": "```\nVocê é roteirista de conteúdo imobiliário em série. Crie um carrossel \"jornada do casal comprador — Capítulo X\":\n1) SLIDE 1: convite (\"nossa experiência comprando…\") + foto marcante; 2) SLIDES do meio: a evolução (etapa + números + decisão) em foto+legenda; 3) SLIDE final: onde estamos + gancho pro próximo capítulo.\nMEUS DADOS: Etapa deste capítulo: [ ]. Números/decisões reais: [ ]. Gancho do próximo: [ ].\nTOM: diário real, \"gente como a gente\". Números e sentimentos. Série com continuação.\nENTREGUE: 1) roteiro slide a slide; 2) legenda; 3) 5 hashtags; 4) identidade de série (título/numeração).\n```"
+   "prompt": "Você é um roteirista de carrossel imobiliário de utilidade. Crie uma \"jornada do casal comprador em carrossel de dicas\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. SLIDE 1 — HOOK INSIDER: \"o que ninguém te conta sobre [processo] — mas nós vamos te contar\" (foto sua/do casal com a chave)\n2. SLIDES 2 a N — UMA DICA REAL POR SLIDE: cada uma vivida e específica, com uma foto da jornada\n3. TRANSPARÊNCIA DOS PERRENGUES: inclua os alertas/armadilhas (venda casada, defeitos, reajustes)\n4. ÚLTIMO SLIDE — CTA DE COMENTÁRIO: \"qual dica a mais VOCÊ daria? comenta aqui\"\n\n**Meus dados:**\n- Autor/casal + @: [NOME + @]\n- O processo: [EX.: comprar na planta]\n- As dicas reais que vocês viveram: [LISTE]\n- Os perrengues/alertas: [O QUE NINGUÉM CONTA]\n- As fotos da jornada: [CHAVES / OBRA / APÊ / COMEMORAÇÃO]\n\n**Regras de tom:**\n- Vivência real (não teoria de blog) — cada dica é algo que vocês passaram\n- Inclua os perrengues/alertas (a transparência é o diferencial)\n- Foto real acompanhando cada dica (autenticidade)\n- Tom de amigo que passou pela experiência\n\n**Entregue:**\n1. O texto de cada slide (com a dica)\n2. Qual foto usar em cada um\n3. O hook insider + o CTA de comentário\n4. 5 hashtags\n5. Ideia de próximos carrosséis da série",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **conexão + utilidade** com compradores de primeira viagem. A jornada real cria vínculo e as dicas geram salvamento.\n- Ideal em **série** (cada etapa da compra vira um carrossel). O casal vira referência que o público acompanha."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[AS DICAS]:** vividas e específicas (juros de obra, o valor de abertura, o reajuste). Vivência real > teoria de blog.\n- **[OS PERRENGUES]:** os alertas que ninguém conta (venda casada, defeitos). A transparência é o diferencial de confiança.\n- **[AS FOTOS]:** reais da jornada (chaves, obra, apê). A autenticidade É o formato."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se as dicas vierem genéricas:\n\n> \"Transforme cada dica numa vivência específica do casal (com o número/detalhe real que aprenderam). 'Cuidado com taxas' é fraco; 'os juros de obra que aumentam com a evolução' é a experiência real.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Dicas genéricas** — o valor é a vivência real (com foto).\n2. **Esconder os perrengues** — a transparência (alertas) é a confiança.\n3. **Sem fotos reais** — a autenticidade é o formato.\n4. **Sem CTA de comentário** — perde engajamento e continuidade."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Registre a jornada em fotos (chaves, obra, apê vazio, comemoração). Carrossel com uma dica por slide.\n- Hook insider no slide 1. CTA de comentário no último."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta salvabilidade (dicas úteis) + conexão (a jornada do casal) + comentários pelo CTA. Rende série (cada etapa da compra = um carrossel). O público de 1ª viagem salva pra usar e acompanha os \"amigos\" que passaram pela experiência."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -4010,7 +3919,36 @@
     "link": "",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"O que ninguém te conta sobre comprar na planta — mas nós vamos te contar\" — a jornada real de um casal em carrossel entrega as dicas que só quem viveu conhece, com foto e transparência total."
+     },
+     {
+      "titulo": "Estrutura slide a slide",
+      "corpo": "| Slide | Imagem | Texto | Função |\n|---|---|---|---|\n| 1 | Casal com as chaves | \"O que NINGUÉM te conta sobre comprar um apartamento na planta… MAS NÓS VAMOS TE CONTAR!\" | Hook: a promessa insider (foto do casal com a chave) |\n| 2 | Obra do prédio | Juros de obra: \"taxa que aumenta com a evolução da obra — é um seguro pra você não perder o investimento\" | Dica 1 (juros de obra) |\n| 3 | Obra | Valor de abertura na assinatura (~R$1.200) — \"estude bem, pode configurar venda casada\" | Dica 2 + alerta (transparência) |\n| 4 | Casal com a chave | \"Compre só se estiver preparado financeiramente; esclareça as dúvidas com o corretor\" | Dica 3 (preparo) |\n| 5 | Apê vazio com vista | Reajuste das parcelas de entrada: \"as últimas parcelas sempre serão mais caras que as primeiras\" | Dica 4 (reajuste) |\n| 6 | Chave MRV | \"Quando 70% da área comum estiver pronta, você pode visitar um apê pronto\" | Dica 5 |\n| 7 | Apê vazio | \"Contratar um engenheiro na vistoria é essencial — a construtora deixa defeitos que não percebemos sozinhos\" | Dica 6 (vistoria) |\n| 8 | Enxoval (xícaras) | \"Monte o enxoval durante a obra; deixe os eletrodomésticos por último pela garantia\" | Dica 7 (enxoval) |\n| 9 | Casal comemorando no apê | \"Qual dica a mais VOCÊ daria pros futuros compradores? COMENTA AQUI ⬇\" | CTA de comentário/pauta |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Hook insider** (\"o que ninguém te conta… mas nós vamos\") — a promessa de informação privilegiada, com a foto do casal (parasocial) de cara.\n- **Cada slide é uma dica real e específica** vivida pelo casal — não é teoria, é experiência (juros de obra, o valor de abertura, o reajuste).\n- **Transparência inclui os perrengues** (o alerta de \"venda casada\", os defeitos da construtora) — é o que gera confiança.\n- **Foto real acompanha cada dica** (chaves, obra, apê) — humaniza e prova a jornada.\n- **CTA de comentário** (\"qual dica você daria?\") gera engajamento e alimenta a série."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Carrossel de fotos reais da jornada** (chaves, obra, apê vazio, comemoração) — a autenticidade é o formato.\n- **Texto de dica sobre cada foto** — legível, um aprendizado por slide.\n- **Tom de casal amigo** compartilhando o que aprendeu."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Insider** — \"o que ninguém te conta\" ativa a curiosidade e o senso de vantagem.\n2. **Vivência real** — só quem passou pela planta sabe dessas dicas (credibilidade).\n3. **Utilidade** — dicas acionáveis que a pessoa salva pra usar.\n4. **Vínculo parasocial** — o casal com quem o espectador \"torce\".\n5. **CTA de comentário** — gera engajamento e novas dicas da audiência."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Dicas genéricas de blog — o valor é a vivência real do casal (com foto).\n- ❌ Esconder os perrengues — a transparência (venda casada, defeitos) é a confiança.\n- ❌ Sem as fotos reais da jornada — a autenticidade é o formato.\n- ❌ Sem CTA de comentário — perde o engajamento e a continuidade."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o hook insider** (\"o que ninguém te conta sobre [processo] — mas nós vamos\") + foto sua/do casal.\n2. **Entregue uma dica real por slide** (vivida, específica), com uma foto da jornada.\n3. **Inclua os perrengues/alertas** (a transparência é o diferencial).\n4. **Feche com CTA de comentário** (\"qual dica você daria?\").\n5. Carrossel de fotos reais; tom de amigo que passou pela experiência."
+     }
+    ]
    }
   ],
   "num": 43
@@ -4034,12 +3972,39 @@
   "desc": "Viabilidade de investimento contada como história, com todos os números na mesa.",
   "slug": "abre-a-planilha-viabilidade-de-investimento",
   "formato": {
+   "estrutura": "1. **[HOOK: A PERGUNTA + \"VALORES NAS PRÓXIMAS FOTOS\"]** a dúvida de viabilidade. → *slot: a pergunta.*\n2. **[OS CUSTOS REAIS]** parcela + condomínio + IPTU + taxas. → *slot: os custos.*\n3. **[A RECEITA]** quanto rende. → *slot: a receita.*\n4. **[A PROVA]** o listing/resultado. → *slot: a prova.*\n5. **[CTA DE DEBATE]** \"fixo ou Airbnb?\". → *slot: o debate.*\n\n- **Fixo:** pergunta de viabilidade; \"valores nas próximas fotos\" (força swipe); números reais (com custos); prova; CTA de debate.\n- **Variável:** a operação, os números.",
    "hook": "A conta de viabilidade contada como história, com a planilha aberta: **\"comprei esse apê em Copacabana pra Airbnb — abre a planilha: parcela + custos + renda mensal, os números reais.\"** A transparência total dos números de um investimento real gera debate e compartilhamento massivo (9.998 shares).",
    "blocos": "- **Slide 1 — o investimento + promessa (hook):** \"esse apê pra Airbnb — os números REAIS\".\n- **Slides da planilha:** aquisição, parcela, custos fixos (condomínio, IPTU, limpeza), receita de diárias, ocupação.\n- **Slide final — o resultado + tese:** lucro/prejuízo real + \"vale a pena? o que você faria?\".",
    "porque": "- **Números reais de um investimento** = utilidade rara e alto save/share.\n- **Formato planilha** dá credibilidade (parece análise séria, não promessa).\n- **A pergunta final gera debate** (\"mas você esqueceu do imposto\") — 708 comentários = alcance.",
    "aplicar": "- Qualquer análise de viabilidade: Airbnb, aluguel tradicional, comprar-reformar-vender.\n- Planilha aberta com TODOS os números (incluindo os que \"ninguém conta\").\n- Feche perguntando a opinião (o debate é o motor).",
    "guia": "- Números reais e completos; incluir custos escondidos dá credibilidade.\n- Formato de planilha/tabela nos slides (visual de análise).\n- Fechar com pergunta que gere debate.\n- Responder os comentários técnicos (é onde a autoridade aparece).",
-   "prompt": "```\nVocê é analista de investimento imobiliário. Crie um carrossel \"abre a planilha\":\n1) SLIDE 1: o investimento + \"os números REAIS\"; 2) SLIDES da planilha: aquisição, parcela, custos fixos, receita, ocupação; 3) SLIDE final: resultado + \"vale a pena? o que você faria?\".\nMEUS DADOS: O investimento: [ ]. Todos os números (aquisição, custos, receita): [ ]. Custos que ninguém conta: [ ].\nTOM: análise séria, transparência total. Planilha visual. Pergunta final pra gerar debate.\nENTREGUE: 1) roteiro slide a slide com a planilha; 2) legenda; 3) 5 hashtags; 4) pergunta de debate; 5) resposta pros comentários técnicos.\n```"
+   "prompt": "Você é um roteirista de carrossel de investimento imobiliário. Crie um \"viabilidade de investimento em carrossel\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. SLIDE 1 — A PERGUNTA + \"VALORES NAS PRÓXIMAS FOTOS\": a dúvida de viabilidade (\"vale a pena [investimento]?\")\n2. SLIDE 2 — OS CUSTOS REAIS: parcela + condomínio + IPTU + taxas\n3. SLIDE 3 — A RECEITA: quanto rende (média mensal)\n4. SLIDE 4 — A PROVA: o listing/print/resultado\n5. SLIDE 5 — CTA DE DEBATE: \"o que acham? [opção A] ou [opção B]?\"\n\n**Meus dados:**\n- Autor + @: [NOME + @]\n- O investimento em questão: [EX.: apê pra Airbnb]\n- Os custos reais: [PARCELA / CONDOMÍNIO / IPTU / TAXAS]\n- A receita: [MÉDIA MENSAL]\n- A prova: [LISTING / PRINT / RESULTADO]\n\n**Regras de tom:**\n- \"Valores nas próximas fotos\" força o swipe — cumpra a promessa\n- Inclua os CUSTOS (viabilidade honesta, não só a receita)\n- Prova real (o listing avaliado, o print)\n- CTA de debate gera compartilhamento massivo\n\n**Entregue:**\n1. O texto de cada slide (1 a 5)\n2. Quais fotos usar\n3. A conta líquida (receita − custos)\n4. O CTA de debate\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade + alcance** com investidores (Airbnb, aluguel, revenda). A conta real responde a dúvida que todo investidor tem.\n- O carrossel de fotos com números gera altíssimo compartilhamento (as pessoas mandam pro grupo pra debater)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A PERGUNTA]:** a dúvida de viabilidade real (\"vale a pena?\"). + \"valores nas próximas fotos\" força o swipe.\n- **[OS CUSTOS]:** inclua tudo (parcela, condomínio, IPTU, taxas). A viabilidade honesta considera as despesas.\n- **[A PROVA]:** o listing avaliado, o print da receita. Valida a conta."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se mostrar só a receita:\n\n> \"Inclua os custos reais (parcela, condomínio, IPTU). Viabilidade sem despesas é enganosa; a conta honesta (receita − custos) é o que gera confiança e debate.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Prometer números e não entregar** — \"valores nas próximas fotos\" tem que cumprir.\n2. **Só a receita sem os custos** — a viabilidade honesta inclui despesas.\n3. **Sem prova** — o listing/resultado valida a conta.\n4. **Sem CTA de debate** — é o que gera o compartilhamento massivo."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Carrossel de fotos reais (vista, apê, selfie, print do listing). Legendas com os números.\n- Tom de \"abrindo minha planilha\". CTA de debate no último slide."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Altíssimo compartilhamento (a conta real vira debate — no exemplo, ~10K shares). A transparência gera autoridade e o CTA de debate multiplica o alcance. Ideal pra quem capta investidor ou vende mentoria de renda com imóvel."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -4049,7 +4014,36 @@
     "link": "https://tiktok.com/@anfitria.deborah/photo/7553487723156327691",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Vale a pena um apê em Copacabana pro Airbnb?\" — a viabilidade contada com os números reais da própria operação (parcela, custos, renda) transforma a dúvida de todo investidor num debate."
+     },
+     {
+      "titulo": "Estrutura slide a slide",
+      "corpo": "| Slide | Imagem | Texto | Função |\n|---|---|---|---|\n| 1 | Vista de Copacabana pela janela | \"Será que vale a pena comprar um apê em Copacabana pro Airbnb? 🤔 Valores nas próximas fotos\" | Hook: a pergunta de viabilidade + promessa dos números (força o swipe) |\n| 2 | Toalhas dobradas | \"Compramos no fim de 2024. Parcela do financiamento R$5.700. Condomínio + IPTU = R$721\" | Os custos reais |\n| 3 | Selfie no apê | \"Desde que colocamos no Airbnb, média mensal R$10.090\" | A receita |\n| 4 | Print do listing (4.95, preferido, 20 avaliações) | (a prova) | A prova social do resultado |\n| 5 | Amenidades do apê | \"O que acham? Vcs alugariam fixo ou colocariam no Airbnb?\" | CTA de debate |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook é a pergunta de viabilidade** (\"vale a pena?\") + \"valores nas próximas fotos\" — a promessa dos números força o swipe pro slide seguinte.\n- **Os números REAIS da própria operação** (custos 5.700 + 721 vs receita 10.090 → ~3.669 líquido) são a utilidade e a prova.\n- **O listing bem avaliado** (4.95, preferido dos hóspedes) prova que a receita é real.\n- **O CTA de debate** (\"fixo ou Airbnb?\") gera comentário e compartilhamento (o que explica os 9.998 shares)."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Fotos reais** (a vista, o apê, a selfie, o print do listing) — a transparência de \"abrir a real\".\n- **Legendas com os números** em cada slide.\n- **Tom de \"abrindo minha planilha\"** — íntimo e honesto."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Viabilidade / utilidade** — a conta real responde a dúvida do investidor.\n2. **Transparência** — mostrar os próprios números gera confiança.\n3. **Autolocalização** — o investidor calcula o caso dele.\n4. **Prova social** — o listing avaliado valida a receita.\n5. **Debate** — o CTA divide opiniões e multiplica o compartilhamento."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Prometer os números e não entregar — \"valores nas próximas fotos\" tem que cumprir.\n- ❌ Só a receita sem os custos — a viabilidade honesta inclui as despesas.\n- ❌ Sem prova — o listing/resultado valida a conta.\n- ❌ Sem CTA de debate — é o que gera o compartilhamento massivo."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com a pergunta de viabilidade** (\"vale a pena [investimento]?\") + \"valores nas próximas fotos\".\n2. **Mostre os custos reais** (parcela, condomínio, IPTU, taxas).\n3. **Revele a receita** (quanto rende).\n4. **Prove** (o listing, o print, o resultado).\n5. **Feche com CTA de debate** (\"fixo ou Airbnb? o que acham?\"). Carrossel de fotos reais; transparência total."
+     }
+    ]
    }
   ],
   "num": 44
@@ -4380,12 +4374,39 @@
   "desc": "'Ninguém queria essa casa' → reforma → lucro: história de virada com números.",
   "slug": "house-flipping-br-ninguem-queria-essa",
   "formato": {
+   "estrutura": "1. **[O ANTES CHOCANTE + PREÇO]** a casa feia/detonada + quanto pagou. → *slot: o antes.*\n2. **[O INVESTIMENTO]** quanto e o que reformou. → *slot: a reforma.*\n3. **[O RESULTADO]** o depois + venda + tempo (o lucro). → *slot: o resultado.*\n4. **[A MORAL]** o método (\"imóveis certos\"). → *slot: a tese.*\n\n- **Fixo:** antes/depois real; os 3 números (compra/reforma/venda); tempo; carrossel que força swipe; moral que posiciona.\n- **Variável:** a casa, os números.",
    "hook": "A narrativa de transformação com números: **\"NINGUÉM queria essa casa por R$X — comprei, reformei com R$Y, e olha o resultado.\"** O antes feio + a rejeição do mercado + o depois lucrativo = história de virada irresistível.",
    "blocos": "- **Slide 1 — a rejeição (hook):** \"ninguém queria por R$X\" + foto do estado ruim.\n- **Slides da reforma:** o processo, o investimento (R$Y), o antes/depois de cada ambiente.\n- **Slide final — o resultado:** valor de venda/avaliação + lucro + \"quer aprender a fazer isso?\".",
    "porque": "- **História de virada** (o patinho feio que virou cisne) é narrativa universal e satisfatória.\n- **Antes/depois com números** = prova concreta + utilidade (save alto).\n- **A rejeição inicial** (\"ninguém queria\") cria o herói-oportunista que enxergou o que ninguém viu.",
    "aplicar": "- Qualquer flip/reforma com antes-depois e números reais.\n- Corretor pode mostrar um imóvel \"difícil\" da carteira com potencial de reforma.\n- Fórmula: rejeição + preço baixo → investimento → resultado com lucro.",
    "guia": "- Antes REAL (foto feia de verdade) + depois impactante — o contraste é tudo.\n- Números reais: compra, reforma, valor final.\n- Carrossel permite mostrar cada ambiente (save alto).\n- CTA de \"quer aprender?\" pode virar mentoria/consultoria.",
-   "prompt": "```\nVocê é investidor(a) de house flipping. Crie um carrossel \"casa rejeitada → reforma → lucro\":\n1) SLIDE 1: \"ninguém queria por [PREÇO]\" + foto do estado ruim; 2) SLIDES da reforma: processo + investimento + antes/depois; 3) SLIDE final: valor final + lucro + CTA.\nMEUS DADOS: Preço de compra + estado: [ ]. Investimento na reforma: [ ]. Valor final/lucro: [ ]. Antes/depois por ambiente: [ ].\nTOM: história de virada, o \"patinho feio\". Antes REAL + números reais. Contraste é tudo.\nENTREGUE: 1) roteiro slide a slide; 2) os números; 3) legenda; 4) 5 hashtags; 5) CTA.\n```"
+   "prompt": "Você é um roteirista de carrossel imobiliário. Crie um \"house-flipping antes/depois com os números\", seguindo EXATAMENTE esta estrutura de carrossel:\n\n**Estrutura obrigatória:**\n1. SLIDE 1 — O ANTES CHOCANTE + PREÇO: a casa feia/detonada + quanto pagou (\"ninguém queria por R$X\")\n2. SLIDE 2 — O INVESTIMENTO: quanto e o que reformou\n3. SLIDE 3 — O RESULTADO: o depois + venda + tempo (o lucro)\n4. SLIDE 4 — A MORAL: o método (\"o poder de reforma de imóveis certos\")\n\n**Meus dados:**\n- Autor + @: [NOME + @]\n- Os 3 números: [COMPRA / REFORMA / VENDA]\n- O tempo até vender: [X MESES]\n- O antes (a foto feia) e o depois: [DESCRIÇÃO]\n\n**Regras de tom:**\n- O antes chocante é o hook (a casa feia real)\n- Os 3 números crus são a prova (mostre o lucro)\n- Fotos reais, não render (autenticidade)\n- A moral posiciona o método (não foi sorte, foi critério)\n\n**Entregue:**\n1. O texto de cada slide (1 a 4)\n2. Quais fotos usar (antes feio / detalhes / depois)\n3. A legenda do post\n4. 5 hashtags\n5. A moral/frase de fecho",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance + autoridade** de quem reforma pra revender (flipping). O antes/depois + o lucro provam o método e atraem investidores/alunos.\n- Formato de carrossel de fotos — fácil de produzir com o que você já registrou da obra."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O ANTES]:** a foto mais feia/detonada. O contraste é o gatilho.\n- **[OS 3 NÚMEROS]:** compra, reforma, venda. O lucro cru é a prova.\n- **[O TEMPO]:** \"vendida em X meses\" torna o resultado tangível e rápido."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se faltar impacto no antes:\n\n> \"Use a foto mais feia/detonada como slide 1 ('ninguém queria por R$X'). O contraste antes/depois é o gatilho — sem o antes chocante, o depois não impressiona.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Antes/depois sem números** — o lucro é o que impressiona.\n2. **Fotos produzidas demais** — a autenticidade (a casa feia real) é o gatilho.\n3. **Esconder o tempo** — \"3 meses\" torna tangível.\n4. **Sem a moral/método** — tira do campo da sorte."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Registre SEMPRE o antes (a casa feia) e o depois. Carrossel de fotos reais.\n- Legendas grandes com os números em cada slide. Moral no último."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance e salvamento (antes/depois + lucro chocante). Posiciona como investidor/reformador competente. O carrossel força o swipe (cada slide um número). Ótimo pra captar investidor ou vender mentoria de flipping."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -4395,7 +4416,36 @@
     "link": "https://tiktok.com/@zn.brique/photo/7496463707178831110",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Ninguém queria por 100 mil → reformei com 30 → vendi por 230 em 3 meses\" — o house-flipping em carrossel prova o método com os números crus e o antes/depois chocante."
+     },
+     {
+      "titulo": "Estrutura slide a slide",
+      "corpo": "| Slide | Imagem | Texto | Função |\n|---|---|---|---|\n| 1 | Casa detonada/queimada, feia | \"NINGUÉM queria ela assim por 100 mil\" | Hook: o antes chocante + o preço de entrada baixo |\n| 2 | Detalhe da reforma (acabamento novo) | \"Comprei e fiz uma reforma completa com 30 mil\" | O investimento (quanto colocou) |\n| 3 | Casa reformada, bonita (madeira) | \"Vendida em 3 meses por 230 mil\" | O resultado — o depois + o lucro + o tempo |\n| 4 | Outro ângulo do depois | \"Esse é o poder de reforma de imóveis certos! ✅✅\" | A moral — o método que posiciona |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O antes chocante é o hook** — uma casa detonada que \"ninguém queria\" cria a curiosidade da transformação.\n- **Os 3 números são a prova** (100 compra + 30 reforma → 230 venda = ~100k de lucro em 3 meses) — o deal fala por si.\n- **O carrossel força o swipe** — cada slide entrega um número, puxando pro próximo.\n- **A moral posiciona o método** (\"imóveis certos\") — não foi sorte, foi critério."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Contraste visual dramático** — o antes (feio/queimado) vs o depois (reformado/bonito) é o gatilho.\n- **Fotos reais** (não render) — a autenticidade prova que aconteceu.\n- **Legendas grandes com os números** em cada slide."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Antes/depois** — a transformação visual é irresistível.\n2. **Números que chocam** — o lucro (~100k em 3 meses) para o scroll.\n3. **Prova real** — fotos de verdade, não promessa.\n4. **Aspiração** — \"eu também posso fazer isso\"."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Antes/depois sem os números — o lucro é o que impressiona.\n- ❌ Fotos \"produzidas\" demais — a autenticidade (a casa feia real) é o gatilho.\n- ❌ Esconder o tempo — \"3 meses\" torna o resultado tangível.\n- ❌ Sem a moral/método — \"imóveis certos\" tira do campo da sorte."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o antes chocante** (a casa feia/detonada) + quanto pagou.\n2. **Mostre o investimento** (quanto e o que reformou).\n3. **Revele o resultado** (o depois + venda + tempo = o lucro).\n4. **Feche com a moral** (o método, \"imóveis certos\").\n5. Carrossel de fotos reais (força o swipe); os 3 números são a estrela."
+     }
+    ]
    }
   ],
   "num": 48
