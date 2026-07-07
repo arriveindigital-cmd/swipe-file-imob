@@ -1948,12 +1948,39 @@
   "desc": "Tour com o valor revelado só no final — a curiosidade do preço segura o vídeo inteiro.",
   "slug": "tour-preco-revelado-so-no-final",
   "formato": {
+   "estrutura": "1. **[PROMESSA DO PREÇO]** \"quanto custa esse imóvel?\" na capa/legenda (abre o loop). → *slot: a promessa.*\n2. **[TOUR SEM REVELAR]** ambientes de luxo, o desejo crescendo (preço adiado). → *slot: o tour.*\n3. **[REVELAÇÃO NO FINAL]** o preço (texto/legenda) — o payoff. → *slot: a revelação.*\n\n- **Fixo:** adiar o preço (loop de retenção); desejo crescendo; revelar no fim; música.\n- **Variável:** o imóvel, o preço.",
    "hook": "Promessa de tour + retenção pelo preço: mostra o imóvel impressionante e sinaliza que **o valor só é revelado no final** (\"aguenta até o fim pra ver quanto custa\"). A curiosidade do preço segura o espectador o vídeo inteiro.",
    "blocos": "- **Isca de tour (0-3s):** \"olha esse imóvel — adivinha quanto custa?\".\n- **Tour crescente (3-40s):** ambientes do menos pro mais impressionante, sem revelar o preço.\n- **Revelação do preço (fim):** o número, no clímax — o momento do comentário/compartilhamento.",
    "porque": "- **Preço segurado = retenção quase total:** ninguém sai antes de saber o valor.\n- **Palpite mental:** o espectador chuta o preço e volta pra conferir (replay).\n- **Ordem crescente** de ambientes mantém a curva de interesse subindo.",
    "aplicar": "- Qualquer imóvel com um valor \"surpreendente\" (mais barato ou mais caro do que parece).\n- Peça o palpite na legenda (\"quanto você acha?\") — dobra o comentário.\n- Funciona pra alto E baixo padrão (a surpresa pode ser \"só R$X\").",
    "guia": "- NUNCA revele o preço antes do fim — é a única regra inviolável.\n- Ambientes em ordem crescente de impacto.\n- Peça o palpite no texto/legenda; revele no último segundo.\n- Capa com \"adivinha o preço\" reforça a isca.",
-   "prompt": "```\nVocê é roteirista de tour imobiliário. Crie um \"tour com preço no final\":\n1) ISCA (0-3s): \"olha esse imóvel — adivinha o preço?\"; 2) TOUR crescente sem revelar o valor; 3) REVELAÇÃO do preço no clímax.\nMEUS DADOS: Imóvel + ambientes em ordem de impacto: [ ]. Preço (surpreendente pra mais ou pra menos): [ ]. Público: [ ].\nTOM: curiosidade, palpite. Preço só no fim, sempre. Capa \"adivinha o preço\".\nENTREGUE: 1) ordem dos ambientes; 2) texto de capa; 3) legenda pedindo palpite; 4) 5 hashtags; 5) momento exato da revelação.\n```"
+   "prompt": "Você é um diretor de conteúdo imobiliário de retenção. Monte a direção de \"tour com preço revelado só no final\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. PROMESSA DO PREÇO (0-3s / capa): \"quanto custa esse imóvel?\" — abre o loop\n2. TOUR SEM REVELAR: os ambientes de luxo, o desejo crescendo (preço adiado)\n3. REVELAÇÃO NO FINAL: o preço (texto/legenda) — o payoff que fecha o loop\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O imóvel + os ambientes de destaque: [DADOS]\n- O preço (a revelação): [R$X]\n\n**Regras de tom:**\n- O adiamento do preço é o motor de retenção — não revele cedo\n- O desejo cresce com o luxo mostrado antes do valor\n- Revele o preço no FINAL (impacto máximo)\n- Música, sem narração\n\n**Entregue:**\n1. A promessa de hook (capa/legenda)\n2. O roteiro do tour (crescendo até a revelação)\n3. Como revelar o preço no fim\n4. Sugestão de música\n5. 5 hashtags + legenda",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **retenção + alcance** com imóveis de destaque. O loop do \"quanto custa?\" segura o espectador até o fim.\n- Funciona com qualquer imóvel impressionante — a curiosidade do preço é universal."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A PROMESSA]:** \"quanto custa?\" na capa/legenda — abre o loop de retenção.\n- **[O ADIAMENTO]:** não revele o preço até o final. O desejo cresce enquanto o valor é adiado.\n- **[A REVELAÇÃO]:** o preço no fim (texto/legenda) — o payoff e o gatilho do debate."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se revelar o preço cedo:\n\n> \"Adie a revelação do preço até o final. O loop de 'quanto custa?' é o motor de retenção — mostrar cedo mata o formato.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Revelar o preço cedo** — o adiamento é o motor.\n2. **Não entregar o preço** — o payoff (revelação) tem que vir.\n3. **B-roll fraco** — o desejo precisa crescer.\n4. **Sem a promessa inicial** — \"quanto custa?\" abre o loop."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Tour cinematográfico crescendo até a revelação. Promessa do preço na capa. Preço no fim. Música."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta retenção (o loop do preço segura até o fim) + debate (caro/barato) nos comentários. A ancoragem tardia maximiza o impacto do número. Reaproveite o formato pra cada imóvel de destaque."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1963,7 +1990,40 @@
     "link": "https://tiktok.com/@rafaelbrottoo/video/7595203527199313173",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um tour de mansão que segura o \"quanto custa?\" até o final — a curiosidade do preço é o loop que faz o espectador assistir tudo pra descobrir."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Elemento | Função |\n|---|---|---|---|\n| 0-3s | B-roll da mansão (área de lazer, fogo de chão, piscina) | Promessa de descobrir o preço (na capa/legenda) | Hook: \"quanto custa esse imóvel?\" — abre o loop do preço |\n| 3-12s | Tour dos ambientes de luxo | (música) | O desejo cresce enquanto o preço é adiado |\n| 12-15s | Fecho | O PREÇO revelado (texto no fim / legenda) | Payoff: o valor que fecha o loop |\n\n> Nota: o gancho do formato é adiar o preço — que é revelado no **final** (ou na legenda). O vídeo é o b-roll aspiracional; a curiosidade do valor é o motor de retenção."
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O loop do preço é a mecânica** — \"quanto custa?\" fica sem resposta até o final, o que obriga a assistir tudo.\n- **O desejo cresce com o adiamento** — quanto mais luxo mostrado sem o preço, mais forte a curiosidade.\n- **A revelação no fim é o payoff** — o número fecha o loop (e gera o comentário \"caro/barato\").\n- **Sem fala** — a imagem + a promessa do preço bastam."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Tour cinematográfico** de mansão (ambientes de luxo em sequência).\n- **A promessa do preço** (na capa/legenda) enquadra a expectativa.\n- **Música** dá o clima; a revelação final é o clímax."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música** conduz; o ritmo constrói o desejo até a revelação.\n- O adiamento do preço é o que segura a retenção do início ao fim."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Loop aberto (curiosidade do preço)** — \"quanto custa?\" sem resposta é retenção pura.\n2. **Desejo aspiracional** — o luxo mostrado antes do preço amplia a curiosidade.\n3. **Ancoragem tardia** — revelar o preço no fim maximiza o impacto do número.\n4. **Debate** — o preço revelado gera o comentário \"caro ou barato?\"."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Revelar o preço cedo — o adiamento É o motor de retenção.\n- ❌ Prometer o preço e não entregar — o payoff (a revelação) tem que vir.\n- ❌ B-roll fraco — o desejo precisa crescer pra a curiosidade valer.\n- ❌ Sem a promessa inicial — \"quanto custa?\" na capa é o que abre o loop."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra prometendo o preço** (\"quanto custa esse imóvel?\") na capa/legenda — abre o loop.\n2. **Faça o tour dos ambientes de luxo** sem revelar o valor (o desejo cresce).\n3. **Revele o preço só no final** (texto/legenda) — o payoff que fecha o loop.\n4. **Deixe a música conduzir** (sem narração).\n5. Funciona com qualquer imóvel de destaque; o adiamento do preço é a estrela."
+     }
+    ]
    }
   ],
   "num": 21
@@ -2262,12 +2322,39 @@
   "desc": "Os specs de peso (m², R$, suítes) batem antes de qualquer palavra sobre b-roll de mansão.",
   "slug": "numeros-como-hook-sobre-b-roll",
   "formato": {
+   "estrutura": "1. **[NÚMERO-HOOK]** o dado bruto mais impressionante (m², R$, spec) em destaque na capa/legenda. → *slot: o número.*\n2. **[B-ROLL CINEMATOGRÁFICO]** o tour que prova o que o número promete. → *slot: o b-roll.*\n3. **[FECHO DE GRANDIOSIDADE]** aérea/escala. → *slot: o fecho.*\n\n- **Fixo:** número bruto/impressionante como isca; destaque na capa/legenda; b-roll cinematográfico; música.\n- **Variável:** o número, o imóvel.",
    "hook": "Os números de peso batem antes de qualquer palavra: **\"1.200 m² · R$18 milhões · 8 suítes\"** aparecendo na tela sobre b-roll da mansão. A escala numérica é o próprio gancho — impressiona em 2 segundos.",
    "blocos": "- **Números-choque na tela (0-3s):** metragem, valor, specs de destaque empilhados.\n- **B-roll cinematográfico (3-30s):** takes que provam os números, música.\n- **CTA/assinatura (fim):** contato ou \"quer conhecer? chama no direct\".",
    "porque": "- **Número grande = parada de scroll instantânea** — não precisa de narração.\n- **Empilhar specs** cria sensação de \"isso é surreal\" que compartilha.\n- **B-roll bonito** dá lastro visual aos números.",
    "aplicar": "- Qualquer imóvel com um número impressionante (metragem, valor, vagas, altura).\n- Empilhe 3 números fortes na abertura.\n- Funciona pra alto padrão E pra \"número surpreendente\" de baixo padrão (\"R$149 mil / 2 quartos / pronto pra morar\").",
    "guia": "- Os 3 números têm que ser os mais impressionantes, grandes e legíveis no 1º frame.\n- B-roll estável e bonito; música que valoriza.\n- Sem narração; os números + a imagem bastam.\n- CTA discreto no fim.",
-   "prompt": "```\nVocê é editor(a) de conteúdo imobiliário. Crie um vídeo \"números como hook\":\n1) NÚMEROS-CHOQUE na tela (0-3s): 3 specs de maior impacto (m²/R$/suítes/vagas); 2) B-ROLL cinematográfico que prova os números; 3) CTA/assinatura.\nMEUS DADOS: Imóvel: [ ]. Os 3 números mais impressionantes: [ ]. Contato/CTA: [ ].\nTOM: escala, impacto, sem fala. Números grandes e legíveis no 1º frame.\nENTREGUE: 1) os 3 números da capa; 2) shot list do b-roll; 3) legenda; 4) 5 hashtags; 5) CTA.\n```"
+   "prompt": "Você é um diretor de conteúdo imobiliário de alcance. Monte a direção de \"número como hook sobre b-roll de mansão\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. NÚMERO-HOOK (0-3s / capa / legenda): o dado bruto mais impressionante (m², R$, spec absurdo) em destaque\n2. B-ROLL CINEMATOGRÁFICO: o tour que prova o que o número promete\n3. FECHO DE GRANDIOSIDADE: aérea/escala\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O número-hook (o dado mais impressionante): [M² / R$ / SPEC]\n- O imóvel + ambientes de destaque: [DADOS]\n\n**Regras de tom:**\n- O número precisa ser bruto e impressionante (o maior spec)\n- Coloque-o em destaque (capa/legenda/1º frame) — é a isca\n- B-roll cinematográfico prova o número\n- Música, sem narração — o dado + a imagem carregam\n\n**Entregue:**\n1. 3 variações do número-hook (capa/legenda)\n2. O roteiro visual do b-roll\n3. Sugestão de música\n4. 5 hashtags + legenda com o número\n5. Outros números do imóvel que rendem versões",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance + desejo** com imóveis de destaque. Um número absurdo para o scroll e o b-roll entrega o voyeurismo.\n- Funciona pra qualquer imóvel com um dado impressionante (metragem, preço, um spec único)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O NÚMERO]:** o mais bruto e impressionante do imóvel. É a isca — sem número forte, não para o scroll.\n- **[O DESTAQUE]:** capa/legenda/primeiro frame. O número tem que ser a primeira coisa que a pessoa vê.\n- **[O B-ROLL]:** cinematográfico, que prove o que o número promete."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o número vier fraco:\n\n> \"Use o dado mais absurdo do imóvel (a maior metragem, o preço, o spec único). O número é a isca — genérico não para o scroll.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Número fraco** — precisa ser bruto e impressionante.\n2. **B-roll amador** — o desejo depende do capricho.\n3. **Enterrar o número** — ele é a isca; capa/legenda/1º frame.\n4. **Explicar demais** — o número + a imagem bastam."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Tour cinematográfico de mansão. Número em destaque na capa/legenda. Música, sem narração."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance (número absurdo + voyeurismo). O número na legenda é o gatilho; o b-roll é o payoff. Reaproveite vários números do mesmo imóvel pra múltiplas versões."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2277,7 +2364,40 @@
     "link": "https://tiktok.com/@diegovieiracorretor/video/7590951885239012616",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um número que impressiona (a metragem, o preço, um spec absurdo) como isca sobre um b-roll de mansão — o dado bruto para o scroll e o desejo entrega o resto."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Elemento | Função |\n|---|---|---|---|\n| 0-3s | B-roll da mansão (piscina, vidro, escada helicoidal) | O NÚMERO-HOOK na capa/legenda (metragem, R$, spec) | Hook: o dado bruto que impressiona (para o scroll) |\n| 3-25s | Tour cinematográfico dos ambientes de luxo | (música) | O desejo — a mansão que o número descreve |\n| 25-28s | Aérea/fecho | (música) | Fecho de grandiosidade |\n\n> Nota: o número-hook do formato vive no **texto de capa / legenda do post** (não é narrado). O vídeo é o b-roll aspiracional que o número \"vende\"."
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O número é a isca** — um dado bruto e impressionante (m², R$, \"12 banheiros\", \"elevador privativo\") na capa/legenda para o scroll sem precisar de frase.\n- **O b-roll entrega o desejo** — a imagem prova o que o número promete.\n- **Sem fala** — o número + a imagem bastam; a música dá a épica.\n- **A curiosidade do número** (\"como é X m²?\") é o que leva o espectador a assistir o tour inteiro."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Tour cinematográfico** de mansão (drone + interiores de altíssimo padrão).\n- **O número em destaque** na capa/legenda — a âncora do formato.\n- **Música** dá o clima aspiracional."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música** conduz; o ritmo é o da revelação de ambientes.\n- O número na capa é o gatilho; o tour é o payoff."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Ancoragem de número** — um dado bruto e absurdo recalibra a percepção e para o scroll.\n2. **Voyeurismo** — ver o que o número representa é irresistível.\n3. **Desejo aspiracional** — a mansão alimenta a fantasia.\n4. **Curiosidade** — \"como é [o número]?\" leva a assistir tudo."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Número fraco/genérico — precisa ser bruto e impressionante (o maior spec do imóvel).\n- ❌ B-roll amador — o desejo depende do capricho cinematográfico.\n- ❌ Enterrar o número — ele é a isca; tem que estar em destaque (capa/legenda/1º frame).\n- ❌ Explicar demais — o número + a imagem bastam."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escolha o número mais impressionante** do imóvel (metragem, preço, um spec absurdo) como hook.\n2. **Coloque-o em destaque** (capa/legenda/primeiro frame) — é a isca que para o scroll.\n3. **Entregue um b-roll cinematográfico** que prove o que o número promete.\n4. **Deixe a música conduzir** (sem narração) — o dado + a imagem carregam.\n5. Funciona com qualquer imóvel de destaque; o número é a estrela, o tour é o payoff."
+     }
+    ]
    }
   ],
   "num": 25
