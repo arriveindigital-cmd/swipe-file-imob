@@ -4416,12 +4416,39 @@
   "desc": "Reframe de terreno vazio em oportunidade ('é só mato… mas é assim que nascem oportunidades').",
   "slug": "anuncio-em-video-institucional-de-incorporadora",
   "formato": {
+   "estrutura": "1. **[HOOK-REFRAME]** \"parece [nada], mas é [oportunidade]\" (visão de investidor). → *slot: o reframe.*\n2. **[LOCALIZAÇÃO + POTENCIAL]** a região em crescimento. → *slot: a localização.*\n3. **[O PRODUTO/FUTURO]** o que será entregue (torres, lazer). → *slot: o produto.*\n4. **[CONFIANÇA + OFERTA]** a marca + condições de lançamento. → *slot: a marca.*\n5. **[CTA]** fale com a gente.\n\n- **Fixo:** reframe do vazio em oportunidade; confiança de marca (reduz risco da planta); localização; condições de lançamento; produção profissional.\n- **Variável:** o empreendimento, a região, o produto.",
    "hook": "Reframe de terreno vazio em oportunidade: **\"Se alguém passasse aqui hoje, diria 'é só mato'. Mas quem entende de mercado sabe que é assim que nascem as grandes oportunidades.\"** Transforma a limitação (nada construído) em vantagem (chegar cedo).",
    "blocos": "- **Reframe do terreno (0-8s):** \"é só mato\" → \"é assim que nascem oportunidades\".\n- **Localização + projeto (8-40s):** a região que cresce, o acesso, o que vai surgir (torres, lazer, 12+ itens).\n- **Selo de marca + CTA (fim):** \"segurança e experiência MRV + condições de lançamento — fale com a gente\".",
    "porque": "- **Vender o futuro (não o presente)** justifica comprar na planta/pré-lançamento.\n- **O reframe** (\"é só mato → é oportunidade\") ensina o espectador a enxergar valor onde ele não vê.\n- **Marca forte (MRV)** empresta segurança à decisão de comprar cedo.",
    "aplicar": "- Qualquer lançamento/loteamento em região emergente: \"hoje é X, amanhã é Y\".\n- Corretor pode narrar no terreno (cruza com B06) vendendo o potencial da região.\n- Fórmula: reframe da limitação → prova de crescimento → projeto → marca/CTA.",
    "guia": "- O reframe tem que ser honesto (potencial real de valorização, não promessa vazia).\n- Mostrar as provas de crescimento da região (acesso, comércio, obras).\n- Selo de marca/construtora dá segurança.\n- CTA de contato + condição de lançamento.",
-   "prompt": "```\nVocê é copywriter de anúncio de incorporadora. Crie um vídeo institucional \"vender o futuro\":\n1) REFRAME (0-8s): a limitação atual vira oportunidade (\"é só mato → é assim que nascem oportunidades\"); 2) LOCALIZAÇÃO + PROJETO (crescimento da região, o que vai surgir); 3) MARCA + CTA + condição de lançamento.\nMEUS DADOS: Empreendimento + região: [ ]. Provas de crescimento: [ ]. Itens do projeto: [ ]. Marca/construtora: [ ].\nTOM: vender o futuro, reframe honesto. Provas reais de valorização. Segurança de marca.\nENTREGUE: 1) roteiro; 2) copy; 3) headline do card; 4) 2 variações do reframe; 5) CTA.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de lançamento imobiliário. Crie o roteiro de um anúncio institucional \"terreno vazio → grande oportunidade\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK-REFRAME (0-8s): \"parece [só mato/nada], mas quem entende de mercado sabe que é assim que nascem as grandes oportunidades\"\n2. LOCALIZAÇÃO + POTENCIAL: a região em crescimento + os acessos\n3. O PRODUTO/FUTURO: o que será entregue (torres, itens de lazer) — venda a visão\n4. CONFIANÇA + OFERTA: a marca/incorporadora + as condições especiais de lançamento\n5. CTA: \"fale com a gente, conheça o [empreendimento]\"\n\n**Meus dados:**\n- Incorporadora + @: [NOME + @]\n- Empreendimento + região: [NOME + LOCAL]\n- O potencial da região: [POR QUE CRESCE]\n- O produto (torres, lazer): [O QUE SERÁ ENTREGUE]\n- As condições de lançamento: [A OFERTA]\n\n**Regras de tom:**\n- O reframe (vazio → oportunidade) é o gancho — vende a visão de investir cedo\n- Ancore na confiança da marca (reduz o medo da planta)\n- Venda o FUTURO com localização + produto + marca\n- Condições de lançamento criam urgência\n\n**Entregue:**\n1. O roteiro (reframe → localização → produto → marca → CTA)\n2. A frase-reframe do hook\n3. Sugestão de b-roll (drone do terreno, renders, decorado)\n4. O CTA\n5. Legenda do anúncio",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **lançamento na planta** via tráfego pago. O reframe \"vazio → oportunidade\" vende a visão de investir cedo, e a marca reduz o medo da planta.\n- Exige produção profissional — é anúncio de porte, não conteúdo caseiro."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O REFRAME]:** o gancho. Transforme o que parece \"nada\" (o terreno vazio) na oportunidade que o investidor esperto enxerga.\n- **[A CONFIANÇA]:** a marca/incorporadora é o que fecha na planta. Enfatize experiência, entregas, garantias.\n- **[AS CONDIÇÕES]:** a oferta de lançamento cria a urgência que recompensa quem decide cedo."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se mostrar só o terreno:\n\n> \"Adicione o reframe ('mas é assim que nascem as oportunidades'). O vazio sem a visão de futuro não vende — é o enquadramento de investidor que dá sentido.\"\n\nSe faltar confiança de marca:\n\n> \"Ancore na experiência/segurança da incorporadora. Na planta, o maior medo é a entrega — a marca é o que reduz esse risco.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Só o terreno vazio** — sem o reframe, não há gancho.\n2. **Só o produto sem a marca** — na planta, a confiança fecha a venda.\n3. **Esconder que é lançamento** — transparência + condições especiais é o pacote.\n4. **Produção amadora** — anúncio institucional exige polimento pra transmitir porte."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Drone do terreno, decorado, renders, transições cinematográficas. Corretor com a camiseta da marca.\n- Narração inspiracional sobre trilha institucional. Card de branding + condições. CTA no fim."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de lançamento — o reframe + a marca + as condições especiais maximizam a captação de leads na planta. Teste variações do reframe no hook. A produção profissional é parte do argumento de confiança (porte da incorporadora)."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -4431,7 +4458,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Se alguém passasse aqui diria: é só mato\" — o anúncio institucional transforma um terreno vazio na promessa de uma grande oportunidade, vendendo o futuro com a confiança da marca."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Corretora no meio do mato (camiseta MRV) | \"Se alguém passasse aqui hoje diria: é só mato. Mas quem entende de mercado sabe que é assim que nascem as grandes oportunidades\" | Hook-reframe: transforma o \"vazio\" em \"oportunidade\" (visão de investidor) |\n| 8-20s | Vista aérea + mapa \"Palmeira Serena\" | \"Nasce numa das regiões que mais cresce em Palmas, com acesso rápido à avenida principal, perto de tudo\" | Localização + potencial de crescimento |\n| 20-38s | Decorado, prédios, piscina (renders) | \"3 torres modernas, 2 elevadores cada, piscina, salão, churrasqueira, pet place, +12 itens de lazer\" | O produto — o que será entregue |\n| 38-48s | Logo MRV \"Condições Especiais\" | \"Com a segurança e experiência MRV, e condições especiais de lançamento\" | Confiança da marca + oferta |\n| 48-52s | Duas corretoras | \"Grandes oportunidades começam assim. Fale com a gente, conheça o Palmeira Serena\" | CTA |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook-reframe é o gancho:** \"é só mato\" → \"é assim que nascem as oportunidades\" — transforma o que parece nada na visão de quem investe cedo.\n- **Vende o FUTURO** (a promessa) com três pilares: localização (crescimento) + produto (lazer) + marca (segurança).\n- **A confiança da incorporadora (MRV)** reduz o medo de comprar na planta — o maior risco percebido do lançamento.\n- **Condições especiais de lançamento** criam urgência e recompensa por decidir cedo."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Produção profissional** (drone, decorado, renders, transições cinematográficas) — sinaliza porte e confiança.\n- **Corretora com a camiseta da marca** humaniza a incorporadora.\n- **Card de branding** (\"Condições Especiais\" + logo) reforça a marca."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração inspiracional** (tom de \"visão de futuro\") sobre trilha institucional.\n- Ritmo que constrói do vazio (o mato) ao sonho (o empreendimento pronto)."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Reframe / visão** — ver oportunidade onde outros veem vazio é o gatilho do investidor.\n2. **FOMO de crescimento** — \"região que mais cresce\" ativa o medo de perder o timing.\n3. **Desejo** — os +12 itens de lazer alimentam a aspiração.\n4. **Confiança de marca** — a MRV reduz o risco percebido da planta.\n5. **Urgência** — condições de lançamento recompensam a decisão rápida."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Mostrar só o terreno vazio sem o reframe — é o \"mas é assim que nascem oportunidades\" que dá sentido.\n- ❌ Vender só o produto sem a marca — na planta, a confiança da incorporadora é o que fecha.\n- ❌ Esconder que é lançamento/planta — a transparência + as condições especiais é o pacote.\n- ❌ Produção amadora — anúncio institucional exige polimento pra transmitir porte."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o reframe:** \"parece [nada/mato], mas quem entende sabe que é [oportunidade]\".\n2. **Mostre localização + potencial** de crescimento da região.\n3. **Apresente o produto/futuro** (torres, lazer, renders) — venda a visão.\n4. **Ancore na confiança da marca** + as condições especiais de lançamento.\n5. **Feche com CTA** (\"fale com a gente\"). Produção profissional é parte do argumento."
+     }
+    ],
     "transcricao": "Se alguém passasse aqui hoje, provavelmente diria, é só mato.\nMas quem entende de mercado imobiliário sabe que é assim que nascem as grandes oportunidades.\nO Palmeira Serena nasce em uma das regiões que mais cresce em Palmas.\nCom acesso rápido à avenida Teutônio segurado e perto de tudo o que facilita a sua vida.\nMuito em breve, esse lugar vai se transformar em um condomínio pensado para quem quer viver melhor.\nAqui vão surgir três torres modernas, com dois elevadores em cada uma delas.\nCom piscina, salão de festa, churrasqueira, pet place e mini quadra.\nSão mais de 12 itens de lazer que transformam o seu dia a dia em qualidade de vida.\nCom toda a segurança e experiência MRV.\nE condições especiais de lançamento que facilitam a conquista do seu imóvel.\nGrandes oportunidades começam assim, com a decisão certa no momento certo.\nFale com a gente e conheça o lançamento Palmeiras Serena."
    }
   ],
@@ -4686,12 +4746,39 @@
   "desc": "Prova de tração ('lotes vendidos antes do lançamento') traduzida em benefício pro morador.",
   "slug": "prova-de-tracao-do-lancamento",
   "formato": {
+   "estrutura": "1. **[HOOK: PROVA DE TRAÇÃO]** \"X% vendido antes do lançamento\" + promessa de explicar o benefício. → *slot: o número de tração.*\n2. **[DEPOIMENTOS DE STAKEHOLDERS]** múltiplas vozes com cargo (autoridade em camadas). → *slot: os depoimentos.*\n3. **[A PROVA SOCIAL]** quem apostou (empresas, marcas). → *slot: quem comprou.*\n4. **[A TESE DE VALORIZAÇÃO]** por que a tração beneficia o comprador. → *slot: a lógica.*\n5. **[DATA + SLOGAN]** lançamento + assinatura. → *slot: o CTA.*\n\n- **Fixo:** número de tração no hook; múltiplos depoimentos com cargo; lógica de valorização; produção institucional; data.\n- **Variável:** o empreendimento, os depoentes, a tração.",
    "hook": "Prova de demanda + benefício pro morador: **\"100% dos lotes comerciais vendidos antes mesmo do lançamento — entenda como isso é excelente pra quem vai morar aqui.\"** A tração vira argumento de valorização e conveniência, não só de \"tá vendendo\".",
    "blocos": "- **Prova de tração (0-8s):** \"X% vendido antes do lançamento\".\n- **Tradução em benefício (8-40s):** o que essa tração significa pro morador (comércio, supermercado, academia confirmados = conveniência + valorização).\n- **Depoimentos/parceiros + CTA (fim):** lojistas confirmando presença + data de lançamento + \"fale com a gente\".",
    "porque": "- **Tração = prova social + FOMO:** \"já vendeu tudo isso\" pressiona a decisão.\n- **Traduzir a tração em benefício** (comércio confirmado = valorização) educa e convence o comprador residencial.\n- **Parceiros confirmados** (supermercado, academia) são prova terceirizada de que o projeto vai sair.",
    "aplicar": "- Qualquer lançamento com boa venda: \"X unidades/lotes vendidos em Y dias\".\n- Traduza a tração em benefício concreto pro comprador (valorização, conveniência, segurança).\n- Use parceiros/âncoras confirmados como prova de que o projeto acontece.",
    "guia": "- Números de tração REAIS e verificáveis.\n- Sempre traduzir \"vendeu muito\" em \"isso é bom pra VOCÊ porque…\".\n- Depoimentos de parceiros/lojistas dão prova externa.\n- CTA com data de lançamento cria urgência honesta.",
-   "prompt": "```\nVocê é copywriter de anúncio de lançamento. Crie um anúncio \"prova de tração\":\n1) TRAÇÃO (0-8s): \"[X]% vendido antes do lançamento\"; 2) TRADUÇÃO em benefício pro morador (valorização/conveniência); 3) PARCEIROS confirmados + data + CTA.\nMEUS DADOS: Tração real: [ ]. O que ela significa pro comprador: [ ]. Parceiros/âncoras confirmados: [ ]. Data de lançamento: [ ].\nTOM: prova + FOMO, traduzida em benefício. Números reais. Prova externa de parceiros.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) 2 variações da prova; 5) CTA com data.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de lançamento imobiliário. Crie o roteiro de \"prova de tração do lançamento\" (demanda comprovada + múltiplos depoimentos), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: PROVA DE TRAÇÃO (0-8s): \"[X%] vendido / esgotado antes do lançamento\" + \"entenda como isso é bom pra quem vai morar aqui\"\n2. DEPOIMENTOS DE STAKEHOLDERS: múltiplas vozes com nome/cargo (sócios, parceiros, quem comprou)\n3. A PROVA SOCIAL: quem apostou (empresas, marcas que compraram)\n4. A TESE DE VALORIZAÇÃO: por que a tração beneficia o comprador (comércio = conveniência + valorização)\n5. DATA + SLOGAN: a data de lançamento + a assinatura de marca\n\n**Meus dados:**\n- Empreendimento + @: [NOME + @]\n- O número de tração: [X% VENDIDO / ESGOTADO]\n- Os depoentes (nome + cargo): [LISTE]\n- Quem apostou (empresas/marcas): [LISTE]\n- A lógica de valorização: [POR QUE BENEFICIA O COMPRADOR]\n- Data de lançamento: [DATA]\n\n**Regras de tom:**\n- A tração precisa virar benefício pro comprador (\"isso é bom pra VOCÊ porque…\")\n- Use MÚLTIPLAS vozes com cargo — a prova em camadas é a força\n- Números específicos (\"100%\", \"X lotes\")\n- Feche com data + slogan (converte a prova num próximo passo)\n\n**Entregue:**\n1. O roteiro (hook → depoimentos → prova social → valorização → data)\n2. Os lower-thirds (nome + cargo de cada depoente)\n3. A frase de tração do hook\n4. A explicação da lógica de valorização\n5. A data + slogan de fecho",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **lançamento** com demanda já comprovada (fase comercial vendida, reservas esgotadas). A tração é o argumento de \"entra que é bom\" mais forte que existe.\n- Exige produção institucional (múltiplos depoimentos) — é anúncio de credibilidade."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O NÚMERO DE TRAÇÃO]:** específico e impressionante (\"100% vendido\", \"esgotado em X dias\"). É o hook.\n- **[OS DEPOENTES]:** múltiplas vozes com cargo. A prova em camadas (diretor, parceiro, quem comprou) é a força do formato.\n- **[A LÓGICA DE VALORIZAÇÃO]:** traduza a tração em benefício pro comprador (comércio vendido = conveniência + valorização). Sem isso, é só vaidade."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se afirmar a tração sem benefício:\n\n> \"Explique por que a tração é boa PRO COMPRADOR (comércio = conveniência e valorização). '100% vendido' sozinho é vaidade; conectado ao benefício, é argumento.\"\n\nSe usar um só depoimento:\n\n> \"Encadeie múltiplas vozes com cargo (sócio, parceiro, quem comprou). A prova social em camadas é o que reduz o risco percebido.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Tração sem benefício** — precisa virar \"isso é bom pra você porque…\".\n2. **Um só depoimento** — a força vem das múltiplas vozes com cargo.\n3. **Números vagos** — a tração precisa ser específica.\n4. **Sem data/CTA** — a prova precisa converter num próximo passo."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Depoimentos filmados profissionalmente com lower-thirds (nome/cargo). Drone, renders, branding.\n- Narração conectiva encadeando as vozes. Data de lançamento + slogan no fecho."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de lançamento de alta credibilidade — a prova de tração + os múltiplos depoimentos reduzem o risco percebido e aceleram a decisão. A lógica de valorização converte investidor. Ideal pra empreendimentos com fase comercial/reservas já vendidas."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -4701,7 +4788,40 @@
     "link": "https://www.facebook.com/ads/library/?id=1439210687454587",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"100% dos lotes comerciais vendidos antes do lançamento\" — a prova de tração usa a demanda já comprovada como argumento de que o residencial é a oportunidade certa."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Vista aérea; legenda \"100%\" | \"100% dos lotes comerciais vendidos antes mesmo do lançamento. Entenda como isso é excelente pra quem vai morar aqui\" | Hook: a prova de tração (100% vendido) + promessa de explicar o benefício |\n| 8-30s | Depoimento (Sócia Diretora, lower-third) | \"A portaria fica próxima a um mall na avenida principal — conveniência e segurança pro residencial\" | Autoridade 1 (a urbanizadora) + o benefício |\n| 30-55s | Dono de supermercado (depoimento) | \"Escolhemos o Quatro Estações; será nossa 2ª loja, vai suprir a expectativa dos moradores\" | Prova social: empresas apostando = demanda real |\n| 55-85s | Gestor de venda / Diretor | \"Lotes vendidos pra academia, padaria, clínica, farmácia + supermercado. O sucesso mostra a força do complexo\" | Mais prova (quem comprou) + a tese (tração = valorização) |\n| 85-100s | Render \"Lançamento 13.12.2025\" | \"Cada empreendimento que confirma contribui pra valorização do residencial, lançado em 13/12\" | A data + a lógica de valorização |\n| 100-107s | Aéreo | \"4 Estações, um lugar pensado pra todas as estações da sua vida\" | Assinatura/slogan |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook é a prova de tração** (\"100% vendido antes de lançar\") — a validação do mercado é o argumento mais forte de que vale a pena entrar.\n- **Múltiplos depoimentos de stakeholders** (diretora, dono de supermercado, gestor, diretor) — prova social em camadas, cada voz com autoridade e cargo.\n- **A tese central é a valorização:** comércio vendido → mais conveniência e movimento → residencial mais desejado e valorizado. Um benefício racional, não só emocional.\n- **A data de lançamento** cria o próximo passo e a urgência."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Produção institucional de alto padrão** — depoimentos com lower-thirds de nome/cargo, drone, renders, branding consistente.\n- **Múltiplas vozes filmadas profissionalmente** — a diversidade de depoentes reforça a credibilidade.\n- **Slogan de marca** no fecho consolida a identidade."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Depoimentos encadeados** com narração conectiva — ritmo de \"reportagem de credibilidade\".\n- Cada depoimento adiciona uma camada de prova; a montagem constrói o argumento."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Prova de tração** — \"100% vendido\" é validação de mercado (se todos compraram, é bom).\n2. **Prova social em camadas** — vários stakeholders apostando reduzem o risco percebido.\n3. **Lógica de valorização** — o benefício racional (comércio = valorização) convence o investidor.\n4. **Autoridade** — os cargos (diretora, gestor) emprestam credibilidade.\n5. **Urgência** — a data de lançamento marca o momento de agir."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Afirmar a tração sem explicar o benefício — \"100% vendido\" precisa virar \"isso é bom pra VOCÊ porque…\".\n- ❌ Um só depoimento — a força vem das múltiplas vozes com cargo (prova em camadas).\n- ❌ Números vagos — a tração precisa ser específica (\"100%\", \"X lotes\").\n- ❌ Esquecer a data/CTA — a prova precisa converter num próximo passo."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com a prova de tração** (\"X% vendido / esgotado antes do lançamento\") + promessa de explicar o benefício.\n2. **Encadeie depoimentos de stakeholders** com cargo (sócios, parceiros, quem comprou).\n3. **Mostre quem apostou** (empresas, marcas) como prova social da demanda.\n4. **Explique a lógica de valorização** (por que a tração beneficia o comprador).\n5. **Feche com a data de lançamento + slogan**. Produção institucional é obrigatória."
+     }
+    ],
     "transcricao": "100% dos lotes comerciais vendidos antes mesmo do lançamento.\nEntenda como isso é excelente para quem vai morar aqui.\nO projeto da portaria foi concebido próximo a um mall\nque fica voltado para a avenida principal ali desse bairro.\nIsso é muito interessante, toda essa conveniência de comércio e segurança\nque esse mall traz para o próprio residencial.\nEscolhemos o Quatro Estações para o seu empreendimento\nem uma área bastante nobre aqui em Lagoa Santa.\nA gente está muito feliz com essa expansão do grupo na cidade de Lagoa Santa.\nEssa será a nossa segunda loja e eu tenho certeza que o supermercado vai suprir muito a expectativa de todos os moradores da região.\nComo 4 estações foi pensado para ser um empreendimento de alto padrão em todos os detalhes,\naqui no nosso complexo comercial os moradores terão segurança, praticidade e conforto.\nTodos os nossos lotes comerciais já foram vendidos para empreendedores que trarão para cá academia, padaria, clínica, farmácias e outros importantes produtos e serviços, sem contar a grande área de supermercado que vocês acabaram de conhecer.\nO sucesso de venda dos nossos lotes comerciais mostra força e um grande potencial do Complexo 4 Estações.\nE cada empreendimento que confirma a presença no 4 Estações contribui com a valorização do nosso residencial que será lançado no dia 13 de dezembro de 2025.\nCom serviços essenciais ao lado, mais segurança, mais movimento e mais comodidade.\nO 4 Estações se torna um lugar ainda mais desejado.\n4 estações, um lugar pensado para todas as estações da sua vida."
    }
   ],
