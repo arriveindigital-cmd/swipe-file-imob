@@ -1347,6 +1347,7 @@
   "desc": "Estatística de patrimônio + eliminação das alternativas óbvias até revelar o imóvel.",
   "slug": "estatistica-de-riqueza-como-hook-sobre",
   "formato": {
+   "estrutura": "1. **[ESTATÍSTICA-ÂNCORA]** \"[X]% dos [ricos/milionários] [feito]…\". → *slot: a estatística + fonte.*\n2. **[ELIMINAÇÃO]** 3-5 alternativas óbvias derrubadas com ❌, uma por vez. → *slot: as alternativas.*\n3. **[REVELAÇÃO]** o mercado imobiliário com ✅ (payoff). \n4. **[DESDOBRAMENTO/CTA]** por que + como começar.\n\n- **Fixo:** eliminar ANTES de revelar; fonte verificável na legenda; b-roll aspiracional forte.\n- **Variável:** a estatística, as alternativas eliminadas, o b-roll.",
    "hook": "Estatística + eliminação de alternativas: **\"90% dos milionários ficaram ricos com o mesmo investimento. Não foi ação, não foi Bitcoin, não foi cripto, não foi NFT, nem empreendedorismo… foi o mercado imobiliário.\"** A contagem regressiva de \"o que NÃO foi\" cria retenção até a revelação.",
    "blocos": "- **Estatística-âncora (0-3s):** \"90% dos milionários…\".\n- **Eliminação em sequência (3-12s):** descarta as alternativas óbvias (ações, cripto, NFT) — cada \"não foi\" prende.\n- **Revelação (12-15s):** \"foi o mercado imobiliário\" — o payoff.\n- **Desdobramento/CTA (fim):** por que, e como o espectador pode começar.",
    "porque": "- **Número de autoridade** (\"90%\") legitima a tese logo de cara.\n- **Eliminar alternativas** cria suspense e derruba as objeções do espectador (ele pensa \"então é o quê?\").\n- **Posiciona o imóvel como o caminho comprovado** dos ricos — desejo + autoridade.",
@@ -1362,7 +1363,44 @@
     "link": "https://instagram.com/p/CsKALHUuKVW",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 31 · 90% dos Ricos (estatística como hook) |\n| Criador | @thalescastroimoveis · Instagram Reels |\n| Link | instagram.com/p/CsKALHUuKVW |\n| Métrica | **15,3 mil curtidas** |\n| Duração | ~15s · vertical 9:16 · b-roll de mansões + narração/texto |"
+     },
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma estatística de autoridade (\"**90% dos milionários ficaram ricos com o mesmo investimento**\") + a **eliminação em sequência** das alternativas óbvias (❌ações ❌bitcoin ❌cripto ❌NFT) até revelar **✅ mercado imobiliário** — o suspense da eliminação sustenta a retenção, sobre b-roll de mansões do Rio."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto na tela | Função |\n|---|---|---|---|\n| **0–3s** | Mansão com jardim/palmeiras (Rio) | **\"90% dos milionários ao redor do mundo\"** | **Estatística-âncora** (número de autoridade) |\n| **3–6s** | Piscina de carpas (koi), área de luxo | \"ficaram ricos com o mesmo tipo de investimento\" | **A promessa** (existe UM caminho) |\n| **6–11s** | Interiores de luxo, mansão colonial branca | \"Mas não foram… ❌ações ❌bitcoins ❌criptomoedas ❌nft ❌empreendedorismo\" | **Eliminação** — cada ❌ prende (\"então é o quê?\") |\n| **11–15s** | Hall/entrada + aéreo de Ipanema/Leblon | \"90% ficaram ricos através do… ✅ MERCADO IMOBILIÁRIO\" | **Revelação** (payoff verde) |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Estatística no hook (\"90%\"):** um número alto e redondo empresta autoridade instantânea e cria a pergunta \"como?\".\n- **Eliminação como motor de retenção:** cada \"❌ não foi X\" derruba uma hipótese que o espectador tinha na cabeça (ações, cripto…) — o suspense cresce até a revelação. É o mesmo mecanismo de um \"não é isso, não é aquilo, é ISSO\".\n- **Revelação com ✅ verde:** o contraste cromático (❌ vermelho eliminando → ✅ verde revelando) marca o payoff.\n- **Posiciona o imóvel como o caminho COMPROVADO dos ricos** — desejo + autoridade, sem precisar \"vender\"."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **B-roll de mansões e cenários de luxo (Rio):** jardim, koi pond, interiores sofisticados, arquitetura colonial, e o aéreo de Ipanema/Leblon no fim. Tudo grita \"riqueza real\" — dá lastro visual à tese de milionários.\n- **Progressão visual do desejo:** começa no jardim, passa pelos interiores, e fecha no aéreo icônico da cidade — uma escalada de aspiração.\n- **Texto branco em negrito, com os ❌/✅ coloridos:** legível, e os ícones fazem o trabalho de suspense/payoff.\n- **Sem rosto:** o b-roll + a estatística carregam; a ausência de pessoa universaliza."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração/voz (ou música) acompanhando o texto.** Ritmo de eliminação (uma alternativa por vez) dá cadência de suspense. 15s — enxuto, entrega a tese e solta."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Autoridade numérica:** \"90%\" legitima antes de argumentar.\n2. **Suspense por eliminação:** derrubar as alternativas cria a lacuna \"então é o quê?\".\n3. **Desejo por aspiração:** o b-roll de riqueza faz o espectador querer o \"caminho dos ricos\".\n4. **Prova social de elite:** \"é assim que os milionários fazem\"."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Revelar o \"mercado imobiliário\" antes de eliminar as alternativas — a eliminação É o motor.\n- ❌ Estatística sem fonte — cite na legenda; o número vai ser questionado.\n- ❌ B-roll fraco/genérico — a tese de \"milionários\" precisa de imagens que sustentem a riqueza.\n- ❌ Eliminar só 1 alternativa — a força está na sequência (3-5 \"não foi\")."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Ache uma estatística de patrimônio/valorização** com fonte real.\n2. **Hook:** \"[X]% dos [ricos/milionários] [feito]…\".\n3. **Elimine 3-5 alternativas óbvias** (\"não foi ações, não foi cripto, não foi NFT…\"), uma por vez.\n4. **Revele o imóvel com ✅ verde** no clímax.\n5. **B-roll aspiracional forte** (mansões, cidade) + fonte na legenda + CTA de como começar.\n\n> **Variações:** \"o ativo que mais protegeu da inflação em 20 anos…\", \"onde os ricos guardam dinheiro em crise…\"."
+     }
+    ],
     "transcricao": "90% dos milionários ao redor do mundo ficaram ricos com o mesmo tipo de investimento.\nMas não foram ações, não foi Bitcoin, não foi nenhuma outra criptomoeda, não foi NFT,\nnem mesmo através do empreendedorismo.\n90% dos milionários ficaram ricos através do mercado imobiliário."
    }
   ],
@@ -1769,6 +1807,7 @@
   "desc": "Transparência total dos números da própria compra — confiança máxima por não ter venda.",
   "slug": "transparencia-radical-do-comprador-numeros-reais",
   "formato": {
+   "estrutura": "1. **[HOOK-PERGUNTA]** \"quanto pagamos no nosso [imóvel]?\". → *slot: o imóvel próprio.*\n2. **[FICHA]** antes do preço (metragem, quartos, quando comprou). → *slot: os specs.*\n3. **[REVELAÇÃO]** o valor exato pago. → *slot: o número real.*\n4. **[PERGUNTA-DEBATE]** \"achou caro ou barato?\".\n\n- **Fixo:** próprio bolso (ou cliente com autorização); ficha ANTES do preço; POV/estética caseira; pergunta de debate no fim.\n- **Variável:** o imóvel, os números, a cidade.",
    "hook": "Transparência financeira total sobre a própria compra: **\"Quanto pagamos no nosso apê MRV? 47m², 2 quartos, varanda… compramos na planta em outubro por R$180 mil.\"** Os números reais da própria vida — o que ninguém mostra — geram confiança e utilidade máximas.",
    "blocos": "- **A pergunta + a própria compra (0-5s):** \"quanto pagamos no NOSSO apê?\".\n- **Ficha + números reais (5-30s):** metragem, quartos, quando compraram, valor real pago.\n- **Desdobramento honesto:** condições, parcelas, o que acharam — sem maquiar.",
    "porque": "- **Transparência do PRÓPRIO bolso** (não de cliente) é o que mais gera confiança — não tem interesse de venda aparente.\n- **Números reais respondem a curiosidade universal** (\"quanto custa de verdade?\") — salva e compartilha (2.871 saves).\n- **Prova por vivência:** quem comprou fala com autoridade de quem passou pelo processo.",
@@ -1784,7 +1823,44 @@
     "link": "https://tiktok.com/@oapedanath/video/7228681988746530053",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 40 · Quanto Custou (transparência radical do comprador) |\n| Criador | @oapedanath · TikTok |\n| Link | tiktok.com/@oapedanath/video/7228681988746530053 |\n| Métrica | **27,8K likes / 2.871 saves / 2.690 shares** |\n| Duração | ~19s · vertical 9:16 · POV tour + texto/narração |"
+     },
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um casal abre os números REAIS do próprio apê (\"**quanto pagamos no nosso apê MRV? R$180 mil**\") num POV tour do apartamento decorado, e fecha com \"**achou caro ou barato?**\" — a transparência do próprio bolso + a pergunta geram 2.690 shares."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto/narração | Função |\n|---|---|---|---|\n| **0–3s** | POV: mão abrindo a porta 807 do apê | **\"QUANTO PAGAMOS NO NOSSO APÊ MRV?\"** | **Hook-pergunta** (curiosidade sobre número real) |\n| **3–10s** | POV andando pela sala, cozinha, quarto decorado | \"Ele tem 47m² ao total, dois quartos, com varanda e churrasqueira\" | **Ficha do imóvel** (mostra o que o dinheiro comprou) |\n| **10–15s** | Sala decorada (sofá, TV, molduras) | \"Compramos ele na planta em outubro de 2020\" | **Contexto da compra** |\n| **15–19s** | Quarto/sala | **\"E pagamos R$180.000,00. Achou caro ou barato?\"** | **Revelação do número + pergunta-debate** |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Hook do PRÓPRIO bolso (\"nosso apê\"):** não é imóvel de cliente — é a casa DELES. Isso remove qualquer interesse de venda aparente e maximiza a confiança.\n- **Ficha antes do preço:** mostra o que o dinheiro comprou (47m², 2 quartos, varanda) ANTES de revelar o valor — o espectador forma uma expectativa de preço.\n- **Revelação + pergunta de debate (\"achou caro ou barato?\"):** transforma o número numa enquete — cada comentário (\"caro\"/\"barato\" + o preço na cidade de quem comenta) alimenta o algoritmo e vira crowdsourcing de mercado (2.690 shares).\n- **Números reais e honestos:** o valor exato (R$180.000) e a data (2020) dão credibilidade — dá pra checar valorização."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **POV em 1ª pessoa (mão abrindo a porta 807, anel visível):** você \"entra\" no apê com eles — imersão de \"tour com amigos\".\n- **Apê decorado, aconchegante (MRV, médio padrão):** molduras nas paredes, plantas, paleta neutra (cinza/bege), cortinas, sofá — decoração real e caprichada, aspiracional-mas-alcançável. É o \"sonho possível\" da classe média.\n- **Luz natural, câmera na mão, movimento fluido:** vlog caseiro, autêntico. Nada de produção fria.\n- **Caixas de texto cinza com o texto branco:** informação clara sobre o tour, consumo no mudo.\n- **A revelação do preço fica pro fim** (sobre a sala decorada) — o payoff."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração própria (voz do casal) + som ambiente.** Ritmo de passeio, sem pressa. A intimidade da voz reforça o \"somos gente como você\"."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Transparência do próprio bolso:** sem interesse de venda = confiança máxima.\n2. **Curiosidade sobre o número real:** todo mundo quer saber \"quanto custou de verdade\".\n3. **Pergunta de debate (\"caro ou barato?\"):** participação em massa (shares + comentários).\n4. **Projeção (\"eu também consigo\"):** o médio padrão decorado é atingível."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Maquiar o número — o público detecta e a confiança cai.\n- ❌ Revelar o preço no começo — a ficha antes cria a expectativa.\n- ❌ Estética de venda/anúncio — o valor é ser o casal, não o corretor.\n- ❌ Não pedir opinião — \"caro ou barato?\" é o que multiplica o share."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Mostre a própria compra** (ou de um cliente disposto a expor, com autorização) em POV.\n2. **Hook-pergunta:** \"quanto pagamos no nosso [imóvel]?\".\n3. **Ficha antes do preço** (metragem, quartos, quando comprou).\n4. **Revele o valor exato** no fim + \"achou caro ou barato?\".\n5. **POV caseiro, apê decorado real, narração própria.** Responda os comentários (crowdsourcing de mercado).\n\n> **Versão série:** \"quanto custa MANTER esse apê\" (condomínio, IPTU, luz) — quebra a objeção invisível do custo mensal."
+     }
+    ],
     "transcricao": "Quanto pagamos no nosso, o PMRV.\nEle tem 47 metros quadrados a total.\nDois quartos, com varanda e churrasqueira.\nCompramos ele na planta, em outubro de dois pagamos.\nR$ 180 mil a chocar o barato."
    }
   ],
@@ -2044,6 +2120,7 @@
   "desc": "Novidade + preço chocante + enquete ('R$26.800 — você compraria?') que gera milhares de comentários.",
   "slug": "novidade-preco-chocante-voce-compraria",
   "formato": {
+   "estrutura": "1. **[CAPA 3 CAMADAS]** \"[NOVIDADE] / [PREÇO EXATO gigante] / Você compraria?\". → *slot: novidade + preço.*\n2. **[TOUR CÉTICO]** 3-4 pontos que o público vai questionar, tom de \"achado\". → *slot: os pontos do tour.*\n3. **[DEVOLVE A PERGUNTA]** \"eu compraria, e você?\".\n\n- **Fixo:** preço que quebra a âncora mental; estética de \"achado\" (não de venda); devolver a pergunta; saber a pegadinha (frete/terreno) e respondê-la nos comentários.\n- **Variável:** o produto fora da curva, o preço, os pontos céticos.",
    "hook": "Mecanismo triplo: novidade + choque de preço + enquete. **\"Chegando no Brasil 🇧🇷 — casa pronta por apenas R$26.800. Você compraria?\"**. Casa pelo preço de uma moto quebra a âncora mental (categoria de R$300 mil+) e força a investigação.",
    "blocos": "- **Hook triplo (0-3s):** novidade (\"chegando no Brasil\") + preço exato gigante + \"você compraria?\".\n- **Tour cético (3-40s):** mostra os cômodos respondendo a dúvida implícita (\"isso funciona de verdade?\"), + o diferencial (instala em qualquer terreno, leva pra outro lugar).\n- **Fechamento — devolve a pergunta:** \"eu compraria, e você? Quero seu comentário\".",
    "porque": "- **R$26.800 numa categoria mental de R$300 mil+** força o cérebro a investigar — parada de scroll garantida.\n- **A enquete converte view em comentário** e alimenta o algoritmo por semanas (2.421 comentários).\n- **Ceticismo produtivo:** metade duvida, metade defende — debate perfeito.",
@@ -2061,32 +2138,40 @@
     "temTranscricao": true,
     "analise": [
      {
-      "titulo": "Hook (0-3s)",
-      "corpo": "- **Visual:** interior de casa pré-fabricada de madeira (escada, banheiro compacto) — imagem \"diferente\" do padrão de alvenaria brasileiro.\n- **Texto na tela (3 camadas):** \"Chegando no Brasil 🇧🇷\" / \"R$26.800\" / \"Você compraria?\"\n- **Mecanismo triplo:** novidade (\"chegando\") + choque de preço (uma CASA por preço de moto) + enquete que transfere a decisão pro espectador."
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 46 · Você Compraria? (novidade + preço chocante + enquete) |\n| Criador | @SergioRicardoDicas · YouTube Shorts |\n| Link | youtube.com/shorts/QJdWUUy6DBU |\n| Métrica | **1 mi views / 27 mil likes / 2.421 comentários** |\n| Duração | ~19s · vertical 9:16 · reação + tour + texto |"
      },
      {
-      "titulo": "Estrutura por blocos",
-      "corpo": "1. **Hook triplo (0-3s):** novidade + preço + pergunta.\n2. **Tour rápido (3-40s):** narração simples mostrando os cômodos da casa pré-fabricada — foco em \"isso funciona de verdade?\" (ceticismo guiado).\n3. **Fechamento com a pergunta:** devolve o \"Você compraria?\" — os 2.421 comentários são a resposta.\n\n> ⚠️ Narração exata a confirmar com o vídeo baixado + transcrição."
+      "titulo": "Veredito em uma linha",
+      "corpo": "Casa pré-fabricada sendo **içada por guindaste** (espetáculo) + capa em 3 camadas (\"**Chegando no Brasil 🇧🇷 · R$26.800 · Você compraria?**\") — casa pelo preço de uma moto quebra a âncora mental, e a enquete gera 2.421 comentários."
      },
      {
-      "titulo": "Elementos de edição",
-      "corpo": "- Vídeo cru de visita, câmera na mão — estética de \"achado\", não de showroom.\n- Preço em fonte gigante na capa: é o thumbnail que faz o clique no Shorts."
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto na tela | Função |\n|---|---|---|---|\n| **0–3s** | Casa de madeira sendo içada por guindaste sobre um caminhão + apresentador reagindo (canto) | **\"Chegando no Brasil 🇧🇷 / R$26.800 / Você compraria?\"** | **Hook triplo** (novidade + preço-choque + enquete) |\n| **3–15s** | Tour cético do interior (madeira, cômodos vazios, escada, banheiro, deck) + narração | \"Casa pronta por R$26.800, instala em qualquer terreno; cansou da vizinhança, leva pra outro lugar\" | **Tour de prova** (respondendo \"isso funciona mesmo?\") |\n| **15–19s** | Casa içada de novo / transporte | \"Eu compraria, e você? Quero seu comentário\" | **Fechamento — devolve a pergunta** |"
      },
      {
-      "titulo": "Assunto viral",
-      "corpo": "- **Universal:** preço absurdamente baixo de algo caro (casa) — quebra de âncora mental.\n- **Do momento/nicho:** tiny houses / casas pré-fabricadas chegando ao Brasil — curiosidade de tendência.\n- **Emoções:** quente — **surpresa** (preço impossível) + ceticismo (\"deve ter pegadinha\", que vira comentário). Fria — curiosidade calma."
+      "titulo": "Análise de copy",
+      "corpo": "- **Preço na âncora errada:** R$26.800 numa categoria mental de \"casa = R$300 mil+\" força o cérebro a investigar. A quebra de âncora É o formato.\n- **Hook triplo (novidade + preço + enquete):** \"chegando no Brasil\" (novidade/antena de mercado) + o preço gigante + \"você compraria?\" (transfere a decisão). Três ganchos em 3 segundos.\n- **Tour cético:** ele mostra os cômodos como quem também duvida (\"será que funciona?\") — valida a desconfiança do espectador em vez de negá-la.\n- **A enquete (\"você compraria?\"):** converte view em comentário e alimenta o algoritmo por semanas. Metade duvida, metade defende = debate perfeito (2.421 comentários).\n- **A \"pegadinha\" (frete, terreno não incluso):** é respondida nos comentários — onde a autoridade do criador aparece."
      },
      {
-      "titulo": "Por que funciona",
-      "corpo": "1. **Âncora de preço quebrada:** R$26.800 numa categoria mental de R$300 mil+ força o cérebro a investigar.\n2. **Enquete de decisão (\"Você compraria?\")** converte view em comentário — 2.421 respostas alimentam o algoritmo por semanas.\n3. **Ceticismo produtivo:** metade dos comentários duvida, metade defende — debate perfeito.\n4. **Novidade importável:** conteúdo sobre \"o que está chegando\" posiciona o criador como antena do mercado."
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **O espetáculo da casa sendo içada:** a imagem de uma casa inteira pendurada num guindaste é hipnótica — parada de scroll garantida. É o \"achado\" em ação.\n- **Estética de \"descoberta\", não de venda:** câmera na mão, apresentador reagindo no canto (rosto pequeno, expressivo), visita real crua. Produção caprichada mataria o \"achei isso e tô mostrando\".\n- **Interior de madeira, cômodos vazios:** mostra o produto real, sem maquiagem — reforça a autenticidade do \"será que vale?\".\n- **Capa em 3 camadas (branco/preto/branco):** a hierarquia (novidade → preço → pergunta) é lida em 2s.\n- **Clima frio/nublado (produto importado):** dá o ar de \"novidade que está chegando\"."
      },
      {
-      "titulo": "CTA",
-      "corpo": "A própria pergunta da capa. Sem venda."
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração própria, tom de descoberta/entusiasmo contido.** Ritmo de tour rápido. A pergunta devolvida no fim é o gancho de comentário."
      },
      {
-      "titulo": "Como aplicar a MESMA estrutura",
-      "corpo": "- **Fórmula:** [NOVIDADE do mercado] + [PREÇO específico que quebra a âncora] + \"Você compraria?/Você moraria?\"\n- Variações para corretor: \"Chegou em [cidade]: apartamento de 25m² por R$180 mil — você moraria?\", \"Leilão da Caixa: casa por R$89 mil — você teria coragem?\", container house, kitnet compacta, lote parcelado direto.\n- O preço na capa precisa ser REAL e a \"pegadinha\" (frete, montagem, terreno não incluso) deve ser respondida nos comentários — é lá que a autoridade aparece.\n- Generalização: qualquer produto com preço fora da curva + enquete (carros, móveis planejados, energia solar)."
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Quebra de âncora de preço:** casa por preço de moto → o cérebro precisa entender.\n2. **Novidade/antena:** \"chegando no Brasil\" posiciona como quem descobre tendências.\n3. **Enquete/transferência de decisão:** \"você compraria?\" gera participação massiva.\n4. **Ceticismo produtivo:** o debate duvidosos × defensores alimenta o alcance."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Preço que não choca — a quebra de âncora é o formato; sem ela, use outro.\n- ❌ Esconder a pegadinha (frete/terreno) — antecipe ou responda nos comentários; é onde você mostra autoridade.\n- ❌ Produção de venda — a estética de \"achado\" é o que engaja.\n- ❌ Não devolver a pergunta — \"você compraria?\" é o motor do comentário."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Ache um produto imobiliário fora da curva** com preço que quebra a âncora (pré-fab, container, apê minúsculo, lote parcelado, leilão).\n2. **Capa 3 camadas:** \"[NOVIDADE] / [PREÇO EXATO gigante] / Você compraria?\".\n3. **Tour cético** (3-4 pontos que o público vai questionar), tom de \"achado\".\n4. **Devolva a pergunta** no fim.\n5. **Saiba a pegadinha ANTES** e responda nos comentários (autoridade). Poste no YouTube Shorts também (menos concorrência imob).\n\n> **Variações:** \"apê de 25m² por R$180 mil — você moraria?\", \"leilão: casa por R$89 mil — teria coragem?\"."
      }
     ],
     "transcricao": "Está chegando no Brasil, casa pronta por apenas R$ 26.800, você compra a sua casa e\ninstala em qualquer terreno.\nOutra coisa, você cansou da vizinhança, cansou do bairro, pega a sua casa e vai para\noutro lugar.\nEu compraria e você, quero saber o teu comentário.\nAchei, legal a ideia."
@@ -2310,6 +2395,7 @@
   "desc": "'Enquanto você parcela um iPhone, tem gente financiando um apê' — provocação identitária com número.",
   "slug": "comparacao-de-consumo-provocativa",
   "formato": {
+   "estrutura": "1. **[PROVOCAÇÃO FIXA]** \"Enquanto você [GASTO BANAL], tem gente [CONQUISTA IMOBILIÁRIA] com o mesmo valor\" (texto o vídeo todo). → *slot: gasto banal + conquista.*\n2. **[B-ROLL DE DONO]** 1 take casual DENTRO do imóvel que prova a tese, sem falar. → *slot: o imóvel de prova.*\n3. **[LEGENDA]** número real da parcela + frase-tese + CTA de seguir.\n\n- **Fixo:** valores PRÓXIMOS; gasto banal do SEU público; sem falar (frase seca); número real e defensável.\n- **Variável:** o gasto banal (iPhone, carro, iFood), a conquista, o imóvel de prova.",
    "hook": "Ataque direto a um hábito de consumo universal: **\"Enquanto você parcela um iPhone, tem gente financiando um apartamento com o mesmo valor.\"** O espectador se sente flagrado — provocação identitária que para o scroll.",
    "blocos": "- **Provocação completa no hook (0-3s):** o texto que compara os dois consumos.\n- **B-roll de prova (3-20s):** o decorado nas costas do argumento (o corretor casual, postura de dono).\n- **Legenda com o número:** \"tenho clientes que compraram esse apê com parcelas de R$476\" + tese \"uns compram passivo, outros constroem patrimônio\".\n- **CTA:** \"me segue\" — os comentários viram esteira de leads.",
    "porque": "- **Ancorar a parcela no preço de objeto banal** reduz a impossibilidade percebida.\n- **Provocação identitária** gera comentário de defesa — o sinal mais forte pro algoritmo.\n- **O número concreto e baixo (R$476) é a estrela**; estar DENTRO do apê citado fecha o argumento.",
@@ -2327,32 +2413,40 @@
     "temTranscricao": false,
     "analise": [
      {
-      "titulo": "Hook (0-3s)",
-      "corpo": "- **Visual:** corretor jovem andando casualmente pelo decorado (cozinha planejada, iluminação de LED), bebendo água — postura de dono, não de vendedor.\n- **Texto na tela:** \"Enquanto você parcela um iPhone, tem gente financiando um apartamento com o mesmo valor\"\n- **Mecanismo:** ataque direto a um hábito de consumo universal. O espectador se sente flagrado — e fica pra se defender ou concordar."
+      "titulo": "Ficha",
+      "corpo": "| Campo | Valor |\n|---|---|\n| Formato | 51 · iPhone vs Apê (comparação de consumo provocativa) |\n| Criador | @eric.zerlin · Instagram Reels |\n| Link | instagram.com/p/DJCqrcAxUoz |\n| Métrica | **138 mil curtidas** |\n| Duração | ~7s · vertical 9:16 · sem fala (b-roll no decorado + texto) |"
      },
      {
-      "titulo": "Estrutura por blocos",
-      "corpo": "1. **Provocação na tela (0-3s):** a comparação completa já está no hook — o vídeo inteiro é o desdobramento.\n2. **B-roll de prova (3-20s):** o decorado nas costas do argumento — \"esse apartamento existe e a parcela é essa\".\n3. **Legenda com o número:** \"Você escolhe: parcelar algo que não precisa ou financiar algo que valoriza? Tenho clientes que compraram esse apartamento onde estou **com parcelas de R$476,00**.\" → frase-tese: \"Enquanto uns compram passivo, outros constroem patrimônio.\"\n4. **CTA:** \"Me siga pra transformar suas ideias em realidade.\""
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um corretor jovem anda casualmente pelo decorado, de preto, bebendo água (postura de dono), enquanto o texto provoca: \"**Enquanto você parcela um iPhone, tem gente financiando um apartamento com o mesmo valor**\" — a provocação identitária faz o espectador se sentir flagrado."
      },
      {
-      "titulo": "Elementos de edição",
-      "corpo": "- 1 take casual no decorado + texto estático. Zero produção.\n- O criador aparece mas não fala — replicável por corretor sem desenvoltura de câmera."
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto na tela | Função |\n|---|---|---|---|\n| **0–7s** | Corretor (todo de preto, óculos, cabelo cacheado) andando pelo decorado moderno, bebendo água, postura relaxada de dono | **\"Enquanto você parcela um iPhone, tem gente financiando um apartamento com o mesmo valor\"** (fixo o vídeo todo) | **Provocação completa** — a comparação já no primeiro frame |"
      },
      {
-      "titulo": "Assunto viral",
-      "corpo": "- **Universal:** iPhone/consumo vs patrimônio — guerra cultural de consumo que TODO brasileiro tem opinião.\n- **Do nicho:** parcela acessível (R$476) — quebra a crença \"imóvel não é pra mim\".\n- **Emoções:** quente — **indignação produtiva** (uns se ofendem, outros concordam com força; ambos comentam). O comentário do próprio nicho (\"A ideia não é comparar iPhone com apartamento, é mostrar que cabe no bolso\") mostra o debate funcionando."
+      "titulo": "Análise de copy",
+      "corpo": "- **A comparação É todo o vídeo:** uma frase estática que fica o tempo todo. \"iPhone vs apartamento\" ancora a parcela do imóvel no preço de um objeto banal que o público já parcela — reduz a impossibilidade percebida (\"se cabe o iPhone, cabe o apê\").\n- **Provocação identitária:** \"enquanto VOCÊ parcela um iPhone\" cutuca — o espectador se sente flagrado no próprio hábito de consumo. Isso gera comentário de defesa (o sinal mais forte pro algoritmo).\n- **O número real vem na legenda:** \"tenho clientes que compraram com parcelas de R$476\" + a tese \"uns compram passivo, outros constroem patrimônio\". O número concreto e baixo é a estrela.\n- **A objeção inevitável (\"iPhone não tem juros de 30 anos\") vem sempre** — e a resposta pronta nos comentários é metade do valor."
      },
      {
-      "titulo": "Por que funciona",
-      "corpo": "1. **Compara o incomparável:** ancorar a parcela do imóvel no preço de um objeto banal reduz a percepção de impossibilidade — R$476 \"cabe\" na mesma conta mental do celular.\n2. **Provocação identitária** gera comentário de defesa — e comentário é o sinal mais forte pro algoritmo.\n3. **Número concreto e baixo** (R$476) é a estrela: sem ele, seria só moralismo.\n4. **Cenário = prova:** estar DENTRO do apartamento citado fecha o argumento visualmente."
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Postura de dono casual:** ele NÃO está vendendo — está passeando pela própria \"casa\", bebendo água, relaxado. A naturalidade comunica \"isso é acessível e normal\", não um pitch.\n- **Decorado moderno de fundo (madeira, LED em sanca, cozinha, poltrona):** prova visual — ele está DENTRO do apartamento que a frase cita. O ambiente sustenta o argumento.\n- **Roupa toda preta:** clean, moderno, \"jovem que já conquistou\" — reforça a identidade aspiracional-mas-próxima.\n- **Texto branco central, fixo:** a frase é o conteúdo; a leitura é o vídeo. Consumo no mudo total.\n- **1 take casual, sem falar:** barreira zero de produção. A presença + o texto bastam."
      },
      {
-      "titulo": "CTA",
-      "corpo": "\"Me siga\" (base) — mas os comentários viram esteira de leads (\"me explica como\")."
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música (sem fala).** Curtíssimo (~7s) — a provocação é instantânea, e o loop curto força releitura. A ausência de fala evita que vire \"aula\" (a frase precisa bater seca)."
      },
      {
-      "titulo": "Como aplicar a MESMA estrutura",
-      "corpo": "- **Fórmula:** \"Enquanto você [GASTO BANAL RECORRENTE], tem gente [CONQUISTA IMOBILIÁRIA] com o mesmo valor\" + número real da carteira.\n- Variações: assinaturas de streaming vs consórcio; parcela do carro vs apê na planta; \"3 pedidos de iFood por semana = entrada do MCMV em 3 anos\".\n- **Regra de ouro:** o número precisa ser REAL e defensável (cliente real, empreendimento real) — o debate nos comentários vai testar a matemática.\n- Gravar sempre DENTRO do imóvel que prova a tese.\n- Generalização: qualquer nicho com produto de alto valor percebido e parcela acessível (consórcio, previdência, cirurgia parcelada)."
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Ancoragem de consumo:** parcela do apê no preço de um objeto banal → \"eu consigo\".\n2. **Provocação identitária:** \"enquanto VOCÊ…\" gera comentário de defesa.\n3. **Prova por presença:** estar dentro do apê citado fecha o argumento.\n4. **Número concreto e baixo (legenda):** R$476 torna a conquista tangível."
+     },
+     {
+      "titulo": "O que NÃO fazer (mata o formato)",
+      "corpo": "- ❌ Comparar valores distantes — R$476 vs R$450 (iPhone) funciona; vs R$80 não.\n- ❌ Gasto banal que não é do seu público — iPhone p/ 25-40; carro p/ mais velhos.\n- ❌ Falar no vídeo (vira aula) — a frase seca + presença casual é o formato.\n- ❌ Tom de coach/\"mindset\"/julgamento de pobreza — a provocação deve doer um pouco sem humilhar.\n- ❌ Número inventado — o debate vai testar a matemática; tenha o print da simulação."
+     },
+     {
+      "titulo": "Como replicar ESTE vídeo (passo a passo)",
+      "corpo": "1. **Fórmula:** \"Enquanto você [GASTO BANAL], tem gente [CONQUISTA IMOBILIÁRIA] com o mesmo valor\" (frase fixa).\n2. **Grave 1 take casual DENTRO do imóvel** que prova a tese, sem falar, postura de dono.\n3. **Legenda:** o número real da carteira (parcela) + a frase-tese + CTA de seguir.\n4. **Compare valores PRÓXIMOS** e do gasto banal do SEU público.\n5. **Tenha respostas prontas** pras 2 objeções inevitáveis (\"iPhone não tem juros de 30 anos\" / \"mostra essa parcela\").\n\n> **Variações:** streaming vs consórcio, parcela do carro vs apê na planta, iFood vs entrada do MCMV."
      }
     ]
    }
