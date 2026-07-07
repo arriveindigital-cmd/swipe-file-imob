@@ -254,12 +254,39 @@
   "desc": "Listicle numerado respondendo as perguntas que todo comprador faz, em 1-2 frases cada.",
   "slug": "q-a-rapido",
   "formato": {
+   "estrutura": "1. **[HOOK NUMERADO]** \"X perguntas que todo mundo faz pra um(a) corretor(a)\" + gesto do número. → *slot: o número + tema.*\n2. **[5 BLOCOS OBJEÇÃO→VIRADA]** pergunta na voz do cliente + resposta curta que admite a verdade e vira em solução. → *slot: as 5 objeções reais.*\n3. **[NÚMERO-ÂNCORA]** ao menos 1 dado de acessibilidade (renda mínima, % de entrada). → *slot: o dado.*\n4. **[CTA DUPLO]** direct + comentário.\n\n- **Fixo:** perguntas = objeções REAIS que travam a venda; resposta honesta (admitir quando \"não dá\"); jump cut por resposta; legenda com a info-chave; número concreto.\n- **Variável:** as perguntas, os números, o segmento.",
    "hook": "**\"5 perguntas que todo mundo faz para uma corretora de imóveis.\"** Promessa de listicle numerada = o cérebro sabe que tem começo, meio e fim, e fica pra ver todas (retenção).",
    "blocos": "- **Promessa numerada (0-3s):** \"5 perguntas…\" cria loop de contagem.\n- **Par pergunta-resposta rápido (3-40s):** cada dúvida real do comprador respondida em 1-2 frases diretas — sem entrada, sem enrolação. Ex.: \"Comprar sem entrada? Em casos específicos, sim.\" / \"Nome sujo? Não dá, mas a gente orienta.\" / \"Renda mínima? A partir de R$1.800 no MCMV.\" / \"FGTS? Pode usar como entrada.\"\n- **CTA (fim):** \"ficou com dúvida? chama no Direct\" — converte a atenção em conversa.",
    "porque": "- **Responde as buscas reais** do comprador iniciante — salva e compartilha por utilidade.\n- **Ritmo de metralhadora** (pergunta→resposta) prende até o fim.\n- **Cada resposta é uma micro-prova de autoridade** sem soar arrogante.",
    "aplicar": "- Pegue as 5 perguntas que MAIS chegam no seu WhatsApp e responda em 1-2 frases cada.\n- Versão nicho: \"5 perguntas de quem vai comprar na planta pela 1ª vez\".\n- Série infinita: financiamento, documentação, FGTS, MCMV, entrada.",
    "guia": "- Respostas curtas e honestas — se tem exceção, diga em 3 palavras (\"em casos específicos\").\n- Texto na tela numerando (1/5, 2/5…) reforça o loop.\n- CTA de Direct/comentário no fim; a venda é na conversa.",
-   "prompt": "```\nVocê é corretor(a) especialista criando um Q&A rápido de autoridade:\n1) PROMESSA numerada (0-3s): \"5 perguntas que todo mundo faz sobre [TEMA]\"; 2) 5 pares pergunta-resposta em 1-2 frases diretas cada; 3) CTA de Direct/comentário.\nMEUS DADOS: Tema: [ ]. As 5 perguntas mais frequentes do meu WhatsApp: [ ]. Respostas honestas (com exceções): [ ].\nTOM: direto, sem enrolação, autoridade sem arrogância. Números quando possível.\nENTREGUE: 1) os 5 pares com tempos; 2) textos de tela numerados; 3) legenda com a lista escrita; 4) CTA; 5) 5 hashtags.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo imobiliário que rebate objeções. Crie um roteiro de vídeo \"Q&A rápido — 5 perguntas que todo mundo faz\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK NUMERADO (0-4s): \"5 perguntas que todo mundo faz pra um(a) corretor(a)\" + gesto do número na mão\n2. 5 BLOCOS PERGUNTA→RESPOSTA (4-52s): cada bloco = a pergunta na VOZ DO CLIENTE (a objeção real) + resposta curta (~8s) no padrão \"admite a verdade e vira em solução\"\n3. NÚMERO-ÂNCORA: pelo menos 1 resposta com dado concreto de acessibilidade (renda mínima, % de entrada, faixa do programa)\n4. CTA DUPLO (52-58s): \"chama no direct ou comenta aqui embaixo\"\n\n**Meus dados:**\n- Corretor(a)/imobiliária + @: [NOME + @]\n- Segmento/programa: [EX.: MCMV, financiamento tradicional, alto padrão]\n- As 5 objeções que mais travam meu público: [LISTE — ex.: sem entrada, nome sujo, renda, autônomo, FGTS]\n- Número(s) de acessibilidade que posso citar: [EX.: renda a partir de R$1.800, entrada parcelada]\n- O que ofereço de ajuda concreta: [EX.: organizar documentação, orientar regularização]\n\n**Regras de tom:**\n- Cada pergunta é uma OBJEÇÃO real (o \"não posso\" que impede a compra), não pergunta decorativa\n- Padrão de resposta obrigatório: reconhecer a verdade (\"até dá, mas…\" / \"não dá, mas a gente te orienta\") → entregar o caminho\n- NUNCA prometa o impossível (não diga que financia negativado) — honestidade é o que sustenta a credibilidade\n- Respostas curtas, ~8s cada; linguagem de conversa, sem juridiquês\n\n**Entregue:**\n1. As 5 perguntas na voz do cliente + as 5 respostas modelo (cada uma com a \"virada\")\n2. Qual palavra-chave colocar como legenda em cada resposta\n3. Sugestão de dinâmica (colega fazendo as perguntas) e de cortes\n4. 5 hashtags\n5. Legenda do post + o CTA duplo final",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **educar e converter ao mesmo tempo** (alcance + conversão). É um dos formatos evergreen mais eficientes: nunca envelhece e derruba as objeções que travam a venda.\n- Perfeito como **anúncio de topo/meio de funil** — a pessoa que salva o vídeo é lead quente de financiamento."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[AS 5 OBJEÇÕES]:** use as perguntas REAIS que mais chegam no seu direct. Objeção verdadeira = identificação imediata. Não invente pergunta \"bonita\".\n- **[NÚMERO DE ACESSIBILIDADE]:** é o gancho de conversão. Um dado concreto (renda a partir de R$1.800) transforma \"não é pra mim\" em \"cabe no meu caso\".\n- **[AJUDA CONCRETA]:** cada resposta que \"não dá\" precisa de uma saída (\"a gente te orienta a regularizar\"). Objeção sem saída desanima; objeção com caminho gera lead."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se as respostas vierem longas/técnicas:\n\n> \"Corte cada resposta pra caber em 8 segundos falados. Tire o juridiquês. É conversa, não cartório.\"\n\nSe prometer algo irreal:\n\n> \"Nunca afirme que dá pra financiar com nome negativado ou sem comprovar renda. Reescreva com a verdade + o caminho de solução.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Prometer o impossível** — \"financiamos negativado\" gera processo e destrói a confiança. Honestidade é inegociável.\n2. **Resposta longa** — o formato é rajada. Cada objeção resolvida em ~8s, senão perde o ritmo.\n3. **Sem número** — sem o dado de acessibilidade, o vídeo educa mas não converte.\n4. **Esquecer o CTA** — sem \"chama no direct\", o alcance não vira lead."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Talking head no ambiente da imobiliária (logo/equipe ao fundo dá lastro). Evite quarto.\n- Jump cut a cada resposta pra manter a rajada. Legenda grande com a palavra-chave de cada resposta.\n- Bônus de dinâmica: uma colega faz as perguntas na voz do cliente — quebra o monólogo.\n- CTA duplo no fim: direct (lead) + comentário (algoritmo)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Formato de alta salvabilidade — as pessoas salvam pra rever o dado que interessa a elas (o rewatch premia o alcance). O comentário mais comum é uma 6ª pergunta que não entrou; responda pelos comentários e já tem o roteiro do próximo vídeo da série."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -269,7 +296,40 @@
     "link": "https://tiktok.com/@jakelinecorretora/video/7529876095324245304",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Cinco objeções de financiamento que travam todo comprador de primeira viagem, respondidas em rajada — cada resposta transforma um \"não posso\" em \"então dá\"."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Corretora em pé, mão aberta (\"5\"); legenda \"5 perguntas\" | \"Cinco perguntas que todo mundo faz para uma corretora\" | Hook-promessa numerada — curiosidade + estrutura clara do que vem |\n| 4-14s | Sentada à mesa; legendas \"até dá / você consegue parcelar\" | \"Tem como comprar sem entrada? Até dá, em casos específicos… dá pra parcelar com a construtora\" | Objeção 1 (entrada) — a mais comum de todas |\n| 14-22s | Close; legenda \"com nome negativado\" | \"E se meu nome estiver sujo? Não dá pra financiar negativado, mas a gente te orienta a regularizar\" | Objeção 2 (nome sujo) — honestidade + caminho de saída |\n| 22-32s | Colega de cabelo ruivo pergunta; legenda \"com renda a partir de R$1.800\" | \"Quanto de renda? Depende, mas MCMV aprova a partir de R$1.800\" | Objeção 3 (renda) — ancora a acessibilidade com número |\n| 32-42s | Gesto; legenda \"a gente te ajuda a organizar tudo\" | \"Autônomo pode? Pode, só comprovar renda direitinho; a gente te ajuda\" | Objeção 4 (autônomo) — inclui o trabalhador informal |\n| 42-52s | Legenda \"você pode usar como entrada\" | \"Posso usar FGTS? Sim, como entrada, se se enquadrar nas regras (na descrição)\" | Objeção 5 (FGTS) — libera um recurso que a pessoa já tem |\n| 52-58s | Duas corretoras; legenda \"ou comente aqui embaixo\" | \"Ficou com dúvida? Chama no direct ou comenta aqui\" | CTA duplo — direct (lead) + comentário (algoritmo) |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Cada pergunta é uma objeção REAL** que trava o comprador de primeira viagem (sem entrada, nome sujo, renda, autônomo, FGTS). Não são perguntas decorativas — são os \"nãos\" que impedem a venda.\n- **Padrão de resposta \"admite e vira\":** \"até dá, mas…\", \"não dá, mas a gente te orienta\". Começar reconhecendo a verdade gera credibilidade; a virada entrega a esperança.\n- **Número concreto** (R$1.800 de renda) é o gancho de acessibilidade — transforma \"não é pra mim\" em \"opa, cabe\".\n- Linguagem de conversa (\"calma\", \"direitinho\") baixa a intimidação do tema financiamento."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Talking head numa imobiliária real** (logo Realiza ao fundo, equipe trabalhando) — lastro de negócio de verdade, não quarto.\n- **Jump cuts a cada resposta** mantêm o ritmo de rajada — nunca sobra tempo morto.\n- **Legenda grande destacando a informação-chave** de cada resposta (pra quem assiste sem som e pra fixar o dado).\n- **Segunda pessoa (colega)** entra fazendo perguntas — dá dinâmica de diálogo e quebra a monotonia do monólogo."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala direta e acelerada**, cortada seca a cada bloco pergunta-resposta.\n- Sem trilha dominante — a informação conduz. O ritmo de \"5 em 1\" premia o rewatch (a pessoa volta pra pegar o dado que interessa a ela)."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Promessa numerada** (\"5 perguntas\") — estrutura fechada que promete payoff rápido, ótima retenção.\n2. **Rebate de objeção** — transformar cada \"não posso\" em \"então dá\" é o motor de conversão do formato.\n3. **Prova de honestidade** — admitir o \"não dá pra financiar negativado\" faz o público acreditar em todo o resto.\n4. **Ancoragem de acessibilidade** — o número baixo (R$1.800) reposiciona o sonho como possível.\n5. **CTA de baixo atrito** — comentar/mandar direct é fácil e alimenta alcance + geração de lead."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Prometer o impossível (dizer que financia com nome sujo) — destrói a credibilidade e vira dor de cabeça jurídica.\n- ❌ Resposta longa/técnica demais — o formato é rajada; cada resposta tem que caber em ~8s.\n- ❌ Responder sem número — a acessibilidade concreta é o que converte.\n- ❌ Pular o CTA — é o que transforma o alcance em lead no direct."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Liste as 5 objeções reais** que mais travam seu público (as perguntas que você mais ouve no direct).\n2. **Abra com o hook numerado:** \"X perguntas que todo mundo faz pra um corretor\" + gesto do número.\n3. **Responda cada uma no padrão \"admite e vira\":** reconheça a verdade → entregue a solução/caminho.\n4. **Crave 1 número de acessibilidade** (renda mínima, % de entrada, faixa MCMV) com legenda em destaque.\n5. **Corte seco entre respostas** + feche com CTA duplo (direct + comentário). Bônus: colega fazendo as perguntas."
+     }
+    ],
     "transcricao": "Cinco perguntas que todo mundo faz para uma corretora de imóveis.\nTem como comprar imóvel sem entrada?\nOlha, até dá, mas em casos bem específicos.\nGeralmente o banco pede sim uma entrada, mas a boa notícia é que em alguns casos você consegue parcelar com a construtora.\nE se meu nome estiver sujo?\nInfelizmente não dá para financiar com nome negativado.\nMas calma, a gente te orienta como regularizar e se preparar para um financiamento.\nE quanto que eu tenho que ter de renda?\nDepende do valor do imóvel e do banco.\nMas tem móvel do Minha Casa Minha Vida que está aprovando com renda a partir de R$ 1.800.\nPosso financiar sendo autônomo ou bem?\nPode. Só precisa comprovar a renda direitinho.\nA gente te ajuda a organizar tudo pra facilitar na hora da aprovação.\nPosso usar o FGTS?\nSim, você pode usar como entrada.\nSe você se enquadrar, nas regras que estão aqui na descrição.\nE aí, ficou com alguma dúvida? Chame a gente no direct ou comente aqui embaixo.\nE aí"
    }
   ],
@@ -293,12 +353,39 @@
   "desc": "Confissão crua sobre a carreira que gera identificação e comunidade nos comentários.",
   "slug": "confissao-storytime-de-carreira",
   "formato": {
+   "estrutura": "1. **[GANCHO-RESPOSTA]** responder um comentário real que toca numa dor da profissão. → *slot: o comentário.*\n2. **[CONFISSÃO CRUA]** assumir a própria dor/verdade sem filtro, com exemplos concretos. → *slot: a verdade que ninguém fala.*\n3. **[ANALOGIA QUE EXPÕE O ABSURDO]** comparar com uma situação do cotidiano do espectador. → *slot: a analogia.*\n4. **[A VIRADA]** ligar a dor a um ponto que defende sua classe/valor (ex.: a comissão). → *slot: a tese.*\n5. **[FECHO DE RESILIÊNCIA]** inverter pra mensagem positiva/conselho. → *slot: a esperança.*\n\n- **Fixo:** selfie cru, uma tomada, sem roteiro engessado; nunca generalizar; sempre virar pro positivo no fim.\n- **Variável:** o comentário, a dor específica, a analogia.",
    "hook": "Desabafo cru, sem filtro: **\"Já tomei tanta canelada, tanta rasteira, tanta facada nas costas… e vou continuar tomando.\"** A vulnerabilidade radical desarma — não é conteúdo de venda, é verdade.",
    "blocos": "- **Confissão-choque (0-5s):** a dor dita sem rodeio (\"facada nas costas\").\n- **Casos concretos (5-40s):** exemplos reais das injustiças da profissão — o \"amigo\" que pede 50% da comissão por uma indicação, a analogia com o médico (\"você pediria 50% da consulta?\").\n- **Virada de valor (40s+):** \"mas se você for honesta e trabalhar direitinho, não tem como dar errado\" — transforma o desabafo em manifesto de resiliência.",
    "porque": "- **Autenticidade = comentário:** os 89 comentários são outros corretores desabafando junto — o algoritmo lê como comunidade.\n- **A analogia do médico** é uma arma retórica: torna óbvia a absurdez da situação.\n- **Fecho positivo** evita que vire só reclamação — dá propósito.",
    "aplicar": "- Conte UMA injustiça real da sua carreira, com uma analogia que a torne óbvia.\n- Versão comprador: \"o que ninguém te conta sobre comprar o 1º imóvel\".\n- Regra: precisa ser história REAL e específica — genérico não gera o desabafo coletivo.",
    "guia": "- Fale olhando pra câmera, sem edição elaborada — a crueza é a estética.\n- Uma analogia forte vale mais que dez reclamações.\n- Feche com o aprendizado/propósito, nunca só na mágoa.\n- Responda os primeiros comentários — é onde a comunidade se forma.",
-   "prompt": "```\nVocê é roteirista de storytime autêntico para corretor(a). Crie um desabafo/confissão de carreira:\n1) CONFISSÃO-CHOQUE (0-5s): a dor dita sem filtro; 2) 1-2 CASOS reais e específicos + 1 analogia que torne a injustiça óbvia; 3) VIRADA: o aprendizado/propósito que salva a mensagem.\nMEUS DADOS: A dor real: [ ]. Caso específico: [ ]. Analogia: [ ]. Aprendizado/propósito: [ ].\nTOM: cru, 1ª pessoa, olho na câmera. Sem produção. A vulnerabilidade é o gatilho. Fechar em propósito, não em mágoa.\nENTREGUE: 1) roteiro falado; 2) legenda; 3) 5 hashtags; 4) primeira resposta pros comentários de outros corretores.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo autêntico de marca pessoal. Crie um roteiro de vídeo \"confissão / storytime de carreira\" (resposta a comentário), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. GANCHO-RESPOSTA (0-5s): responda um comentário real que toca numa dor da profissão; assuma a própria dor de cara (\"eu já tomei tanta [dor]…\")\n2. CONFISSÃO CRUA (5-20s): exponha a verdade que ninguém mostra, com exemplos concretos de quem/como acontece\n3. ANALOGIA QUE EXPÕE O ABSURDO (20-35s): compare a situação com algo do cotidiano do espectador que torne o absurdo óbvio\n4. A VIRADA (35-60s): ligue a dor exposta a um ponto que defende seu valor/sua classe (ex.: por que a comissão é justa)\n5. FECHO DE RESILIÊNCIA (60-82s): inverta o desabafo em conselho/esperança que inspire\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Comentário real que vou responder: [COLE O COMENTÁRIO]\n- A dor verdadeira da profissão que vou confessar: [EX.: quebra de acordo, calote, desvalorização]\n- Analogia do cotidiano: [A COMPARAÇÃO QUE EXPÕE O ABSURDO]\n- O ponto de valor que quero defender: [EX.: a comissão, o trabalho invisível]\n- A mensagem final de esperança: [O CONSELHO QUE QUERO DEIXAR]\n\n**Regras de tom:**\n- Fala solta, coloquial e emocionada — como um desabafo real, NÃO um texto decorado\n- NUNCA generalize (\"todo cliente é ruim\") — deixe claro que não é todo mundo (\"não de todos, óbvio\")\n- Termine SEMPRE pra cima — vira conselho/esperança, não reclamação amarga\n- Sem juridiquês, sem venda: é sinceridade, não pitch\n\n**Entregue:**\n1. O roteiro falado em tom de desabafo natural (com as pausas indicadas)\n2. A analogia bem construída pra ser o ponto alto\n3. A frase de virada e a frase de fecho (as duas mais importantes)\n4. 5 hashtags\n5. Sugestão de qual comentário/tipo de dor rende os próximos episódios",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **construir vínculo e autoridade humana** (conexão). Não vende imóvel — vende VOCÊ como pessoa real e confiável, e cria um exército de seguidores que se identificam.\n- Melhor gatilho: **responder um comentário** que tocou numa dor da profissão. O formato \"resposta\" já entrega contexto e engajamento."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[COMENTÁRIO REAL]:** escolha um que expresse uma dor legítima e comum. Quanto mais gente se reconhece nele, mais o vídeo espalha.\n- **[A ANALOGIA]:** é o ponto alto. Uma boa comparação com o cotidiano (o médico, o mecânico, o dentista) faz o público \"entender\" sem você precisar argumentar.\n- **[MENSAGEM DE ESPERANÇA]:** é o que diferencia desabafo de conteúdo. Sem a virada final, o vídeo afasta em vez de inspirar."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier roteirizado/artificial:\n\n> \"Reescreva como um desabafo real, falado de improviso, com interjeições ('gente, como assim?'). Tire a formalidade — tem que soar humano, não decorado.\"\n\nSe ficar só reclamação:\n\n> \"Adicione a virada: ligue a dor a algo que defende meu valor, e termine com uma mensagem de esperança/conselho. Não pode fechar amargo.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Roteirizar demais** — o formato vive da autenticidade. Fala decorada mata o efeito.\n2. **Generalizar** — \"todo cliente/proprietário é ruim\" soa injusto e afasta. Deixe claro que é uma parte, não todos.\n3. **Fechar amargo** — sem a virada motivacional, o vídeo desmotiva e não é compartilhado.\n4. **Produção demais** — legenda, trilha e cortes tiram a credibilidade. Selfie cru vende mais aqui."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Selfie, uma tomada só, sem edição. Luz de ambiente natural.\n- Fixe o balão do comentário na tela o vídeo inteiro (contexto de resposta).\n- Deixe a emoção conduzir o ritmo — pausas e variação de tom (indignação → conselho) fazem parte.\n- Não corte os \"erros\" de fala; eles reforçam a autenticidade."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Formato de altíssimo engajamento por polarização + identificação: quem é da área concorda com raiva, quem não é se choca — os dois comentam. O ganho é uma base fiel que te vê como voz da categoria. Responda os comentários no mesmo tom sincero; cada dor levantada nos comentários é o próximo episódio."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -308,7 +395,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma confissão crua sobre o lado que ninguém mostra da corretagem (as \"facadas nas costas\") que, ao expor a dor real, defende a comissão do corretor melhor que qualquer argumento de venda."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-5s | Selfie; balão de comentário fixado: \"já fui corretora mas levei tanta canelada que saí da área 😅\" | \"Eu já tomei tanta canelada, rasteira, facada nas costas — e vou continuar tomando\" | Hook: valida a dor do comentário e assume a própria — vulnerabilidade que prende |\n| 5-20s | Fala direta à câmera | \"O mundo da corretagem é pra quem tem sangue frio… conto nos dedos as parcerias; toma rasteira de proprietário, cliente, advogado, amigo\" | Escalada da dor — lista concreta de quem \"trai\" (identificação total pra quem é da área) |\n| 20-35s | Gesticulando, indignada | \"Amigo te passa cliente e cobra 50% se vender. Como assim? Você indica um médico e cobra 50% da consulta dele?\" | A analogia killer — torna o absurdo óbvio pra qualquer espectador |\n| 35-55s | Close | \"Na corretagem não tem segurança nenhuma, é matar um leão por dia. Aí todo mundo reclama que a comissão do corretor é alta\" | A virada: liga a dor exposta à defesa da comissão |\n| 55-70s | Fala | \"O corretor faz post, vídeo, proposta, vai e volta… no fim, qual o problema? A comissão. Espero que isso mude\" | Prova do trabalho invisível que justifica o valor |\n| 70-82s | Tom de conselho | \"Tem corretor bom e ruim, como toda profissão. Se você não desistir, volta por cima. Sendo honesto e trabalhando direitinho, não tem como dar errado\" | Fecho de resiliência — inverte o desabafo em mensagem inspiradora e compartilhável |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Fala 100% coloquial e sem roteiro aparente** (\"gente, como assim?\", \"matar um leão por dia\") — a força é a autenticidade da indignação, não a construção.\n- **A analogia do médico é o ponto alto:** \"você indica um médico e cobra 50% da consulta?\" — desarma o argumento contra a comissão de forma que ninguém rebate.\n- **Evita generalizar de propósito** (\"não de todos, óbvio, né? não tô generalizando\") — o que a mantém justa e credível em vez de amarga.\n- **Inverte no fim:** não é só desabafo, vira conselho (\"volta por cima… não tem como dar errado\") — o que torna o vídeo compartilhável como motivação."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Selfie cru, uma tomada só**, luz de ambiente (hotel/casa) — zero produção. A nudez visual reforça a sinceridade.\n- **Balão de comentário fixado o vídeo inteiro** dá o contexto de \"resposta\" e transforma um comentário privado em gancho público.\n- **Sem legenda, sem corte, sem trilha** — a ausência de edição É a estética; qualquer polimento roubaria a credibilidade do desabafo."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala contínua e emocionada**, sem trilha. As pausas, a respiração e a variação de tom (indignação → conselho) fazem o ritmo.\n- O formato \"resposta a comentário\" cria a sensação de conversa 1:1 — o espectador se sente o interlocutor."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Vulnerabilidade** — confessar a dor real derruba a barreira e prende (o oposto do corretor \"sempre sorrindo\").\n2. **Identificação de tribo** — quem é da área concorda com raiva; quem não é se choca e comenta. Os dois engajam.\n3. **Analogia esclarecedora** — a comparação com o médico faz o público \"entender\" a comissão sem sermão.\n4. **Defesa de grupo** — ao defender a classe, ela vira porta-voz e ganha os corretores de aliados (compartilham em massa).\n5. **Esperança no fecho** — a virada motivacional é o que faz o vídeo ser salvo e reenviado como incentivo."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Roteirizar demais — o valor está na fala solta e emocionada; um texto decorado mata o formato.\n- ❌ Virar só reclamação — sem a virada positiva no fim, fica amargo e afasta.\n- ❌ Generalizar (\"todo cliente é ruim\") — soa injusto; ela evita de propósito (\"não de todos, óbvio\").\n- ❌ Produção/legenda/trilha — qualquer polimento derruba a sinceridade que sustenta tudo."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Ache um comentário real** que toque numa dor verdadeira da profissão e responda a ele (fixe o balão no vídeo).\n2. **Confesse sua verdade sem filtro** — a dor que ninguém mostra (aqui: as \"facadas nas costas\").\n3. **Traga uma analogia do cotidiano** do espectador que exponha o absurdo (o médico que não cobra do indicador).\n4. **Faça a virada:** ligue a dor a um ponto que defende seu valor/classe (a comissão que é justa).\n5. **Feche pra cima:** inverta o desabafo em conselho/esperança (\"sendo honesto, não tem como dar errado\"). Selfie, uma tomada, sem edição."
+     }
+    ],
     "transcricao": "Mas eu já tomei tanta canelada, tanta rasteira, tanta facada nas costas e vou continuar tomando.\nO mundo da corretagem é isso aí. É pra quem tem sangue frio. Eu ainda tô acostumando com essas coisas.\nEu conto nos dedos as parcerias que eu faço aqui. A gente toma rasteira de proprietário, de cliente, não de todos, óbvio, né?\nNão tô generalizando, mas toma. Toma de advogado. A gente toma de amigo.\nUm amigo chega pra você e fala, olha, meu amigo tá vendo uma casa, eu vou te passar.\nSó que se vender, você paga 50% pra mim?\nGente, como assim?\nSe você indica um médico pra um amigo teu,\nvocê chega no médico e fala, ó,\nme paga 50% da tua consulta porque eu indiquei pro meu amigo.\nEntão, assim, a gente na corretagem não tem segurança nenhuma.\nÉ matar um leão por dia, né?\nAí todo mundo reclama que a comissão no corretor é alta.\nO corretor trabalha muito.\nÀs vezes pra chegar na venda, a gente faz as postagens, os vídeos,\nfaz proposta, volta, faz um monte de coisa até chegar naquela parte ali, ó,\nque é o finalzinho, quando a gente consegue aproximar as partes e tá tudo certo,\nqual que é o problema? A comissão do corretor.\nEu espero que isso mude, eu acho que isso já tá mudando.\nTem corretor de qualidade e tem muito corretor que não tem qualidade,\ncomo em qualquer profissão, tem gente boa e tem gente ruim.\nAgora, a canelada e facada nas costas, você tem que acostumar.\nSe você não desistir, é não, volta. Volta por cima e continua trabalhando.\nSe você for honesto e trabalhar direitinho, não tem como dar errado."
    }
   ],
