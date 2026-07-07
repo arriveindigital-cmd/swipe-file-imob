@@ -2741,12 +2741,39 @@
   "desc": "'Planta ou usado?' decidido por perfil — cada situação recebe um veredito seco.",
   "slug": "versus-duelo-de-opcoes-talking-head",
   "formato": {
+   "estrutura": "1. **[MONTAGEM DO DUELO]** título com as 2 opções (A | B). → *slot: as opções.*\n2. **[RODADAS DE CRITÉRIO]** cada perfil/critério → veredito claro pra um lado (✅/❌). → *slot: os critérios.*\n3. **[PLACAR VISUAL]** acumular ✅/❌ na tela conforme avança. → *slot: o placar.*\n4. **[NUANCE DE AUTORIDADE]** um critério com \"depende de X\". → *slot: a nuance.*\n5. **[CTA DE PAUTA]** \"me segue + comenta sua pergunta pro próximo\".\n\n- **Fixo:** 2 opções claras; veredito por critério; placar visual; uma nuance; CTA de pauta.\n- **Variável:** as opções, os critérios, o nicho.",
    "hook": "Formato de decisão por perfil: para cada situação do comprador, uma recomendação seca. **\"Minha prioridade é sair do aluguel rápido → Usado. Não tenho entrada → Na planta, com certeza. Tenho boa entrada → depende: 25-30% do valor? Vai no usado.\"** O espectador se encaixa em uma das situações e fica pra ver a \"sua\" resposta.",
    "blocos": "- **Enquadramento do duelo (0-5s):** \"planta ou usado? depende do seu caso\".\n- **Sequência situação→veredito (5-45s):** cada perfil de comprador recebe uma recomendação direta com o porquê.\n- **CTA (fim):** \"me segue e comenta sua pergunta pro próximo vídeo\".",
    "porque": "- **Personalização por perfil:** cada espectador se reconhece em uma situação — retenção e \"isso é pra mim\".\n- **Vereditos secos** demonstram autoridade (o especialista decide, não enrola).\n- **Gera debate** (quem discorda comenta) — combustível de alcance.",
    "aplicar": "- Qualquer duelo com decisão por perfil: financiar vs consórcio, comprar vs alugar, casa vs apê.\n- Estruture como situação→veredito, cobrindo 4-6 perfis.\n- Feche pedindo a pergunta do próximo vídeo (alimenta série + comentário).",
    "guia": "- Vereditos honestos, incluindo \"depende\" quando é o caso (credibilidade).\n- Cada recomendação com 1 razão curta.\n- Cobrir os perfis mais comuns do seu público.\n- CTA de pergunta pro próximo → série infinita.",
-   "prompt": "```\nVocê é corretor(a) especialista criando um \"versus por perfil\":\n1) DUELO (0-5s): \"[X] ou [Y]? Depende do seu caso\"; 2) SEQUÊNCIA situação→veredito para 4-6 perfis de comprador, cada um com 1 razão; 3) CTA de pergunta pro próximo vídeo.\nMEUS DADOS: O duelo: [ ]. Os perfis de comprador e o veredito de cada: [ ]. Público: [ ].\nTOM: autoridade que decide, honesto (usar \"depende\" quando for). Uma razão por veredito.\nENTREGUE: 1) roteiro situação→veredito; 2) textos de tela; 3) legenda; 4) 5 hashtags; 5) CTA de pergunta.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo imobiliário de decisão. Crie um roteiro de \"versus / duelo de opções (talking head com placar)\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. MONTAGEM DO DUELO (0-3s): título com as 2 opções (\"[A] | [B]\") + resolva a 1ª rodada\n2. RODADAS DE CRITÉRIO: cada perfil/situação do comprador → um veredito claro pra um lado (✅/❌)\n3. PLACAR VISUAL: acumule os ✅/❌ na tela conforme avança\n4. NUANCE DE AUTORIDADE: um critério com \"depende de X\" (mostra análise real)\n5. CTA DE PAUTA (fim): \"me segue + comenta sua pergunta pro próximo vídeo\"\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O duelo: [OPÇÃO A vs OPÇÃO B — ex.: planta vs usado, comprar vs alugar]\n- Os critérios/perfis do comprador: [LISTE — entrada, valorização, pressa, reforma…]\n- O veredito de cada um: [PRA QUAL LADO CADA CRITÉRIO PENDE]\n- A nuance (o \"depende\"): [O CRITÉRIO QUE EXIGE ANÁLISE]\n\n**Regras de tom:**\n- Veredito CLARO por critério — nada de ficar em cima do muro (o \"depende\" só na nuance)\n- Fale pelo perfil do espectador (\"não tenho entrada\", \"tenho pressa\") pra ele se reconhecer\n- O placar visual (✅/❌ acumulando) é o motor de retenção\n- Feche com CTA de pauta pra gerar série\n\n**Entregue:**\n1. A sequência de rodadas (critério → veredito)\n2. Como montar o placar visual na tela\n3. A nuance de autoridade\n4. O CTA de pauta\n5. 5 hashtags + ideia dos próximos duelos da série",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **educar e mover o comprador na decisão** (base + conversão). Resolve a dúvida que trava a compra (planta ou usado? comprar ou alugar?) — o lead sai mais perto de decidir.\n- Alta salvabilidade: as pessoas guardam pra usar na hora de decidir."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O DUELO]:** escolha a dúvida real e recorrente do seu público. Duelo relevante = identificação imediata.\n- **[OS CRITÉRIOS]:** use as situações reais do comprador (entrada, pressa, valorização, reforma). Fale na voz dele (\"não tenho entrada\").\n- **[A NUANCE]:** um critério que dependa de análise (\"depende do quão boa é a entrada\") — é o que prova que você entende, não decora."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se ficar em cima do muro:\n\n> \"Dê veredito claro por critério. O único 'depende' permitido é a nuance de autoridade — o resto tem que apontar um lado com ✅/❌.\"\n\nSe os critérios vierem genéricos:\n\n> \"Use as situações reais do comprador na voz dele ('tenho pressa de sair do aluguel', 'não tenho entrada'). Genérico não gera identificação.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Ficar em cima do muro** — sem veredito claro, o formato perde a função (decidir).\n2. **Critérios genéricos** — precisam ser as situações reais do público.\n3. **Sem placar visual** — o acúmulo de ✅/❌ é o que segura até o fim.\n4. **Esquecer o CTA de pauta** — perde a série e o comentário."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Talking head simples, título com as 2 opções fixo no topo.\n- Placar de ✅/❌ acumulando na tela conforme você fala (o gancho de retenção).\n- Ritmo de ping-pong (situação → veredito). Feche com CTA de pauta."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta salvabilidade (guardam pra decidir) + comentários pelo CTA de pauta (cada pergunta é o próximo duelo). Move o lead na jornada de decisão — ótimo como conteúdo de meio de funil e como anúncio educativo."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2756,7 +2783,40 @@
     "link": "https://instagram.com/p/DXhHvlfDl94",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um duelo \"planta vs usado\" em que cada perfil de comprador ganha uma resposta clara — o formato transforma a maior dúvida do comprador num placar visual de ✅ e ❌."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-3s | Talking head; título fixo \"ESCOLHENDO IMÓVEL / PLANTA \\| USADO\" | \"Minha prioridade é sair do aluguel rápido → Usado\" | Hook: o duelo montado (dois lados) + a 1ª rodada resolvida |\n| 3-15s | Placar começa a acumular (SAIR DO ALUGUEL ✅ usado; MAIOR VALORIZAÇÃO ✅ planta) | \"Quero pagar mais barato e valorizar → Na planta\" | Rodadas de critério — cada resposta marca um lado |\n| 15-35s | Placar cresce (SEM ENTRADA ❌; POUCO DINHEIRO ❌ → planta) | \"Não tenho entrada → planta. Pouco dinheiro guardado → planta, não tem o que fazer\" | Critérios de bolso — vereditos rápidos |\n| 35-45s | (BOA ENTRADA >25% ✅ usado; REFORMA ✅) | \"Boa entrada de 25-30% → usado. Não gosta de reforma → usado pronto, ou planta com reforma básica\" | Nuance (\"depende do quão boa é a entrada\") — prova domínio |\n| 45-49s | Fecho | \"Me segue e deixa nos comentários sua pergunta pro próximo vídeo\" | CTA de seguir + pauta pro próximo |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Formato de duelo com placar visual:** cada critério é uma \"rodada\" com veredito claro pra um lado (✅/❌), o que dá satisfação e clareza.\n- **Fala pelo perfil do espectador** (\"não tenho entrada\", \"pouco dinheiro guardado\") — ele se reconhece numa das situações e já tem a resposta.\n- **A nuance é a autoridade:** \"depende do quão boa é a entrada\" mostra que não é resposta decorada, é análise.\n- **CTA de pauta** (\"qual sua pergunta pro próximo?\") gera comentário e alimenta série."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Talking head simples** com título \"PLANTA | USADO\" fixo no topo — o duelo enquadrado.\n- **Placar de ✅/❌ acumulando na tela** conforme ele fala — o crescimento visual é o gancho de retenção (a pessoa fica pra ver o placar fechar).\n- Produção enxuta; o valor é a clareza da comparação."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Ritmo de ping-pong** (situação → veredito) acelera a retenção.\n- Sem trilha dominante; a progressão do placar segura a atenção."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Comparação / duelo** — resolve a maior dúvida do comprador (A ou B?).\n2. **Decisão facilitada** — veredito claro por perfil tira o peso da escolha.\n3. **Placar visual** — ver os ✅/❌ acumularem dá satisfação e prende até o fim.\n4. **Autoridade** — a nuance (\"depende de X\") prova análise real.\n5. **CTA de pauta** — cria série e engajamento."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Ficar em cima do muro — o formato exige veredito claro por critério (o \"depende\" só na nuance).\n- ❌ Critérios genéricos — use as situações REAIS do seu público (entrada, valorização, pressa).\n- ❌ Sem o placar visual — o acúmulo de ✅/❌ é o motor de retenção.\n- ❌ Esquecer o CTA de pauta — perde a série e o comentário."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escolha o duelo** mais relevante do seu nicho (planta vs usado, comprar vs alugar, casa vs apê).\n2. **Liste os critérios/perfis reais** do comprador (entrada, valorização, pressa, reforma).\n3. **Dê um veredito claro por critério** e acumule ✅/❌ na tela (placar visual).\n4. **Inclua 1 nuance** (\"depende de X\") pra mostrar domínio.\n5. **Feche com CTA de pauta** (\"qual sua pergunta pro próximo?\"). Título com as 2 opções fixo no topo."
+     }
+    ],
     "transcricao": "A minha prioridade é sair do aluguel o mais rápido possível.\nUsado.\nQuero pagar mais barato e ter uma boa valorização.\nNa planta.\nNão tenho dinheiro de entrada.\nAh, aí na planta, com certeza.\nTenho pouco dinheiro guardado.\nNa planta, não tem nem o que fazer.\nTenho uma boa entrada.\nDepende do quão boa é essa entrada.\nSe for pelo menos aí de 25% a 30% do valor do imóvel, vai no usado.\nAgora, se não é todo esse valor, vai na planta que é o melhor negócio.\nNão gosto de reforma.\nSe você não gosta de reforma, você pode ou comprar um usado que já vem todo estruturadinho,\nou você vai ter que ser obrigado a comprar um na planta mesmo, mas aí você pode fazer\numa reforma mais básica para otimizar o seu tempo e seu dinheiro também.\nNão esquece de me seguir e deixa aqui nos comentários qual é a sua pergunta para o próximo vídeo."
    }
   ],
@@ -3059,12 +3119,39 @@
   "desc": "Os números impossíveis do deal empilhados na capa + o passo a passo de como foi feito.",
   "slug": "anatomia-do-negocio-numeros-do-deal",
   "formato": {
+   "estrutura": "1. **[HOOK: OS NÚMEROS DO DEAL]** valor de mercado / de compra / entrada na legenda fixa. → *slot: os 3 números.*\n2. **[PROVA DO ATIVO]** tour mostrando o que os números compraram. → *slot: o imóvel.*\n3. **[PASSO A PASSO REAL]** mostrar o método (screen-record/prints). → *slot: o processo.*\n4. **[O INSIDER]** a(s) cláusula(s)/segredo que viabiliza o deal. → *slot: o segredo.*\n5. **[RECAP DO RESULTADO]** fechar com o resumo do ganho + próximo passo.\n\n- **Fixo:** números reais no hook; prova do ativo; passo a passo transparente; o insider; recap.\n- **Variável:** o negócio, os números, o método.",
    "hook": "O deal contado como quebra-cabeça de números impossíveis: **\"Arrematei essa cobertura duplex — como entra, gente? Só 15 mil de entrada!\"**, com os números do negócio empilhados (mercado 500k / leilão 300k / entrada 15k). O \"como é possível?\" prende até a explicação.",
    "blocos": "- **Número-choque + pergunta (0-5s):** o resultado impossível (\"cobertura por 15 mil de entrada\").\n- **Tour de prova (5-20s):** mostra o imóvel real (churrasqueira, piscina, sauna) — não é conversa, é fato.\n- **O passo a passo (20-50s):** como fez — achou no site de leilão da Caixa (300k), leu o edital, achou as 2 cláusulas-chave (financiar com 5% de entrada; Caixa quita dívidas de IPTU/condomínio).",
    "porque": "- **Números empilhados na capa** criam o \"como?\" — retenção pura.\n- **A prova visual** (o imóvel real) valida antes de explicar.\n- **O passo a passo verificável** (site da Caixa, cláusulas do edital) entrega autoridade e utilidade — salva e compartilha.",
    "aplicar": "- Qualquer negócio com anatomia interessante: leilão, permuta, comprar-reformar-vender, arremate.\n- Empilhe os números na capa (valor de mercado / valor pago / entrada / lucro).\n- Ensine o mecanismo real (onde, como, quais cláusulas) — é o que gera autoridade.",
    "guia": "- Números reais e verificáveis; o passo a passo tem que ser reproduzível.\n- Mostre a prova (o imóvel, o print do edital) antes/durante a explicação.\n- Cuidado jurídico: leilão tem riscos — mencione a devida diligência.\n- CTA pode ser consultoria/mentoria/\"te ensino o caminho\".",
-   "prompt": "```\nVocê é especialista em negócios imobiliários (leilão/permuta/flip). Crie um vídeo \"anatomia do deal\":\n1) NÚMERO-CHOQUE + PERGUNTA (0-5s): o resultado impossível (\"[imóvel] por [entrada baixa]\") com os números empilhados; 2) PROVA visual do imóvel; 3) PASSO A PASSO real e reproduzível (onde achei, cláusulas, mecanismo).\nMEUS DADOS: O negócio + números (mercado/pago/entrada/lucro): [ ]. Onde/como achei: [ ]. Cláusulas/mecanismo-chave: [ ]. Riscos a mencionar: [ ].\nTOM: \"como é possível?\" → prova → método. Números reais, passo reproduzível, cuidado jurídico.\nENTREGUE: 1) números da capa; 2) roteiro prova+método; 3) legenda; 4) 5 hashtags; 5) CTA.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo imobiliário de investimento. Crie um roteiro de \"anatomia do negócio\" (os números do deal + o passo a passo), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: OS NÚMEROS DO DEAL (0-4s): valor de mercado / valor de compra / entrada, em legenda fixa\n2. PROVA DO ATIVO: tour rápido mostrando o que os números compraram\n3. PASSO A PASSO REAL: mostre o método (screen-record, prints do processo)\n4. O INSIDER: a cláusula/segredo que viabiliza o deal (a informação que poucos conhecem)\n5. RECAP DO RESULTADO: feche com o resumo do ganho + próximo passo (método/direct)\n\n**Meus dados:**\n- Autor + @: [NOME + @]\n- Os números do deal: [VALOR DE MERCADO / DE COMPRA / ENTRADA]\n- O ativo: [O IMÓVEL + diferenciais]\n- O passo a passo: [COMO VOCÊ FEZ, ETAPA POR ETAPA]\n- O insider: [A CLÁUSULA/SEGREDO que viabiliza]\n- Os riscos honestos: [O QUE O ESPECTADOR PRECISA SABER]\n\n**Regras de tom:**\n- Prova (o imóvel real) + método (o passo a passo) — os dois são obrigatórios; um sem o outro não funciona\n- Números reais e defensáveis; leilão/investimento tem risco — seja honesto\n- O insider (a cláusula) é a autoridade — não esconda\n- Empolgação genuína vende a oportunidade\n\n**Entregue:**\n1. O roteiro (hook com números → tour → passo a passo → insider → recap)\n2. As legendas de números fixas\n3. O que mostrar no screen-record/prints\n4. O CTA (método/mentoria/direct)\n5. 5 hashtags + resposta pro comentário cético (\"e os riscos do leilão?\")",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade + conversão** (excelente como ad). O deal chocante fisga, o passo a passo prova que você entende, e o \"eu consigo\" gera lead pra método/mentoria.\n- Ideal pra leilão, imóveis Caixa, compra na planta pra revender — qualquer operação com um número impressionante e um método replicável."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[OS NÚMEROS]:** valor de mercado, de compra e entrada. A diferença entre eles é o gancho — quanto maior o desconto, mais forte.\n- **[O PASSO A PASSO]:** mostre o processo real (prints, screen-record). A transparência é o que converte — método vago não gera confiança.\n- **[O INSIDER]:** a cláusula/segredo técnico que viabiliza. É a sua autoridade; entregue de graça (o lead vem pelo aprofundamento)."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier só o número (bravata):\n\n> \"Adicione o passo a passo real (como achou, as cláusulas, o processo). Número sem método soa bom demais pra ser verdade e não converte.\"\n\nSe esconder riscos:\n\n> \"Inclua os riscos honestos do leilão/operação. A transparência é a autoridade; esconder gera desconfiança e lead frustrado.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Só o número** — sem método, vira bravata sem credibilidade.\n2. **Só o método sem a prova do ativo** — sem ver o imóvel real, não convence.\n3. **Esconder as cláusulas/riscos** — a transparência técnica É a autoridade.\n4. **Número inflado** — leilão tem risco; exagerar destrói a confiança."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Combine tour do imóvel + screen-record do processo (site, edital, prints).\n- Legendas de números fixas o vídeo todo. Apresentação empolgada e genuína.\n- Feche com o recap do resultado + CTA (método/mentoria/direct)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta salvabilidade (guardam o método) + conversão pro CTA. O comentário cético (\"e os riscos?\") é ouro — responder com transparência vira autoridade e mais alcance. Funciona muito bem como anúncio de captação de investidor/aluno."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -3074,7 +3161,40 @@
     "link": "https://instagram.com/p/C3vg2QMOB4l",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um imóvel de R$500 mil arrematado por R$300 mil com R$15 mil de entrada — a anatomia do negócio expõe o número que choca e depois entrega o passo a passo que faz o espectador acreditar que também consegue."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Fachada do prédio; legenda fixa \"Valor de mercado: 500 mil / Arrematação: 300 mil / Entrada: 15 mil ✅\" | \"Arrematei uma cobertura duplex avaliada em 500 mil, com 15 mil de entrada\" | Hook: os 3 números na tela — o deal que parece bom demais |\n| 4-20s | Tour da cobertura (churrasqueira, piscina, sauna, quartos) | \"Cobertura completa: churrasqueira, piscina, sauna, 3 quartos\" | Prova do ativo — o que os números compraram (tangibiliza) |\n| 20-35s | Screen-record do site da Caixa | \"Passo 1: site de venda de imóveis da Caixa pra achar o leilão (saía por 300 mil)\" | O passo a passo — transparência do método |\n| 35-50s | Edital, cláusulas destacadas | \"As 2 cláusulas-chave: financiar com 5% de entrada (15 mil) e a Caixa paga as dívidas (IPTU/condomínio)\" | O insider — o segredo que viabiliza o deal |\n| 50-53s | Fecho | \"Peguei sem dívidas com 15 mil\" | Recapitulação do resultado |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Os 3 números no hook** (mercado / arrematação / entrada) chocam e param o scroll — a diferença entre 500 mil e 15 mil de entrada é o gancho.\n- **Prova → método:** primeiro o tour prova que o ativo é real, depois o screen-record entrega COMO fazer. Prova sem método frustra; método sem prova não convence.\n- **As 2 cláusulas são o \"insider\"** — informação técnica que poucos conhecem gera autoridade instantânea.\n- **A transparência do passo a passo** é o que converte (o espectador pensa \"eu consigo fazer isso\")."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Combinação tour + screen-record** — o imóvel real + os prints do processo (site da Caixa, edital) provam cada afirmação.\n- **Legendas de números fixas** o vídeo todo (o deal na tela).\n- **Apresentador conduzindo** com entusiasmo genuíno — a empolgação vende a oportunidade."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração empolgada** guiando do resultado (o imóvel) ao método (o processo).\n- Ritmo que alterna desejo (tour) e utilidade (passo a passo) — segura porque entrega os dois."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Números que chocam** — 500 mil por 15 mil de entrada é irresistível de investigar.\n2. **Prova real** — o imóvel + os prints tiram do campo da promessa.\n3. **Passo a passo acionável** — o método faz o espectador acreditar que replica.\n4. **Insider** — as cláusulas que poucos conhecem posicionam você como quem sabe das coisas.\n5. **Aspiração** — \"eu também consigo\" é o que gera salvamento e DM."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Só o número sem o método — vira \"bravata\"; o passo a passo é o que dá credibilidade.\n- ❌ Só o método sem a prova do ativo — sem ver o imóvel real, não convence.\n- ❌ Esconder as cláusulas/pegadinhas — a transparência técnica é a autoridade.\n- ❌ Número inflado/irreal — leilão tem risco; exagerar destrói a confiança."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com os números do deal** (valor de mercado / de compra / entrada) em legenda fixa.\n2. **Prove o ativo** com um tour rápido (o que os números compraram).\n3. **Entregue o passo a passo real** (screen-record, prints do processo).\n4. **Revele o insider** — a cláusula/segredo que viabiliza o negócio.\n5. **Recapitule o resultado** e leve pro método/mentoria/direct. Sempre com números reais e riscos honestos."
+     }
+    ],
     "transcricao": "Brasil arremateu uma cobertura duplex nesse pé de aqui avaliado em 500 mil reais por metra gente só 15 mil.\nE é uma cobertura bem completa com churrasqueira, piscina, um banheiro aqui também e ainda pra completar uma sauna.\nIsso sim, uma sauna.\nQue a gente tá até pensando em pegar essa sauna, meio que tirar isso daqui, transformar num espaço maior, mais amplo, mas de qualquer maneira, uma sauna.\nE é uma cobertura de 3 quartos, tendo essa suíte aqui em cima, mais dois lá embaixo.\nE nesse vídeo eu vou te explicar o passo a passo de como que eu fiz isso.\nO primeiro passo foi ir no site de venda de imóveis da Caixa\npara encontrar o leilão onde essa cobertura estava saindo por só 300 mil reais.\nUma vez o imóvel encontrado, fui para o edital para achar as duas cláusulas mais importantes.\nA primeira é sobre você poder financiar o imóvel do leilão com apenas uma entrada de 5%,\no que nesse caso era 15 mil reais.\nE a segunda é a cláusula onde a Caixa fala que vai pagar as dívidas de próprio terreno,\nque é basicamente IPTU e condomínio.\nE assim eu peguei essa cobertura com uma entradinha de só 15 mil reais e sem dívidas."
    }
   ],
