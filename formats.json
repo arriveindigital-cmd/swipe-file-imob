@@ -1690,12 +1690,39 @@
   "desc": "'O que R$X compra em [bairro]' — o imóvel vira unidade de comparação e debate.",
   "slug": "what-1m-gets-you-in-cidade",
   "formato": {
+   "estrutura": "1. **[LEGENDA-ÂNCORA FIXA]** \"isto é o que [R$X redondo] compra em [CIDADE]\". → *slot: preço + cidade.*\n2. **[TOUR-RELÂMPAGO]** b-roll rápido dos ambientes. → *slot: os ambientes.*\n3. **[FICHA TÉCNICA-PAYOFF]** m²/quartos/banheiros no fim. → *slot: os specs.*\n\n- **Fixo:** número redondo; cidade específica; legenda fixa; curto; ficha no fim.\n- **Variável:** o preço, a cidade, o imóvel.",
    "hook": "Valor fixo + lugar como promessa: **\"É isso que R$X compra em [cidade].\"** O espectador quer ver o que o SEU dinheiro compra ali — comparação implícita com a própria realidade.",
    "blocos": "- **Valor + lugar (0-3s):** \"R$1 milhão em [bairro]\" — âncora fixa.\n- **Ficha rápida (3-8s):** o que esse valor entrega (quartos, banheiros, metragem).\n- **Tour do que cabe no orçamento (8-30s):** takes mostrando o padrão real daquele valor naquele lugar.",
    "porque": "- **Âncora de valor fixo** transforma imóvel em unidade de comparação — vira debate (\"no meu bairro isso é o dobro\").\n- **Salvável e replicável:** cada cidade/bairro é um vídeo novo; formato escala infinitamente.\n- **Autoridade de mercado:** quem mostra \"o que X compra aqui\" vira referência de preço da região.",
    "aplicar": "- \"O que R$300 mil compra em [bairro A] vs [bairro B]\" — comparação entre regiões.\n- \"O que R$X compra hoje vs há 5 anos\" — tese de valorização.\n- Série por faixa de preço: R$200k, R$500k, R$1mi.",
    "guia": "- Valor redondo e real do mercado local; padrão mostrado tem que bater com o preço.\n- Bairro/cidade sempre nomeado (SEO + orgulho local).\n- Comparação explícita ou implícita puxa o debate nos comentários.\n- Adapte o valor à realidade BR (o \"$1M\" vira a faixa que faz sentido na sua praça).",
-   "prompt": "```\nVocê é corretor(a) local criando um vídeo \"o que [VALOR] compra em [LUGAR]\":\n1) ÂNCORA (0-3s): \"É isso que [VALOR] compra em [BAIRRO/CIDADE]\"; 2) FICHA rápida (quartos/banheiros/m²); 3) TOUR do padrão real desse valor ali.\nMEUS DADOS: Valor-âncora: [ ]. Bairro/cidade: [ ]. Ficha do imóvel: [ ]. Comparação (outro bairro / outra época): [ ].\nTOM: comparação, \"olha o que dá pra ter\". Valor real, bairro nomeado. Adaptar faixa à realidade BR.\nENTREGUE: 1) roteiro; 2) texto de capa com valor+lugar; 3) legenda; 4) 5 hashtags com cidade/bairro; 5) 5 próximas cidades/faixas da série.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo imobiliário de alcance. Crie um roteiro de \"o que [preço] compra em [cidade]\" (tour-relâmpago ancorado no preço), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. LEGENDA-ÂNCORA FIXA (0-3s): \"isto é o que [R$X redondo] compra em [CIDADE/BAIRRO]\" — fixa o vídeo inteiro + fala reforçando\n2. TOUR-RELÂMPAGO (3-12s): b-roll rápido dos ambientes, ritmo alto\n3. FICHA TÉCNICA-PAYOFF (fim): m², quartos, banheiros, vagas — o veredito que o público julga\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Preço redondo + cidade/bairro: [EX.: R$500 mil em [cidade]]\n- Imóvel: [TIPO + ambientes]\n- Ficha técnica: [M² / QUARTOS / BANHEIROS / VAGAS]\n\n**Regras de tom:**\n- Número REDONDO e limpo — nada de valor quebrado (enfraquece a âncora)\n- A cidade/bairro específico é obrigatório — a comparação geográfica é o gancho\n- Curto e denso (10-20s) — o formato é relâmpago\n- Deixe a ficha técnica gerar o debate \"caro ou barato?\" nos comentários\n\n**Entregue:**\n1. O texto da legenda-âncora fixa\n2. A ordem dos ambientes pro tour-relâmpago\n3. A ficha técnica de fechamento\n4. 5 hashtags\n5. Ideia da série por faixa de preço (3 próximos vídeos)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance e descoberta** (topo de funil). É comparação de mercado universal — sai da bolha imobiliária porque todo mundo se interessa por \"quanto custa onde\".\n- Ótimo pra **série por faixa de preço** e por bairro — cada combinação é um vídeo novo com o mesmo molde."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[PREÇO REDONDO]:** limpo e memorável (500 mil, 1 milhão). Valor quebrado enfraquece a âncora e o compartilhamento.\n- **[CIDADE/BAIRRO]:** específico. A comparação geográfica é o motor — o público compara com onde mora.\n- **[FICHA TÉCNICA]:** é o payoff. Guarde m²/quartos pro final pra gerar o debate caro/barato."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier longo/descritivo:\n\n> \"Corte pra 15 segundos. É relâmpago: legenda-âncora, tour rápido, ficha técnica. Nada de descrição de cada ambiente.\"\n\nSe o preço vier quebrado:\n\n> \"Use um número redondo. A âncora e o compartilhamento dependem de um valor limpo e memorável.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Preço quebrado/confuso** — mata a âncora.\n2. **Esconder a cidade** — sem o \"onde\", não há comparação (o gancho).\n3. **Tour longo** — o formato vive da brevidade e densidade.\n4. **Sem ficha técnica** — o payoff que gera o debate nos comentários."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Tour em movimento, ritmo alto, legenda-âncora fixa o vídeo todo.\n- Ambientes decorados e bem iluminados (o imóvel precisa \"valer a discussão\").\n- Ficha técnica na tela no fecho."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance pela comparação universal + debate caro/barato nos comentários (cada opinião é engajamento). O compartilhamento vem do \"olha o que dá pra comprar por X lá\". Responda os \"e no meu bairro?\" — cada um é o próximo episódio da série."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1705,7 +1732,40 @@
     "link": "",
     "en": true,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um número redondo (US$1 milhão) + uma cidade cara = a comparação que o mundo inteiro quer ver; o formato vende contexto de mercado em 15 segundos."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-3s | Apresentadora andando no corredor do prédio; legenda fixa \"This is what you can buy Downtown Toronto for $1 MILLION\" | \"This is what you can buy downtown Toronto for one million dollars\" | Hook: preço redondo + cidade específica na legenda fixa — comparação instantânea |\n| 3-12s | Entra e mostra os ambientes (quarto, den/escritório, sala) | (b-roll rápido dos ambientes decorados) | Tour-relâmpago — mostra o que o número compra ali |\n| 12-15s | Legenda \"This suite is 1 bedroom + 2 dens and 3 bathrooms\" | \"This suite is 1 bedroom plus 2 dens and 3 bathrooms\" | Ficha técnica — o payoff que o público julga (caro? barato?) |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O formato É a legenda fixa** (preço + cidade) — ela dá o gancho pra quem entra no meio do vídeo e é o que se compartilha.\n- **Número redondo** (US$1M) — limpo, memorável, comparável. Um valor \"quebrado\" enfraquece a âncora.\n- **A ficha técnica no fim é o veredito** — o público decide nos comentários se é caro ou barato, e esse debate é o combustível de alcance.\n- Minimalista: o **contexto de mercado** é o conteúdo, não a venda."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Tour caseiro em movimento**, apresentadora carismática — leveza e ritmo.\n- **Legenda fixa o vídeo todo** (crucial pra retenção e pra quem entra no loop no meio).\n- Ambientes decorados, luz boa — o imóvel precisa parecer desejável pra o preço \"valer a discussão\"."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala curta** + provável trend/música; ritmo acelerado.\n- Os 15s premiam o rewatch e o compartilhamento — densidade máxima."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Ancoragem de preço** — o número redondo recalibra a percepção e vira referência.\n2. **Comparação geográfica** — todo mundo compara com a própria cidade (\"aqui isso custaria X\").\n3. **Voyeurismo de mercado** — curiosidade universal sobre \"quanto custa onde?\".\n4. **Debate caro/barato** — a ficha técnica divide opiniões e enche os comentários.\n5. **Brevidade** — o curto premia rewatch e share."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Preço quebrado/confuso — o número tem que ser limpo e redondo.\n- ❌ Esconder a cidade — a comparação geográfica É o gancho.\n- ❌ Tour longo — o formato é relâmpago; a graça é a densidade.\n- ❌ Sem ficha técnica — o payoff (m²/quartos) é o que gera o debate."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escolha um número redondo** + a sua cidade/bairro (\"o que R$500 mil compra em [cidade]\").\n2. **Legenda fixa** com preço + cidade o vídeo inteiro.\n3. **Tour-relâmpago** pelos ambientes (b-roll rápido, ritmo alto).\n4. **Feche com a ficha técnica** (m², quartos, banheiros) — o veredito que gera debate.\n5. **Faça série por faixa de preço** (\"R$300 mil\", \"R$1 milhão\", \"R$3 milhões\") — cada uma é um novo vídeo."
+     }
+    ],
     "transcricao": "This is what you can buy downtown Toronto for.\nOne million dollars.\nThis suite is one bedroom plus two dens and three bathrooms."
    }
   ],
@@ -1806,12 +1866,39 @@
   "desc": "Imóvel dos sonhos + dilema divertido com mecanismo de compartilhamento embutido.",
   "slug": "pergunta-sobre-feature-escolha-especifica",
   "formato": {
+   "estrutura": "1. **[ISCA VISUAL]** o imóvel/objeto dos sonhos no hook. → *slot: a isca.*\n2. **[HIPÓTESE SEDUTORA]** \"imagina morar aqui de graça por 1 ano…\". → *slot: o prêmio.*\n3. **[TWIST + MECÂNICA DE SHARE]** a condição engraçada que embute o compartilhamento. → *slot: o twist.*\n4. **[CTA BINÁRIO]** \"você faria? comenta sim ou não\". → *slot: a escolha.*\n\n- **Fixo:** isca desejável; twist que embute o share; CTA binário; tom de brincadeira.\n- **Variável:** o imóvel, a hipótese, o twist.",
    "hook": "Casa dos sonhos + um desafio provocador: **\"Imagina que te dão um ano nesta casa, com todas as despesas pagas — o único requisito é se mudar com a primeira pessoa que aparecer ao você compartilhar este vídeo. Você faria?\"** A pergunta hipotética + o mecanismo de compartilhamento embutido explodem o alcance (334K shares).",
    "blocos": "- **Cenário-fantasia (0-5s):** a casa incrível + a proposta absurda.\n- **A condição-gancho (5-15s):** o \"requisito\" que força uma decisão emocional e divertida.\n- **CTA de compartilhamento embutido:** \"compartilhe e me diga se faria\" — o próprio dilema vira motor de share.",
    "porque": "- **Dilema divertido = compartilhamento massivo:** a graça está em marcar/compartilhar com \"aquela pessoa\".\n- **A hipótese remove a barreira de preço:** todo mundo participa da fantasia, comprador ou não.\n- **Mecanismo de share embutido no enredo** (não é \"compartilhe\", é parte da brincadeira).",
    "aplicar": "- Imóvel dos sonhos + um dilema lúdico (\"moraria de graça 1 ano, mas [pegadinha divertida]?\").\n- Variações: \"morar aqui mas sem internet?\", \"de graça mas a 2h do trabalho?\".\n- Regra: o dilema tem que ser divertido e compartilhável, não constrangedor.",
    "guia": "- Imóvel aspiracional forte (a fantasia precisa valer a pena).\n- A condição tem que gerar \"eu marcaria fulano\" — pense no share.\n- Pergunta binária/decisão no fim (\"faria ou não?\").\n- Adapte o mecanismo (o exemplo usa share no WhatsApp) sem prometer o imóvel de verdade.",
-   "prompt": "```\nVocê é roteirista de conteúdo viral imobiliário. Crie um vídeo \"desafio de escolha/fantasia\":\n1) CENÁRIO-FANTASIA (0-5s): imóvel incrível + proposta absurda; 2) CONDIÇÃO-GANCHO divertida que force uma decisão; 3) CTA de compartilhamento embutido no dilema.\nMEUS DADOS: Imóvel aspiracional: [ ]. O dilema/condição divertida: [ ]. Público: [ ].\nTOM: lúdico, hipotético, compartilhável. O dilema faz o espectador querer marcar alguém.\nENTREGUE: 1) roteiro; 2) texto de tela do dilema; 3) legenda com a pergunta; 4) 5 hashtags; 5) 3 variações da condição.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo de engajamento viral. Crie um roteiro de \"hipótese provocativa com mecânica de compartilhamento\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. ISCA VISUAL (0-4s): o imóvel/objeto dos sonhos no hook (\"olha essa casa\")\n2. HIPÓTESE SEDUTORA (4-12s): \"imagina que você pode [prêmio irresistível]…\"\n3. TWIST + MECÂNICA DE SHARE (12-16s): a condição engraçada/arriscada que embute o compartilhamento (\"…mas tem que se mudar com a 1ª pessoa que você mandar esse vídeo\")\n4. CTA BINÁRIO (fim): \"você faria ou não? comenta\"\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Imóvel-isca (+ objeto de desejo extra): [DADOS]\n- O prêmio da hipótese: [EX.: morar 1 ano de graça, tudo pago]\n- O twist que embute o share: [A CONDIÇÃO ENGRAÇADA/ARRISCADA]\n\n**Regras de tom:**\n- A isca precisa ser genuinamente desejável (senão ninguém \"joga\")\n- O twist é o que viraliza — a condição com humor que faz marcar amigos\n- O share deve estar EMBUTIDO na regra do jogo, nunca pedido de forma seca\n- Deixe claro que é uma brincadeira (não gere falsa expectativa de prêmio real)\n\n**Entregue:**\n1. O roteiro da narração (isca → hipótese → twist → CTA)\n2. A frase do twist (a mais importante — a que embute o share)\n3. O CTA binário de fechamento\n4. 5 hashtags\n5. Variações do twist pra testar (3 opções)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance por compartilhamento** (base). O share está embutido na mecânica, o que dá ao vídeo um motor viral que outros formatos não têm.\n- Melhor como conteúdo esporádico de \"explosão\" — não é pra vender direto, é pra crescer alcance e seguidor."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[ISCA]:** o imóvel/prêmio precisa ser dos sonhos. Quanto mais desejável, mais gente entra na brincadeira.\n- **[O TWIST]:** é o que faz o vídeo viralizar. A condição precisa ter humor/risco que gere marcação de amigos (\"e se eu mandar pro meu ex? 😂\").\n- **[CLAREZA DE BRINCADEIRA]:** deixe evidente que é hipótese, não sorteio real — evita falsa expectativa e problema."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o share vier como súplica:\n\n> \"Embuta o compartilhamento na regra do jogo ('a 1ª pessoa que você mandar'), nunca como pedido direto ('compartilhe por favor'). A mecânica tem que ser parte da brincadeira.\"\n\nSe a hipótese vier sem graça:\n\n> \"Reforce o twist — a condição precisa de humor ou risco que faça a pessoa querer marcar alguém. Sem twist, é só pergunta.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Isca fraca** — sem um prêmio desejável, ninguém joga.\n2. **Hipótese sem twist** — o \"com quem/como\" é o que gera humor e marcação.\n3. **Pedir share seco** — o compartilhamento tem que estar na regra, não na súplica.\n4. **Sem CTA binário** — a escolha sim/não é o que multiplica comentários."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- B-roll cinematográfico do imóvel-isca (+ objeto de desejo extra tipo carro).\n- Legenda com a hipótese (essencial pra a mecânica funcionar sem som).\n- Narração pausada construindo até o twist; CTA binário no fim."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto compartilhamento (a regra força o share) + comentários pela escolha binária. É um formato de crescimento de alcance/seguidor, não de conversão. Use com parcimônia — repetido demais, cansa. Responda os comentários mantendo o tom de brincadeira."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1821,7 +1908,40 @@
     "link": "",
     "en": true,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma hipótese impossível de ignorar (\"moraria 1 ano de graça se tivesse que se mudar com a 1ª pessoa que você compartilhar isso?\") que usa o imóvel dos sonhos como isca pra uma mecânica de compartilhamento viral."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Casa moderna branca, Camaro vermelho na frente | \"Look at this beautiful house\" | Hook visual: imóvel + carro dos sonhos param o scroll pelo desejo |\n| 4-12s | B-roll da mansão (piscina, área externa, arquitetura) | \"Imagine que você pode passar um ano inteiro nesta casa, com todas as despesas pagas…\" | A hipótese sedutora — o prêmio irresistível |\n| 12-16s | Continua o tour | \"…a única condição é você se mudar com a primeira pessoa com quem compartilhar este vídeo no WhatsApp\" | O TWIST: a condição engraçada/arriscada que EMBUTE o compartilhamento |\n| 16-18s | Fecho | \"Me diz se você faria ou não\" | CTA de escolha binária (sim/não) — gera comentário |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A hipótese é engenharia de duas ações:** compartilhar (a regra \"a 1ª pessoa que você compartilhar\") + comentar (faria ou não?). Dois sinais fortes pro algoritmo num único vídeo.\n- **O imóvel dos sonhos é a isca** — o prêmio precisa ser desejável o bastante pra a pessoa querer \"jogar\".\n- **O twist é o que viraliza:** \"mudar com quem você mandar\" gera humor e marcação de amigos (\"e se eu mandar pro meu chefe? 😂\").\n- **CTA binário** (\"faria ou não?\") é o mais fácil de responder — baixo atrito, alto volume."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Mansão + carro esportivo** — desejo aspiracional máximo como isca visual.\n- **B-roll cinematográfico** dos ambientes e da área externa carrega a fantasia.\n- **Legenda com a hipótese** garante o entendimento sem som (essencial pra a mecânica funcionar)."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração pausada e sedutora** construindo a hipótese + provável trilha.\n- Ritmo que segura até o twist (a condição) — o payoff cômico/arriscado é o clímax."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Desejo aspiracional** — a isca (casa + carro) fisga pela fantasia.\n2. **Jogo mental / hipótese** — é quase impossível não responder mentalmente \"eu faria?\".\n3. **Mecânica de compartilhamento** — o share está embutido na própria regra do jogo.\n4. **Marcação de amigos** — o twist (\"com quem você mandar\") faz a pessoa marcar alguém por humor.\n5. **CTA binário** — escolha sim/não é o comentário de menor atrito e maior volume."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Isca fraca — o imóvel/prêmio precisa ser genuinamente desejável, senão ninguém \"joga\".\n- ❌ Hipótese sem twist — o \"com quem\" é o que gera o humor e a marcação; sem ele, é só pergunta.\n- ❌ Pedir compartilhamento de forma seca — o share tem que estar embutido na brincadeira, não como súplica.\n- ❌ Sem CTA binário — a escolha sim/não é o que multiplica os comentários."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Use o imóvel mais desejável disponível** (com um objeto de desejo extra, tipo o carro) como isca visual no hook.\n2. **Construa a hipótese-prêmio** (\"imagina morar aqui de graça por 1 ano…\").\n3. **Adicione o twist que embute o compartilhamento** (\"…mas tem que se mudar com a 1ª pessoa que você mandar isso\").\n4. **Feche com escolha binária** (\"você faria ou não? comenta\").\n5. Mantenha o tom de brincadeira — é um jogo, não uma promessa real (deixe isso claro pra não gerar falsa expectativa)."
+     }
+    ],
     "transcricao": "Look at this beautiful house.\nImagine you tell me that you can spend a whole year in this house\nand the only requisite for you to stay there with all the expenses paid\nis to move with the first person that you leave to share this video in WhatsApp.\nTell me if you do it or not."
    }
   ],
