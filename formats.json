@@ -5043,12 +5043,39 @@
   "desc": "Visualização guiada: o comprador se vê usando o imóvel, spec por spec como experiência.",
   "slug": "imagine-morar-visualizacao-guiada-specs-de",
   "formato": {
+   "estrutura": "1. **[COMANDO DE IMAGINAÇÃO]** \"imagina VOCÊ [vivendo a cena]\". → *slot: a cena.*\n2. **[CONSTRUÇÃO DA VIDA]** a experiência (família, fds, vista) antes de specs. → *slot: a fantasia.*\n3. **[SPEC-UAU VIVIDO]** o diferencial demonstrado na prática (não listado). → *slot: o uau.*\n4. **[REVELAÇÃO/SURPRESA]** um twist (é apê, não casa; o preço). → *slot: a surpresa.*\n5. **[CTA]** \"pode vir conhecer\".\n\n- **Fixo:** comando de imaginação; construir a vida antes dos specs; spec vivido; banner de specs fixo; CTA.\n- **Variável:** o imóvel, a cena, o spec-uau.",
    "hook": "Visualização guiada que coloca o comprador na cena: **\"Imagina você receber sua família e amigos aqui, num almoço de fim de semana, com piscina privativa, espaço gourmet e essa vista pro Jardim Botânico.\"** O comprador se vê usando o imóvel — desejo por projeção.",
    "blocos": "- **Convite à visualização (0-8s):** \"imagina você [cena de uso desejável] aqui\".\n- **Tour dos diferenciais (8-40s):** piscina privativa, gourmet, vista, elevador privativo direto pra garagem — cada spec como parte da cena imaginada.\n- **CTA (fim):** \"pode vir conhecer\" / agende.",
    "porque": "- **Visualização guiada = desejo por projeção:** o comprador experimenta mentalmente morar ali.\n- **Specs enquadrados como experiência** (\"sobe pelo elevador e sai direto na sala\") vendem o estilo de vida, não a ficha técnica.\n- **Exclusividade** (privativo, vista, poucas unidades) justifica o valor.",
    "aplicar": "- Qualquer imóvel com diferenciais de experiência: \"imagina você [usando o diferencial]\".\n- Traduza cada spec em uma cena de uso (\"imagina chegar em casa e…\").\n- Foco no estilo de vida que o imóvel proporciona, não na lista de itens.",
    "guia": "- Comece sempre com \"imagina você…\" + uma cena concreta e desejável.\n- Cada spec vira experiência (\"o elevador privativo te leva direto…\").\n- Enfatize a exclusividade (privativo, poucas unidades, vista).\n- CTA de visita (\"venha experimentar\").",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário. Crie um anúncio \"imagine morar\":\n1) CONVITE (0-8s): \"imagina você [cena de uso desejável] aqui\"; 2) TOUR dos diferenciais, cada spec como parte da cena imaginada; 3) CTA de visita.\nMEUS DADOS: Imóvel + diferenciais: [ ]. As cenas de uso desejáveis: [ ]. Exclusividades: [ ]. Público: [ ].\nTOM: visualização guiada, projeção. Specs viram experiência. Foco no estilo de vida.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) 2 variações da cena inicial; 5) CTA.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de imóvel de alto padrão. Crie o roteiro de \"imagine morar\" (visualização guiada + specs), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. COMANDO DE IMAGINAÇÃO (0-8s): \"imagina VOCÊ [vivendo uma cena desejável aqui]\" + banner de specs fixo\n2. CONSTRUÇÃO DA VIDA: a experiência (família, fim de semana, vista, privacidade) antes de qualquer spec técnico\n3. SPEC-UAU VIVIDO: o diferencial demonstrado na prática (viva o benefício, não liste)\n4. REVELAÇÃO/SURPRESA: um twist pro fim (é apê, não casa; o preço)\n5. CTA: \"pode vir conhecer\"\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Imóvel + specs pro banner: [NOME | SUÍTES | VAGAS]\n- A cena de visualização: [A ROTINA/MOMENTO DESEJÁVEL]\n- O spec-uau pra demonstrar: [O DIFERENCIAL — ex.: elevador privativo]\n- A revelação/surpresa: [O TWIST]\n\n**Regras de tom:**\n- \"Imagina VOCÊ aqui\" — coloque o espectador na cena (não descreva de fora)\n- Construa a VIDA/experiência antes dos specs (venda a rotina, não o m²)\n- Demonstre o spec-uau vivido (o fluxo, o uso) — impressiona mais que listar\n- Guarde a revelação pro fim; banner de specs fixo\n\n**Entregue:**\n1. O roteiro (imaginação → vida → spec-uau → revelação → CTA)\n2. A frase de comando de imaginação\n3. Como demonstrar o spec-uau na prática\n4. O texto do banner de specs\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **gerar desejo** em imóveis de médio/alto padrão via tráfego pago. A visualização guiada é o que faz o lead se apaixonar antes de racionalizar.\n- Melhor com imóveis que têm uma experiência de vida forte pra vender (vista, privacidade, um spec-uau)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A CENA]:** o momento desejável (\"receber a família num almoço de fds\"). Coloque o espectador vivendo, não observando.\n- **[O SPEC-UAU]:** o diferencial pra demonstrar vivido (elevador privativo, vista). Mostre o uso/fluxo, não a ficha.\n- **[A REVELAÇÃO]:** um twist pro fim (é apê e não casa; o preço acessível) que reposiciona o valor pra cima."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se listar specs de fora:\n\n> \"Reescreva colocando o espectador na cena ('imagina VOCÊ recebendo…'). Venda a vida/rotina antes dos specs — a projeção é o gatilho.\"\n\nSe só descrever o spec-uau:\n\n> \"Demonstre o benefício vivido (o fluxo do elevador, a vista da varanda). Viver o spec impressiona mais que citá-lo.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Listar specs sem visualização** — perde o gatilho de projeção.\n2. **Descrever o spec-uau sem demonstrar** — vivê-lo impressiona mais.\n3. **Revelar cedo demais** — o twist (é apê/o preço) surpreende no fim.\n4. **Sem banner de specs** — a âncora racional acompanha a fantasia."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- B-roll cinematográfico do decorado e áreas; luz natural, vista. Banner de specs fixo.\n- Narração guiando o olhar (\"olha isso\", \"tá vendo aquilo?\"). Demonstre o spec-uau na prática. CTA no fim."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de desejo — a visualização guiada gera o vínculo emocional que precede a decisão. A revelação/surpresa amplia o valor percebido. Ideal pra alto padrão; responda os \"qual o valor?\" no direct (o lead já vem desejando)."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -5058,7 +5085,40 @@
     "link": "https://www.facebook.com/ads/library/?id=737934908982531",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Imagina você receber sua família aqui\" — a visualização guiada faz o espectador se ver morando no imóvel antes de qualquer argumento racional, e os specs selam o desejo."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Living integrado + piscina; banner fixo \"Reserva Jd. Botânico \\| 4 suítes \\| 4 vagas\" | \"Olha isso, imagina você receber sua família e amigos aqui pra um almoço de fim de semana\" | Hook de projeção: \"imagina VOCÊ aqui\" — coloca o espectador na cena |\n| 8-30s | Piscina privativa, gramado, vista | \"Piscina privativa enorme, o gramado, a vista da reserva. Diversas unidades com vistas similares, totalmente pro verde, com privacidade\" | Constrói a cena de desejo — a vida que ele teria |\n| 30-55s | Elevador privativo, garagem | \"Olha aquilo no fundo: um elevador privativo pra sua unidade, com acesso direto à sua garagem com 4 vagas\" | O spec-uau (elevador privativo) apresentado como parte da fantasia |\n| 55-75s | Demonstração do fluxo | \"Você para o carro embaixo, sobe pelo elevador e sai direto na sala. Incrível, né?\" | Demonstra o benefício VIVIDO (a conveniência na prática) |\n| 75-83s | Vista final | \"Isso é um apartamento no Reserva Jardim Botânico. Pode vir conhecer\" | A revelação (é apê, não casa) + CTA |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O comando de imaginação** (\"imagina VOCÊ receber sua família\") coloca o espectador dentro da cena — é o gatilho central do formato.\n- **Constrói a VIDA antes dos specs** (o almoço de fds, a privacidade, a vista) — vende a experiência, não o metro quadrado.\n- **O spec-uau é vivido, não listado** — o elevador privativo é demonstrado (\"para o carro, sobe, sai na sala\"), o que impressiona mais que uma ficha técnica.\n- **A revelação surpreende** (\"isso é um APARTAMENTO\") — parecia casa, o que amplia o valor percebido.\n- **Banner de specs fixo** ancora a informação racional o tempo todo."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **B-roll cinematográfico** do decorado e das áreas — a imagem carrega o desejo.\n- **Banner fixo de specs** (Reserva | 4 suítes | 4 vagas) — informação sempre à vista.\n- **Luz natural e a vista verde** reforçam a exclusividade e a privacidade."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração guiando o olhar** (\"olha isso\", \"tá vendo aquilo?\") — conduz a visualização.\n- Ritmo que constrói a cena e culmina no spec-uau (o elevador) e na revelação."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Projeção / visualização** — se ver morando é o passo psicológico antes de desejar comprar.\n2. **Desejo aspiracional** — a vida (família, vista, privacidade) alimenta a fantasia.\n3. **Spec-uau vivido** — o elevador privativo demonstrado impressiona mais que listado.\n4. **Surpresa** — \"é um apartamento\" reposiciona o valor pra cima.\n5. **Exclusividade** — privacidade e reserva verde comunicam alto padrão."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Listar specs sem a visualização — \"imagina VOCÊ aqui\" é o que gera o desejo.\n- ❌ Descrever sem demonstrar o spec-uau — vivê-lo (o fluxo do elevador) impressiona mais.\n- ❌ Entregar a revelação cedo demais — o \"isso é um apê\" surpreende no fim.\n- ❌ Esquecer o banner de specs — a âncora racional acompanha a fantasia."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o comando de imaginação:** \"imagina VOCÊ [vivendo a cena]\".\n2. **Construa a vida** (a experiência, a rotina desejável) antes dos specs.\n3. **Demonstre o spec-uau na prática** (viva o benefício, não liste).\n4. **Guarde uma revelação/surpresa** (é apê, o preço) pro fim.\n5. **Mantenha o banner de specs fixo** + feche com CTA (\"pode vir conhecer\")."
+     }
+    ],
     "transcricao": "e olha isso\nimagina você receber sua família seus amigos aqui\npara um almoço e fim de semana uma piscina privativa enorme espaço\naqui ao lado o gramado e olha a vista que você pode ter aqui na reserva de regime botânico\nexistem diversas unidades com vistas muito similares a essa tá totalmente para o verde\ncom toda a privacidade olha esse espaço integrado com a sua sala e tá vendo aquilo ali no fundo\num elevador privativo para a sua unidade.\nEle dá acesso direto à sua garagem,\nà sua sala de veículos com quatro vagas.\nOlha isso.\nVocê para o seu carro lá embaixo,\njá sobe pelo seu elevador e sai direto nessa sala.\nIncrível, né?\nIsso é um apartamento em um condomínio fechado\nno reserva Jardim Botânico.\npode vir conhecer\ndeve"
    }
   ],
@@ -5339,12 +5399,39 @@
   "desc": "História de celebridade com paradoxo como porta pra uma tese sobre patrimônio.",
   "slug": "analogia-de-celebridade-historia-famosa-como",
   "formato": {
+   "estrutura": "1. **[HOOK: HISTÓRIA FAMOSA]** \"você sabia que [celebridade] [fato chocante]?\". → *slot: a história.*\n2. **[A PONTE]** ligar a história ao seu tema. → *slot: a conexão.*\n3. **[A LIÇÃO/INSIGHT]** o aprendizado contraintuitivo aplicado ao nicho. → *slot: a lição.*\n4. **[O APROFUNDAMENTO]** a tese (o padrão por trás). → *slot: a tese.*\n5. **[POSICIONAMENTO]** quem você é como profissional. → *slot: o posicionamento.*\n\n- **Fixo:** história famosa reconhecível; ponte clara pro tema; lição/insight contraintuitivo; posicionamento; legendas de punchline.\n- **Variável:** a celebridade, a lição, o nicho.",
    "hook": "Fato de celebridade que quebra a lógica esperada: **\"Você sabia que o Mike Tyson ganhou mais de US$400 milhões e mesmo assim faliu? O homem mais temido do planeta não conseguiu proteger o próprio patrimônio.\"** A história famosa é a porta de entrada pra uma tese sobre comportamento e patrimônio.",
    "blocos": "- **Fato-choque da celebridade (0-8s):** o número + o paradoxo (tanto dinheiro, e faliu).\n- **A ponte pro tema (8-30s):** \"isso é comum no mercado imobiliário — dinheiro não ensina prudência; o cliente não quer o imóvel, quer provar que pode\".\n- **A tese de autoridade (30-50s):** \"o papel não é comprar/vender a qualquer custo, é entender a finalidade do negócio — no alto padrão isso tem que ser prática comum\".",
    "porque": "- **Celebridade + paradoxo** para o scroll (todo mundo conhece Tyson, o paradoxo intriga).\n- **A analogia** transporta uma lição abstrata (comportamento > dinheiro) pra algo concreto e memorável.\n- **Posiciona o corretor como consultor de patrimônio,** não vendedor — autoridade no alto padrão.",
    "aplicar": "- Qualquer história famosa que ilustre uma lição de patrimônio/decisão: falência de celebridade, aposta que deu certo/errado, etc.\n- Ponte da história pra uma verdade do seu mercado.\n- Fecho como tese de autoridade (posiciona o corretor como consultor).",
    "guia": "- O fato da celebridade tem que ser verdadeiro e conhecido.\n- A ponte pro imobiliário tem que ser natural (não forçada).\n- Tese de autoridade no fim, não pitch de venda.\n- Ótimo pra público de alto padrão (que valoriza consultoria, não pressão).",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário de autoridade. Crie um anúncio \"analogia de celebridade\":\n1) FATO-CHOQUE (0-8s): história famosa com paradoxo (\"[celebridade] ganhou [muito] e mesmo assim [caiu]\"); 2) PONTE pro tema imobiliário (a lição por trás); 3) TESE de autoridade (posiciona o corretor como consultor).\nMEUS DADOS: A história/celebridade + o paradoxo: [ ]. A lição pro meu mercado: [ ]. Minha tese de autoridade: [ ].\nTOM: intriga + autoridade. Fato verdadeiro e conhecido. Ponte natural. Tese, não pitch.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) a ponte história→imobiliário; 5) CTA suave.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo de autoridade que usa analogias. Crie o roteiro de \"analogia de celebridade / história famosa como hook + lição\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: HISTÓRIA FAMOSA (0-8s): \"você sabia que [celebridade] [fato chocante]?\" (algo que quase todos conhecem)\n2. A PONTE: ligue a história ao seu tema (\"isso é mais comum do que parece no [seu nicho]\")\n3. A LIÇÃO/INSIGHT: o aprendizado contraintuitivo aplicado ao nicho\n4. O APROFUNDAMENTO: a tese (o padrão de comportamento por trás)\n5. POSICIONAMENTO: quem você é como profissional (o que isso diz do seu trabalho)\n\n**Meus dados:**\n- Autor + @ + nicho: [NOME + @ + segmento]\n- A história famosa: [CELEBRIDADE + FATO SURPREENDENTE]\n- A ponte pro seu tema: [A CONEXÃO]\n- A lição/insight contraintuitivo: [O APRENDIZADO]\n- Seu posicionamento: [QUEM VOCÊ É COMO PROFISSIONAL]\n\n**Regras de tom:**\n- A história precisa ser UNIVERSAL (quanto mais gente conhece, maior o alcance)\n- A ponte tem que conectar claramente a celebridade ao SEU tema\n- A lição deve ser contraintuitiva e memorável (o que gruda e compartilha)\n- Feche posicionando você (não só ensine — mostre quem você é)\n\n**Entregue:**\n1. O roteiro (história → ponte → lição → tese → posicionamento)\n2. A frase de hook (a pergunta chocante)\n3. As legendas de punchline (as frases-chave)\n4. A frase de posicionamento de fecho\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade + posicionamento** (e alcance fora da bolha). A história famosa atrai qualquer um; a lição posiciona você como quem pensa diferente.\n- Excelente pra alto padrão e nichos onde o diferencial é o discernimento/consultoria, não o produto."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A HISTÓRIA]:** universal e chocante (Tyson falido, um famoso que perdeu tudo). Quanto mais gente conhece, maior o alcance.\n- **[A LIÇÃO]:** contraintuitiva (\"dinheiro não ensina prudência\"). O insight que gruda é o que gera compartilhamento.\n- **[O POSICIONAMENTO]:** o fecho tem que dizer quem VOCÊ é — o profissional que aplica essa sabedoria."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se a ponte vier fraca:\n\n> \"Conecte claramente a história ao meu tema ('isso é comum no mercado imobiliário'). Sem a ponte, é só uma curiosidade solta.\"\n\nSe a lição vier genérica:\n\n> \"Torne o insight contraintuitivo e específico ('ele não quer um imóvel, quer provar que pode'). Genérico não gruda nem compartilha.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **História sem ponte** — a analogia precisa conectar ao seu tema.\n2. **Lição genérica** — o insight tem que ser específico e contraintuitivo.\n3. **Aula sem posicionamento** — o fecho diz quem você é.\n4. **Celebridade obscura** — quanto mais universal, maior o alcance."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Talking head em ambiente coerente com o público (sofisticado pra alto padrão).\n- Legendas de punchline nas frases-chave. Tom ponderado, de quem ensina.\n- Feche com o posicionamento profissional."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance (a história famosa sai da bolha) + autoridade (a lição posiciona). Atrai o cliente que valoriza discernimento. As punchlines viram citações compartilháveis. Ótimo como ad de branding pra construir posicionamento no nicho."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -5354,7 +5441,40 @@
     "link": "https://www.facebook.com/ads/library/?id=1357946686137321",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Mike Tyson ganhou 400 milhões e faliu\" — uma história famosa que todos conhecem vira a porta de entrada pra uma lição sobre comportamento no mercado imobiliário de alto padrão."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Talking head; legendas \"VOCÊ SABIA / E MESMO ASSIM FALIU?\" | \"Você sabia que o Mike Tyson ganhou +400 milhões de dólares e mesmo assim faliu?\" | Hook: a história famosa e chocante (curiosidade universal) |\n| 8-20s | Fala | \"O homem mais temido do planeta não conseguiu proteger o próprio patrimônio. E isso é mais comum do que parece no mercado imobiliário\" | A ponte — da celebridade pro seu tema |\n| 20-40s | Legenda \"ELE FALA MAIS ALTO\" | \"Você alerta, direciona, avisa… mas o ego fala mais alto. Aprendi atendendo alto padrão: dinheiro não ensina prudência; ele não quer um imóvel, quer provar que pode\" | A lição — o insight aplicado ao nicho |\n| 40-52s | Legendas \"perdendo patrimônio / por isso o papel\" | \"Assim como Tyson perdeu, tem gente perdendo patrimônio por decisão emocional. O problema nunca foi dinheiro, foi comportamento\" | O aprofundamento da tese |\n| 52-55s | Fala | \"O papel não é comprar/vender a qualquer custo, é entender a finalidade. No alto padrão, isso tem que ser prática comum\" | O posicionamento — quem ele é como profissional |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A história famosa é o gancho universal** — quase todo mundo conhece Tyson; a curiosidade (\"como faliu com 400 mi?\") para o scroll fora da bolha imobiliária.\n- **A ponte conecta o famoso ao tema** (\"isso é comum no mercado imobiliário\") — transporta a curiosidade pra sua mensagem.\n- **A lição é contraintuitiva e memorável** (\"dinheiro não ensina prudência\", \"ele quer provar que pode\") — o insight que fica.\n- **Posiciona o profissional como consultor prudente**, não vendedor — atrai o cliente de alto padrão que valoriza discernimento."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Talking head em ambiente sofisticado** (alto padrão) — coerente com o público.\n- **Legendas grandes de punchline** (\"ELE FALA MAIS ALTO\") destacam as frases-chave.\n- **Tom de autoridade reflexiva** — pausado, ponderado, de quem ensina."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração ponderada** com ênfase nas punchlines; ritmo de reflexão que dá peso à lição.\n- Sem trilha dominante; a fala e as legendas conduzem."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Curiosidade** — a história famosa/chocante é isca universal.\n2. **Analogia esclarecedora** — Tyson torna abstrato (\"comportamento financeiro\") em concreto.\n3. **Autoridade** — o insight \"de quem atende alto padrão\" posiciona como expert.\n4. **Contraintuição** — \"dinheiro não ensina prudência\" é memorável e compartilhável.\n5. **Posicionamento** — atrai o cliente que valoriza o consultor prudente, não o vendedor."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ História famosa sem ponte clara — a analogia precisa conectar ao SEU tema.\n- ❌ Lição genérica — o insight tem que ser específico e contraintuitivo pra colar.\n- ❌ Virar aula sem posicionamento — o fecho tem que dizer quem VOCÊ é como profissional.\n- ❌ Celebridade obscura — quanto mais universal a história, maior o alcance."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com uma história famosa e chocante** (\"você sabia que [celebridade] [fato surpreendente]?\").\n2. **Faça a ponte** pro seu tema (\"isso é comum no [seu nicho]\").\n3. **Entregue a lição/insight** contraintuitivo aplicado ao nicho.\n4. **Aprofunde a tese** (o padrão de comportamento por trás).\n5. **Feche posicionando você** como o profissional que aplica isso. Legendas de punchline nas frases-chave."
+     }
+    ],
     "transcricao": "Você sabia que o Mike Tyson já ganhou mais de 400 milhões de dólares e mesmo assim faliu?\nPensa comigo, o homem mais temido do planeta não conseguiu proteger o próprio patrimônio.\nE eu vou dizer uma coisa pra você, isso é mais comum do que parece no mercado imobiliário.\nVocê alerta, direciona, avisa, informa, sustenta a sua argumentação, mas o tal do web, ele fala mais alto.\nEu aprendi uma coisa atendendo cliente alto padrão.\nDinheiro não ensina prudência.\nPorque ele não quer um imóvel, ele quer provar que pode.\nAssim como o Tyson perdeu mações, tem gente todo dia perdendo patrimônio por decisões emocionais.\nE o problema nunca foi dinheiro, foi o comportamento.\nPor isso o papel não é comprar ou vender a qualquer custo.\nÉ entender a finalidade do negócio.\nEntão se você atua no alto padrão, isso aqui tem que ser uma prática comum.\ne não uma exceção."
    }
   ],
