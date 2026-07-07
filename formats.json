@@ -2702,12 +2702,39 @@
   "desc": "Uma frase-filosofia forte sobre b-roll que o público reposta como se fosse sua.",
   "slug": "frase-manifesto-mindset-em-texto-sobre",
   "formato": {
+   "estrutura": "1. **[FRASE-MANIFESTO]** uma filosofia/mindset em uma frase forte. → *slot: a frase.*\n2. **[METÁFORA CONCRETA]** ancorar a filosofia no imobiliário (o exemplo tangível). → *slot: a metáfora.*\n3. **[B-ROLL ASPIRACIONAL]** imagem que dá o clima. → *slot: o b-roll.*\n\n- **Fixo:** uma frase forte de mindset; metáfora concreta do nicho; b-roll aspiracional; texto fixo; música.\n- **Variável:** a frase, a metáfora, o b-roll.",
    "hook": "Uma frase-manifesto forte na tela sobre b-roll aspiracional: **\"Ninguém constrói patrimônio pulando etapas — o apê de 49m² abre as portas pro de 120m².\"** A frase resume uma filosofia que o público quer repostar como se fosse sua.",
    "blocos": "- **Frase-manifesto (0-3s):** a tese/mindset em uma linha memorável, sobre b-roll.\n- **Sustentação visual (3-20s):** b-roll que ilustra a jornada/ideia (do apê pequeno ao grande), música.\n- **Assinatura:** a frase fica; a legenda expande a filosofia.",
    "porque": "- **Frase compartilhável = alcance:** as pessoas repostam o que expressa o que pensam.\n- **Posicionamento de valores:** comunica a filosofia do corretor (paciência, patrimônio, etapas) — atrai quem concorda.\n- **Barreira zero de produção:** b-roll + 1 frase + música.",
    "aplicar": "- Destile sua filosofia de investimento/vida em 1 frase forte por post.\n- Variações: \"aluguel é o único gasto que não vira patrimônio\", \"o primeiro imóvel não é o dos sonhos, é o que te tira do aluguel\".\n- A frase tem que ser \"repostável\" — soar como verdade universal.",
    "guia": "- Uma ideia por frase, curta e memorável.\n- B-roll que ilustra, não distrai.\n- A legenda expande o manifesto (é onde vem a profundidade).\n- Consistência de tom cria uma \"voz\" reconhecível.",
-   "prompt": "```\nVocê é copywriter de posicionamento imobiliário. Crie um post \"frase-manifesto sobre b-roll\":\n1) FRASE-MANIFESTO (0-3s): 1 linha memorável que resume uma filosofia (patrimônio/etapas/aluguel); 2) B-ROLL que ilustra a ideia; 3) LEGENDA que expande o manifesto.\nMEUS DADOS: Minha filosofia/tese: [ ]. B-roll disponível: [ ]. Público: [ ].\nTOM: frase \"reportável\", soa como verdade universal. Uma ideia só. Texto sobre b-roll, música.\nENTREGUE: 1) 3 versões da frase; 2) legenda-manifesto; 3) 5 hashtags; 4) sugestão de b-roll.\n```"
+   "prompt": "Você é um roteirista de conteúdo de posicionamento. Crie um \"frase-manifesto/mindset em texto sobre b-roll\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. FRASE-MANIFESTO: uma filosofia/mindset em uma frase curta e forte\n2. METÁFORA CONCRETA: ancore a filosofia no imobiliário (o passo real — ex.: o apê menor que leva ao maior)\n3. B-ROLL ASPIRACIONAL: a imagem que dá o clima (texto fixo o vídeo todo)\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O mindset/tese: [A FILOSOFIA]\n- A metáfora concreta do imobiliário: [O EXEMPLO TANGÍVEL]\n- O b-roll disponível: [A IMAGEM]\n\n**Regras de tom:**\n- Uma frase única e forte (que cabe num olhar e gruda)\n- Metáfora concreta do nicho (não autoajuda genérica)\n- Texto fixo o vídeo todo (favorece salvamento)\n- Música conduz — não precisa narrar\n\n**Entregue:**\n1. 3 variações da frase-manifesto\n2. A metáfora concreta bem construída\n3. Sugestão de b-roll + música\n4. 5 hashtags\n5. Ideia de série de manifestos (posicionamento recorrente)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **posicionamento de marca** (base + conexão). Constrói identidade e atrai quem compartilha seus valores.\n- Formato leve e rápido de produzir — ideal como conteúdo recorrente entre os mais elaborados."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A FRASE]:** curta, forte, que cabe num olhar. É o vídeo inteiro.\n- **[A METÁFORA]:** concreta e do imobiliário (o apê menor que leva ao maior). Sem ela, vira autoajuda genérica.\n- **[O B-ROLL]:** aspiracional, que dá clima sem competir com a frase."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier genérico:\n\n> \"Adicione uma metáfora concreta do imobiliário (um passo real e tangível). 'Riqueza é construída' sozinho é autoajuda; com o '49m que leva ao 120m' vira tese do nicho.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Frase de autoajuda genérica** — precisa da metáfora concreta do nicho.\n2. **Texto que muda demais** — a frase fixa favorece leitura e salvamento.\n3. **B-roll que compete** — a imagem dá clima, não distrai.\n4. **Frase longa** — precisa caber num olhar e grudar."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- B-roll aspiracional curto; texto centralizado fixo o vídeo todo; música."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Formato de posicionamento — a frase que gruda é salva e compartilhada por quem se identifica. Constrói identidade de marca no longo prazo. Vale como série de manifestos recorrentes."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2717,7 +2744,40 @@
     "link": "https://instagram.com/p/DYkNEXqhcr-",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma única frase de mindset (\"riqueza não acontece, ela é construída\") sobre um b-roll de apê dos sonhos — o formato vende uma filosofia, não um imóvel, e atrai quem compartilha o valor."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto (fixo o vídeo todo) | Função |\n|---|---|---|---|\n| 0-11s | B-roll caseiro do apê decorado (cozinha, mesa, ambientes) | \"Ninguém constrói patrimônio pulando etapas. É o apê de 49m que abre as portas para o de 120m. Riqueza não acontece, ela é construída 😊\" | A frase-manifesto sobre o b-roll — a filosofia É o conteúdo |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Uma frase de mindset é o vídeo inteiro** — \"riqueza não acontece, ela é construída\" é a tese que gruda.\n- **A metáfora concreta** (o apê de 49m → o de 120m) ancora a filosofia no imobiliário — torna abstrato em passo real.\n- **O texto fica fixo o vídeo todo** — favorece releitura e salvamento.\n- **B-roll aspiracional** dá o clima sem competir com a frase."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **B-roll de apê decorado** (curto, caseiro) — imagem que sustenta a aspiração.\n- **Texto centralizado fixo** — a mensagem sempre à vista.\n- **Música** conduz o clima (sem narração)."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música** define o tom; o vídeo é curto e contemplativo.\n- A ausência de fala foca toda a atenção na frase."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Identificação de mindset** — quem concorda com a filosofia salva e compartilha.\n2. **Aspiração** — o b-roll do apê alimenta o desejo.\n3. **Metáfora concreta** — o 49m → 120m torna a tese tangível.\n4. **Simplicidade** — uma frase única gruda e é fácil de reenviar."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Frase genérica de autoajuda — precisa ter uma metáfora concreta do nicho.\n- ❌ Texto que muda demais — a frase fixa favorece a leitura e o salvamento.\n- ❌ B-roll que compete — a imagem dá clima, não distrai da frase.\n- ❌ Frase longa demais — precisa caber num olhar e grudar."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escreva uma frase-manifesto** curta e forte do seu mindset (\"riqueza é construída\").\n2. **Ancore com uma metáfora concreta** do imobiliário (o passo real — o apê menor que leva ao maior).\n3. **Fixe o texto** sobre um b-roll aspiracional o vídeo todo.\n4. **Use música** — não precisa narrar.\n5. Poste como conteúdo de posicionamento recorrente (constrói identidade de marca)."
+     }
+    ]
    }
   ],
   "num": 32
@@ -2938,12 +2998,39 @@
   "desc": "Tabela renda→parcela→imóvel com CTA de salvar — cada um procura a própria linha.",
   "slug": "tabela-renda-parcela-com-cta-de",
   "formato": {
+   "estrutura": "1. **[CTA DE SALVAR NO TOPO]** \"já salva pra não esquecer\". → *slot: o save-bait.*\n2. **[TABELA RENDA × PARCELA]** o mapeamento (o público se localiza). → *slot: a tabela.*\n3. **[CONSTRUÇÃO PROGRESSIVA]** a tabela cresce (retenção). → *slot: a progressão.*\n\n- **Fixo:** CTA de salvar no topo; tabela renda→parcela real; autolocalização; simplicidade.\n- **Variável:** os valores, o segmento.",
    "hook": "Uma tabela prática que responde a pergunta nº1 do comprador: **\"Já salva pra não esquecer: renda de R$2.000 = parcela de ~R$600; R$3.000 = R$900…\"**. A utilidade imediata (descobrir \"quanto EU consigo\") força o save.",
    "blocos": "- **CTA de save + promessa (0-3s):** \"salva pra não esquecer\" + o que a tabela resolve.\n- **Tabela renda→parcela→valor do imóvel (3-25s):** faixas que o espectador procura a \"sua\".\n- **CTA final:** \"quer simular o seu caso? Chama no direct\".",
    "porque": "- **Utilidade prática = save** (a métrica que o algoritmo mais valoriza no IG).\n- **Cada um procura a própria linha** — retenção e relevância pessoal.\n- **Traduz \"será que eu consigo?\" em número** — remove a maior barreira mental do comprador.",
    "aplicar": "- Tabela de renda→parcela→valor financiável (base em simulação real).\n- Versão MCMV: renda→faixa→subsídio.\n- Sempre com CTA de save na abertura e de simulação no fim.",
    "guia": "- Números de simulação REAL, com aviso de \"estimativa/sujeito a análise\".\n- Faixas de renda comuns do seu público.\n- CTA de save logo no início (ancoragem do algoritmo).\n- Legenda com a tabela escrita = mais saves.",
-   "prompt": "```\nVocê é corretor(a) criando uma \"tabela renda→parcela\":\n1) CTA DE SAVE (0-3s): \"salva pra não esquecer\" + o que a tabela resolve; 2) TABELA renda→parcela→valor do imóvel em faixas; 3) CTA de simulação personalizada.\nMEUS DADOS: Faixas de renda do público: [ ]. Parcela/valor por faixa (simulação real): [ ]. Programa (MCMV/SBPE): [ ].\nTOM: utilidade prática, \"descubra o seu\". Números reais, aviso de estimativa. Save na abertura.\nENTREGUE: 1) a tabela em faixas; 2) texto de capa com CTA de save; 3) legenda com a tabela escrita; 4) 5 hashtags; 5) CTA de simulação.\n```"
+   "prompt": "Você é um roteirista de conteúdo imobiliário de conversão. Crie um \"tabela renda × parcela (save-bait)\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. CTA DE SALVAR NO TOPO: \"já salva pra não esquecer\" + título \"RENDA × PARCELA\"\n2. TABELA RENDA → PARCELA: linhas com renda = parcela (valores reais e defensáveis)\n3. CONSTRUÇÃO PROGRESSIVA: a tabela cresce linha a linha (retenção) sobre b-roll do apê\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- As faixas de renda do meu público: [DE X ATÉ Y]\n- A parcela correspondente a cada renda: [OS VALORES REAIS]\n- O b-roll disponível: [APÊ/DECORADO]\n\n**Regras de tom:**\n- CTA de salvar no topo (transforma em ferramenta guardada)\n- Valores REAIS e defensáveis (a pessoa simula)\n- Cubra as faixas de renda do seu público (autolocalização)\n- Música, sem narração — vá direto à tabela\n\n**Entregue:**\n1. A tabela renda × parcela pronta (com os valores)\n2. O título + CTA de salvar\n3. Sugestão de b-roll + música\n4. 5 hashtags\n5. Resposta pronta pro comentário \"e renda de R$X?\"",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance por salvamento + conversão** (e funciona como ad). A ferramenta de decisão é guardada e usada — gera lead qualificado.\n- Ideal pro público de entrada/MCMV, onde a relação renda-parcela é a dúvida central."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[OS VALORES]:** reais e defensáveis — a pessoa vai simular. Parcela furada destrói a confiança.\n- **[AS FAIXAS]:** cubra as rendas do seu público pra cada um se localizar (autolocalização = relevância).\n- **[O CTA DE SALVAR]:** no topo, sempre. É o que transforma o vídeo numa ferramenta guardada."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se os valores vierem otimistas:\n\n> \"Use parcelas reais e defensáveis. A pessoa confere no banco; valor furado vira frustração e desconfiança.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Valores irreais** — a pessoa simula; precisa ser defensável.\n2. **Sem CTA de salvar** — é o que vira ferramenta guardada.\n3. **Enrolar antes da tabela** — a utilidade é a estrela.\n4. **Faixas que não cobrem o público** — inclua a renda que importa."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Corretor andando no apê decorado + tabela overlay construindo. Texto \"já salva\" no topo. Música."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta salvabilidade (guardam a tabela) + comentários de gente perguntando a própria renda (lead). Ótimo como ad de captação MCMV. Responda os comentários iniciando o atendimento."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2953,7 +3040,40 @@
     "link": "https://instagram.com/p/DMa-35BpOMc",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma tabela simples de \"quanto de renda = qual parcela\" com um \"salva pra não esquecer\" — o formato entrega uma ferramenta de decisão que o público guarda e usa."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto (na tela) | Função |\n|---|---|---|---|\n| 0-3s | Corretora de calça pink andando no apê; título \"JÁ SALVA PARA NÃO ESQUECER 🙋 / RENDA × PARCELA\" | (título + cabeçalho da tabela) | Hook: CTA de salvar + a promessa da ferramenta |\n| 3-11s | Apê decorado; tabela construindo | \"R$2.000 = R$600 / R$2.500 = R$750 / R$3.000 = R$898 / R$3.500 = R$1.050 / R$4.000 = R$979 / R$4.500 = R$1.092 / R$4.701 = R$1.229\" | A tabela renda→parcela — o público se localiza na própria renda |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O CTA de salvar vem no topo** (\"já salva pra não esquecer\") — transforma o vídeo numa ferramenta que a pessoa guarda.\n- **A tabela renda × parcela é a utilidade** — cada linha permite o espectador se localizar (\"minha renda é X, então minha parcela seria Y\").\n- **A construção progressiva** da tabela (linha a linha) segura a atenção até o valor dele.\n- **Simplicidade radical** — sem narração, sem enrolação: só a ferramenta."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Corretora andando no apê decorado** — dá contexto e humaniza a tabela.\n- **Tabela overlay construindo** — a informação aparece progressivamente.\n- **Texto handwritten \"já salva\"** — chamada visual pro salvamento."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música** conduz; o ritmo é dado pela construção da tabela.\n- Curto e denso — premia o rewatch (a pessoa volta pra achar sua renda)."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Save-bait / utilidade** — a ferramenta é guardada pra usar na hora de decidir.\n2. **Autolocalização** — cada um acha a própria renda na tabela (relevância pessoal).\n3. **Acessibilidade** — a tabela mostra que a parcela cabe (destrava o \"não é pra mim\").\n4. **Simplicidade** — sem ruído, só o valor."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Tabela com valores irreais — a parcela precisa ser defensável (a pessoa simula).\n- ❌ Sem o CTA de salvar — é o que transforma em ferramenta guardada.\n- ❌ Enrolar antes da tabela — a utilidade é a estrela; vá direto.\n- ❌ Faixas de renda que não cobrem o público — inclua a faixa que importa."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o CTA de salvar** (\"já salva pra não esquecer\") + o título da ferramenta.\n2. **Construa a tabela renda × parcela** com valores reais e defensáveis.\n3. **Cubra as faixas de renda do seu público** (pra cada um se localizar).\n4. **Deixe a tabela crescer progressivamente** (retenção) sobre um b-roll do apê.\n5. Música, sem narração. Responda no direct quem comentar a própria renda."
+     }
+    ]
    }
   ],
   "num": 35
@@ -3080,12 +3200,39 @@
   "desc": "Roadmap das fases de um processo (reforma, compra) com CTA de print.",
   "slug": "roadmap-checklist-de-processo-em-fases",
   "formato": {
+   "estrutura": "1. **[HOOK NA DOR + CTA DE PRINT]** \"não fique perdido no [processo], prepare o print\". → *slot: a dor.*\n2. **[ROADMAP COMPLETO]** o fluxograma numerado na ordem certa. → *slot: o mapa.*\n3. **[CONSTRUÇÃO PROGRESSIVA]** o mapa cresce (retenção). → *slot: a progressão.*\n\n- **Fixo:** hook na dor + CTA de print/save; roadmap completo e numerado; construção progressiva; completude = autoridade.\n- **Variável:** o processo, as fases.",
    "hook": "Promessa de organizar um processo confuso + CTA de print: **\"Não fique mais perdido nas fases da reforma — prepare o print.\"** Quem está prestes a viver aquele processo salva na hora (o \"print\" é um save disfarçado).",
    "blocos": "- **Promessa + CTA de print (0-3s):** \"as fases de [processo] — prepara o print\".\n- **Roadmap em etapas (3-30s):** cada fase numerada em texto, na ordem cronológica, sobre b-roll.\n- **Fecho:** \"salvou? Chama pra te ajudar em cada fase\".",
    "porque": "- **Organiza um processo que assusta** (reforma, compra, financiamento) — utilidade que salva.\n- **O CTA de \"print\"** é um save explícito e natural.\n- **Demonstra domínio do processo** = autoridade sem se gabar.",
    "aplicar": "- Qualquer processo em etapas: comprar o 1º imóvel, financiar, dar entrada, documentação, mudança.\n- Roadmap numerado, cronológico, com o nome de cada fase.\n- CTA de print/save + oferta de ajuda em cada etapa.",
    "guia": "- Ordem cronológica correta e completa (faltar uma fase quebra a autoridade).\n- Cada fase com nome curto e claro.\n- CTA de print no início (ancora o save).\n- Legenda com o roadmap escrito por extenso.",
-   "prompt": "```\nVocê é especialista organizando um processo imobiliário. Crie um \"roadmap/checklist em fases\":\n1) PROMESSA + CTA DE PRINT (0-3s): \"não fique perdido nas fases de [PROCESSO] — prepara o print\"; 2) ROADMAP numerado cronológico das fases, sobre b-roll; 3) fecho com oferta de ajuda.\nMEUS DADOS: O processo: [ ]. As fases em ordem: [ ]. Público: [ ].\nTOM: organizador, autoridade prática. Ordem cronológica completa. CTA de print no início.\nENTREGUE: 1) as fases numeradas; 2) texto de capa com CTA de print; 3) legenda com o roadmap escrito; 4) 5 hashtags; 5) CTA.\n```"
+   "prompt": "Você é um roteirista de conteúdo educacional. Crie um \"roadmap/checklist de processo em fases (print-bait)\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. HOOK NA DOR + CTA DE PRINT: \"não fique mais perdido nas fases de [processo] / prepare o print\"\n2. ROADMAP COMPLETO: o fluxograma numerado na ordem correta (exaustivo)\n3. CONSTRUÇÃO PROGRESSIVA: o mapa cresce fase a fase (retenção) sobre b-roll de contexto\n\n**Meus dados:**\n- Autor + @ + nicho: [NOME + @ + área]\n- O processo a mapear: [EX.: fases da reforma, passo a passo da compra, financiamento]\n- As fases na ordem: [LISTE NUMERADAS]\n- O b-roll disponível: [A IMAGEM DE CONTEXTO]\n\n**Regras de tom:**\n- Roadmap COMPLETO e na ordem certa (a completude é a autoridade)\n- Hook na dor (\"não fique perdido\") + CTA de print/save\n- Fluxograma legível e escaneável (digno de print)\n- Música, sem narração\n\n**Entregue:**\n1. O roadmap completo e numerado\n2. O hook + CTA de print\n3. Sugestão de design do fluxograma (progressão)\n4. 5 hashtags\n5. Outros processos do nicho que rendem o mesmo formato",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **salvamento + autoridade** (base). Um mapa completo de um processo confuso é guardado e te posiciona como quem domina o assunto.\n- Funciona pra qualquer processo do nicho: fases da reforma, passo a passo da compra, etapas do financiamento."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O ROADMAP]:** completo e na ordem certa. A exaustividade e a sequência correta são o valor (e a autoridade).\n- **[O HOOK NA DOR]:** \"não fique perdido em [processo]\" dá relevância imediata ao mapa.\n- **[A LEGIBILIDADE]:** o fluxograma tem que ser escaneável e digno de print."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o roadmap vier incompleto:\n\n> \"Liste TODAS as fases na ordem correta. A completude é o que faz salvar e o que prova autoridade — um mapa pela metade não serve de referência.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Roadmap incompleto/fora de ordem** — a completude e a sequência são o valor.\n2. **Sem CTA de print/save** — é o que vira o mapa guardado.\n3. **Fluxograma ilegível** — precisa ser escaneável, digno de print.\n4. **Sem o hook na dor** — \"não fique perdido\" dá relevância."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- B-roll de contexto (andando pelo ambiente) + fluxograma overlay construindo fase a fase.\n- Hook + CTA de print no topo. Design numerado e legível. Música."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta salvabilidade (guardam o mapa pra consultar) + autoridade (domínio do processo completo). O print-bait gera salvamento em escala. Reaproveite o formato pra cada processo do seu nicho."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -3095,7 +3242,40 @@
     "link": "https://instagram.com/p/C88Lr94NWuZ",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um fluxograma completo das \"fases da reforma\" com \"prepare o print\" — o formato entrega um mapa que ninguém quer esquecer, gerando salvamento e autoridade."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto (na tela) | Função |\n|---|---|---|---|\n| 0-4s | Arquiteta andando; texto \"NÃO FIQUE MAIS PERDIDO NAS FASES DA REFORMA / PREPARE O PRINT\" | (hook + CTA de print) | Hook: a dor (perdido no processo) + o CTA (prepare o print) |\n| 4-15s | Fluxograma \"FASES DA REFORMA\" construindo | 22 fases numeradas: Projeto → Prestadores → Demolição → Hidráulica → Elétrica → Ar-cond → Revestimentos → Forro → Pisos → Proteção do piso → Marmoraria → Medição marcenaria → Recortes iluminação → Instalação marcenaria → Pintura inicial → Acabamentos elétricos → Pintura final → Limpeza fina → Espelhos → Cortinas → Papel de parede → Decoração | O roadmap completo — o mapa que resolve a dor |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook ataca a dor** (\"não fique mais perdido\") + entrega o CTA (\"prepare o print\") — sinaliza que vem algo pra guardar.\n- **O fluxograma completo e ordenado** (22 fases na sequência certa) é a ferramenta — resolve exatamente a confusão de quem vai reformar.\n- **A construção progressiva** do mapa (fase a fase) segura a atenção até o quadro completo.\n- **A completude é a autoridade** — dominar o processo inteiro na ordem certa prova expertise."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Arquiteta andando** (contexto) + **fluxograma overlay** construindo passo a passo.\n- **Texto de hook + CTA de print** enquadra o valor.\n- **Design de fluxograma numerado** — organizado, escaneável, digno de print."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música** conduz; o ritmo é a construção progressiva do mapa.\n- Curto, mas denso de informação — premia o print/pause."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Print-bait / utilidade** — um mapa completo é guardado pra consultar.\n2. **Autoridade** — dominar o processo inteiro na ordem certa prova expertise.\n3. **Alívio da dor** — \"não fica mais perdido\" resolve a ansiedade de quem reforma.\n4. **Completude** — 22 fases exaustivas passam a sensação de \"aqui tem tudo\"."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Roadmap incompleto/fora de ordem — a completude e a sequência correta são o valor.\n- ❌ Sem o CTA de print/save — é o que transforma no mapa guardado.\n- ❌ Fluxograma ilegível — precisa ser escaneável e digno de print.\n- ❌ Sem o hook na dor — \"não fique perdido\" é o que dá relevância ao mapa."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com a dor + CTA de print** (\"não fique perdido nas fases de [processo], prepare o print\").\n2. **Monte o roadmap completo e numerado** na ordem correta (exaustivo).\n3. **Construa o fluxograma progressivamente** (fase a fase) sobre um b-roll de contexto.\n4. **Garanta legibilidade** (design escaneável, digno de print).\n5. Música, sem narração. Vale pra qualquer processo do nicho (compra, financiamento, reforma)."
+     }
+    ]
    }
   ],
   "num": 37
