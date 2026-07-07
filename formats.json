@@ -3653,12 +3653,39 @@
   "desc": "Faturamento bruto → custos → líquido honesto, com print como prova de renda.",
   "slug": "print-do-extrato-fechamento-do-mes",
   "formato": {
+   "estrutura": "1. **[HOOK: PRINT DO FATURAMENTO]** o extrato/número na tela. → *slot: o print.*\n2. **[PROMESSA DE TRANSPARÊNCIA]** \"vou detalhar o líquido\". → *slot: a promessa.*\n3. **[CONTA HONESTA PASSO A PASSO]** todos os custos descontados. → *slot: os custos.*\n4. **[PAYOFF REALISTA]** o líquido real (sem inflar). → *slot: o líquido.*\n5. **[TESE + CTA DE DEBATE]** a visão madura + \"compensa?\". → *slot: a tese.*\n\n- **Fixo:** print real; conta honesta com TODOS os custos; líquido sem inflar; tese madura; CTA de debate.\n- **Variável:** a operação, os números, o ativo.",
    "hook": "Prova de faturamento + promessa de transparência total: **\"Faturei R$4.300, vocês já sabem — mas agora, atendendo a pedidos, vou detalhar TODOS os meus gastos e o valor líquido no final.\"** O número de receita fisga; a promessa de mostrar o líquido (o que ninguém mostra) segura até o fim.",
    "blocos": "- **A receita + promessa (0-10s):** \"faturei R$4.300, vou detalhar o líquido\".\n- **Os custos, um a um (10-45s):** financiamento R$2.500, condomínio R$500, internet R$100, energia R$100, insumos R$200, melhorias R$300 = R$3.700 de gastos.\n- **O líquido honesto + tese (fim):** \"fechei com R$600 de lucro — o importante é o apê se pagar. Compensa ou fariam outra coisa?\".",
    "porque": "- **Receita bruta fisga, líquido honesto retém:** mostrar que \"R$4.300 viram R$600\" é a verdade rara que gera confiança.\n- **Transparência de investidor real** = autoridade sem curso/promessa.\n- **A pergunta final** (\"compensa?\") gera debate qualificado.",
    "aplicar": "- Investidor de Airbnb/aluguel mostrando o resultado real mensal.\n- Corretor pode fazer com um cliente investidor (com autorização).\n- Sempre bruto → custos → líquido honesto → pergunta.",
    "guia": "- Números reais e completos; o líquido honesto é o diferencial.\n- Print do extrato/planilha como prova visual.\n- Não maquie pra impressionar — a honestidade é o ativo.\n- Pergunta final pra gerar debate.",
-   "prompt": "```\nVocê é investidor(a) imobiliário mostrando resultado real. Crie um vídeo \"print do extrato / faturamento\":\n1) RECEITA + PROMESSA (0-10s): \"faturei [BRUTO], vou detalhar o líquido\"; 2) CUSTOS um a um; 3) LÍQUIDO honesto + tese + \"compensa ou fariam diferente?\".\nMEUS DADOS: Receita bruta: [ ]. Todos os custos: [ ]. Líquido real: [ ]. Tese/pensamento: [ ].\nTOM: transparência de investidor real, sem maquiagem. Bruto→custos→líquido honesto. Pergunta final.\nENTREGUE: 1) roteiro com os números; 2) o que mostrar de print; 3) legenda; 4) 5 hashtags; 5) pergunta de debate.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo de transparência financeira imobiliária. Crie um roteiro de \"print do extrato + fechamento honesto do mês\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: PRINT DO FATURAMENTO (0-5s): o extrato/número bruto na tela + promessa de detalhar o líquido\n2. PROMESSA DE TRANSPARÊNCIA: \"vou detalhar todos os gastos e o valor líquido\"\n3. CONTA HONESTA PASSO A PASSO: desconte TODOS os custos, um a um (financiamento, taxas, insumos, melhorias)\n4. PAYOFF REALISTA: o líquido real, sem inflar\n5. TESE + CTA DE DEBATE: sua visão madura sobre o investimento + \"compensa? fariam diferente?\"\n\n**Meus dados:**\n- Autor + @: [NOME + @]\n- O faturamento bruto (o print): [VALOR + fonte]\n- Todos os custos: [LISTE CADA UM COM VALOR]\n- O líquido real: [O QUE SOBRA]\n- Sua tese sobre o investimento: [A VISÃO MADURA]\n\n**Regras de tom:**\n- Transparência RADICAL — liste todos os custos, inclusive os pequenos (o \"secador de cabelo\")\n- NUNCA infle o lucro — o realismo é o diferencial que te separa dos \"gurus\"\n- Mostre o trabalho real por trás da renda (não é passivo mágico)\n- Feche com CTA de debate (opinião gera comentário dos dois lados)\n\n**Entregue:**\n1. O roteiro (hook com print → conta passo a passo → líquido → tese)\n2. Como apresentar o print e as legendas dos custos\n3. A tese madura + o CTA de debate\n4. 5 hashtags\n5. Resposta pronta pro comentário \"então não compensa?\"",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade + audiência** entre investidores/curiosos de renda com imóvel (curta estadia, aluguel). A transparência é rara no nicho e te posiciona como confiável.\n- Ótimo pra **série mensal** (\"fechamento de [mês]\") — cria hábito e acompanhamento."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O PRINT]:** o faturamento bruto real é a isca. Use o print de verdade (a prova).\n- **[TODOS OS CUSTOS]:** liste absolutamente tudo, inclusive os pequenos. É a transparência total que gera confiança.\n- **[A TESE]:** sua visão madura (ex.: \"o importante é o ativo se pagar\") — posiciona como investidor realista."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se mostrar só o bruto:\n\n> \"Adicione a conta líquida com TODOS os custos. Faturamento sem despesas é propaganda enganosa — o valor está no líquido honesto.\"\n\nSe inflar o resultado:\n\n> \"Não exagere o lucro. O realismo (sobra pouco, dá trabalho) é o diferencial que gera confiança e te separa dos gurus.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Só o faturamento bruto** — sem a conta líquida, vira enganação.\n2. **Esconder custos** — o público sabe que existem; omitir destrói a credibilidade.\n3. **Inflar o lucro** — te iguala aos vendedores de sonho.\n4. **Sem CTA de debate** — desperdiça o engajamento que a transparência gera."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Print do extrato na tela (prova). B-roll do trabalho real (preparo/manutenção do imóvel).\n- Legendas dos custos conforme desconta. Narração de quem presta contas.\n- Feche com a tese + CTA de debate."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta salvabilidade (guardam a estrutura da conta) + debate acalorado (compensa ou não?). A transparência gera confiança que converte em seguidor e lead qualificado (investidor). Responda o \"não compensa?\" com a sua tese — vira autoridade e mais alcance."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -3668,7 +3695,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um print de \"R$4.294 em setembro\" que fisga pela renda, seguido da conta HONESTA que sobra só R$600 — a transparência total sobre o rendimento real é o que gera confiança e debate."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-5s | Print \"Você ganhou R$4.294,99 em setembro\" na tela | \"Faturei R$4.300, vocês já sabem, mas agora vou detalhar os gastos e o líquido\" | Hook: o print de faturamento (número que impressiona) + promessa de transparência |\n| 5-15s | Balão de comentário \"faz vídeo sobre valor líquido\" + arrumando o apê | \"Atendendo a pedidos… percebi dúvidas sobre curta estadia; me segue\" | Contexto (responde comentário) + CTA suave |\n| 15-45s | Arrumando cama, preparando o apê | \"Do faturamento: -2.500 financiamento, -500 condomínio, -100 internet, -100 energia, -200 insumos, -300 melhorias = 3.700 de gastos\" | A conta honesta passo a passo — os custos reais |\n| 45-60s | Finalizando o preparo | \"Fechei setembro com R$600 de lucro\" | O payoff realista — não infla |\n| 60-73s | Apê pronto | \"O importante é o apê se pagar — construo patrimônio com ele mesmo. Quem elimina o financiamento tá melhor. Comenta se compensa\" | Tese madura + CTA de debate |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O print de faturamento é a isca** (R$4.300 impressiona), mas o valor está na **conta honesta que revela só R$600 de lucro**.\n- **Transparência radical:** listar TODOS os custos (financiamento, condomínio, insumos, até o secador de cabelo) é o oposto do \"guru do lucro fácil\" — e é isso que gera confiança.\n- **Mostra o trabalho** (arrumando o apê) enquanto explica — prova que renda passiva dá trabalho.\n- **Tese madura** (\"o importante é o apê se pagar\") posiciona como investidor realista, não vendedor de sonho.\n- **CTA de debate** (\"compensa ou fariam outra coisa?\") — convida opinião e engaja."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Print do extrato na tela** — a prova visual do número (credibilidade).\n- **B-roll dele arrumando o apê de curta estadia** — mostra o trabalho real por trás da renda.\n- **Balão de comentário** — o vídeo responde a um seguidor, o que gera pertencimento."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração didática e honesta**, ritmo de quem presta contas.\n- Sem trilha dominante; a conta progressiva (cada custo descontado) segura a atenção até o líquido."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Número que impressiona** — o print de faturamento para o scroll.\n2. **Transparência radical** — a conta real (que sobra pouco) é rara e gera confiança máxima.\n3. **Prova de trabalho** — mostrar o esforço derruba a fantasia de renda passiva sem esforço.\n4. **Honestidade** — não inflar o resultado é o que separa você do vendedor de curso.\n5. **Debate** — o CTA de opinião gera comentário dos dois lados."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Mostrar só o faturamento (bruto) — sem a conta líquida, vira propaganda enganosa.\n- ❌ Esconder custos — omitir despesas destrói a credibilidade (o público sabe que existem).\n- ❌ Inflar o lucro — o realismo é o diferencial; exagerar te iguala aos \"gurus\".\n- ❌ Sem CTA de debate — perde o engajamento que a transparência naturalmente gera."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o print do faturamento** (o número bruto que impressiona) + promessa de detalhar o líquido.\n2. **Desconte TODOS os custos passo a passo** (financiamento, taxas, insumos, melhorias) — transparência total.\n3. **Mostre o trabalho real** (o preparo, a manutenção) enquanto narra.\n4. **Revele o líquido honesto** (sem inflar) e a sua tese madura sobre o investimento.\n5. **Feche com CTA de debate** (\"compensa? fariam diferente?\"). O print real é obrigatório."
+     }
+    ],
     "transcricao": "E eu faturei R$4.300, vocês já sabem, mas agora, atendendo a pedidos,\nvou detalhar os meus gastos e falar meu valor líquido no final do mês.\nVem comigo.\nAproveitando, percebi que muitos que assistem os vídeos possuem muitas dúvidas\nsobre alugar um apartamento em curta estadia.\nEntão, segue o meu perfil que vou tentar passar minha experiência de modo mais simples possível.\nAgora, ao assunto principal.\nFaturei R$4.300, mas desse valor é descontado R$2.500 de financiamento,\nR$ 500 de condomínio, R$ 100 de internet, R$ 100 de energia.\nAinda, vamos colocar nessa conta R$ 200 de insumos que eu compro para o apartamento\ne R$ 300 de melhorias porque comprei um secador de cabelo e um ventilador.\nFicando assim, um total de R$ 3.700 de gastos.\nCom isso, fechei o mês de setembro com R$ 600 de lucro.\nEu tenho o seguinte pensamento.\nO mais importante é o apartamento se pagar.\nque assim eu estarei comprando meu patrimônio usando ele mesmo.\nMas é claro, quem tem a oportunidade de eliminar a parcela do financiamento dessa conta\nestá numa situação muito melhor que a minha.\nDeixe aí nos comentários o que vocês acham desse investimento,\nse compensa ou se fariam outra coisa.\nTamo junto!"
    }
   ],
@@ -3939,12 +3999,39 @@
   "desc": "Decisão contraintuitiva ('vendi minha casa pra alugar') defendida com lógica real.",
   "slug": "decisao-contraintuitiva-defendida-talking-head-gerando",
   "formato": {
+   "estrutura": "1. **[HOOK CONTRAINTUITIVO]** afirmar o oposto do senso comum (\"vendi minha casa pra alugar\"). → *slot: a decisão polêmica.*\n2. **[A TENSÃO]** o sonho/expectativa que deu errado. → *slot: a tensão.*\n3. **[DEFESA COM RAZÕES CONCRETAS]** 2-3 motivos honestos e específicos. → *slot: as razões.*\n4. **[A LIÇÃO/TESE]** o aprendizado que justifica. → *slot: a tese.*\n5. **[CTA DE DEBATE]** \"o que você acha? faria?\". → *slot: o debate.*\n\n- **Fixo:** decisão que contraria o senso comum; defesa com razões concretas; honestidade; CTA de debate.\n- **Variável:** a decisão, as razões, o nicho.",
    "hook": "Uma decisão que contraria o senso comum, defendida com convicção: **\"Vendi minha casa pra morar de aluguel.\"** O choque (\"mas casa própria não é sempre melhor?\") força o espectador a ficar pra entender a lógica por trás.",
    "blocos": "- **Decisão-choque (0-5s):** a escolha contraintuitiva dita sem rodeio.\n- **A justificativa (5-40s):** por que fez sentido no caso real (terreno comprado errado, parcelas subindo, precisava de espaço maior, trabalha em casa).\n- **A lição/tese (fim):** o aprendizado que generaliza a decisão.\n> ⚠️ No exemplo, a \"lição\" desvia pra propaganda de uma plataforma de investimento (native ad). Para uso imobiliário, mantenha a lição HONESTA e relevante ao imóvel — não venda produto financeiro de terceiro.",
    "porque": "- **Contrariar o senso comum** (\"casa própria sempre vale a pena\") para o scroll e gera debate.\n- **A defesa lógica** transforma o choque em conteúdo de autoridade.\n- **Vulnerabilidade** (admitir que a compra foi um erro) gera identificação.",
    "aplicar": "- \"Por que eu recomendei meu cliente NÃO comprar agora\", \"quando alugar é melhor que comprar\", \"por que vendi meu imóvel de investimento\".\n- A tese contraintuitiva tem que ser DEFENSÁVEL com lógica real.\n- Ótimo pra posicionar o corretor como consultor honesto (não vendedor a qualquer custo).",
    "guia": "- A decisão precisa ser real e a lógica, sólida (o debate vai testar).\n- Vulnerabilidade + convicção na mesma dose.\n- Feche com a lição que o espectador leva pra vida — sem vender produto de terceiro.\n- Talking head simples.",
-   "prompt": "```\nVocê é corretor(a)/consultor(a) defendendo uma decisão contraintuitiva. Crie um vídeo:\n1) DECISÃO-CHOQUE (0-5s): a escolha que contraria o senso comum; 2) JUSTIFICATIVA lógica com o caso real; 3) LIÇÃO/TESE honesta que generaliza.\nMEUS DADOS: A decisão contraintuitiva: [ ]. A lógica/caso real: [ ]. A lição honesta: [ ].\nTOM: convicção + vulnerabilidade. Lógica defensável. Lição honesta, sem vender produto de terceiro.\nENTREGUE: 1) roteiro; 2) legenda; 3) 5 hashtags; 4) resposta pro comentário de quem discorda.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo de opinião que gera debate. Crie um roteiro de \"decisão contraintuitiva defendida\" (talking head), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK CONTRAINTUITIVO (0-4s): afirme o oposto do senso comum, direto e chocante (\"vendi minha casa pra morar de aluguel\")\n2. A TENSÃO: o sonho/expectativa que deu errado (cria empatia)\n3. DEFESA COM RAZÕES CONCRETAS: 2-3 motivos honestos e específicos (inclua o que deu errado)\n4. A LIÇÃO/TESE: o aprendizado que justifica a decisão\n5. CTA DE DEBATE: \"o que você acha? faria igual?\"\n\n**Meus dados:**\n- Autor + @: [NOME + @]\n- A decisão/opinião contraintuitiva: [O QUE CONTRARIA O SENSO COMUM]\n- A tensão (o que deu errado): [O SONHO/EXPECTATIVA FRUSTRADA]\n- As razões concretas: [2-3 MOTIVOS HONESTOS]\n- A tese/lição: [O APRENDIZADO]\n- (Opcional) Produto a integrar: [SE HOUVER PUBLI]\n\n**Regras de tom:**\n- A afirmação contraintuitiva precisa de DEFESA concreta — sem ela, é clickbait vazio\n- Inclua a vulnerabilidade (o que deu errado) — é o que gera empatia e credibilidade\n- Se houver publi, integre com naturalidade (a decisão leva à solução)\n- Feche com CTA de debate (a polêmica é o motor do alcance)\n\n**Entregue:**\n1. O roteiro (hook → tensão → razões → tese → CTA)\n2. As legendas frase a frase\n3. A frase de hook contraintuitivo (a mais importante)\n4. O CTA de debate\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance por polêmica + conexão**. A decisão que contraria o senso comum divide a audiência e multiplica o comentário.\n- Ótimo também como **native ad**: a decisão pode levar naturalmente a um produto/solução (como no exemplo, uma plataforma de investimento)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A DECISÃO]:** precisa contrariar uma crença enraizada do nicho (\"alugar > comprar\", \"não invista em X\"). Quanto mais tabu, mais engaja.\n- **[AS RAZÕES]:** concretas e honestas, incluindo o que deu errado. É o que transforma clickbait em argumento respeitável.\n- **[O DEBATE]:** o CTA de opinião é o motor — a divisão natural vira engajamento."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se a defesa vier fraca:\n\n> \"As razões precisam ser concretas e pessoais (números, situações reais). Inclua o que deu errado — a vulnerabilidade é o que dá credibilidade à decisão polêmica.\"\n\nSe o produto vier forçado:\n\n> \"Integre o produto como a solução natural da história (o que fazer com o dinheiro/a situação). Nunca cole um pitch solto no fim.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Afirmação sem defesa** — vira clickbait vazio.\n2. **Razões genéricas** — precisam ser concretas e honestas.\n3. **Pivô de publi forçado** — quebra a confiança; integre com naturalidade.\n4. **Sem CTA de debate** — desperdiça a polêmica."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Talking head íntimo (sofá, casual) — tom de confidência. Legendas frase a frase.\n- Fala pausada dando peso a cada razão. Feche com CTA de debate."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto engajamento pela divisão de opiniões (apoio + ataque, os dois comentam) e alta retenção (o cérebro precisa entender o \"porquê\"). Responda os dois lados no debate — cada resposta amplia o alcance. Excelente veículo pra native ad quando o produto resolve a situação da história."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -3954,7 +4041,40 @@
     "link": "https://tiktok.com/@mynameisglenn_/video/7194937449158642950",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Vendi minha casa pra morar de aluguel\" — uma decisão que contraria o senso comum, defendida com razões concretas, para o scroll e divide a audiência entre choque e concordância."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Talking head; legenda \"VENDI MINHA CASA PRA MORAR DE ALUGUEL\" | \"Vendi minha casa pra morar de aluguel\" | Hook contraintuitivo: afirma o oposto do que \"todo mundo defende\" |\n| 4-20s | Legendas \"um bom investimento mas vira um pesadelo\" | \"Existem coisas que a gente acha bom negócio mas vira pesadelo. Foi o caso da nossa casa, construída com amor\" | A tensão — o sonho que deu errado (cria empatia) |\n| 20-40s | Legendas \"aumento surreal das parcelas / decisão de vender\" | \"O terreno foi comprado de forma precipitada → parcelas subindo todo ano; precisávamos de 2x o espaço (trabalho em casa)\" | A defesa com razões concretas — justifica a decisão polêmica |\n| 40-55s | Fala | \"E investir esse dinheiro pra render de forma simples… [plataforma de investimento]\" | O pivô — aqui vira native ad (a decisão leva ao produto) |\n| 55-60s | Fecho | \"Casa própria só via a dívida aumentar vs alugada foi ótima decisão. Comenta o que acha\" | Fecho comparativo + CTA de debate |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook contraintuitivo** (\"vender pra alugar\", tabu no Brasil) para o scroll porque contraria uma crença enraizada — obriga a ouvir a justificativa.\n- **A defesa com razões pessoais e concretas** (parcelas subindo, necessidade de espaço, trabalho em casa) transforma o \"clickbait\" em argumento — e é o que dá credibilidade.\n- **A polêmica divide** — quem concorda comenta apoiando, quem discorda comenta atacando. Os dois engajam.\n- **Neste exemplo, pivota pra publi** (plataforma de investimento) de forma nativa — a \"solução\" pro dinheiro da casa vendida.\n- **CTA de debate** (\"o que você acha?\") capitaliza a divisão."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Talking head íntimo** (sofá, roupa casual) — tom de confidência/desabafo que aproxima.\n- **Legendas frase a frase** acompanham a fala (retenção + leitura sem som).\n- Produção mínima — a força é a honestidade da história."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala de desabafo/confissão**, ritmo pausado que dá peso a cada razão.\n- Sem trilha dominante; a narrativa (erro → decisão → aprendizado) conduz."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Contraintuição** — quebrar o senso comum é retenção pura (o cérebro precisa entender o \"porquê\").\n2. **Polêmica** — a divisão de opiniões multiplica o comentário e o alcance.\n3. **Vulnerabilidade** — admitir o erro (o terreno precipitado) gera empatia e credibilidade.\n4. **Racionalização** — as razões concretas convertem o choque em respeito pela decisão.\n5. **Debate** — o CTA de opinião transforma a polêmica em engajamento medido."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Afirmação contraintuitiva sem defesa — vira clickbait vazio e perde a credibilidade.\n- ❌ Defesa fraca/genérica — as razões precisam ser concretas e honestas.\n- ❌ Pivô de publi forçado — se houver produto, integre com naturalidade (a decisão leva a ele).\n- ❌ Sem CTA de debate — desperdiça a divisão natural que o formato gera."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escolha uma decisão/opinião** que contrarie o senso comum do seu nicho (\"alugar é melhor que comprar\", \"não invista em X\").\n2. **Afirme no hook** de forma direta e chocante.\n3. **Defenda com 2-3 razões concretas e honestas** (inclua o que deu errado — a vulnerabilidade conecta).\n4. **Feche com a lição/tese** que justifica a decisão.\n5. **Convide o debate** (\"o que você acha? faria igual?\"). Se houver publi, integre como a solução natural da história."
+     }
+    ],
     "transcricao": "Vendi minha casa pra morar de aluguel.\nExistem algumas coisas na vida que a gente acha que tá fazendo um bom negócio,\num bom investimento, mas na verdade vira um pesadelo.\nFoi o caso da nossa casa que construímos com tanto amor e esforço,\nporém a compra do terreno foi feita de maneira inocente e precipitada,\no que levou a um aumento surreal das parcelas a cada ano que se passava.\nFoi aí que tomamos a decisão de vender a casa e morar de aluguel por um tempo,\njá que precisávamos de um espaço duas vezes maior onde morávamos,\npois eu trabalho em casa.\nE sim, investir esse dinheiro para que ele realmente processe um bom rendimento de um jeito simples.\nUma plataforma de investimentos muito boa para quem também deseja entrar nesse universo,\nmesmo sem entender sobre criptomoedas, é a Hush,\nonde você pode investir fora das oscilações do mercado, com a segurança de especialistas,\ntendo rentabilidade acima do mercado e com um aporte mínimo de R$10 mil.\nDepois da experiência da casa própria, onde a gente só via a dívida aumentando,\nversus a casa alugada, vimos que para nós foi uma ótima decisão.\nAssim conseguimos investir melhor o nosso dinheiro."
    }
   ],
