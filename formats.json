@@ -1490,12 +1490,39 @@
   "desc": "Dono anuncia a casa com humor auto-depreciativo, vendendo os perrengues da obra como vantagem.",
   "slug": "trend-de-danca-humor-revelando-o",
   "formato": {
+   "estrutura": "1. **[HOOK: OFERTA + TREND]** \"estamos vendendo nossa casa, quer comprar?\" na coreografia do trend. → *slot: a oferta + o som.*\n2. **[PERRENGUE→BENEFÍCIO por ambiente]** cada dor da obra vira garantia (\"levou 3 anos, você não passa\"). → *slot: os reveals.*\n3. **[OBJEÇÃO COM HUMOR]** antecipar a crítica rindo (\"dizem que é difícil limpar o vidro, será?\"). → *slot: as objeções.*\n4. **[BORDÃO RECORRENTE]** \"Será?\" embala a dança. → *slot: o bordão.*\n5. **[CTA DIRETO]** metragem + \"manda um direct\".\n\n- **Fixo:** humor autodepreciativo; perrengue→benefício; trend de dança atual; bordão; CTA direto.\n- **Variável:** a casa, os perrengues, o trend.",
    "hook": "O dono anuncia com humor auto-depreciativo: **\"Estamos vendendo nossa casa. Quer comprar?\"** — e vende os defeitos como vantagens (\"minha mulher encheu o saco pra deixar tudo dourado… mas já tá pronto, você não passa o perrengue\"). A honestidade cômica desarma.",
    "blocos": "- **Anúncio + convite (0-3s):** \"estamos vendendo, quer comprar?\".\n- **Tour cômico dos perrengues (3-50s):** cada cômodo vem com a história de estresse da obra (\"levou 3 anos, o guarda-corpo pagamos 2x\") + a virada (\"mas você já paga uma vez, tá pronto\").\n- **Specs de verdade no meio da piada:** 430m², pé-direito alto, energia solar, automação, vista.\n- **CTA (fim):** \"interessou? Manda um direct\".",
    "porque": "- **Humor auto-depreciativo = confiança:** admitir os perrengues da obra torna o vendedor crível.\n- **Transforma defeito em benefício:** \"sofri pra você não sofrer\" — argumento de venda embrulhado em piada.\n- **Formato de trend** (áudio/estrutura reconhecível) surfa alcance; specs entram sem parecer anúncio.",
    "aplicar": "- Corretor pode aplicar em imóvel usado do dono: contar os perrengues da construção como prova de que agora está pronto.\n- Cada \"defeito\" (demorou, custou, deu trabalho) vira \"você não passa por isso\".\n- Fecho sempre com specs reais + CTA de direct.",
    "guia": "- A piada é sobre O PROCESSO (obra), nunca sobre o imóvel em si.\n- Intercale humor + spec real pra não virar só comédia.\n- Energia leve, ritmo de trend; CTA de direct no fim.\n- Funciona melhor com o próprio dono ou um corretor carismático.",
-   "prompt": "```\nVocê é roteirista de humor imobiliário. Crie um vídeo-trend \"vendendo minha casa, quer comprar?\":\n1) ANÚNCIO + CONVITE (0-3s); 2) TOUR CÔMICO: cada cômodo com o perrengue da obra + virada \"você já paga pronto\"; 3) SPECS reais intercalados; 4) CTA de direct.\nMEUS DADOS: Imóvel + specs reais: [ ]. Perrengues da obra (reais/plausíveis): [ ]. Público: [ ].\nTOM: auto-depreciativo, leve. Piada sobre o PROCESSO, nunca sobre o imóvel. Specs de verdade no meio.\nENTREGUE: 1) roteiro cômodo a cômodo; 2) specs a destacar; 3) legenda; 4) 5 hashtags; 5) CTA.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo viral de humor para imóveis. Crie um roteiro de \"trend de dança + humor revelando os diferenciais da casa à venda\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: OFERTA + TREND (0-4s): \"estamos vendendo nossa casa, quer comprar?\" dentro da coreografia do trend do momento\n2. PERRENGUE → BENEFÍCIO (por ambiente): em cada ambiente, transforme uma dor real da obra num benefício pro comprador (\"levou 3 anos, mas você não passa por isso\")\n3. OBJEÇÃO COM HUMOR: antecipe uma crítica rindo dela (\"dizem que é difícil limpar esse vidro, será?\")\n4. BORDÃO RECORRENTE: uma palavra/frase que se repete e embala a dança (\"Será?\")\n5. CTA DIRETO (fecho): metragem + \"manda um direct\"\n\n**Meus dados:**\n- Quem aparece + @: [NOME(S) + @]\n- Imóvel à venda + metragem/preço: [DADOS]\n- Perrengues reais da obra/casa: [LISTE — que viram benefício]\n- Specs reais pra destacar: [EX.: energia solar, automação, vista]\n- Trend de dança/áudio do momento: [QUAL USAR]\n\n**Regras de tom:**\n- Humor autodepreciativo — assuma as dores (é o charme que desarma a venda)\n- Cada perrengue precisa virar um benefício pro comprador (reframe é a alma do formato)\n- Nunca venda no tom sério — a leveza é obrigatória\n- Bordão recorrente + CTA direto no fim\n\n**Entregue:**\n1. O roteiro de legendas sincronizadas com a dança (por ambiente)\n2. A frase de oferta do hook + o bordão recorrente\n3. Sugestão de qual trend/áudio usar e como encaixar a coreografia\n4. 5 hashtags\n5. Legenda do post + o CTA final",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance viral + conversão** quando você (ou o proprietário) está vendendo a própria casa. O trend distribui, o humor desarma, e a oferta converte.\n- Precisa de gente carismática e disposta a rir de si mesma. Sem carisma/leveza, o formato não sustenta."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[PERRENGUES]:** liste as dores reais da obra/casa. Cada uma vira um benefício (\"sofremos com X, você recebe pronto\"). É o coração do formato.\n- **[TREND]:** use um áudio/dança em alta AGORA — o trend tem prazo de validade curto. Isso é o que leva pra fora da bolha.\n- **[BORDÃO]:** uma palavra que se repete e cria ritmo/gancho (\"Será?\"). Simples e grudento."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier sério/vendedor:\n\n> \"Deixe tudo autodepreciativo e leve. Assuma as dores da obra com humor. Nada de tom de anúncio — é uma piada que por acaso vende a casa.\"\n\nSe os reveals não converterem perrengue em benefício:\n\n> \"Cada dor precisa virar uma vantagem pro comprador ('pagamos 2x, você paga 1'). Reescreva os reveals nesse formato de reframe.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Dança sem reveals** — vira trend vazio sem propósito comercial.\n2. **Esconder os perrengues** — a autoironia é o charme; assumir as dores é o que engaja.\n3. **Vender sério** — mata a leveza que faz o formato funcionar.\n4. **Esquecer metragem + CTA** — o fecho tem que converter o alcance em contato."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Trend de dança atual, casal/dupla carismático, tour dançado pela casa real.\n- Legendas de reveal sincronizadas com a coreografia, uma por ambiente.\n- Produção caseira e alegre. Bordão recorrente. CTA direto no fim (\"são X m², manda um direct\")."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alcance viral pelo trend + humor, com a vantagem rara de o conteúdo SER a oferta (a casa à venda). O comprador chega rindo e já sabendo os diferenciais. Responda os \"quanto custa?\" no direct — o carisma acumulado converte melhor que um anúncio frio."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1505,7 +1532,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um casal dança pela própria casa à venda enquanto as legendas transformam cada perrengue da obra em argumento de venda (\"levou 3 anos, mas você não passa por isso\") — humor autodepreciativo que vende sem parecer venda."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Casal dançando na frente da fachada moderna | \"Estamos vendendo nossa casa. Quer comprar?\" | Hook: oferta direta + trend de dança (som reconhecível) — para o scroll pelo movimento e pela proposta |\n| 4-20s | Dançando na cozinha; legenda \"ELE FOI REFEITO\" | \"Provençal refeito 1 milhão de vezes pela empresa — mas você não passa perrengue porque já tá pronto\" | Perrengue → benefício: o sofrimento deles vira garantia pra você |\n| 20-35s | Sala; legendas \"A MINHA MULHER / SERÁ QUAL QUE\" | \"Minha mulher escolheu a decoração, eu escolhi o mais importante: encanamento e fios. A gente se estressou muito — será que todo mundo se estressa? Será?\" | Humor de casal + o bordão \"Será?\" (gancho recorrente) |\n| 35-55s | Pé-direito alto, suíte; legenda \"MAS DIZEM QUE\" | \"Dizem que é difícil limpar esse vidro e trocar lâmpada, será? Suíte master… energia solar, automação, de brinde a vista\" | Objeção antecipada com humor + specs reais |\n| 55-70s | Closet, dançando; legenda \"MAS VOCÊ SÓ\" | \"Na obra levamos golpes — o guarda-corpo pagamos 2x, mas você paga 1. Closet amplo… são 430m² que podem ser seus\" | Perrengue → benefício de novo + metragem |\n| 70-72s | Casal; legenda \"SERÁ? INTERESSOU?\" | \"Interessou? Manda um direct\" | CTA direto |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O reframe genial: cada perrengue vivido vira benefício pro comprador** — \"levou 3 anos, mas você não passa por isso\", \"pagamos 2x, você paga 1\". Transforma a dor deles em garantia.\n- **Humor autodepreciativo** (Bob Esponja de brinde, as bolsas da esposa no closet) desarma a resistência à venda — quem ri, baixa a guarda.\n- **\"Será?\" é o bordão-gancho** que embala a dança e convida o comentário.\n- **A casa à venda é o próprio conteúdo** — vende sem nunca soar como anúncio."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Trend de dança** (áudio + coreografia reconhecíveis) — o motor de distribuição do algoritmo.\n- **Casal carismático** dançando pela casa real — o carisma é metade do formato.\n- **Legendas de reveal sincronizadas** com a dança, cada ambiente entregando um argumento.\n- **Produção caseira e alegre** — a leveza é a estética."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Som do trend conduz** (parte do alcance); a mensagem vem nas legendas sobrepostas.\n- Ritmo de dança dá o pulso; cada ambiente é um \"verso\" com seu reveal."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Humor / autoironia** — rir desarma a venda; o casal se torna simpático e confiável.\n2. **Trend / áudio** — a distribuição orgânica que leva a oferta pra fora da bolha.\n3. **Perrengue → benefício** — reframe que transforma objeção (obra difícil) em vantagem (já pronto).\n4. **Objeção antecipada** — responder a crítica rindo (\"difícil limpar o vidro, será?\") a neutraliza.\n5. **CTA direto** — depois do carisma, \"manda um direct\" converte a simpatia em lead."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Dançar sem os reveals de venda — vira trend vazio, sem propósito comercial.\n- ❌ Esconder os perrengues — a autoironia é o charme; o brilho está em assumir as dores.\n- ❌ Vender no tom sério — mata a leveza que faz o formato funcionar.\n- ❌ Esquecer a metragem + CTA — o fecho precisa converter o alcance em contato."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Use um trend de dança atual** (áudio em alta) e abra com a oferta: \"estamos vendendo nossa casa, quer comprar?\".\n2. **Em cada ambiente, transforme um perrengue real da obra em benefício** pro comprador (\"sofremos com X, você já recebe pronto\").\n3. **Antecipe as objeções com humor** (\"dizem que é difícil limpar, será?\").\n4. **Crie um bordão recorrente** (\"Será?\") que embale a dança e puxe comentário.\n5. **Feche com metragem + CTA direto** (\"são X m², manda um direct\")."
+     }
+    ],
     "transcricao": "Estamos vendendo nossa casa.\nQuer comprar?\nMinha mulher encheu o saco pra gente colocar tudo dourado aqui nesse banheiro.\nAgora a gente vai vender a casa.\nTá vendo esse Provençal na cozinha?\nEle foi refeito mais de um milhão de vezes pela empresa que instalou.\nMas você não vai passar por perrengue porque já tá pronto.\nE de brinde você pode levar o Bob Esponja, será?\nA minha mulher escolheu toda a decoração, mas eu escolhi o mais importante.\nO encanamento e os fios elétricos.\nA gente se estressou muito na construção, mas será que todo mundo que constrói se estressa?\nSerá?\nO pau que enrola nas redes é que uma casa dessa leva um ano para ficar pronta.\nA nossa levou três, mas você não vai passar por isso porque ela já está pronta.\nA casa é super ampla, tem o pé direito super alto,\nmas dizem que é difícil limpar esse vidro e trocar a lâmpada. Será?\nOlha o tamanho dessa suíte master, aqui é onde tudo acontece,\nque pode acontecer para você também.\nAqui você não se preocupa com a conta de luz,\ntem energia solar, automação e de brinde ganha essa vista.\nDurante a obra a gente levou vários golpes.\nO guarda-corpo nós pagamos duas vezes, mas você só paga uma.\nO closet é amplo, mas se você acha que vai ficar com as minhas bolsas, você não vai ficar. Será?\nSão 430 metros que pode ser seu. Será?\nInteressou? Manda um direct."
    }
   ],
@@ -1530,12 +1590,39 @@
   "desc": "Corretor caminha e narra ao vivo dentro do imóvel — visita guiada, não catálogo.",
   "slug": "corretor-andando-e-narrando-na-frente",
   "formato": {
+   "estrutura": "1. **[HOOK EM MOVIMENTO]** já entrar andando + preço/spec-âncora. → *slot: o hook + o número.*\n2. **[CONDUÇÃO CONTÍNUA]** narração aponta pra onde a câmera vai (\"vem cá que agora…\"). → *slot: a condução.*\n3. **[1 REVEAL POR AMBIENTE]** cada passo entrega um argumento novo, sem parar. → *slot: os reveals.*\n4. **[RAJADA DE SPECS]** diferenciais listados caminhando pelos exteriores. → *slot: os specs.*\n5. **[ASSINATURA + CTA]** bordão de fecho + chamada.\n\n- **Fixo:** fluxo contínuo sem cortes secos; câmera estabilizada à frente; narração que guia; abrir em movimento.\n- **Variável:** o imóvel, o trajeto, os reveals.",
    "hook": "**\"Bem-vindos ao luxo.\"** O corretor entra caminhando e narrando ao vivo, como se levasse o espectador pela mão — presença + movimento criam a sensação de visita guiada real, não catálogo.",
    "blocos": "- **Boas-vindas em movimento (0-5s):** frase-assinatura + primeira sala.\n- **Narração guiada (5-...):** caminha apontando specs e curiosidades, conversando com um convidado/câmera (\"percebe que não tem telão, Guilherme?\").\n- **Fecho de padrão:** enumera os números de peso (metragem, vagas, rooftop) + \"bem-vindos ao luxo\".",
    "porque": "- **Movimento + narração ao vivo** = autenticidade de visita real, retém melhor que slideshow.\n- **Diálogo com convidado** quebra o monólogo e humaniza.\n- **Autoridade natural:** quem conhece cada detalhe do imóvel demonstra domínio sem se gabar.",
    "aplicar": "- Qualquer imóvel: 1 take andando, narrando os pontos fortes na ordem em que aparecem.\n- Convide alguém (dono, colega) pra virar conversa, não monólogo.\n- Serve pra orgânico E anúncio (fundo de funil: \"agende sua visita\").",
    "guia": "- 1 take contínuo, celular estabilizado na mão — a naturalidade é a estética.\n- Narre o que a câmera mostra, no ritmo do passo.\n- Termine com os números de peso + CTA (orgânico: \"gostou?\"; ads: \"agende\").\n- Frase-assinatura recorrente cria marca (\"bem-vindos ao luxo\").",
-   "prompt": "```\nVocê é roteirista de walk & talk imobiliário. Crie um roteiro de tour narrado em 1 take:\n1) BOAS-VINDAS em movimento (0-5s) com frase-assinatura; 2) NARRAÇÃO guiada apontando 4-6 specs na ordem física do trajeto, em diálogo com convidado; 3) FECHO com números de peso + CTA.\nMEUS DADOS: Imóvel + trajeto: [ ]. Specs na ordem do passo: [ ]. Frase-assinatura: [ ]. Convidado: [ ]. CTA (gostou / agende): [ ].\nTOM: conversa ao vivo, presença, domínio sem gabação. 1 take.\nENTREGUE: 1) roteiro narrado com marcações de trajeto; 2) frase-assinatura; 3) legenda; 4) 5 hashtags; 5) instruções de gravação (1 take, estabilização).\n```"
+   "prompt": "Você é um roteirista especialista em tours de imóvel de alta retenção. Crie um roteiro de \"walk & talk\" (corretor andando e narrando em fluxo contínuo), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK EM MOVIMENTO (0-6s): já entre andando + o preço/spec-âncora (\"bem-vindos… casa de [preço]\")\n2. CONDUÇÃO CONTÍNUA: a narração aponta pra onde a câmera vai (\"presta atenção nisso\", \"vem cá que agora…\") — o espectador é guiado sem cortes\n3. UM REVEAL POR AMBIENTE: cada passo entrega um detalhe/argumento novo, sem parar de andar\n4. RAJADA DE SPECS (exteriores): liste os diferenciais caminhando pela área externa\n5. ASSINATURA + CTA (fecho): feche com um bordão/assinatura e o CTA\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Imóvel + preço + localização: [DADOS]\n- Ordem dos ambientes (roteiro da caminhada): [SEQUÊNCIA]\n- 1 reveal por ambiente: [O ARGUMENTO DE CADA]\n- Specs da área externa: [LISTA]\n\n**Regras de tom:**\n- A narração serve à câmera — sempre apontando o próximo ponto de interesse\n- Fluxo CONTÍNUO, sem cortes secos — a continuidade é a técnica de retenção\n- Densidade alta: cada ambiente entrega um argumento, nada de tempo morto\n- Abra em movimento (nunca parado) com o preço-âncora\n\n**Entregue:**\n1. O roteiro da caminhada (ordem dos ambientes + a narração de condução de cada)\n2. A frase-âncora do hook + a assinatura de fechamento\n3. Dica técnica de gravação (posicionamento da câmera/gimbal)\n4. 5 hashtags\n5. Legenda + CTA final",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **tours de alta retenção + autoridade + conversão**. O movimento contínuo segura mais que o tour picotado, e a desenvoltura de narrar andando transmite domínio.\n- Funciona como ad de captação/venda quando bem estabilizado."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[ROTEIRO DA CAMINHADA]:** planeje a ordem dos ambientes como um percurso fluido — evite ir e voltar. O trajeto é o roteiro.\n- **[1 REVEAL POR AMBIENTE]:** cada parada precisa de um argumento (um detalhe técnico, um diferencial). Sem reveal, o passo é vazio.\n- **[HOOK-ÂNCORA]:** o preço/spec já no primeiro passo — em movimento, nunca parado."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se a narração vier \"descritiva parada\":\n\n> \"Reescreva pra condução em movimento: cada frase aponta o próximo ponto ('vem cá que agora eu quero te mostrar…'). A fala guia a câmera.\"\n\nSe sugerir muitos cortes:\n\n> \"Minimize cortes — o walk & talk vive da continuidade. Pense numa tomada longa e fluida, não numa montagem picotada.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Cortar demais** — quebra a continuidade que sustenta o formato.\n2. **Parar de narrar** — o silêncio em movimento perde a condução.\n3. **Câmera tremida** — sem estabilização, o walk & talk enjoa; use gimbal.\n4. **Passar sem reveal** — cada ambiente precisa entregar um argumento."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Estabilizador/gimbal obrigatório. Câmera à sua frente, recuando enquanto você avança.\n- Uma tomada longa sempre que possível; luz natural/golden hour valoriza.\n- Abra em movimento com o preço-âncora; feche com assinatura + CTA."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta retenção pela continuidade do movimento (o olho segue o deslocamento) + desejo dos ambientes. A desenvoltura de narrar andando comunica autoridade. Responda os \"quanto custa a manutenção/condomínio?\" nos comentários pra virar mais alcance e lead.\n\n> Nota interna: este exemplo compartilha o vídeo-fonte com o A09 (série em partes). Vale captar um walk & talk próprio no futuro pra ilustrar o formato de forma exclusiva."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1545,7 +1632,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "O corretor caminha à frente conduzindo o olhar do espectador ambiente por ambiente, sem cortes secos — a câmera \"anda com você\", e a continuidade do movimento é o que segura a retenção do início ao fim."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-6s | Corretora sobe a escadaria monumental, câmera à frente | \"Bem-vindos ao luxo — casa de 72 milhões no Tamboré 3\" | Hook em movimento: já entra andando + preço-âncora; o passo puxa o olhar |\n| 6-25s | Porta de 8m, hall integrado, câmera acompanhando | \"Cabe a fachada inteira? 28 metros, porta de 8 metros… a casa é completamente integrada\" | Condução: a narração aponta pra onde a câmera vai — o espectador é \"guiado\" |\n| 25-50s | Cinema, jardim lateral, caminhando | \"Presta atenção nas portas chão-teto. Percebe que não tem telão? É pintura de projeção\" | Reveals em fluxo — cada ambiente puxa o próximo pela caminhada contínua |\n| 50-80s | Adega, área gourmet, porta-temperos escondido | \"Adega pra 300 rótulos… esse porta-temperos você esconde\" | Detalhes técnicos entregues em movimento (nunca para = nunca entedia) |\n| 80-100s | Piscina de mármore, lareira externa, área gramada | \"Piscina em mármore azul caribe, fogo de chão, 1.500m², 22 vagas, rooftop\" | Rajada de specs andando pelos exteriores |\n| 100-107s | Fecho | \"Bem-vindos ao luxo\" | Assinatura de fechamento |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A narração serve à câmera:** \"presta atenção nisso\", \"dá uma olhada aqui\", \"vem cá\" — a fala aponta o próximo ponto de interesse e sincroniza com o movimento.\n- **Preço-âncora no hook** (72 mi) calibra a escala e é motivo de compartilhamento.\n- **Densidade de reveals** — cada passo entrega um dado novo, sem tempo morto.\n- **Fecho com assinatura** dá circularidade."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Câmera à frente do corretor**, recuando enquanto ele avança — o enquadramento clássico do walk & talk; o espectador tem a sensação de ser conduzido.\n- **Movimento contínuo (sem cortes secos)** — a fluidez é o que diferencia do tour picotado.\n- **Golden hour / luz natural** dos ambientes de altíssimo padrão carregam o desejo."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração ininterrupta** guiando o passo — o ritmo é o da caminhada, constante e hipnótico.\n- Sem cortes que quebrem o fluxo; a continuidade é a técnica de retenção central."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Condução / continuidade** — o movimento contínuo mantém o olho preso (o cérebro segue o deslocamento).\n2. **Sensação de presença** — \"andar junto\" cria imersão maior que um tour estático.\n3. **Ancoragem de preço** — o número no hook recalibra e é compartilhável.\n4. **Desejo aspiracional** — ambientes de luxo em fluxo alimentam a fantasia.\n5. **Autoridade** — dominar cada detalhe enquanto caminha prova conhecimento e desenvoltura."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Cortar demais — o corte seco quebra a continuidade que sustenta o formato.\n- ❌ Parar de narrar — o silêncio em movimento perde a condução; a fala precisa apontar sempre o próximo ponto.\n- ❌ Câmera tremida/desorientadora — o walk & talk exige estabilização (gimbal) pra fluir.\n- ❌ Passar rápido demais sem reveal — cada ambiente precisa entregar um argumento."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Estabilize a câmera** (gimbal/estabilizador) e posicione-a à sua frente, recuando enquanto você avança.\n2. **Narre em fluxo contínuo**, apontando sempre o próximo ponto (\"vem cá que agora eu quero te mostrar…\").\n3. **Abra em movimento** com o preço/spec-âncora — nada de introdução parada.\n4. **Entregue um reveal por ambiente** sem parar de andar (mantém a retenção).\n5. **Feche com uma assinatura** e um CTA. Grave em uma tomada longa sempre que possível."
+     }
+    ],
     "transcricao": "Bem-vindos ao luxo hoje em uma casa de 72 milhões de reais no Tamboré 3 em Alfa Verde, São Paulo.\nCabe, Guilherme, a fachada inteira?\n28 metros de fachada, Guilherme.\nUma porta de 8 metros de altura em alumínio.\nE acompanha o hall de entrada.\nPra cá, um lavabo ou um escritório.\nA casa é completamente integrada.\nDá uma olhada nisso aqui, ó.\nTudo integrado.\nAgora, presta atenção nas portas, ó.\nChão-teto. Aqui é o cinema.\nE você percebe que não tem telão, Guilherme?\nAh, é verdade, né?\nÉ aquelas pinturas, como que chama isso, mãe?\nÉ uma pintura especial pra você poder projetar.\nE olha aqui.\nO terreno, ele vai fechando no fundo.\nEntão a gente tem jardim aqui, olha, na lateral.\nTrês árvores lindas que eles colocaram aqui.\nE tudo aberto, né, mãe? Isso é muito gostoso.\nCompletamente integrado.\nAqui a gente tem uma adega pra 300 rótulos.\nOlha aqui o tampo da mesa, em Romano, que coisa mais linda.\nO tom neutro, né?\nPara agradar todo mundo aqui.\nNinguém pode reclamar de nada.\nOlha essa área gourmet que nós temos aqui.\nVocê conhece, Guilherme, esse porta-temperos ou porta-bebidas que você pode esconder ele aqui?\nA gente já fez um vídeo dele, não fez, mãe?\nFoi.\nDeixa eu ver se eu consigo ver.\nOlha aqui, ó.\nQue coisa mais linda.\nFica exposto.\nA hora que você não quer mais, você esconde ele totalmente.\nMostra a piscina totalmente revestida no mármore.\nE também por isso que a água fica com esse tom azul caribe.\nAqui a gente tem um fogo de chão, uma lareira externa, temos a área gramada, 1.500 metros de casa construída, 22 vagas de garagem, roof top no tamboré 3.\nBem-vindos ao luxo."
    }
   ],
