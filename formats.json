@@ -849,12 +849,39 @@
   "desc": "Corrige um mito comum do mercado com a regra técnica real — autoridade + debate.",
   "slug": "mito-objecao-rebatida",
   "formato": {
+   "estrutura": "1. **[PERGUNTA/MITO]** balão de comentário com a dúvida real + negação/afirmação CATEGÓRICA (caption de destaque). → *slot: o mito.*\n2. **[A EXCEÇÃO]** \"a única forma é…\" (mostra domínio). → *slot: a nuance.*\n3. **[O FATO CENTRAL]** o dado que corrige o mito (número). → *slot: o dado.*\n4. **[IMPLICAÇÃO PRÁTICA]** o que isso significa pro comprador. → *slot: o \"e daí\".*\n5. **[DICA-FECHO]** conselho + assinatura.\n\n- **Fixo:** mito real do público; resposta categórica no hook; dado concreto; legendas codificadas por função.\n- **Variável:** o mito, o dado, o segmento.",
    "hook": "Correção direta de um mito difundido: **\"Não, a única forma de financiamento a 100% é [caso específico]; no resto o banco financia até 90%.\"** O \"não\" no início quebra a crença e promete a verdade técnica.",
    "blocos": "- **Negação do mito (0-5s):** \"não, isso não é bem assim\" — desmonta a crença popular.\n- **Explicação técnica (5-30s):** a regra real (banco financia % do menor valor entre escritura e avaliação; linhas complementares só pós-escritura).\n- **Implicação prática (fim):** \"você precisa ter o valor da diferença pra fazer a escritura\" — o que o comprador precisa saber ANTES.",
    "porque": "- **Corrigir um mito comum** posiciona autoridade e gera debate (quem acreditava no mito comenta).\n- **Informação verificável** = compartilhável por utilidade e salvável.\n- **Funciona como anúncio** porque educa o lead e filtra quem está pronto.",
    "aplicar": "- Liste os mitos que você mais escuta (\"no financiamento o imóvel é do banco\", \"sem entrada não dá\", \"nome sujo nunca financia\") e rebata um por vídeo.\n- Sempre com a regra oficial + a implicação prática pro comprador.\n- Ótimo para reciclar como anúncio educativo.",
    "guia": "- Comece com \"NÃO\" ou \"MENTIRA que…\" — a negação é o gatilho.\n- Regra técnica correta e verificável (erro aqui destrói autoridade).\n- Termine com o que o comprador deve FAZER com essa informação.\n- Adapte termos regionais/legais ao seu país e estado.",
-   "prompt": "```\nVocê é corretor(a) especialista rebatendo mitos. Crie um vídeo \"mito/objeção rebatida\":\n1) NEGAÇÃO (0-5s): \"Não, [MITO] não é verdade\"; 2) EXPLICAÇÃO TÉCNICA correta e verificável; 3) IMPLICAÇÃO PRÁTICA: o que o comprador precisa saber/fazer.\nMEUS DADOS: Mito a rebater: [ ]. Regra oficial correta: [ ]. Fonte/lei: [ ]. Implicação prática: [ ].\nTOM: firme, técnico, autoridade. Adaptar termos legais ao Brasil/estado. Zero venda no corpo.\nENTREGUE: 1) roteiro; 2) legenda com a regra escrita e fonte; 3) 5 hashtags; 4) resposta pro comentário de quem defende o mito.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo imobiliário de autoridade. Crie um roteiro de vídeo \"mito/objeção rebatida\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. PERGUNTA/MITO (0-3s): balão de comentário com a dúvida real do seguidor + sua resposta CATEGÓRICA em legenda de destaque (\"NÃO, não é assim!\" / \"SIM, e vou provar\")\n2. A EXCEÇÃO (3-12s): \"a única forma / o único caso é…\" — mostre que você domina as nuances\n3. O FATO CENTRAL (12-22s): o dado concreto que corrige o mito (um número, uma regra)\n4. IMPLICAÇÃO PRÁTICA (22-27s): o que isso significa na prática pra quem vai comprar\n5. DICA-FECHO (27-30s): um conselho prático + assinatura\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O mito/objeção a derrubar: [A CRENÇA ERRADA COMUM]\n- A resposta categórica: [NÃO/SIM + a frase de choque]\n- A exceção/nuance: [O CASO ESPECIAL QUE PROVA SEU DOMÍNIO]\n- O dado que corrige: [NÚMERO/REGRA]\n- A dica prática de fecho: [O CONSELHO]\n\n**Regras de tom:**\n- Resposta CATEGÓRICA no hook — firmeza gera autoridade; nada de \"depende\"\n- Explicação em camadas (exceção → regra com número → implicação), sem perder o leigo\n- Codifique as legendas por função: uma cor pro mito, outra pros fatos, outra pra dica\n- Linguagem técnica mas acessível — você é especialista traduzindo, não complicando\n\n**Entregue:**\n1. Roteiro com marcação de tempo\n2. A frase categórica do hook + o texto do balão de comentário\n3. Sugestão de cores/legendas por função (mito / fato / dica)\n4. 5 hashtags\n5. Resposta pronta pro comentário \"mas e no meu caso específico?\"",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade + alcance** (e converte bem como ad). Cada mito derrubado te posiciona como especialista e derruba uma barreira mental da compra.\n- Fonte inesgotável de pauta: toda dúvida recorrente do direct é um vídeo."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O MITO]:** use a crença errada que mais aparece no seu público. Mito real = identificação e salvamento.\n- **[RESPOSTA CATEGÓRICA]:** a firmeza é o gatilho. \"NÃO, não existe\" retém mais que \"olha, geralmente…\".\n- **[A EXCEÇÃO]:** mostrar que você conhece o caso especial é o que separa o especialista do repetidor. Sempre inclua a nuance."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se a resposta vier morna:\n\n> \"Deixe a resposta categórica e firme no hook. Nada de 'depende' logo de cara — primeiro o veredito forte, depois a nuance.\"\n\nSe ficar técnico demais:\n\n> \"Traduza pro leigo. Você é o especialista simplificando, não exibindo jargão. Mantenha o número, corte o resto.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Responder vago** — \"depende\" mata o gancho. A força é o veredito + o dado.\n2. **Só o mito, sem nuance** — sem a exceção e a implicação, parece raso e questionável.\n3. **Omitir o número** — o dado concreto é o que substitui a crença.\n4. **Tirar o contexto de pergunta** — o balão do seguidor é o que dá o gancho de \"resposta real\"."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Talking head simples (a autoridade é o conteúdo). Balão de comentário fixo no topo.\n- Legendas grandes codificadas por função — uma cor pro mito derrubado, outra pros fatos, outra pra dica.\n- Expressão enfática no veredito. Ritmo de aula rápida; vídeo curto e denso."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta salvabilidade — as pessoas salvam pra lembrar do dado (o rewatch impulsiona o alcance). Os comentários trazem variações do mito (\"e no meu caso, que sou autônomo?\") — cada um é o próximo vídeo. Responder eleva a autoridade e o alcance."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -864,7 +891,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um mito de financiamento derrubado em 3 segundos com um \"NÃO\" categórico na tela — a resposta direta a uma dúvida real que todo comprador tem vira autoridade instantânea."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-3s | Talking head; balão \"é possível comprar casa com financiamento a 100% sem ser imóveis da banca?\"; legenda VERMELHA \"NÃO, NÃO HÁ FINANCIAMENTO A 100%!\" | \"Não!\" | Hook: dúvida real + negação categórica em caption vermelho — para o scroll |\n| 3-12s | Legenda azul \"só em imóveis de banco ou crédito troca de casa (até 100%)\" | \"A única forma é no crédito de troca de casa, que pode ir até 100%\" | A exceção — mostra domínio técnico e antecipa o \"mas e se…\" |\n| 12-22s | Legenda azul \"banco financia no máx 90% da escritura, mesmo que avaliação seja superior\" | \"De resto, o banco financia até 90% do valor da escritura\" | O fato central — o número que corrige o mito |\n| 22-27s | Legenda azul \"linha de crédito complementar só pós-escritura\" | \"Linhas complementares têm efeito pós-escritura — até lá você precisa ter o valor\" | A implicação prática — o que o mito esconde |\n| 27-29s | Legenda VERDE \"nada como falar com vários bancos\" | \"Até à próxima\" | Dica-fecho + assinatura |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Negação categórica no hook** (\"NÃO, não há financiamento a 100%\") — a firmeza é o que gera autoridade e retenção; nada de \"depende\".\n- **Explicação em camadas:** exceção → regra (90%) → implicação prática (pós-escritura). Cada camada aprofunda sem perder o leigo.\n- **Cores de legenda codificam a função:** vermelho = o mito derrubado, azul = os fatos, verde = a dica. O espectador processa a lógica visualmente.\n- **Número concreto** (90%) é a âncora que substitui a crença errada por dado."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Talking head caseiro** — a autoridade vem do conteúdo, não da produção.\n- **Balão de comentário fixo** dá o contexto de \"resposta a seguidor\" e transforma dúvida privada em conteúdo público.\n- **Legendas grandes coloridas por função** — leitura sem som e hierarquia clara (mito/fato/dica).\n- **Expressão facial enfática** no \"não\" reforça a firmeza."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala didática, ritmo de aula rápida** — 29s densos, cada frase entrega uma informação.\n- Sem trilha dominante; a clareza conduz. O curto premia o rewatch (a pessoa volta pra pegar o dado)."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Correção de mito** — \"então eu estava errado?\" é retenção pura; o cérebro precisa da correção.\n2. **Autoridade** — dominar a regra E as exceções prova conhecimento profundo.\n3. **Utilidade** — responde uma dúvida que trava a compra; por isso é salvo.\n4. **Resposta-a-comentário** — o formato de resposta gera engajamento e sinaliza que você interage."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Responder vago/\"depende\" — a força do formato é a resposta categórica + o dado.\n- ❌ Só o mito sem a nuance — sem a exceção e a implicação, parece raso.\n- ❌ Omitir o número — o dado concreto é o que substitui a crença.\n- ❌ Tirar o balão de contexto — perde o gancho de \"resposta a dúvida real\"."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Colете um mito/objeção comum** do seu público (a pergunta que mais se repete no direct).\n2. **Abra com a resposta categórica** em caption forte (vermelho): \"NÃO, não é assim\" / \"SIM, e vou provar\".\n3. **Explique em camadas:** a exceção → a regra (com número) → a implicação prática.\n4. **Codifique as legendas por função** (mito / fato / dica) pra guiar a leitura.\n5. **Feche com uma dica prática** + assinatura. Responda os \"mas e no meu caso?\" nos comentários."
+     }
+    ],
     "transcricao": "Não! A única forma que há de haver financiamento a 100% sem ser imóvel de banca é no crédito de troca de casa, onde o financiamento pode ir até 100%.\nDe resto, o banco vai financiar-vos até 90% do valor da escritura, mesmo que a avaliação do imóvel seja bastante superior.\nE quando há linhas de crédito complementares, elas vão ter efeito pós-escritura.\nOu seja, até a escritura e para fazer a escritura, vocês têm que ter esse valor, aqueles valores que falámos antes, para cobrir.\nAté à próxima!"
    }
   ],
@@ -1069,12 +1129,39 @@
   "desc": "Reencenação do diálogo real da dor do cliente (ex.: financiamento negado) + a solução.",
   "slug": "cliente-disse-dramatizacao-da-dor-do",
   "formato": {
+   "estrutura": "1. **[DRAMATIZAÇÃO DA DOR]** cena atuada do problema real do cliente (diálogo). → *slot: a dor encenada.*\n2. **[ESPECÍFICO DO PROBLEMA]** revelar o gatilho técnico (restrição, cláusula). → *slot: o detalhe.*\n3. **[CLÍMAX DA INJUSTIÇA]** a armadilha que o cliente não sabia. → *slot: a injustiça.*\n4. **[ESPECIALISTA REBATE]** corta pro expert que revela o direito/solução. → *slot: a virada.*\n5. **[EMPODERAMENTO + CTA]** o que fazer + \"fique esperto\". → *slot: a ação.*\n\n- **Fixo:** dramatizar ANTES de explicar; problema específico e comum; especialista com solução acionável; fechar empoderando.\n- **Variável:** a dor, o gatilho técnico, o direito.",
    "hook": "Encenação de diálogo real que gera aflição imediata: **\"Infelizmente tentei de toda forma liberar seu financiamento, mas não deu certo.\"** O espectador que já tomou (ou teme) um \"não\" do banco se vê na cena.",
    "blocos": "- **A má notícia (0-5s):** o financiamento negado, dito de forma seca.\n- **A pergunta do cliente + revelação (5-30s):** \"por que não aprovou?\" → \"restrição interna: você fez acordo com desconto pra quitar dívida\" — o erro invisível que ninguém explica.\n- **A virada de autoridade (30-50s):** o especialista explica que isso é indevido e que há direito a ação/indenização.\n- **CTA implícito:** \"fique esperto\" — o comentário vira consultório (leads reais nos comentários).",
    "porque": "- **Dramatização = identificação:** ver a cena dói mais que ouvir a regra — conexão + prova de que o profissional entende a dor.\n- **Revela um mecanismo escondido** (acordo com desconto restringe crédito) — utilidade que compartilha (2.788 shares).\n- **Gera leads no comentário** (\"aconteceu comigo, e agora?\") — o formato que mais converte relação em conversa.",
    "aplicar": "- Reencene o \"não\" mais comum que seus clientes tomam (financiamento negado, documento faltando, renda insuficiente) + a solução.\n- Corretor pode fazer com um \"cliente\" (colega atuando) ou em talking-head narrando o diálogo.\n- Regra: a dor tem que ser REAL e comum; a solução, verdadeira.",
    "guia": "- Diálogo curto e verossímil — 2 personagens (ou 1 narrando os dois lados).\n- A revelação do \"erro invisível\" é o pico — segure pro meio.\n- Feche com o direito/solução + \"fique esperto\"; deixe o comentário abrir a conversa.\n- Responda os primeiros comentários (é onde os leads aparecem).",
-   "prompt": "```\nVocê é roteirista de dramatização para conteúdo imobiliário/jurídico. Crie uma reencenação \"cliente disse\":\n1) MÁ NOTÍCIA (0-5s): o \"não\" mais comum dito de forma seca; 2) PERGUNTA + REVELAÇÃO do erro invisível que causou; 3) VIRADA de autoridade: a solução/direito; 4) \"fique esperto\" + comentário aberto.\nMEUS DADOS: A dor/\"não\" comum: [ ]. O erro invisível por trás: [ ]. A solução/direito real: [ ]. Público: [ ].\nTOM: diálogo verossímil, tensão real. A revelação no meio. Solução verdadeira. Deixar o comentário abrir consulta.\nENTREGUE: 1) roteiro em diálogo; 2) legenda; 3) 5 hashtags; 4) resposta modelo pro comentário \"aconteceu comigo\".\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo dramatizado de autoridade. Crie um roteiro de vídeo \"dramatização da dor do cliente + especialista rebate\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. DRAMATIZAÇÃO DA DOR (0-8s): cena atuada do problema real (diálogo), com legenda de tema fixa no topo (\"[PROBLEMA] — DESCUBRA O QUE FAZER\")\n2. ESPECÍFICO DO PROBLEMA (8-18s): revele o gatilho técnico que causou a dor (a cláusula, a regra, a restrição)\n3. CLÍMAX DA INJUSTIÇA (18-25s): a armadilha que o cliente não sabia (o que gera revolta)\n4. ESPECIALISTA REBATE (25-40s): corte pra você (cenário de autoridade) rebatendo com o direito/solução que ninguém conhece\n5. EMPODERAMENTO + CTA (40-44s): o que a pessoa pode fazer + assinatura (\"fique esperto\")\n\n**Meus dados:**\n- Especialista + @ + área: [NOME + @ + nicho]\n- A dor específica do cliente: [O PROBLEMA REAL E COMUM]\n- O gatilho técnico: [A CLÁUSULA/REGRA/RESTRIÇÃO que causou]\n- A injustiça/armadilha: [O QUE A PESSOA NÃO SABIA]\n- O direito/solução: [A SAÍDA ACIONÁVEL]\n\n**Regras de tom:**\n- DRAMATIZE antes de explicar — a cena da dor fisga pela emoção; a informação vem depois\n- O gancho é a INJUSTIÇA específica (não uma dor genérica) — quanto mais revoltante e comum, melhor\n- Linguagem próxima (\"meu amigo\", \"fique esperto\") — você é aliado, não professor distante\n- Feche SEMPRE com o direito/solução acionável — é o que gera o lead\n\n**Entregue:**\n1. O roteiro da cena dramatizada (diálogo) + o roteiro do especialista\n2. A legenda de tema fixa do topo\n3. A frase de virada (o especialista rebatendo) e a de empoderamento final\n4. 5 hashtags\n5. Sugestão de como filmar sozinho (fazendo os dois papéis) se não tiver parceiro de cena",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance + autoridade + captação** (e funciona muito bem como ad). A dramatização da dor prende quem se identifica; a solução acionável gera o lead.\n- Ideal pra qualquer situação em que o cliente sofre uma injustiça por desconhecimento (financiamento negado, cláusula abusiva, taxa escondida)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A DOR ESPECÍFICA]:** quanto mais concreta e comum, melhor. Dor genérica não gera identificação; a armadilha específica gera revolta.\n- **[A INJUSTIÇA]:** o coração do formato. Precisa ter o elemento \"eu não sabia que isso ia me prejudicar\" — é o que revolta e faz compartilhar.\n- **[A SOLUÇÃO ACIONÁVEL]:** o direito/saída precisa ser concreto (\"você pode processar e ser indenizado\"), não um conselho vago."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier explicação antes da cena:\n\n> \"Inverta: primeiro a cena dramatizada da dor (diálogo real), só depois o especialista explica. A emoção fisga, a informação retém.\"\n\nSe a dor vier genérica:\n\n> \"Deixe o problema específico e revoltante — a armadilha exata que a pessoa não sabia. Genérico não gera identificação nem compartilhamento.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Só drama, sem solução** — entretém mas não entrega valor nem gera lead.\n2. **Só explicação, sem cena** — perde o gancho emocional dos primeiros segundos.\n3. **Problema genérico** — sem a armadilha específica, não há identificação.\n4. **Fechar sem o direito acionável** — a solução concreta é o que converte."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Duas cenas: a encenação (dois papéis — dá pra fazer sozinho com corte) + você no cenário de autoridade (estante, escritório).\n- Legenda de tema vermelha fixa no topo o vídeo todo (\"[PROBLEMA] — DESCUBRA O QUE FAZER\").\n- Captions de diálogo pra entendimento sem som. Tom: dor → indignação → solução firme."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto engajamento pela indignação (o comentário \"isso aconteceu comigo!\" viraliza) + alta salvabilidade pela utilidade jurídica. O ganho é lead: quem viveu a dor chama no direct. Responda com o próximo passo — e cada relato nos comentários é uma nova dramatização."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1084,7 +1171,40 @@
     "link": "https://tiktok.com/@antoniogalvaoadv/video/7109216600363928837",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma cena encenada da dor real do cliente (financiamento negado por \"restrição interna\") seguida do especialista quebrando a quarta parede pra revelar o direito que ninguém conhece — indignação que vira autoridade e lead."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Cena atuada: dois homens à mesa; legenda de tema fixa \"FINANCIAMENTO NEGADO — DESCUBRA O QUE FAZER\" | \"É amigo, tentei de toda forma liberar o financiamento pra ti, mas não deu certo\" | Hook: dramatização da dor concreta (o \"não\" do banco) — identificação imediata |\n| 8-18s | Cliente reage indignado | \"Mas por que não aprovou? — Você tá com restrição interna. Fez algum acordo pra pagar dívida com desconto?\" | Constrói o problema específico (revela o gatilho técnico) |\n| 18-25s | Cliente revela | \"Fiz acordo pra pagar a dívida com desconto, mas não sabia que ia me prejudicar\" | Clímax da dor — a armadilha que a pessoa não via |\n| 25-40s | Corta pro especialista (advogado) talking head, estante jurídica ao fundo; legenda \"não existe lógica em te propor acordo e depois te penalizar no Banco Central\" | \"Isso não pode acontecer… você não pode ir pra restrição interna nenhuma\" | A virada: o especialista rebate com o direito |\n| 40-44s | Close firme | \"Você tem o direito de entrar com uma ação, limpar o nome e ainda ser indenizado. Fique esperto\" | Fecho: solução acionável + empoderamento + assinatura (\"fique esperto\") |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Dramatiza ANTES de explicar:** a cena encenada da dor (o financiamento negado) fisga pela emoção; só depois vem a informação. É a ordem que faz o formato funcionar.\n- **O gancho é a injustiça:** \"fez acordo com desconto e foi penalizado\" — a armadilha específica gera revolta, e revolta gera comentário e compartilhamento.\n- **Estrutura problema → indignação → direito:** cada etapa aumenta a tensão até a solução libertadora.\n- **Linguagem próxima** (\"meu amigo\", \"fique esperto\") — o especialista é aliado, não professor distante."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Duas cenas contrastantes:** a encenação (dois atores, escritório comum) + o especialista talking head (estante de livros jurídicos = autoridade visual).\n- **Legenda de tema vermelha fixa no topo** (\"FINANCIAMENTO NEGADO — DESCUBRA O QUE FAZER\") — mantém a promessa na tela o vídeo todo.\n- **Captions de diálogo** garantem o entendimento sem som."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Diálogo atuado** (tom de conversa real) na 1ª parte + **fala firme e indignada** do especialista na 2ª.\n- A transição da cena pro talking head marca a virada de \"dor\" pra \"solução\" — é o ponto de retenção."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Dramatização / identificação** — viver a cena da dor prende mais que ouvir sobre ela.\n2. **Indignação** — a injustiça específica (penalizado por fazer acordo) gera comentário de revolta = alcance.\n3. **Autoridade** — o especialista com a solução jurídica precisa vira referência.\n4. **Utilidade acionável** — \"você tem direito de processar e ser indenizado\" é informação que a pessoa guarda e busca.\n5. **Empoderamento** — transformar a vítima em alguém com poder (\"fique esperto\") é altamente compartilhável."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Encenação sem a explicação — fica só drama, sem entregar valor.\n- ❌ Explicação sem a dramatização — perde o gancho emocional que segura os primeiros segundos.\n- ❌ Problema genérico — precisa ser específico e comum (uma dor real que muita gente viveu).\n- ❌ Fechar sem o direito/CTA acionável — a solução concreta é o que gera o lead."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escolha uma dor específica e comum** do seu público (uma injustiça que muita gente sofre calada).\n2. **Encene a cena** em diálogo (você pode fazer os dois papéis ou com um parceiro) — a legenda de tema fixa no topo.\n3. **Construa até o clímax da injustiça** (a armadilha que a pessoa não sabia).\n4. **Corte pro especialista** (você, com cenário de autoridade) que rebate com o direito/solução.\n5. **Feche empoderando** (\"você tem direito a X, fique esperto\") — e responda no direct quem viveu isso."
+     }
+    ],
     "transcricao": "Infelizmente eu tentei de toda forma liberar o financiamento pra ti, mas não deu certo.\nMas por que não consegui aprovar?\nVocê tá com uma restrição interna no banco.\nCaso você fez algum acordo pra pagar a dívida com algum desconto.\nEu fiz um acordo pra pagar a dívida com desconto, mas eu não sabia que isso ia me prejudicar.\nDe fato, meu amigo, isso não pode acontecer.\nNão existe lógica no banco te propor um acordo, te dar um desconto por livre e espontânea vontade\ne depois te penalizar no Banco Central com uma anotação de prejuízo que vai restringir o teu crédito.\nPortanto, se você fez acordo com o banco para pagar uma dívida em atraso, ainda que com desconto,\nsaiba que você não pode ir para restrição interna e para lista negra nenhuma.\nE se isso acontecer, você tem o direito de entrar com uma ação, limpar o teu nome e ainda ser indenizado.\nFique esperto."
    }
   ],
