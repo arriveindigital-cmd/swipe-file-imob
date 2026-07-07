@@ -6718,12 +6718,39 @@
   "desc": "Caso real de aprovação número a número + didática da entrada + isca de simulação.",
   "slug": "simulacao-projecao-gratuita-como-isca-de",
   "formato": {
+   "estrutura": "1. **[HOOK: PROVA REAL]** \"cliente aprovado, vou mostrar as condições\". → *slot: a prova.*\n2. **[OS NÚMEROS DA APROVAÇÃO]** renda/financiamento/parcela na tela. → *slot: os números.*\n3. **[O PASSO A PASSO DA ENTRADA]** como funciona, transparente. → *slot: a mecânica.*\n4. **[DETALHES FINOS + BRINDES]** honestidade (reajuste) + vantagens. → *slot: os detalhes.*\n5. **[CTA DE COMENTÁRIO]** \"digita [PALAVRA] que a gente entra em contato\". → *slot: a isca.*\n\n- **Fixo:** simulação REAL na tela; passo a passo transparente; detalhes honestos; CTA de comentário (palavra-chave).\n- **Variável:** o cliente, os números, a cidade.",
    "hook": "Caso real de aprovação, número a número: **\"Cliente já aprovado pela Caixa — renda de R$3.800, imóvel de R$240 mil, financiamento liberado de R$200 mil, parcela de R$1.139.\"** Mostrar a aprovação REAL de outro cliente prova viabilidade e vira isca (\"faça a sua simulação gratuita\").",
    "blocos": "- **O caso aprovado (0-15s):** renda → imóvel → financiamento liberado → parcela, tudo com números.\n- **A didática da entrada (15-40s):** como funciona a entrada (valor do imóvel − aprovação = entrada), parcelada no prazo de obra, tirando o subsídio (ato R$800, mensais, anuais).\n- **A isca (fim):** \"digite SIMULAÇÃO / quer ver o seu caso? Faça sua simulação gratuita\".",
    "porque": "- **Caso real com números** prova que \"dá pra conseguir\" — quebra a descrença.\n- **A didática da entrada** educa e reduz o medo do processo.\n- **A simulação gratuita** é isca de baixo compromisso que captura o lead qualificado (com renda/interesse).",
    "aplicar": "- Todo caso de aprovação real (com autorização) vira anúncio: \"olha as condições desse cliente\".\n- Sempre com a didática de como funciona (entrada, subsídio, parcelas).\n- CTA de simulação gratuita (isca de lead com dados).",
    "guia": "- Números reais de casos reais (com autorização/anonimização).\n- Explicar a entrada passo a passo (é a maior dúvida).\n- A simulação gratuita tem que ser cumprida rápido (o lead esfria).\n- Medir custo por simulação solicitada.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário de geração de lead. Crie um anúncio \"caso de aprovação + simulação\":\n1) CASO APROVADO (0-15s): renda → imóvel → financiamento → parcela (números reais); 2) DIDÁTICA da entrada (como funciona, subsídio, parcelamento); 3) ISCA: simulação gratuita.\nMEUS DADOS: Caso real (renda, imóvel, financiamento, parcela): [ ]. Como funciona a entrada: [ ]. CTA de simulação: [ ].\nTOM: prova por caso real + didática que reduz medo. Números reais. Isca de baixo compromisso.\nENTREGUE: 1) roteiro com os números; 2) a explicação da entrada; 3) copy; 4) CTA de simulação; 5) 1ª mensagem de WhatsApp/DM.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de captação de lead imobiliário. Crie o roteiro de \"simulação real como prova + isca de lead (CTA de comentário)\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: PROVA REAL (0-8s): \"cliente já aprovado, vou mostrar como ficaram as condições\"\n2. OS NÚMEROS DA APROVAÇÃO: renda / financiamento / parcela na tela (a prova)\n3. O PASSO A PASSO DA ENTRADA: como funciona, transparente (educação)\n4. DETALHES FINOS + BRINDES: honestidade (reajuste/custos) + as vantagens (grátis)\n5. CTA DE COMENTÁRIO: \"digita [PALAVRA] nos comentários que a gente entra em contato\"\n\n**Meus dados:**\n- Corretor(a) + @ + cidade: [NOME + @ + LOCAL]\n- A simulação real (renda, imóvel, financiamento, parcela): [OS NÚMEROS]\n- O passo a passo da entrada: [COMO FUNCIONA]\n- Os detalhes finos + brindes: [REAJUSTE / CUSTOS / GRÁTIS]\n- A palavra do CTA: [EX.: SIMULAÇÃO]\n\n**Regras de tom:**\n- Simulação REAL (com autorização) — a prova é o que convence\n- Transparência total: passo a passo + os detalhes finos (reajuste, custos)\n- CTA de COMENTÁRIO (não DM) — o comentário gera lead E impulsiona o alcance\n- Didático (\"deixa eu te explicar\"), reduz o medo do processo\n\n**Entregue:**\n1. O roteiro (prova → números → entrada → detalhes → CTA)\n2. Os cards de simulação (o que mostrar na tela)\n3. A explicação do passo a passo da entrada\n4. O CTA de comentário com a palavra-chave\n5. Resposta pronta pro comentário \"e se minha renda for menor?\"",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **captação de lead** (comprador de entrada/MCMV) via tráfego pago ou orgânico. A simulação real prova que funciona e a isca de comentário gera volume de leads.\n- É também a melhor execução do **CTA \"comente uma palavra\"**: o comentário gera lead E impulsiona o alcance."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A SIMULAÇÃO REAL]:** com autorização — cliente aprovado, números na tela. A prova real é o que convence (o inventado não).\n- **[O PASSO A PASSO]:** explique a entrada de forma transparente. Educar reduz o medo do processo e cria autoridade.\n- **[A PALAVRA DO CTA]:** simples e memorável (\"SIMULAÇÃO\"). O comentário é a isca de baixo atrito."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se a simulação vier genérica:\n\n> \"Use uma simulação REAL de um cliente aprovado (com autorização). Números de verdade na tela derrubam o 'será que é pra mim?'; o inventado não convence.\"\n\nSe o CTA for de DM:\n\n> \"Troque por CTA de COMENTÁRIO ('digita [palavra]'). O comentário gera lead E impulsiona o alcance do anúncio — dupla função.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Simulação genérica** — a prova real (cliente aprovado) é o que convence.\n2. **Esconder detalhes finos** — a transparência (reajuste, custos) é a autoridade.\n3. **CTA de DM** — o comentário alimenta o alcance E gera lead.\n4. **Pular a educação** — o passo a passo reduz o medo do processo."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Corretor + tela do laptop com cards de simulação (aponte os números). Ambiente caseiro (autenticidade).\n- Narração didática. Feche com CTA de comentário (a palavra-chave)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio/post de captação de alto volume — a simulação real converte e a isca de comentário gera leads em escala (e impulsiona o alcance). Responda os comentários com a palavra pra iniciar o atendimento. É a execução recomendada do \"comente uma palavra que eu envio\"."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -6733,7 +6760,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Mostrar a simulação real e detalhada de um cliente aprovado prova que funciona — e a oferta de \"digita SIMULAÇÃO\" transforma a prova numa máquina de leads."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Corretora + tela do laptop com a simulação | \"Cliente já aprovado pela Caixa, escolheu um apê na Lapa. Vou mostrar como ficaram as condições\" | Hook: prova real (cliente aprovado) + promessa de transparência |\n| 8-30s | Card \"Renda 3.800 / Financiamento 200k (5,64%) / Parcela 1.139\" | \"Renda 3.800, imóvel 240k, financiamento 200k a 5,64%, parcela morando 1.139. Quando pronto, dá pra alugar e se pagar\" | Os números da aprovação (a prova) + o bônus (aluga e se paga) |\n| 30-55s | Card \"Imóvel 240k − 200k = entrada 40k\" + parcelamento | \"A entrada é 40k (240−200), à vista ou parcelada nos 36 meses de obra: ato 800, 35 mensais de 802, 3 anuais de 3k\" | O passo a passo da entrada — educação + transparência |\n| 55-75s | Card \"Entrada sem juros / reajuste INCC / escritura grátis / TAC grátis\" | \"Entrada sem juros (mas com reajuste INCC). Esse cliente ganhou escritura grátis e TAC grátis\" | Os detalhes finos (honestidade) + os brindes |\n| 75-90s | Corretora | \"Se gostou e mora em SP e quer comprar nessas condições, digita SIMULAÇÃO nos comentários que a gente entra em contato\" | CTA de comentário — a isca de lead |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A simulação REAL é a prova** — números de um cliente aprovado na tela derrubam o \"será que é pra mim?\".\n- **Educação transparente** (como funciona a entrada, passo a passo) posiciona como especialista e reduz o medo do processo.\n- **Os detalhes finos** (reajuste INCC, sem juros) provam honestidade — não esconde as letras miúdas.\n- **Acessibilidade** (renda de 3.800 aprovada) mostra que é possível pro público amplo.\n- **O CTA de comentário** (\"digita SIMULAÇÃO\") é a isca de lead de baixo atrito — e comentários alimentam o alcance do anúncio/post."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Corretora + tela do laptop** apontando os cards de simulação — a prova visual na mão.\n- **Cards de simulação** (renda, financiamento, entrada, custos) organizados e legíveis.\n- **Ambiente caseiro** — autenticidade de quem faz de verdade."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração didática** conduzindo pelos números — ritmo de \"deixa eu te explicar\".\n- Cada card é um bloco; a progressão constrói o entendimento até o CTA."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Prova real** — a aprovação de um cliente de verdade é irrefutável.\n2. **Transparência / educação** — o passo a passo reduz o medo e cria autoridade.\n3. **Acessibilidade** — a renda baixa aprovada mostra que é possível.\n4. **Honestidade** — expor os detalhes finos (reajuste) gera confiança.\n5. **CTA de comentário** — baixo atrito + o comentário impulsiona o alcance (dupla função)."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Simulação genérica/inventada — a prova REAL (cliente aprovado) é o que convence.\n- ❌ Esconder os detalhes finos — a transparência (reajuste, custos) é a autoridade.\n- ❌ CTA de DM em vez de comentário — o comentário alimenta o alcance E gera lead.\n- ❌ Pular a educação — o passo a passo é o que posiciona e reduz o medo do processo."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Mostre uma simulação REAL** (com autorização) — cliente aprovado, números na tela.\n2. **Apresente os números da aprovação** (renda, financiamento, parcela) como prova.\n3. **Explique o passo a passo da entrada** de forma transparente (educação).\n4. **Exponha os detalhes finos + os brindes** (honestidade + vantagens).\n5. **Feche com CTA de comentário** (\"digita [PALAVRA] que a gente entra em contato\") — isca de lead que impulsiona o alcance."
+     }
+    ],
     "transcricao": "Cliente já aprovado pela Caixa, escolheu um apartamento na região da Lapa e eu quero mostrar para vocês como que ficaram as condições desse cliente.\nO imóvel, a renda desse cliente era de R$ 3,8 mil, o imóvel que esse cliente está comprando é na faixa de R$ 240 mil, ok?\nO financiamento liberado para ele foi de R$ 200 mil, uma aprovação excelente, com uma taxa de juros de R$ 5,64 e uma parcela morando de R$ 1.139.\nEssa parcela morando, se ele for, quando esse apartamento estiver pronto, ele vai conseguir alugar e ela vai conseguir se pagar e ele vai colocar dinheiro no bolso,\ncaso ele esteja comprando para investimento.\nNesse caso, foi um casal, foi a somatória de duas rendas, tá?\nEntão, como é que funciona a entrada para vocês entenderem de uma vez por toda?\nO valor do imóvel é R$240,00.\nA entrada é o valor do imóvel menos o valor da aprovação desse cliente.\nR$240,00 menos R$200,00, entrada de R$40,00.\nEssa entrada pode ser paga à vista ou parcelada durante todo o prazo de obras.\nO prazo de obras lá é 36 meses.\nEntão, da entrada, eu tirei o subsídio e parcelei da seguinte forma.\nAto de R$800,00, ele dá na assinatura somente R$800,00.\n35 mensais de 802\ne 3 anuais de 3 mil reais\ntoda entrada é sem juros, não pode cobrar juros\nporém ela tem reajuste de NCC\nsofre reajuste de NCC em toda a entrada\nparcelada e no saldo devedor\naté a assinatura com a caixa\ndurante o prazo de horas ele paga a entrada\nmas a evolução de obras que evolui\nconforme a obra foi evoluindo\nnesse caso esse cliente ganhou a escritura grátis\ne a taxa TAC também foi grátis\nentão esse foi todos os custos na compra dele\ne se você gostou dessa simulação e mora aqui em São Paulo\ne quer comprar o seu imóvel nessas condições,\né só digitar aqui simulação nos comentários\nque a gente vai entrar em contato."
    }
   ],
