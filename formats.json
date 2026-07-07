@@ -4456,12 +4456,39 @@
   "desc": "'Vendemos X imóveis por mês' — prova social esmagadora que mira o proprietário.",
   "slug": "anuncio-vendemos-x-imoveis-a-cada",
   "formato": {
+   "estrutura": "1. **[HOOK NA DOR]** \"tá com dificuldade de [problema]?\" + framing de dica. → *slot: a dor.*\n2. **[RECOMENDAÇÃO COM AUTORIDADE]** uma corretora/expert recomenda a solução. → *slot: a recomendação.*\n3. **[PROVA SOCIAL DE VOLUME]** o número grande (\"X mil por mês\"). → *slot: o número.*\n4. **[FACILIDADE + CTA]** \"rápido, tudo pelo WhatsApp, clique\". → *slot: o CTA.*\n\n- **Fixo:** hook na dor; depoimento/autoridade humana; número de volume como prova; CTA de baixo atrito.\n- **Variável:** a dor, o número, a plataforma.",
    "hook": "Pergunta-dor do proprietário + solução com prova de volume: **\"Tá com dificuldade de vender seu imóvel? Cadastra na plataforma — eles vendem mais de 2 mil imóveis por mês.\"** O número de volume é prova social esmagadora de que a máquina funciona.",
    "blocos": "- **Dor do proprietário (0-5s):** \"dificuldade de vender seu imóvel?\".\n- **A solução + prova de volume (5-15s):** cadastre + \"vendem 2 mil/mês\" (ou \"1 a cada 20 min\").\n- **CTA de baixa fricção (fim):** \"cadastra pelo WhatsApp, rápido e simples — clica aqui\".",
    "porque": "- **Volume = prova social irrefutável:** \"2 mil/mês\" comunica máquina que funciona, sem depender de opinião.\n- **Mira a dor certa** (proprietário com imóvel parado) — segmentação pela primeira frase.\n- **Fricção mínima** (cadastro por WhatsApp) converte a intenção na hora.",
    "aplicar": "- Imobiliária/corretor com volume: \"vendemos/alugamos X por mês/semana\".\n- Sem volume grande, use outro número (\"47 imóveis vendidos em 2025\", \"tempo médio de 30 dias\").\n- Fórmula: dor do proprietário + número de volume + CTA de baixa fricção.",
    "guia": "- Número de volume REAL e impressionante; se não tiver, use outra métrica.\n- A primeira frase segmenta (proprietário) — não desperdice.\n- CTA de fricção mínima (WhatsApp > formulário).\n- Medir custo por proprietário cadastrado, não por clique.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário de captação. Crie um anúncio \"prova de volume\":\n1) DOR (0-5s): \"dificuldade de vender/alugar seu imóvel?\"; 2) SOLUÇÃO + PROVA DE VOLUME (X imóveis/mês); 3) CTA de baixa fricção (WhatsApp).\nMEUS DADOS: Público (proprietário de venda/aluguel): [ ]. Número de volume real: [ ]. CTA: [ ].\nTOM: prova social por volume, mira o proprietário. Número real. Fricção mínima.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) 2 variações do número/prova; 5) 1ª mensagem de WhatsApp.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de captação imobiliária. Crie o roteiro de um anúncio \"prova social de volume via depoimento\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK NA DOR (0-4s): \"tá com dificuldade de [problema do proprietário]?\" + framing de \"dica\", não de anúncio\n2. RECOMENDAÇÃO COM AUTORIDADE: uma voz humana (corretor/cliente experiente) recomenda a solução\n3. PROVA SOCIAL DE VOLUME: o número grande (\"vendemos/fazemos X por mês\")\n4. FACILIDADE + CTA: \"é rápido, dá pra fazer tudo pelo WhatsApp, clique aqui\"\n\n**Meus dados:**\n- Marca/serviço + @: [NOME + @]\n- A dor do alvo: [O PROBLEMA — ex.: imóvel encalhado]\n- Quem recomenda (autoridade humana): [CORRETOR/CLIENTE]\n- O número de volume: [X POR MÊS/PERÍODO]\n- O CTA de baixo atrito: [WHATSAPP/LINK]\n\n**Regras de tom:**\n- Framing de \"dica/depoimento\", não de propaganda — a voz humana converte mais que a marca\n- O número de volume precisa ser específico e impressionante\n- Enfatize a facilidade (WhatsApp) pra remover atrito\n- Enxuto (15-25s) — é anúncio de conversão\n\n**Entregue:**\n1. O roteiro do anúncio (fala + legendas)\n2. O card/framing de \"dica\"\n3. A frase da prova social de volume\n4. O CTA\n5. 3 variações do hook pra testar",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **captação (proprietários)** via tráfego pago. A prova social de volume é o argumento mais forte pra quem tem imóvel encalhado.\n- Funciona pra plataforma, imobiliária ou corretor com volume — qualquer um que tenha um número de escala pra mostrar."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A DOR]:** o problema específico do proprietário (\"dificuldade de vender\"). Fale direto com o alvo.\n- **[O NÚMERO DE VOLUME]:** específico e impressionante (\"2 mil/mês\", \"vendemos 1 a cada 2 dias\"). É a prova central.\n- **[A VOZ]:** um humano recomendando (corretor, cliente) converte muito mais que a marca falando de si."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se a marca falar de si:\n\n> \"Reescreva como depoimento/dica de uma pessoa (corretor experiente, cliente satisfeito). A recomendação humana é muito mais crível que a marca se elogiando.\"\n\nSe o número vier vago:\n\n> \"Torne o volume específico e impressionante ('2 mil por mês'). Escala vaga não convence; número concreto é a prova social.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **A marca falar de si** — o depoimento humano converte mais.\n2. **Número vago** — o volume precisa ser específico e grande.\n3. **CTA com atrito** — quanto mais fácil (WhatsApp), maior a conversão.\n4. **Longo demais** — anúncio de captação é enxuto."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Depoimento de uma pessoa real (corretor/cliente) — rosto humano. Card editorial de \"dica\".\n- Legendas de reforço + botão de CTA (WhatsApp/link). Enxuto (15-25s)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de captação de proprietários — a prova social de volume + a facilidade do WhatsApp maximizam a conversão. Teste variações do hook (a dor) e do número. O framing de \"dica da corretora\" reduz a rejeição a anúncio e aumenta a taxa de clique."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -4471,7 +4498,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um número de volume (2 mil imóveis/mês) na boca de uma corretora experiente — a prova social de escala transforma um anúncio de plataforma em recomendação confiável."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Corretora; legenda \"Tá com dificuldade de vender seu imóvel?\" + card \"Dica da Corretora — como vender mais rápido\" | \"Tá com dificuldade de vender seu imóvel?\" | Hook: a dor do proprietário + framing de \"dica\", não de anúncio |\n| 4-10s | Depoimento | \"Dica de uma corretora com experiência de muitos anos: cadastre na plataforma do QuintoAndar\" | A recomendação — autoridade humana + a solução |\n| 10-16s | Legenda \"vendendo mais de 2 mil imóveis por mês\" | \"Eles vendem mais de 2 mil imóveis por mês, impressionante né?\" | A PROVA SOCIAL de volume — o número que convence |\n| 16-22s | Botão \"Cadastre pelo WhatsApp →\" | \"Cadastrar é rápido e simples, dá pra fazer tudo pelo WhatsApp. Clique aqui\" | Facilidade + CTA de baixo atrito |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Hook na dor específica** (\"dificuldade de vender seu imóvel?\") — fala direto com o proprietário que é o alvo do anúncio.\n- **Framing \"Dica da Corretora\"** transforma o anúncio num depoimento/recomendação — muito mais crível que a marca falando de si.\n- **O número de volume (2 mil/mês) é a prova social central** — escala comunica confiança (\"se vendem tanto, funciona\").\n- **Facilidade (WhatsApp)** remove o atrito da ação; **CTA direto** fecha."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Corretora em depoimento** (credibilidade humana) — o rosto real vende mais que a logo.\n- **Card editorial \"Dica da Corretora\"** — formato de conteúdo, não de propaganda.\n- **Legendas de reforço** + **botão de CTA WhatsApp** nativo de anúncio."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala de conselho**, direta e curta (22s) — anúncio enxuto, sem desperdício.\n- Ritmo de \"dica rápida\" que respeita o tempo do feed."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Dor do proprietário** — o imóvel encalhado é a dor que ativa a ação.\n2. **Autoridade emprestada** — a corretora experiente empresta credibilidade à plataforma.\n3. **Prova social de volume** — o número grande (2 mil/mês) é o argumento central.\n4. **Facilidade** — \"tudo pelo WhatsApp\" derruba o atrito.\n5. **CTA de baixo atrito** — a ação é simples e imediata."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ A marca falar de si — o depoimento de um humano (corretora) converte muito mais.\n- ❌ Número de volume vago — precisa ser específico e impressionante (\"2 mil/mês\").\n- ❌ CTA com atrito — quanto mais fácil (WhatsApp), maior a conversão.\n- ❌ Longo demais — anúncio de captação tem que ser enxuto e direto."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com a dor do alvo** (\"tá com dificuldade de [problema]?\") em framing de dica.\n2. **Traga a recomendação por uma voz com autoridade** (corretor/cliente experiente).\n3. **Use um número de volume como prova social** (\"vendemos/fazemos X por mês\").\n4. **Enfatize a facilidade** e feche com CTA de baixo atrito (WhatsApp/link).\n5. Mantenha enxuto (15-25s) — é anúncio de conversão, não conteúdo longo."
+     }
+    ],
     "transcricao": "Tá com dificuldade de vender seu imóvel?\nDicas de uma corretora que tem experiência há muitos anos.\nCadastre seu imóvel na plataforma do Quinto Andar.\nEles estão vendendo mais de 2 mil imóveis por mês.\nImpressionante, né?\nPara cadastrar é muito rápido e simples.\nDá pra fazer tudo pelo WhatsApp.\nClique aqui para conversar com um dos atendentes do Quinto Andar."
    }
   ],
@@ -4665,12 +4725,39 @@
   "desc": "Assimetria de retorno ('3-5x mais com o mesmo capital') + segurança jurídica.",
   "slug": "rentabilidade-chocante-como-hook-para-investidor",
   "formato": {
+   "estrutura": "1. **[HOOK: RENTABILIDADE CHOCANTE]** \"como ganhar Xx mais com o mesmo capital?\". → *slot: o múltiplo.*\n2. **[CENÁRIO BASE NA LOUSA]** o que o investidor comum faz (o conhecido). → *slot: a base.*\n3. **[A REVELAÇÃO NA LOUSA]** a estratégia superior com os números. → *slot: a diferença.*\n4. **[A SÍNTESE]** \"essa é a diferença\". → *slot: a tese.*\n5. **[CTA BRANDED]** a empresa + seguir. → *slot: a chamada.*\n\n- **Fixo:** múltiplo chocante no hook; explicação em lousa; comparação conhecido vs novo; números reais; CTA.\n- **Variável:** o múltiplo, a estratégia, a empresa.",
    "hook": "Pergunta que expõe uma assimetria de retorno: **\"Como o incorporador ganha 3, 4, 5 vezes mais que o investidor comum, usando o mesmo capital?\"** A promessa de acessar o retorno \"dos grandes\" com o mesmo dinheiro é o gancho pro investidor.",
    "blocos": "- **A pergunta da assimetria (0-8s):** \"como ganhar Xx mais com o mesmo capital?\".\n- **A comparação numérica (8-40s):** investidor comum (R$300k → lucro R$60-90k com 20-30%) VS investir na incorporação desde o início (40-50% até o lançamento + 20-30% até a entrega = lucro R$180-240k).\n- **A ponte + segurança (fim):** \"na Capital Concreto você participa dessa etapa de forma simples e segura juridicamente\".",
    "porque": "- **Assimetria de retorno é irresistível pro investidor:** \"mesmo capital, 3x o lucro\".\n- **A comparação numérica lado a lado** torna a vantagem tangível e crível.\n- **O selo de \"segurança jurídica\"** derruba a principal objeção (risco).",
    "aplicar": "- Qualquer produto de investimento imobiliário com retorno acima do convencional: incorporação, permuta, construção-pra-venda.\n- Sempre comparar o caminho comum vs o caminho oferecido, com números.\n- Endereçar o risco/segurança explicitamente (é a objeção nº1 do investidor).",
    "guia": "- Números de retorno realistas e defensáveis (prometer demais gera problema jurídico e churn).\n- Comparação lado a lado (comum vs oferecido) com os mesmos R$ de partida.\n- Nunca \"rentabilidade garantida\" — usar \"potencial/histórico\".\n- Endereçar segurança jurídica explicitamente.",
-   "prompt": "```\nVocê é copywriter de anúncio de investimento imobiliário. Crie um anúncio \"rentabilidade chocante\":\n1) PERGUNTA DA ASSIMETRIA (0-8s): \"como [os grandes] ganham Xx mais com o mesmo capital?\"; 2) COMPARAÇÃO numérica lado a lado (caminho comum vs oferecido); 3) PONTE + segurança jurídica.\nMEUS DADOS: O produto: [ ]. Retorno do caminho comum vs o oferecido (números): [ ]. Como endereço a segurança: [ ].\nTOM: assimetria de retorno, comparação tangível. Números defensáveis. NUNCA \"garantido\". Endereçar risco.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) a comparação numérica; 5) frase de segurança jurídica.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de captação de investidor imobiliário. Crie o roteiro de \"rentabilidade chocante no hook + aula em lousa\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: RENTABILIDADE CHOCANTE (0-5s): \"como ganhar [Xx] mais com o mesmo capital?\"\n2. CENÁRIO BASE NA LOUSA: o que o investidor comum faz (o conhecido) com os números\n3. A REVELAÇÃO NA LOUSA: a estratégia superior com os números lado a lado (a diferença)\n4. A SÍNTESE: \"essa é a diferença entre [comum] e [superior]\"\n5. CTA BRANDED: a empresa que viabiliza + seguir\n\n**Meus dados:**\n- Empresa + @: [NOME + @]\n- O múltiplo chocante: [Xx MAIS]\n- O cenário base (investidor comum): [O QUE ELE FAZ + números]\n- A estratégia superior: [O DIFERENCIAL + números]\n- A segurança/tratamento de risco: [COMO É SEGURO]\n\n**Regras de tom:**\n- O hook é o múltiplo (3-5x) — a rentabilidade superior é o gatilho\n- SEMPRE explique na lousa/matemática — sem prova, vira bravata\n- Números concretos e defensáveis (o investidor confere)\n- Parta do conhecido (base) pro novo (superior) — reduz resistência\n- Trate a segurança/risco (não esconda)\n\n**Entregue:**\n1. O roteiro (hook → base → revelação → síntese → CTA)\n2. O que desenhar na lousa (os dois cenários com números)\n3. As legendas de punchline\n4. O CTA branded\n5. 3 variações do hook (o múltiplo) pra testar",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **captação de investidor** via tráfego pago. O múltiplo chocante fisga e a aula em lousa converte a curiosidade em confiança.\n- Ideal pra incorporação, investimento em imóveis, estratégias com retorno superior ao \"óbvio\"."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O MÚLTIPLO]:** o hook. \"3-5x mais com o mesmo capital\" — quanto mais chocante (e real), melhor.\n- **[OS NÚMEROS]:** os dois cenários (comum vs superior) com valores concretos. O investidor confere — precisa fechar.\n- **[A SEGURANÇA]:** trate o risco/segurança jurídica. Investidor experiente desconfia de retorno alto sem menção a risco."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se prometer o múltiplo sem provar:\n\n> \"Adicione a explicação na lousa com os dois cenários e os números. Sem a matemática visível, o múltiplo soa bom demais e não converte.\"\n\nSe esconder o risco:\n\n> \"Inclua o tratamento de segurança/risco (segurança jurídica, garantias). Investidor experiente rejeita retorno alto sem menção a risco.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Múltiplo sem explicação** — vira bravata sem credibilidade.\n2. **Números vagos** — o investidor confere; precisam ser concretos.\n3. **Esconder o risco** — gera desconfiança no público qualificado.\n4. **Pular a comparação** — partir do conhecido é o que faz a tese \"clicar\"."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Apresentador + lousa/tela desenhada (formato aula = autoridade). Legendas de punchline.\n- Desenhe os dois cenários com números lado a lado. Card de CTA branded no fim.\n- Ritmo de aula rápida; cada trecho constrói sobre o anterior."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio educativo de captação de investidor — alta salvabilidade (guardam a matemática) e conversão qualificada. Teste variações do múltiplo no hook. Responda os \"e a segurança/liquidez?\" nos comentários — é onde o investidor decide."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -4680,7 +4767,40 @@
     "link": "https://www.facebook.com/ads/library/?id=665074759945249",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Como ganhar 3-5x mais com o mesmo capital?\" — a rentabilidade chocante no hook fisga o investidor e a explicação na lousa prova a tese com números, transformando um anúncio em aula."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-5s | Apresentador + lousa; legenda \"Como que um investidor…\" | \"Como um incorporador ganha 3, 4, 5x mais que um investidor comum com o mesmo capital?\" | Hook: a rentabilidade chocante (3-5x) — o múltiplo que fisga o investidor |\n| 5-25s | Lousa \"300K / INVEST COMUM\" | \"Investidor comum: 300 mil no lançamento, vende pronto com 20-30% → lucro de 60-90 mil\" | O cenário base — o que ele já conhece (ancoragem) |\n| 25-45s | Lousa \"INVEST INCORPORADOR\" | \"Como incorporador: 40-50% até o lançamento + 20-30% até a entrega → os mesmos 300 mil viram 180-240 mil de lucro\" | A revelação — a matemática que choca, provada na lousa |\n| 45-52s | Legenda \"Essa é a diferença\" | \"Essa é a diferença entre o investimento convencional e atuar como incorporador\" | A síntese — cristaliza a tese |\n| 52-57s | Card \"@capitalconcreto\" | \"Na Capital Concreto você participa dessa etapa de forma simples e segura. Siga\" | CTA branded (empresa + seguir) |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook é um múltiplo chocante** (3-5x com o MESMO capital) — a promessa de rentabilidade superior é irresistível pro investidor.\n- **A explicação na lousa é a prova** — desenhar a matemática (300k → 60-90k vs 180-240k) torna a tese verificável, não bravata.\n- **Compara o conhecido com o novo** — parte do que o investidor já entende (invest comum) e revela o superior (incorporador), reduzindo a resistência.\n- **Números concretos** dão credibilidade; a lousa dá autoridade professoral.\n- **CTA branded** leva pra empresa que viabiliza a estratégia."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Apresentador + lousa/tela desenhada** — o formato \"aula\" comunica autoridade e didática.\n- **Legendas de punchline laranja** destacam a frase-chave de cada trecho.\n- **Jaqueta com logo + card de CTA branded** — reforço de marca ao longo do anúncio."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração didática de professor**, apontando os números na lousa.\n- Ritmo de aula rápida; cada trecho constrói sobre o anterior até a revelação."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Rentabilidade chocante** — o múltiplo (3-5x) é o gatilho de ganância/interesse do investidor.\n2. **Autoridade professoral** — a lousa e a matemática posicionam como quem domina.\n3. **Didática / prova** — explicar passo a passo torna a tese crível.\n4. **Comparação** — conhecido (base) vs novo (superior) reduz a resistência.\n5. **CTA branded** — canaliza o interesse pra empresa."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Prometer o múltiplo sem explicar — sem a lousa/matemática, vira bravata sem credibilidade.\n- ❌ Números vagos — o investidor confere; precisa de valores concretos e defensáveis.\n- ❌ Esconder o risco — a segurança jurídica/os riscos precisam ser tratados (aqui, \"seguro juridicamente\").\n- ❌ Pular a comparação — partir do conhecido é o que faz a tese \"clicar\"."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o múltiplo chocante** (\"como ganhar Xx mais com o mesmo capital?\").\n2. **Desenhe o cenário base na lousa** (o que o investidor comum já faz).\n3. **Revele a estratégia superior** com os números lado a lado (a diferença que choca).\n4. **Sintetize a tese** (\"essa é a diferença\") e trate a segurança/risco.\n5. **Feche com CTA branded** (a empresa + seguir). A lousa e os números reais são obrigatórios."
+     }
+    ],
     "transcricao": "Como que um incorporador consegue ganhar 3, 4, 5 vezes mais\nque um investidor comum no mercado imobiliário?\nUsando o mesmo capital.\nUm investidor com potencial de 300 mil reais.\nDe forma tradicional, o que ele faria?\nEle investiria 300 mil reais na hora do lançamento\npara vender depois de pronto o imóvel com uma valorização de 20%, 30%,\nbuscando de lucro 60%, 90 mil reais.\nAgora trazendo para o cenário do investidor que investe na incorporação.\nDesde o início do projeto, ele vai conseguir buscar 40%, 50% até o lançamento\ne os mesmos 20% e 30% do lançamento até a entrega do imóvel.\nOu seja, os mesmos R$ 300 mil, ele teria de lucro R$ 180 mil a R$ 240 mil.\nEssa é a diferença de um investimento convencional padrão de mercado\ncom um investimento onde você tem a possibilidade de atuar como incorporador.\nE na capital concreto, você consegue participar dessa etapa\nde forma simples e segura juridicamente."
    }
   ],
