@@ -17,12 +17,39 @@
   "desc": "Entrevista de rua com pergunta banal que vira escada de curiosidade sobre imóveis de alto valor.",
   "slug": "vox-pop-qual-a-sua-profissao",
   "formato": {
+   "estrutura": "1. **[PERGUNTA-ISCA GENÉRICA]** abordagem de rua neutra (\"Qual a sua profissão?\"). → *slot: a pergunta que derruba a guarda.*\n2. **[VIRADA]** a resposta revela corretor(a) de [SEGMENTO/LUGAR]. → *slot: o reposicionamento.*\n3. **[ESCADA DE 5-7 PERGUNTAS]** cada uma sobe a aposta: imóvel-topo (+preço) → spec superlativo → % vendido → nº que fechou → comissão. → *slot: os degraus.*\n4. **[FECHO]** perfil de quem compra (humaniza o mundo inacessível).\n\n- **Fixo:** primeira pergunta genérica; toda resposta com NÚMERO exato; setup de \"repórter\" (mic + postura); local reconhecível; comissão não se esconde.\n- **Variável:** cidade, segmento, empreendimento, números.",
    "hook": "Abordagem de rua, pergunta banal e universal: **\"Qual a sua profissão?\"**. O espectador acha que é mais um vox pop qualquer — até a resposta virar a chave: \"corretora de imóveis de alto padrão em Balneário Camboriú\". A partir daí a curiosidade dispara com a escalada de números.",
    "blocos": "- **Abertura genérica (0-3s):** pergunta de rua neutra, formato reconhecível de entrevista — baixa guarda.\n- **Revelação da profissão (3-8s):** \"corretora de alto padrão\" reposiciona tudo — agora é sobre dinheiro.\n- **Escalada de números (8-40s):** perguntas curtas que sobem a aposta — apê mais caro (R$320 mi), altura do prédio (550m/157 andares), % vendido (40%), unidades já vendidas (3), comissão (~R$1 mi por unidade).\n- **Fecho de bastidor (40s+):** quem compra (brasileiros de todo o país + estrangeiros) — humaniza o mundo inacessível.",
    "porque": "- **Formato \"cavalo de Troia\":** entra como entrevista de rua (alto alcance orgânico) e entrega conteúdo de luxo imobiliário sem parecer anúncio.\n- **Escada de curiosidade:** cada resposta abre a próxima pergunta na cabeça do espectador — retenção altíssima.\n- **Números concretos e chocantes** (R$320 mi, R$1 mi de comissão) são a moeda do compartilhamento: \"olha isso\".\n- **Prova social implícita:** ela já vendeu, o prédio já tem 40% — não é sonho, é mercado real.",
    "aplicar": "- Corretor entrevista OUTRO corretor (ou é entrevistado) num ponto badalado da cidade sobre \"o imóvel mais caro que você já vendeu\".\n- Versão acessível: \"Qual o apê mais barato pra sair do aluguel aqui em [cidade]?\" — mesma mecânica de escada, público MCMV.\n- Série: um bairro/segmento por semana, sempre com a pergunta-gancho de abertura.\n- Regra: a primeira pergunta tem que ser genérica; o \"pulo\" vem na 2ª resposta.",
    "guia": "- Números REAIS e verificáveis — o comprador de alto padrão e os concorrentes checam.\n- Cortes secos entre pergunta e resposta mantêm o ritmo; nada de introdução.\n- A comissão declarada é o que mais compartilha — não esconda, mas contextualize (\"depende da unidade\").\n- Grave em local reconhecível (a orla, o empreendimento ao fundo) — dá lastro.",
-   "prompt": "```\nVocê é roteirista de conteúdo viral imobiliário. Crie um roteiro de vídeo \"vox pop / entrevista\" em formato escada de curiosidade:\n1) ABERTURA (0-3s): pergunta de rua genérica (\"Qual sua profissão?\");\n2) VIRADA (3-8s): a resposta revela corretor(a) de [SEGMENTO];\n3) ESCADA (8-40s): 5-7 perguntas curtas que sobem a aposta — imóvel mais caro, spec impressionante, % vendido, unidades fechadas, comissão;\n4) FECHO: quem compra (perfil do comprador).\nMEUS DADOS: Cidade/segmento: [ ]. Imóvel-topo: [ + preço]. Spec de choque: [ ]. Tração: [% vendido / nº fechados]. Comissão média: [ ]. Perfil do comprador: [ ].\nTOM: perguntas secas, respostas com NÚMERO. Zero jargão de venda. A escalada é o gatilho.\nENTREGUE: 1) lista de perguntas na ordem de escalada; 2) respostas modelo; 3) local de gravação; 4) 5 hashtags; 5) legenda curta.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo viral imobiliário brasileiro. Crie um roteiro de vídeo no formato \"vox pop / entrevista de rua com escada de curiosidade\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. PERGUNTA-ISCA (0-3s): uma pergunta de rua genérica que parece um vox pop qualquer (\"Qual a sua profissão?\")\n2. VIRADA (3-6s): a resposta revela que é corretor(a) de [SEGMENTO] em [CIDADE] — reposiciona o vídeo pro mundo do luxo/investimento\n3. ESCADA DE 5 A 7 PERGUNTAS CURTAS (6-50s): cada pergunta sobe a aposta e é respondida SEMPRE com um número exato. Ordem sugerida: imóvel mais caro (+ preço) → spec superlativo do empreendimento → % vendido → quantas unidades você já fechou → qual a comissão → quem são os compradores\n4. FECHO (50-60s): perfil de quem compra (de onde vêm, estrangeiros, etc.) pra humanizar\n\n**Meus dados:**\n- Corretor(a) + @ + cidade: [NOME + @ + CIDADE]\n- Segmento: [EX.: alto padrão, MCMV, lançamentos, investimento]\n- Imóvel-topo + preço: [EX.: cobertura no Empreendimento X, R$XX milhões]\n- Spec de choque (verificável): [EX.: maior residencial do mundo / 550m / vista mar]\n- Tração real: [% vendido e/ou nº de unidades que você fechou]\n- Comissão média (defensável): [FAIXA — ex.: ~R$1 mi por unidade tipo]\n- Perfil do comprador: [DE ONDE VÊM / estrangeiros / investidores]\n\n**Regras de tom:**\n- Perguntas SECAS e curtas — o entrevistador quase some, quem carrega é a resposta com número\n- Todo número precisa ser real e verificável (comprador de alto padrão e concorrentes checam)\n- Zero vocabulário de venda (\"oportunidade\", \"condições especiais\") — é reportagem, não pitch\n- A comissão NÃO se esconde — é o pico de compartilhamento; contextualize (\"depende da unidade\")\n\n**Entregue:**\n1. A sequência de perguntas na ordem exata da escalada (5-7)\n2. As respostas-modelo (cada uma com o número em destaque)\n3. Sugestão de local de gravação reconhecível na cidade + prop de prova pra mostrar em cena\n4. 5 hashtags\n5. Legenda curta + resposta pronta pro comentário inevitável \"e o imposto/o custo disso tudo?\"",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance e descoberta** (topo de funil). É um dos formatos de maior teto viral porque entra disfarçado de entrevista genérica e o algoritmo distribui pra fora da bolha imobiliária.\n- Funciona em qualquer segmento — basta trocar a escala dos números. Alto padrão gera o choque; MCMV gera identificação (\"apê mais barato pra sair do aluguel\")."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[NÚMEROS]:** são o coração do formato. Cada resposta precisa de um número real e defensável. Sem número, a escada desmonta.\n- **[SPEC DE CHOQUE]:** escolha o dado mais superlativo e verificável do seu mercado (altura, vista, maior/mais caro da região). Grandiosidade batível vira credibilidade; bravata vira piada nos comentários.\n- **[COMISSÃO]:** o dado mais desconfortável é o mais poderoso. Decida a faixa que você topa expor e contextualize (\"depende da unidade\")."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se as perguntas vierem longas/explicativas:\n\n> \"Encurte as perguntas ao osso. O entrevistador quase não existe — quem carrega o vídeo é a resposta com número. Refaça em ping-pong seco.\"\n\nSe vier com cara de anúncio:\n\n> \"Tire todo vocabulário de venda. Isto é uma reportagem de rua. A pessoa está sendo entrevistada, não vendendo. Reescreva neutro.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Abrir já falando de luxo** — mata o efeito cavalo-de-troia que gera o alcance. A 1ª pergunta TEM que ser genérica.\n2. **Número inventado** — o público de alto padrão e os concorrentes checam. Um dado furado vira anti-marketing.\n3. **Fugir da comissão** — é o pico de compartilhamento. Quem esconde perde o melhor gatilho do formato.\n4. **Introdução/vinheta** — a primeira pergunta é o primeiro segundo. Qualquer abertura derruba a retenção."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Setup de \"repórter\": microfone (de preferência com logo/espuma da sua marca) + postura de entrevista.\n- Local reconhecível da cidade ao fundo (a orla, o skyline, o empreendimento). Dá lastro geográfico ao discurso.\n- Cortes secos entre cada pergunta e resposta. Legenda destacando UMA palavra-chave por corte (pra quem assiste sem som).\n- Tenha a prova física à mão (brochura, print de simulação) pra mostrar em cena no momento do número."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "229,2 mil curtidas e 9,9 mil compartilhamentos no original (@marlonwlourenco, Balneário Camboriú). O compartilhamento altíssimo vem do voyeurismo dos números — as pessoas mandam pro grupo com \"olha o tamanho dessa comissão\". Fixe nos comentários a resposta técnica pra pergunta \"quanto sobra de imposto disso?\" — é onde a autoridade aparece."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -32,7 +59,40 @@
     "link": "https://tiktok.com/@marlonwlourenco/video/7611963825713188103",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma entrevista de rua que se disfarça de conteúdo genérico e vira um thriller de números de luxo — cada resposta é um degrau que obriga a próxima pergunta."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-3s | Corretora de terninho preto na orla, microfone com logo \"ML\" apontado pra ela | \"Qual a sua profissão?\" | Hook genérico — parece vox pop qualquer, derruba a guarda do espectador |\n| 3-6s | Reação, corte seco | \"Corretora de imóveis de alto padrão em Balneário Camboriú\" | A virada: reposiciona o vídeo inteiro pro mundo do luxo |\n| 6-12s | Close no rosto, orla ao fundo | \"Qual o apê mais caro? — Cobertura triplex no Senna Tower, estimado em 320 milhões\" | Primeiro degrau: número-choque que ancora a escala |\n| 12-22s | Brochura física do empreendimento na mão (legenda \"550M\" / \"TEM\") | \"Maior residencial do mundo em construção — 550m, +157 pavimentos\" | Superlativo verificável — prova de grandiosidade, não bravata |\n| 22-32s | Rua movimentada, carros passando | \"Tem saído vendas? — Já 40% vendido / Você já vendeu? — Três unidades\" | Tração + prova social: é mercado real, não maquete |\n| 32-45s | Legenda \"COMISSÃO?\" em destaque | \"Qual a comissão? — Depende; unidades tipo a partir de 30 milhões, ~1 milhão de comissão\" | Clímax financeiro — o número que dispara o compartilhamento |\n| 45-60s | Legenda \"MORAM\", pedestres ao fundo | \"Quem compra? — Brasileiros de todo o país; tenho cliente americano, argentino\" | Fecho humanizador: quem é essa gente que move esse dinheiro |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Perguntas curtíssimas e secas** (\"Qual o valor?\", \"Tem saído venda?\", \"Qual a comissão?\") — o entrevistador some, quem carrega é a resposta.\n- **Toda resposta tem NÚMERO** (320 mi, 550m, 157 pavimentos, 40%, 3 unidades, ~1 mi de comissão). O número é a moeda da retenção e do compartilhamento.\n- **A escada é desenhada pra auto-alimentar a curiosidade:** caro? → quanto? → é real? → você mesma vendeu? → quanto ganha? → quem compra? Cada resposta abre a próxima pergunta na cabeça de quem assiste.\n- Zero vocabulário de venda (\"oportunidade\", \"condições\") — é reportagem, não pitch."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Setup de repórter** (microfone com logo da marca + terninho) empresta credibilidade jornalística — o cérebro processa como \"notícia\", não como anúncio.\n- **Balneário Camboriú reconhecível ao fundo** (a \"Dubai brasileira\") dá lastro geográfico ao discurso de alto padrão.\n- **Legenda destaca UMA palavra-chave por corte** (AQUI?, ESTIMADO, 550M, COMISSÃO?, MORAM) — âncora visual pra quem assiste sem som e marcador de ritmo.\n- **Brochura física do empreendimento** aparece como prop de prova no meio — tangibiliza o número absurdo."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Cortes secos entre pergunta e resposta**, sem introdução — ritmo de ping-pong que acelera a retenção.\n- Sem trilha dominante: a fala conduz. O silêncio entre pergunta e número cria micro-suspense."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Curiosidade em escada** — a estrutura mais forte de retenção: cada degrau exige o próximo.\n2. **Ancoragem de número absurdo** (R$320 mi) recalibra a percepção do espectador pro resto do vídeo.\n3. **Prova social** (40% vendido, 3 unidades fechadas) — tira do campo do sonho.\n4. **Voyeurismo financeiro** — a comissão real é o tabu que ninguém mostra; por isso é o pico de share.\n5. **Autoridade emprestada** — o enquadramento de imprensa legitima quem responde."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Começar já falando de luxo — mata o efeito \"cavalo de Troia\" que gera o alcance.\n- ❌ Esconder ou fugir da pergunta da comissão — é justamente o pico de compartilhamento.\n- ❌ Inventar números — comprador de alto padrão e concorrentes checam; um número furado vira anti-marketing.\n- ❌ Introdução ou vinheta — a primeira pergunta tem que ser o primeiro segundo."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escolha o par** entrevistador + corretor(a) (pode ser você entrevistando um colega, ou ser entrevistado). Microfone com logo ajuda.\n2. **Abra genérico:** a primeira pergunta tem que parecer vox pop de rua (\"Qual a sua profissão?\").\n3. **Monte a escada** de 5-7 perguntas que sobem a aposta: imóvel-topo (com preço) → spec superlativo → % vendido → nº que você fechou → comissão → perfil do comprador.\n4. **Responda sempre com número exato** e tenha a prova (brochura, print, simulação) à mão pra mostrar em cena.\n5. **Grave em local reconhecível** da sua cidade; corte seco entre cada pergunta e resposta; feche humanizando quem compra."
+     }
+    ],
     "transcricao": "Qual a sua profissão?\nEu sou corretora de imóveis de alto padrão em Balneário Camboriú.\nQual é o apartamento mais caro que tem aqui?\nHoje o apartamento à venda mais caro é uma cobertura triplex no Senna Tower.\nQual o valor?\nEle está estimado em 320 milhões de reais.\nÉ um empreendimento diferenciado, ele é o maior residencial do mundo em construção.\n550 metros de altura e mais de 157 pavimentos.\nTem saído vendas?\nSim, sim. O empreendimento já tem mais de 40% vendido.\nVocê já vendeu alguma unidade?\nEu já vendi três unidades.\nQual a comissão?\nEntão, é que depende o valor da unidade.\nEu vendi mansão, que na verdade é uma unidade bem exclusiva, e as unidades tipos.\nAs unidades tipos são a partir de 30 milhões, então em torno de um milhão de reais de comissão.\nOs compradores geralmente são brasileiros, estrangeiros?\nEles são brasileiros, mas não necessariamente moram aqui na região.\nSão de diversos locais do Brasil, mas tem.\nTenho cliente americano, tenho cliente argentino."
    }
   ],
@@ -95,12 +155,39 @@
   "desc": "Bastidor cronológico de um dia real de visitas, do preparo do imóvel ao fechamento.",
   "slug": "um-dia-comigo-no-mercado-imobiliario",
   "formato": {
+   "estrutura": "1. **[HOOK-CONVITE POV]** \"vem comigo acompanhar meu dia sendo corretor(a) em [LUGAR]\". → *slot: o convite.*\n2. **[MONTAGEM DO DIA]** 3-5 blocos intercalando desejo (imóvel/amenidade) + bastidor humano (café, deslocamento, marmita). → *slot: os momentos.*\n3. **[MÉTODO/DIFERENCIAL]** 1 detalhe do seu jeito de atender (chegar antes, preparar o ambiente). → *slot: o seu diferencial.*\n4. **[ARCO DA CLIENTE]** costurar a jornada de 1 cliente do dia (buscava X → gostou → vai fechar). → *slot: o mini-storytelling.*\n5. **[FECHO-ASSINATURA]** prova social (elogio) + despedida de série.\n\n- **Fixo:** POV 1ª pessoa; misturar luxo + mundano; arco de cliente com desfecho; tom de amiga, nunca de vendedora.\n- **Variável:** cidade, imóveis, cliente, construtoras.",
    "hook": "**\"Vem comigo acompanhar meu dia sendo corretora de imóveis em [cidade].\"** Convite em 1ª pessoa que promete acesso aos bastidores — o espectador vira \"sombra\" da corretora por um dia.",
    "blocos": "- **Convite (0-3s):** \"vem comigo\" + localização (Alphaville = âncora de padrão).\n- **Sequência cronológica (3-50s):** visita 1 → almoço de marmita (humaniza) → visitas da tarde → reunião de lançamento. Cada parada mostra um imóvel + um detalhe de método (\"chego antes, abro cortinas, jogo um cheirinho\").\n- **Prova de valor (fim):** cliente elogiou, \"vai ser a nova moradora\" — fecho de resultado sem vender.",
    "porque": "- **Bastidor gera intimidade:** ver o método (\"me imaginar morando ali\") posiciona a corretora como cuidadosa, não vendedora.\n- **A marmita no meio do luxo** é o detalhe que humaniza e prende — contraste entre o sonho vendido e a rotina real.\n- **Localização premium** (Alphaville) faz o algoritmo entregar pra público qualificado.",
    "aplicar": "- Grave um dia real de visitas, do preparo do imóvel ao fechamento — 4-5 paradas.\n- Insira 1 momento humano (almoço, trânsito, café) — é o que diferencia de tour frio.\n- Versão investidor: \"um dia captando imóvel pra Airbnb\".",
    "guia": "- Cronológico e curto por parada (3-6s cada) — o dia inteiro em 45s.\n- Sempre nomear o bairro/condomínio (SEO local + orgulho de região).\n- Fecho com um resultado real (\"cliente gostou\", \"fechamos\") — prova social suave.",
-   "prompt": "```\nVocê é roteirista de conteúdo imobiliário. Crie um roteiro \"um dia comigo\" (day-in-the-life) de corretor(a):\n1) CONVITE (0-3s): \"vem comigo... em [cidade/bairro premium]\"; 2) SEQUÊNCIA cronológica de 4-5 paradas (visita, preparo do imóvel, almoço humano, reunião de lançamento) com 1 detalhe de método por parada; 3) FECHO com resultado real.\nMEUS DADOS: Cidade/bairro: [ ]. Paradas do dia: [ ]. Detalhe de método (ex.: preparo o imóvel): [ ]. Momento humano: [ ]. Resultado do dia: [ ].\nTOM: 1ª pessoa, leve, bastidor. Nomear locais. Vender NADA — só mostrar.\nENTREGUE: 1) roteiro parada a parada com tempos; 2) textos de tela; 3) legenda; 4) 5 hashtags com cidade/bairro.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo de marca pessoal para corretores de imóveis. Crie um roteiro de vlog \"um dia comigo\" (day-in-the-life), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK-CONVITE POV (0-4s): \"Vem comigo acompanhar meu dia sendo corretor(a) em [LUGAR]\" — selfie, tom de amiga\n2. MONTAGEM DO DIA (4-80s): 3 a 5 blocos que intercalam DESEJO (visita a imóvel/amenidade) com BASTIDOR HUMANO (café, deslocamento, almoço de marmita). Use 1 cliente real do dia como fio condutor\n3. MÉTODO/DIFERENCIAL: mostre 1 detalhe do seu jeito de atender (ex.: chegar antes, abrir cortinas, preparar o ambiente pro cliente se imaginar morando)\n4. ARCO DA CLIENTE: costure a jornada dessa cliente (buscava X → gostou de Y → vai fechar)\n5. FECHO-ASSINATURA: prova social (um elogio, uma cliente que fechou) + despedida de série\n\n**Meus dados:**\n- Corretor(a) + @ + cidade/região: [NOME + @ + LUGAR]\n- Segmento e âncora de valor: [EX.: locação de alto padrão até R$25 mil, MCMV, lançamentos]\n- Cliente-fio-condutor do dia: [O QUE BUSCAVA + desfecho]\n- Imóveis/amenidades que aparecem: [LISTA CURTA]\n- Meu diferencial de atendimento: [O DETALHE QUE MOSTRA SEU CUIDADO]\n- Um momento humano/mundano do dia: [EX.: marmita, café, trânsito]\n\n**Regras de tom:**\n- 1ª pessoa, tom de amiga (\"vem comigo\", \"facilita minha vida\") — NUNCA institucional/vendedor\n- Misture luxo e mundano de propósito: é a combinação que gera confiança (acessível E competente)\n- O formato é sobre VOCÊ e o seu serviço; o imóvel é cenário, não o protagonista\n- Feche sempre o arco da cliente — sem desfecho o vlog perde o gancho\n\n**Entregue:**\n1. Roteiro em blocos com marcação de tempo e o que narrar em cada um\n2. Sugestão de b-roll a captar em cada bloco (imóvel + bastidor)\n3. Texto de capa/identidade da série\n4. 5 hashtags\n5. Ideia dos 2 próximos episódios da série (pra fidelizar seguidor)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **construir marca pessoal e vínculo** (base + conexão). Não é um formato de conversão direta — é o que faz o público confiar em VOCÊ e te indicar.\n- Ideal pra virar **série recorrente** (1 por semana). O reconhecimento da capa/assinatura traz o seguidor de volta e treina o algoritmo a entregar."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[CLIENTE-FIO-CONDUTOR]:** escolha 1 cliente real do dia com um mini-arco (buscava algo → viu opções → gostou/fechou). É o que dá começo-meio-fim ao vlog e segura a retenção.\n- **[DIFERENCIAL DE ATENDIMENTO]:** o detalhe do seu método é o que te vende sem pitch. Pense no que você faz que a maioria não faz (chegar antes, preparar o ambiente, um follow-up caprichado).\n- **[MOMENTO MUNDANO]:** não pule. A marmita, o trânsito, o café — é o que humaniza e derruba a barreira \"corretor de luxo é inacessível\"."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se a narração vier vendedora:\n\n> \"Reescreva no tom de amiga contando o dia pra alguém. Tire qualquer frase de venda. É um vlog, não um anúncio.\"\n\nSe ficar só tour de imóvel:\n\n> \"O protagonista é a corretora e o serviço dela, não o apartamento. Reequilibre: pra cada imóvel, um momento humano dela.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Transformar em tour de imóvel** — o formato é sobre a PESSOA. O imóvel é cenário.\n2. **Cortar o mundano** — sem o café/marmita/rotina, o vídeo fica arrogante e distante.\n3. **Não fechar o arco da cliente** — sem desfecho (\"vai ser a nova moradora\"), some o gancho que leva ao final.\n4. **Produção excessiva** — luz de estúdio e câmera profissional matam a autenticidade de POV. Selfie e luz natural vendem mais aqui."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- POV selfie / selfie-stick o dia todo. Enquadramento vertical, luz natural.\n- Capte b-roll curto de cada ambiente e amenidade + takes seus narrando.\n- Texto de capa handwritten com a assinatura da série (\"um dia comigo… em [lugar]\").\n- Trilha suave por baixo da narração contínua; corte rápido entre os momentos do dia."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Formato de vlog de alta retenção quando o arco da cliente é bem costurado. O ganho real não é curtida — é seguidor fiel e indicação: o público sente que já \"conhece\" a corretora. Responda cada comentário como quem conversa com amigo — isso multiplica o efeito parasocial que sustenta o formato."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -110,7 +197,40 @@
     "link": "https://tiktok.com/@julia_cavalheiro/video/7646111452931181844",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um \"day-in-the-life\" que vende a corretora antes do imóvel — a rotina caprichada (chegar antes, abrir cortinas, comer marmita) constrói confiança enquanto os apês de luxo entregam o desejo."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Selfie no carro, sorrindo; texto \"um dia comigo sendo corretora de imóveis em Alphaville\" | \"Vem comigo acompanhar meu dia sendo corretora em Alphaville\" | Hook-convite POV — promessa de bastidor, cria intimidade |\n| 4-15s | Tour do 1º apê decorado, selfie stick andando | \"Manhã começou com visita — cliente buscando apê pra locação moderno de até R$25 mil\" | Contexto + âncora de valor (locação de 25k sinaliza alto padrão sem arrogância) |\n| 15-28s | Abrindo cortinas, acendendo luzes no apê vazio | \"Gosto de chegar antes, abrir cortinas, acender luzes, jogar um cheirinho — o cliente precisa se sentir bem e se imaginar morando ali\" | O DIFERENCIAL: o método de atendimento — aqui ela vende a si mesma |\n| 28-40s | Vista, avenida ao lado; 2º apê do mesmo condomínio | \"Localização estratégica, ao lado da Rio Negro, a principal avenida\" | Critério profissional — mostra que entende o que importa |\n| 40-50s | POV no carro; menção à marmita | \"Pausa rápida pro almoço, como de marmita porque a rotina é corrida\" | Humanização — o bastidor mundano que gera relatabilidade |\n| 50-65s | Amenidades (quadra, spa, lounge); legenda \"super completo\" | \"Tarde: mais visitas, empreendimento da MPD; condomínio super completo, um clube particular\" | Desejo + autoridade (conhece as construtoras da região) |\n| 65-78s | Duas mulheres na janela olhando a vista | \"No coração de Alphaville, tudo perto; minha cliente gostou e vai ser a nova moradora\" | Fecho do arco da cliente — mini-storytelling com desfecho |\n| 78-89s | Reunião de lançamento; lounge; despedida | \"Conheci um lançamento — investidores compram na planta pra alugar; recebi um elogio da cliente. Beijo e até a próxima\" | Fecho: tese de investimento + prova social (elogio) + assinatura de série |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Narração em 1ª pessoa, tom de amiga** (\"vem comigo\", \"facilita minha vida\") — parasocial, não institucional.\n- **Mistura calculada de desejo + mundano:** apês de luxo e amenidades de clube ao lado de \"como de marmita\". É essa combinação que gera confiança — ela é acessível E competente.\n- **Arco narrativo de uma cliente** (\"buscava locação até 25k → gostou → vai ser a nova moradora\") dá começo-meio-fim ao vlog, o que segura a retenção até o final.\n- **O método de atendimento é o produto:** \"chego antes, abro cortinas, jogo cheirinho\" vende o SERVIÇO dela sem pitch nenhum."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **POV selfie / selfie-stick** — intimidade de \"você está comigo o dia todo\"; enquadramento vertical caseiro sinaliza autenticidade (produção demais mataria o formato).\n- **Luz natural dos apês decorados** carrega o desejo; b-roll dos ambientes e amenidades intercalado com os takes dela.\n- **Texto handwritten \"um dia comigo… em Alphaville\"** funciona como capa/identidade de série — o espectador reconhece e volta."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração contínua sobre trilha suave** — ritmo de vlog, montagem de vários momentos do dia costurados por voz.\n- A alternância imóvel→bastidor→imóvel mantém o interesse (nunca fica tempo demais em um só ambiente)."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Relatabilidade** — a marmita e a rotina corrida derrubam a barreira \"corretora de luxo é inacessível\".\n2. **Desejo aspiracional** — apês e amenidades de clube particular alimentam o sonho.\n3. **Autoridade suave** — o método de atendimento e o conhecimento das construtoras provam competência sem se gabar.\n4. **Prova social** — a cliente que \"vai ser a nova moradora\" e o elogio no fim validam o serviço.\n5. **Vínculo parasocial** — o POV \"vem comigo\" cria a sensação de amizade que gera seguidor fiel (e indicação)."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Virar só tour de imóvel — o formato é sobre VOCÊ (a pessoa/o serviço), o imóvel é cenário.\n- ❌ Esconder o mundano — a marmita/rotina é justamente o que humaniza; cortar isso deixa arrogante.\n- ❌ Narração vendedora/robótica — mata o tom de amiga que sustenta o formato.\n- ❌ Não fechar o arco da cliente — sem desfecho (\"vai fechar\", \"adorou\") o vlog perde o gancho de retenção."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o convite POV:** \"vem comigo acompanhar meu dia sendo corretor(a) em [LUGAR]\" — selfie, sorriso, texto de capa.\n2. **Escolha 1 cliente real do dia** como fio condutor: o que buscava, os imóveis que viu, o desfecho.\n3. **Intercale desejo + mundano:** apê/amenidade → um momento humano (café, deslocamento, marmita) → outro imóvel.\n4. **Mostre 1 detalhe do SEU método** de atendimento (chegar antes, preparar o ambiente) — é isso que te vende.\n5. **Feche com prova social** (elogio, cliente que fechou) + a assinatura de despedida da série."
+     }
+    ],
     "transcricao": "Vem comigo acompanhar meu dia sendo corretora de imóveis em Alphaville.\nAmanhã começou com visita, minha cliente estava buscando um apartamento para locação moderno de até R$25.000.\nEsse foi o primeiro apartamento que visitamos.\nEu gosto sempre de chegar antes, abrir as cortinas, acender as luzes, jogar um cheirinho,\nporque acredito que o cliente precisa se sentir bem e se imaginar morando ali.\nAlém de lindo, esse apartamento tem uma localização super estratégica,\nao lado da Rio Negro, a principal avenida de Alphaville.\nEssa foi a segunda opção, também no mesmo condomínio.\nDepois voltei pra casa e fiz uma pausa rápida pro almoço, mas como minha rotina é corrida, eu sempre como de marmita, facilita muito a minha vida.\nNo período da tarde, mais visitas.\nLevei a cliente pra conhecer outro empreendimento, esse da MPD, uma construtora bem reconhecida em Alphaville.\nE o condomínio simplesmente super completo, com quadra de tênis, quadra de beach tênis, salão de beleza, spa, realmente um clube particular.\nEsse apartamento era maior, com móveis planejados.\nE a localização é um grande diferencial.\nEsse apartamento fica bem no coração de Alphaville, com tudo perto.\nRestaurante, café, mercado, farmácia.\nMinha cliente gostou muito e logo mais vai ser a nova moradora de Alphaville.\nDepois fui pra uma reunião e conheci mais um produto de lançamento.\nOs investidores gostam de comprar na planta e depois colocar pra alugar.\nE pelo valor das locações dá pra entender porque tantas pessoas investem no mercado de Alphaville.\nPra fechar o dia, recebi um elogio da cliente.\nIsso é muito gratificante.\nE é isso. Beijo e até a próxima."
    }
   ],
