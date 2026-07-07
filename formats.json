@@ -5874,12 +5874,39 @@
   "desc": "Tese de valorização regional + lista de ofertas com desconto 'de/por'.",
   "slug": "cidade-regiao-como-tese-de-investimento",
   "formato": {
+   "estrutura": "1. **[HOOK-TESE DA REGIÃO]** \"invista na região mais valorizada, como [cidades]\". → *slot: a tese/região.*\n2. **[PORTFÓLIO DE DEALS]** vários imóveis com desconto (de X por Y). → *slot: os deals.*\n3. **[VARIEDADE]** opções pra vários bolsos/perfis. → *slot: as opções.*\n4. **[CTA]** contato pra condições. → *slot: o CTA.*\n\n- **Fixo:** tese da região como guarda-chuva; portfólio com desconto ancorado; variedade; CTA de contato.\n- **Variável:** a região, os imóveis, os preços.",
    "hook": "Tese de valorização regional + prova de ofertas com desconto: **\"Invista nas cidades que mais valorizam no Brasil — Balneário Camboriú, Itapema, Porto Belo.\"** + lista de imóveis com preço \"de/por\" (de 990 por 900 mil…). A tese macro + os descontos concretos combinam autoridade e oferta.",
    "blocos": "- **Tese regional (0-8s):** \"as cidades que mais valorizam — invista aqui\".\n- **Lista de ofertas com desconto (8-40s):** vários imóveis, cada um com preço \"de X por Y\" (abatimento visível).\n- **CTA (fim):** \"entre em contato pra descobrir valor e condições\".",
    "porque": "- **Tese macro dá autoridade** (você não vende 1 imóvel, vende uma região que valoriza).\n- **Preço \"de/por\"** cria percepção de oportunidade em cada linha.\n- **Volume de ofertas** comunica carteira robusta e opções pra todo bolso.",
    "aplicar": "- Corretor/imobiliária de uma região em valorização: \"invista em [cidade], veja por quê\" + lista de oportunidades.\n- Cada oferta com desconto real (de/por).\n- Fórmula: tese de valorização + prova de dados + carrossel de ofertas.",
    "guia": "- A tese de valorização tem que ter dados reais (índices, obras, tendência).\n- Descontos \"de/por\" reais (preço cheio inflado é problema).\n- Variedade de faixas de preço amplia o público.\n- CTA de contato pra qualificar por interesse/orçamento.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário de investimento regional. Crie um anúncio \"cidade como tese\":\n1) TESE REGIONAL (0-8s): \"invista em [cidades] que mais valorizam\"; 2) LISTA de ofertas com preço \"de/por\"; 3) CTA de contato pra valor/condições.\nMEUS DADOS: Região + dados de valorização: [ ]. Lista de imóveis com desconto de/por: [ ]. Público: [ ].\nTOM: autoridade macro + oportunidade concreta. Dados reais. Descontos reais. Variedade de faixas.\nENTREGUE: 1) roteiro; 2) copy com a tese; 3) a lista de ofertas formatada; 4) headline; 5) CTA.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de investimento imobiliário. Crie o roteiro de \"cidade/região como tese de investimento + portfólio\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK-TESE DA REGIÃO (0-6s): \"invista na(s) cidade(s) que mais valoriza(m), como [cidades]\"\n2. PORTFÓLIO DE DEALS: vários imóveis com desconto ancorado (\"de X por Y\")\n3. VARIEDADE: opções pra diferentes bolsos/perfis (apê, casa, comercial, lançamento)\n4. CTA: contato pra descobrir o valor e as condições especiais\n\n**Meus dados:**\n- Imobiliária + @: [NOME + @]\n- A região-tese + as cidades: [A ÁREA QUE VALORIZA]\n- O portfólio (imóveis com de-por): [LISTE COM PREÇOS RISCADOS]\n- A variedade de perfis: [FAIXAS/TIPOS]\n\n**Regras de tom:**\n- Venda a TESE da região (macro) antes do imóvel (micro)\n- Cada card com âncora de desconto (\"de X por Y\")\n- Variedade organizada por faixa/perfil (não confunda)\n- CTA de contato (valor final na conversa gera lead)\n\n**Entregue:**\n1. O roteiro (tese → portfólio → variedade → CTA)\n2. O padrão de card (preço riscado, badge, código)\n3. A frase-tese da região\n4. O CTA\n5. Sugestão de segmentação do anúncio",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **captação de investidor/comprador** de uma região em valorização (litoral, cidade em crescimento) via tráfego pago.\n- Ideal pra imobiliária com portfólio amplo na mesma região — vende a área e mostra as oportunidades."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A TESE]:** a região que valoriza (macro). É o guarda-chuva que dá credibilidade antes do imóvel.\n- **[O PORTFÓLIO]:** vários imóveis com âncora de desconto (\"de X por Y\"). A abundância de deals é a prova de oportunidade.\n- **[A VARIEDADE]:** faixas/perfis diferentes pra capturar mais leads no mesmo anúncio."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se focar num imóvel só:\n\n> \"Comece pela TESE da região (a área que mais valoriza) e depois desfile o portfólio. Macro (a região) antes de micro (o imóvel) dá mais credibilidade.\"\n\nSe os cards vierem sem âncora:\n\n> \"Adicione o 'de X por Y' em cada card. O desconto ancorado é o gatilho de oportunidade que faz o lead pedir mais.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Vender só um imóvel** — a força é a tese da região + a variedade.\n2. **Cards sem desconto** — o \"de X por Y\" é o gatilho de oportunidade.\n3. **Variedade confusa** — organize por faixa/perfil.\n4. **Sem CTA de contato** — o portfólio existe pra gerar a conversa."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Capa de tese + montagem rápida de cards padronizados (preço riscado, badge, código). Apresentador no fecho.\n- Narração de oferta em ritmo acelerado. Branding consistente."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de captação — a tese da região atrai o investidor, e o portfólio com descontos gera múltiplos pontos de interesse. Deixar o valor final pra conversa maximiza o lead. Segmente por interesse em investimento/litoral."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -5889,7 +5916,40 @@
     "link": "https://www.facebook.com/ads/library/?id=2057545875053154",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Invista nas cidades mais valorizadas do Brasil\" — a tese não vende UM imóvel, vende a REGIÃO como oportunidade, e depois desfila um portfólio de deals com desconto."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-6s | Capa \"Invista nas cidades MAIS VALORIZADAS do Brasil\" + BC/Itapema/Porto Belo | \"Invista nas cidades mais valorizadas do Brasil: Balneário Camboriú, Itapema, Porto Belo\" | Hook-tese: a REGIÃO como oportunidade (não um imóvel) |\n| 6-35s | Montagem de cards com preço cortado | \"Apê pronto de 990 por 900 / de 950 por 800 / de 530 por 480 / casa+sala de 1,9mi por 1,8 / alto padrão de 750 por 430\" | Portfólio de deals — cada card um desconto (prova de oportunidade) |\n| 35-44s | Apresentador | \"Entre em contato pra descobrir o valor e as condições especiais\" | CTA |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A tese da região é o guarda-chuva:** vender \"a área que mais valoriza\" é macro e credível — posiciona antes de qualquer imóvel específico.\n- **O portfólio de deals com desconto** (de X por Y) é a prova/oferta — cada card ancora com um preço riscado.\n- **A variedade** (de R$480 mil a R$1,8 mi, apê/casa/comercial/lançamento) captura vários bolsos e perfis num único anúncio.\n- **CTA de contato** pra condições fecha (deixa o preço final pra conversa = gera lead)."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Capa de tese** + **montagem rápida de cards** de imóveis (preço riscado, badges \"pronto pra morar\", código do imóvel).\n- **Apresentador no fecho** humaniza e conduz ao CTA.\n- **Branding GLF** consistente; padrão de \"vitrine de oportunidades\"."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração de oferta** listando os deals em ritmo acelerado.\n- A montagem de cards cria a sensação de \"abundância de oportunidades\"."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Tese de região** — macro (a área valoriza) dá credibilidade antes do micro (o imóvel).\n2. **Ancoragem / desconto** — \"de X por Y\" em cada card ativa o senso de oportunidade.\n3. **Variedade** — vários preços/perfis aumentam a chance de encaixar com o lead.\n4. **FOMO de valorização** — \"as cidades que mais valorizam\" cria urgência.\n5. **CTA de contato** — deixar o valor final pra conversa gera lead qualificado."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Vender só um imóvel — a força é a TESE da região (macro) + a variedade.\n- ❌ Cards sem desconto/âncora — o \"de X por Y\" é o gatilho de oportunidade.\n- ❌ Variedade demais sem clareza — organize por faixa/perfil pra não confundir.\n- ❌ Sem CTA de contato — o portfólio existe pra gerar a conversa."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com a tese da região** (\"invista na área que mais valoriza, como [cidades]\").\n2. **Desfile um portfólio de deals** com desconto ancorado (de X por Y) em cada card.\n3. **Ofereça variedade** de faixas/perfis (apê, casa, comercial, lançamento).\n4. **Feche com CTA de contato** pras condições (o valor final na conversa).\n5. Padronize os cards (preço riscado, badge, código) pra escanear rápido."
+     }
+    ],
     "transcricao": "Invista nas cidades mais valorizadas do Brasil, como Balneário Camboriú, Itapema e Porto Belo.\nApartamento pronto para morar de R$ 990,00 por R$ 900,00.\nApartamento pronto para morar de R$ 950,00 por R$ 800,00.\nApartamento pronto para morar de R$ 530,00 por R$ 480,00.\nApartamento pronto para morar de R$ 950,00 por R$ 900,00.\nCasa mais sala comercial de 1 milhão e 900 por 1 milhão e 800.\nLançamento de alto padrão de 750 por 430 mil.\nEntre em contato para descobrir o valor e as condições especiais desse imóvel."
    }
   ],
@@ -6056,12 +6116,39 @@
   "desc": "Expõe a dor oculta do investidor iniciante + a solução do produto + prova de valorização.",
   "slug": "tese-de-antecipacao-de-mercado",
   "formato": {
+   "estrutura": "1. **[HOOK QUALIFICADOR]** \"você quer [objetivo do investidor]?\". → *slot: o objetivo.*\n2. **[O INSIDER]** \"eu sei uma coisa que ninguém te conta\" — a dor escondida. → *slot: o segredo.*\n3. **[A SOLUÇÃO]** o empreendimento que resolve a dor. → *slot: o produto.*\n4. **[A ANTECIPAÇÃO]** o dado de valorização/entrar cedo. → *slot: a valorização.*\n5. **[CTA]** fale com corretor. → *slot: o CTA.*\n\n- **Fixo:** hook qualificador; a revelação insider (a dor escondida); a solução que resolve; a antecipação (valorização); CTA.\n- **Variável:** o objetivo, a dor, o empreendimento.",
    "hook": "Alerta de investidor + segredo que \"ninguém conta\": **\"Você quer comprar imóvel na praia pra ter renda extra? Eu sei uma coisa que ninguém te conta: quem compra pra alugar sozinho na temporada vai ter que anunciar, receber, limpar, manter você mesmo.\"** Expõe a dor oculta e apresenta a solução (empreendimento tipo resort/spa, 100m da praia, 25% de valorização no 1º ano).",
    "blocos": "- **Pergunta do investidor + segredo (0-10s):** \"quer renda extra na praia? Ninguém te conta que…\".\n- **A dor oculta (10-25s):** a operação de aluguel sozinho é trabalhosa (anunciar, limpar, manter).\n- **A solução + prova (25-45s):** empreendimento com estrutura que resolve isso + valorização de 25% no 1º ano.\n- **CTA (fim):** \"fale com um corretor pra todas as informações e formas de pagamento\".",
    "porque": "- **Expor a dor oculta** (\"você vai ter que limpar e receber hóspede\") posiciona o corretor como quem entende de verdade.\n- **Tese de antecipação** (\"o mercado ainda não percebeu\") cria FOMO de chegar cedo.\n- **Prova de valorização** ancora o retorno.",
    "aplicar": "- Qualquer investimento onde há uma dor/armadilha que o investidor iniciante não vê.\n- Fórmula: pergunta do investidor + \"o que ninguém conta\" + a solução do seu produto + prova.\n- Ótimo pra imóveis de temporada/investimento com gestão inclusa.",
    "guia": "- A dor oculta tem que ser real (o investidor vai reconhecer).\n- A solução tem que resolver de fato a dor apontada.\n- Valorização com fonte/base (não número inventado).\n- CTA de conversa pra qualificar o investidor.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário de investimento. Crie um anúncio \"tese de antecipação / dor oculta\":\n1) PERGUNTA DO INVESTIDOR + SEGREDO (0-10s): \"quer [objetivo]? Ninguém te conta que…\"; 2) A DOR OCULTA que o iniciante não vê; 3) SOLUÇÃO do seu produto + prova de retorno; 4) CTA de conversa.\nMEUS DADOS: Objetivo do investidor: [ ]. A dor oculta: [ ]. Como meu produto resolve: [ ]. Prova de valorização: [ ].\nTOM: alerta de quem entende, FOMO de antecipação. Dor real. Solução verdadeira. Retorno com base.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) a dor oculta bem formulada; 5) CTA.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de captação de investidor. Crie o roteiro de \"tese insider de antecipação\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK QUALIFICADOR (0-4s): \"você quer [objetivo do investidor]?\" (filtra o alvo certo)\n2. O INSIDER: \"eu sei uma coisa que ninguém te conta\" — a dor escondida do caminho comum\n3. A SOLUÇÃO: o empreendimento que elimina exatamente essa dor\n4. A ANTECIPAÇÃO: o dado de valorização / entrar cedo (ex.: X% no primeiro ano)\n5. CTA: fale com nossos corretores (informações + formas de pagamento)\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O objetivo do investidor: [EX.: renda extra na praia]\n- A dor escondida do caminho comum: [O TRABALHO/RISCO QUE NINGUÉM CONTA]\n- O empreendimento (a solução): [O PRODUTO QUE RESOLVE]\n- O dado de antecipação: [A VALORIZAÇÃO / porque entrar cedo]\n\n**Regras de tom:**\n- Agite a dor escondida ANTES de apresentar a solução (o \"ninguém te conta\" cria a necessidade)\n- A solução tem que resolver exatamente a dor apresentada (encaixe)\n- O dado de valorização precisa ser real e defensável (investidor confere)\n- Hook qualificador filtra o alvo; CTA de conversa (formas de pagamento)\n\n**Entregue:**\n1. O roteiro (hook → insider → solução → antecipação → CTA)\n2. A frase-insider (\"o que ninguém te conta\")\n3. A dor escondida bem construída\n4. O CTA\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **captação de investidor** (litoral, renda de aluguel, valorização) via tráfego pago. O \"insider\" atrai quem quer vantagem informacional.\n- Ideal quando o empreendimento resolve uma dor real do investimento comum (gestão, risco) e tem um dado de valorização defensável."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A DOR ESCONDIDA]:** o que \"ninguém conta\" sobre o caminho comum (o trabalho de auto-gerenciar, o risco). É o que cria a necessidade.\n- **[A SOLUÇÃO]:** o empreendimento tem que resolver EXATAMENTE essa dor (gestão inclusa, resort). O encaixe é o argumento.\n- **[A ANTECIPAÇÃO]:** o dado de valorização (X% no 1º ano) — real e defensável, é o FOMO + a prova de retorno."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se apresentar a solução direto:\n\n> \"Agite a dor escondida ANTES ('o que ninguém te conta'). Sem criar o problema, a solução não tem força. Problema → agitação → solução.\"\n\nSe a valorização vier inflada:\n\n> \"Use um dado de valorização real e defensável. Investidor confere; número furado destrói a credibilidade e o lead.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Solução sem agitar a dor** — o \"ninguém te conta\" cria a necessidade.\n2. **Valorização inflada** — o investidor confere; precisa ser defensável.\n3. **Hook genérico** — a pergunta qualificadora filtra o alvo.\n4. **Sem CTA de conversa** — o investidor decide na negociação."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Corretora no contexto (praia/local do investimento) + render do empreendimento. Legendas de fala.\n- Tom de conselho de insider. Estrutura problema → agitação → solução → CTA."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de captação de investidor — o \"insider\" atrai e qualifica, a dor escondida cria a necessidade, e a antecipação (valorização) fecha. O CTA de formas de pagamento gera a conversa onde o investidor decide. Segmente por interesse em investimento/renda."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -6071,7 +6158,40 @@
     "link": "https://www.facebook.com/ads/library/?id=1466467761433909",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Eu sei uma coisa que ninguém te conta\" — a tese insider expõe o trabalho escondido do investimento comum e posiciona o empreendimento certo como a antecipação inteligente."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Corretora na praia | \"Você quer comprar um imóvel na praia pra ter uma renda extra?\" | Hook qualificador — filtra o investidor certo |\n| 4-15s | Fala | \"Eu sei uma coisa que ninguém te conta: quem compra pra alugar sozinho na temporada tem que anunciar, receber hóspede, limpar, manter\" | O insider — a dor escondida do investimento comum |\n| 15-30s | Render do empreendimento (resort/spa) | \"Estou apresentando um empreendimento a 100m da praia, tipo resort/spa, com valorização de 25% no primeiro ano\" | A solução (o produto que elimina a dor) + a antecipação (25% no 1º ano) |\n| 30-38s | Escritório | \"Interessado? Fale com nossos corretores pra todas as informações e formas de pagamento\" | CTA |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Hook qualificador** (\"quer renda extra na praia?\") filtra o investidor — quem responde \"sim\" mentalmente está no alvo.\n- **A revelação insider** (\"ninguém te conta\") expõe a dor escondida (o trabalho de auto-gerenciar o aluguel) — cria o problema que o produto resolve.\n- **A solução** (empreendimento gerenciado tipo resort) elimina exatamente a dor apresentada — encaixe perfeito.\n- **A antecipação** (\"25% de valorização no 1º ano\") é o gatilho de entrar cedo (FOMO + retorno).\n- **CTA de corretor** pra formas de pagamento fecha."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Corretora na praia** (contexto do investimento) — coerência total com a oferta.\n- **Render do empreendimento** materializa a solução.\n- **Legendas de fala** (retenção + sem som)."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Tom de conselho de insider** — de quem \"sabe das coisas\" e está te avisando.\n- Ritmo problema → agitação → solução → CTA (estrutura clássica de conversão)."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Insider / segredo** — \"ninguém te conta\" ativa a curiosidade e a sensação de vantagem.\n2. **Dor escondida** — o trabalho do aluguel comum (limpar, receber) agita o problema.\n3. **Solução encaixada** — o produto resolve exatamente a dor apresentada.\n4. **Antecipação / valorização** — \"25% no 1º ano\" é FOMO + prova de retorno.\n5. **Qualificação** — o hook filtra o investidor certo (lead qualificado)."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Apresentar a solução sem agitar a dor — o \"ninguém te conta\" é o que cria a necessidade.\n- ❌ Valorização inflada/irreal — o dado (25%) precisa ser defensável (investidor confere).\n- ❌ Hook genérico — a pergunta qualificadora filtra o alvo certo.\n- ❌ Sem CTA de conversa — o investidor decide na negociação (formas de pagamento)."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o hook qualificador** (\"você quer [objetivo do investidor]?\").\n2. **Revele o insider** (\"eu sei uma coisa que ninguém te conta\") — a dor escondida do caminho comum.\n3. **Apresente a solução** que elimina exatamente essa dor.\n4. **Ancore na antecipação** (o dado de valorização / entrar cedo).\n5. **Feche com CTA de corretor** (informações + formas de pagamento). Dado de valorização sempre defensável."
+     }
+    ],
     "transcricao": "Você quer comprar um imóvel na praia para ter uma renda extra?\nEu sei uma coisa que ninguém te conta.\nInvestidor que compra apartamento na praia para alugar sozinho na temporada mensal,\nele mesmo vai ter que anunciar, receber hóspede, limpar, manter.\nEstou apresentando para você um empreendimento apenas 100 metros da praia.\nÉ um tipo resort spa com índice de valorização de 25% logo no primeiro ano.\nFicou interessado? Entre em contato, fale com um dos nossos corretores que nós vamos passar para você todas as informações e todas as formas de pagamento."
    }
   ],
