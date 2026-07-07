@@ -4099,12 +4099,39 @@
   "desc": "Jornada real de aprovação de financiamento, com os perrengues e a reviravolta.",
   "slug": "case-de-reversao",
   "formato": {
+   "estrutura": "1. **[HOOK: O OBSTÁCULO + REVERSÃO]** \"meu [obstáculo temido] aconteceu, como reverti?\" + série. → *slot: o obstáculo.*\n2. **[O PROBLEMA DETALHADO]** o que deu errado, específico (números + causa). → *slot: o problema.*\n3. **[A REVERSÃO]** como superou (a virada). → *slot: a solução.*\n4. **[A VULNERABILIDADE HONESTA]** o perrengue que ainda ficou. → *slot: a honestidade.*\n5. **[GANCHO DE SÉRIE]** \"parte 2\". → *slot: a continuação.*\n\n- **Fixo:** obstáculo universal/temido; storytime honesto e detalhado; vulnerabilidade real; série.\n- **Variável:** o obstáculo, os detalhes, a reversão.",
    "hook": "Emoção + reviravolta real da aprovação: **\"Vou comprar um apê pronto, meu financiamento da Caixa acabou de ser aprovado, mas ainda tô em choque… ele não foi aprovado de cara.\"** A montanha-russa (aprovado → mas quase não → e ainda teve pegadinha) prende quem está no mesmo processo.",
    "blocos": "- **A vitória + o \"mas\" (0-10s):** aprovado, mas não foi simples.\n- **O obstáculo real (10-30s):** demorou 20+ dias; uma \"dívida\" de R$3.000 no cartão (na verdade parcelamento de viagem) travou; teve que quitar.\n- **A pegadinha final (30-50s):** aprovou menos do que precisava → entrada ficou maior → o dinheiro da mobília virou entrada → \"fiquei zerada, e isso me assusta\".",
    "porque": "- **Vivência real com emoção** (chorou de felicidade + medo de ficar zerada) = identificação total de quem vai comprar.\n- **Mostra os obstáculos que ninguém conta** (parcelamento aparece como dívida, valor aprovado a menor) — utilidade + prova.\n- **Gera dúvidas reais nos comentários** = leads pra corretor que responde.",
    "aplicar": "- Documente (com autorização) a jornada real de um cliente do \"não\" ao \"sim\", com os perrengues.\n- Ou o corretor narra o processo típico com os obstáculos comuns e como resolver.\n- Fórmula: vitória + obstáculo real + pegadinha + o que aprendeu.",
    "guia": "- Emoção real, obstáculos verdadeiros (o valor está em não maquiar).\n- Nomeie os perrengues comuns (registrato, valor aprovado a menor, prazos).\n- Se for corretor, ofereça a solução de cada obstáculo (posiciona como quem resolve).\n- CTA de \"tá passando por isso? me chama\".",
-   "prompt": "```\nVocê é corretor(a)/comprador narrando uma jornada de financiamento. Crie um vídeo \"case de reversão\":\n1) VITÓRIA + \"MAS\" (0-10s): \"foi aprovado, mas não foi simples\"; 2) OBSTÁCULO real (o que travou e como resolveu); 3) PEGADINHA final (valor a menor, entrada maior) + o aprendizado.\nMEUS DADOS: A jornada (do não ao sim): [ ]. Obstáculos reais: [ ]. A pegadinha: [ ]. Solução/aprendizado: [ ].\nTOM: emoção real + transparência dos perrengues. Nomear os obstáculos comuns. Oferecer solução.\nENTREGUE: 1) roteiro; 2) legenda; 3) 5 hashtags; 4) CTA; 5) resposta modelo pras dúvidas nos comentários.\n```"
+   "prompt": "Você é um roteirista especialista em storytelling vulnerável para redes. Crie um roteiro de \"case de reversão\" (superar um obstáculo, em série), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: O OBSTÁCULO + REVERSÃO (0-5s): \"meu [obstáculo temido] aconteceu, como reverti?\" + marque \"Parte 1\"\n2. O PROBLEMA DETALHADO: o que deu errado, específico e com números (a causa real)\n3. A REVERSÃO: como você superou (a virada), com a montanha-russa emocional\n4. A VULNERABILIDADE HONESTA: o perrengue que ainda ficou (o que dói de verdade)\n5. GANCHO DE SÉRIE: \"na Parte 2 eu conto…\"\n\n**Meus dados:**\n- Autor + @: [NOME + @]\n- O obstáculo temido: [EX.: financiamento negado, aprovação, documentação]\n- O problema real + causa: [O QUE DEU ERRADO E POR QUÊ]\n- Como reverteu: [A SOLUÇÃO]\n- O que ainda dói: [A VULNERABILIDADE HONESTA]\n\n**Regras de tom:**\n- O obstáculo precisa ser o medo UNIVERSAL do nicho (todo comprador teme)\n- Detalhe o problema real (os números, a causa) — os detalhes geram identificação\n- Não esconda a vulnerabilidade (o medo, o perrengue que ficou) — é a conexão\n- Tom de desabafo com uma amiga; marque a série\n\n**Entregue:**\n1. O roteiro (hook → problema → reversão → vulnerabilidade → gancho)\n2. A legenda de tema fixa (o gancho na tela)\n3. A frase de hook + o gancho de série\n4. 5 hashtags\n5. O esboço da Parte 2 (o desfecho)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **conexão + alcance** com compradores de primeira viagem. O medo universal (financiamento, aprovação) atrai quem está na jornada; a superação dá esperança e utilidade.\n- Ideal em **série** (Parte 1, 2…) — a montanha-russa emocional segura o público entre episódios."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O OBSTÁCULO]:** o medo específico e universal do nicho (financiamento negado, documentação, aprovação). Quanto mais temido, mais retém.\n- **[OS DETALHES]:** conte o problema real com números e causa (a \"dívida\" que era parcelamento). Os detalhes geram identificação.\n- **[A VULNERABILIDADE]:** o que ainda dói (ficar zerada, o medo). É a conexão — sem ela, é só um \"case de sucesso\" frio."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se contar só a vitória:\n\n> \"Inclua a jornada honesta: o obstáculo detalhado e o perrengue que ficou. A vulnerabilidade (o medo real) é o que conecta, não o final feliz.\"\n\nSe o obstáculo vier genérico:\n\n> \"Use o medo específico e universal do comprador (financiamento negado, aprovação). Genérico não gera a identificação que prende.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Contar só a vitória** — o valor está na jornada honesta.\n2. **Esconder a vulnerabilidade** — o medo real é a conexão.\n3. **Obstáculo genérico** — precisa ser o medo específico do nicho.\n4. **Sem gancho de série** — perde a audiência que quer o desfecho."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Talking head íntimo (quarto, casual) — tom de desabafo com amiga. Legenda de tema fixa (o gancho).\n- Fala natural que acompanha a emoção. Marque a série (Parte 1/2). Feche com gancho."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta retenção (o medo universal prende) + conexão profunda (a vulnerabilidade) + retorno pela série. O público salva pra \"saber o que fazer se acontecer comigo\". Responda os \"como você quitou a dívida?\" — utilidade que vira autoridade e mais alcance."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -4114,7 +4141,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Meu financiamento foi negado, como reverti?\" — um storytime vulnerável de superar o obstáculo que assombra todo comprador, contado com honestidade sobre os perrengues reais."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-5s | Talking head; legenda de tema \"Meu financiamento da CAIXA não foi aprovado, como reverti? / Comprando um apê pronto sozinha / Parte 1\" | \"Vou comprar um apê pronto, meu financiamento acabou de ser aprovado, mas ainda tô em choque\" | Hook: o obstáculo universal (financiamento negado) + a reversão + série |\n| 5-25s | Gesticulando | \"Demorou 20+ dias. Não foi aprovado de cara: uma 'dívida' de 3 mil no cartão (era parcelamento de viagem) que tive que quitar\" | O obstáculo detalhado — o problema real e específico |\n| 25-45s | Emocionada | \"Recebi a notícia da aprovação e chorei de felicidade. Mas descobri que veio menos do que eu precisava\" | A reversão parcial — a montanha-russa emocional |\n| 45-69s | Fala íntima | \"A entrada ficou maior, o dinheiro da mobília virou entrada, fiquei zerada. Pra mim, que sempre tenho reserva, ficar zerada me assusta\" | A vulnerabilidade honesta (o perrengue continua) + gancho pra Parte 2 |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook ataca um medo universal** — \"financiamento negado\" é o pesadelo de todo comprador de primeira viagem; ninguém que está nessa jornada pula esse vídeo.\n- **Storytime honesto e específico** (a \"dívida\" que era parcelamento de viagem, o choro, o valor a menos) — os detalhes reais são o que geram identificação.\n- **Vulnerabilidade financeira** (\"ficar zerada me assusta\") — a honestidade sobre o medo é o que conecta.\n- **Série (Parte 1/2)** mantém a audiência e sinaliza que há mais da história.\n- **A jornada emocional** (choque → choro → susto) é a estrutura que segura até o fim."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Talking head íntimo** (quarto, regata, close) — tom de desabafo com uma amiga.\n- **Legenda de tema fixa** o vídeo todo (o gancho \"como reverti?\" sempre na tela).\n- Produção mínima — a autenticidade da história é o valor."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala de confidência**, ritmo natural que acompanha a emoção (acelera na euforia, pausa no medo).\n- Sem trilha dominante; a narrativa conduz."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Medo universal** — o financiamento negado é a dor que todo comprador teme; retenção garantida pra quem está na jornada.\n2. **Reversão / superação** — \"como reverti?\" promete a solução (utilidade + esperança).\n3. **Vulnerabilidade** — admitir o medo de \"ficar zerada\" gera conexão profunda.\n4. **Série** — Parte 1/2 cria hábito de acompanhar.\n5. **Utilidade** — o \"o que fazer se acontecer com você\" é o que faz salvar e seguir."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Contar só a vitória — o valor está na jornada honesta (o obstáculo + o perrengue que ficou).\n- ❌ Esconder a vulnerabilidade — o medo real (\"fiquei zerada\") é o que conecta.\n- ❌ Obstáculo genérico — precisa ser o medo específico e universal do nicho (financiamento, aprovação).\n- ❌ Sem gancho de série — perde a audiência que quer o desfecho."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o obstáculo temido + a reversão:** \"meu [medo universal] aconteceu, como reverti?\" + marque a série.\n2. **Detalhe o problema real** (específico, com os números e a causa) — é o que gera identificação.\n3. **Conte a reversão** (como superou) com a montanha-russa emocional.\n4. **Seja honesto sobre o que ainda dói** (o perrengue que ficou) — a vulnerabilidade é a conexão.\n5. **Feche com gancho de série** (\"na parte 2 eu conto…\"). Tom de desabafo com uma amiga."
+     }
+    ],
     "transcricao": "Eu vou comprar um apartamento já pronto, meu financiamento da caixa acabou de ser aprovado,\nmas eu ainda tô em choque, eu ainda não quero minha ficha, sabe?\nBasicamente, demorou cerca de mais de 20 dias pro meu financiamento ser aprovado.\nNão, ele não foi aprovado de cara por alguns motivos.\nE o primeiro deles foi uma dívida no meu cartão de crédito de 3 mil reais\nque estava aparecendo no meu registrado.\nNa verdade, não era uma dívida, era um parcelamento de uma viagem que eu fiz.\nEntão, eram parcelas a vencer.\nEntão, eu tive que quitar pra, né, eles me aprovarem.\nE, gente, eu recebi essa notícia e na hora eu chorei, eu fiquei muito emocionada, eu fiquei muito feliz.\nMas na sequência, eu descobri que eu não consegui o financiamento do valor ao qual eu precisava,\nque eu tava contando ali.\nVeio um valor a menos, alguns mil a menos.\nOu seja, o valor da minha entrada ficou maior do que eu estava esperando.\nE aí, o dinheiro que eu tinha guardado pra, tipo, dar uma mobiliada ali, uma ajeitada no apartamento antes de me mudar,\nagora é tudo da entrada e eu fico zerada.\nTurupão.\nE aí, pra mim, que vivo tendo muita responsabilidade financeira,\njuntando dinheiro, sempre tendo uma reserva de emergência,\ne ficar zerada é uma coisa que me atormenta, me assusta muito."
    }
   ],
