@@ -113,7 +113,10 @@ main{padding:30px 0 80px}
 .overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);backdrop-filter:blur(8px);z-index:50;overflow-y:auto}
 .overlay.open{display:block}
 .modal{max-width:820px;margin:22px auto;background:var(--modalbg);border:1px solid var(--bd2);border-radius:20px;overflow:hidden}
-.mhead{padding:24px 26px 18px;border-bottom:1px solid var(--bd)}
+.mhead{position:relative;padding:24px 26px 20px;border-bottom:1px solid var(--bd);overflow:hidden;background:var(--modalbg)}
+.mhead-bg{position:absolute;inset:0;z-index:0;background:url("assets/hero-bg.jpg") right center/cover no-repeat}
+.mhead-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0b0b0b 6%,rgba(11,11,11,.9) 30%,rgba(11,11,11,.5) 60%,rgba(11,11,11,.55) 100%),linear-gradient(0deg,#0b0b0b 2%,transparent 55%)}
+.mhead>.mtop,.mhead>.mdesc,.mhead>.mmeta{position:relative;z-index:1}
 .mhead .mtop{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}
 .mnum{font-size:12px;font-weight:900;letter-spacing:.04em;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .mhead h2{font-size:clamp(22px,3.6vw,29px);font-weight:900;letter-spacing:-.025em;line-height:1.12;margin-top:5px}
@@ -237,6 +240,7 @@ footer{border-top:1px solid var(--bd);padding:24px 0 46px;color:var(--tx3);font-
 
 <div class="overlay" id="overlay"><div class="modal">
   <div class="mhead">
+    <div class="mhead-bg"></div>
     <div class="mtop"><div style="min-width:0"><span class="mnum" id="m-num"></span><h2 id="m-title"></h2></div><button class="close" onclick="closeModal()">×</button></div>
     <p class="mdesc" id="m-desc"></p><div class="mmeta" id="m-meta"></div>
   </div>
@@ -318,7 +322,7 @@ function openModal(id){
   $("m-num").textContent="FORMATO "+pad(cur.num);
   $("m-title").textContent=cur.nome;$("m-desc").textContent=cur.desc||"";
   $("m-meta").innerHTML=`<span class="mc">${cur.tipo==="organico"?"Orgânico":"Anúncio"}</span>${(cur.objetivos||[]).map(x=>`<span class="mc">${x}</span>`).join("")}<span class="mp">📱 ${cur.plataforma}</span><span class="mp">${cur.status==="confirmado"?"🟢 confirmado":"🟡 candidato"}</span>`;
-  $("m-tabs").innerHTML=`<button data-k="analise" class="on" onclick="setTab('analise')">Análise do formato</button><button data-k="aplicar" onclick="setTab('aplicar')">Como aplicar & prompt</button>`;
+  $("m-tabs").innerHTML=`<button data-k="analise" class="on" onclick="setTab('analise')">Análise do formato</button><button data-k="exemplo" onclick="setTab('exemplo')">Exemplo</button><button data-k="prompt" onclick="setTab('prompt')">Prompt</button>`;
   paint();$("overlay").classList.add("open");document.body.style.overflow="hidden";$("overlay").scrollTop=0;
 }
 function setTab(k){curTab=k;document.querySelectorAll('#m-tabs button').forEach(b=>b.classList.toggle('on',b.dataset.k===k));paint();}
@@ -330,12 +334,13 @@ function paint(){
     if(fo.hook)h+=`<h4>Hook — primeiros segundos</h4>${md(fo.hook)}`;
     if(fo.blocos)h+=`<h4>Estrutura em blocos</h4>${md(fo.blocos)}`;
     if(fo.porque)h+=`<h4>Por que funciona</h4>${md(fo.porque)}`;
-    h+=`<div class="divider"></div><h4>Exemplo real — veja aplicado</h4>${exemplosHTML()}`;
-    el.innerHTML=h;
-  }else{
-    let h="";
     if(fo.aplicar)h+=`<h4>Como aplicar no imobiliário</h4>${md(fo.aplicar)}`;
     if(fo.guia)h+=`<h4>Guia de execução</h4>${md(fo.guia)}`;
+    el.innerHTML=h||'<p class="note">—</p>';
+  }else if(curTab==="exemplo"){
+    el.innerHTML=`<h4>Exemplo real — veja aplicado</h4>${exemplosHTML()}`;
+  }else{
+    let h="";
     if(fo.prompt)h+=`<h4>Prompt de replicação</h4>
       <div class="usebox"><b>Como usar:</b> copie o prompt, preencha o bloco <b>MEUS DADOS</b> e cole no ChatGPT (ou Claude). Você <b>não precisa</b> colar a transcrição — o prompt já traz a estrutura. <i>Opcional:</i> pra IA imitar o jeito de falar do exemplo, cole a transcrição (aba Análise → Exemplo) abaixo do prompt como "referência de tom".</div>
       <div class="pcollapse" id="pcol"><button onclick="document.getElementById('pcol').classList.toggle('open')"><span>📋 Abrir o prompt completo</span><span class="chev">›</span></button>
