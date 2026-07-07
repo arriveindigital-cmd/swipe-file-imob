@@ -189,6 +189,11 @@ pre{background:var(--prebg);border:1px solid var(--bd2);border-radius:12px;paddi
 .subtabs button{background:var(--card2);border:1px solid var(--bd);border-radius:9px;padding:7px 12px;color:var(--tx2);font-size:12.5px;font-weight:600;cursor:pointer;font-family:inherit}
 .subtabs button.on{background:var(--grad);border-color:transparent;color:#fff}
 .transc{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;font-size:13.5px;color:var(--pretx);white-space:pre-wrap;line-height:1.65;max-height:380px;overflow-y:auto}
+.slides{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:2px 2px 8px;border-radius:12px;-webkit-overflow-scrolling:touch}
+.slides .slide{position:relative;flex:0 0 auto;scroll-snap-align:center}
+.slides .slide img{height:min(62vh,520px);width:auto;border-radius:12px;border:1px solid var(--bd);display:block;background:var(--card)}
+.slides .slnum{position:absolute;top:8px;right:8px;background:rgba(0,0,0,.62);color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:20px}
+.slhint{text-align:center;font-size:11.5px;color:var(--tx3);margin:2px 0 8px}
 .note{color:var(--tx3);font-size:13.5px;background:var(--card);border:1px dashed var(--bd2);border-radius:12px;padding:16px;text-align:center}
 footer{border-top:1px solid var(--bd);padding:24px 0 46px;color:var(--tx3);font-size:12.5px}
 @media(max-width:760px){.steps{grid-template-columns:1fr}}
@@ -385,6 +390,7 @@ function exemplosHTML(){
   const ex=cur.exemplos[curEx]||{};
   const sel=cur.exemplos.length>1?`<div class="exrow">${cur.exemplos.map((e,i)=>`<button class="expill ${i===curEx?'on':''}" onclick="selEx(${i})">Exemplo ${i+1} · @${esc(e.criador)}</button>`).join("")}</div>`:"";
   const player=ex.driveId?`<div class="player"><iframe src="${drivePlay(ex.driveId)}" allow="autoplay; fullscreen" allowfullscreen></iframe></div>`
+      :(ex.slides&&ex.slides.length)?`<div class="slides">${ex.slides.map((s,i)=>`<div class="slide"><img src="${s}" loading="lazy" alt="slide ${i+1}"><span class="slnum">${i+1}/${ex.slides.length}</span></div>`).join("")}</div><div class="slhint">← carrossel de fotos · arraste →</div>`
       :`<div class="player"><div class="novid">Sem vídeo${/photo/.test(ex.link||"")?" (carrossel de fotos)":""}.${ex.link?` <a class="src" href="${ex.link}" target="_blank" rel="noopener">ver original ↗</a>`:""}</div></div>`;
   const exmeta=`<div class="exmeta"><span>👤 <b>@${esc(ex.criador||"—")}</b></span>${ex.metrica&&ex.metrica!=="—"?`<span>📊 ${esc(ex.metrica)}</span>`:""}${ex.link?`<span><a class="src" href="${ex.link}" target="_blank" rel="noopener">post original ↗</a></span>`:""}</div>`;
   const hasAna=ex.analise&&ex.analise.length,hasTr=ex.temTranscricao;

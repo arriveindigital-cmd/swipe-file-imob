@@ -4,7 +4,7 @@
    - exemplo-XX/02-analise/analise-estrutura.md (análise profunda do vídeo)
    - exemplo-XX/02-analise/transcricao-bruta.txt   - drive-map.csv (driveId)
 """
-import re, json, os, glob, csv
+import re, json, os, glob, csv, shutil
 
 BASE = r"G:\Meu Drive\arrive-in-digital\mentoria-imob-in-digital\entregaveis\swipe-files"
 OUTDIR = os.path.join(BASE, "site-v2")
@@ -94,6 +94,17 @@ for pid, md in meta.items():
                 txt = open(tr, encoding="utf-8").read().strip()
                 if txt and not txt.startswith("[SEM"):
                     ex["temTranscricao"] = True; ex["transcricao"] = txt
+            # slides de carrossel (formatos de foto): exemplo-XX/slides/1.jpg, 2.jpg...
+            sl = sorted(glob.glob(os.path.join(exdir, "slides", "*.jpg")),
+                        key=lambda p: int(os.path.splitext(os.path.basename(p))[0]) if os.path.splitext(os.path.basename(p))[0].isdigit() else 999)
+            if sl:
+                sl_out = os.path.join(OUTDIR, "slides", e["slug"])
+                os.makedirs(sl_out, exist_ok=True)
+                rel = []
+                for i, s in enumerate(sl, 1):
+                    shutil.copy(s, os.path.join(sl_out, f"{i}.jpg"))
+                    rel.append(f"slides/{e['slug']}/{i}.jpg")
+                ex["slides"] = rel
             e["exemplos"].append(ex)
         # prompt profundo APROVADO + guia de uso (do primeiro exemplo que tiver 03-prompt-replicacao/)
         for exdir in exdirs:

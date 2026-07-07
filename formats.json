@@ -3948,6 +3948,17 @@
       "titulo": "Como replicar",
       "corpo": "1. **Abra com o hook insider** (\"o que ninguém te conta sobre [processo] — mas nós vamos\") + foto sua/do casal.\n2. **Entregue uma dica real por slide** (vivida, específica), com uma foto da jornada.\n3. **Inclua os perrengues/alertas** (a transparência é o diferencial).\n4. **Feche com CTA de comentário** (\"qual dica você daria?\").\n5. Carrossel de fotos reais; tom de amigo que passou pela experiência."
      }
+    ],
+    "slides": [
+     "slides/jornada-do-casal-comprador-em-serie/1.jpg",
+     "slides/jornada-do-casal-comprador-em-serie/2.jpg",
+     "slides/jornada-do-casal-comprador-em-serie/3.jpg",
+     "slides/jornada-do-casal-comprador-em-serie/4.jpg",
+     "slides/jornada-do-casal-comprador-em-serie/5.jpg",
+     "slides/jornada-do-casal-comprador-em-serie/6.jpg",
+     "slides/jornada-do-casal-comprador-em-serie/7.jpg",
+     "slides/jornada-do-casal-comprador-em-serie/8.jpg",
+     "slides/jornada-do-casal-comprador-em-serie/9.jpg"
     ]
    }
   ],
@@ -4043,6 +4054,13 @@
       "titulo": "Como replicar",
       "corpo": "1. **Abra com a pergunta de viabilidade** (\"vale a pena [investimento]?\") + \"valores nas próximas fotos\".\n2. **Mostre os custos reais** (parcela, condomínio, IPTU, taxas).\n3. **Revele a receita** (quanto rende).\n4. **Prove** (o listing, o print, o resultado).\n5. **Feche com CTA de debate** (\"fixo ou Airbnb? o que acham?\"). Carrossel de fotos reais; transparência total."
      }
+    ],
+    "slides": [
+     "slides/abre-a-planilha-viabilidade-de-investimento/1.jpg",
+     "slides/abre-a-planilha-viabilidade-de-investimento/2.jpg",
+     "slides/abre-a-planilha-viabilidade-de-investimento/3.jpg",
+     "slides/abre-a-planilha-viabilidade-de-investimento/4.jpg",
+     "slides/abre-a-planilha-viabilidade-de-investimento/5.jpg"
     ]
    }
   ],
@@ -4445,6 +4463,12 @@
       "titulo": "Como replicar",
       "corpo": "1. **Abra com o antes chocante** (a casa feia/detonada) + quanto pagou.\n2. **Mostre o investimento** (quanto e o que reformou).\n3. **Revele o resultado** (o depois + venda + tempo = o lucro).\n4. **Feche com a moral** (o método, \"imóveis certos\").\n5. Carrossel de fotos reais (força o swipe); os 3 números são a estrela."
      }
+    ],
+    "slides": [
+     "slides/house-flipping-br-ninguem-queria-essa/1.jpg",
+     "slides/house-flipping-br-ninguem-queria-essa/2.jpg",
+     "slides/house-flipping-br-ninguem-queria-essa/3.jpg",
+     "slides/house-flipping-br-ninguem-queria-essa/4.jpg"
     ]
    }
   ],
@@ -6424,12 +6448,39 @@
   "desc": "Valor no vídeo + CTA de palavra-chave que dispara automação de DM.",
   "slug": "cta-comente-palavra-que-eu-envio",
   "formato": {
+   "estrutura": "1. **[HOOK DE VALOR]** um conteúdo/tese que atrai (educação, dado, oferta). → *slot: o gancho.*\n2. **[O CONTEÚDO/PROVA]** entregar valor real (dados, argumento). → *slot: o valor.*\n3. **[CTA DE COMENTÁRIO]** \"comente [PALAVRA] que eu envio no direct\". → *slot: a palavra-código.*\n4. **[AUTOMAÇÃO/RESPOSTA]** ter o material pronto pra enviar. → *slot: a entrega.*\n\n- **Fixo:** conteúdo de valor antes do CTA; palavra-código simples; CTA de comentário (impulsiona alcance); automação/resposta pronta.\n- **Variável:** o conteúdo, a palavra-código, o material.",
    "hook": "Conteúdo de valor + CTA de comentário que dispara automação: **\"A gente vive um bom momento pra comprar na planta — comente [PALAVRA] que eu te envio o material no direct.\"** O comentário alimenta o algoritmo E gera o lead via DM automática.",
    "blocos": "- **Gancho de valor (0-8s):** uma tese/dado que interessa ao público (ex.: janela boa de compra por INCC/SELIC em queda).\n- **A entrega parcial (8-30s):** o suficiente pra provar valor, deixando o \"resto\" pro material.\n- **CTA de palavra-chave (fim):** \"comente [PALAVRA] que eu envio o [material] no direct\".",
    "porque": "- **Comentário é o sinal mais forte pro algoritmo** — o CTA gera engajamento em massa.\n- **A palavra-chave dispara automação de DM** → captura o lead na conversa privada.\n- **Entregar valor antes** faz o comentário parecer troca justa, não pedido.",
    "aplicar": "- Qualquer isca de valor (material, tabela, simulação, e-book) com CTA de palavra-chave.\n- \"Comente PLANTA que eu envio a lista de lançamentos\", \"comente SIMULA que eu mando a tabela\".\n- Configure a automação de DM (ManyChat ou nativo) pra entregar na hora.",
    "guia": "- O valor entregue no vídeo tem que ser real (senão o comentário não vem).\n- Palavra-chave curta e fácil de lembrar/digitar.\n- Automação testada (o lead tem que receber na hora).\n- Ter uma sequência de mensagens no DM pra qualificar o lead.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário com automação de DM. Crie um anúncio \"comente [palavra]\":\n1) GANCHO DE VALOR (0-8s): tese/dado que interessa ao público; 2) ENTREGA parcial que prova valor; 3) CTA de palavra-chave (\"comente [PALAVRA] que eu envio [material] no direct\").\nMEUS DADOS: A isca de valor (material/tabela/simulação): [ ]. O gancho/tese: [ ]. Palavra-chave: [ ].\nTOM: valor antes do pedido. Comentário como troca justa. Palavra curta.\nENTREGUE: 1) roteiro; 2) copy; 3) a palavra-chave; 4) a 1ª mensagem automática do DM; 5) sequência de qualificação.\n```"
+   "prompt": "Você é um copywriter especialista em captação de lead por comentário (automação de DM). Crie um roteiro de \"conteúdo de valor + CTA comente [palavra]\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK DE VALOR (0-5s): uma tese/conteúdo que atrai (\"bom momento pra [X], e eu te explico\")\n2. O CONTEÚDO/PROVA: entregue valor real (dados, argumento, passo a passo) — é o que faz querer o material\n3. CTA DE COMENTÁRIO: \"comente [PALAVRA] que eu envio no direct\"\n4. AUTOMAÇÃO/RESPOSTA: tenha o material pronto pra enviar na hora\n\n**Meus dados:**\n- Autor + @: [NOME + @]\n- O conteúdo de valor (o gancho educativo/oferta): [O TEMA]\n- A prova/argumento: [DADOS/PASSOS]\n- A palavra-código: [EX.: N10, SIMULAÇÃO]\n- O material que você envia: [O QUE VAI NO DIRECT]\n\n**Regras de tom:**\n- Conteúdo de valor ANTES do CTA (sem valor, o \"comente\" não converte)\n- Palavra-código simples e memorável (menos atrito = mais comentários)\n- CTA de COMENTÁRIO (não DM) — o comentário impulsiona o alcance\n- Automação/resposta pronta (o lead esfria se demora)\n\n**Entregue:**\n1. O roteiro (hook de valor → conteúdo → CTA)\n2. A palavra-código sugerida\n3. O texto da mensagem automática de DM\n4. A legenda do anúncio (com o CTA \"comente [palavra]\")\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **captação de lead em escala** (tráfego pago ou orgânico). O comentário vira lead automatizado E impulsiona o alcance — mecânica de dupla função.\n- Funciona sobre qualquer conteúdo de valor (educação, oferta, simulação). A mecânica é o CTA, não o tema."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O CONTEÚDO DE VALOR]:** entregue algo que a pessoa queira (dado, passo a passo, oferta). É o que faz valer o comentário.\n- **[A PALAVRA-CÓDIGO]:** simples e memorável (N10, SIMULAÇÃO, AULA). Menos atrito = mais comentários.\n- **[A AUTOMAÇÃO]:** tenha a mensagem/material pronto pra disparar no direct (ManyChat, etc.). O lead esfria se demora."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o CTA vier sem conteúdo:\n\n> \"Entregue conteúdo de valor ANTES do CTA. O 'comente [palavra]' só converte se a pessoa quiser o material — o valor é o que gera o desejo.\"\n\nSe pedir DM:\n\n> \"Troque por CTA de COMENTÁRIO ('comente [palavra]'). O comentário gera lead E impulsiona o alcance; o DM não impulsiona.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **CTA sem valor antes** — o material só é desejado depois do valor entregue.\n2. **Palavra-código complicada** — quanto mais simples, mais gente comenta.\n3. **Sem automação pronta** — o lead esfria se você demora a responder.\n4. **Pedir DM** — o comentário impulsiona o alcance (o DM não)."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Talking head + overlay de dados/prova (autoridade). Texto de hook. CTA de comentário no fim.\n- Configure a automação de DM (palavra-chave → mensagem com o material)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Mecânica consolidada de captação — o comentário vira lead automatizado e impulsiona o alcance (dupla função). Ver também o B29 (simulação-projeção), que executa a mesma mecânica com \"digita SIMULAÇÃO\". Palavra-código simples + automação pronta = volume de lead com baixo custo."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -6439,7 +6490,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um conteúdo de valor (por que é bom momento pra comprar na planta) que termina com \"comente [palavra] que eu envio no direct\" — a mecânica transforma cada comentário em lead automatizado e ainda impulsiona o alcance."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-5s | Talking head; texto \"BOM MOMENTO PARA COMPRAR IMÓVEIS NA PLANTA\" | \"A gente vive um bom momento pra quem vai comprar na planta, e eu te explico por quê\" | Hook de VALOR — a tese que atrai (não é venda direta, é conteúdo) |\n| 5-60s | Tabela INCC/CUB/Selic, apontando os dados | \"INCC/CUB (custo de obra) caindo → reajuste menor; Selic em 15% mas em queda → juros melhor no financiamento; quando a Selic cai, o preço sobe\" | O conteúdo educativo — a prova/argumento (o valor que faz querer mais) |\n| 60-76s | Fecho | \"É um bom momento pra planta\" + **[na copy do anúncio: \"Comente N10 que eu envio no direct\"]** | O CTA de comentário — a mecânica de captação + automação de DM |\n\n> Nota: o gancho de valor está no vídeo (educação de mercado); a **mecânica que nomeia o formato** — \"comente [palavra-código]\" — vive na copy/CTA do anúncio, disparando a automação de DM. Ver também o **B29 (simulação-projeção)**, que executa a mesma mecânica com o CTA \"digita SIMULAÇÃO nos comentários\" dentro do próprio vídeo."
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Conteúdo de valor ANTES do CTA** — o vídeo educa (dados de mercado) e é isso que faz a pessoa querer o material; sem valor, o \"comente\" não converte.\n- **A palavra-código é simples e memorável** (\"N10\") — reduz o atrito do comentário.\n- **O CTA de comentário tem dupla função:** vira lead (via automação de DM) E impulsiona o alcance (o algoritmo favorece posts/anúncios com muitos comentários).\n- **A automação** (\"eu envio no direct\") entrega o material na hora — escala o atendimento."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Talking head + overlay de dados** (tabela de índices) — autoridade educativa.\n- **Texto de hook** (\"bom momento…\") enquadra o valor.\n- **Ambiente de autoridade** (estante, iluminação) coerente com o tom de especialista."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração didática** apontando os dados — ritmo de \"deixa eu te explicar\".\n- O conteúdo constrói o argumento até o CTA de comentário."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Conteúdo de valor** — educar/entregar dado atrai (o oposto de vender de cara).\n2. **Prova** — os índices dão credibilidade ao argumento.\n3. **CTA de baixo atrito** — comentar uma palavra é fácil.\n4. **Automação** — a resposta imediata no DM escala e satisfaz na hora.\n5. **Impulso de alcance** — os comentários favorecem a distribuição (mecânica dupla)."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ CTA sem conteúdo de valor antes — o material só é desejado depois do valor entregue.\n- ❌ Palavra-código complicada — quanto mais simples, mais gente comenta.\n- ❌ Não ter a automação/resposta pronta — o lead esfria se você demora.\n- ❌ Pedir DM em vez de comentário — o comentário impulsiona o alcance (o DM não)."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Entregue um conteúdo de valor** (educação/dado/oferta) que faça a pessoa querer mais.\n2. **Feche com o CTA de comentário:** \"comente [PALAVRA] que eu envio no direct\".\n3. **Use uma palavra-código simples** (curta, memorável).\n4. **Tenha a automação/resposta pronta** pra enviar o material na hora (converter o comentário em lead).\n5. É a mecânica que importa — pode aplicar sobre qualquer conteúdo de valor do seu nicho."
+     }
+    ],
     "transcricao": "A gente vive um bom momento para quem vai comprar imóvel na planta.\nE eu te explico por quê.\nOlha esse dado aqui em cima.\nA gente tem o INCC, a gente tem o CUBE,\nmostrando que o custo, a variação do custo de obra está diminuindo.\nEntão no acumulado de 12 meses, a gente já está falando em mais ou menos 6%.\nIsso deve ir para 5%, 4% nos próximos anos.\nO que está acontecendo?\nSe eu compro imóvel na planta agora e o saldo de veedor é reajustado pelo INCC ou pelo CUBE,\nquando eu for financiar meu imóvel\neu já vou estar com uma Selic mais baixa\nque hoje igual mostra que ela está em 15%\nmas ela está entrando em fase de queda\nentão eu vou pegar um juros melhor\ndo meu financiamento\ne ao mesmo tempo eu não vou ter um reajuste tão grande\ne a outra grande vantagem é\nquando a Selic diminui\no preço dos imóveis sobe bastante\nentão eu vou estar pegando um preço bom agora no lançamento\nmeu reajuste de obra não vai ser tão grande\ne eu pego um financiamento bom\nEntão somando tudo isso, a gente entende que hoje, pelo menos nos próximos meses, vai ser um bom momento para compra de imóvel na planta.\nEntão se esse é o interesse, pensar num prazo um pouco maior, se você tem a condição de esperar o prazo de uma obra, o prazo do empreendimento ficar pronto,\nrecomendo bastante que hoje vocês olhem para imóveis na planta."
    }
   ],
