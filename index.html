@@ -148,6 +148,13 @@ main{padding:30px 0 80px}
 .sec .sech{display:inline-block;font-size:10.5px;text-transform:uppercase;letter-spacing:.09em;font-weight:800;padding:6px 13px;border-radius:20px;margin-bottom:14px;background:var(--card2);border:1px solid var(--bd2)}
 .sec .sech span{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .sec .secb table{margin-top:2px}
+/* tabela chave-valor (Ficha) — sem cabeçalho Campo/Valor */
+.mbody table.kv{display:block;border:1px solid var(--bd);border-radius:12px;overflow:hidden;margin:6px 0 12px;background:var(--card2)}
+.mbody table.kv tbody{display:block}
+.mbody table.kv tr{display:flex;gap:14px;align-items:baseline;border-bottom:1px solid var(--bd);padding:10px 14px}
+.mbody table.kv tr:last-child{border-bottom:none}
+.mbody table.kv th{flex:0 0 30%;background:none;border:none;padding:0;color:var(--tx2);font-weight:700;text-align:left;font-size:12.5px;text-transform:uppercase;letter-spacing:.04em}
+.mbody table.kv td{flex:1;border:none;padding:0;min-width:0}
 .sec.callout{background:linear-gradient(120deg,rgba(249,115,22,.09),rgba(124,58,237,.09));border-color:var(--bdrx)}
 .sec.callout .secb p{color:#fff;font-size:15.5px;font-weight:600;line-height:1.5;margin-bottom:4px}
 a.src{color:var(--azul);text-decoration:none;font-size:13px;word-break:break-word}
@@ -195,6 +202,11 @@ footer{border-top:1px solid var(--bd);padding:24px 0 46px;color:var(--tx3);font-
   .mbody td{border:none;border-bottom:1px solid var(--bd);padding:10px 0;min-width:0}
   .mbody tr td:last-child{border-bottom:none}
   .mbody td::before{content:attr(data-label);display:block;font-size:9.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--tx3);font-weight:800;margin-bottom:4px}
+  /* Ficha chave-valor no mobile: chave em cima, valor embaixo — sem "Campo/Valor" */
+  .mbody table.kv tr{display:block;padding:9px 13px}
+  .mbody table.kv th{display:block;flex:none;font-size:9.5px;letter-spacing:.06em;color:var(--tx3);font-weight:800;margin-bottom:3px}
+  .mbody table.kv td{display:block}
+  .mbody table.kv td::before{display:none}
 }
 @media(max-width:400px){.grid{grid-template-columns:1fr}}
 </style>
@@ -278,7 +290,12 @@ function md(t){if(!t)return"";
     while(i<lines.length){if(/^\s*\|/.test(lines[i])){let tbl=[];while(i<lines.length&&/^\s*\|/.test(lines[i])){tbl.push(lines[i]);i++;}
         const rows=tbl.filter(r=>!/^\s*\|[\s:|-]+\|\s*$/.test(r)).map(r=>r.trim().replace(/^\||\|$/g,"").split("|").map(c=>c.trim()));
         const hdr=rows[0];
-        out+="<table><thead><tr>"+hdr.map(c=>"<th>"+inl(c)+"</th>").join("")+"</tr></thead><tbody>"+rows.slice(1).map(r=>"<tr>"+r.map((c,ci)=>`<td data-label="${esc((hdr[ci]||'').replace(/\*/g,''))}">`+inl(c)+"</td>").join("")+"</tr>").join("")+"</tbody></table>";
+        const isKV=hdr.length===2&&/^campo$/i.test((hdr[0]||"").replace(/\*/g,"").trim())&&/^valor$/i.test((hdr[1]||"").replace(/\*/g,"").trim());
+        if(isKV){
+          out+='<table class="kv"><tbody>'+rows.slice(1).map(r=>`<tr><th scope="row">${inl(r[0]||"")}</th><td>${inl(r[1]||"")}</td></tr>`).join("")+"</tbody></table>";
+        }else{
+          out+="<table><thead><tr>"+hdr.map(c=>"<th>"+inl(c)+"</th>").join("")+"</tr></thead><tbody>"+rows.slice(1).map(r=>"<tr>"+r.map((c,ci)=>`<td data-label="${esc((hdr[ci]||'').replace(/\*/g,''))}">`+inl(c)+"</td>").join("")+"</tr>").join("")+"</tbody></table>";
+        }
       }else{out+="\n"+lines[i];i++;}}t=out;}
   let h="",ul=[];const fl=()=>{if(ul.length){h+="<ul>"+ul.map(x=>"<li>"+inl(x)+"</li>").join("")+"</ul>";ul=[]}};
   for(let l of t.split("\n")){const r=l.trim();
