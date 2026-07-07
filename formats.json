@@ -4944,12 +4944,39 @@
   "desc": "Oportunidade local + facilidades empilhadas (MCMV, subsídio, entrada parcelada).",
   "slug": "saia-do-aluguel-checklist-de-facilidades",
   "formato": {
+   "estrutura": "1. **[ÂNCORA DE LOCALIZAÇÃO]** \"ao lado do [ponto reconhecível]\". → *slot: o marco.*\n2. **[CHECKLIST DE FACILIDADES]** o produto (dormitórios, lazer). → *slot: as facilidades.*\n3. **[DESTRAVADOR MCMV]** \"aproveite o Minha Casa Minha Vida\". → *slot: a condição.*\n4. **[URGÊNCIA]** \"antecipe-se ao pré-lançamento, condições exclusivas\". → *slot: a urgência.*\n5. **[CTA]** \"faça sua simulação\".\n\n- **Fixo:** âncora de local reconhecível; checklist de facilidades; MCMV como destravador; urgência; CTA de simulação.\n- **Variável:** o empreendimento, o marco, as facilidades.",
    "hook": "Oportunidade local + empilhamento de facilidades: **\"Mais um pré-lançamento MRV ao lado do Carrefour — uma oportunidade pra você. Apartamentos de 2 dormitórios com lazer completo. Aproveite o Minha Casa Minha Vida.\"** A âncora geográfica + as facilidades empilhadas (MCMV, entrada parcelada, subsídio) removem as barreiras uma a uma.",
    "blocos": "- **Oportunidade + âncora local (0-5s):** \"pré-lançamento ao lado de [referência conhecida]\".\n- **Produto + lazer (5-20s):** tipologia, dormitórios, lazer da família.\n- **Checklist de facilidades (20-40s):** MCMV, subsídio, entrada parcelada 36x, junte renda — cada facilidade derruba uma objeção.\n- **CTA (fim):** \"antecipe-se, garanta condições exclusivas, faça sua simulação agora\".",
    "porque": "- **\"Sair do aluguel\" é a dor evergreen** do público MCMV — renova todo mês no vencimento.\n- **Empilhar facilidades** remove as barreiras percebidas uma a uma (entrada, renda, aprovação).\n- **Âncora geográfica** (ao lado de X) situa e valoriza sem explicar.",
    "aplicar": "- Qualquer produto MCMV/econômico: oportunidade + facilidades empilhadas + CTA de simulação.\n- Adapte as facilidades ao que o público não sabe que tem (subsídio, FGTS, renda conjunta).\n- Âncora local sempre (referência que o público reconhece).",
    "guia": "- As facilidades têm que ser reais e vigentes (regras do MCMV mudam).\n- Âncora geográfica reconhecível pelo público-alvo.\n- CTA de simulação (qualifica e gera lead com dados).\n- Rodar geolocalizado; testar diferentes âncoras/facilidades.",
-   "prompt": "```\nVocê é copywriter de anúncio MCMV/econômico. Crie um anúncio \"saia do aluguel + facilidades\":\n1) OPORTUNIDADE + ÂNCORA LOCAL (0-5s): \"pré-lançamento ao lado de [referência]\"; 2) PRODUTO + lazer; 3) CHECKLIST de facilidades (MCMV, subsídio, entrada parcelada, renda conjunta); 4) CTA de simulação.\nMEUS DADOS: Empreendimento + âncora local: [ ]. Tipologia/lazer: [ ]. Facilidades reais: [ ]. Público: [ ].\nTOM: remover barreiras uma a uma, dor do aluguel. Facilidades reais e vigentes. Âncora reconhecível.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) o checklist de facilidades; 5) CTA de simulação.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de captação imobiliária (MCMV). Crie o roteiro de um \"pré-lançamento com âncora de localização + checklist de facilidades\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. ÂNCORA DE LOCALIZAÇÃO (0-8s): \"mais um pré-lançamento ao lado do [ponto reconhecível]\" + \"uma oportunidade pra você\"\n2. CHECKLIST DE FACILIDADES: o produto (dormitórios, varanda, suíte, lazer)\n3. DESTRAVADOR MCMV: \"aproveite o Minha Casa Minha Vida e adquira sua unidade\"\n4. URGÊNCIA: \"antecipe-se ao pré-lançamento e garanta condições exclusivas\"\n5. CTA: \"faça sua simulação agora\"\n\n**Meus dados:**\n- Corretor/incorporadora + @: [NOME + @]\n- Empreendimento + o ponto de referência: [NOME + MARCO CONHECIDO ao lado]\n- As facilidades: [DORMITÓRIOS, LAZER, SUÍTE…]\n- A condição (MCMV/financiamento): [A OFERTA]\n\n**Regras de tom:**\n- Ancore num ponto RECONHECÍVEL (um shopping, um marco) — vale mais que o endereço\n- O destravador (MCMV) é o que converte no público de entrada\n- Urgência de antecipação recompensa a decisão rápida\n- CTA concreto (simulação)\n\n**Entregue:**\n1. O roteiro (âncora → facilidades → MCMV → urgência → CTA)\n2. As legendas de reforço\n3. Sugestão de b-roll (drone da região + o ponto de referência)\n4. O CTA\n5. 3 variações do hook (a âncora)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **captação de comprador** de entrada (MCMV) em lançamento/pré-lançamento via tráfego pago.\n- Melhor quando o empreendimento tem um ponto de referência forte por perto (shopping, marco) que situe e valorize."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A ÂNCORA]:** o ponto reconhecível (\"ao lado do Carrefour\"). Vale muito mais que o endereço — situa e transfere confiança/valor.\n- **[O DESTRAVADOR]:** o MCMV/condição de financiamento. É o que converte o público de entrada (\"saia do aluguel\").\n- **[A URGÊNCIA]:** o pré-lançamento pede a vantagem de antecipar (condições exclusivas)."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se usar endereço genérico:\n\n> \"Ancore num ponto reconhecível da cidade (shopping, marco). 'Ao lado do [lugar conhecido]' situa e valoriza muito mais que o nome da rua.\"\n\nSe faltar o destravador:\n\n> \"Adicione o MCMV/condição de financiamento. No público de entrada, a facilidade financeira ('saia do aluguel') é o que converte, não só o produto.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Endereço genérico** — sem âncora reconhecível, perde o gancho de localização.\n2. **Checklist sem MCMV** — a facilidade financeira é o que converte no público de entrada.\n3. **Sem urgência** — o pré-lançamento pede a vantagem de antecipar.\n4. **CTA vago** — \"faça sua simulação\" é concreto e gera lead."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Drone da região mostrando o entorno e o ponto de referência. Corretor da marca na loja/no local.\n- Legendas de reforço + branding. Ritmo ágil; cada bloco um argumento. CTA de simulação no fim."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de captação MCMV — a âncora de localização + o destravador financeiro + a urgência maximizam a simulação (lead). Teste variações da âncora e da condição. O drone da localização é parte do argumento de valorização."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -4959,7 +4986,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um pré-lançamento ancorado num ponto que todo mundo conhece (o Carrefour) + a facilidade do MCMV — o anúncio usa a localização reconhecível pra vender o \"saia do aluguel\" com condições exclusivas."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Corretor na loja MRV + drone; legenda \"do Carrefour Campinas\" | \"Mais um pré-lançamento MRV, ao lado do Carrefour Campinas Valinhos. Uma oportunidade pra você!\" | Hook: âncora de localização reconhecível (o Carrefour) — situa e valoriza na hora |\n| 8-25s | Drone dos bairros e empreendimentos | \"Apartamentos de 2 dormitórios e varanda, opções de suíte e um lazer incrível pra você e sua família\" | Checklist de facilidades — o produto |\n| 25-45s | Legenda \"Minha Vida e adquira\" | \"Aproveite o Minha Casa Minha Vida e adquira sua unidade\" | O destravador — MCMV = sair do aluguel |\n| 45-55s | Legenda \"Antecipe-se ao pré-lançamento\" | \"Antecipe-se ao pré-lançamento e garanta condições exclusivas\" | Urgência — antecipação = vantagem |\n| 55-62s | Corretor | \"Entre em contato e faça sua simulação agora mesmo\" | CTA (simulação) |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A âncora de localização é o gancho:** \"ao lado do Carrefour\" situa e valoriza o empreendimento instantaneamente — um ponto conhecido vale mais que um endereço.\n- **Checklist de facilidades** (2 dorm, suíte, lazer) apresenta o produto de forma escaneável.\n- **MCMV é o destravador** — \"aproveite o Minha Casa Minha Vida\" fala com quem quer sair do aluguel.\n- **Urgência de antecipação** (\"antecipe-se ao pré-lançamento\") recompensa a decisão rápida.\n- **CTA de baixo atrito** (simulação) transforma interesse em lead."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Drone da região** (mostra o entorno, os pontos de referência) — prova da localização.\n- **Corretor da marca na loja** humaniza a incorporadora.\n- **Legendas de reforço + branding MRV** consolidam a mensagem."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração de anúncio** direta e convidativa; ritmo ágil que respeita o feed.\n- Cada bloco entrega um argumento (local → produto → condição → urgência → CTA)."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Âncora de localização** — um ponto conhecido (Carrefour) gera confiança e situa na hora.\n2. **Acessibilidade** — o MCMV é o destravador do \"eu consigo\".\n3. **Desejo** — o lazer e a suíte alimentam a aspiração.\n4. **Urgência** — antecipar o pré-lançamento recompensa a decisão.\n5. **CTA de baixo atrito** — a simulação é fácil e gera lead qualificado."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Endereço genérico sem âncora — um ponto reconhecível vale muito mais que um nome de rua.\n- ❌ Checklist sem o destravador (MCMV) — a facilidade financeira é o que converte no MCMV.\n- ❌ Sem urgência — o pré-lançamento pede a vantagem de antecipar.\n- ❌ CTA vago — \"faça sua simulação\" é concreto e converte."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Ancore na localização reconhecível** (\"ao lado do [ponto conhecido]\").\n2. **Liste as facilidades** (dormitórios, lazer, suíte) de forma escaneável.\n3. **Ative o destravador** (MCMV / condição de financiamento) — o \"saia do aluguel\".\n4. **Crie urgência** (\"antecipe-se ao pré-lançamento, condições exclusivas\").\n5. **Feche com CTA de simulação**. Drone da região reforça a localização."
+     }
+    ],
     "transcricao": "Mais um pré-lançamento MRV, aqui ao lado do Carrefour Campinas Valinhos.\nUma oportunidade pra você!\nSerão apartamentos de dois dormitórios e varanda com opções de suíte e um incrível lazer para você e sua família.\nAproveite já o programa Minha Casa Minha Vida e adquira a sua unidade\nAntecipe-se ao pré-lançamento e garanta condições exclusivas\nEntre em contato e faça a sua simulação agora mesmo"
    }
   ],
@@ -5101,12 +5161,39 @@
   "desc": "Anúncio B2B que fala com quem vende: 'coloque na sua carteira, veja como é fácil vender'.",
   "slug": "anuncio-b2b-incorporadora-corretor",
   "formato": {
+   "estrutura": "1. **[HOOK B2B: A DOR DO CORRETOR]** \"tem empreendimento difícil de vender e tem o que o cliente entende sozinho\". → *slot: a dor.*\n2. **[O ARGUMENTO FÁCIL]** o diferencial que vende sozinho (localização, preço). → *slot: o argumento.*\n3. **[PROVA DO DIFERENCIAL]** drone/dados que comprovam. → *slot: a prova.*\n4. **[CTA B2B: \"VENDER MAIS\"]** tipologias + prepare-se pra vender. → *slot: a chamada.*\n\n- **Fixo:** público = corretor (não comprador); dor de vendas; o diferencial que \"vende sozinho\"; CTA de comissão/meta.\n- **Variável:** o empreendimento, o diferencial, a cidade.",
    "hook": "Fala direto com o corretor, não com o comprador: **\"Tem empreendimento que você precisa explicar, e tem empreendimento que o cliente entende só de olhar a localização — como o Roto Panorama.\"** Vende pro corretor a facilidade de vender aquele produto.",
    "blocos": "- **Enquadramento pro corretor (0-8s):** \"tem produto fácil e produto difícil de vender — esse é fácil\".\n- **Argumentos de venda prontos (8-30s):** localização que valoriza, tipologias, potencial — o que o corretor vai usar com o cliente dele.\n- **CTA B2B (fim):** \"conheça as tipologias e prepare-se pra vender mais / coloque na sua carteira\".",
    "porque": "- **Fala com quem VENDE, não com quem compra:** recruta o exército de corretores como distribuição.\n- **Vende a facilidade de venda** (\"o cliente entende só de olhar\") — o que o corretor mais quer.\n- **Entrega os argumentos prontos** que o corretor vai reusar — reduz o atrito de adotar o produto.",
    "aplicar": "- Incorporadora/lançamento recrutando corretores: \"coloque na sua carteira, veja como é fácil vender\".\n- Dê os argumentos de venda prontos (localização, valorização, diferencial).\n- CTA de cadastro/parceria, não de compra.",
    "guia": "- O público é o corretor — a linguagem é \"você vai vender mais\", não \"realize seu sonho\".\n- Entregue munição de venda pronta (o corretor quer facilidade).\n- CTA de parceria/carteira/material de vendas.\n- Segmentar por interesse profissional (corretores).",
-   "prompt": "```\nVocê é copywriter de anúncio B2B imobiliário (incorporadora → corretor). Crie um anúncio:\n1) ENQUADRAMENTO PRO CORRETOR (0-8s): \"tem produto difícil e produto fácil de vender — esse é fácil porque [motivo]\"; 2) ARGUMENTOS de venda prontos (localização/valorização/tipologia); 3) CTA B2B (carteira/parceria/material).\nMEUS DADOS: Empreendimento + por que é fácil de vender: [ ]. Argumentos prontos: [ ]. CTA de parceria: [ ].\nTOM: fala com quem VENDE. \"Você vai vender mais\". Munição pronta. CTA de parceria, não de compra.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) os argumentos de venda prontos; 5) CTA B2B.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios B2B imobiliários (incorporadora falando com corretor). Crie o roteiro de um anúncio \"prepare-se para vender mais\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK B2B: A DOR DO CORRETOR (0-6s): \"tem empreendimento que você precisa explicar e tem empreendimento que o cliente entende só de olhar [o diferencial], como o [nome]\"\n2. O ARGUMENTO FÁCIL: o diferencial que vende sozinho (localização, preço, condição)\n3. PROVA DO DIFERENCIAL: drone/dados que comprovam\n4. CTA B2B: \"conheça as tipologias e prepare-se para vender mais\"\n\n**Meus dados:**\n- Incorporadora + @: [NOME + @]\n- Empreendimento: [NOME]\n- O diferencial que \"vende sozinho\": [LOCALIZAÇÃO/PREÇO/CONDIÇÃO]\n- A prova do diferencial: [DRONE/DADOS DE VALORIZAÇÃO]\n- As tipologias: [EX.: studio, 2 quartos]\n\n**Regras de tom:**\n- O público é o CORRETOR, não o comprador — linguagem de negócio, não de morar\n- Venda a FACILIDADE de vender (o argumento pronto), não o imóvel\n- O diferencial precisa ser fácil de comunicar (o cliente \"entende sozinho\")\n- CTA de meta (\"vender mais\") — apela pro objetivo profissional\n\n**Entregue:**\n1. O roteiro (dor → argumento → prova → CTA)\n2. A frase de hook B2B\n3. O argumento-arma pro corretor\n4. O CTA de meta\n5. Legenda do anúncio (segmentado pra corretores)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **recrutar/habilitar corretores** a vender um lançamento (tráfego pago segmentado pra profissionais do setor).\n- Ideal quando o empreendimento tem um diferencial fácil de comunicar (localização premium, preço, condição) que o corretor pode usar como argumento pronto."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O DIFERENCIAL]:** o que \"vende sozinho\". Precisa ser fácil de o cliente entender (localização, preço). É o argumento-arma que você entrega ao corretor.\n- **[A PROVA]:** drone/dados que comprovam o diferencial (valorização, entorno). Dá segurança ao corretor pra vender.\n- **[O CTA]:** de meta (\"vender mais\"), não de morar. Apela pro objetivo profissional."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se falar com o comprador:\n\n> \"Redirecione pro corretor. A mensagem é 'este produto é fácil de você vender', não 'venha morar aqui'. Linguagem de negócio.\"\n\nSe o diferencial vier complexo:\n\n> \"O diferencial precisa ser algo que o cliente 'entende sozinho' (localização óbvia, preço imbatível). Se precisa explicar muito, não serve pro argumento do corretor.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Falar com o comprador** — o público é o corretor; linguagem de negócio.\n2. **Vender o imóvel** — venda a FACILIDADE de vender (o argumento pronto).\n3. **Diferencial complexo** — precisa ser fácil de comunicar.\n4. **Sem CTA de meta** — \"prepare-se pra vender mais\" é o gancho profissional."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Apresentadora conduzindo (tom de oportunidade de negócio). Drone provando o diferencial.\n- Card de produto branded (tipologias). Enxuto (~30s) — respeite o tempo do profissional."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio B2B — segmentar pra corretores/profissionais do setor. A promessa de \"produto fácil de vender\" + o argumento-arma pronto maximizam o interesse. O CTA de meta (\"vender mais\") converte quem quer comissão."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -5116,7 +5203,40 @@
     "link": "https://www.facebook.com/ads/library/?id=1622170202173566",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um anúncio que não fala com o comprador, mas com o CORRETOR — \"prepare-se para vender mais\" — usando a localização fácil de vender como isca pra quem quer bater meta."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-6s | Apresentadora na rua, placa \"Rota Panorama\"; legenda \"tem empreendimento que o cliente entende\" | \"Tem empreendimento que você precisa explicar e tem empreendimento que o cliente entende só de olhar a localização, como o Rota Panorama\" | Hook B2B: a dor do corretor (vender é difícil) → a solução (produto fácil de vender) |\n| 6-20s | Drone da região (lago, marco do coração, bairros nobres) | \"Novo lançamento da EBM, alto potencial de valorização, localização que não para de valorizar em Goiânia (Bueno, Coimbra, Oeste)\" | O argumento de venda pronto — localização premium = venda fácil |\n| 20-29s | Card \"Rota Panorama — Studio / 2 quartos\" | \"Conheça as tipologias de estúdio e 2 quartos e prepare-se para vender mais\" | CTA B2B (\"vender mais\") + as tipologias |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O público NÃO é o comprador, é o corretor** — \"prepare-se para vender mais\" fala com quem quer comissão.\n- **A dor é \"vender é trabalhoso\"** e a promessa é um produto que \"se vende sozinho\" pela localização — exatamente o que o corretor deseja.\n- **A localização premium é o argumento-arma** que a incorporadora entrega pronto pro corretor usar.\n- **CTA de meta** (\"vender mais\") apela pro objetivo profissional, não pro desejo de morar."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Apresentadora conduzindo** (tom de quem apresenta oportunidade de negócio).\n- **Drone dos pontos nobres da cidade** — a prova visual da localização premium.\n- **Card de produto branded** (tipologias) — informação comercial pro corretor."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração de \"oportunidade de negócio\"**, direta e objetiva (29s) — respeita o tempo de um profissional.\n- Ritmo enxuto: dor → solução → prova → CTA."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Dor do corretor** — \"vender é difícil\" é a dor profissional que ativa a atenção.\n2. **Solução (produto fácil)** — um empreendimento que \"se vende sozinho\" é o sonho do corretor.\n3. **Ganância / meta** — \"vender mais\" apela pro objetivo de comissão.\n4. **Prova de localização** — o drone comprova o argumento-arma.\n5. **Autoridade da incorporadora** — a marca dá lastro à oportunidade."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Falar com o comprador — o público é o CORRETOR; a linguagem é de negócio, não de morar.\n- ❌ Vender o imóvel — vender a FACILIDADE de vender (o argumento pronto).\n- ❌ Argumento de venda fraco — o diferencial precisa ser realmente fácil de comunicar (localização, preço).\n- ❌ Sem CTA de meta — \"prepare-se pra vender mais\" é o gancho profissional."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Fale com o corretor, não com o comprador:** \"tem empreendimento difícil de vender e tem o que o cliente entende sozinho\".\n2. **Entregue o argumento-arma** (o diferencial que vende sozinho — localização, preço, condição).\n3. **Prove o diferencial** (drone, dados de valorização).\n4. **Feche com CTA de meta** (\"conheça as tipologias e prepare-se pra vender mais\").\n5. Linguagem de oportunidade de negócio, enxuta — é B2B, respeite o tempo do profissional."
+     }
+    ],
     "transcricao": "Tem empreendimento que você precisa explicar e tem empreendimento que o cliente entende só de olhar a localização, como é o caso do Rota Panorama.\nO novo lançamento da IBM com alto potencial de valorização é uma localização que não para de valorizar em Goiânia, no encontro entre Bueno, Coimbra e Oeste.\nConheça as tipologias de estúdio e dois quartos e prepare-se para vender mais."
    }
   ],
