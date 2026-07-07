@@ -552,12 +552,39 @@
   "desc": "Pergunta binária na tela sobre o imóvel, sem fala — barreira zero pra comentar.",
   "slug": "pergunta-de-engajamento-direta",
   "formato": {
+   "estrutura": "1. **[PERGUNTA-DESAFIO NO HOOK]** \"será que eu consigo [FEITO com limite]?\" + destaque do limite (ex.: 1 min). → *slot: o desafio.*\n2. **[PROMESSA-TEASER]** \"o que vai te surpreender tá lá dentro\". → *slot: o loop interno.*\n3. **[CORRIDA DE AMBIENTES]** ritmo ofegante (\"vem vem vem\"), superlativo em cada. → *slot: os ambientes.*\n4. **[CLÍMAX]** melhor ambiente por último (suíte master). → *slot: o ápice.*\n5. **[CTA DIRETO]** \"clica aí, fala comigo\".\n\n- **Fixo:** pergunta-desafio com stakes (tempo); ritmo acelerado; teaser interno; CTA de ação.\n- **Variável:** o imóvel, o limite, os ambientes.",
    "hook": "B-roll do imóvel com uma pergunta binária na tela: **\"Você moraria nessa casa?\"**. A pergunta força uma resposta mental imediata — e muita gente responde nos comentários, o que dispara o algoritmo.",
    "blocos": "- **Pergunta binária na tela (0-3s):** sim/não sobre o imóvel mostrado.\n- **Tour visual (3-25s):** takes do imóvel, sem narração, só música — deixa o espectador julgar.\n- **Sem CTA de venda:** a pergunta JÁ é o CTA (comente sim ou não).",
    "porque": "- **Pergunta binária = barreira zero pra comentar** — \"sim\"/\"não\" é o comentário mais fácil do mundo.\n- **Comentário é o sinal mais forte pro algoritmo** — mais que like ou save.\n- **Sem fala = alcance amplo + replay** (funciona no mudo).",
    "aplicar": "- Todo imóvel com um detalhe polarizador (cor forte, planta incomum, localização) vira pergunta.\n- Variações: \"Compraria por R$X?\", \"Moraria de graça mas [pegadinha]?\".\n- Quanto mais divisivo o imóvel, mais debate — escolha os que dividem opinião.",
    "guia": "- A pergunta tem que ter resposta binária óbvia — nada de \"o que achou?\".\n- Imóvel divisivo > imóvel perfeito (perfeito não gera debate).\n- Responda os primeiros comentários pra puxar a discussão.\n- Sem trilha épica; música neutra deixa o julgamento no espectador.",
-   "prompt": "```\nVocê é roteirista de conteúdo imobiliário de engajamento. Crie um vídeo \"pergunta binária\":\n1) PERGUNTA na tela (0-3s): binária sim/não sobre o imóvel (\"Você moraria nessa casa?\"); 2) TOUR visual sem narração (3-25s); 3) a pergunta É o CTA.\nMEUS DADOS: Imóvel + detalhe polarizador: [ ]. Pergunta binária: [ ]. Público: [ ].\nTOM: sem fala, música neutra, deixar o espectador julgar. Escolher imóvel que DIVIDE opinião.\nENTREGUE: 1) pergunta + 2 variações; 2) shot list de 5-6 takes; 3) legenda curta; 4) 5 hashtags; 5) resposta-isca pro 1º comentário.\n```"
+   "prompt": "Você é um roteirista especialista em hooks de retenção para tours de imóveis. Crie um roteiro de \"tour com pergunta-desafio no hook\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. PERGUNTA-DESAFIO (0-4s): \"tour dessa casa em [LIMITE] — será que eu consigo?\" com o limite em destaque (legenda colorida)\n2. PROMESSA-TEASER (4-15s): comece pela fachada + \"mas o que vai te surpreender tá aqui dentro\" (loop interno)\n3. CORRIDA DE AMBIENTES (15-100s): ritmo ofegante (\"vem, vem, vem\"), um superlativo por ambiente, sem tempo morto\n4. CLÍMAX (final dos ambientes): guarde o melhor ambiente pro fim (suíte master, área de lazer)\n5. CTA DIRETO (fecho): \"se você gostou, já sabe: clica aí, fala comigo\"\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Imóvel + preço/diferencial: [DADOS]\n- O limite/desafio do hook: [EX.: tour em 1 minuto, mostrar tudo antes da música acabar]\n- O ambiente-surpresa (teaser interno): [O QUE GUARDAR PRA INTRIGAR]\n- O melhor ambiente (clímax): [O QUE DEIXAR PRO FINAL]\n\n**Regras de tom:**\n- Ritmo ofegante e acelerado (\"vem, vem, vem\") — a pressa é o gimmick, não corte pra devagar\n- A pergunta-desafio precisa de STAKES (tempo/limite) — pergunta genérica não gera loop\n- Superlativos constantes, energia alta o tempo todo\n- Feche SEMPRE com CTA de ação direta (fala comigo/clica)\n\n**Entregue:**\n1. Roteiro com marcação de tempo e narração acelerada por ambiente\n2. A frase-desafio do hook + a legenda colorida do limite\n3. A ordem dos ambientes (teaser interno cedo, melhor ambiente no fim)\n4. 5 hashtags\n5. Legenda do post + o CTA final",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance + geração de lead** em tours. A pergunta-desafio dá um motivo pro espectador ficar até o fim (ver se você cumpre) e o CTA direto captura o interessado.\n- Funciona com qualquer imóvel, mas rende mais com casas grandes/impressionantes (mais ambientes pra correr)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O DESAFIO]:** precisa ter stakes. \"Tour em 1 minuto\" é o clássico, mas vale \"antes da música acabar\", \"sem repetir ambiente\". O limite é o loop.\n- **[TEASER INTERNO]:** logo no começo, prometa que o melhor está por vir (\"o que surpreende tá dentro\") pra segurar quem entrou pela fachada.\n- **[CLÍMAX]:** guarde o ambiente mais impactante pro final — recompensa quem correu com você até o fim."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o ritmo vier lento/descritivo:\n\n> \"Acelera tudo. Narração ofegante, 'vem, vem, vem', um superlativo por ambiente. A pressa é o formato — nada de descrição calma.\"\n\nSe a pergunta vier fraca:\n\n> \"A pergunta precisa de stakes (um limite de tempo ou regra). 'Vamos ver a casa?' não gera loop; 'consigo mostrar tudo em 1 minuto?' gera.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Tour lento** — contradiz a premissa do desafio e derruba a retenção.\n2. **Pergunta sem stakes** — sem limite/desafio não há loop; é só mais um tour.\n3. **Hook atrasado** — a pergunta-desafio TEM que ser o 1º segundo.\n4. **Sem CTA** — a atenção acumulada se perde sem \"fala comigo\"."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Câmera na mão seguindo você em movimento — o dinamismo vende a corrida.\n- Legenda do desafio com o limite em cor de destaque (o \"1 MINUTO\" verde).\n- Narração rápida e entusiasmada, cortes ágeis, zero tempo morto.\n- Melhor ambiente por último; CTA direto no fecho."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta retenção pelo loop do desafio — e alta conversa nos comentários quando o \"1 minuto\" estoura (vira brincadeira \"isso não teve 1 minuto 😂\"), o que só aumenta o alcance. O CTA direto no fim é o que transforma tudo isso em lead no direct."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -567,7 +594,40 @@
     "link": "https://tiktok.com/@eu_mariannaribeiro/video/7609639746591116562",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma pergunta-desafio no primeiro segundo (\"será que eu consigo?\") transforma um tour comum num jogo contra o relógio — o espectador fica pra ver se ela cumpre a promessa."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Fachada; legenda \"TOUR POR ESSA CASA EM 1 MINUTO, SERÁ?\" (1 MINUTO em verde) | \"Tour por essa casa em um minuto. Será que eu consigo?\" | Hook-desafio: pergunta direta que abre loop (vai conseguir?) + relógio implícito |\n| 4-15s | Fachada, pele de vidro, garagem | \"Olha essa fachada, janela em pele de vidro, garagem pra 4 carros. Mas o que vai te surpreender tá aqui dentro\" | Promessa + teaser interno (mais um loop pra continuar) |\n| 15-40s | Escritório, sala, cozinha | \"Esse escritório você nunca viu igual… pode virar dormitório. Vem, vem, vem, muita integração, painelzão, iluminotécnico\" | Corrida de ambientes — a PRESSA (\"vem vem vem\") é o formato |\n| 40-80s | Área de lazer, piscina em L, 1ª suíte | \"Piscina fantástica, paisagismo lindíssimo… primeira suíte com marcenaria, banheiro branco Paraná\" | Mantém o ritmo ofegante; superlativo em cada ambiente |\n| 80-110s | Suíte master, closet, banheiro | \"Suíte master do casal, cabe uma super king, closet, banheiro fantástico\" | Clímax — guarda o melhor ambiente pro final |\n| 110-120s | Fecho | \"Se você gostou e quer mais informação, já sabe: clica aí agora, fala comigo\" | CTA direto de conversão (lead) |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A pergunta-desafio é o motor:** \"será que eu consigo?\" abre um loop com stakes (tempo) — o espectador precisa ver o desfecho.\n- **\"Vem, vem, vem\" cria urgência** e ritmo — a pressa não é defeito, é o gimmick que sustenta a retenção.\n- **Superlativos constantes** (\"você nunca viu\", \"fantástico\", \"lindíssimo\") mantêm a energia alta.\n- **Teaser interno** (\"o que vai te surpreender tá aqui dentro\") reforça o loop no meio do tour.\n- **Fecha com CTA de ação direta** (\"clica aí, fala comigo\") — converte a atenção em lead."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Tour em movimento** (câmera na mão seguindo-a) — o dinamismo comunica a corrida contra o tempo.\n- **Casa de alto padrão** conduzida por ela bem vestida, em ritmo acelerado.\n- **Legenda de desafio com destaque colorido** no \"1 MINUTO\" (verde) — fixa a regra do jogo pra quem assiste sem som."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração rápida, quase ofegante** — reforça o desafio contra o relógio e contamina de energia.\n- Cortes ágeis acompanhando o passo; sem tempo morto. O contraste entre a promessa (\"1 minuto\") e a realidade (mais longo) vira até piada nos comentários — o que engaja."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Loop de desafio** — \"será que consigo?\" com stakes de tempo é retenção pura (o cérebro quer o desfecho).\n2. **Urgência** — o relógio implícito acelera tudo e prende.\n3. **Curiosidade** — \"o que surpreende tá dentro\" mantém o loop interno vivo.\n4. **Energia contagiante** — o ritmo ofegante transfere entusiasmo pro espectador.\n5. **CTA de ação** — o fecho direto capitaliza a atenção acumulada em lead."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Tour lento — contradiz a premissa do desafio e mata a graça.\n- ❌ Pergunta genérica sem stakes — \"vamos ver a casa?\" não gera loop; precisa do desafio/limite.\n- ❌ Enrolar antes do hook — a pergunta-desafio tem que ser o primeiro segundo.\n- ❌ Esquecer o CTA — sem \"fala comigo\", o alcance não vira lead."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com a pergunta-desafio** + o limite: \"tour dessa casa em [X] — será que eu consigo?\" (destaque colorido no limite).\n2. **Mantenha o ritmo ofegante** (\"vem, vem, vem\") — a pressa é o gimmick, não corte pra devagar.\n3. **Solte um teaser interno** logo no começo (\"o que vai te surpreender tá lá dentro\").\n4. **Guarde o melhor ambiente pro final** (a suíte master, a área de lazer) — clímax.\n5. **Feche com CTA direto** (\"clica aí, fala comigo\"). Bônus: deixe a \"falha\" no tempo virar piada nos comentários."
+     }
+    ],
     "transcricao": "Tour por essa casa em um minuto. Será que eu consigo?\nCerteza que sim. Primeira coisa, olha só essa fachada dessa casa maravilhosa.\nAqui você tem janela em pele de vidro, garagem pra quatro carros de entrada lateral.\nMas vem cá, que o que vai te surpreender é o que tá aqui dentro.\nE esse escritório, você nunca viu nada igual.\nOlha o tamanho desse escritório, que acompanha o pé direito logo.\nE olha, você pode reverter pra mais um dormitório.\nVem, vem, vem, vem, que a gente tem muito pra apresentar.\nOlha só o tamanho dessa sala.\nGente, muita integração, super painelzão.\nProjeto iluminotécnico prontíssimo.\nE olha só, essa cozinha aqui você tem uma pedra negresco e uma cozinha muito bem servida em marcenaria,\nintegrando totalmente aqui com essa área gourmet.\nE detalhe, essa casa, porteira fechada, vem cá, que agora eu quero te mostrar essa área de lazer.\nOlha só, que piscina fantástica, muita área verde aqui, um projeto de paisagismo lindíssimo,\numa piscina em L, tá lindo, tá perfeito, mas vai ficar maravilhoso agora.\nVocê tem aqui um banheiro completão.\nAqui você tem adega, dispensa e olha só.\nVem cá, vem cá.\nPrimeiro aqui, Jônia, vem cá, vem cá.\nQue aqui nós temos a primeira suíte, já com a mobília planejada.\nEntra lá pra mostrar o acabamento do banheiro, que já está com marcenaria, iluminação natural.\nO banheiro todo no branco Paraná.\nOlha só esse painel.\nVem, vem, vem que você tem aqui, olha, esse lavabo incrível.\nUma casa muito bem iluminada.\nUma casa muito bem arejada, super fresquinha.\nRoupeiro você tem também.\nE aqui, olha o quarto, um dos quartos aqui já projetado com bastante marcenaria.\nBanheiro prontíssimo.\nOlha esse painel em LED, guarda-roupa.\nDetalhe, foca na cabeceira da cama.\nLindíssimo.\nTá maravilhoso.\nVem aqui que eu quero te mostrar agora a suíte master do casal.\nOlha isso.\nPresta atenção nesse acabamento, muita iluminação em LED, um super painel.\nAqui cabe uma super king.\nAgora o Junior vai te mostrar o closet que tem iluminação natural e iluminação em LED.\nE agora esse banheiro.\nOlha que ideia fantástica desse banheiro.\nTá lindo, tá perfeito e agora tá maravilhoso.\nE se você gostou dessa casa, quer mais informação e já sabe o que fazer,\nclica aí agora, fala comigo."
    }
   ],
@@ -690,12 +750,39 @@
   "desc": "Um imóvel de destaque vira vários vídeos ('Parte 1, 2, 3…'), forçando o follow.",
   "slug": "serie-em-partes",
   "formato": {
+   "estrutura": "1. **[BORDÃO DE ABERTURA]** assinatura fixa que abre todo episódio (\"Bem-vindos ao luxo\") + preço-âncora. → *slot: o bordão + o imóvel.*\n2. **[ELENCO EM DIÁLOGO]** personagens recorrentes interagindo (mãe/filho/dupla). → *slot: o elenco.*\n3. **[REVEAL + INTERAÇÃO]** destaques técnicos com reação do elenco. → *slot: os destaques.*\n4. **[CROSS-REFERÊNCIA]** citar outro episódio da série (\"a gente já mostrou X\"). → *slot: o gancho de série.*\n5. **[BORDÃO DE FECHAMENTO]** repetir a assinatura. → *slot: o ritual de fecho.*\n\n- **Fixo:** bordão fixo abre e fecha; elenco recorrente; cross-reference entre vídeos; identidade constante.\n- **Variável:** o imóvel, os specs, o episódio.",
    "hook": "**\"Bem-vindos ao luxo — hoje em uma casa de R$72 milhões.\"** O preço-choque na primeira frase + o formato de série (\"Parte 1\") promete continuação, transformando 1 imóvel em vários vídeos e forçando o follow.",
    "blocos": "- **Boas-vindas + preço-choque (0-5s):** \"bem-vindos ao luxo\" + valor absurdo.\n- **Tour guiado por dupla (5-...):** mãe e filho (Guilherme) passeiam comentando specs impossíveis — 28m de fachada, porta de 8m, cinema com tinta de projeção, adega pra 300 rótulos, piscina de mármore, 22 vagas, rooftop.\n- **Corte de série:** o vídeo termina abrindo a próxima parte (living, closet, área externa) — loop de continuação.",
    "porque": "- **Preço na primeira frase** filtra e fisga: quem quer ver os R$72 mi fica.\n- **A dupla (mãe + filho)** cria dinâmica de conversa, não monólogo — mais humano e retável.\n- **Formato de série** multiplica o conteúdo e converte view em seguidor (quer ver a Parte 2).\n- **Specs impossíveis** são moeda de compartilhamento (\"olha o teto de vidro\").",
    "aplicar": "- Um imóvel de destaque vira 4-5 vídeos: fachada+entrada / living / íntimo / área externa / rooftop.\n- Sempre abrir com o preço e \"Parte X\".\n- Dupla ou convidado dá dinâmica — evite o tour solo monótono.",
    "guia": "- Preço na capa e na primeira frase, sempre.\n- Cada parte fecha anunciando a próxima (\"na Parte 2, o closet\").\n- Um spec \"impossível\" por parte é o gancho de compartilhamento.\n- Numere as partes no texto e na legenda.",
-   "prompt": "```\nVocê é roteirista de tour de luxo em série. Crie o roteiro da PARTE 1 de uma série de imóvel:\n1) BOAS-VINDAS + PREÇO-CHOQUE (0-5s): \"bem-vindos ao luxo, hoje uma casa de [PREÇO]\"; 2) TOUR em dupla comentando 3-4 specs impossíveis; 3) CORTE DE SÉRIE anunciando a Parte 2.\nMEUS DADOS: Imóvel + preço: [ ]. Specs impossíveis: [ ]. Dupla/convidado: [ ]. O que vem na Parte 2: [ ].\nTOM: conversa entre duas pessoas, descoberta, \"olha isso\". Preço na 1ª frase.\nENTREGUE: 1) roteiro da Parte 1; 2) mapa das Partes 2-5; 3) texto de capa; 4) legenda; 5) 5 hashtags.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo de série para redes sociais imobiliárias. Crie um roteiro de \"episódio de série\" com elenco fixo e assinatura, seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. BORDÃO DE ABERTURA (0-6s): a assinatura fixa da série (\"Bem-vindos ao luxo\") + preço/localização do imóvel do episódio\n2. ELENCO EM DIÁLOGO (6-20s): personagens recorrentes interagindo (ex.: um pergunta, o outro reage) pra conduzir o tour\n3. REVEAL + INTERAÇÃO (20-70s): destaques técnicos do imóvel com reação do elenco (a química é o gancho)\n4. CROSS-REFERÊNCIA: cite outro episódio da série (\"a gente já mostrou X, lembra?\") pra puxar o público pra outros vídeos\n5. BORDÃO DE FECHAMENTO (fim): repita a assinatura pra fechar o ritual\n\n**Meus dados:**\n- Elenco recorrente + @: [QUEM APARECE — dupla, família, sócio]\n- Bordão da série: [A ASSINATURA FIXA DE ABERTURA/FECHAMENTO]\n- Imóvel do episódio + preço/localização: [DADOS]\n- Destaques técnicos pra revelar: [LISTA]\n- Episódio anterior pra cross-referenciar: [QUAL VÍDEO CITAR]\n\n**Regras de tom:**\n- O bordão e o elenco são FIXOS — nunca mude de episódio pra episódio (é o ativo da série)\n- Diálogo natural entre os personagens (perguntas e reações), nunca roteirizado demais\n- Sempre inclua a cross-referência — é o que transforma tours avulsos em novela\n- Feche SEMPRE com a assinatura pra fechar o ritual\n\n**Entregue:**\n1. Roteiro do episódio em diálogo, com marcação de tempo\n2. As falas do bordão de abertura e de fechamento\n3. Onde encaixar a cross-referência ao episódio anterior\n4. 5 hashtags + uma hashtag/nome fixo da série\n5. Ideia do próximo episódio (pra manter a série viva)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **fidelizar e construir audiência recorrente** (base + conexão). Não é sobre um vídeo viral isolado — é sobre criar uma novela que o público acompanha e espera.\n- Ideal pra quem tem volume de imóveis de destaque e um elenco natural (dupla, família, sócios) com química."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[BORDÃO]:** é o ativo mais valioso. Uma assinatura curta e memorável, repetida em TODO episódio (abertura e fechamento). Não mude nunca.\n- **[ELENCO]:** os personagens fixos são a identidade. A química entre eles vale mais que o roteiro — deixe fluir.\n- **[CROSS-REFERÊNCIA]:** sempre cite um episódio anterior. É o mecanismo que puxa o espectador pra outros vídeos e aumenta o watch-time da série."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o diálogo vier engessado:\n\n> \"Deixe a conversa natural entre os personagens — perguntas espontâneas, reações genuínas. Nada de fala decorada; a química é o produto.\"\n\nSe faltar identidade de série:\n\n> \"Reforce o bordão de abertura e fechamento e adicione uma cross-referência a outro episódio. É isso que transforma um tour avulso em série.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Mudar o bordão/elenco** — destrói a identidade que faz o público reconhecer e voltar.\n2. **Esquecer a cross-referência** — sem ela, é um tour solto, não uma série.\n3. **Diálogo forçado** — a química natural é o diferencial; roteiro demais mata.\n4. **Não fechar com a assinatura** — o ritual precisa de abertura E fechamento."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Câmera acompanhando o elenco pelos ambientes; luz natural; pouca legenda.\n- Mesma vinheta/estilo em todo episódio (identidade visual constante).\n- Bordão idêntico na abertura e no fechamento. Cross-referência no meio.\n- Numere ou nomeie os episódios pra o público organizar a série."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "O ganho do formato não está num vídeo, está no conjunto: elenco fixo + bordão + cross-reference criam watch-time entre vídeos e uma base fiel que \"assina\" a série. Responda os comentários no personagem/tom da série e use as perguntas do público pra pautar os próximos episódios."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -705,7 +792,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma série com bordão de abertura (\"Bem-vindos ao luxo\"), elenco de família e mansões de arromba dividida em partes — a assinatura e os personagens transformam tours avulsos numa novela que o público acompanha."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-6s | Fachada monumental, mãe + filho; assinatura | \"Bem-vindos ao luxo. Hoje uma casa de 72 milhões no Tamboré 3\" | Hook-bordão (identidade de série) + preço-âncora |\n| 6-20s | Porta de 8m, hall integrado | \"Cabe a fachada inteira, Guilherme? 28 metros de fachada, porta de 8 metros de altura\" | Dinâmica de diálogo (mãe pergunta / filho reage) — o elenco é o gancho |\n| 20-45s | Cinema sem telão (parede de projeção), jardim lateral | \"Presta atenção nas portas chão-teto. Percebe que não tem telão? É uma pintura especial pra projetar\" | Reveal técnico + interação familiar (\"como chama isso, mãe?\") |\n| 45-70s | Adega 300 rótulos, área gourmet, porta-temperos escondido | \"Adega pra 300 rótulos, tampo em Romano… esse porta-temperos você esconde — a gente já fez um vídeo dele, não fez, mãe?\" | CROSS-REFERÊNCIA a outro episódio — a mecânica que define a série |\n| 70-95s | Piscina em mármore azul caribe, lareira externa | \"Piscina revestida em mármore, fogo de chão, 1.500m construídos, 22 vagas, rooftop no Tamboré 3\" | Rajada de specs monumentais |\n| 95-107s | Fecho com o bordão | \"Bem-vindos ao luxo\" | Assinatura de fechamento — fecha o ritual da série |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O bordão \"Bem-vindos ao luxo\" abre e fecha** todo episódio — é o ritual que cria identidade e faz o público reconhecer a série na hora.\n- **O diálogo em família** (mãe + Guilherme + Junior) gera química e leveza; as perguntas entre eles (\"cabe a fachada, Guilherme?\") conduzem o tour de forma natural.\n- **A auto-referência é a chave da série:** \"a gente já fez um vídeo dele, não fez, mãe?\" sinaliza que existem mais episódios e empurra o espectador pra outros vídeos (watch-time entre conteúdos).\n- **Specs monumentais + preço** ancoram o desejo e o compartilhamento."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Mansão de arromba** com câmera acompanhando o trio pelos ambientes — luz natural, sem legenda pesada.\n- **A presença dos personagens fixos É a identidade visual** — o público reconhece o elenco antes do imóvel.\n- **Sem grafismo excessivo:** a fala, os ambientes e a família conduzem; a série se sustenta na recorrência, não na edição."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Diálogo espontâneo de família**, tom leve e afetivo (mãe-filho) — a química é o diferencial.\n- Sem trilha dominante; o ritmo é o da conversa passeando pela casa. As perguntas entre eles marcam as transições."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Elenco fixo / vínculo parasocial** — o público \"conhece\" a família e volta pra ver os próximos episódios.\n2. **Assinatura / ritual** — o bordão de abertura e fechamento cria pertencimento e reconhecimento imediato.\n3. **Cross-reference** — citar outros episódios aumenta o watch-time entre vídeos e treina o algoritmo.\n4. **Desejo aspiracional** — mansões e specs monumentais alimentam a fantasia.\n5. **Autoridade** — o domínio dos detalhes técnicos (a \"pintura de projeção\", o mármore) prova conhecimento profundo."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Mudar o bordão/elenco a cada vídeo — mata a identidade de série (o ativo mais valioso do formato).\n- ❌ Tour sem cross-reference — perde o efeito novela que puxa o espectador pra outros episódios.\n- ❌ Diálogo forçado/roteirizado demais — a química natural da família é o que segura.\n- ❌ Esquecer a assinatura de fechamento — o ritual precisa fechar o loop."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Crie um bordão de abertura e fechamento fixo** (\"bem-vindos ao luxo\") — repita em TODO episódio.\n2. **Monte um elenco recorrente** (dupla, família, sócio) — os personagens são a identidade da série.\n3. **Divida imóveis grandes em partes** e trate cada tour como um episódio.\n4. **Cross-referencie outros vídeos** (\"a gente já mostrou X, lembra?\") pra puxar o público entre conteúdos.\n5. **Mantenha o ritual visual** (mesma vinheta/estilo) e feche sempre com a assinatura."
+     }
+    ],
     "transcricao": "Bem-vindos ao luxo hoje em uma casa de 72 milhões de reais no Tamboré 3 em Alfa Verde, São Paulo.\nCabe, Guilherme, a fachada inteira?\n28 metros de fachada, Guilherme.\nUma porta de 8 metros de altura em alumínio.\nE acompanha o hall de entrada.\nPra cá, um lavabo ou um escritório.\nA casa é completamente integrada.\nDá uma olhada nisso aqui, ó.\nTudo integrado.\nAgora, presta atenção nas portas, ó.\nChão-teto. Aqui é o cinema.\nE você percebe que não tem telão, Guilherme?\nAh, é verdade, né?\nÉ aquelas pinturas, como que chama isso, mãe?\nÉ uma pintura especial pra você poder projetar.\nE olha aqui.\nO terreno, ele vai fechando no fundo.\nEntão a gente tem jardim aqui, olha, na lateral.\nTrês árvores lindas que eles colocaram aqui.\nE tudo aberto, né, mãe? Isso é muito gostoso.\nCompletamente integrado.\nAqui a gente tem uma adega pra 300 rótulos.\nOlha aqui o tampo da mesa, em Romano, que coisa mais linda.\nO tom neutro, né?\nPara agradar todo mundo aqui.\nNinguém pode reclamar de nada.\nOlha essa área gourmet que nós temos aqui.\nVocê conhece, Guilherme, esse porta-temperos ou porta-bebidas que você pode esconder ele aqui?\nA gente já fez um vídeo dele, não fez, mãe?\nFoi.\nDeixa eu ver se eu consigo ver.\nOlha aqui, ó.\nQue coisa mais linda.\nFica exposto.\nA hora que você não quer mais, você esconde ele totalmente.\nMostra a piscina totalmente revestida no mármore.\nE também por isso que a água fica com esse tom azul caribe.\nAqui a gente tem um fogo de chão, uma lareira externa, temos a área gramada, 1.500 metros de casa construída, 22 vagas de garagem, roof top no tamboré 3.\nBem-vindos ao luxo."
    }
   ],
