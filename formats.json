@@ -3219,12 +3219,39 @@
   "desc": "Momento real de emoção + pergunta-prova ('quanto de entrada? — zero') que gera leads.",
   "slug": "entrega-de-chaves-cliente-emocionado-recebendo",
   "formato": {
+   "estrutura": "1. **[O MOMENTO]** apresentar a entrega de chave + o cliente. → *slot: o cliente.*\n2. **[GANCHO COMERCIAL]** a condição que viabilizou (zero entrada, prazo). → *slot: a condição.*\n3. **[CTA SUAVE]** \"vem você também\". → *slot: o convite.*\n4. **[CLÍMAX EMOCIONAL]** o cliente abre/entra, emocionado. → *slot: a emoção.*\n5. **[FECHO DE GRATIDÃO + GESTO]** abraço, brinde. → *slot: a fidelização.*\n\n- **Fixo:** emoção REAL (com autorização); argumento comercial embutido; CTA suave; autenticidade > produção.\n- **Variável:** o cliente, a condição, o imóvel.",
    "hook": "Momento real de emoção + prova de viabilidade: **\"Hoje eu vou dar a chave pra Tainá, que tá comprando a casa dela. Tainá, você deu quanto de entrada? — Zero de entrada.\"** A emoção genuína + o \"zero de entrada\" respondem desejo e objeção ao mesmo tempo.",
    "blocos": "- **Apresentação do momento (0-5s):** \"hoje entrego a chave pra [cliente]\".\n- **A pergunta-prova (5-10s):** \"quanto deu de entrada? — Zero\" — quebra a maior objeção ao vivo.\n- **Entrega emocionada (10-25s):** o cliente recebendo, a reação real, o agradecimento.\n- **CTA implícito:** \"você também compra com zero entrada, eu te ajudo\".",
    "porque": "- **Emoção real = prova social irresistível** — o espectador projeta (\"eu quero sentir isso\").\n- **O \"zero de entrada\" dito pelo cliente** vale mais que qualquer anúncio (prova + quebra de objeção).\n- **Gera leads diretos nos comentários** (\"tem casa em [bairro]?\") — converte na hora.",
    "aplicar": "- Todo fechamento/entrega vira conteúdo (com autorização do cliente).\n- Faça a pergunta-prova que quebra a objeção do seu público (\"quanto de entrada?\", \"quanto de parcela?\", \"quanto tempo levou?\").\n- Deixe a emoção ser real — encenação destrói o formato.",
    "guia": "- Autorização do cliente sempre (imagem + dados).\n- A pergunta-prova é o pico — faça o cliente responder no vídeo.\n- Não corte a emoção; é o que converte.\n- Responda os comentários de leads rápido (é onde a venda começa).",
-   "prompt": "```\nVocê é corretor(a) documentando uma entrega de chaves. Crie um roteiro:\n1) APRESENTAÇÃO (0-5s): \"hoje entrego a chave pra [cliente]\"; 2) PERGUNTA-PROVA que quebra a objeção do seu público (\"quanto de entrada?\"); 3) ENTREGA emocionada real; 4) CTA implícito (\"você também consegue\").\nMEUS DADOS: Cliente (com autorização): [ ]. A objeção que o caso quebra: [ ]. Bairro/cidade: [ ].\nTOM: emoção REAL, prova social. A pergunta-prova é o pico. Zero encenação.\nENTREGUE: 1) roteiro; 2) a pergunta-prova exata; 3) legenda; 4) 5 hashtags; 5) resposta modelo pros comentários \"tem imóvel em [bairro]?\".\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo emocional de prova social imobiliária. Monte a estrutura de um vídeo \"entrega de chaves\" (o momento do cliente recebendo o imóvel), seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. O MOMENTO (0-5s): apresente a entrega de chave + o cliente (\"hoje vou entregar a chave pra [nome], que comprou a casa dela\")\n2. GANCHO COMERCIAL (5-12s): revele a condição que viabilizou (\"quanto de entrada? — zero de entrada\")\n3. CTA SUAVE (12-15s): \"vem você também [condição], eu te ajudo\"\n4. CLÍMAX EMOCIONAL: o cliente abre/entra na casa, emocionado (deixe a emoção real acontecer)\n5. FECHO DE GRATIDÃO + GESTO: abraço, brinde, agradecimentos\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Cliente + o que comprou: [NOME + IMÓVEL]\n- A condição que viabilizou: [EX.: zero de entrada, MCMV, prazo]\n- O gesto/brinde: [O QUE ENTREGAR]\n\n**Regras de tom:**\n- A emoção é REAL — nada de encenar; capture o momento genuíno (com autorização)\n- Encaixe o argumento comercial numa pergunta natural (\"quanto de entrada?\")\n- CTA suave, no auge da emoção — convite, não pressão\n- Autenticidade acima de produção — cena crua vende mais\n\n**Entregue:**\n1. O roteiro do momento (perguntas naturais a fazer pro cliente)\n2. Como encaixar o gancho comercial sem quebrar a emoção\n3. O CTA suave\n4. 5 hashtags\n5. Dica de captação de autorização de imagem do cliente",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **prova social + conexão + captação** (ótimo como ad). A emoção real é o conteúdo mais convertível do nicho — mostra o sonho realizado e prova que você entrega.\n- Todo fechamento é uma oportunidade: a entrega de chaves vira conteúdo com autorização."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A CONDIÇÃO]:** o argumento comercial (zero de entrada, MCMV, prazo). É o que transforma a emoção em lead — sem ele, é só um vídeo bonito.\n- **[A EMOÇÃO]:** não force. Capture o momento genuíno da abertura da porta/abraço. A espontaneidade é insubstituível.\n- **[AUTORIZAÇÃO]:** sempre com consentimento do cliente pra usar a imagem."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se sugerir encenar:\n\n> \"A emoção tem que ser real, capturada no momento. Nada de atuação — o público sente a falsidade. Apenas guie as perguntas naturais.\"\n\nSe esquecer o comercial:\n\n> \"Encaixe o argumento (zero de entrada, condição) numa pergunta natural pro cliente. A emoção converte quando ancorada num 'você também pode'.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Encenar a emoção** — mata a autenticidade que faz o formato funcionar.\n2. **Esquecer o argumento comercial** — sem o gancho (zero de entrada), a emoção não vira lead.\n3. **Produção demais** — cena crua vende mais que vídeo \"produzido\".\n4. **Sem CTA** — a emoção precisa do convite pra converter."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Filme o momento real (com autorização): a entrega, a abertura da porta, o abraço.\n- Fala espontânea; sem trilha pesada. Deixe as pausas emocionais.\n- Encaixe a pergunta comercial (\"quanto de entrada?\") + CTA suave. Feche com o gesto/brinde."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Altíssima conexão e compartilhamento (a emoção viraliza) + conversão pelo argumento de acessibilidade. Um cliente real feliz é a prova social definitiva. Responda os \"como faço pra comprar sem entrada?\" no direct — o lead já vem emocionado e quente."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -3234,7 +3261,40 @@
     "link": "https://tiktok.com/@hannaferreroficial/video/7646071142490393877",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "A emoção real de quem recebe as chaves da própria casa — o formato captura o payoff emocional da compra e transforma a felicidade do cliente no melhor anúncio de captação."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-5s | Corretora + cliente na frente da casa | \"Hoje vou entregar a chave pra Thayná, minha cliente que tá comprando a casa dela\" | Hook: o momento (entrega de chave) + apresenta a protagonista |\n| 5-12s | Corretora pergunta, cliente responde | \"Thayná, quanto de entrada? — Zero de entrada\" | Gancho comercial: ZERO de entrada — a prova de que é possível |\n| 12-15s | Cliente segura a chave | \"Vem você também comprar com zero de entrada, eu vou te ajudar. Pode abrir sua casa\" | CTA embutido na emoção |\n| 15-25s | Cliente/mãe abre a porta e entra na casa, emocionada | (emoção, olhos marejados) | Clímax emocional — a realização do sonho da casa própria |\n| 25-35s | Abraço, entrega de brinde (sacola), agradecimentos | \"Obrigada, obrigada\" | Fecho de gratidão + o gesto (brinde) que fideliza |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Mistura emoção + argumento comercial:** a realização do sonho (emocional) e o \"zero de entrada\" (racional) na mesma cena — atinge coração e cabeça.\n- **A espontaneidade é insubstituível** — a emoção real de \"abrir a própria casa\" não se atua.\n- **O \"zero de entrada\" é a prova social que gera lead** — quem assiste pensa \"se ela conseguiu, eu também\".\n- **CTA suave** (\"vem você também, eu te ajudo\") — convida sem pressão, no auge da emoção."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Cena real e crua** (fachada simples, cliente comum, emoção genuína) — a autenticidade É a produção.\n- **O abraço, o choro, a abertura da porta** são o conteúdo — nenhum recurso gráfico compete com isso.\n- **O brinde (sacola)** aparece como gesto de cuidado que humaniza a corretora."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala espontânea e emocionada** — sem roteiro, sem trilha dominante.\n- O ritmo é o do momento real; as pausas emocionais são parte do impacto."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Emoção / realização** — o sonho da casa própria é o gatilho emocional mais forte do nicho.\n2. **Prova social** — um cliente real e feliz vale mais que qualquer depoimento roteirizado.\n3. **Acessibilidade** — o \"zero de entrada\" derruba a barreira mental da compra.\n4. **Reciprocidade** — o brinde e o cuidado geram afeto e indicação.\n5. **Aspiração** — \"eu quero viver esse momento\" é o que move o lead."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Encenar a emoção — o público sente a falsidade; só o momento real funciona.\n- ❌ Esquecer o argumento comercial — o \"zero de entrada\" (ou a condição) é o gancho que vira lead.\n- ❌ Produção demais — luz/edição sofisticada mata a autenticidade.\n- ❌ Não incluir o CTA — a emoção sem o convite não converte."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Filme o momento REAL da entrega de chaves** (sempre com autorização do cliente).\n2. **Capture a emoção genuína** (a abertura da porta, o abraço) — não corte pra parecer \"produzido\".\n3. **Encaixe o argumento comercial** que viabilizou (zero de entrada, prazo, condição) numa pergunta natural.\n4. **Faça um CTA suave** (\"vem você também, eu te ajudo\") no auge da emoção.\n5. **Finalize com um gesto** (brinde, abraço) que humaniza e fideliza."
+     }
+    ],
     "transcricao": "Oi gente, hoje eu vou dar a gente pra Thayná, minha cliente que tá comprando a casa dela.\nThayná, você deu quanto de entrada?\nZero de entrada.\nEntão gente, vem você também comprar sua casa própria com zero de entrada, isso é muito bom.\nE eu vou ajudar você.\nPodem vir.\nPode abrir sua casa.\nSeja.\nA aula da promoviária, eu te dou essa experiência.\nObrigada, obrigada.\nFoi a Ana, muito bem bendita por ela, pelo seu Jean-Rano.\nSó agradecer a vocês.\nObrigada.\nNão é nada."
    }
   ],
@@ -3415,12 +3475,39 @@
   "desc": "Trecho de conversa com opinião polêmica + legenda grande — autoridade emprestada.",
   "slug": "corte-de-podcast-com-opiniao-polemica",
   "formato": {
+   "estrutura": "1. **[HOOK: A ESTRATÉGIA + NÚMERO]** \"ótima estratégia: paga X pra garantir\". → *slot: a estratégia.*\n2. **[MECÂNICA EM TOM CASUAL]** o passo a passo conversado. → *slot: os passos.*\n3. **[O PAYOFF / AS SAÍDAS]** as opções de ganho (vender/alugar). → *slot: o resultado.*\n4. **[A TESE OUSADA]** a opinião polêmica (\"o império\"). → *slot: a polêmica.*\n5. **[PROVA + FECHO]** \"eu fiz isso (vendi dois)\". → *slot: a prova.*\n\n- **Fixo:** tom de conversa de podcast; legendas de punchline; números na estratégia; prova real; @handle.\n- **Variável:** a estratégia, os números, a tese.",
    "hook": "Trecho de conversa que soa como \"segredo de bastidor\" sendo revelado: **\"A estratégia? Fica procurando imóvel na planta no pré-lançamento, paga 10 mil pra garantir, e nos próximos 3 anos paga só 30%…\"**. O formato de corte de podcast dá autoridade de \"conversa entre quem entende\".",
    "blocos": "- **Meio da conversa (0-5s):** entra no meio de uma explicação de estratégia (sensação de \"peguei um segredo\").\n- **A tese detalhada (5-50s):** a mecânica do investimento na planta (garante com pouco, paga 30% em 3 anos, na entrega vende com lucro ou aluga e o inquilino paga o financiamento).\n- **Pergunta do entrevistador + prova (fim):** \"você vende ou aluga?\" → \"vendi dois com desconto direto da construtora, valeu muito a pena\".",
    "porque": "- **Formato de corte de podcast = autoridade emprestada** (parece conversa séria entre quem sabe).\n- **Entrar no meio** cria a sensação de flagra de um segredo.\n- **A legenda grande** reforça a tese pra quem assiste sem som; o diálogo (pergunta/resposta) mantém dinâmica.",
    "aplicar": "- Grave (ou participe de) uma conversa/podcast e corte os trechos de opinião mais fortes.\n- Escolha a tese mais polêmica/contraintuitiva pro corte (gera debate).\n- Legenda grande com a frase-chave pra consumo sem som.",
    "guia": "- O corte tem que começar no meio de uma frase forte (não na apresentação).\n- Tese defensável com números; o debate vai testar.\n- Legenda grande e sincronizada.\n- Dois interlocutores > monólogo (dinâmica de entrevista).",
-   "prompt": "```\nVocê é editor(a) de cortes de podcast imobiliário. Crie um roteiro de corte \"opinião polêmica\":\n1) MEIO DA CONVERSA (0-5s): entra numa frase forte de estratégia/opinião; 2) TESE detalhada com a mecânica e números; 3) PERGUNTA do entrevistador + PROVA/resposta.\nMEUS DADOS: A tese polêmica/contraintuitiva: [ ]. A mecânica com números: [ ]. A prova (caso real): [ ].\nTOM: conversa entre quem entende, autoridade emprestada. Começar no meio da frase forte. Legenda grande.\nENTREGUE: 1) roteiro do corte (diálogo); 2) frase de legenda grande; 3) legenda do post; 4) 5 hashtags; 5) ponto exato de início do corte.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo de corte de podcast. Crie o roteiro de um \"corte de podcast com estratégia/opinião forte\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: A ESTRATÉGIA + NÚMERO (0-8s): \"ótima estratégia: você paga [X] pra garantir…\"\n2. MECÂNICA EM TOM CASUAL: o passo a passo conversado (com os números)\n3. O PAYOFF / AS SAÍDAS: as opções de ganho (vender/alugar/financiar)\n4. A TESE OUSADA: a opinião polêmica/aspiracional (\"é assim que eu construo o império\")\n5. PROVA + FECHO: \"eu fiz isso de verdade\" (o resultado real)\n\n**Meus dados:**\n- Quem fala + @ (handle pra watermark): [NOME + @]\n- A estratégia/opinião: [O MÉTODO OU TESE FORTE]\n- Os números da estratégia: [VALORES — entrada, %, parcela, valorização]\n- As saídas/payoff: [VENDER / ALUGAR / FINANCIAR]\n- A prova real: [O QUE VOCÊ JÁ FEZ]\n\n**Regras de tom:**\n- Tom de CONVERSA espontânea (papo de podcast), não de vídeo roteirizado\n- Cada trecho precisa de uma PUNCHLINE (a frase forte que vira legenda)\n- Números concretos na estratégia (sem eles, não convence)\n- Inclua a prova (\"eu fiz isso\") e seja honesto sobre o risco/que é opinião\n\n**Entregue:**\n1. O roteiro do papo com as punchlines marcadas\n2. As legendas de punchline (uma por trecho)\n3. Onde encaixar a prova real\n4. Sugestão de pergunta do entrevistador que valida a tese\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance + autoridade**. O formato de corte empresta credibilidade de \"papo real\" e o algoritmo distribui bem clips de podcast.\n- Ideal pra defender uma estratégia/tese forte com números — a ousadia gera debate e o método gera salvamento."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A ESTRATÉGIA + NÚMEROS]:** o método precisa de valores concretos (10 mil, 30%, parcela). Sem números, é achismo.\n- **[A TESE OUSADA]:** a opinião forte (\"o império\") é o que gera debate e admiração. Não amenize demais.\n- **[A PROVA]:** \"eu fiz isso (vendi dois)\" tira do campo da teoria. É o que sustenta a autoridade."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier roteirizado/formal:\n\n> \"Deixe em tom de conversa espontânea, com gírias e a energia de quem defende a própria tese. É um corte de papo, não um vídeo institucional.\"\n\nSe faltar punchline:\n\n> \"Marque a frase mais forte de cada trecho — é a que vira legenda em destaque e segura a atenção. Sem punchline, o corte não retém.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Cortar sem punchline** — a frase forte legendada é o que segura.\n2. **Estratégia vaga** — sem números, não convence.\n3. **Esconder o risco/que é opinião** — a honestidade sustenta a autoridade.\n4. **Corte longo sem gancho** — cada trecho precisa puxar o próximo."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Cenário de podcast (microfone, estúdio) — a linguagem visual que sinaliza \"conteúdo de valor\".\n- Legendas grandes de punchline por trecho + seu @handle de watermark.\n- Tom de conversa; deixe a pergunta do entrevistador validar a tese."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance (clips de podcast performam) + autoridade pela estratégia acionável. A polêmica enche os comentários (concordam e discordam). Responda defendendo a tese com a prova — cada debate amplia o alcance. Reaproveite um mesmo papo em vários cortes."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -3430,7 +3517,40 @@
     "link": "https://tiktok.com/@cesarconsorcioshow/video/7524125765751868678",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um corte de podcast em que uma estratégia agressiva de enriquecimento imobiliário é contada em tom de conversa — o formato empresta a credibilidade do \"papo real\" e as legendas de punchline seguram cada frase."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Podcast (mic); legendas \"ÓTIMA ESTRATÉGIA / VOCÊ VAI LÁ E PAGA LÁ\" + @handle | \"Fica procurando imóvel na planta; no pré-lançamento você paga 10 mil pra garantir\" | Hook: promessa de estratégia + o número baixo (10 mil) |\n| 8-25s | Legenda \"10 MIL PRA GARANTIR O IMÓVEL\" | \"Nos 3 anos até ficar pronto, paga 30% (parcela de ~1.250/mês)\" | A mecânica em tom casual (passo a passo) |\n| 25-45s | Legenda \"AÍ VOCÊ TEM UMA PORRADA DE OPÇÃO\" | \"Quando fica pronto: ou vende (já vale 400-500 vs 300-350) ou financia e aluga\" | As saídas — o payoff do investimento |\n| 45-58s | Legenda \"VAI FICAR PAGANDO O FINANCIAMENTO PRA VOCÊ\" | \"O inquilino paga o financiamento pra você. É assim que eu faço: a máquina, o império\" | A tese ousada (o \"império\") — a parte polêmica/aspiracional |\n| 58-67s | Legenda \"VOU COMPRANDO / COM UM BOM DESCONTO\" | \"Vendi dois com bom desconto direto na construtora; outros tô alugando\" | Prova (fez de verdade) + fecho |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Tom de conversa espontânea** — o corte de podcast empresta credibilidade de bastidor (\"não é um vídeo pra você, é um papo que eu peguei\").\n- **A estratégia é ousada e acionável** (\"porrada de opção\", \"o império\") — a ambição vende e a polêmica engaja.\n- **As legendas de punchline** destacam a frase forte de cada trecho — quem assiste sem som pega o núcleo.\n- **A prova ancora** (\"vendi dois direto na construtora\") — sem ela, seria só teoria.\n- **A informalidade (gírias, palavrão)** reforça a autenticidade."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Cenário de podcast** (microfone, estúdio) — a linguagem visual que sinaliza \"conteúdo de valor / entrevista\".\n- **Legendas grandes de punchline** em cada frase-chave + **@handle watermark** (atribuição/branding).\n- O formato \"clip\" já é nativo e reconhecível — o público consome sem resistência."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala natural de conversa**, com a energia de quem defende a própria tese.\n- Ritmo dado pelos cortes entre punchlines; a pergunta do entrevistador (\"você vende ou só aluga?\") quebra e valida."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Autoridade emprestada** — o formato podcast sinaliza que a pessoa foi \"convidada a compartilhar\".\n2. **Estratégia acionável** — o método com números faz o espectador querer replicar.\n3. **Polêmica / ousadia** — \"o império\", \"porrada de opção\" geram admiração e debate.\n4. **Prova** — \"vendi dois\" tira do campo da teoria.\n5. **Informalidade** — o papo cru gera identificação e credibilidade."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Cortar sem punchline — a legenda da frase forte é o que segura a atenção.\n- ❌ Estratégia vaga — precisa dos números (10 mil, 30%, 1.250/mês) pra convencer.\n- ❌ Esconder que é opinião/tem risco — a honestidade sustenta a autoridade.\n- ❌ Corte longo sem gancho — cada trecho precisa de uma frase que puxe o próximo."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Grave (ou participe de) um papo de podcast** onde você defende uma estratégia/opinião forte.\n2. **Corte os trechos de punchline** (as frases mais fortes e ousadas).\n3. **Legende cada frase-chave** em destaque + coloque seu @handle.\n4. **Inclua os números** da estratégia (o que torna acionável) e a **prova** (\"eu fiz isso\").\n5. **Termine com um gancho/tese** (\"é assim que eu construo o império\"). Tom de conversa, sem roteiro engessado."
+     }
+    ],
     "transcricao": "A última estratégia, faz o seguinte, fica procurando imóvel na planta, aí achou o imóvel, vai lançar, no pré-lançamento, você vai lá e você paga lá, sei lá, um imóvel de 300 pau, 350 pau, você vai lá, paga 10 conto, é assim que funciona, pra garantir 10 mil, pra garantir o imóvel, e nos próximos 3 anos, que é até quando o imóvel vai ficar pronto, você tem que pagar só 30% do imóvel, então você tem 3 anos pra pagar 100 mil, então você vai pagando ali parcelinha mensal de 1250 reais, tal, e vai fazendo, vai pegando.\nDaqui a 3 anos quando ele ficar pronto\nAí você tem uma porrada de opção\nVocê tem que quitar esse apartamento\nOu você vende, porque ele já não vale mais 300, 350\nEle vale uns 400, 500\nDepende do lugar, 500 e tal\nOu você pega um financiamento, paga ele\nAluga pra alguém\nE essa pessoa que alugou vai ficar pagando financiamento pra você\nOu você vende\nEntão enfim, é assim que eu faço\nA máquina, o império\nVou construir, vou comprando, comprando\nQuando vai ficando pronto\nMas você chega a vender ou só faz esse esquema do alugar que é melhor?\nEu vendi dois, porque eu comprei com um bom desconto que foi direto na construtora, aí valia muito a pena, tem alguns que estão alugando, tem outros que ainda vão ficar prontos."
    }
   ],
