@@ -1089,12 +1089,39 @@
   "desc": "Listicle em 1ª pessoa: 'X erros que EU cometi' — autoridade por vivência, com números.",
   "slug": "listicle-educacional-em-video-talking-head",
   "formato": {
+   "estrutura": "1. **[HOOK NUMERADO + CREDENCIAL]** \"os X erros que eu cometi quando [feito]\" (prova que viveu). → *slot: o número + a credencial.*\n2. **[ERRO 1..X COMO HISTÓRIA]** cada erro = caso pessoal + número real + a lição. → *slot: os erros.*\n3. **[NÚMEROS DA PRÓPRIA COMPRA]** valores reais que provam a vivência. → *slot: os dados.*\n4. **[CTA DE SÉRIE]** pedir pauta (\"o que mais querem saber?\"). → *slot: o gancho.*\n\n- **Fixo:** erros REAIS vividos; número concreto em cada; tom de conversa; vulnerabilidade; CTA de pauta.\n- **Variável:** os erros, os números, o tema.",
    "hook": "Promessa numerada em 1ª pessoa com prova de vivência: **\"Tem 3 erros que eu cometi quando comprei meu primeiro apartamento — e não cometi mais no segundo.\"** Numerar + admitir erro próprio = autoridade por experiência, não por teoria.",
    "blocos": "- **Promessa numerada + credibilidade (0-5s):** \"3 erros que EU cometi\" — vivência, não palpite.\n- **Erro 1 — orientação do apê (5-20s):** não perguntou pra onde a unidade estava virada (rua vs miolo).\n- **Erro 2 — custo da obra (20-40s):** obra saiu o triplo; ele reservou dinheiro, mas gastou demais (comprou por 400, +100 de obra, mercado 570 — quase zerou o lucro potencial).\n- **Erro 3 — proibição de Airbnb (40-55s):** convenção do condomínio proibia curta temporada; matou o plano de renda.\n- **CTA (fim):** \"o que mais vocês querem saber da jornada de comprar?\".",
    "porque": "- **Erro próprio + números reais** (400 / +100 / 570) = autoridade que salva (2.610 saves).\n- **Formato numerado** garante retenção até o último item.\n- **Cada erro é uma dor real** do comprador iniciante — utilidade máxima.",
    "aplicar": "- \"X erros que meus clientes cometem\", \"X coisas que verifico antes de comprar\", \"X cuidados na planta\".\n- Ancore em caso real com números — genérico não salva.\n- Série infinita: financiamento, documentação, obra, localização, condomínio.",
    "guia": "- Numere na fala E no texto de tela (1/3, 2/3, 3/3).\n- Cada item precisa de um número ou consequência concreta.\n- Talking head simples; a autoridade vem do conteúdo, não da produção.\n- CTA de pergunta (\"o que querem saber?\") alimenta a série e os comentários.",
-   "prompt": "```\nVocê é corretor(a)/comprador experiente criando um listicle educacional em vídeo:\n1) PROMESSA numerada + vivência (0-5s): \"X erros que EU cometi ao [ ]\"; 2) os X itens, cada um com consequência/número concreto; 3) CTA de pergunta pra próxima parte.\nMEUS DADOS: Tema: [ ]. Os X itens (erros/dicas): [ ]. Números reais de cada um: [ ]. Público: [ ].\nTOM: 1ª pessoa, vivência real, talking head simples. Cada item com número/consequência.\nENTREGUE: 1) roteiro item a item com tempos; 2) textos de tela numerados; 3) legenda; 4) 5 hashtags; 5) 5 próximos temas da série.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo educacional para redes. Crie um roteiro de \"listicle talking head com história pessoal\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK NUMERADO + CREDENCIAL (0-8s): \"os [X] erros que eu cometi quando [feito]\" — com uma prova de que você viveu isso\n2. ERRO/DICA 1 a X (corpo): cada item = uma história pessoal + um número real + a lição prática\n3. TRANSPARÊNCIA DE NÚMEROS: mostre os valores reais (quanto pagou, gastou, vale hoje)\n4. CTA DE SÉRIE (fecho): peça pauta (\"o que mais vocês querem saber sobre [tema]?\")\n\n**Meus dados:**\n- Autor + @: [NOME + @]\n- Tema do listicle: [EX.: erros ao comprar o 1º apê, dicas de financiamento]\n- Os X itens (erros/dicas reais que você viveu): [LISTE]\n- Números reais pra cada item: [VALORES/DADOS]\n- A credencial que prova a vivência: [EX.: já comprei 3 imóveis]\n\n**Regras de tom:**\n- Cada item é uma HISTÓRIA PESSOAL, não dica de manual — a vivência é o diferencial\n- Seja transparente com os números (quanto pagou/gastou/vale) — é a prova de autoridade\n- Admita os erros sem vergonha — a vulnerabilidade gera confiança\n- Tom de amigo dando conselho, não de guru — informal e acessível\n\n**Entregue:**\n1. Roteiro completo com o hook, os X itens (história + número + lição) e o fecho\n2. Quais palavras-chave colocar como legenda em cada item\n3. A frase de credencial do hook e o CTA de série\n4. 5 hashtags\n5. Ideia dos próximos vídeos da série (a partir do CTA de pauta)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade + audiência** (base). Ensina, gera salvamento e posiciona você como quem entende do assunto pela prática.\n- Aguenta **long-form** (1-3 min) porque é história — o público fica se a narrativa prender. Ótimo pra aprofundar temas que carrossel não dá conta."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[OS ITENS]:** erros/dicas que você VIVEU. Experiência real supera qualquer lista genérica de blog.\n- **[NÚMEROS REAIS]:** os valores da sua própria compra são a prova. \"Comprei por 400, gastei 100, vale 570\" vale mais que \"obra sai caro\".\n- **[CREDENCIAL]:** algo que prove que você passou por isso (já comprei X, invisto há Y anos). É o que dá peso ao conselho."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier dica genérica:\n\n> \"Transforme cada item numa história pessoal com número real. 'Não erre na obra' vira 'gastei o triplo do que esperava, olha os valores'. A vivência é o gancho.\"\n\nSe ficar longo e arrastado:\n\n> \"Cada item precisa de um mini-arco (o erro → o que aconteceu → a lição). Corte o que não avança a história. Long-form só se sustenta com narrativa.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Dica genérica sem história** — perde a credibilidade que só a vivência dá.\n2. **Sem números** — a prova está nos valores reais; sem eles, é só opinião.\n3. **Esconder quanto gastou/perdeu** — a transparência é o que gera confiança.\n4. **Fechar sem gancho de série** — perde comentário e continuidade."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Talking head informal (cozinha, sala — não estúdio). A informalidade É a autenticidade.\n- Legendas de palavra-chave marcando cada ponto. Gestos naturais.\n- Fala de quem conta caso, não de quem dá aula. Feche pedindo pauta."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta salvabilidade (as pessoas guardam pra consultar antes de comprar) e forte construção de autoridade. O CTA de pauta (\"o que mais querem saber?\") enche os comentários de ideias — cada uma é o próximo vídeo da série da \"jornada da casa própria\"."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1104,7 +1131,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um listicle de erros próprios (\"3 erros que cometi no meu 1º apê\") que ensina pela vivência — a vulnerabilidade de admitir os erros faz o conselho colar mais que qualquer dica genérica."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Talking head na cozinha, casual (pano no ombro) | \"Tem 3 erros que cometi quando comprei meu primeiro apartamento e não cometi mais no segundo\" | Hook-promessa numerada + credencial implícita (já comprou 2+) |\n| 8-45s | Gesticulando; legenda \"possibilidades\" | \"Erro 1: comprei sem saber pra onde o apê estava virado — o meu ficou pra outro prédio; eu preferia rua\" | Erro 1 (orientação) — dica concreta e não óbvia |\n| 45-110s | Legenda \"muito caro\" | \"Erro 2: a obra. Mobiliar foi o TRIPLO do que eu esperava. Comprei por 400, gastei 100 de obra; vale 570 hoje\" | Erro 2 (custo de obra) — com NÚMEROS reais da própria compra |\n| 110-175s | Legenda \"alugado\" | \"Erro 3: condomínios novos proíbem Airbnb na convenção — se você quer renda de curta temporada, cheque antes\" | Erro 3 (Airbnb/convenção) — insight avançado que pouca gente sabe |\n| 175-200s | Fecho | \"Já contei como comprei o 1º, 2º, 3º… me diz o que mais quer saber da jornada da casa própria\" | CTA de engajamento + gancho de série |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Hook numerado com credencial** (\"3 erros… que não cometi mais no segundo\") — o número promete estrutura e o \"segundo apê\" prova que ele aprendeu na prática.\n- **Cada erro é uma história pessoal + número + a lição** — não é dica de manual, é experiência vivida (mais crível).\n- **Os números da própria compra** (400 + 100 de obra, vale 570) são a prova de autoridade — ninguém contesta a matemática de quem viveu.\n- **Fecha pedindo pauta** (\"o que mais querem saber?\") — gera comentário e alimenta uma série."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Talking head caseiro (cozinha real, pano no ombro)** — a informalidade sinaliza autenticidade; parece um amigo dando conselho, não um guru.\n- **Legendas de palavra-chave** (\"possibilidades\", \"muito caro\", \"alugado\") marcam os pontos e ajudam quem assiste sem som.\n- **Gestos naturais**, sem edição sofisticada — o valor é a informação, não a produção."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Fala corrida e natural**, de quem conta um caso — o long-form (200s) se sustenta porque é história, não aula.\n- Sem trilha; a narrativa conduz. Cada erro é um mini-capítulo com desfecho."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Promessa numerada** (\"3 erros\") — estrutura fechada que retém até o último item.\n2. **Vulnerabilidade** — admitir os próprios erros gera confiança (o oposto do especialista que \"nunca erra\").\n3. **Prova por vivência** — comprou de verdade, com números reais; a experiência vale mais que teoria.\n4. **Utilidade não óbvia** — dicas avançadas (orientação, convenção/Airbnb) que o comprador nunca pensou.\n5. **CTA de série** — pedir pauta cria comunidade e fila de conteúdo."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Dicas genéricas sem história pessoal — o \"eu errei isso\" é o gancho de credibilidade.\n- ❌ Omitir os números — a prova está nos valores reais da própria compra.\n- ❌ Esconder quanto gastou/perdeu — a transparência é o que gera confiança.\n- ❌ Fechar sem gancho de série — perde o comentário e a continuidade."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escolha X erros REAIS** que você (ou um cliente, com autorização) cometeu numa compra.\n2. **Abra numerado com credencial:** \"os X erros que cometi quando [feito]\" — prove que viveu.\n3. **Conte cada erro como história** + o número real + a lição prática.\n4. **Seja transparente com os valores** (quanto pagou, gastou, vale) — é a prova.\n5. **Feche pedindo pauta** (\"o que mais querem saber?\") pra criar série e engajamento. Long-form funciona se a história prender."
+     }
+    ],
     "transcricao": "Tem três erros que eu cometi quando eu comprei esse primeiro apartamento\nque eu não cometi mais no segundo apartamento.\nNo primeiro apartamento, que é esse,\nquando eu cheguei ali no estande de vendas e tudo mais e quis comprar de fato o apartamento,\neu já sabia o quanto eu podia gastar ou não.\nE ali tem uma certa ansiedade, tem uma certa euforia de comprar o primeiro apartamento\ne eu não prestei atenção nisso.\nEu comprei um apartamento no primeiro andar.\nMas só que quando eu comprei, eu não sabia exatamente pra onde ele estaria virado.\nEle vai estar virado pra dentro do condomínio, ou pra rua, ou pra alguma coisa em específico.\nE esse apartamento que eu comprei, ele está virado pra um outro prédio.\nMas tem possibilidades no condomínio de ser um apartamento virado pra rua.\nTem gente que gosta mais de um, tem gente que gosta mais de outro.\nEu preferiria que fosse pra rua, por exemplo.\nE eu nem me liguei de perguntar isso lá no dia.\nO segundo erro que eu cometi no primeiro apartamento que eu comprei é referente à obra.\nIsso aqui, gente, meu Deus, é tudo muito caro.\nTudo muito caro.\nMobiliar um apartamento do jeito que eu queria fazer de verdade foi o triplo do que eu esperava do preço.\nMas eu tinha me preparado para isso também.\nTrês anos antes eu pagava a parcela deste apartamento direto para a construtora,\nreservava também um dinheiro para a obra que eu ia fazer dentro do apartamento,\nE reservei uma graninha também para documentação e imposto.\nEntão quando esse apartamento ficou pronto, eu já estava pronto para tudo isso.\nSó que aconteceu uma coisa, eu gastei muito nesse apartamento.\nEsse apartamento, o preço de mercado dele hoje, para vender hoje, venderia por volta de 570 mil reais.\nSó que eu comprei esse apartamento por 400 e gastei mais 100 de obra.\nSe eu tivesse gastado menos de obra, daria para vender pelo mesmo preço, os R$570,00,\ne ganhar mais lucro, se fosse o caso, porque eu não vou vender esse apartamento.\nEu tenho outros planos para ele.\nE o terceiro erro que eu cometi nesse apartamento,\nque eu daria uma olhada em especial em outro apartamento, se eu comprasse o quarto apartamento, por exemplo,\nalguns condomínios, quando eles são prontos, apartamentos novos,\nnovos, eles aprovam nas convenções de condomínio proibição do Airbnb naquele condomínio,\nou seja, se você tiver um apartamento naquele condomínio, você não pode colocar esse apartamento\npra ser alugado no Airbnb. O Airbnb é uma fonte de receita muito legal, então por exemplo,\nse eu tivesse comprado com a mentalidade de fazer aqui um Airbnb e que na verdade eu tinha\nessa mentalidade, já não é um plano pra mim. Caso eu saia algum dia do apartamento\ne coloque para alugar, não pode ser de curta temporada, tem que ser contrato de longa temporada.\nIsso eu estou falando em São Paulo, capital, que é o que acontece.\nBom, eu já contei para vocês como eu comprei o primeiro, o segundo, o terceiro,\nfalando um pouco mais de dicas agora para que você observe esses pontos\nquando você for comprar seu primeiro apartamento, espero muito que dê certo.\nE quero saber de vocês o que mais vocês querem saber da jornada de comprar uma casa própria,\nque eu tenho certeza que é o sonho de muito brasileiro."
    }
   ],
@@ -1228,12 +1288,39 @@
   "desc": "Erros e 'foras' da gravação que humanizam quem sempre aparece impecável.",
   "slug": "blooper-bastidor-de-producao",
   "formato": {
+   "estrutura": "1. **[ENQUADRAMENTO POV]** legenda fixa \"POV: bastidores e erros de gravação\". → *slot: o rótulo.*\n2. **[SEQUÊNCIA DE ERROS]** takes furados de fala/gesto, sem esconder. → *slot: as gafes.*\n3. **[PIADA INTERNA]** apelido/comentário da equipe (\"olha a passada do X kkk\"). → *slot: a intimidade.*\n4. **[FECHO LEVE]** risadas, descontração. → *slot: a leveza.*\n\n- **Fixo:** os erros são o conteúdo (não esconder); humor genuíno; sem venda; legenda POV ancorando.\n- **Variável:** os clipes, a equipe, as gafes.",
    "hook": "Erros e bastidores da gravação que normalmente seriam cortados: a corretora quase escorregando na \"pirambeira\", trocando o nome do condomínio, rindo dos próprios tropeços. O imperfeito é o gancho — humaniza quem sempre aparece impecável.",
    "blocos": "- **O erro cru (0-5s):** o take que daria errado (tropeço, gafe, riso).\n- **Sequência de bloopers (5-30s):** os \"fora\" da gravação do tour, com leveza.\n- **Fecho afetuoso:** o take que \"deu certo\" ou uma piada interna.",
    "porque": "- **Vulnerabilidade gera afeto:** ver o profissional errar aproxima mais que o take perfeito.\n- **Contraste com o feed impecável** do nicho de luxo — destaca por ser humano.\n- **Baixíssima produção** — literalmente o que seria descartado.",
    "aplicar": "- Guarde os \"fora\" das suas gravações de tour e monte um blooper mensal.\n- Versão \"bastidor\": mostrar o esforço real por trás de um único post (quantos takes, o calor, o erro).\n- Regra: leveza; nunca expor o cliente ou o imóvel de forma negativa.",
    "guia": "- Junte 3-5 bloopers curtos com ritmo de comédia.\n- Legenda cúmplice (\"a realidade por trás do tour perfeito\").\n- Áudio trend ajuda; a fala pode ser mínima.",
-   "prompt": "```\nVocê é editor(a) de conteúdo de corretor(a). Monte um vídeo \"blooper/bastidor\":\n1) ERRO CRU (0-5s): o take que daria errado; 2) 3-5 bloopers curtos com timing de comédia; 3) FECHO afetuoso ou piada interna.\nMEUS DADOS: Bloopers disponíveis: [ ]. Tom (leve/absurdo): [ ]. Contexto (tour de luxo, visita, gravação): [ ].\nTOM: leve, humano, sem expor cliente/imóvel. A imperfeição é o gatilho.\nENTREGUE: 1) ordem dos bloopers; 2) legenda cúmplice; 3) sugestão de áudio; 4) 5 hashtags.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo de bastidor para marca pessoal. Monte a estrutura de um vídeo \"blooper / erros de gravação\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. ENQUADRAMENTO POV (0-4s): legenda fixa \"POV: bastidores e erros de gravação\" + a primeira gafe já de cara\n2. SEQUÊNCIA DE ERROS (4-25s): montagem de takes furados (falas travadas, gestos atrapalhados) — sem esconder\n3. PIADA INTERNA (meio): um apelido/comentário da equipe sobre alguém (\"olha a passada do [nome] kkkk\")\n4. FECHO LEVE (fim): risadas, descontração — nada de venda\n\n**Meus dados:**\n- Equipe/quem aparece + @: [NOMES + @]\n- Tipo de gravação de onde vêm os erros: [EX.: tours, entrevistas, reels]\n- Piadas internas/apelidos da equipe: [O QUE RENDE HUMOR GENUÍNO]\n\n**Regras de tom:**\n- Os erros SÃO o conteúdo — não esconda nem edite demais\n- Humor genuíno, nunca forçado — a graça está na espontaneidade\n- ZERO venda/pitch — o objetivo é afeto e vínculo, não conversão\n- A legenda POV ancora o sentido do vídeo\n\n**Entregue:**\n1. Um roteiro de montagem (ordem dos tipos de erro pra melhor ritmo cômico)\n2. Sugestões de legenda POV e das legendas de piada interna\n3. Ideia de recurso visual (P&B nos bloopers, câmera lenta numa gafe)\n4. 5 hashtags\n5. Quando e com que frequência postar (como contraponto dos tours polidos)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **vínculo e simpatia** (conexão). Não vende imóvel — vende a humanidade da equipe e gera afeto, o que sustenta a fidelidade e a indicação.\n- Ideal como **contraponto dos tours polidos**. Depois de uma sequência de conteúdo \"sério\", o blooper humaniza."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[OS ERROS]:** o material já existe — é o \"lixo\" das suas outras gravações. Guarde sempre os takes furados.\n- **[PIADAS INTERNAS]:** o apelido, a gafe recorrente de alguém. É o que transforma erro genérico em intimidade de turma.\n- **[FREQUÊNCIA]:** funciona como pausa leve entre conteúdos densos. Não precisa de produção — precisa de espontaneidade."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se sugerir polir/roteirizar:\n\n> \"Não roteirize. Os erros são o conteúdo e a graça está na espontaneidade. Só organize a ordem dos clipes pro melhor ritmo cômico.\"\n\nSe inserir venda:\n\n> \"Tire qualquer CTA de venda. Este formato é sobre afeto e vínculo, não conversão. O fecho é leve, não comercial.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Esconder/editar demais os erros** — o erro é o conteúdo; polir destrói o formato.\n2. **Forçar o humor** — encenação é sentida; a graça tem que ser genuína.\n3. **Piada solta sem contexto** — a legenda POV precisa ancorar (\"isto é bastidor\").\n4. **Tentar vender** — qualquer pitch quebra a intimidade."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Guarde takes furados de tudo que você grava. Câmera caseira; risadas naturais.\n- Legenda POV fixa. Recursos de linguagem de bastidor (P&B, câmera lenta na gafe) ajudam.\n- Feche leve, sem CTA comercial."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta conexão e compartilhamento (as pessoas marcam a equipe: \"vocês são demais kkkk\"). O ganho é afeto e humanização — o público passa a torcer pelas pessoas, não só admirar os imóveis. Responda no mesmo tom leve; é conteúdo de relacionamento puro."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1243,7 +1330,40 @@
     "link": "",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Os erros de gravação que a maioria deleta viram o conteúdo — os bloopers humanizam a equipe e fazem o público torcer pelas pessoas por trás dos tours perfeitos."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Corretor falando na orla; legenda fixa \"POV: Bastidores e erros de gravação\" | (fala trava numa gafe) | Hook: promessa de bastidor + a 1ª gafe quebra a imagem polida |\n| 4-15s | Erros de fala (\"conheça conosco condomínio Bravíssima…\"), gestos atrapalhados | (takes furados em sequência) | Sequência de flubs — o riso da imperfeição real |\n| 15-25s | Dupla andando, clipe em P&B; legenda \"Olha essa passada do Fabrício kkkk\" | (momento engraçado com apelido) | Humor interno da equipe — cria intimidade |\n| 25-36s | Corretora rindo na cadeira, descontração | (risadas, bastidor leve) | Fecho de leveza — mostra a equipe humana e divertida |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A legenda POV fixa** (\"bastidores e erros de gravação\") dá o enquadramento e permite que os erros sejam o conteúdo, não vergonha.\n- **Os flubs são exibidos, não escondidos** — é o oposto do tour polido, e é justamente isso que gera simpatia.\n- **Comentários internos** (\"olha a passada do Fabrício kkkk\") criam a sensação de fazer parte da turma.\n- **Zero pitch** — o objetivo é afeto, não venda; qualquer CTA de venda quebraria o tom."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Contraste sério × erro:** o mesmo cenário dos tours, agora com as falhas — a quebra de padrão é o gatilho.\n- **Alguns clipes em P&B** — linguagem visual de \"making of / bastidor\".\n- **Câmera caseira, risadas, gestos atrapalhados** — a imperfeição é a estética."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Falas travadas + risos** conduzem; ritmo de montagem de \"melhores erros\".\n- Sem trilha séria — a descontração é o clima. O curto mantém a graça sem cansar."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Humanização** — ver a equipe errar e rir derruba a distância e gera afeto.\n2. **Efeito exposição / simpatia** — bastidores criam vínculo (a gente gosta de quem \"deixa ver os erros\").\n3. **Humor** — a leveza é altamente compartilhável e memorável.\n4. **Quebra de padrão** — o contraste com o conteúdo polido chama atenção.\n5. **Reciprocidade parasocial** — mostrar-se vulnerável faz o público \"torcer\" pela equipe."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Editar/esconder demais os erros — o erro É o conteúdo; polir mata o formato.\n- ❌ Forçar o humor — a graça tem que ser genuína, não encenada.\n- ❌ Virar só piada solta — a legenda POV ancora o sentido (\"isto é bastidor\").\n- ❌ Usar como venda — qualquer pitch quebra o tom de intimidade."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Guarde os takes furados** de todas as suas gravações (o \"lixo\" é a matéria-prima).\n2. **Monte com a legenda POV fixa** (\"bastidores e erros de gravação\").\n3. **Inclua as piadas internas/apelidos** da equipe — é o que cria intimidade.\n4. **Feche leve** (risadas, descontração), sem CTA de venda.\n5. Poste periodicamente — é o contraponto humano dos seus tours polidos."
+     }
+    ],
     "transcricao": "na avenida são realmente como diz aqui a pirambeira que ela está descendo aqui\neu de salto ali ó direita frente a frente já vai conheçam com a gente o\nbravíssima conheça o conosco condomínio bravíssima aqui na praia brava sentindo\numa verdadeira rainha, imaginando como é morar em Anópolis.\nSeja muito bem-vinda, minha rainha Mônica, ao Windows."
    }
   ],
