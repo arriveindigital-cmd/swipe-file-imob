@@ -165,6 +165,8 @@ a.src{color:var(--azul);text-decoration:none;font-size:13px;word-break:break-wor
 .pcollapse .pbody{display:none;padding:16px}.pcollapse.open .pbody{display:block}
 .usebox{background:var(--card2);border:1px solid var(--bd);border-radius:11px;padding:14px 16px;font-size:13px;color:var(--tx2);margin-bottom:14px;line-height:1.6}
 .usebox b{color:var(--tx)}
+.promptwrap{border:1px solid var(--bd);border-radius:12px;padding:16px;margin:4px 0 16px;background:var(--card)}
+.promptwrap pre{white-space:pre-wrap;word-break:break-word;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;line-height:1.62;color:var(--pretx);margin:0}
 pre{background:var(--prebg);border:1px solid var(--bd2);border-radius:12px;padding:16px;white-space:pre-wrap;font-size:12.5px;font-family:ui-monospace,'Cascadia Code',Menlo,monospace;max-height:440px;overflow-y:auto;color:var(--pretx);line-height:1.55}
 .copybtn{margin-top:12px;padding:12px 18px;border-radius:11px;border:none;background:var(--grad);color:#fff;font-weight:700;font-size:14px;cursor:pointer;font-family:inherit}
 .exrow{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
@@ -357,7 +359,7 @@ function openModal(id){
   $("m-num").textContent=pad(cur.num);
   $("m-head").style.setProperty("--gl",rgba(objColor(cur.objetivos[0]||""),.42));
   $("m-title").textContent=cur.nome;$("m-desc").textContent=cur.desc||"";
-  $("m-meta").innerHTML=`<span class="mc">${cur.tipo==="organico"?"Orgânico":"Anúncio"}</span>${(cur.objetivos||[]).map(x=>`<span class="mc">${x}</span>`).join("")}<span class="mp">📱 ${cur.plataforma}</span><span class="mp">${cur.status==="confirmado"?"🟢 confirmado":"🟡 candidato"}</span>`;
+  $("m-meta").innerHTML=`<span class="mc">${cur.tipo==="organico"?"Orgânico":"Anúncio"}</span>${(cur.objetivos||[]).map(x=>`<span class="mc">${x}</span>`).join("")}<span class="mp">📱 ${cur.plataforma}</span>`;
   $("m-tabs").innerHTML=`<button data-k="analise" class="on" onclick="setTab('analise')">Análise do formato</button><button data-k="exemplo" onclick="setTab('exemplo')">Exemplo</button><button data-k="prompt" onclick="setTab('prompt')">Prompt</button>`;
   paint();$("overlay").classList.add("open");document.body.style.overflow="hidden";$("overlay").scrollTop=0;
 }
@@ -371,10 +373,11 @@ function paint(){
     el.innerHTML=exemplosHTML();
   }else{
     let h="";
-    if(fo.prompt)h+=`<h4>Prompt de replicação</h4>
-      <div class="usebox"><b>Como usar:</b> copie o prompt, preencha o bloco <b>MEUS DADOS</b> e cole no ChatGPT (ou Claude). Você <b>não precisa</b> colar a transcrição — o prompt já traz a estrutura. <i>Opcional:</i> pra IA imitar o jeito de falar do exemplo, cole a transcrição (aba Análise → Exemplo) abaixo do prompt como "referência de tom".</div>
-      <div class="pcollapse" id="pcol"><button onclick="document.getElementById('pcol').classList.toggle('open')"><span>📋 Abrir o prompt completo</span><span class="chev">›</span></button>
-      <div class="pbody"><pre id="ptext">${esc(promptTxt(fo.prompt))}</pre><button class="copybtn" onclick="copyPrompt()">📋 Copiar prompt</button></div></div>`;
+    if(fo.prompt){
+      h+=`<div class="usebox"><b>Como usar:</b> copie o prompt, preencha o bloco <b>MEUS DADOS</b> e cole no ChatGPT ou Claude — ele já traz toda a estrutura vencedora do formato. <b>Turbine (recomendado):</b> cole também a <b>transcrição do exemplo</b> (aba Exemplo → Transcrição) logo abaixo, pedindo pra IA usar como <i>referência de tom e ritmo</i>. Assim o roteiro sai com a estrutura que já viralizou <b>+</b> o jeito de falar do original.</div>`;
+      h+=`<div class="promptwrap"><pre id="ptext">${esc(promptTxt(fo.prompt))}</pre><button class="copybtn" onclick="copyPrompt()">📋 Copiar prompt</button></div>`;
+    }
+    if(fo.guiaPrompt&&fo.guiaPrompt.length)h+=fo.guiaPrompt.map(s=>sec(s.titulo,s.corpo)).join("");
     el.innerHTML=h||'<p class="note">—</p>';
   }
 }

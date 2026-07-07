@@ -416,7 +416,33 @@
    "porque": "- **Informação com valor monetário concreto e verificável** (uma lei) — compartilhável por utilidade.\n- **Enquadramento de arrependimento** transfere a dor: \"não deixe acontecer com você\".\n- **Barreira zero de produção:** b-roll + texto; o que viraliza é a INFORMAÇÃO.",
    "aplicar": "- Qualquer direito/benefício desconhecido: isenção de ITBI, FGTS pra amortizar a cada 2 anos, subsídio MCMV, portabilidade de financiamento.\n- Qualquer erro caro evitável: vistoria de entrega, negociar taxa do banco.\n- Fórmula: b-roll aspiracional + \"Se eu soubesse antes…\" + revelação com número + instrução prática + fechamento protetor.",
    "guia": "- A informação PRECISA ser verificável (lei/regra oficial) — confirme antes; erro aqui destrói reputação.\n- Converta tudo em R$: \"50% do cartório\" vira \"até R$4.000 num imóvel de R$300 mil\".\n- Não revele o segredo no hook — o \"disso\" só aparece no bloco 2.\n- Tom melancólico (🥲) > tom alarmista — gera mais confiança. Fixe o melhor comentário técnico como prova social.",
-   "prompt": "```\nVocê é roteirista de conteúdo viral imobiliário. Crie um Reel \"Regret/FOMO\":\n1) HOOK (0-3s): \"Se eu soubesse disso antes, [CONSEQUÊNCIA EMOCIONAL]\" sobre b-roll aspiracional, SEM revelar; 2) REVELAÇÃO (3-15s): a informação com número e fonte verificável; 3) INSTRUÇÃO PRÁTICA; 4) FECHAMENTO PROTETOR (\"se ninguém te falar, exija\").\nMEUS DADOS: Corretor(a)+cidade: [ ]. Informação/direito: [ ]. Valor em R$/%: [ ]. Fonte/lei: [ ]. Quem se beneficia: [ ].\nTOM: arrependimento no gancho, corpo 100% informativo. Números sempre. Zero venda. Texto de tela curto.\nENTREGUE: 1) hook de capa; 2) textos de tela bloco a bloco; 3) legenda com fonte; 4) 5 hashtags; 5) resposta pro comentário cético.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo viral para o mercado imobiliário brasileiro. Escreva um Reel no formato \"Regret/FOMO\" — arrependimento simulado que revela uma informação de valor concreto — seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK (0-3s): texto na tela \"Se eu soubesse disso antes, [CONSEQUÊNCIA EMOCIONAL]\" sobre b-roll aspiracional — SEM revelar o \"disso\"\n2. REVELAÇÃO (3-15s): a informação, com número/valor concreto e fonte verificável\n3. INSTRUÇÃO PRÁTICA (15-30s): o passo exato que a pessoa precisa dar pra aproveitar\n4. FECHAMENTO PROTETOR: frase que posiciona o narrador como protetor (\"se ninguém te falar isso, exija/pergunte/peça\")\n\n**Meus dados:**\n- Corretor(a): [NOME DO CORRETOR + CIDADE]\n- Informação valiosa: [BENEFÍCIO/DIREITO/ERRO CARO — ex.: desconto de 50% no cartório na 1ª compra financiada]\n- Valor concreto envolvido: [QUANTO A PESSOA ECONOMIZA/PERDE EM R$ OU %]\n- Fonte/base: [LEI, REGRA DO BANCO, PROGRAMA — ex.: Lei 6.015/73]\n- Quem se beneficia: [PÚBLICO — ex.: quem vai comprar o primeiro imóvel financiado]\n- B-roll disponível: [O QUE POSSO FILMAR — ex.: apartamento decorado do lançamento X]\n\n**Regras de tom:**\n- O arrependimento é o gancho, mas o corpo é 100% informativo e generoso\n- Números concretos sempre (\"R$3.000 de economia\" > \"muito dinheiro\")\n- Zero venda; a autoridade é o produto\n- Texto na tela curto (máx. 12 palavras por bloco); a legenda traz a versão completa\n\n**Entregue:**\n1. Texto do hook para a capa\n2. Sequência de textos na tela (bloco a bloco, com tempo sugerido)\n3. Legenda completa (versão escrita da dica, com a fonte)\n4. 5 hashtags\n5. Sugestão de resposta ao primeiro comentário cético (sempre aparece um)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra construir **autoridade com alcance** — meio termo perfeito entre educacional e viral.\n- Sempre que você souber de um benefício, direito ou erro caro que o público desconhece. A regra: **se a informação não economiza/evita perda de dinheiro real, não use este formato.**"
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[BENEFÍCIO/DIREITO]:** tem que ser verificável. Cite lei, programa ou regra bancária. Informação errada aqui destrói reputação — confirme antes com fonte oficial.\n- **[VALOR CONCRETO]:** transforme sempre em R$: \"50% das taxas de cartório\" vira \"até R$4.000 num imóvel de R$300 mil\".\n- **[B-ROLL]:** qualquer imóvel bonito serve. O b-roll é só palco; a informação é a estrela."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o texto vier vago:\n\n> \"Refaça com números específicos em reais. Cada afirmação precisa de um valor ou percentual. Corte adjetivos.\"\n\nSe vier com cara de aula:\n\n> \"Está didático demais. Reescreva como se fosse um desabafo de quem descobriu tarde — mantém a emoção do arrependimento no início.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Revelar o segredo no hook** — mata o curiosity gap. O \"disso\" só aparece no bloco 2.\n2. **Informação genérica** (\"pesquise antes de comprar\") — precisa ser um fato específico e pouco conhecido.\n3. **Terminar vendendo** — o fechamento é protetor, não comercial. A DM chega sozinha.\n4. **Hook agressivo demais** (\"VOCÊ ESTÁ PERDENDO DINHEIRO!!\") — o tom do original é melancólico (🥲), e é isso que gera confiança."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- 3-5 takes de b-roll de um imóvel (10s cada) resolvem o vídeo inteiro. Não precisa aparecer.\n- Texto na tela com fonte limpa, uma ideia por bloco.\n- Música: instrumental suave em volume baixo (não usar trend agitada — conflita com o tom)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "529 mil curtidas no exemplo original. Sinal-chave: comentários de especialistas AMPLIANDO a dica (engenheiro citando a lei). Fixe o melhor comentário técnico — ele vira prova social da sua informação."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -649,7 +675,33 @@
    "porque": "- **Inimigo comum** (o banco, categoria) é o gatilho de aliança mais forte — quem revela o segredo do vilão vira aliado.\n- **Matemática simples e verificável** = compartilhável; economia concreta de R$700/mês.\n- **Autoresposta à objeção** mantém o cético até o fim.",
    "aplicar": "- Fórmula: \"[INIMIGO INSTITUCIONAL] não quer que você saiba — mas eu te conto\" + mecânica com números redondos + objeção autorespondida.\n- Variações: \"A construtora não te conta\" (INCC), \"O cartório esconde\" (desconto 1ª compra), \"O portal não mostra\" (imóveis fora dos portais).\n- Inimigo sempre CATEGORIA, nunca empresa nomeada (risco jurídico).",
    "guia": "- Você precisa DOMINAR a mecânica — os comentários testam e sua resposta é metade do valor.\n- Valores redondos (R$1.000/700/300); se a conta real quebrar, \"aproximadamente\".\n- Tom firme, não histérico — \"O BANCO TE ROUBA!!\" atrai denúncia.\n- Legenda-aula completa por escrito = saves. Evergreen: recicle a cada 6 meses.",
-   "prompt": "```\nVocê é roteirista de conteúdo viral imobiliário. Crie um Reel \"segredo insider com inimigo comum\":\n1) HOOK em 3 camadas: \"[INIMIGO INSTITUCIONAL] NÃO QUER / QUE VOCÊ SAIBA DISSO / ❌ mas eu te conto 🤫\"; 2) CONCEITO: a mecânica escondida em 2-3 frases; 3) SACADA: passo prático com exemplo numérico REDONDO; 4) EFEITO ACUMULADO; 5) OBJEÇÃO AUTORESPONDIDA.\nMEUS DADOS: Inimigo (banco/cartório/portal — nunca empresa): [ ]. Segredo/mecânica: [ ]. Números redondos: [ ]. Economia: [ ]. Objeção típica: [ ].\nTOM: aliado contra o sistema, não professor. Matemática que o espectador refaz de cabeça. Legenda = mini-aula.\nENTREGUE: 1) textos de tela com tempos; 2) legenda-aula; 3) 5 hashtags; 4) resposta pro comentário \"isso é mentira\".\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo viral imobiliário brasileiro. Crie um Reel no formato \"segredo insider com inimigo comum\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK (texto na tela em 3 camadas, 0-3s): \"[INIMIGO INSTITUCIONAL] NÃO QUER\" / \"QUE VOCÊ SAIBA DISSO\" / \"❌ mas eu te conto 🤫\" — sobre b-roll\n2. CONCEITO (3-15s): explicar a mecânica escondida em 2-3 frases\n3. A SACADA (15-35s): o passo prático, com exemplo numérico REDONDO (valores fáceis de acompanhar de cabeça)\n4. EFEITO ACUMULADO (35-45s): o que acontece se repetir a prática\n5. OBJEÇÃO AUTORESPONDIDA (final): \"Ah, [NOME], mas [OBJEÇÃO TÍPICA]...\" + resposta\n\n**Meus dados:**\n- Corretor(a): [NOME]\n- Inimigo institucional: [BANCO / CONSTRUTORAS / CARTÓRIOS / PORTAIS — nunca empresa nomeada]\n- O segredo: [MECÂNICA ESCONDIDA — ex.: amortização extra abate direto o saldo devedor]\n- Exemplo numérico: [VALORES REDONDOS — ex.: prestação de R$1.000 = R$700 juros + R$300 amortização]\n- Economia/ganho concreto: [QUANTO A PESSOA ECONOMIZA]\n- Objeção típica do público: [EX.: \"não tenho dinheiro sobrando todo mês\"]\n- B-roll disponível: [OBRA / IMÓVEL / RUA]\n\n**Regras de tom:**\n- Aliado do espectador contra o sistema, nunca professor arrogante\n- Matemática verificável — o espectador tem que conseguir refazer a conta\n- A legenda é uma mini-aula completa por escrito (pra gerar saves)\n- PROIBIDO: acusar empresa específica, prometer \"ficar rico\", terminar vendendo\n\n**Entregue:**\n1. Textos na tela bloco a bloco (com tempos)\n2. Legenda-aula completa\n3. 5 hashtags\n4. Resposta pronta pro comentário \"isso é mentira, o banco não deixa\"",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra construir **autoridade técnica com alcance** — é o formato de autoridade que mais viraliza, porque embrulha aula em conspiração.\n- Requisito: você precisa DOMINAR a mecânica que vai revelar. Os comentários testam (\"isso é mentira\") e sua resposta técnica é metade do valor do post."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[INIMIGO INSTITUCIONAL]:** sempre categoria (bancos, cartórios, portais), nunca marca. Acusar empresa nomeada = risco jurídico e de bloqueio.\n- **[EXEMPLO NUMÉRICO]:** use valores redondos (R$1.000, R$700, R$300). Se a conta real der número quebrado, arredonde e diga \"aproximadamente\".\n- **[OBJEÇÃO]:** ouça seus clientes — a objeção que você mais escuta no WhatsApp é a que vai no final do vídeo."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier professoral:\n\n> \"Está soando como aula. Reescreva como quem conta uma injustiça pra um amigo — indignação controlada, frases curtas.\"\n\nSe a matemática vier confusa:\n\n> \"Refaça o exemplo com no máximo 3 números, todos redondos, apresentados um por vez.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Segredo que não é segredo** (\"pesquise antes de comprar\") — precisa ser mecânica que 90% do público desconhece.\n2. **Exagerar a conspiração** — \"O BANCO TE ROUBA!!\" atrai denúncia e descredibiliza. O tom do original é firme, não histérico.\n3. **Esquecer a legenda-aula** — os saves vêm da versão escrita.\n4. **Não responder os céticos** — o debate técnico nos comentários é o que distribui o vídeo."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- B-roll de obra/imóvel (10-20s reaproveitável) + textos na tela. Não precisa aparecer nem falar.\n- Destaque em cor (amarelo) na primeira linha do hook."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "136 mil curtidas — post de 2023 que segue performando (evergreen). Este formato aguenta ser repostado/reciclado a cada 6 meses com números atualizados."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1197,7 +1249,37 @@
    "porque": "- **POV em 2ª pessoa transforma espectador em protagonista** — engajamento emocional maior que tour narrado.\n- **Sem fala = alcance global + replay.**\n- **Especificidade numérica** dá credibilidade à fantasia; funil completo num post (viral pra quem sonha + specs pra quem compra).",
    "aplicar": "- Alto padrão: \"POV: você acabou de comprar a casa com vista pro mar em [cidade]\".\n- Médio padrão (a fantasia é relativa!): \"POV: você acabou de sair do aluguel e essa varanda é sua\".\n- Decorado de lançamento com POV do dia da mudança.",
    "guia": "- Precisa de 1 característica fotogênica e específica com NÚMERO — ande pelo imóvel procurando.\n- NUNCA narrar por cima — o silêncio é a estética.\n- 3-4s por take, câmera lenta, golden hour em área externa.\n- Sem a legenda comercial (specs+CTA) o viral não vira lead.",
-   "prompt": "```\nVocê é roteirista de conteúdo viral imobiliário. Crie um Reel \"POV de fantasia de dono\" — tour cinematográfico SEM FALA:\n1) HOOK (texto, 0-3s): \"POV: você acabou de comprar [IMÓVEL + 1-2 detalhes hiperespecíficos com número]\"; 2) IMERSÃO (3-30s): só takes lentos, sem texto nem narração; 3) LEGENDA: pergunta retórica + specs + preço + CTA de DM.\nMEUS DADOS: Corretor+@: [ ]. Imóvel + bairro: [ ]. Detalhe hiperespecífico com número: [ ]. Specs: [ ]. Preço: [ ]. Público da fantasia: [ ].\nTOM: detalhe com NÚMERO > adjetivo. Proibido \"imóvel dos sonhos\" e texto após o hook. A legenda vende; o vídeo, jamais.\nENTREGUE: 1) hook POV + variação; 2) shot list de 6-8 takes; 3) estilo de música; 4) legenda completa; 5) 5 hashtags.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo viral imobiliário. Crie um Reel no formato \"POV de fantasia de dono\" — tour cinematográfico SEM FALA com texto na tela em 2ª pessoa — seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK (texto na tela, 0-3s): \"POV: você acabou de comprar [DESCRIÇÃO DO IMÓVEL com 1-2 detalhes hiperespecíficos]...\" — em minúsculas, tom de sussurro\n2. IMERSÃO (3-30s): apenas takes lentos do imóvel, sem texto, sem narração — listar a sequência ideal de cenas\n3. LEGENDA COMERCIAL: pergunta retórica de abertura + specs completos + preço (ou \"valor sob consulta\") + CTA de DM\n\n**Meus dados:**\n- Corretor(a): [NOME + @]\n- Imóvel: [TIPO + BAIRRO/CIDADE]\n- Detalhes hiperespecíficos (escolher os 2 mais fortes): [EX.: terreno de 800m², pé-direito de 6m, vista pro mar, cachoeira, pomar de 30 árvores]\n- Specs: [QUARTOS | BANHEIROS | ÁREA | VAGAS]\n- Preço: [VALOR ou \"sob consulta\"]\n- Público da fantasia: [QUEM SONHA COM ISSO — ex.: família saindo do apartamento, investidor, casal jovem]\n\n**Regras de tom:**\n- O texto POV precisa caber em 2 linhas na tela\n- Detalhe específico com NÚMERO vale mais que adjetivo (\"cachoeira de 36m\" > \"cachoeira incrível\")\n- PROIBIDO: \"imóvel dos sonhos\", \"oportunidade única\", qualquer texto na tela após o hook\n- A legenda pode vender; o vídeo, jamais\n\n**Entregue:**\n1. Texto do hook POV (com versão alternativa)\n2. Shot list: 6-8 takes em ordem, com movimento de câmera sugerido para cada\n3. Sugestão de estilo de música (sem citar faixa específica)\n4. Legenda completa (pergunta retórica + specs + CTA de DM)\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Quando você tem um imóvel com **pelo menos 1 característica fotogênica e específica** (vista, terreno, arquitetura, pé-direito). Sem isso, o formato desaba.\n- Serve para QUALQUER faixa de preço — a fantasia é relativa: pro público MCMV, \"POV: você acabou de sair do aluguel\" é tão forte quanto a mansão pro público de luxo."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[DETALHES HIPERESPECÍFICOS]:** a alma do formato. Ande pelo imóvel procurando o que tem NÚMERO: metros de vista, idade da árvore, altura do pé-direito. \"Com a sua própria [coisa que ninguém tem]\" é a fórmula.\n- **[PÚBLICO DA FANTASIA]:** define o tom do POV. Família = manhã de domingo; investidor = chegando pra vistoriar o patrimônio; casal = primeira noite no apê.\n- **Preço na legenda:** no Brasil, preço declarado gera debate nos comentários (bom pro algoritmo) mas pode travar negociação — decidir caso a caso. \"Valor sob consulta + DM\" é a alternativa."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o hook vier genérico:\n\n> \"O hook está genérico. Reescreva usando só características que NENHUM outro imóvel da cidade tem, com números.\"\n\nSe a IA puser texto nos takes:\n\n> \"Remova todo texto além do hook. O vídeo é silencioso — refaça a shot list apenas com descrição visual.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Narrar o tour** — vira walk & talk (outro formato). Aqui o silêncio é a estética.\n2. **Takes rápidos demais** — o formato pede contemplação; 3-4s por take, câmera lenta.\n3. **Imóvel bagunçado/vazio demais** — o POV vende a VIDA no imóvel; decorado ou mobiliado funciona muito melhor.\n4. **Esquecer a legenda comercial** — sem specs + CTA na legenda, o viral não vira lead."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Celular com estabilizador (ou modo câmera lenta) resolve; gravar na golden hour se tiver área externa.\n- 8-10 takes de 8s, usar 6-8 no corte final de 25-35s.\n- Capa: o take mais impressionante com o texto POV."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "371 mil curtidas no original — e o imóvel VENDEU (a corretora atualizou a legenda para \"SOLD ✨\", transformando o post em prova social permanente). Faça o mesmo quando vender: edite a legenda, não apague o post."
+    },
+    {
+     "titulo": "⚠️ Nota de tradução",
+     "corpo": "Exemplo original em inglês. Texto na tela e legenda já traduzidos na análise (02-analise). Ao baixar a transcrição, gerar versão PT antes de subir pro sistema."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1509,7 +1591,37 @@
    "porque": "- **Diz a verdade que o marketing esconde** (35 anos é muito tempo) — e por isso desarma.\n- **Auto-ironia normaliza a decisão** (\"todo mundo no mesmo barco\").\n- **Custo zero** (1 b-roll + 1 frase + 1 áudio trend); share por identificação.",
    "aplicar": "- Fórmula: [decisão pesada do nicho] + [celebração absurda do áudio trend] sobre b-roll aspiracional.\n- Variações: \"dar entrada no apê e comer miojo por 6 meses\", \"usar TODO o FGTS e gritar…\".\n- Postar em COLLAB com conta parceira local (dobra o alcance).",
    "guia": "- Use o áudio NO PICO (vida útil ~2 semanas) — agilidade > perfeição.\n- A dor tem que ser específica e real (anos, sacrifícios, números).\n- A piada é COM o comprador, não SOBRE ele.\n- Proibido: explicar a piada na legenda, emendar CTA de venda.",
-   "prompt": "```\nVocê é roteirista de humor imobiliário. Crie variações de Reel-meme \"auto-ironia da compra\":\n1 frase-meme estática o vídeo todo: \"Às vezes você só precisa [DECISÃO FINANCEIRA PESADA E ESPECÍFICA] e [CELEBRAÇÃO ABSURDA ligada ao áudio trend]\" + b-roll aspiracional + legenda cúmplice.\nMEUS DADOS: Corretor+@: [ ]. B-roll: [ ]. Dor real (financiamento/entrada/FGTS): [ ]. Áudio trend + momento da explosão: [ ].\nTOM: a graça vem da VERDADE desconfortável dita com leveza. Máx 20 palavras. Proibido ridicularizar o comprador.\nENTREGUE: 1) 5 variações da frase (segura→ousada); 2) legenda cúmplice; 3) b-roll ideal; 4) 5 hashtags; 5) resposta pro comentário crítico.\n```"
+   "prompt": "Você é um roteirista de humor especializado em conteúdo viral do mercado imobiliário brasileiro. Crie variações de um Reel-meme no formato \"auto-ironia da decisão de compra\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n- 1 frase-meme estática na tela durante todo o vídeo, no padrão: \"Às vezes você só precisa [DECISÃO FINANCEIRA PESADA E ESPECÍFICA] e [CELEBRAÇÃO/REAÇÃO ABSURDA ligada ao áudio trend]\"\n- B-roll aspiracional do imóvel rodando por trás (sem cortes bruscos)\n- Legenda curta e cúmplice que convida o espectador a se imaginar na cena\n\n**Meus dados:**\n- Corretor(a)/imobiliária: [NOME + @]\n- Imóvel do b-roll: [TIPO + 1 CENA FORTE — ex.: casa com piscina no condomínio X]\n- Público: [QUEM COMPRA — ex.: famílias saindo do aluguel / investidores / primeiro apê]\n- Dor/decisão real desse público: [EX.: financiamento de 30 anos, entrada que levou 5 anos pra juntar, usar todo o FGTS]\n- Áudio trend que vou usar: [DESCREVER O MOMENTO DO ÁUDIO — ex.: grito de celebração no segundo 4]\n\n**Regras de tom:**\n- A graça vem da VERDADE desconfortável dita com leveza — não suavizar a dor, exagerar a celebração\n- Frase única, máximo 20 palavras, linguagem falada (pode ter \"kkkk\", emoji, gíria regional)\n- PROIBIDO: piada que ridicularize o comprador, tom de vendedor, hashtag na frase\n\n**Entregue:**\n1. 5 variações da frase-meme (da mais segura à mais ousada)\n2. Legenda cúmplice para cada uma (1-2 linhas com pergunta)\n3. Sugestão de b-roll ideal pra cada variação\n4. 5 hashtags\n5. Resposta pronta para o comentário crítico típico (\"35 anos pagando, tá louco\")",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **crescer base e humanizar a marca** — é o formato mais barato de viralização do catálogo.\n- Ideal 1-2x por semana intercalado com conteúdo de autoridade (o meme atrai; a autoridade converte).\n- **Momento certo:** quando um áudio trend com \"explosão de celebração\" estiver em alta (vida útil ~2 semanas — agilidade importa mais que perfeição)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[DECISÃO FINANCEIRA PESADA]:** quanto mais específica e real, mais engraçada. \"Financiamento de 35 anos\" > \"comprar uma casa\". Use os números que o SEU público vive.\n- **[ÁUDIO TREND]:** abra o Reels → toque no áudio de vídeos em alta → salve os que têm momento de gritaria/festa/drop. O prompt precisa saber ONDE está a explosão do áudio pra sincronizar a punchline.\n- **[B-ROLL]:** o contraste importa — quanto mais bonito o imóvel, mais engraçada a auto-ironia da dívida."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se as frases vierem sem graça:\n\n> \"Está educado demais. A graça vem do desconforto: aumente a especificidade da dor (números, anos, sacrifícios reais) e mantenha a celebração desproporcional.\"\n\nSe vierem ofensivas ao comprador:\n\n> \"A piada é COM o comprador, não SOBRE ele. Reescreva em 1ª pessoa do plural — quem ri é quem vive isso.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Usar áudio fora do pico** — meme com trend velha parece desatualizado. Verifique se o áudio ainda está subindo.\n2. **Explicar a piada na legenda** — a legenda convida, não explica.\n3. **Emendar CTA de venda** — mata o meme. A conversão vem depois, em outro conteúdo.\n4. **Ignorar os comentários críticos** — eles são combustível. Tenha resposta leve pronta (o prompt entrega uma)."
+    },
+    {
+     "titulo": "Tática de distribuição",
+     "corpo": "- **Postar em collab** com outra conta do mercado local (o exemplo original é collab e isso dobrou o alcance).\n- Responder os primeiros 20 comentários em tom de brincadeira nas primeiras 2h."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- 1 take de 15-30s de b-roll já resolve (pode reaproveitar b-roll de outro vídeo).\n- Texto estático centralizado, fonte do próprio Instagram."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "247 mil curtidas no original. Sinais: shares altíssimos (\"marca fulano\") e debate nos comentários entre celebradores e consultores financeiros — os dois lados distribuem o vídeo."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1617,7 +1729,33 @@
    "porque": "- **Anti-flex:** num feed de mansões inalcançáveis, a casa \"possível\" gera identificação massiva.\n- **Vulnerabilidade = confiança:** admitir \"não é a melhor\" desarma o cinismo.\n- **Loop aberto de série** converte view em seguidor; o debate nos comentários distribui.",
    "aplicar": "- Case de cliente (com autorização): \"não é a casa do Pinterest — é a que cabia no orçamento. Olha o potencial…\".\n- Imóvel difícil da carteira com honestidade radical: \"o mais barato da minha carteira — e pra quem ele é perfeito\".\n- Fórmula: promessa emocional → subversão estética → justificativa honesta → gancho de continuação.",
    "guia": "- Use só com história REAL e imperfeita — sem isso o formato morre.\n- O defeito honesto é o gatilho; não defenda demais a escolha.\n- Proibido: CTA de WhatsApp no final (mata a autenticidade), produção caprichada, trilha épica.\n- 1 take contínuo + som ambiente + capa com o frame mais \"feio\".",
-   "prompt": "> Copie tudo, preencha o bloco `MEUS DADOS` e cole no ChatGPT. Quanto mais você preencher, melhor o roteiro.\n\n```\n# PAPEL\nVocê é um trio de especialistas trabalhando juntos: (1) um roteirista de Reels virais do mercado imobiliário brasileiro, (2) um copywriter de resposta emocional treinado em storytelling de 1ª pessoa, e (3) um diretor de conteúdo que entende estética de autenticidade (anti-produção). Você vai criar um roteiro completo no formato \"A Casa Possível\" (storytelling de compra com expectativa subvertida).\n\n# O QUE É ESTE FORMATO (contexto que você deve respeitar)\nÉ o oposto do flex imobiliário. O criador mostra um imóvel REAL e imperfeito (velho, com mato, fora do bairro nobre), ASSUME o \"defeito\" antes que o espectador critique, ancora a escolha na realidade econômica, e reenquadra tudo como uma jornada de transformação (antes/depois). O exemplo-base fez 574 mil curtidas justamente por quebrar a estética aspiracional do feed.\n\n# POR QUE FUNCIONA (mecanismos que o roteiro precisa acionar)\n- Anti-flex → identificação em massa (a \"casa possível\" faz o público se ver ali).\n- Concessão antecipada → confiança (dizer o defeito primeiro desarma o cinismo).\n- Ancoragem na realidade → \"não é gosto ruim, é o mundo real\".\n- Antes/depois → desejo de ver a evolução + projeção \"eu também consigo\".\n- Loop de série (efeito Zeigarnik) → ganchos abertos que forçam o follow.\n\n# ESTRUTURA OBRIGATÓRIA (siga os tempos)\n1. HOOK (0–4s): conquista em 1ª pessoa (\"finalmente encontrei…\", \"depois de meses…\") sobre o frame mais cru/feio.\n2. SUBVERSÃO + CONCESSÃO (4–9s): o visual mostra o defeito e o narrador ASSUME — \"pode parecer uma péssima escolha, mas foi a melhor decisão\" — seguido da justificativa honesta e econômica.\n3. REFRAME (9–18s): o defeito vira promessa — \"vai virar um antes e depois\", \"muita transformação\".\n4. IDENTIDADE (18–30s): eleva de transação pra propósito (\"pra mim isso é terapia\", \"começo de uma nova fase\").\n5. PROVA DO POTENCIAL (30–50s): mostra o \"defeito\" como oportunidade (terreno grande, espaço).\n6. LOOP DE SÉRIE (50–60s): 1–2 ganchos abertos (\"no próximo vídeo mostro X\").\n\n# REGRAS DE COPY\n- 1ª pessoa, tom de conversa, coloquial (\"gente\", \"olha isso\"). ZERO jargão de corretor (\"oportunidade única\", \"imóvel dos sonhos\" são PROIBIDOS).\n- A concessão é leve, não uma defesa longa.\n- A legenda carrega a narrativa; sem CTA de venda.\n\n# DIREÇÃO DE ESTÉTICA (descreva no roteiro)\n- Vertical 9:16, câmera na mão, take corrido, luz natural (nublado serve), sem filtro, sem trilha épica, sem texto-motion. A \"feiúra\" real e a bagunça são a prova de honestidade — não arrume nada pra câmera. Áudio: voz própria + som ambiente (não usar trend).\n\n# MEUS DADOS\n- Quem narra (corretor / cliente com autorização / eu comprando): [ ]\n- Cidade/região: [ ]\n- Imóvel + estado real (o \"defeito\" honesto): [ ]\n- Justificativa econômica honesta: [ ]\n- 2–3 potenciais escondidos: [ ]\n- O que vem na continuação (próximo vídeo): [ ]\n- Público que quero atingir: [ ]\n\n# ENTREGUE\n1. Texto de capa (máx. 8 palavras) + qual frame usar de capa.\n2. Roteiro take a take com tempos, indicando IMAGEM + FALA em cada bloco.\n3. Legenda completa (2–4 parágrafos, tom de 1ª pessoa, sem venda).\n4. 5 hashtags coerentes.\n5. A primeira resposta que devo dar nos comentários pra alimentar o debate.\n6. 2 variações do hook (uma mais emocional, uma mais direta).\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo viral para o mercado imobiliário brasileiro. Escreva um roteiro de Reel de 30-45 segundos no formato \"storytelling com expectativa subvertida\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK (0-3s): uma promessa emocional em 1ª pessoa que soa como conquista (\"finalmente...\", \"depois de X meses...\")\n2. SUBVERSÃO (3-8s): o visual revela algo abaixo da expectativa estética — e o narrador ASSUME isso com honestidade, sem drama (\"pode não ser [o ideal], mas é [a verdade honesta]\")\n3. EXPLORAÇÃO (8-35s): mostrar o objeto real, apontando 2-3 detalhes com potencial escondido\n4. GANCHO FINAL: abrir um loop de continuação (série, transformação, próximo capítulo)\n\n**Meus dados:**\n- Quem narra: [NOME + PAPEL — ex.: corretora Fulana / cliente com autorização / eu mesmo comprando pra investir]\n- Cidade/região: [CIDADE]\n- Objeto: [TIPO DE IMÓVEL + ESTADO REAL — ex.: casa de 2 quartos antiga no bairro X, R$180 mil]\n- A verdade honesta que justifica a escolha: [JUSTIFICATIVA — ex.: única opção abaixo de R$200 mil com terreno grande na cidade]\n- Potencial escondido (2-3 itens): [POTENCIAIS — ex.: terreno de 300m², estrutura boa, rua valorizando]\n- Continuação prometida: [PRÓXIMO CAPÍTULO — ex.: série da reforma, avaliação pós-reforma, tour final]\n\n**Regras de tom:**\n- 1ª pessoa, frases curtas, zero jargão de corretor (\"oportunidade única\", \"imóvel dos sonhos\" = PROIBIDO)\n- A humildade é o gatilho: não defenda demais, apenas constate\n- Legenda deve carregar a narrativa (o vídeo pode ser só caminhada com som ambiente)\n\n**Entregue:**\n1. Texto da capa (máx. 10 palavras)\n2. Roteiro visual take a take (o que filmar, sem falas obrigatórias)\n3. Legenda completa do post (2-4 parágrafos curtos)\n4. 5 hashtags coerentes\n5. Instrução de primeira resposta nos comentários (pra alimentar o debate)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar este formato",
+     "corpo": "- Quando você quer **alcance + conexão**, não venda direta. É topo de funil.\n- Quando existe uma história REAL com imperfeição: imóvel simples, compra difícil, reforma. Sem história real, não use — o formato depende de autenticidade."
+    },
+    {
+     "titulo": "Como preencher os placeholders",
+     "corpo": "- **[NOME + PAPEL]:** o ideal é narrar como pessoa, não como corretor vendendo. Se for case de cliente, peça autorização por escrito e considere não mostrar rosto.\n- **[TIPO DE IMÓVEL + ESTADO REAL]:** quanto mais honesto o defeito, mais forte o vídeo. \"Casa antiga com quintal destruído\" funciona melhor que \"casa charmosa que precisa de carinho\".\n- **[JUSTIFICATIVA]:** precisa ser uma verdade financeira concreta (\"era a melhor abaixo de R$X na cidade\"), não uma frase motivacional.\n- **[PRÓXIMO CAPÍTULO]:** obrigatório. É o que converte view em seguidor."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o resultado vier \"vendedor\" demais, responda ao ChatGPT com:\n\n> \"Reescreva removendo qualquer tom de venda. Não elogie o imóvel. Apenas constate os fatos e deixe a imperfeição aparecer. Frases mais curtas. A humildade é o gatilho, não a promessa.\"\n\nSe vier dramático demais:\n\n> \"Menos drama. O tom é de quem está em paz com a decisão, não de quem está sofrendo.\""
+    },
+    {
+     "titulo": "Erros comuns (não fazer)",
+     "corpo": "1. **Usar imóvel bonito** — a subversão morre; o vídeo vira tour comum.\n2. **Defender demais a escolha** — soa inseguro. Uma frase de justificativa basta.\n3. **Colocar CTA de WhatsApp no final** — mata a autenticidade. O CTA é seguir o perfil.\n4. **Produção caprichada** — este formato pede câmera na mão e luz natural. Não usar trilha épica."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- 1 take contínuo caminhando em direção ao imóvel + 2-3 takes internos.\n- Som ambiente (sem música ou música bem baixa).\n- Capa do Reel: o frame mais \"feio\" com o texto do hook por cima."
+    },
+    {
+     "titulo": "Métricas de referência do exemplo original",
+     "corpo": "574 mil curtidas — o comentário mais curtido (14,6 mil) veio de alguém REENQUADRANDO a casa positivamente. Responda os primeiros comentários para alimentar esse debate: é ele que distribui o vídeo."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2126,7 +2264,33 @@
    "porque": "- **R$26.800 numa categoria mental de R$300 mil+** força o cérebro a investigar — parada de scroll garantida.\n- **A enquete converte view em comentário** e alimenta o algoritmo por semanas (2.421 comentários).\n- **Ceticismo produtivo:** metade duvida, metade defende — debate perfeito.",
    "aplicar": "- Fórmula: [NOVIDADE] + [PREÇO que quebra a âncora] + \"você compraria/moraria?\".\n- Variações: \"apê de 25m² por R$180 mil — você moraria?\", \"leilão: casa por R$89 mil — teria coragem?\", container house, lote parcelado.\n- A \"pegadinha\" (frete, terreno não incluso) deve ser respondida nos comentários — é onde a autoridade aparece.",
    "guia": "- Se o preço não choca, use outro formato — a quebra de âncora É o formato.\n- Saiba a pegadinha ANTES de postar; a resposta técnica é seu momento de autoridade.\n- Estética de \"achado\": câmera na mão, visita real — produção joga contra.\n- YouTube Shorts merece o post (menos concorrência imob). Passe 48h respondendo comentários.",
-   "prompt": "```\nVocê é roteirista de conteúdo viral imobiliário. Crie um vídeo curto \"novidade + preço chocante + enquete\":\n1) CAPA em 3 camadas: \"[NOVIDADE]\" / \"[PREÇO EXATO gigante]\" / \"Você compraria?\"; 2) TOUR CÉTICO (3-40s): 3-4 pontos que o público vai questionar; 3) FECHAMENTO: devolver a pergunta.\nMEUS DADOS: Novidade/produto fora da curva: [ ]. Preço exato: [ ]. A pegadinha que vão apontar: [ ]. Pontos céticos do tour: [ ].\nTOM: \"achado\", não venda. Antecipe as dúvidas. Proibido: urgência artificial, esconder a pegadinha.\nENTREGUE: 1) capa em 3 camadas; 2) narração do tour; 3) legenda com contexto honesto; 4) 5 hashtags; 5) resposta pro \"qual a pegadinha?\".\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo viral imobiliário brasileiro. Crie um vídeo curto (Shorts/Reels/TikTok) no formato \"novidade + preço chocante + enquete\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. CAPA/HOOK (0-3s), texto em 3 camadas: \"[NOVIDADE — ex.: Chegando em (cidade)]\" / \"[PREÇO EXATO em fonte gigante]\" / \"Você compraria?\"\n2. TOUR CÉTICO (3-40s): mostrar o produto respondendo a dúvida implícita \"isso funciona/existe mesmo?\" — 3-4 pontos que o público vai questionar\n3. FECHAMENTO: devolver a pergunta da capa pro espectador\n\n**Meus dados:**\n- Corretor(a): [NOME + CIDADE]\n- Novidade: [PRODUTO FORA DA CURVA — ex.: apê compacto de 25m², casa de leilão, container house, lote parcelado direto]\n- Preço exato: [VALOR — quanto mais fora da âncora mental da categoria, melhor]\n- A \"pegadinha\" que os comentários vão apontar: [O QUE NÃO ESTÁ INCLUSO / A CONDIÇÃO — ex.: terreno não incluso, precisa de reforma, ocupado]\n- 3-4 pontos céticos a mostrar no tour: [EX.: tamanho real dos cômodos, estado da estrutura, documentação]\n\n**Regras de tom:**\n- Tom de \"achado\", não de venda — você descobriu e está mostrando\n- Ceticismo guiado: antecipe as dúvidas em vez de esconder\n- O preço NUNCA sai da capa sem contexto real\n- PROIBIDO: urgência artificial, esconder a pegadinha\n\n**Entregue:**\n1. Texto da capa em 3 camadas\n2. Roteiro de narração do tour (60-90 palavras)\n3. Legenda com a pergunta + contexto honesto da condição\n4. 5 hashtags\n5. Resposta pronta pro comentário \"qual a pegadinha?\" (a resposta é o momento de autoridade)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance puro** (topo de funil) — este formato existe pra fazer número e encher os comentários.\n- Sempre que aparecer um produto com preço fora da âncora mental: leilão, compacto, pré-fabricada, lote de entrada."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[PREÇO EXATO]:** a regra é quebrar a âncora da categoria. Casa por R$26.800 funciona; casa por R$240 mil, não. Se o preço não choca, use outro formato.\n- **[A PEGADINHA]:** OBRIGATÓRIO saber qual é antes de postar. Sua resposta técnica a \"qual a pegadinha?\" nos comentários é onde a audiência vira autoridade.\n- **[PONTOS CÉTICOS]:** filme exatamente o que o público duvida (tamanho, estrutura, documentação) — antecipação de objeção é retenção."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier com cara de anúncio:\n\n> \"Reescreva no tom de quem ACHOU algo curioso e está mostrando pra um amigo. Zero linguagem de venda.\"\n\nSe a narração ficar longa:\n\n> \"Máximo 90 palavras faladas. Corte descrições — a câmera mostra, a voz só aponta o que duvidar.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Preço que não choca** — o formato inteiro depende da quebra de âncora.\n2. **Esconder a condição real** — os comentários descobrem e o tiro sai pela culatra. Honestidade = autoridade.\n3. **Não responder os comentários céticos** — eles são o segundo conteúdo do post.\n4. **Capa poluída** — 3 camadas de texto no máximo, preço em fonte gigante."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Câmera na mão, visita real, luz do dia. Estética de \"achado\" — produção capricha CONTRA o formato.\n- YouTube Shorts merece atenção: o exemplo original fez 1 mi de views lá (menos concorrência imobiliária que no Reels)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "1 milhão de views / 27 mil likes / 2.421 comentários. O motor foi a enquete: metade duvidando, metade defendendo. Poste e passe 48h respondendo comentários."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2204,7 +2368,33 @@
    "porque": "- **Responde uma busca real** — ranqueia e performa por meses (evergreen de SEO).\n- **Total segurado até o fim** = retenção quase 100%.\n- **Comentários viram crowdsourcing** (cada um dá seus números) — 1.501 comentários.\n- **Quem publica os números da cidade vira referência da cidade.**",
    "aplicar": "- \"Quanto custa MORAR no [bairro X]\": parcela + condomínio + IPTU + mercado — o corretor tem esses dados melhor que ninguém.\n- \"Quanto custa manter um apê de R$300 mil\": quebra a objeção invisível do comprador.\n- Série natural: 1 bairro/cenário por semana = trimestre de conteúdo.",
    "guia": "- Local específico (\"Zona Sul de Ribeirão\" > \"Ribeirão\") — especificidade é a vantagem do corretor local.\n- Números da SUA carteira, honestos — moradores corrigem maquiagem nos comentários.\n- Ordem da lista: do menor pro maior; total SEMPRE no final.\n- IPTU/condomínio nunca ficam de fora. Título com cidade/bairro por extenso (SEO).",
-   "prompt": "```\nVocê é corretor(a) local. Crie um vídeo \"custo de vida real item a item\":\n1) HOOK: \"Quanto custa morar em [LOCAL]\" + primeira linha aparecendo; 2) LISTA (3-40s): itens um a um com valor real; 3) TOTAL só no último segundo; 4) \"quanto você paga aí?\".\nMEUS DADOS: Local: [ ]. Cenário (apê alugado/próprio/kitnet): [ ]. Itens e valores reais: [ ]. Fonte: [ ].\nTOM: números honestos incluindo os desconfortáveis. Um item por vez. Título com cidade/bairro por extenso.\nENTREGUE: 1) título otimizado pra busca; 2) lista na ordem de revelação (menor→maior); 3) legenda; 4) 5 hashtags com cidade/bairro; 5) próximos 5 bairros/cenários da série.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo viral imobiliário brasileiro. Crie um vídeo curto no formato \"custo de vida real item a item\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK (0-3s): título \"Quanto custa morar em [LOCAL]\" + primeira linha da lista aparecendo\n2. LISTA (3-40s): itens revelados um a um, cada um com valor real (usar faixas quando honesto: \"R$80-100\")\n3. TOTAL: só no último segundo — é o clímax que segura a retenção\n4. LEGENDA: versão escrita da lista + pergunta de comparação (\"quanto você paga aí?\")\n\n**Meus dados:**\n- Corretor(a): [NOME + CIDADE]\n- Local do vídeo: [BAIRRO/CIDADE específico]\n- Cenário: [PERFIL — ex.: apê de 2 quartos alugado / apê próprio de R$300 mil financiado / morar sozinho em kitnet]\n- Itens e valores REAIS: [LISTA — ex.: parcela/aluguel R$X, condomínio R$Y, IPTU R$Z, luz, internet, mercado da região]\n- Fonte dos números: [DE ONDE VÊM — carteira própria, clientes, tabelas atuais]\n\n**Regras de tom:**\n- Números honestos, incluindo os desconfortáveis — a credibilidade É o formato\n- Um item por vez, sem comentário; os números falam\n- Título tem que conter a cidade/bairro por extenso (busca)\n- PROIBIDO: arredondar pra baixo pra \"vender\" o bairro, esconder IPTU/condomínio\n\n**Entregue:**\n1. Título do vídeo (otimizado pra busca)\n2. Lista final na ordem de revelação (do menor pro maior impacto)\n3. Legenda com a lista escrita + pergunta de comparação\n4. 5 hashtags (incluindo cidade e bairro)\n5. Ideia de série: os próximos 5 bairros/cenários pra repetir o formato",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra virar **referência local** — é o formato de autoridade regional mais eficiente do catálogo, porque responde uma busca real e ranqueia por meses.\n- Perfeito como SÉRIE: um bairro por semana = trimestre de conteúdo."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[LOCAL]:** quanto mais específico, melhor a busca (\"Zona Sul de Ribeirão\" > \"Ribeirão Preto\"). O corretor local ganha do criador genérico justamente na especificidade.\n- **[ITENS E VALORES]:** use os números da SUA carteira (aluguéis reais, condomínios reais). É a vantagem competitiva que nenhum influencer tem.\n- **Ordem da lista:** do item menor pro maior — o crescimento segura a atenção até o total."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se a lista vier genérica:\n\n> \"Substitua por valores reais que eu forneci. Não invente médias nacionais — o formato é local.\"\n\nSe vier com opinião no meio:\n\n> \"Remova comentários entre os itens. A lista é seca; a conversa acontece nos comentários.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Maquiar números pra vender o bairro** — os moradores corrigem nos comentários e a credibilidade morre.\n2. **Dar o total no meio** — o total é o final, sempre.\n3. **Esquecer IPTU/condomínio** — são exatamente os custos que o público não sabe estimar; escondê-los tira a utilidade.\n4. **Título sem a cidade** — joga fora o SEO, que é metade do valor do formato."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Caderno + caneta em cima de mesa, celular fixo por cima (ou texto simples na tela se preferir).\n- Fundo: o imóvel/bairro de que se fala, se possível.\n- YouTube Shorts é forte pra este formato (busca) — postar lá além do Reels/TikTok."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "527 mil views / 1.501 comentários — quase todos comparando valores de outras cidades. Responda citando dados: cada resposta técnica é um mini-post de autoridade."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2401,7 +2591,33 @@
    "porque": "- **Ancorar a parcela no preço de objeto banal** reduz a impossibilidade percebida.\n- **Provocação identitária** gera comentário de defesa — o sinal mais forte pro algoritmo.\n- **O número concreto e baixo (R$476) é a estrela**; estar DENTRO do apê citado fecha o argumento.",
    "aplicar": "- Fórmula: \"Enquanto você [GASTO BANAL], tem gente [CONQUISTA IMOBILIÁRIA] com o mesmo valor\" + número real da carteira.\n- Variações: streaming vs consórcio, parcela do carro vs apê na planta, iFood vs entrada do MCMV.\n- Comparar valores PRÓXIMOS — R$476 vs R$450 funciona; vs R$80 não.",
    "guia": "- Número REAL e defensável — o debate vai testar a matemática.\n- O gasto banal tem que ser do SEU público (iPhone p/ 25-40; carro p/ mais velhos).\n- Gravar sempre dentro do imóvel que prova a tese; presença casual + texto.\n- A objeção \"iPhone não tem juros de 30 anos\" SEMPRE vem — tenha resposta pronta.",
-   "prompt": "```\nVocê é roteirista de conteúdo viral imobiliário. Crie um Reel \"comparação de consumo provocativa\":\n1) TEXTO NA TELA (o vídeo todo): \"Enquanto você [GASTO BANAL], tem gente [CONQUISTA IMOBILIÁRIA] com o mesmo valor\"; 2) VÍDEO: 1 take casual DENTRO do imóvel, sem falar; 3) LEGENDA: pergunta de escolha + prova com número real + frase-tese + CTA de seguir.\nMEUS DADOS: Corretor+@+cidade: [ ]. Imóvel de prova: [ ]. Parcela REAL: [ ]. Gasto banal do público: [ ].\nTOM: provocação que dói sem humilhar. Número exato sempre. Proibido tom de coach, \"mindset\", julgamento de pobreza.\nENTREGUE: 1) 3 variações do hook; 2) legenda; 3) descrição do take; 4) 5 hashtags; 5) respostas pros comentários \"iPhone não tem juros\" / \"mostra a parcela\".\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo viral imobiliário brasileiro. Crie um Reel no formato \"comparação de consumo provocativa\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. TEXTO NA TELA (hook, fica o vídeo todo): \"Enquanto você [GASTO BANAL], tem gente [CONQUISTA IMOBILIÁRIA] com o mesmo valor\"\n2. VÍDEO: 1 take casual DENTRO do imóvel que prova a tese (andando, sem falar)\n3. LEGENDA: pergunta de escolha (\"Você escolhe: X ou Y?\") + prova com número real + frase-tese sobre patrimônio + CTA de seguir\n\n**Meus dados:**\n- Corretor(a): [NOME + @ + CIDADE]\n- Imóvel de prova: [EMPREENDIMENTO/TIPO onde vou gravar]\n- Parcela/valor REAL: [VALOR EXATO — ex.: parcelas de R$476 no MCMV]\n- Fonte do número: [DE ONDE VEM — ex.: cliente real que comprou em 2025, simulação da construtora X]\n- Gasto banal do meu público: [EX.: iPhone parcelado, carro financiado, iFood, streaming+academia+assinaturas]\n\n**Regras de tom:**\n- A provocação deve doer um pouco, mas sem humilhar — o objetivo é o espectador pensar \"verdade...\", não \"que babaca\"\n- Número exato sempre (R$476 > \"menos de R$500\")\n- Frase-tese de fechamento no padrão \"Enquanto uns compram [passivo], outros constroem [patrimônio]\"\n- PROIBIDO: tom de coach financeiro agressivo, \"mindset\", julgamento de pobreza\n\n**Entregue:**\n1. 3 variações do texto de hook (gastos banais diferentes)\n2. Legenda completa para a melhor variação\n3. Descrição do take único (onde gravar, o que fazer em cena)\n4. 5 hashtags\n5. Respostas prontas para os 2 comentários inevitáveis: \"iPhone não tem juros de 30 anos\" e \"mostra essa parcela de R$476 aí\"",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance com posicionamento** — atrai topo de funil E planta a semente da conversão (a parcela acessível).\n- Perfeito pra corretor de MCMV/entrada de mercado, porque a força do formato é a parcela BAIXA. No alto padrão, adapte: \"Enquanto você troca de carro todo ano, tem gente pagando um apê na planta com a mesma parcela\"."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[VALOR EXATO]:** é o coração do formato — precisa ser real e defensável, porque os comentários VÃO cobrar a prova. Tenha a simulação/print em mãos pra responder.\n- **[GASTO BANAL]:** escolha o que o SEU público realmente paga. iPhone funciona pra 25-40 anos; pra público mais velho, carro/consórcio de carro bate mais.\n- **[IMÓVEL DE PROVA]:** grave dentro do empreendimento citado. A cena é o argumento."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier agressivo/coach:\n\n> \"Tire o tom de julgamento. A provocação é um espelho, não um sermão. Reescreva neutro, deixando o número fazer o trabalho.\"\n\nSe o número sumir da legenda:\n\n> \"A legenda precisa do valor exato da parcela e da origem dele (cliente real/simulação). Reescreva com o número em destaque.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Número inventado ou irreal** — os comentários desmontam e vira anti-marketing. Só use parcela que você consegue provar.\n2. **Comparar coisas de valores diferentes** — a mágica é o \"mesmo valor\". R$476 de apê vs R$450 de iPhone funciona; vs R$80 de streaming, não.\n3. **Falar no vídeo** — o formato é texto + presença casual. Falar vira aula (outro formato).\n4. **Ignorar a objeção \"juros de 30 anos\"** — ela SEMPRE vem. Resposta pronta = mais engajamento a seu favor."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- 1 take de 20-30s andando pelo decorado, postura relaxada (beber água, olhar a vista — nunca olhar pra câmera vendendo).\n- Texto estático centralizado."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "138 mil curtidas no original — o comentário de outra investidora reexplicando a tese (\"não é comparar, é mostrar que cabe no bolso\") virou o segundo conteúdo do post. Fixe o comentário que melhor defende sua tese."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2710,7 +2926,37 @@
    "porque": "- **Anti-anúncio:** um cara comum num terreno real parece conteúdo → CPM baixo, atenção alta.\n- **Nome próprio = responsabilização;** o lead sabe COM QUEM vai falar (decisivo no interior).\n- **Estar no terreno elimina a desconfiança nº1** de loteamento (\"existe mesmo?\").\n- **Evergreen por design** (sem trend/data/promo) → 657 dias; a Fase 2 repetiu o roteiro = fórmula validada.",
    "aplicar": "- Qualquer lançamento/loteamento: corretor no local, 1 take, \"[Nome] aqui…\" + contato na copy.\n- Imóvel usado: mesma fórmula na porta (\"Fulana aqui, essa casa acabou de entrar na minha carteira…\").\n- Replicar o roteiro a cada lançamento trocando apresentador/produto.",
    "guia": "- Só o primeiro nome (\"Guilherme aqui\") — nome completo+CRECI soa anúncio.\n- As 3 informações são as que o comprador LOCAL pergunta.\n- Celular na mão, som direto — estabilizador/drone/trilha DESTROEM o formato.\n- Campanha: WhatsApp, raio local, verba baixa constante; trocar criativo só quando o custo/lead subir.",
-   "prompt": "```\nVocê é copywriter de anúncio de resposta direta imobiliário. Crie roteiro + copy \"apresentação pessoal no local\" (validado por 657 dias):\nVÍDEO (40-60s, 1 take): 1) ABERTURA (0-3s): \"[PRIMEIRO NOME] aqui, passando para contar sobre [PRODUTO]\" no local; 2) APRESENTAÇÃO: 3-4 frases com o empreendimento visível; 3) CTA WhatsApp/telefone.\nCOPY: abertura + convite ao contato + telefone com DDD + site.\nMEUS DADOS: Primeiro nome: [ ]. Produto + cidade: [ ]. 3 informações que o comprador local precisa: [ ]. Contato: [ ].\nTOM: conversa de calçada. Proibido \"oportunidade única\", trilha épica, datas/promoções.\nENTREGUE: 1) roteiro com tempos; 2) copy; 3) headline + descrição do link; 4) 2 variações de abertura p/ A/B; 5) instruções de gravação.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios imobiliários de resposta direta para Meta Ads. Crie o roteiro + copy de um anúncio em vídeo no formato \"apresentação pessoal no local\", validado por um anúncio real que roda há 657 dias. Siga EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória do vídeo (40-60s, 1 take):**\n1. ABERTURA NOMINAL (0-3s): \"[PRIMEIRO NOME] aqui, passando para contar sobre [PRODUTO]\" — no local, olhando pra câmera\n2. APRESENTAÇÃO (3-40s): 3-4 frases sobre o produto, com o empreendimento VISÍVEL ao fundo — tom de conversa, sem superlativos\n3. CTA (40-55s): convite direto pra falar por WhatsApp/telefone\n\n**Estrutura obrigatória da copy:**\n- Repetir a frase de abertura\n- 1 parágrafo de convite ao contato\n- Telefone com DDD + site/WhatsApp por extenso\n\n**Meus dados:**\n- Corretor(a): [PRIMEIRO NOME]\n- Produto: [LANÇAMENTO/LOTEAMENTO/IMÓVEL + CIDADE]\n- 3 informações que o comprador local precisa ouvir: [EX.: localização em relação a referência da cidade, faixa de preço/entrada, infraestrutura]\n- Contato: [TELEFONE + SITE/WHATSAPP]\n- Público: [QUEM COMPRA — ex.: famílias da cidade e região buscando primeiro lote]\n\n**Regras de tom:**\n- Linguagem de conversa de calçada — como se explicasse pra um vizinho\n- PROIBIDO: \"oportunidade única\", \"imperdível\", \"realize seu sonho\", trilha épica, urgência artificial\n- O vídeo deve poder rodar por 1 ano sem envelhecer: nada de datas, promoções ou trends\n\n**Entregue:**\n1. Roteiro falado completo (com marcação de tempo)\n2. Copy do anúncio pronta pra colar\n3. Sugestão de headline e descrição do link\n4. 2 variações da abertura pra teste A/B\n5. Instrução de gravação (posição, enquadramento, horário)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Anúncio de **conversão direta** (WhatsApp/ligação) para lançamento, loteamento ou imóvel específico — especialmente em cidades do interior, onde o rosto conhecido é o maior ativo.\n- Como **anúncio evergreen de base**: deixar rodando com verba baixa por meses (o original roda há 657 dias)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[PRIMEIRO NOME]:** só o primeiro nome — \"Guilherme aqui\" soa vizinho; \"Guilherme Santos, consultor imobiliário CRECI...\" soa anúncio.\n- **[3 INFORMAÇÕES]:** pense no que o comprador da SUA cidade pergunta primeiro (perto de quê? quanto de entrada? tem asfalto?). Não liste amenities genéricas.\n- **[CONTATO]:** telefone escrito na copy é parte da fórmula — parte dos leads liga direto sem clicar."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier \"publicitário\" demais:\n\n> \"Reescreva como uma pessoa explicando pra um vizinho na calçada. Corte todos os adjetivos de venda. Frases de no máximo 12 palavras.\"\n\nSe vier longo:\n\n> \"O vídeo tem 55 segundos falados em ritmo calmo. Corte para no máximo 110 palavras.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Produzir demais** — estabilizador, drone e trilha épica DESTROEM o formato. Celular na mão, som direto.\n2. **Gravar em estúdio/escritório** — estar no terreno É o argumento de venda. Sem o local, não é este formato.\n3. **Colocar promoção/data** — mata o evergreen. Condições vão na conversa de WhatsApp, não no criativo.\n4. **Trocar o criativo cedo demais** — este formato demora a fadigar. Só troque quando o custo por lead subir de verdade."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Celular na mão ou tripé simples, plano americano, corretor centralizado com o empreendimento visível atrás.\n- Horário: manhã (luz boa, terreno movimentado ajuda).\n- 1 take. Errou pequeno? Mantém — a imperfeição é parte da confiança."
+    },
+    {
+     "titulo": "Estrutura de campanha sugerida",
+     "corpo": "- Objetivo: mensagens no WhatsApp (ou ligação, se público 45+).\n- Público: raio geográfico da cidade + região, sem refinar demais (o criativo já qualifica).\n- Verba: baixa e constante. Medir custo por conversa iniciada."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "657 dias ativo (Fase 1) + reutilização do formato na Fase 2 com outro corretor. Quando um anunciante repete a fórmula no lançamento seguinte, é porque a planilha aprovou."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2928,7 +3174,33 @@
    "porque": "- **Guerra aluguel vs compra é evergreen** — a dor renova no vencimento de cada mês.\n- **Reenquadrar como investimento** eleva a percepção de valor.\n- **A virada pessoal diferencia de construtora:** o lead compra a GUIA, não só o imóvel.\n- **Posicionamento + conversão juntos:** quem não clica memoriza \"Layane = planta/investimento\".",
    "aplicar": "- Fórmula: reenquadramento (compra=estratégia) + bullets de objeção + \"E eu, [NOME], estou aqui pra guiar cada passo\" + cutucada na dor.\n- Versões: MCMV (sair do aluguel), investidor (1º imóvel de renda), consórcio.\n- A frase de guia pessoal transplanta pra qualquer anúncio de corretor autônomo.",
    "guia": "- ⚠️ Jurídico: NUNCA \"valorização garantida\" — usar \"histórico/potencial\".\n- As objeções vêm do seu WhatsApp, em ordem de frequência.\n- Prova pessoal com número (\"30 famílias até as chaves\") > adjetivos.\n- A cutucada é no tempo perdido, nunca na pessoa. Vende a JORNADA; o imóvel específico entra na conversa.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário. Crie roteiro + copy \"anti-aluguel com guia pessoal\" (validado por 408 dias):\nCOPY: 1) ABERTURA aspiracional com urgência honesta; 2) REENQUADRAMENTO: comprar é estratégia, não gasto; 3) VIRADA PESSOAL: \"E eu, [NOME], como su(a) consultor(a), estou aqui pra guiar cada passo\"; 4) CTA + cutucada (\"vai perder mais quanto tempo pagando aluguel?\").\nMEUS DADOS: Corretor+cidade: [ ]. Produto: [ ]. Público: [ ]. Objeções: [ ]. Prova pessoal: [ ].\nTOM: confiante e juridicamente cuidadoso — NUNCA \"valorização garantida\". A virada pessoal é o coração.\nENTREGUE: 1) copy completa; 2) roteiro com tempos; 3) headline; 4) 2 variações da cutucada; 5) 1ª mensagem de WhatsApp.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios imobiliários para Meta Ads. Crie roteiro + copy de um anúncio no formato \"anti-aluguel com guia pessoal\", validado por um anúncio real que roda há 408 dias. Siga EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória da copy:**\n1. ABERTURA aspiracional com urgência honesta (\"A oportunidade de construir seu patrimônio começa agora\")\n2. REENQUADRAMENTO: comprar [PRODUTO] não é gasto, é estratégia\n3. 4 BULLETS ✔️ — cada um matando UMA objeção específica do público\n4. VIRADA PESSOAL: \"E eu, [NOME], como su(a) consultor(a) imobiliário(a), estou aqui para guiar cada passo dessa jornada\"\n5. CTA + cutucada na dor (\"Vai perder mais quanto tempo pagando aluguel?\")\n\n**Vídeo (40-60s):** talking head simples ou b-roll com narração — o texto do vídeo segue os mesmos blocos.\n\n**Meus dados:**\n- Corretor(a): [NOME + CIDADE]\n- Produto: [PLANTA / MCMV / USADO / CONSÓRCIO]\n- Público: [QUEM — ex.: quem paga aluguel de R$1.500+ e nunca simulou financiamento]\n- 4 objeções desse público: [EX.: \"não tenho entrada\", \"juros são altos\", \"obra atrasa\", \"não sei por onde começar\"]\n- Prova pessoal: [EX.: nº de famílias que você já acompanhou até as chaves]\n\n**Regras de tom:**\n- Confiante mas juridicamente cuidadoso: NUNCA usar \"valorização garantida\" ou \"renda garantida\" — usar \"histórico de valorização\" / \"potencial\"\n- A virada pessoal é o coração: o lead compra o acompanhamento, não o imóvel\n- PROIBIDO: pressão agressiva, \"última chance\", promessas de retorno em %\n\n**Entregue:**\n1. Copy completa do anúncio\n2. Roteiro falado do vídeo (com tempos)\n3. Headline + descrição do card\n4. 2 variações da cutucada final pra teste A/B\n5. Primeira mensagem sugerida do WhatsApp/direct quando o lead responder",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Anúncio permanente de **posicionamento + conversão** para corretor autônomo que vende planta/MCMV.\n- Público-alvo natural: quem paga aluguel há anos e nunca fez uma simulação — o anúncio existe pra provocar essa primeira conversa."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[4 OBJEÇÕES]:** use as que você escuta no WhatsApp, na ordem de frequência. Cada bullet do anúncio é a resposta de uma.\n- **[PROVA PESSOAL]:** \"acompanhei 30 famílias até as chaves\" vale mais que qualquer adjetivo. Sem número ainda? Use processo (\"acompanho da simulação à entrega das chaves\").\n- **A virada pessoal:** manter a fórmula \"E eu, [NOME], ... guiar cada passo\" — é a frase que diferencia de anúncio de construtora."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier com promessas arriscadas:\n\n> \"Remova qualquer garantia de valorização ou renda. Troque por 'histórico' e 'potencial'. O CRECI agradece.\"\n\nSe a parte pessoal sumir:\n\n> \"A frase 'E eu, [nome], estou aqui para guiar cada passo' precisa aparecer intacta antes do CTA.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Virar anúncio de imóvel específico** — este formato vende a JORNADA com o corretor; o imóvel entra depois, na conversa.\n2. **Bullets genéricos** (\"qualidade de vida\") — cada bullet mata uma objeção nomeável ou sai.\n3. **Cutucada humilhante** (\"continue pobre pagando aluguel\") — a cutucada é no tempo perdido, nunca na pessoa.\n4. **Trocar o criativo com 2 semanas** — o original levou meses pra consolidar; verba baixa e paciência."
+    },
+    {
+     "titulo": "Estrutura de campanha sugerida",
+     "corpo": "- Objetivo: mensagens (WhatsApp/direct). Público: raio local + faixa de renda compatível com o produto.\n- Par perfeito com B29 (isca de simulação gratuita) como sequência de remarketing."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "408 dias ativo — anúncio de corretora autônoma sobrevivendo mais de um ano no leilão. A combinação bullets + guia pessoal é o motivo."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -3019,7 +3291,33 @@
    "porque": "- **Divisão inteligente:** vídeo conquista atenção em 15s; card entrega a ficha pra quem se interessou.\n- **Bairro > imóvel:** \"melhor endereço do [bairro]\" fala com orgulho local — gatilho de pertencimento.\n- **15s não fadiga** — frequência alta sem irritar → 565 dias.",
    "aplicar": "- Fórmula: \"More no melhor endereço do [BAIRRO]\" + 2 frases de specs + vídeo 15s + card completo.\n- Variações: \"O [bairro] que você ama, agora com lazer de resort\", \"A 200m da [referência local]\".\n- Imóvel usado bem localizado: \"o apartamento mais bem localizado do [bairro] disponível hoje\".",
    "guia": "- Copy de exatamente 3 frases; o resto vai TODO pro card.\n- A referência local errada denuncia que você não é dali — converse com moradores.\n- A 3ª frase existe pra matar a maior objeção. Superlativo precisa ser defensável.\n- Vídeo: 4-5 takes de 3s sem narração. Segmentar por raio geográfico apertado.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário. Crie um anúncio \"bairro como herói\" — vídeo 15s + copy mínima + card (validado por 565 dias):\nCOPY (máx 3 frases): 1) \"More no melhor endereço do [BAIRRO]\"; 2) specs essenciais; 3) frase que elimina a maior objeção.\nCARD: headline produto+bairro; descrição com ficha técnica COMPLETA.\nVÍDEO (15s): 4-5 cenas de 3s, sem narração.\nMEUS DADOS: Imóvel + bairro: [ ]. Por que o bairro é amado (referências locais): [ ]. Specs completos: [ ]. Maior objeção: [ ].\nTOM: menos é mais, o bairro é protagonista. Proibido superlativo sem lastro, bullets na copy.\nENTREGUE: 1) copy (3 frases); 2) headline + descrição do card; 3) storyboard dos 15s; 4) 2 variações da 1ª frase; 5) segmentação geográfica.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios imobiliários para Meta Ads. Crie um anúncio no formato \"bairro como herói\" — vídeo de 15s + copy mínima + card completo — validado por um anúncio real que roda há 565 dias. Siga EXATAMENTE esta estrutura:\n\n**Copy do anúncio (máximo 3 frases):**\n1. \"More no melhor endereço do [BAIRRO].\" (ou variação com referência local)\n2. Frase de specs essenciais\n3. Frase que elimina a maior objeção\n\n**Card do link:**\n- Headline: produto + bairro\n- Descrição: ficha técnica COMPLETA (tudo que não coube na copy)\n\n**Vídeo (15s, storyboard):** 4-5 cenas de 3s do imóvel/empreendimento — sem narração, música leve\n\n**Meus dados:**\n- Anunciante: [CORRETOR/IMOBILIÁRIA]\n- Imóvel: [EMPREENDIMENTO/IMÓVEL + BAIRRO + CIDADE]\n- Por que o bairro é amado: [REFERÊNCIAS LOCAIS — praça, metrô, tradição, comércio]\n- Specs completos: [QUARTOS, VAGAS, LAZER, METRAGEM, ESTÁGIO DA OBRA]\n- Maior objeção do público: [EX.: prazo de obra, preço, garagem]\n\n**Regras de tom:**\n- Menos é mais: a copy tem 3 frases, SEM emoji em excesso, SEM lista de bullets na copy (bullets vão no card)\n- O bairro é o protagonista; o prédio é coadjuvante\n- PROIBIDO: \"realize seu sonho\", superlativo sem lastro (\"o melhor da cidade\")\n\n**Entregue:**\n1. Copy (3 frases)\n2. Headline + descrição completa do card\n3. Storyboard do vídeo de 15s (cena a cena)\n4. 2 variações da primeira frase pra teste A/B\n5. Sugestão de segmentação geográfica",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Imóvel/empreendimento cuja **localização é o maior argumento** — bairro tradicional, perto de metrô/referência, público com raiz local.\n- Quando você quer um anúncio de conversão que rode meses sem fadigar (15s + copy curta = atenção barata)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[POR QUE O BAIRRO É AMADO]:** converse com moradores — o orgulho local tem nome (a feira, a praça, \"perto de tudo\"). Usar a referência errada denuncia que você não é dali.\n- **[SPECS NO CARD]:** despeje TUDO no card, não na copy. Quem clicou no card já está qualificado.\n- **[MAIOR OBJEÇÃO]:** a 3ª frase existe pra matá-la (\"Pronto para morar\" mata o medo do prazo; \"com 2 vagas\" mata a dor de garagem)."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se a copy vier longa:\n\n> \"Corte para exatamente 3 frases. Tudo que sobrar vai pra descrição do card.\"\n\nSe o bairro sumir:\n\n> \"O bairro é o herói — ele precisa aparecer na primeira frase e na headline do card.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Copy longa** — este formato ganha por ser o anúncio mais leve do feed.\n2. **Vídeo de 60s** — 15s é parte da fórmula (retenção ~100% barateia o leilão).\n3. **Segmentação ampla** — anúncio de orgulho local para público de outra cidade não conecta. Raio apertado.\n4. **Superlativo falso** — \"melhor endereço do bairro\" precisa ser defensável (localização objetivamente boa)."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- 4-5 takes de 3s: fachada, área comum forte, apartamento, vista/rua. Drone ajuda mas não é obrigatório.\n- Sem narração — texto mínimo na tela se quiser (bairro + \"pronto para morar\")."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "565 dias ativo com vídeo de 15 segundos — prova de que anúncio imobiliário não precisa ser cinematográfico, precisa ser certeiro."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -3387,7 +3685,33 @@
    "porque": "- **Resolve o gargalo real:** toda imobiliária briga por INVENTÁRIO — captação tem menos concorrência no leilão do Meta.\n- **A primeira palavra segmenta** melhor que qualquer público salvo.\n- **Promessas mensuráveis**, não \"atendimento diferenciado\". Nota do Google como criativo: prova terceirizada.",
    "aplicar": "- Autônomo: \"Proprietário, seu imóvel está parado há 90+ dias? Eu explico o porquê\".\n- Versão venda: \"avaliação gratuita em 24h\". Versão temporada: cruzar com projeção de ganhos (B29).\n- Fórmula: público nomeado na 1ª palavra + dor nº1 + credencial verificável + WhatsApp.",
    "guia": "- Nota 4.8+ no Google vira headline; sem avaliações, use número concreto (\"47 imóveis alugados em 2025\").\n- Pergunte aos últimos 5 proprietários captados POR QUE escolheram — a resposta é a copy.\n- Proprietário pensa como investidor: números, não sonho. WhatsApp > formulário.\n- Medir custo por conversa com proprietário real.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário de resposta direta. Crie um anúncio de CAPTAÇÃO de proprietários (validado por 604 dias):\n1) PRIMEIRA PALAVRA = público: \"Proprietário, …\"; 2) DUPLA PROMESSA: velocidade + segurança/garantia; 3) CREDENCIAL VERIFICÁVEL (CRECI, nota Google, nº de imóveis); 4) CTA WhatsApp.\nMEUS DADOS: Corretor/imobiliária + CRECI + cidade: [ ]. Captação para (aluguel/venda/temporada): [ ]. Dor nº1 do proprietário local: [ ]. Provas reais: [ ]. Diferencial concreto: [ ].\nTOM: negócio, não sonho. Toda promessa com prova. Proibido \"atendimento diferenciado\", urgência falsa.\nENTREGUE: 1) roteiro; 2) copy; 3) headline (credencial se nota 4.8+); 4) 2 variações da 1ª frase; 5) 1ª mensagem automática do WhatsApp.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios imobiliários de resposta direta. Crie roteiro + copy de um anúncio de CAPTAÇÃO (mirando proprietários de imóveis), validado por um anúncio real que roda há 604 dias. Siga EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. PRIMEIRA PALAVRA = o público: \"Proprietário, ...\"\n2. DUPLA PROMESSA nas dores reais: [velocidade] + [segurança/garantia]\n3. CREDENCIAL VERIFICÁVEL: CRECI, nota do Google, nº de imóveis alugados/vendidos\n4. CTA: WhatsApp direto\n\n**Vídeo (30-50s):** talking head ou b-roll de imóveis da carteira, com a promessa falada em tom de resolução de problema.\n\n**Meus dados:**\n- Corretor(a)/imobiliária: [NOME + CRECI + CIDADE]\n- Objetivo da captação: [ALUGUEL / VENDA / TEMPORADA]\n- Dor nº1 do proprietário local: [EX.: imóvel parado há meses, medo de calote, inquilino problema]\n- Minhas provas reais: [NOTA GOOGLE / Nº DE IMÓVEIS ALUGADOS / TEMPO MÉDIO DE ALUGUEL]\n- Diferencial concreto: [EX.: garantia de pagamento, fotos profissionais inclusas, avaliação em 24h]\n\n**Regras de tom:**\n- Falar de NEGÓCIO, não de sonho — proprietário quer rentabilidade e paz\n- Toda promessa precisa de prova ao lado\n- PROIBIDO: \"atendimento diferenciado\", \"cuidamos do seu patrimônio com carinho\", urgência falsa\n\n**Entregue:**\n1. Roteiro falado do vídeo (com tempos)\n2. Copy do anúncio\n3. Headline + descrição do card do link (usar a credencial como headline se a nota for 4.8+)\n4. 2 variações da primeira frase pra teste A/B\n5. Primeira mensagem automática sugerida pro WhatsApp (quando o lead clicar)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Quando o gargalo é **inventário** (poucos imóveis na carteira) — o erro comum é só anunciar imóvel e nunca anunciar a captação.\n- Como anúncio permanente de verba baixa: captação é ativo de longo prazo (o original roda há 604 dias)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[PROVAS REAIS]:** a nota do Google é a arma principal — se a sua for 4.8+, ela vira headline do botão. Se não tiver avaliações ainda, use número concreto (\"47 imóveis alugados em 2025\") e construa as avaliações em paralelo.\n- **[DOR Nº1]:** pergunte aos últimos 5 proprietários que você captou POR QUE trocaram/escolheram — a resposta é sua copy.\n- **[DIFERENCIAL]:** precisa ser algo que você cumpre em 100% dos casos. Promessa de captação quebrada = avaliação 1 estrela."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier emocional demais:\n\n> \"Proprietário pensa como investidor. Reescreva focando em números: tempo pra alugar, garantia, taxa. Zero linguagem de sonho.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Falar com o público errado** — se a copy fala em \"realizar o sonho da casa própria\", você está falando com comprador, não proprietário.\n2. **Prometer sem prova** — \"alugamos rápido\" sem número é ruído.\n3. **CTA de formulário longo** — proprietário quer conversar; WhatsApp converte mais.\n4. **Público aberto demais** — segmentar por idade 30+ e interesses de investimento ajuda, mas a primeira palavra da copy é o filtro real."
+    },
+    {
+     "titulo": "Estrutura de campanha sugerida",
+     "corpo": "- Objetivo: mensagens no WhatsApp. Raio local. Verba baixa constante.\n- Medir: custo por conversa com proprietário real (não por clique)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "604 dias ativo + segundo anunciante com o mesmo formato (Fernandes Imóveis, 83 dias) = mecânica validada por concorrentes diferentes."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -3625,7 +3949,33 @@
    "porque": "- **\"Planta ou pronto?\" nunca envelhece** → zero fadiga (685 dias, recorde).\n- **Educação como pré-venda:** quem assiste 2min chega qualificado no WhatsApp.\n- **Construtora admitindo desvantagens** gera confiança desproporcional.\n- **Série cria remarketing barato** (quem viu o ep.1 é público quente do ep.2). A duração FILTRA: o clique é qualificado.",
    "aplicar": "- Duelos prontos: \"Financiar ou consórcio?\", \"Comprar ou alugar?\", \"Casa ou apartamento?\", \"Leilão vale a pena?\".\n- Fórmula: dúvida-duelo + \"é a pergunta que mais escuto\" + vantagens E desvantagens + CTA de assistir.\n- Cruza com o formato orgânico A33 (Versus) — o mesmo conteúdo serve nos dois eixos.",
    "guia": "- Escolha a dúvida que você mais escuta NO WHATSAPP, não a mais \"inteligente\".\n- Desvantagens obrigatórias e reais — é o elemento que diferencia.\n- Cada vantagem/desvantagem com exemplo numérico.\n- CTA de compra no final MATA o formato — a venda é no remarketing. Avaliar por custo por lead qualificado.",
-   "prompt": "```\nVocê é copywriter de anúncio educativo imobiliário. Crie roteiro + copy \"série X ou Y\" (validado por 685 dias):\nVÍDEO (90-120s, talking head): 1) HOOK: \"[X] ou [Y]? O que é mais vantajoso?\"; 2) LEGITIMAÇÃO: \"a pergunta que mais escuto\"; 3) 2-3 vantagens E 1-2 desvantagens REAIS do lado deste episódio; 4) GANCHO: \"no próximo, o outro lado\"; 5) CTA suave.\nMEUS DADOS: Duelo: [ ]. Lado deste episódio: [ ]. Vantagens: [ ]. Desvantagens (obrigatório): [ ]. Público: [ ].\nTOM: consultor, não vendedor. Zero urgência/promoção (precisa rodar 1 ano). Exemplos com números.\nENTREGUE: 1) roteiro; 2) copy; 3) resumo do ep. 2; 4) headline; 5) estratégia de remarketing.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios imobiliários educativos para Meta Ads. Crie o roteiro + copy de um anúncio no formato \"série educativa X ou Y\" — validado por um anúncio real que roda há 685 dias — seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória do vídeo (90-120s, talking head simples):**\n1. HOOK: a pergunta-duelo (\"[X] ou [Y]? O que é mais vantajoso?\")\n2. LEGITIMAÇÃO: \"essa é a pergunta que eu mais escuto dos meus clientes\"\n3. CONTEÚDO: 2-3 vantagens E 1-2 desvantagens REAIS do lado abordado neste episódio\n4. GANCHO DE SÉRIE: \"no próximo vídeo, o outro lado\"\n5. CTA suave: assistir/seguir — NUNCA \"compre agora\"\n\n**Estrutura obrigatória da copy:**\n- Pergunta-duelo em caixa alta com emoji\n- Parágrafo de legitimação (pergunta vem dos clientes)\n- O que o vídeo entrega + promessa de honestidade (vantagens E desvantagens)\n- CTA de assistir\n\n**Meus dados:**\n- Corretor(a)/empresa: [NOME]\n- Duelo: [X vs Y — ex.: financiar vs consórcio, planta vs pronto, comprar vs alugar]\n- Lado deste episódio: [X ou Y]\n- Vantagens reais (2-3): [LISTA]\n- Desvantagens reais (1-2): [LISTA — obrigatório, é o que gera confiança]\n- Público: [QUEM TEM ESSA DÚVIDA]\n\n**Regras de tom:**\n- Consultor, não vendedor: admitir desvantagens é a estratégia\n- Zero urgência, zero promoção — o anúncio precisa poder rodar por 1 ano\n- Linguagem simples, exemplos com números quando possível\n\n**Entregue:**\n1. Roteiro falado completo (com tempos)\n2. Copy do anúncio\n3. Roteiro-resumo do episódio 2 (o outro lado)\n4. Sugestão de headline do link\n5. Estratégia de remarketing em 1 parágrafo (quem viu 50%+ recebe o quê)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Como **anúncio de base permanente** (verba baixa, sempre ativo) pra construir autoridade e alimentar remarketing.\n- Quando você quer leads mais qualificados: quem assiste 2 minutos de aula chega no WhatsApp sabendo o básico."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[DUELO]:** escolha a dúvida que você mais escuta NO WHATSAPP — não a que parece mais inteligente. A do exemplo (\"planta ou pronto\") roda há 685 dias porque é a dúvida real de todo comprador.\n- **[DESVANTAGENS]:** obrigatórias e reais. É o elemento que diferencia este anúncio de todos os outros do feed — construtora/corretor admitindo contras gera confiança desproporcional.\n- **Duração:** 90-120s está certo. A duração filtra curiosos e entrega interessados."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier vendedor:\n\n> \"Reescreva como consultor neutro. As desvantagens precisam ser tão concretas quanto as vantagens. Remova qualquer urgência.\"\n\nSe vier raso:\n\n> \"Cada vantagem/desvantagem precisa de um exemplo com número (prazo, %, R$). Sem generalidades.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Esconder as desvantagens** — vira anúncio comum e perde a mágica.\n2. **Colocar promoção/data** — mata o evergreen.\n3. **CTA de compra no final** — o CTA é assistir a série; a venda acontece no remarketing.\n4. **Desistir cedo** — este formato demora a mostrar resultado, mas roda anos. Avalie por custo por lead qualificado, não por CTR da primeira semana."
+    },
+    {
+     "titulo": "Estrutura de campanha sugerida",
+     "corpo": "1. Campanha 1 (sempre ativa): este vídeo, objetivo ThruPlay, público amplo local.\n2. Campanha 2 (remarketing): quem assistiu 50%+ recebe o episódio 2 e depois anúncio de produto/simulação.\n3. Verba: mínima e constante — é ativo, não campanha."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "685 dias ativo — o anúncio mais longevo de todo o catálogo. Anúncio educativo honesto não fadiga porque não parece anúncio."
+    }
+   ]
   },
   "exemplos": [
    {

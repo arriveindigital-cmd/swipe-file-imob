@@ -78,7 +78,8 @@ for pid, md in meta.items():
         for t, c in parse_sections(open(os.path.join(d, "analise-formato.md"), encoding="utf-8").read()):
             k = fmt_key(t)
             if k: e["formato"][k] = c
-        for exdir in sorted(glob.glob(os.path.join(d, "exemplo-*"))):
+        exdirs = sorted(glob.glob(os.path.join(d, "exemplo-*")))
+        for exdir in exdirs:
             cr = re.sub(r'^exemplo-\d+-', '', os.path.basename(exdir))
             ex = dict(criador=cr, driveId="", metrica=md["metrica"], link=md["link"],
                       en=md["en"], temTranscricao=False, analise=[])
@@ -94,6 +95,20 @@ for pid, md in meta.items():
                 if txt and not txt.startswith("[SEM"):
                     ex["temTranscricao"] = True; ex["transcricao"] = txt
             e["exemplos"].append(ex)
+        # prompt profundo APROVADO + guia de uso (do primeiro exemplo que tiver 03-prompt-replicacao/)
+        for exdir in exdirs:
+            pp = os.path.join(exdir, "03-prompt-replicacao", "prompt.md")
+            if os.path.exists(pp):
+                raw = open(pp, encoding="utf-8").read().splitlines()
+                idx = next((i for i, l in enumerate(raw) if l.strip() == "---"), None)
+                body = "\n".join(raw[idx+1:]).strip() if idx is not None else "\n".join(raw).strip()
+                if body:
+                    e["formato"]["prompt"] = body
+                gp = os.path.join(exdir, "03-prompt-replicacao", "guia-de-uso.md")
+                if os.path.exists(gp):
+                    e["formato"]["guiaPrompt"] = [{"titulo": t, "corpo": c}
+                                                  for t, c in parse_sections(open(gp, encoding="utf-8").read())]
+                break
     out.append(e)
 
 out.sort(key=lambda x: (x["tipo"] != "organico", x["id"]))
