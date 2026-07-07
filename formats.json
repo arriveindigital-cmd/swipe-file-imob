@@ -6216,12 +6216,39 @@
   "desc": "UGC: um morador mostra e usa o condomínio — prova social que anúncio não compra.",
   "slug": "influenciador-morador-real-mostrando-a-experiencia",
   "formato": {
+   "estrutura": "1. **[HOOK: SUPERLATIVO + PREÇO + CONVITE]** \"o melhor [X] por [preço], bora o tour?\". → *slot: o gancho.*\n2. **[DESFILE DE AMENIDADES VIVIDAS]** cada uma rotulada + o benefício prático. → *slot: as amenidades.*\n3. **[TOM DE MORADOR]** POV autêntico (não vendedor). → *slot: a autenticidade.*\n4. **[CTA/ENGAJAMENTO]** \"o que acharam?\". → *slot: o CTA.*\n\n- **Fixo:** morador real (não corretor); preço-âncora; amenidade + benefício vivido; POV; densidade.\n- **Variável:** o condomínio, as amenidades, o preço.",
    "hook": "Morador real fazendo tour de valor pelo condomínio: **\"Tudo que tem no meu condomínio que custa menos de R$500/mês — um dos mais completos de Brasília, do lado do metrô. Bora fazer um tour?\"** UGC de quem MORA ali é prova social que anúncio institucional não compra.",
    "blocos": "- **Gancho de custo-benefício (0-8s):** \"tudo isso por menos de R$500/mês, do lado do metrô\".\n- **Tour da experiência real (8-50s):** morador mostra e USA cada área (piscina, academia, cinema, chopeira, coworking, Lug Box) com opinião pessoal.\n- **CTA (fim):** \"vem morar / agende visita\".",
    "porque": "- **UGC de morador real = prova social máxima:** quem já vive ali tem zero interesse de venda aparente.\n- **Foco na experiência de uso** (não specs) faz o espectador se ver morando.\n- **Custo-benefício concreto** (\"menos de R$500/mês\") ancora a decisão.",
    "aplicar": "- Recrute um morador/cliente satisfeito pra fazer o tour (com incentivo/parceria).\n- Foco no que ele USA e AMA, não na ficha técnica.\n- Custo-benefício concreto na abertura.",
    "guia": "- Autenticidade acima de produção — morador real, fala natural.\n- Ele mostra usando (nadar, treinar, confraternizar), não só apontando.\n- Custo/condomínio real na abertura (transparência gera confiança).\n- CTA de visita/contato.",
-   "prompt": "```\nVocê é roteirista de UGC imobiliário. Crie um roteiro de \"morador real mostra o condomínio\":\n1) GANCHO DE CUSTO-BENEFÍCIO (0-8s): \"tudo isso por [custo]/mês, [diferencial local]\"; 2) TOUR da experiência real (o morador USA cada área, com opinião); 3) CTA.\nMEUS DADOS: Condomínio + diferencial local: [ ]. Áreas/experiências a mostrar: [ ]. Custo/condomínio real: [ ]. Morador/influenciador: [ ].\nTOM: autêntico, morador real, foco no uso e no amor pelo lugar. Custo real na abertura.\nENTREGUE: 1) roteiro do tour; 2) gancho de abertura; 3) copy; 4) CTA; 5) briefing pro morador/influenciador.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo de experiência para imóveis. Crie o roteiro de \"morador real mostrando a experiência vivida (tour POV de amenidades)\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: SUPERLATIVO + PREÇO + CONVITE (0-6s): \"o melhor [X] por [preço/mês], bora fazer um tour?\"\n2. DESFILE DE AMENIDADES VIVIDAS: cada amenidade rotulada + o benefício prático (a dor que resolve)\n3. TOM DE MORADOR: POV autêntico, de quem vive ali (não de vendedor)\n4. CTA/ENGAJAMENTO: \"e aí, o que acharam?\"\n\n**Meus dados:**\n- Quem mostra (morador/influenciador) + @: [NOME + @]\n- O superlativo + preço-âncora: [O MELHOR X POR R$Y/mês]\n- As amenidades + o benefício de cada: [LISTE COM A DOR QUE RESOLVE]\n- O diferencial mais desejado: [O QUE GUARDAR PRO FIM]\n\n**Regras de tom:**\n- Morador REAL, não corretor — a autenticidade é o formato (\"eu venho aqui sempre\")\n- Cada amenidade com o benefício vivido (a dor que resolve), não só o nome\n- Preço-âncora no hook (torna o estilo de vida acessível)\n- Energia genuína (é o que segura o long-form)\n\n**Entregue:**\n1. O roteiro do tour (amenidade por amenidade, com o benefício)\n2. As legendas rotulando cada amenidade\n3. O hook (superlativo + preço + convite)\n4. O CTA de engajamento\n5. Qual amenidade guardar como \"queridinha\" pro fim",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **captação (locação/venda) por experiência** via tráfego pago. A voz do morador real converte mais que o pitch da incorporadora.\n- Ideal pra empreendimentos com muitas amenidades/diferenciais de estilo de vida."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[QUEM MOSTRA]:** um morador/influenciador real (não corretor). A autenticidade é o formato.\n- **[O BENEFÍCIO DE CADA AMENIDADE]:** a dor que resolve (\"guarda sua tralha\", \"bike grátis pro rolê\"), não só o nome.\n- **[O PREÇO-ÂNCORA]:** a relação valor/preço no hook torna o estilo de vida acessível."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se soar como vendedor:\n\n> \"Reescreva na voz de um morador real ('eu venho aqui sempre'). O tom de amiga mostrando a casa é o que converte; pitch de corretor mata.\"\n\nSe listar amenidades sem benefício:\n\n> \"Cada amenidade precisa da dor que resolve ('sabe aquela tralha? aluga um box'). 'Tem box' é fraco; o benefício vivido converte.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Tom de vendedor** — o formato vive da autenticidade do morador.\n2. **Listar sem benefício** — o benefício vivido converte, o nome não.\n3. **Esconder o preço** — a âncora de valor é metade do gancho.\n4. **Tour sem energia** — a empolgação genuína segura o long-form."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- POV (mão apontando, selfie), morador real. Legendas rotulando cada amenidade.\n- Ritmo dinâmico; cada amenidade um mini-bloco com o benefício. CTA de engajamento no fim."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de experiência — a autenticidade do morador + a densidade de amenidades + o preço-âncora vendem o estilo de vida. Long-form se sustenta pela variedade. O CTA de engajamento gera comentário e alcance. Ideal pra locação/venda de empreendimentos com muito lazer."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -6231,7 +6258,40 @@
     "link": "https://www.facebook.com/ads/library/?id=26785404817792006",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma moradora mostra em POV cada amenidade do prédio como quem vive ali — a experiência real e o preço (\"menos de R$500/mês\") vendem o estilo de vida, não a planta."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-6s | Moradora no rooftop; legenda \"MELHOR CONDOMÍNIO DE BRASÍLIA (por menos de R$500/mês)\" | \"Tudo que tem no meu condomínio que custa menos de 500/mês, um dos mais completos de Brasília, do lado do metrô. Bora fazer um tour?\" | Hook: superlativo + preço-âncora + convite POV |\n| 6-120s | POV (mão apontando), amenidade por amenidade; legendas (LIVING, PISCINA, CHOPEIRA, LUGGO BOX, MERCADO, BICICLETÁRIO, LAVANDERIA, GUARDA-CHUVA) | \"Living com piscina/academia/salão, chopeira paga-consome, Luggo Box pra guardar tralha, mercado autoservice, bikes grátis do condomínio, lavanderia, guarda-chuva grátis 24h, smart locker, carregador de carro elétrico\" | Desfile de amenidades vividas — cada uma com o benefício prático |\n| 120-145s | Fecho | \"E aí, o que vocês acharam?\" | CTA/engajamento |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Superlativo + preço-âncora no hook** (\"o melhor por menos de R$500/mês\") — a relação valor/preço para o scroll.\n- **POV de MORADORA, não de corretor** — a autenticidade (\"eu venho aqui sempre tomar sol\") vale mais que qualquer pitch.\n- **Cada amenidade vem com o benefício vivido** (\"sabe aquela tralha que não cabe? aluga um box\") — resolve dores reais, não lista features.\n- **Tom de amiga mostrando a casa** — a densidade de amenidades vende o ESTILO DE VIDA.\n- **CTA de engajamento** (\"o que acharam?\") gera comentário."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **POV (mão apontando, selfie)** — imersão de \"você comigo\".\n- **Legendas rotulando cada amenidade** (LIVING, PISCINA…) — estrutura e leitura sem som.\n- **Ritmo dinâmico** de tour; branding Luggo nas áreas."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração de moradora empolgada**, ritmo de tour que nunca para.\n- Cada amenidade é um mini-bloco com seu benefício — o long-form se sustenta pela variedade."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Autenticidade / prova social** — moradora real, não vendedor (o oposto de anúncio).\n2. **Ancoragem de preço** — \"menos de R$500/mês\" torna o estilo de vida acessível.\n3. **Abundância** — a quantidade de amenidades impressiona e vende o \"vale a pena\".\n4. **Estilo de vida** — vende a experiência (o pôr do sol, as bikes, a chopeira), não a planta.\n5. **Praticidade** — cada amenidade resolve uma dor real do dia a dia."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Tom de corretor/vendedor — o formato vive da autenticidade da moradora.\n- ❌ Listar amenidades sem o benefício vivido — \"tem box\" é fraco; \"guarda sua tralha\" converte.\n- ❌ Esconder o preço — a âncora de valor é metade do gancho.\n- ❌ Tour sem energia — a empolgação genuína é o que segura o long-form."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Use um morador real** (não corretor) mostrando em POV.\n2. **Abra com superlativo + preço-âncora + convite** (\"o melhor [X] por [preço], bora o tour?\").\n3. **Desfile as amenidades**, cada uma com o benefício vivido (a dor que resolve).\n4. **Mantenha o tom de amiga** mostrando a casa (autenticidade > produção).\n5. **Feche com CTA de engajamento** (\"o que acharam?\"). Legendas rotulando cada ambiente."
+     }
+    ],
     "transcricao": "Tudo que tem no meu condomínio, que custa menos de 500 reais por mês, é um dos mais legais e mais completos de Brasília e fica do lado do metrô.\nBora fazer um tour?\nVocê avista quando você chega na parte mais legal, que é o living, onde tem piscina, academia, playground e salão de festa.\nEssa aqui é a área do living e aqui já fica o salão de festa.\nEntão você pode aproveitar, quero fazer uma festa interna.\nJá dá pra aproveitar e esticar aqui, ou então só sentar pra conversar com os amigos, a gente gosta muito de fazer isso.\nE essa aqui é a visão das duas torres.\nE pra turbinar a confraternização, gente, tem chopeira\nQue também é um sistema de você paga, que você consome\nE sempre tem promoção\nData comemorativa é melhor ainda\nE não acaba por aí não, viu?\nPorque tem playground pras crianças se divertirem\nEnquanto você confraterniza\nO piscina é maravilhoso, tem muito espaço pras crianças\nTem muito espaço pra tomar sol\nEu venho aqui sempre tomar sol\nFora que a água é uma delícia\nE o pôr do sol aqui é lindo, gente\nPra quem quer uma jornada fitness\nDá pra treinar na academia do prédio sim\nPorque tem tudo, ela é super completa\nSuper espaçosa, tem área de cardio\ne área de musculação.\nAtrás de mim fica o Lugo Box.\nSabe aquelas coisas que você tem em casa\nque não cabem em apartamento?\nFalar, vou me desfazer.\nNão, aqui você pode alugar um box\ne guardar todos os seus itens.\nFicam na garagem, mas também tem nos andares.\nOu seja, tem tralha?\nAluga um Lugo Box.\nSe você trabalha de home office\nou quer estudar em paz,\naqui é o coworking.\nE tudo é por reconhecimento facial.\nMas é óbvio, tem gente trabalhando,\nentão eu não vou perturbar.\nO mercado é fenomenal.\nEle é gigante e tem tudo\nque você pode imaginar.\nTodos os suplementos.\nAi, tô fazendo uma comida.\nfaltou alguma coisa, tem tudo aqui e é de auto serviço. Então você faz as suas compras, já paga e volta pra cá.\nAqui é o bicicletário e tem a parte mais legal. Todas essas bikes aqui, que estão numeradas,\nelas são disponibilizadas pelo condomínio pra gente sem custo. Então, eu quero dar um rolê de bike,\npassear no Eixão no domingo, é só alinhar no concierge, retirar a bike, você pode usar por um dia,\né só devolver no dia seguinte. Se você gosta, sua roupa sempre limpinha, sempre quentinha,\nsem ter que se preocupar, tem lavanderia\nde autosserviço da Omo.\nSabão incluso, amaciante incluso.\nObviamente, você paga pelo serviço, mas\no que é um facilitador é... Ah, você não\ntem guarda-chuva? Esqueceu seu guarda-chuva?\nÉ só vir aqui pegar. Ah, imagina, custa\nquanto? É de graça, por 24\nhoras. Na hora que o entregador\nchegar, sua encomenda vai ser recebida, porque\ntem smart locker. Ele só escaneia aqui\npra depositar e sua encomenda fica guardada\nnum desses. Obviamente, não ia\nfaltar, gente, o mais queridinho, mais desejado\nem todos os condomínios, que é o carregador para carro elétrico.\nE aí, o que vocês acharam?\nSe você..."
    }
   ],
@@ -6256,12 +6316,39 @@
   "desc": "Caso real de conflito com construtora como alerta educativo + contraposicionamento.",
   "slug": "materia-jornalistica-de-caso-polemico-como",
   "formato": {
+   "estrutura": "1. **[HOOK JORNALÍSTICO]** badge \"NOTÍCIA\" + headline dramática do caso. → *slot: a manchete.*\n2. **[O CASO]** a história real e revoltante (com depoimento). → *slot: o caso.*\n3. **[A ARMADILHA]** o aprofundamento (o que agrava, a injustiça). → *slot: a injustiça.*\n4. **[A PROVA]** os detalhes técnicos/imagens que comprovam. → *slot: a prova.*\n5. **[POSICIONAMENTO DE MARCA]** a marca como quem alerta/protege. → *slot: a marca.*\n\n- **Fixo:** formato editorial (badge+headline); caso real revoltante; prova visual/técnica; posicionamento de marca; tom de reportagem.\n- **Variável:** o caso, os detalhes, a marca.",
    "hook": "Relato real de pesadelo com construtora: **\"Era 2012 quando comprei esse apê na planta. O corretor falou: 'eu não vendo apartamentos, vendo sonhos'. Neguei duas vistorias por defeitos, a construtora me processou, 12 anos de julgamento — e me obrigaram a receber o apê nesse estado.\"** O drama real prende e gera indignação.",
    "blocos": "- **A montagem do drama (0-15s):** a compra, a promessa do corretor, o começo do problema.\n- **A escalada do conflito (15-40s):** vistorias negadas, processo, 12 anos, o estado do imóvel.\n- **A lição / posicionamento (fim):** o que isso ensina (vistoria, contrato, alienação fiduciária) — e como o anunciante protege disso.",
    "porque": "- **Drama real = retenção + indignação** (o espectador quer saber como termina).\n- **Serve de alerta educativo** (vistoria, contrato) e posiciona o anunciante como o oposto do vilão.\n- **A frase do corretor** (\"vendo sonhos\") vira símbolo do que NÃO fazer — contraposicionamento.",
    "aplicar": "- Corretor/advogado que protege o comprador pode usar casos reais (anonimizados) como alerta.\n- Cada caso ensina uma proteção (vistoria, cláusula, distrato).\n- ⚠️ Cuidado jurídico: não nomear/expor empresas sem base; usar caso genérico ou anonimizado.",
    "guia": "- O caso tem que ser real ou claramente ilustrativo (nunca difamar empresa nomeada).\n- Extrair a lição prática (o que o comprador deve fazer pra não passar por isso).\n- Posicionar o anunciante como a proteção contra aquilo.\n- Tom de alerta, não sensacionalismo barato.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário de proteção ao comprador. Crie um anúncio \"caso polêmico como alerta\":\n1) MONTAGEM DO DRAMA (0-15s): a compra + a promessa + o início do problema; 2) ESCALADA do conflito; 3) LIÇÃO prática + como o anunciante protege disso.\nMEUS DADOS: O caso (real/anonimizado): [ ]. A lição/proteção: [ ]. Como me posiciono como a solução: [ ].\nTOM: alerta, indignação controlada. Nunca difamar empresa nomeada. Lição prática. Contraposicionamento.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) a lição/proteção; 5) CTA + nota jurídica de cuidado.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo de marca que educa. Crie o roteiro de \"matéria jornalística de caso polêmico\" (história-alerta embrulhada como notícia), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK JORNALÍSTICO (0-8s): badge \"NOTÍCIA\" + headline dramática do caso (\"O sonho virou pesadelo: [caso]\")\n2. O CASO: a história real e revoltante, com depoimento em 1ª pessoa\n3. A ARMADILHA: o aprofundamento (o que agrava — o jurídico, o financeiro)\n4. A PROVA: os detalhes técnicos/imagens que comprovam\n5. POSICIONAMENTO DE MARCA: sua marca como quem alerta/protege/informa\n\n**Meus dados:**\n- Marca + @: [NOME + @]\n- O caso (real e documentado): [A HISTÓRIA-ALERTA]\n- O depoente + o relato: [QUEM CONTA]\n- A armadilha/agravante: [O QUE PIORA]\n- A prova (técnica/visual): [OS DETALHES QUE COMPROVAM]\n\n**Regras de tom:**\n- Embale como NOTÍCIA (badge + headline) — a credibilidade de imprensa é a estratégia\n- O caso precisa ser real e documentado (risco jurídico de difamar)\n- A prova (detalhes técnicos/imagens) valida a denúncia\n- Feche posicionando a marca como quem alerta/protege\n\n**Entregue:**\n1. O roteiro (manchete → caso → armadilha → prova → marca)\n2. A headline de notícia + o badge\n3. O relato do depoente\n4. Como mostrar a prova\n5. O posicionamento de marca de fecho",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade + alcance** de marca (gestão, jurídico, consultoria imobiliária). Educa sobre riscos e posiciona você como quem protege.\n- Ideal pra alertar sobre armadilhas do mercado (defeitos, cláusulas, golpes) de forma que prende e viraliza."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O CASO]:** real e documentado. A indignação vem da injustiça verdadeira — e a documentação te protege juridicamente.\n- **[A PROVA]:** os detalhes técnicos/imagens que validam a denúncia. Sem prova, é fofoca; com prova, é reportagem.\n- **[O POSICIONAMENTO]:** feche mostrando que sua marca é quem alerta/protege — é o objetivo do conteúdo."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se soar como anúncio:\n\n> \"Embale como notícia (badge NOTÍCIA + headline dramática). A credibilidade de imprensa é a estratégia — o cérebro processa como reportagem, não propaganda.\"\n\nSe faltar prova:\n\n> \"Adicione os detalhes técnicos/imagens que comprovam (o defeito, o documento). Sem prova, é boato; a prova valida a denúncia e protege juridicamente.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Formato de anúncio comum** — a embalagem de notícia é o diferencial.\n2. **Caso sem prova** — os detalhes técnicos validam a denúncia.\n3. **Difamar sem base** — o caso precisa ser real e documentado (risco jurídico).\n4. **Esquecer o posicionamento** — o alerta serve pra posicionar a marca."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Formato editorial: badge NOTÍCIA vermelho, headline, watermark. Depoimento em janela + b-roll da prova.\n- Tom de reportagem, sério. Feche com o posicionamento de marca."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Conteúdo de marca de alto engajamento — a indignação viraliza e a credibilidade de imprensa retém. Educa o público sobre riscos e posiciona a marca como especialista/protetora. Sempre com caso real e documentado (proteção jurídica)."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -6271,7 +6358,40 @@
     "link": "https://www.facebook.com/ads/library/?id=2386553965158754",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"O sonho virou pesadelo\" — empacotar um caso real e revoltante como matéria jornalística empresta credibilidade de imprensa a uma história-alerta que prende e educa."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Vídeo do apê com defeitos + badge \"NOTÍCIA\" + headline \"O Sonho virou pesadelo: apartamento com falhas estruturais fica 12 anos na Justiça\" + marca | \"Era 2012 quando comprei esse apê na planta. O corretor falou: eu não vendo apartamentos, vendo sonhos\" | Hook jornalístico: badge NOTÍCIA + headline dramática (credibilidade de imprensa) + a frase irônica |\n| 8-40s | Depoimento + b-roll dos defeitos | \"Neguei a entrega 2x (memorial não cumprido, hidráulico/elétrico diferentes). A construtora me processou; entrega judicial; 12 anos de julgamento\" | O caso — a injustiça que revolta |\n| 40-90s | Mais defeitos, close | \"Fui obrigado a receber um apê nessa condição. E detalhe: pelo financiamento não posso vender nem alugar; sou obrigado a morar nisso\" | O aprofundamento — a armadilha jurídica |\n| 90-114s | Piso sem contrapiso | \"Nem contrapiso tem, foi direto na argamassa — não tem outra justificativa\" | O detalhe técnico chocante (prova) + gancho |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O formato de NOTÍCIA** (badge vermelho + headline) empresta credibilidade de imprensa — o cérebro processa como reportagem, não como anúncio.\n- **O caso real e revoltante** (12 anos na justiça, obrigado a morar num apê defeituoso) prende pela indignação.\n- **A frase do corretor** (\"eu vendo sonhos\") é irônica e memorável — vira o símbolo do problema.\n- **Os detalhes técnicos** (sem contrapiso, direto na argamassa) são a prova que valida a denúncia.\n- **Educa sobre os riscos** e posiciona a marca (Condomínio Interativo) como quem alerta/protege."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Formato editorial** (badge NOTÍCIA vermelho, headline, watermark da marca) — a \"embalagem de notícia\" é a estratégia.\n- **Depoimento em janela + b-roll dos defeitos** — a prova visual acompanha o relato.\n- **Tom de reportagem** — sério, documental."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Depoimento em primeira pessoa** (a vítima conta) — a autenticidade da indignação conduz.\n- Ritmo de reportagem: manchete → caso → agravante → prova."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Credibilidade de imprensa** — o formato notícia legitima o conteúdo.\n2. **Indignação** — a injustiça (12 anos, apê defeituoso) gera comentário e compartilhamento.\n3. **Medo / alerta** — \"pode acontecer com você\" ativa a atenção de quem compra imóvel.\n4. **Prova** — os defeitos e os detalhes técnicos validam a denúncia.\n5. **Autoridade de marca** — quem traz o alerta se posiciona como protetor/especialista."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Formato de anúncio comum — a \"embalagem de notícia\" (badge + headline) é o que dá credibilidade.\n- ❌ Caso sem prova — os detalhes técnicos/imagens são o que validam a denúncia.\n- ❌ Difamar sem base — o caso precisa ser real e documentado (risco jurídico).\n- ❌ Esquecer o posicionamento de marca — o alerta serve pra posicionar quem informa."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Embale como notícia:** badge \"NOTÍCIA\" + headline dramática do caso.\n2. **Traga o caso real** com depoimento em 1ª pessoa (a indignação autêntica).\n3. **Aprofunde a armadilha** (o que agrava — o jurídico, o financeiro).\n4. **Mostre a prova** (os defeitos, os detalhes técnicos) — valida a denúncia.\n5. **Posicione sua marca** como quem alerta/protege. Caso sempre real e documentado."
+     }
+    ],
     "transcricao": "Era 2012 quando eu comprei esse apartamento na planta.\nNa época o corretor falou, eu não vendo apartamentos, eu vendo sonhos.\nPois é, duas historias, eu vi desuoco, memorial descritivo estava sendo cumprido,\nprojeto estava levemente diferente, hidráulico, elétrico.\nEu neguei duas historias de recebimento.\nO que a construtora fez?\nme processou, entrega judicial, 12 anos de julgamento, e a construtora conseguiu o que queria.\nEntregou um apartamento que eles alegavam que a negativa era injustificada.\nPois é, primeira vez em muito tempo que eu estou vindo aqui.\nOlha só o Estado.\nsim, o justificativo era infundado\nnão receber duas historias\neu tive que aguardar 12 anos\npara ser obrigado a receber um apartamento nessa condição\ndetalhe, dado o meu financiamento\nnão posso vender, não posso alugar\neu sou obrigado a morar nisso daqui\nse eu modificasse\napartamento, detonasse ele\ncomo alienação fiduciária\neu ia ser exigido\nde reparar o imóvel\nse por acaso ele fosse\na leilão, mas como é\npor conta da construtora\npouco importa\neu acho que aqui não tem contrapiso não\nfoi direto na argamassa\nnão tem outra justificativa\nTem."
    }
   ],
