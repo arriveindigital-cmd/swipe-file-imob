@@ -453,12 +453,39 @@
   "desc": "Cada spec do imóvel é revelado como cliffhanger, sempre puxando pro próximo — retenção construída.",
   "slug": "teaser-cliffhanger",
   "formato": {
+   "estrutura": "1. **[HOOK-LOOP + ÂNCORA]** preço/spec-choque + pergunta que abre um loop (\"tão vendo a cortina d'água?\"). → *slot: o número + o 1º mistério.*\n2. **[PROMESSA]** \"preparem-se / a grande novidade é…\" antes de cada destaque. → *slot: os teasers.*\n3. **[CLIFFHANGER \"IMAGINA\"]** pedir pro espectador imaginar algo que o vídeo não mostra (à noite, na festa). → *slot: o loop que não fecha.*\n4. **[REVEAL-SURPRESA]** guardar 1 detalhe inesperado pro meio (a garagem-vitrine). → *slot: o uau.*\n5. **[RAJADA DE SPECS + \"GOSTOU?\"]** acumula desejo e fecha com CTA aberto.\n\n- **Fixo:** nunca entregar tudo de cara; segmentar os uaus; loops com pergunta; preço no hook.\n- **Variável:** o imóvel, os destaques, o preço.",
    "hook": "Pergunta-isca que já mostra o \"impossível\": **\"Vocês estão conseguindo enxergar a cortina d'água ali no Living?\"** + promessa de escalada: \"preparem-se, porque hoje a casa tem 8 suítes…\". Abre um loop que só fecha vendo até o fim.",
    "blocos": "- **Isca visual + promessa (0-5s):** um detalhe absurdo já na cara + anúncio do que vem (\"hoje a casa tem…\").\n- **Revelação em camadas (5-40s):** cada spec é apresentado como novidade (\"agora a grande novidade…\"), sempre puxando pro próximo (telão, teto de vidro que vira vitrine de carro, adega, sauna, automação).\n- **Enumeração final + CTA (fim):** lista os itens de peso e fecha \"gostou?\" — convida ao comentário.",
    "porque": "- **Cada bloco é um mini-cliffhanger** (\"agora presta atenção nisso\") — retenção construída de propósito.\n- **Detalhes inusitados** (teto de vidro pra expor o carro esportivo) são o que compartilha, não o \"8 suítes\".\n- **Tom de descoberta** (\"vocês conseguem imaginar?\") coloca o espectador dentro da casa.",
    "aplicar": "- Escolha os 3-4 detalhes MAIS inusitados do imóvel e apresente cada um como \"a grande novidade\".\n- Sempre puxe pro próximo (\"mas o melhor tá lá em cima\").\n- Versão média-renda: o \"detalhe\" pode ser uma planta inteligente, uma vista, um lazer específico.",
    "guia": "- Nunca entregue tudo de uma vez — um detalhe forte por bloco.\n- Frases de transição são o segredo: \"agora presta atenção\", \"a grande novidade é\".\n- Feche pedindo opinião (\"gostou?\") — comentário alimenta o alcance.",
-   "prompt": "```\nVocê é roteirista de tour imobiliário viral. Crie um roteiro \"teaser/cliffhanger\" de imóvel:\n1) ISCA (0-5s): 1 detalhe absurdo já visível + promessa (\"preparem-se, hoje a casa tem…\"); 2) REVELAÇÃO EM CAMADAS: 3-4 detalhes inusitados, cada um apresentado como \"a grande novidade\" e puxando pro próximo; 3) ENUMERAÇÃO final dos specs de peso + \"gostou?\".\nMEUS DADOS: Imóvel + localização: [ ]. Os 3-4 detalhes mais inusitados: [ ]. Specs de peso: [ ].\nTOM: descoberta, \"vocês conseguem imaginar?\". Um detalhe por bloco, sempre puxando o próximo.\nENTREGUE: 1) roteiro bloco a bloco com frases de transição; 2) textos de tela; 3) legenda; 4) 5 hashtags.\n```"
+   "prompt": "Você é um roteirista especialista em retenção para tours de imóveis. Crie um roteiro de \"tour teaser/cliffhanger\" que segura o espectador até o fim com loops abertos, seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK-LOOP + ÂNCORA (0-4s): preço ou spec de choque (na legenda) + uma pergunta que abre um loop (\"vocês estão vendo [detalhe intrigante]?\")\n2. PROMESSA (4-15s): \"preparem-se / a grande novidade é…\" — sinalize que o melhor está por vir, com o dado de exclusividade (condomínio, localização)\n3. CLIFFHANGER \"IMAGINA\" (meio): peça pro espectador IMAGINAR algo que o vídeo não mostra (\"imaginem como fica à noite / na festa / com a família\")\n4. REVEAL-SURPRESA (meio): guarde 1 detalhe inesperado pra recompensar quem ficou (um ambiente ou solução fora da curva)\n5. RAJADA DE SPECS + \"GOSTOU?\" (fim): liste os diferenciais em ritmo rápido e feche com CTA aberto\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Imóvel + preço + localização/condomínio: [DADOS]\n- O detalhe intrigante do hook: [O QUE PERGUNTAR NO 1º SEGUNDO]\n- A \"grande novidade\" a teaser: [O DESTAQUE PRINCIPAL]\n- O reveal-surpresa guardado pro meio: [O DETALHE INESPERADO]\n- Specs pra rajada final: [LISTA]\n\n**Regras de tom:**\n- NUNCA entregue o melhor ambiente logo no início — segmente os \"uaus\", cada um puxando o próximo\n- Use perguntas que abrem loop (\"tão vendo?\", \"conseguem imaginar?\") — é o motor da retenção\n- Preço/exclusividade sempre presentes (âncora + status)\n- Conduza como anfitriã revelando surpresas, não como vendedora empurrando\n\n**Entregue:**\n1. Roteiro com marcação de tempo e o que narrar/mostrar em cada bloco\n2. A pergunta-loop do hook e o cliffhanger \"imagina\" (as duas frases que mais seguram)\n3. Qual ambiente guardar como reveal-surpresa e por quê\n4. Sugestão de b-roll (ordem dos ambientes pra manter os loops)\n5. 5 hashtags + legenda com o preço/spec de choque",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance + desejo** em tours de imóvel de destaque. A mecânica de loop faz o tour reter muito mais que um passeio linear.\n- Melhor com imóveis que têm pelo menos 1 diferencial \"uau\" (vista, automação, um ambiente fora da curva). Sem um clímax pra teaser, o formato perde a graça."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[DETALHE INTRIGANTE DO HOOK]:** escolha algo visualmente curioso que dê pra perguntar \"tão vendo isso?\" no 1º segundo. É a isca.\n- **[REVEAL-SURPRESA]:** guarde o detalhe mais inesperado (não necessariamente o mais caro) pro meio. É o que recompensa quem resistiu ao loop.\n- **[CLIFFHANGER \"IMAGINA\"]:** o loop mais forte é o que o vídeo NÃO mostra — peça pra imaginar à noite, na festa, com a família. A imaginação prende mais que a imagem."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o tour vier linear/descritivo:\n\n> \"Reescreva segmentando os destaques em 'novidades'. Cada ambiente tem que abrir um loop ('a próxima vai te surpreender') antes de revelar o seguinte.\"\n\nSe entregar tudo no começo:\n\n> \"Reorganize: guarde o melhor ambiente pro meio como reveal-surpresa. O hook deve intrigar, não mostrar o ápice.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Mostrar o ápice no início** — sem nada guardado, não há motivo pra ficar.\n2. **Tour sem perguntas** — o loop é a mecânica; sem \"tão vendo?\" / \"imaginem?\" vira passeio comum.\n3. **Esconder o preço** — o número é âncora e gatilho de compartilhamento.\n4. **Fechar seco** — sem \"gostou?\" some o CTA de baixo atrito que gera comentário e DM."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- B-roll cinematográfico, de preferência em golden hour. Conduza caminhando, como anfitriã.\n- Ordene os ambientes pra manter os loops: hook intrigante → promessa → cliffhanger \"imagina\" → reveal-surpresa → rajada.\n- Legenda de preço/spec no hook. Narração entusiasmada, entonação de quem revela surpresa."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Formato de alta retenção: os loops abertos seguram até o \"gostou?\". O compartilhamento vem do preço-âncora (\"olha o valor dessa casa\") e do detalhe-surpresa (\"viu a garagem de vidro?\"). Responda os \"quanto custa a manutenção disso?\" nos comentários — vira autoridade e mais alcance."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -468,7 +495,40 @@
     "link": "https://tiktok.com/@monicapoplawskioficial/video/7486889269840153911",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um tour de mansão que não mostra tudo de cara — cada ambiente abre um loop (\"imagina à noite?\", \"a grande novidade é…\") que só fecha se você continuar assistindo."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Corretora na varanda da mansão; legenda \"79 milhões\" | \"Vocês estão conseguindo enxergar a cortina d'água ali no living?\" | Hook duplo: preço-choque na legenda + pergunta que abre o 1º loop (a cortina d'água) |\n| 4-15s | Área externa, piscina, golden hour | \"Preparem-se, porque hoje a casa tem 8 suítes, esquina no Tamboré II, o condomínio mais desejado\" | Setup + promessa (\"preparem-se\") — teaser do que vem, sinaliza que o melhor está por vir |\n| 15-30s | Telão externo | \"A grande novidade: um telão na área externa. Olha a definição de dia. Vocês conseguem imaginar como vai ficar à noite?\" | Cliffhanger explícito — pede pra IMAGINAR algo que o vídeo não mostra (loop que não fecha) |\n| 30-45s | Piso de vidro sobre a garagem, uma Kawasaki visível embaixo | \"Esse teto de vidro transforma a garagem numa vitrine — coloca seu esportivo e ele fica visível no churrasco\" | Reveal-surpresa: o detalhe inesperado que recompensa quem ficou |\n| 45-65s | Cozinha, lounge, ambientes internos | \"Adega, churrasqueira, sauna, fotovoltaica, gerador, cisterna, automação completa — tudo no melhor condomínio\" | Rajada de specs — acumula desejo em ritmo acelerado |\n| 65-75s | Ela caminhando, sorrindo | \"Gostou?\" | Fecho-CTA aberto — convida comentário/DM sem pressão |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A pergunta é a ferramenta central:** \"conseguem enxergar?\", \"conseguem imaginar como fica à noite?\", \"gostou?\" — cada uma abre um loop na cabeça do espectador que só fecha continuando (ou comentando).\n- **\"A grande novidade\" / \"preparem-se\"** funcionam como sinalizadores de clímax — o cérebro fica esperando o payoff e não sai.\n- **Preço-âncora no hook** (79 milhões) calibra a escala e já é motivo de compartilhamento.\n- **Nunca entrega tudo de uma vez:** os \"uaus\" são segmentados (cortina d'água → telão → garagem-vitrine → specs), cada um puxando o próximo."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Mansão de altíssimo padrão** (piscina de borda, paredes de vidro, telão externo, piso de vidro) — o desejo é carregado pela própria imagem.\n- **Corretora de terno bege caminhando** com postura de dona, conduzindo como anfitriã — não vendedora.\n- **B-roll cinematográfico em golden hour**, cortes suaves acompanhando o passo dela.\n- **Legenda de preço no hook** é a única intervenção gráfica — o resto é a arquitetura falando."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração entusiasmada** guiando o tour, com entonação de quem revela surpresas.\n- Ritmo de revelação: cada ambiente ganha alguns segundos e um gancho pro próximo — nunca demora o bastante pra entediar."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Loop aberto / curiosidade** — o motor do cliffhanger. Perguntas sem resposta imediata prendem até o fim.\n2. **Ancoragem de preço** (79 mi) recalibra a percepção e vira moeda de compartilhamento.\n3. **Novidade** — \"a grande novidade\" ativa a busca por payoff.\n4. **Desejo aspiracional** — cada spec de luxo alimenta a fantasia.\n5. **Exclusividade** — \"o condomínio mais desejado\" empresta status ao imóvel e a quem o vende."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Mostrar o melhor ambiente logo no início — fura o cliffhanger e derruba a retenção.\n- ❌ Tour linear sem loops — sem \"imagina…\" / \"a novidade é…\" vira só um passeio comum.\n- ❌ Esconder o preço — o número é parte do gancho e do compartilhamento.\n- ❌ Fechar sem CTA — \"gostou?\" é o convite de baixo atrito que gera comentário/DM."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com preço/spec-choque + uma pergunta-loop** (\"tão vendo a cortina d'água ali?\") — fisga curiosidade no 1º segundo.\n2. **Anuncie cada destaque como \"novidade\":** \"preparem-se, a grande novidade é…\" antes de revelar.\n3. **Crie um loop que não fecha no vídeo:** peça pro espectador IMAGINAR algo (à noite, com a família, na festa).\n4. **Guarde 1 reveal-surpresa pro meio** (o detalhe inesperado que recompensa quem ficou — aqui, a garagem-vitrine).\n5. **Feche com rajada de specs + \"gostou?\"** — acumula desejo e abre o CTA sem pressão."
+     }
+    ],
     "transcricao": "Vocês estão conseguindo enxergar a cortina d'água ali no living?\nPreparem-se, porque hoje a casa tem oito suítes e fica numa esquina\nno condomínio Tamboré II em Alphaville, que é o condomínio mais desejado aqui.\nAgora, a grande novidade da casa, a gente tem aqui agora na área externa um telão.\nOlha só a definição desse telão durante o dia.\nVocês conseguem imaginar, então, como é que vai ficar essa área aqui à noite?\nDe qualquer lugar da casa que você tiver aqui,\nvocê consegue enxergar o telão.\nVamos mostrar um pouquinho da área de lazer?\nQue é uma área de lazer incrível.\nE dá uma olhada nisso aqui.\nEsse teto em vidro transforma a garagem,\nque está aqui na parte de baixo, em uma grande vitrine.\nAli a gente tem uma kawazaki,\nmas você pode colocar ali o seu carro esportivo\ne ele vai ficar visível para todas as visitas\nquando a gente estiver aqui curtindo o churrasco.\nAdega, parte de churrasqueira,\narmários bom tempo, área de lounge, sauna, fotovoltaica, gerador, cisterna, automação completa,\ntudo no melhor condomínio de Alphaville.\nGostou?"
    }
   ],
@@ -531,12 +591,39 @@
   "desc": "Provocação ao cético + prova de velocidade de venda ('vendida em menos de um mês').",
   "slug": "enquete-polemica",
   "formato": {
+   "estrutura": "1. **[HOOK-RESULTADO]** legenda com o resultado (\"Vendida em Menos de X Dias!\") + fala provocando (\"eu falei que ia vender rápido?\"). → *slot: o resultado + a provocação.*\n2. **[PROVOCAÇÃO AO CÉTICO]** \"pra quem duvidava…\" + o número real de tempo. → *slot: o tempo de venda.*\n3. **[RECORDE/DIFERENCIAL]** curiosidade que ancora autoridade (mais cara, acima do pedido). → *slot: o diferencial.*\n4. **[CONVICÇÃO + EMOÇÃO]** fé no produto/região, comemoração genuína. → *slot: a emoção.*\n5. **[FECHO DE DEMANDA]** \"bora pra próxima\" — sinaliza fluxo constante.\n\n- **Fixo:** público-alvo é o PROPRIETÁRIO; tempo de venda real na capa; comemoração genuína; provocação leve.\n- **Variável:** o imóvel, o tempo, o recorde.",
    "hook": "Provocação a quem duvidava + revelação de resultado: **\"pra quem duvidava — vendida em menos de um mês. E é a casa mais cara já vendida nesse condomínio.\"** Mistura FOMO (perdeu a oportunidade) com prova social de velocidade.",
    "blocos": "- **Provocação (0-5s):** \"pra quem duvidava, quanto tempo?\" — chama o cético.\n- **Revelação do resultado (5-20s):** vendida em <1 mês, recorde do condomínio.\n- **Comemoração + gancho (fim):** \"bora pra próxima\" — energia de quem tem demanda, convida o comentário.",
    "porque": "- **Prova de velocidade** (\"menos de um mês\") é o argumento mais forte pra captar novos imóveis/proprietários.\n- **Provocar o cético** gera comentário de defesa e de dúvida — combustível de alcance.\n- **Recorde** (\"mais cara já vendida\") ancora autoridade na região.",
    "aplicar": "- Todo fechamento rápido vira conteúdo: \"vendido em X dias — quem disse que não vendia?\".\n- Versão enquete: mostrar o imóvel ANTES e perguntar \"vende em quanto tempo?\", depois revelar.\n- Regra: número de tempo REAL e verificável.",
    "guia": "- O tempo de venda é a estrela — coloque na capa.\n- Comemoração genuína > encenação; a energia vende a demanda.\n- Feche com \"bora pra próxima\" pra sinalizar fluxo constante de negócios.",
-   "prompt": "```\nVocê é roteirista de conteúdo imobiliário de prova social. Crie um vídeo \"enquete/polêmica + prova de venda\":\n1) PROVOCAÇÃO (0-5s): chama o cético (\"pra quem duvidava…\"); 2) REVELAÇÃO: vendido em [TEMPO] / recorde de [ ]; 3) COMEMORAÇÃO + \"bora pra próxima\".\nMEUS DADOS: Imóvel: [ ]. Tempo real de venda: [ ]. Recorde/diferencial: [ ]. Público (proprietário/comprador): [ ].\nTOM: energia de demanda, provocação leve ao cético. Número de tempo REAL na capa.\nENTREGUE: 1) roteiro; 2) texto de capa; 3) legenda; 4) 5 hashtags; 5) resposta pro comentário cético.\n```"
+   "prompt": "Você é um roteirista especialista em prova social imobiliária para captação de imóveis. Crie um roteiro de vídeo \"provocação ao cético + prova de venda rápida\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK (0-4s): legenda fixa com o resultado (\"Vendida em Menos de [X] Dias!\") + fala provocando (\"mas eu falei que ia vender rápido essa casa?\")\n2. PROVOCAÇÃO AO CÉTICO (4-10s): \"pra quem duvidava…\" + o número real de tempo de venda\n3. RECORDE/DIFERENCIAL (10-18s): uma curiosidade que ancora autoridade (\"a mais cara já vendida no condomínio\", \"acima do preço pedido\")\n4. CONVICÇÃO + EMOÇÃO (18-25s): fala de fé no produto/região, comemoração genuína\n5. FECHO DE DEMANDA (25-30s): \"bora pra próxima\" — sinaliza fluxo constante de negócios\n\n**Meus dados:**\n- Corretor(a)/equipe + @: [NOME + @]\n- Imóvel vendido: [TIPO + condomínio/região]\n- Tempo real de venda: [X DIAS — verificável]\n- Recorde/diferencial da venda: [EX.: mais cara do condomínio, acima do pedido, no open house]\n- Público-alvo do vídeo: [PROPRIETÁRIO que quer vender rápido]\n\n**Regras de tom:**\n- O público-alvo é o PROPRIETÁRIO (quem tem imóvel pra vender), não o comprador\n- Número de tempo REAL e verificável — nunca infle (destrói a captação)\n- Comemoração genuína > encenação; a energia real é o que vende a demanda\n- A provocação (\"pra quem duvidava\") é leve, confiante — não arrogante\n\n**Entregue:**\n1. Roteiro em diálogo (funciona melhor com dupla/equipe)\n2. O texto de capa/legenda fixa com o tempo de venda\n3. A frase de provocação e a frase de fecho\n4. 5 hashtags\n5. Resposta pronta pro comentário cético (\"foi sorte / tava barato\") com a prova",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **captar imóveis / atrair proprietários** (base). É o formato de prova social mais poderoso: mostra resultado real e provoca quem duvida, tudo sem parecer anúncio.\n- Todo fechamento rápido é matéria-prima. Quanto menor o tempo de venda, mais forte o vídeo."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[TEMPO DE VENDA]:** é a estrela. Precisa ser real e verificável — proprietários e concorrentes checam. Coloque na capa.\n- **[RECORDE/DIFERENCIAL]:** um dado que eleva a venda de \"mais uma\" pra \"prova de autoridade\" (recorde do condomínio, acima do pedido, vendida no open house).\n- **[PÚBLICO]:** lembre que você está falando com o PROPRIETÁRIO (\"seu imóvel podia estar vendido assim\"), não com o comprador."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier focado no comprador:\n\n> \"Redirecione pro proprietário. A mensagem é 'eu vendo rápido, me dá o seu imóvel', não 'compre este'. Reescreva nessa chave.\"\n\nSe a provocação vier arrogante:\n\n> \"Deixe a provocação leve e confiante ('pra quem duvidava'), não debochada. É segurança, não deboche.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Inflar o tempo de venda** — número furado destrói a captação e a reputação.\n2. **Encenar a comemoração** — energia falsa é sentida na hora. Grave no calor real do fechamento.\n3. **Focar no comprador** — o alvo é quem tem imóvel pra vender.\n4. **Esquecer a legenda do tempo na capa** — é o que para o scroll do proprietário."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Grave no próprio imóvel vendido — o troféu é o cenário.\n- Funciona melhor com dupla/equipe comemorando (diálogo espontâneo).\n- Legenda fixa com o resultado (\"Vendida em Menos de 30 Dias!\"). Curto (~30s) mantém a densidade.\n- Feche com \"bora pra próxima\" pra comunicar fluxo constante."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto engajamento pela provocação (o cético comenta, o convicto também). O ganho real é captação: proprietários com imóvel parado veem a prova e chamam no direct. Fixe nos comentários o print/prova pra responder o \"foi sorte/tava barato\" — é onde a autoridade fecha."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -546,7 +633,40 @@
     "link": "https://tiktok.com/@feltnegociosimobiliarios/video/7624578378577759496",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Uma comemoração de venda-relâmpago que provoca quem duvidava — a prova de \"vendida em menos de 30 dias\" é o melhor anúncio de captação que existe, sem parecer anúncio."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Casa de alto padrão, piscina de praia; legenda fixa \"Vendida em Menos de 30 Dias!\" | \"Mas eu falei que a gente ia vender rápido essa casa aqui?\" | Hook: a legenda entrega o resultado + a fala provoca (\"eu falei…\") |\n| 4-10s | Dupla de corretores à beira da piscina | \"Pra quem duvidava, há quanto tempo? Deu do open house em menos de um mês\" | Provocação ao cético + número real (menos de 30 dias) |\n| 10-18s | Close nos dois | \"Você sabe uma curiosidade? Essa é a casa mais cara já vendida nesse condomínio\" | Recorde — ancora autoridade na região |\n| 18-25s | Caminhando, comemorando | \"Eu sempre acreditei no Itaí. E agora mais um sonho realizado\" | Prova de convicção + emoção genuína (fé no produto/região) |\n| 25-28s | Aperto de mão / celebração | \"Bora pra próxima. Parabéns pra nós\" | Fecho de energia de demanda — sinaliza fluxo constante de negócios |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A provocação é o gancho:** \"pra quem duvidava\" chama o cético pra dentro do vídeo — quem discorda comenta, quem concorda também. Os dois engajam.\n- **O número de tempo é a estrela** (\"menos de um mês\") — é o argumento mais forte pra convencer um proprietário a te dar o imóvel.\n- **O recorde** (\"mais cara já vendida no condomínio\") transforma uma venda em prova de autoridade regional.\n- **\"Bora pra próxima\"** comunica que isso é rotina, não sorte — sinaliza demanda constante."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Cenário do próprio imóvel vendido** (mansão, piscina de borda infinita) — o troféu é o pano de fundo.\n- **Dupla de corretores comemorando** — a energia real de quem acabou de fechar é o que vende (encenação mataria).\n- **Legenda fixa com o resultado** (\"Vendida em Menos de 30 Dias!\") — quem assiste sem som já pega a mensagem central."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Diálogo comemorativo espontâneo**, ritmo rápido de conversa entre os dois.\n- Sem trilha dominante — a emoção genuína conduz. O curto (28s) mantém a densidade alta."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Prova social de velocidade** — \"vendida em <30 dias\" é irresistível pra quem tem imóvel parado.\n2. **Provocação ao cético** — chamar quem duvidava gera comentário de defesa e de dúvida (combustível de alcance).\n3. **Autoridade por recorde** — \"a mais cara já vendida\" ancora status na região.\n4. **FOMO do proprietário** — quem tem imóvel encalhado pensa \"por que o meu não vende assim?\".\n5. **Energia de demanda** — a comemoração comunica fluxo, o que atrai mais captações."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Inventar/inflar o tempo de venda — proprietários e concorrentes checam; um número furado destrói a captação.\n- ❌ Encenar a comemoração — a energia falsa é sentida; a emoção real é o que vende.\n- ❌ Focar no comprador — o público-alvo aqui é o PROPRIETÁRIO que quer vender rápido.\n- ❌ Esquecer a legenda do tempo na capa — é a informação que para o scroll."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Todo fechamento rápido vira conteúdo:** guarde o tempo de venda (dias) como a estrela.\n2. **Abra provocando o cético:** \"eu falei que ia vender rápido?\" / \"pra quem duvidava…\".\n3. **Crave o número real** de tempo + um diferencial (recorde do condomínio, acima do preço pedido).\n4. **Grave no próprio imóvel vendido**, com comemoração genuína (melhor com a dupla/equipe).\n5. **Feche com \"bora pra próxima\"** e legenda de resultado na capa. Responda o comentário cético com o print/prova."
+     }
+    ],
     "transcricao": "Mas eu falei que a gente ia vender rápido essa casa aqui?\nE olha, pra quem duvidava, há quanto tempo?\nDeu do open house em menos de um mês.\nMenos de um mês. Você sabe uma curiosidade legal?\nÉ.\nEssa é a casa mais cara já vendida nesse condomínio.\nTá vendo? Eu sempre acreditei no Itaíê. E agora, mais ainda.\nE agora, mais um sonho realizado. Mais um.\nBora pra próxima.\nBora.\nParabéns pra nós.\nAmém."
    }
   ],
