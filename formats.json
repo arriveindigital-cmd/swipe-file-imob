@@ -4916,12 +4916,39 @@
   "desc": "'Por dentro de uma mansão de R$X' — aspiração pura com preço na abertura.",
   "slug": "carrossel-video-por-dentro-de-uma",
   "formato": {
+   "estrutura": "1. **[HOOK: PREÇO ABSURDO]** \"todos os detalhes da casa de R$X\" (preço-choque no texto). → *slot: o preço.*\n2. **[TOUR DOS AMBIENTES DE LUXO]** o desejo, ambiente por ambiente. → *slot: o tour.*\n3. **[DETALHES-UAU]** os itens absurdos (o inesperado). → *slot: os uaus.*\n4. **[FECHO AÉREO]** a grandiosidade. → *slot: o fecho.*\n\n- **Fixo:** preço absurdo no hook; tour exaustivo de luxo; detalhes-uau; sem fala (imagem+preço).\n- **Variável:** a mansão, o preço, os detalhes.",
    "hook": "Preço-espetáculo + promessa de acesso total: **\"Por dentro de uma mansão de R$39 milhões — todos os detalhes.\"** O valor absurdo na abertura é a isca; a promessa de \"todos os detalhes\" garante retenção do tour inteiro.",
    "blocos": "- **Preço-espetáculo (0-3s):** \"mansão de R$X — vem ver por dentro\".\n- **Tour completo (3-...):** ambiente a ambiente, do impressionante ao mais impressionante, narrado.\n- **CTA/assinatura:** \"quer conhecer? Fale com a gente\" (fundo de funil de luxo).",
    "porque": "- **Aspiração pura = alcance massivo** (10M views): todo mundo quer ver a mansão, comprador ou não.\n- **Preço na abertura** filtra e fisga; \"todos os detalhes\" retém.\n- **Como anúncio, constrói marca de alto padrão** e capta o comprador raro no meio da audiência gigante.",
    "aplicar": "- Imóvel de destaque do portfólio como \"flagship\" de alcance e marca.\n- Preço na abertura + tour completo, ambiente a ambiente.\n- Serve pra topo de funil (marca/alcance) com CTA suave de fundo.",
    "guia": "- O imóvel precisa impressionar de verdade (o formato depende do \"uau\").\n- Preço na abertura; ordem crescente de impacto.\n- Narração que valoriza cada ambiente + música premium.\n- CTA suave (o objetivo é marca + captar o comprador raro).",
-   "prompt": "```\nVocê é roteirista de anúncio de alto padrão. Crie um \"por dentro de uma mansão de R$X\":\n1) PREÇO-ESPETÁCULO (0-3s): \"mansão de [PREÇO] — vem ver por dentro\"; 2) TOUR completo ambiente a ambiente (crescente) narrado; 3) CTA suave de fundo de funil.\nMEUS DADOS: Imóvel + preço: [ ]. Ambientes em ordem de impacto: [ ]. CTA: [ ].\nTOM: aspiração, \"todos os detalhes\". Preço na abertura. Narração que valoriza + música premium.\nENTREGUE: 1) roteiro do tour; 2) texto de capa; 3) copy; 4) 5 hashtags; 5) CTA.\n```"
+   "prompt": "Você é um diretor de conteúdo imobiliário de alto padrão. Monte a direção de um \"tour por dentro de uma mansão ancorado no preço\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. HOOK: PREÇO ABSURDO (0-4s): \"todos os detalhes da casa de R$[preço]\" (texto na tela)\n2. TOUR DOS AMBIENTES DE LUXO: o desejo, ambiente por ambiente\n3. DETALHES-UAU: os itens absurdos/inesperados (o carro na sala, uma solução única)\n4. FECHO AÉREO: a grandiosidade/escala\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- A mansão + o preço: [O IMÓVEL + R$X]\n- Os ambientes de luxo: [LISTE]\n- O detalhe-uau (o inesperado): [O QUE SURPREENDE]\n\n**Regras de tom:**\n- O preço absurdo no hook é o gancho (não esconda)\n- \"Todos os detalhes\" promete profundidade — entregue os uaus\n- Guarde um detalhe-surpresa pro pico de compartilhamento\n- Música épica, sem narração — a imagem + o preço carregam\n\n**Entregue:**\n1. O roteiro visual (hook com preço → tour → detalhe-uau → aérea)\n2. Sugestão de ordem dos ambientes (crescente até o uau)\n3. Qual detalhe guardar como surpresa\n4. Sugestão de música épica\n5. 5 hashtags + legenda",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance + autoridade de alto padrão**. O voyeurismo de luxo sai da bolha e posiciona você como quem transita nesse mercado.\n- Vale mesmo pra imóveis que você não vende diretamente — é conteúdo de alcance/branding."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O PREÇO]:** absurdo e no hook. É o gancho de curiosidade e compartilhamento.\n- **[OS UAUS]:** guarde o detalhe mais inesperado (o carro na sala, a solução única) pro pico de share.\n- **[A PRODUÇÃO]:** capriche — o formato é sobre o sublime; drone + interiores cinematográficos."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se esconder o preço:\n\n> \"Coloque o preço absurdo no hook ('todos os detalhes da casa de R$X'). O número é o gancho de curiosidade e o motivo do compartilhamento.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Esconder o preço** — o número absurdo é o gancho.\n2. **Tour raso** — \"todos os detalhes\" promete profundidade.\n3. **Sem detalhe-surpresa** — o inesperado é o que compartilha.\n4. **Produção amadora** — o formato exige capricho cinematográfico."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Tour cinematográfico (drone + interiores). Texto de preço no hook. Música épica, sem narração.\n- Ordene os ambientes crescendo até o detalhe-uau. Feche com aérea."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance e compartilhamento (voyeurismo de luxo + preço absurdo). Posiciona no alto padrão mesmo sem vender o imóvel. O detalhe-uau é o motor de share. Ótimo conteúdo de topo pra atrair audiência e autoridade."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -4931,7 +4958,40 @@
     "link": "",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Todos os detalhes da casa de R$39 milhões\" — o preço absurdo no hook fisga, e o tour exaustivo de cada luxo entrega o payoff do voyeurismo."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto (na tela) | Função |\n|---|---|---|---|\n| 0-4s | Aérea da mansão + fachada monumental | \"Todos os detalhes da casa de R$39.000.000,00\" | Hook: o preço-choque (39 milhões) ancorado no texto |\n| 4-20s | Living pé-direito alto, piscina, fogo de chão / lareiras externas | (música) | Tour dos ambientes de luxo — o desejo |\n| 20-28s | Home theater com carro esportivo dentro, fire pit, quartos | (música) | Os \"uaus\" — o carro na sala, os detalhes absurdos |\n| 28-30s | Aérea final | (música) | Fecho de grandiosidade |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O preço no hook é o gancho** (R$39 milhões) — o número absurdo ativa curiosidade e voyeurismo (\"como é uma casa dessas?\").\n- **\"Todos os detalhes\" promete completude** — o espectador fica pra ver tudo.\n- **Os detalhes absurdos** (um carro esportivo dentro do home theater) são os picos de compartilhamento (\"viu isso?\").\n- **Sem fala** — a imagem + o preço bastam; a música dá a épica."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Tour cinematográfico** (drone + interiores) de uma mansão de altíssimo padrão.\n- **Texto de preço no hook** (vermelho) — a âncora que enquadra tudo.\n- **Música épica** — o clima de \"outro mundo\"."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música** conduz; o ritmo é o da revelação de ambientes.\n- Cada corte entrega um novo luxo — a densidade segura até o fim."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Ancoragem de preço absurdo** — R$39 mi recalibra a percepção e vira compartilhamento.\n2. **Voyeurismo** — ver como vive o 0,1% é curiosidade universal.\n3. **Desejo aspiracional** — cada ambiente alimenta a fantasia.\n4. **Completude** — \"todos os detalhes\" prende até o final.\n5. **Detalhe-uau** — o inesperado (o carro na sala) é o pico de share."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Esconder o preço — o número absurdo É o gancho.\n- ❌ Tour raso — \"todos os detalhes\" promete profundidade; entregue os uaus.\n- ❌ Sem um detalhe-surpresa — o inesperado (o carro, uma solução única) é o que compartilha.\n- ❌ Produção amadora — o formato exige capricho cinematográfico (é sobre o sublime)."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Ancore no preço absurdo** no hook (\"todos os detalhes da casa de R$X\").\n2. **Faça um tour exaustivo dos ambientes de luxo** (o desejo).\n3. **Guarde detalhes-uau** (o inesperado — o carro na sala, a solução única) pros picos de share.\n4. **Feche com a grandiosidade** (aérea, a escala).\n5. Música épica, sem narração — a imagem + o preço carregam. (Vale mesmo pra imóveis que você não vende — é conteúdo de alcance/autoridade.)"
+     }
+    ]
    }
   ],
   "num": 57
@@ -5997,11 +6057,38 @@
   "desc": "Ficha técnica 100% transparente na copy (valor + condomínio + IPTU) — filtra lead quente.",
   "slug": "ficha-tecnica-completa-e-transparente-no",
   "formato": {
+   "estrutura": "1. **[ABERTURA DO AMBIENTE]** o imóvel pronto/decorado. → *slot: o ambiente.*\n2. **[INVENTÁRIO VISUAL COMPLETO]** mostrar cada item incluso (equipamento, acabamento). → *slot: a ficha.*\n3. **[DIFERENCIAIS]** os itens que impressionam (home office, vista). → *slot: os destaques.*\n4. **[FECHO NO PRODUTO]** o prédio/localização. → *slot: o produto.*\n\n- **Fixo:** mostrar TUDO que vem (transparência = argumento); foco em detalhes de equipamento; completude; prova visual.\n- **Variável:** o imóvel, os itens.",
    "hook": "Transparência radical na copy: **valor + condomínio + IPTU + referência + todos os specs**, tudo escrito e aberto. Num mercado que esconde preço pra \"gerar contato\", mostrar tudo atrai o lead qualificado e afasta o curioso.",
    "porque": "- **Transparência total qualifica o lead:** quem chama já aceitou preço + custos = conversa mais quente.\n- **Diferencia num mar de \"consulte valores\":** o comprador cansado de esconde-esconde prefere quem mostra.\n- **Reduz perda de tempo** com curioso que sairia ao saber o custo real.",
    "aplicar": "- Qualquer imóvel: copy com a ficha 100% aberta (incluindo os custos que assustam — condomínio, IPTU).\n- Ideal pra imóveis cujo custo total é competitivo (a transparência vira vantagem).\n- Corretor que quer leads quentes (não volume) — este formato filtra.",
    "guia": "- NADA omitido — valor, condomínio, IPTU, vaga, referência.\n- Os custos \"que assustam\" incluídos = credibilidade (você não esconde nada).\n- CTA de visita/direct pra quem já passou pelo filtro.\n- Melhor pra quem prioriza lead qualificado sobre volume.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário de transparência. Crie um anúncio \"ficha técnica completa\":\nElementos: 1) imagem/vídeo do imóvel; 2) COPY com a ficha 100% aberta (valor + condomínio + IPTU + m² + quartos + vaga + referência); 3) CTA de visita/direct.\nMEUS DADOS: Imóvel + TODOS os números (valor, condomínio, IPTU, specs, referência): [ ]. Público: [ ].\nTOM: transparência radical. Nada omitido, incluindo os custos que assustam. Filtra pra lead quente.\nENTREGUE: 1) a ficha completa formatada; 2) headline; 3) copy; 4) CTA; 5) nota de por que a transparência é a vantagem aqui.\n```"
+   "prompt": "Você é um diretor de conteúdo imobiliário. Monte a direção de um \"tour ficha técnica completa e transparente\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. ABERTURA DO AMBIENTE: o imóvel pronto/decorado (convidativo)\n2. INVENTÁRIO VISUAL COMPLETO: mostre CADA item incluso (cozinha equipada, eletrodomésticos, acabamentos) — sem esconder o mundano\n3. DIFERENCIAIS: os itens que impressionam (home office, vista, solução inteligente)\n4. FECHO NO PRODUTO: o prédio, a localização\n\n**Meus dados:**\n- Incorporadora/corretor + @: [NOME + @]\n- O imóvel + o que vem incluso: [LISTE TUDO]\n- Os diferenciais que impressionam: [OS DESTAQUES]\n- A ficha técnica completa (pra legenda): [SPECS DETALHADAS]\n\n**Regras de tom:**\n- Mostre TUDO que vem (a transparência é o argumento) — inclusive o mundano\n- Prova visual, não promessa (é o que está lá)\n- Foco nos itens/equipamento (o inventário do que já vem)\n- Música, sem narração; a ficha detalhada vai na legenda\n\n**Entregue:**\n1. O roteiro do tour (ordem dos ambientes + os itens a destacar)\n2. A ficha técnica completa pra legenda\n3. Sugestão de b-roll/foco de câmera nos detalhes\n4. 5 hashtags\n5. Uma frase de abertura da legenda (transparência)",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **conversão** de imóvel pronto/equipado (studio mobiliado, decorado, pronto pra investir). A transparência total gera confiança e reduz o \"o que será que não estão mostrando?\".\n- Ideal quando o \"já vem incluso\" é um diferencial (mobiliado, equipado, pronto pra locação)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O QUE VEM]:** liste e mostre TUDO, inclusive o mundano (forno, lavadora). A completude visível é o argumento.\n- **[OS DIFERENCIAIS]:** os itens que impressionam (home office, vista) merecem destaque.\n- **[A FICHA NA LEGENDA]:** as specs detalhadas (m², voltagem, marcas) vão no texto do post."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se mostrar só os ângulos bonitos:\n\n> \"Mostre TUDO — inclusive o mundano (o forno, a lavadora). A transparência de exibir cada item incluso é o que gera confiança e vende o 'pronto pra usar'.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Só os ângulos bonitos** — a transparência (mostrar tudo) é o diferencial.\n2. **Tour genérico** — o valor é o inventário do que vem.\n3. **Esconder o mundano** — os eletrodomésticos provam a completude.\n4. **Prometer sem mostrar** — a prova visual é o argumento."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Tour cinematográfico do decorado, foco nos detalhes de equipamento. Música.\n- Cada ambiente com seus segundos (inventário metódico). Ficha detalhada na legenda."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de conversão — a transparência total gera confiança e o \"já vem tudo\" reduz o custo percebido. Ideal pra studios mobiliados/prontos pra investir. A ficha na legenda captura quem quer os detalhes técnicos."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -6011,7 +6098,40 @@
     "link": "https://www.facebook.com/ads/library/?id=1503832538056498",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um tour que não esconde nada — mostra cada item incluso (do forno à lavadora ao home office) — a ficha técnica transparente vira o argumento: \"olha tudo que já vem\"."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Função |\n|---|---|---|\n| 0-8s | Sala/living decorado (sofá, mesa, varanda com vista) | Abertura: o ambiente pronto e decorado |\n| 8-25s | Cozinha completa (cooktop, forno, lavadora, geladeira, pia, microondas) | O detalhamento do equipamento — mostra tudo que vem (transparência) |\n| 25-40s | Quarto, varanda com vista, home office com 3 monitores | O inventário completo — cada ambiente, cada item |\n| 40-49s | Fachada do prédio | Fecho no produto/prédio |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O vídeo É a ficha técnica** — cada corte mostra um item incluso; não precisa narrar, a imagem prova.\n- **A transparência é o argumento** — \"mostrei tudo, não escondi nada\" gera confiança (o oposto do anúncio que só mostra o melhor ângulo).\n- **A completude vende** — um studio totalmente equipado (cozinha completa + home office) comunica \"pronto pra morar/investir sem gastar mais\".\n- **A prova visual** substitui a promessa — é o que está lá, não o que dizem que tem."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Tour cinematográfico do decorado** com foco em detalhes de equipamento (eletrodomésticos, acabamentos).\n- **Cada ambiente ganha seus segundos** — o inventário é metódico.\n- **Música** conduz; a imagem carrega a informação."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música** define o clima; o ritmo é o do tour detalhado.\n- A ausência de narração foca a atenção nos itens mostrados."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Transparência** — mostrar tudo (inclusive o mundano) gera confiança máxima.\n2. **Completude** — nada falta; comunica \"pronto pra usar\".\n3. **Prova visual** — é o que está lá, não uma promessa.\n4. **Praticidade** — o \"já vem equipado\" reduz o esforço/custo percebido do comprador."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Mostrar só os ângulos bonitos — a transparência (mostrar tudo) é o diferencial.\n- ❌ Tour genérico sem foco nos itens — o valor é o inventário do que vem incluso.\n- ❌ Esconder o mundano — o forno, a lavadora provam a completude.\n- ❌ Prometer sem mostrar — a prova visual é o argumento."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o ambiente pronto** (decorado, convidativo).\n2. **Faça o inventário visual completo** — mostre CADA item incluso (equipamento, acabamento), sem esconder o mundano.\n3. **Destaque os diferenciais** (home office, vista, o que impressiona).\n4. **Feche no produto** (o prédio, a localização).\n5. Música, sem narração — a transparência total é o argumento (a ficha detalhada pode ir na legenda)."
+     }
+    ]
    }
   ],
   "num": 69
@@ -7118,12 +7238,39 @@
   "desc": "Cartão de visita em vídeo do corretor — vende a pessoa, roda permanente.",
   "slug": "cartao-de-visita-em-video-quem",
   "formato": {
+   "estrutura": "1. **[OVERLAY DE CONTATO FIXO]** logo + nome + telefone + tagline. → *slot: o cartão.*\n2. **[TAGLINE ABRANGENTE]** \"comprar, alugar ou investir — me chama\". → *slot: a oferta.*\n3. **[B-ROLL DE LASTRO]** tours de imóveis (prova de atuação). → *slot: o contexto.*\n\n- **Fixo:** nome + telefone + tagline fixos na tela; oferta abrangente; b-roll de imóveis; chamada direta pra contato.\n- **Variável:** o b-roll, o corretor.",
    "hook": "Apresentação pessoal do corretor como marca: **\"Quem sou eu\"** — nome, CRECI, missão, região de atuação e contato, num vídeo curto que roda de forma permanente. Não vende um imóvel; vende O CORRETOR.",
    "blocos": "- **Apresentação (0-8s):** nome + o que faz + região.\n- **Missão/diferencial (8-30s):** por que trabalhar com ele (valores, jeito de atender, especialidade).\n- **Credenciais + CTA (fim):** CRECI, contato, \"me chama pra [serviço]\".",
    "porque": "- **Vende a PESSOA, não o produto** → constrói marca pessoal que dura (320 dias).\n- **Evergreen por natureza** (sem data/imóvel específico) → roda sempre, alimenta reconhecimento.\n- **Humaniza o primeiro contato:** o lead já \"conhece\" o corretor antes de falar.",
    "aplicar": "- Todo corretor autônomo deveria ter 1 cartão de visita em vídeo rodando permanente.\n- Foco em quem você é, como atende e sua especialidade/região.\n- Serve de base de reconhecimento pra todos os outros anúncios.",
    "guia": "- Curto, direto, olho na câmera — autenticidade > produção.\n- Deixe claro a especialidade/região (posicionamento).\n- CRECI e contato visíveis.\n- Evergreen: sem data, sem imóvel específico — pra rodar o ano todo.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário de marca pessoal. Crie um \"cartão de visita em vídeo\" do corretor:\n1) APRESENTAÇÃO (0-8s): nome + o que faz + região; 2) MISSÃO/DIFERENCIAL (por que trabalhar com você); 3) CREDENCIAIS + CTA.\nMEUS DADOS: Nome + CRECI + região: [ ]. Especialidade/diferencial: [ ]. Como atendo (valores): [ ]. Contato: [ ].\nTOM: pessoal, autêntico, olho na câmera. Vende a PESSOA. Evergreen (sem data/imóvel).\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) frase de posicionamento; 5) CTA de contato.\n```"
+   "prompt": "Você é um diretor de conteúdo de branding para corretores. Monte a direção de um \"cartão de visita em vídeo\", seguindo EXATAMENTE esta lógica:\n\n**Estrutura obrigatória:**\n1. OVERLAY DE CONTATO FIXO: logo + seu nome + telefone (grande) + tagline\n2. TAGLINE ABRANGENTE: \"se você quer comprar, alugar ou investir em imóveis, me chama\"\n3. B-ROLL DE LASTRO: tours de imóveis (prova de que você é do ramo)\n\n**Meus dados:**\n- Corretor(a) + @ + telefone: [NOME + @ + TELEFONE]\n- A tagline: [A OFERTA ABRANGENTE]\n- O b-roll disponível: [TOURS DE IMÓVEIS]\n\n**Regras de tom:**\n- Nome e telefone grandes e legíveis (é o motivo do vídeo)\n- Tagline abrangente (compra/aluga/investe — cobre todos os perfis)\n- B-roll de imóveis (prova de atuação)\n- Música, sem narração — é um cartão em movimento\n\n**Entregue:**\n1. O layout do overlay (o que fixar na tela)\n2. A tagline pronta\n3. Sugestão de b-roll + música\n4. Onde usar (Stories fixado, Reels de apresentação)\n5. Legenda curta pro post",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **branding + captação de contato** (base). É o vídeo de apresentação que fixa quem você é e como te achar — ideal como Reels/Story fixado no perfil.\n- Reaproveita b-roll de imóveis que você já tem — baixo custo, alto reuso."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[NOME + TELEFONE]:** grandes e legíveis. É o motivo do vídeo existir.\n- **[A TAGLINE]:** abrangente (\"comprar, alugar ou investir — me chama\"). Cobre todos os perfis num só recado.\n- **[O B-ROLL]:** de imóveis (prova de atuação). Reaproveite seus tours."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se a tagline vier restrita:\n\n> \"Use uma tagline abrangente ('comprar, alugar ou investir'). Um cartão de visita fala com todos os perfis de cliente — não restrinja.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Overlay ilegível** — nome e telefone precisam ser grandes e claros.\n2. **Tagline restrita** — cubra todos os perfis (compra/aluga/investe).\n3. **B-roll sem relação** — deve ser de imóveis (prova de atuação).\n4. **Sem telefone/CTA** — o contato é o motivo do formato."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Overlay de branding fixo (logo + nome + telefone + tagline) sobre b-roll de imóveis. Música."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Formato de branding/captação — fixa seu contato na memória e gera chamadas diretas. Ideal como Reels/Story de apresentação fixado no perfil. Baixo custo (reaproveita b-roll), alto reuso."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -7133,7 +7280,40 @@
     "link": "https://www.facebook.com/ads/library/?id=1864243887461861",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um tour de imóvel com o nome, telefone e a promessa do corretor fixos na tela — o cartão de visita em vídeo transforma qualquer b-roll numa ferramenta de captação de contato."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto (overlay fixo) | Função |\n|---|---|---|---|\n| 0-22s | B-roll de tours de casas (várias) | Logo de casa + \"CORRETOR DE IMÓVEIS / Deiverton Silva / (96) 98100-0365 / Se você quer comprar, alugar ou apenas investir em imóveis me chama que tenho as melhores opções!\" + \"Ao seu novo Lar! / Seja bem-vindo\" | O cartão de visita sobre o b-roll |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O nome + telefone + tagline É o conteúdo** — o vídeo existe pra fixar o contato do corretor.\n- **A tagline é abrangente** (\"comprar, alugar ou investir — me chama\") — cobre todos os perfis de cliente num só recado.\n- **O b-roll de imóveis dá lastro** — prova que ele trabalha com isso (não é só um número).\n- **A chamada é direta pra contato** — o telefone na tela é o CTA permanente."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Overlay de branding fixo** (logo de casa + nome + telefone grande + tagline) — o \"cartão\" sempre visível.\n- **B-roll reaproveitado** de tours de imóveis — conteúdo de baixo custo, alto reuso.\n- **Música** dá o clima; o overlay carrega a mensagem."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música** conduz; o vídeo é um loop de branding.\n- Não precisa de estrutura narrativa — é um cartão em movimento."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Acessibilidade de contato** — o telefone na tela torna o próximo passo óbvio.\n2. **Abrangência da oferta** — \"compra/aluga/investe\" fala com qualquer um.\n3. **Prova de atuação** — o b-roll de imóveis mostra que ele é do ramo.\n4. **Lembrança de marca** — o cartão fixa nome + rosto + número na memória."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Overlay poluído/ilegível — nome e telefone precisam ser grandes e claros.\n- ❌ Tagline restrita — \"comprar, alugar ou investir\" cobre todos os perfis.\n- ❌ B-roll sem relação — deve ser de imóveis (prova de atuação).\n- ❌ Sem telefone/CTA — o contato é o motivo do formato existir."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Monte um overlay de branding fixo** (logo + seu nome + telefone grande + tagline).\n2. **Escreva uma tagline abrangente** (\"comprar, alugar ou investir — me chama\").\n3. **Coloque sobre um b-roll de imóveis** (reaproveite tours — prova de atuação).\n4. **Deixe o telefone sempre visível** (o CTA permanente).\n5. Música, sem narração. Use como conteúdo recorrente de branding/captação (Stories e Reels)."
+     }
+    ]
    }
   ],
   "num": 82
