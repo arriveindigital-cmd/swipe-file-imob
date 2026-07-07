@@ -5499,12 +5499,39 @@
   "desc": "Usa um anúncio viral bizarro como contraste pra se posicionar ('não preciso de truque').",
   "slug": "contraposicionamento-manifesto-anti-hype-pergunta-de",
   "formato": {
+   "estrutura": "1. **[GANCHO EMPRESTADO]** reagir a um viral/tendência do nicho. → *slot: o viral.*\n2. **[O CONTRAPOSICIONAMENTO]** rejeitar o hype/o comum. → *slot: a rejeição.*\n3. **[A TESE]** por que o oposto é melhor (pro seu público). → *slot: a tese.*\n4. **[O QUE VOCÊ NÃO FAZ]** declarar valores por contraste. → *slot: os valores.*\n5. **[O FILTRO + CTA]** o benefício de filtrar + seguir. → *slot: o CTA.*\n\n- **Fixo:** reagir a algo do nicho; contrapor-se ao hype; declarar o que NÃO faz; posicionar por contraste; critique a prática, não a pessoa.\n- **Variável:** o gancho, a tese, os valores.",
    "hook": "Comenta um anúncio viral bizarro pra se posicionar contra ele: **\"Uma influencer amarrou um AirTag numa perna de frango pra ver até onde ia… e o localizador apontou pra esse apartamento de luxo. Eu olho isso e penso: isso não é anúncio, é busca de viralização.\"** Usa o hype alheio como contraste do próprio método.",
    "blocos": "- **A história do anúncio-hype (0-20s):** narra o truque viral (o experimento bizarro que termina no imóvel).\n- **A virada de contraposicionamento (20-40s):** \"no alto padrão eu não preciso de truque, preciso de credibilidade — anúncio espetaculoso atrai curioso e proposta sem noção\".\n- **O manifesto + filtro (40-60s):** \"prefiro descrição, curadoria e negociação clara. Deixo claro o que NÃO faço — isso filtra quem chega e protege quem confia\".\n- **CTA:** \"se você gosta desse tipo de conteúdo, me segue e salva\".",
    "porque": "- **Contraposicionamento cria identidade:** ao dizer o que NÃO faz, define quem é — e atrai quem compartilha o valor.\n- **Usar o hype alheio como contraste** dá gancho viral + superioridade de método.\n- **Filtrar clientes** (\"protege quem confia\") é exatamente o que o comprador de alto padrão quer ouvir (discrição, curadoria).",
    "aplicar": "- Corretor de alto padrão se diferenciando da concorrência espalhafatosa: \"eu não faço [prática comum], eu faço [meu método]\".\n- Use um exemplo concreto do \"hype\" pra contrastar.\n- Fecho como manifesto de valores que filtra o cliente certo.",
    "guia": "- O contraste precisa ser respeitoso (criticar a PRÁTICA, não pessoas nomeadas).\n- Defina claramente o que você NÃO faz (é o que cria identidade).\n- Tom sereno e confiante, não ressentido.\n- CTA de seguir/salvar (constrói audiência qualificada de alto padrão).",
-   "prompt": "```\nVocê é copywriter de anúncio de alto padrão. Crie um \"contraposicionamento / manifesto anti-hype\":\n1) A HISTÓRIA DO HYPE (0-20s): narra um anúncio/prática espalhafatosa; 2) VIRADA: \"eu não preciso de truque, preciso de [seu valor]\"; 3) MANIFESTO + filtro: o que você NÃO faz e por quê; 4) CTA de seguir/salvar.\nMEUS DADOS: O hype/prática a contrastar: [ ]. Meu método/valor: [ ]. O que eu NÃO faço: [ ]. Público (alto padrão): [ ].\nTOM: sereno, confiante, contraposicionamento. Criticar a prática, não pessoas. Filtrar o cliente certo.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) a lista do \"o que eu não faço\"; 5) CTA.\n```"
+   "prompt": "Você é um roteirista especialista em conteúdo de posicionamento. Crie o roteiro de \"contraposicionamento / manifesto anti-hype\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. GANCHO EMPRESTADO (0-8s): reaja a um viral/tendência/prática comum do seu nicho\n2. O CONTRAPOSICIONAMENTO: rejeite o hype (\"pra mim isso não é [X], é [Y]\")\n3. A TESE: por que o oposto é melhor pro SEU público\n4. O QUE VOCÊ NÃO FAZ: declare seus valores por contraste (o que você NÃO faz)\n5. O FILTRO + CTA: o benefício de filtrar o público + \"se gosta disso, me segue\"\n\n**Meus dados:**\n- Autor + @ + nicho: [NOME + @ + segmento]\n- O gancho (viral/tendência/prática a reagir): [O QUE]\n- Sua tese (por que o oposto é melhor): [O ARGUMENTO]\n- O que você NÃO faz: [OS VALORES POR CONTRASTE]\n- O tipo de cliente que você quer filtrar/atrair: [O PÚBLICO]\n\n**Regras de tom:**\n- Critique a PRÁTICA (o hype), nunca a pessoa/o concorrente\n- Declarar o que você NÃO faz é mais forte que listar qualidades\n- A tese precisa filtrar (atrair quem valoriza, afastar o resto)\n- Feche com CTA de tribo (recrutar quem compartilha os valores)\n\n**Entregue:**\n1. O roteiro (gancho → contraposicionamento → tese → o que não faz → filtro/CTA)\n2. A frase de contraposicionamento\n3. As legendas de valores\n4. O CTA de tribo\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **posicionamento + autoridade** (e alcance via react). Diferencia você num mar de conteúdo igual, atraindo quem valoriza o seu jeito.\n- Excelente pro alto padrão, onde credibilidade e discrição valem mais que espetáculo."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O GANCHO]:** um viral/tendência/prática comum pra reagir. Empresta a atenção e dá o contraste.\n- **[O QUE VOCÊ NÃO FAZ]:** declare seus valores por contraste. É mais autêntico e memorável que se elogiar.\n- **[O FILTRO]:** deixe claro o público que você quer (e o que afasta). O filtro é o valor — atrai o cliente certo."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se atacar o concorrente:\n\n> \"Critique a PRÁTICA (o hype, o truque), nunca a pessoa. O contraposicionamento é sobre valores, não sobre difamar alguém.\"\n\nSe só listar qualidades:\n\n> \"Declare o que você NÃO faz. Definir identidade por contraste ('eu prefiro o oposto: X, Y') é mais forte e crível que uma lista de virtudes.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Criticar sem propor o oposto** — precisa da SUA alternativa (os valores).\n2. **Atacar pessoas** — critique a prática, não o concorrente.\n3. **Só listar qualidades** — declarar o que não faz é mais forte.\n4. **Esquecer o CTA de tribo** — o filtro só funciona recrutando quem compartilha os valores."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Clipe do viral/gancho + talking head reagindo (formato react). Ambiente coerente com o público.\n- Legendas de valores. Tom crítico-reflexivo, opinião firme. CTA de tribo no fim."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance (o react empresta a viralização) + posicionamento forte. Atrai o cliente que compartilha seus valores e afasta o \"curioso/proposta sem noção\". As frases de valores viram citações. Ótimo como ad de branding pra construir autoridade."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -5514,7 +5541,40 @@
     "link": "https://www.facebook.com/ads/library/?id=1261444872160643",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Reagindo a um truque viral, ela declara o que NÃO faz — o contraposicionamento anti-hype filtra o público e atrai justamente quem valoriza credibilidade sobre espetáculo."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Clipe do vídeo viral (perna de frango + AirTag no mar) | \"Uma influencer jogou uma perna de frango com localizador no mar pra ver até onde ia… 500km depois, apontava pra esse apartamento\" | Hook: reage a um conteúdo viral/absurdo (curiosidade emprestada) |\n| 8-25s | Talking head reagindo | \"Eu olho pra esse tipo de vídeo e penso: pra mim isso não é anúncio, é busca de viralização\" | O contraposicionamento — rejeita o hype |\n| 25-45s | Legendas \"aqui não é anúncio / não precisa de outra coisa\" | \"No alto padrão não precisa de truque, precisa de credibilidade. Anúncio espetaculoso atrai curioso, proposta sem noção, perda de tempo\" | A tese — por que o hype é ruim pro nicho |\n| 45-58s | Legenda \"Descrição / Curadoria / Negociação\" | \"Eu prefiro o oposto: descrição, curadoria, negociação clara. Deixo claro o que eu NÃO faço\" | A declaração de valores — o que ela É, por contraste |\n| 58-63s | Fala | \"Isso filtra quem chega e protege quem confia. Se gosta desse conteúdo, me segue e salva\" | O benefício do filtro + CTA |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Empresta a curiosidade de um viral** — o truque absurdo (frango + AirTag) para o scroll, e ela redireciona essa atenção pra sua mensagem.\n- **O contraposicionamento é a estratégia:** ao rejeitar o que todos fazem (o hype), ela se diferencia sem precisar se elogiar.\n- **Declarar o que NÃO faz** é mais poderoso que listar qualidades — define identidade por contraste e soa autêntico.\n- **A tese filtra o público:** \"atrai curioso, proposta sem noção\" → ela quer o oposto, e diz isso abertamente. O filtro é o valor.\n- **CTA de tribo** (\"se gosta desse conteúdo, me segue\") — recruta quem compartilha os valores."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Clipe do viral + talking head reagindo** — o formato \"react\" é nativo e reconhecível.\n- **Ambiente sofisticado** coerente com o alto padrão.\n- **Legendas de valores** (Descrição / Curadoria / Negociação) cristalizam o posicionamento."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Tom crítico-reflexivo**, pausado — de quem tem opinião firme.\n- Ritmo que vai do gancho (o viral) à declaração de valores."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Curiosidade emprestada** — o viral é a isca de atenção.\n2. **Contraposicionamento** — diferenciar-se rejeitando o comum é memorável.\n3. **Autoridade** — \"credibilidade > truque\" posiciona como sério.\n4. **Filtro / exclusividade** — declarar o que não faz atrai quem valoriza e afasta o resto.\n5. **Identidade de tribo** — quem concorda com os valores segue e salva."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Criticar sem propor o oposto — o contraposicionamento precisa da SUA alternativa (os valores).\n- ❌ Atacar pessoas — critique a PRÁTICA (o hype), não o concorrente.\n- ❌ Só listar qualidades — declarar o que NÃO faz é mais forte e autêntico.\n- ❌ Esquecer o CTA de tribo — o filtro só funciona se recrutar quem compartilha os valores."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Ache um gancho do nicho** (um viral, uma tendência, uma prática comum) pra reagir.\n2. **Contraponha-se ao hype** (\"pra mim isso não é [X], é [Y]\").\n3. **Apresente sua tese** (por que o oposto é melhor pro seu público).\n4. **Declare o que você NÃO faz** — defina identidade por contraste.\n5. **Feche com o benefício do filtro + CTA de tribo** (\"se gosta disso, me segue\"). Critique a prática, nunca a pessoa."
+     }
+    ],
     "transcricao": "Uma influência decidiu fazer um experimento curioso.\nEla lançou ao mar uma simples perna de frango com um localizador da Apple,\napenas para descobrir até onde aquilo poderia chegar.\nDepois, ao abrir o mapa, ter uma surpresa.\nO objeto já tinha percorrido mais de 500 quilômetros.\nE para a surpresa de todos, o localizador apontava exatamente para esse apartamento\nem frente ao Graville, no Eldorado.\nLá é sol da manhã.\nEu olho para esse tipo de vídeo e eu fico pensando o que faz uma pessoa criar um tipo de anúncio desse.\nPorque para mim, isso aqui não é anúncio.\nIsso aqui é busca de viralização.\nE no alto padrão, não precisa de truque, não precisa de outra coisa.\nPrecisa de credibilidade.\nQuando você faz um anúncio desse espetaculoso, você atrai curioso, proposta sem noção, vai só perder tempo.\nEu prefiro o oposto.\nEu prefiro descrição, curadoria e uma negociação bem clara.\nEu falo isso porque aqui eu deixo claro o que eu não faço.\nE isso filtra quem chega e protege quem confia no nosso trabalho.\nEntão se você gosta desse tipo de conteúdo no mercado mobiliário, me segue aqui e salva."
    }
   ],
@@ -5538,12 +5598,39 @@
   "desc": "Convite pra open house/evento com data, local e condição exclusiva do dia.",
   "slug": "convite-para-evento-open-house-do",
   "formato": {
+   "estrutura": "1. **[CONVITE PRA OBRA]** \"estamos aqui na obra do [empreendimento]\". → *slot: o convite.*\n2. **[PROVA DE ANDAMENTO]** obras aceleradas (reduz medo da planta). → *slot: o progresso.*\n3. **[O DECORADO/PRODUTO]** o que já dá pra ver/visitar. → *slot: o produto.*\n4. **[FOMO DE VALORIZAÇÃO]** \"antecipe-se ao próximo nível\". → *slot: a urgência.*\n5. **[ASSINATURA/GARANTIA]** marca + segurança. → *slot: a marca.*\n\n- **Fixo:** mostrar o andamento (reduz medo da planta); o decorado; FOMO de valorização; branding; legendas fortes.\n- **Variável:** o empreendimento, a fase, a localização.",
    "hook": "Convite pra um evento com data/local + condição exclusiva: **\"Hoje a gente está aqui na obra do Cult Oxford — o empreendimento pra quem quer morar onde tudo acontece.\"** + \"Open Decorado, condições exclusivas pra fechamento no dia\". A urgência de evento (data marcada) força a ação.",
    "blocos": "- **Convite + local (0-8s):** \"estamos aqui no [empreendimento] — vem conhecer\".\n- **O que o evento oferece (8-30s):** decorado aberto, condições exclusivas SÓ no dia.\n- **Data + endereço + CTA (fim):** quando, onde, \"garanta sua presença\".",
    "porque": "- **Evento com data = urgência real e honesta** (não é \"últimas unidades\" falso).\n- **Condição exclusiva do dia** cria motivo pra ir agora, não depois.\n- **Decorado aberto** deixa o comprador experimentar (reduz o risco percebido).",
    "aplicar": "- Qualquer open house / plantão / evento de lançamento.\n- Sempre com data, local e uma condição exclusiva do evento.\n- Corretor pode fazer versão \"plantão neste sábado, condições só hoje\".",
    "guia": "- Data e endereço claríssimos (é a informação-ação).\n- A condição exclusiva tem que ser real e limitada ao evento.\n- Filmar no local (a obra/decorado) dá prova e presença.\n- CTA de confirmar presença (gera lista de leads pro evento).",
-   "prompt": "```\nVocê é copywriter de anúncio de evento imobiliário. Crie um \"convite para open house/plantão\":\n1) CONVITE + LOCAL (0-8s): \"estamos aqui no [empreendimento], vem conhecer\"; 2) O QUE O EVENTO OFERECE (decorado aberto + condição exclusiva do dia); 3) DATA + endereço + CTA de confirmar presença.\nMEUS DADOS: Empreendimento + local: [ ]. Data do evento: [ ]. Condição exclusiva do dia: [ ]. Endereço: [ ].\nTOM: urgência honesta de evento. Data/local claros. Condição real e limitada.\nENTREGUE: 1) roteiro; 2) copy; 3) headline com data; 4) CTA de confirmar presença; 5) 1ª mensagem de WhatsApp.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de lançamento em obra. Crie o roteiro de \"convite pra obra em andamento (progresso + decorado + valorização)\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. CONVITE PRA OBRA (0-6s): \"estamos aqui na obra do [empreendimento], pensado pra quem quer [benefício]\"\n2. PROVA DE ANDAMENTO: \"obras aceleradas\" — mostre a construção avançando (reduz o medo da planta)\n3. O DECORADO/PRODUTO: o decorado pronto (o convite implícito a visitar)\n4. FOMO DE VALORIZAÇÃO: \"antecipe-se ao próximo nível de valorização\"\n5. ASSINATURA/GARANTIA: marca + reforço de segurança/entrega\n\n**Meus dados:**\n- Empreendimento + @: [NOME + @]\n- O posicionamento: [PENSADO PRA QUEM QUER…]\n- A fase da obra: [ANDAMENTO ATUAL]\n- O que já dá pra ver (decorado): [O PRODUTO PRONTO]\n- O argumento de valorização: [POR QUE ANTECIPAR]\n\n**Regras de tom:**\n- Mostre a OBRA REAL avançando (reduz o maior medo da planta: a entrega)\n- FOMO de valorização é o gatilho de urgência (comprar antes do reajuste)\n- O decorado é o convite implícito a visitar\n- Legendas fortes (o áudio pode ser só música)\n\n**Entregue:**\n1. O roteiro visual (obra → decorado → render) com as legendas\n2. As legendas de destaque (obras aceleradas, antecipe-se)\n3. Sugestão de b-roll (as 3 fases)\n4. O CTA/assinatura\n5. Sugestão de trilha",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **lançamento em obra** via tráfego pago. Mostrar a construção avançando é o antídoto pro maior medo da planta (a entrega).\n- Ideal quando há obra visível + decorado pronto pra visitar."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O ANDAMENTO]:** a prova visual da obra avançando (\"obras aceleradas\"). É o que gera confiança na entrega.\n- **[O DECORADO]:** o produto pronto — o convite implícito a visitar.\n- **[A VALORIZAÇÃO]:** o argumento de \"antecipe-se ao próximo nível\" — a urgência que move a decisão."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se mostrar só render:\n\n> \"Inclua a obra REAL avançando. O render vende o sonho, mas a construção avançando é o que reduz o medo de comprar na planta.\"\n\nSe faltar urgência:\n\n> \"Adicione o FOMO de valorização ('antecipe-se ao próximo nível'). Sem a urgência, o convite não converte — é o que faz decidir agora.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Só render** — a obra real avançando é o que reduz o medo da planta.\n2. **Sem FOMO de valorização** — a urgência é o que move a decisão.\n3. **Esquecer o decorado** — o produto tangível é o convite a visitar.\n4. **Legendas fracas** — como o áudio é música, elas carregam a mensagem."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- B-roll das 3 fases: obra (andamento) → decorado (produto) → render (projeto). Legendas de destaque.\n- Trilha/música conduz. Branding + garantia no fecho."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de lançamento em obra — a prova de andamento reduz o medo da planta e o FOMO de valorização acelera a decisão. O decorado convida à visita (open house). Ideal pra empreendimentos em construção avançada com decorado pronto."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -5553,7 +5640,40 @@
     "link": "https://www.facebook.com/ads/library/?id=3993876984245885",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Mostrar a obra avançando + o decorado pronto = urgência de \"antecipe-se à valorização\" — o convite transforma o progresso da construção em argumento de comprar agora."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Legenda | Função |\n|---|---|---|---|\n| 0-6s | Fachada em obra \"Cult Oxford\"; legenda \"PENSADO PARA QUEM QUER\" | \"Hoje a gente está na obra do Cult Oxford, pensado pra quem quer morar onde tudo acontece\" | Hook: convite pra dentro da obra (bastidor do lançamento) |\n| 6-15s | Capacete, obra vista do alto; legenda \"OBRAS ACELERADAS\" | (música) | Prova de andamento — obra avançando reduz o medo da planta |\n| 15-25s | Decorado na torre; legenda \"DECORADO NA TORRE\" | (música) | O produto pronto — o decorado que dá pra visitar |\n| 25-30s | Vista da cidade; legenda \"ANTECIPE-SE AO PRÓXIMO NÍVEL DE VALORIZAÇÃO\" | (música) | FOMO de valorização — comprar antes do próximo reajuste |\n| 30-34s | Render do prédio + \"GARANTIDADE\" / \"CULT OXFORD\" | (música) | Assinatura + reforço de segurança/entrega |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O convite pra dentro da obra** (\"estamos aqui na obra\") dá bastidor e prova de que o lançamento é real.\n- **\"Obras aceleradas\" reduz o maior medo da planta** — ver a construção avançando gera confiança na entrega.\n- **O decorado pronto** é o convite implícito (\"venha ver\") — o produto tangível.\n- **FOMO de valorização** (\"antecipe-se ao próximo nível\") é o gatilho de urgência: comprar antes do reajuste.\n- **A garantia/marca** fecha reduzindo o risco percebido."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **B-roll cinematográfico** da obra + decorado + render — mostra as três fases (construção, produto, projeto).\n- **Legendas de destaque** (OBRAS ACELERADAS, ANTECIPE-SE À VALORIZAÇÃO) carregam a mensagem (áudio é música).\n- **Branding Cult Oxford** consistente."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Música conduz** (pouca narração) — o ritmo é dado pelos cortes entre obra, decorado e render.\n- A progressão visual (obra → decorado → projeto pronto) constrói a confiança."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Prova de progresso** — a obra avançando reduz o medo de comprar na planta (o maior risco percebido).\n2. **FOMO de valorização** — \"antecipe-se ao próximo nível\" cria urgência de comprar agora.\n3. **Desejo** — o decorado pronto materializa o sonho.\n4. **Exclusividade** — \"morar onde tudo acontece\" comunica localização premium.\n5. **Confiança** — a garantia/marca reduz o risco."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Mostrar só render — a prova da OBRA REAL avançando é o que reduz o medo da planta.\n- ❌ Sem FOMO de valorização — a urgência (\"antecipe-se\") é o que move a decisão.\n- ❌ Esquecer o decorado — o produto tangível é o convite implícito a visitar.\n- ❌ Legendas fracas — como o áudio é música, elas carregam toda a mensagem."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Convide pra dentro da obra** (\"estamos aqui na obra do [empreendimento]\").\n2. **Mostre o andamento** (\"obras aceleradas\") — reduz o medo da planta.\n3. **Mostre o decorado/produto** pronto (o convite implícito a visitar).\n4. **Ative o FOMO de valorização** (\"antecipe-se ao próximo nível\").\n5. **Feche com a marca/garantia**. Legendas fortes (o áudio pode ser só música)."
+     }
+    ],
     "transcricao": "Hoje a gente está aqui na obra do Cult Oxford, o empreendimento pensado para quem quer morar onde tudo acontece e a cidade se movimenta.\nE aí"
    }
   ],
@@ -5615,12 +5735,39 @@
   "desc": "Diálogo encenado de novidade + claim de pioneirismo ('o primeiro do estado com…').",
   "slug": "claim-de-pioneirismo-exclusividade-regional",
   "formato": {
+   "estrutura": "1. **[HOOK DE ESQUETE]** um encontro casual — \"tenho uma novidade pra te contar\". → *slot: a novidade.*\n2. **[ACESSIBILIDADE/VALOR]** o gancho de valor chocante (MCMV, R$X até a chave). → *slot: o valor.*\n3. **[O CLAIM DE PIONEIRISMO]** o diferencial regional inédito (\"o primeiro/único X do estado\"). → *slot: o claim.*\n4. **[LOCALIZAÇÃO]** mais um diferencial (proximidade). → *slot: a localização.*\n5. **[CTA]** central de vendas / simulação. → *slot: o CTA.*\n\n- **Fixo:** claim de pioneirismo VERDADEIRO; esquete natural com cético; destaque ao claim; CTA concreto.\n- **Variável:** o empreendimento, o claim, o valor.",
    "hook": "Diálogo encenado de novidade + claim de pioneirismo: **\"Amiga, tenho uma novidade — comprei pelo Minha Casa Minha Vida, super acessível, R$300 até a entrega da chave. E vamos ter um parque linear: o primeiro do RN e o segundo do Nordeste.\"** A conversa entre amigas humaniza; o claim de \"primeiro/único\" cria exclusividade.",
    "blocos": "- **Novidade em diálogo (0-15s):** duas amigas, uma conta a compra acessível.\n- **O claim de pioneirismo (15-30s):** \"o PRIMEIRO/ÚNICO da região com [diferencial]\".\n- **Prova de acessibilidade + CTA:** MCMV, valor baixo até a chave, \"dá pra acreditar? Fala com a gente\".",
    "porque": "- **Diálogo entre iguais** (amigas) é mais crível que corretor falando — prova social encenada.\n- **Claim de pioneirismo** (\"primeiro do estado\") cria exclusividade e FOMO.\n- **A acessibilidade** (MCMV, R$300 até a chave) remove a barreira e amplia o público.",
    "aplicar": "- Qualquer empreendimento com um \"primeiro/único\" real na região (lazer, tecnologia, localização).\n- Formato de diálogo encenado (amigas, casal) descobrindo a novidade.\n- Combine o claim de exclusividade com a prova de acessibilidade.",
    "guia": "- O claim de pioneirismo tem que ser VERDADEIRO (verificável) — senão vira problema.\n- Diálogo natural, não roteiro engessado.\n- Acessibilidade real (valores/condições vigentes).\n- CTA de contato pra \"saber como\".",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário. Crie um anúncio \"pioneirismo em diálogo\":\n1) NOVIDADE EM DIÁLOGO (0-15s): duas pessoas, uma conta a compra acessível; 2) CLAIM de pioneirismo (\"o primeiro/único da região com [diferencial]\"); 3) PROVA de acessibilidade + CTA.\nMEUS DADOS: Empreendimento + o claim de pioneirismo (verificável): [ ]. Diferencial exclusivo: [ ]. Acessibilidade (MCMV/condições): [ ].\nTOM: diálogo entre iguais, crível. Claim VERDADEIRO. Exclusividade + acessibilidade.\nENTREGUE: 1) roteiro do diálogo; 2) copy; 3) headline com o claim; 4) prova de acessibilidade; 5) CTA.\n```"
+   "prompt": "Você é um copywriter especialista em anúncios de lançamento imobiliário. Crie o roteiro de \"claim de pioneirismo regional em esquete\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK DE ESQUETE (0-8s): um encontro casual — \"tenho uma novidade pra te contar\"\n2. ACESSIBILIDADE/VALOR: o gancho de valor chocante (\"comprei pelo MCMV, R$X até a chave, com lazer completo\")\n3. O CLAIM DE PIONEIRISMO: o diferencial regional inédito (\"o primeiro/único [X] do [estado/região]\")\n4. LOCALIZAÇÃO: mais um diferencial (proximidade de algo desejável)\n5. CTA: central de vendas / simulação\n\n**Meus dados:**\n- Empreendimento + @: [NOME + @]\n- O claim de pioneirismo (verdadeiro): [O PRIMEIRO/ÚNICO X DA REGIÃO]\n- O gancho de valor: [MCMV / condição / R$X até a chave]\n- A localização: [PROXIMIDADE DE ALGO]\n- O CTA: [CENTRAL DE VENDAS / SIMULAÇÃO]\n\n**Regras de tom:**\n- O claim de pioneirismo tem que ser VERDADEIRO e verificável (é o diferencial imbatível)\n- A esquete precisa soar natural — o interlocutor cético reage pelo espectador\n- Dê destaque ao claim regional (é a estrela)\n- CTA concreto (central de vendas)\n\n**Entregue:**\n1. O roteiro da esquete (diálogo dos dois)\n2. As legendas de palavra-chave (o claim, a localização)\n3. A frase do claim de pioneirismo\n4. O CTA\n5. 5 hashtags",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **lançamento** que tem um diferencial regional inédito (o primeiro/único X da cidade/estado). O pioneirismo é um argumento que nenhum concorrente copia.\n- A esquete leve funciona bem pra MCMV e público amplo — desarma a rejeição a anúncio."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O CLAIM]:** o pioneirismo verdadeiro (\"primeiro parque linear do RN\"). Precisa ser real e verificável — é o diferencial-arma.\n- **[O VALOR]:** o gancho de acessibilidade (MCMV, R$X até a chave) que sustenta o interesse.\n- **[A ESQUETE]:** um interlocutor cético que se convence = prova social embutida."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o claim vier inflado:\n\n> \"Use só um pioneirismo verdadeiro e verificável. Claim falso destrói a credibilidade e vira anti-marketing. Se não há um 'primeiro/único', encontre outro diferencial real.\"\n\nSe a esquete vier forçada:\n\n> \"Deixe o diálogo natural — o amigo cético reage com surpresa genuína ('tá de brincadeira?'). A espontaneidade é o que desarma.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Claim falso/inflado** — precisa ser verdadeiro (é o diferencial imbatível).\n2. **Esquete forçada** — o diálogo tem que soar natural.\n3. **Enterrar o claim** — o pioneirismo regional é a estrela.\n4. **Sem CTA concreto** — a central de vendas/simulação vira lead."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Esquete de rua (dois atores, diálogo espontâneo). Legendas de palavra-chave (o claim, a localização).\n- Branding ao longo. Feche com CTA de central de vendas/simulação."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Anúncio de lançamento — o claim de pioneirismo dá um diferencial único e memorável, e a esquete desarma a rejeição a anúncio. A acessibilidade (R$X até a chave) converte o público de entrada. Destaque o \"primeiro/único da região\" — é o que ninguém copia."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -5630,7 +5777,40 @@
     "link": "https://www.facebook.com/ads/library/?id=643961122095269",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Vamos ter o primeiro parque linear do RN\" — o claim de pioneirismo regional dá ao lançamento um diferencial impossível de copiar, embrulhado numa esquete leve de \"adivinha a novidade\"."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-8s | Esquete: corretora encontra amigo na rua; legenda \"@soumirantes\" | \"Oi amigo! Tenho uma novidade pra te contar\" | Hook de esquete — o formato \"novidade\" cria curiosidade leve |\n| 8-25s | Diálogo | \"Comprei pelo Minha Casa Minha Vida, vou pagar 300 reais até a entrega da chave — com área de lazer completa!\" | Acessibilidade chocante (R$300 até a chave) — o gancho de valor |\n| 25-40s | Legenda \"linear\" | \"Vamos ter um parque linear, o segundo do Nordeste e o primeiro do Rio Grande do Norte\" | O CLAIM DE PIONEIRISMO — o diferencial regional inédito |\n| 40-52s | Legenda \"dois minutinhos\" | \"Bem pertinho da praia, dois minutinhos\" | Localização (mais um diferencial) |\n| 52-59s | Legenda \"A central de vendas / é maravilhoso\" | \"Como faz a simulação? A central de vendas é ali em frente. Bora que você terá todas as informações\" | CTA (central de vendas / simulação) |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O claim de pioneirismo é o diferencial-arma:** \"primeiro parque linear do RN, segundo do Nordeste\" — um superlativo regional que nenhum concorrente pode copiar.\n- **A esquete leve** (\"tenho uma novidade\") embrulha o pitch num diálogo natural — o amigo cético (\"tá de brincadeira?\") reage pelo espectador.\n- **Acessibilidade chocante** (\"R$300 até a entrega\") é o gancho de valor que sustenta o interesse.\n- **CTA concreto** (central de vendas / simulação) fecha."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Esquete de rua** (dois atores, diálogo espontâneo) — leveza que desarma o \"anúncio\".\n- **Legendas de palavra-chave** (linear, dois minutinhos) reforçam os diferenciais.\n- **Branding Mirantes** presente ao longo."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Diálogo de esquete** (pergunta/reação), ritmo de conversa animada.\n- A reação do \"amigo cético\" valida cada diferencial (prova social embutida)."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Pioneirismo / exclusividade** — \"o primeiro do estado\" é um diferencial único e memorável.\n2. **Acessibilidade chocante** — \"R$300 até a chave\" quebra a barreira do \"não é pra mim\".\n3. **Prova social embutida** — o amigo cético que se convence representa o espectador.\n4. **Localização** — \"2 min da praia\" agrega desejo.\n5. **Curiosidade (esquete)** — \"tenho uma novidade\" prende de forma leve."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Claim de pioneirismo falso/inflado — precisa ser verdadeiro e verificável (é o diferencial-arma).\n- ❌ Esquete forçada — o diálogo tem que soar natural, com a reação genuína do cético.\n- ❌ Enterrar o claim — o pioneirismo regional é a estrela; dê destaque.\n- ❌ Sem CTA concreto — a central de vendas/simulação transforma interesse em lead."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Ache seu claim de pioneirismo** (o \"primeiro/único [X] da região\") — verdadeiro e verificável.\n2. **Embrulhe numa esquete leve** (\"tenho uma novidade\") com um interlocutor cético.\n3. **Ancore no valor** (acessibilidade, MCMV, condição) como gancho.\n4. **Dê destaque ao claim regional** (a legenda, a ênfase) — é o diferencial imbatível.\n5. **Feche com CTA concreto** (central de vendas / simulação). Localização e prova social reforçam."
+     }
+    ],
     "transcricao": "Oi, amigo!\nE aí, tudo bem?\nTem uma novidade para te contar.\nJá, já eu estou aqui.\nSério?\nDisseram que aqui era só auto padrão.\nEu pensei nisso.\nVocê acredita, Isa?\nPois, tem novidade para te contar.\nE a novidade que eu queria te contar é que eu comprei por um preço super acessível.\nComprei pelo programa Minha Casa e Minha Vida e vou pagar para a construtora 300 reais até a entrega da chave.\nTu acredita?\n300 reais com essa área de lazer completa, Isa.\nTá de brincadeira.\nPois é, eu também duvidei.\nestá gigante inclusive vamos ter um parque linear o segundo do nordeste e o\nprimeiro do rio grande do norte sério isso aqui em março bem pertinho da praia\ndois minutinhos fiquei muito interessado como é que faz pra gente fazer a\nsimulação menina bem pertinho aqui é a central de vendas é ali em frente ao\ncaminho do mar vamos lá que você terá todas as informações uma área de lazer\ndessa é maravilhoso não vou perder não vou perder de jeito nenhum\nVamos embora, bora"
    }
   ],
