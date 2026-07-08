@@ -5379,19 +5379,19 @@
     "analise": [
      {
       "titulo": "Veredito em uma linha",
-      "corpo": "Um card que entrega tudo num olhar — foto forte do imóvel + preço + 3-4 bullets de destaque + CTA — pra qualificar o lead antes do clique."
+      "corpo": "Um card que resolve tudo num olhar — foto real do ambiente + título objetivo (\"APARTAMENTO SEMI MOBILIADO\", bairro Verona) + preço GIGANTE (R$296.500) + logo + código do imóvel — feito pra qualificar e mandar o lead direto pra listagem."
      },
      {
       "titulo": "Anatomia do card (por zona)",
-      "corpo": "| Zona | Elemento | Função |\n|---|---|---|\n| Imagem (fundo) | Foto mais vendedora do imóvel (fachada/ambiente-símbolo) | Para o scroll; é 70% do impacto |\n| Faixa/selo | Preço OU condição (\"a partir de R$X\", \"entrada facilitada\") | Qualifica e ancora o valor |\n| Bullets | 3-4 destaques (metragem, quartos, vagas, localização, diferencial) | Responde as dúvidas óbvias sem exigir clique |\n| Marca | Logo/nome da imobiliária + contato | Confiança e canal |\n| CTA | \"Saiba mais / Agende visita / Chame no WhatsApp\" | Direciona a ação |"
+      "corpo": "| Zona | Elemento (nesta peça) | Função |\n|---|---|---|\n| Topo | Título \"APARTAMENTO SEMI MOBILIADO\" + \"BAIRRO: VERONA\" | Diz o QUÊ e ONDE em 1 linha (qualifica) |\n| Fundo (imagem) | Foto real do living+cozinha integrados, aconchegante | Para o scroll; é ~70% do impacto |\n| Faixa inferior-esq. | **Preço em destaque gigante: R$296.500,00** | Ancora o valor e filtra o lead |\n| Rodapé-centro | Logo \"Lemes Imóveis\" | Confiança/marca |\n| Rodapé-dir. | Código do imóvel (JLA1522) | Ponte pra listagem (o lead busca/pergunta o código) |"
      },
      {
       "titulo": "Análise de copy",
-      "corpo": "- **A copy é escaneável, não corrida** — bullets curtos, não parágrafo. O leitor decide em 2 segundos.\n- **O preço/condição qualifica o lead** — quem clica já sabe a faixa, o que melhora o custo por lead qualificado.\n- **Hierarquia clara:** foto > preço > bullets > CTA. Cada elemento tem seu peso visual."
+      "corpo": "- **Copy mínima e escaneável** — título + bairro + preço. Nada de parágrafo; o card se decide em 2 segundos.\n- **O preço domina visualmente** (fonte enorme) — ancora o valor e qualifica quem clica (menos curioso, mais lead na faixa).\n- **Nesta peça NÃO há bullets** (metragem/quartos) — a aposta é foto forte + preço + código. Bullets são opcionais; ajudam quando o diferencial precisa ser dito, mas o mínimo (tipo + local + preço) já funciona.\n- **O código do imóvel** funciona como CTA implícito — direciona pra busca/atendimento."
      },
      {
       "titulo": "Análise de estética & imagem",
-      "corpo": "- **A foto é o hook** — precisa ser a melhor imagem do imóvel, bem iluminada.\n- **Contraste do texto sobre a foto** (faixa/caixa) garante leitura.\n- **Layout limpo** — respiro entre os blocos; nada de poluir com 10 informações."
+      "corpo": "- **Foto real e quente** (living + cozinha semi-mobiliada) — transmite \"pronto pra morar\", aconchego. É o hook.\n- **Hierarquia clara:** título no topo → foto ocupando o card → preço gigante → marca/código no rodapé.\n- **Contraste do texto** (branco sobre a foto, preço em bloco) garante leitura no feed.\n- **Layout limpo** — poucos elementos, respiro; nada de poluição."
      },
      {
       "titulo": "Áudio & ritmo",
@@ -5399,16 +5399,19 @@
      },
      {
       "titulo": "Gatilhos psicológicos",
-      "corpo": "1. **Clareza/escaneabilidade** — decisão instantânea reduz atrito.\n2. **Ancoragem de preço** — qualifica o lead e filtra curiosos.\n3. **Prova visual** — a foto boa gera desejo.\n4. **CTA único e direto** — sem dispersão."
+      "corpo": "1. **Clareza/escaneabilidade** — decisão instantânea reduz atrito.\n2. **Ancoragem de preço** — o número gigante qualifica e filtra curiosos.\n3. **Prova visual** — a foto boa gera desejo (\"já dá pra morar\").\n4. **Código/CTA** — dá o próximo passo objetivo."
      },
      {
       "titulo": "O que NÃO fazer",
-      "corpo": "- ❌ Poluir com informação demais — 3-4 bullets, não 10.\n- ❌ Foto ruim/escura — a imagem é 70% do anúncio.\n- ❌ Esconder o preço quando ele é competitivo — mostrá-lo qualifica.\n- ❌ CTA vago (\"veja mais\") sem canal claro — direcione pro WhatsApp/formulário."
+      "corpo": "- ❌ Poluir com informação demais — mínimo: tipo + local + preço (bullets só se agregarem).\n- ❌ Foto ruim/escura — a imagem é ~70% do anúncio.\n- ❌ Esconder o preço quando ele é competitivo — mostrá-lo (grande) qualifica.\n- ❌ Sem marca/código — o lead precisa de confiança e de um próximo passo."
      },
      {
       "titulo": "Como replicar",
-      "corpo": "1. **Escolha a melhor foto** do imóvel (fachada ou ambiente-símbolo, boa luz).\n2. **Defina o preço/condição** em faixa ou selo bem visível.\n3. **Liste 3-4 bullets** que respondem as dúvidas óbvias (metragem, quartos, vagas, local).\n4. **Coloque marca + CTA** com canal direto.\n5. **Mantenha a hierarquia:** foto > preço > bullets > CTA; layout limpo."
+      "corpo": "1. **Escolha a melhor foto** (ambiente-símbolo, boa luz, sensação de \"pronto pra morar\").\n2. **Título objetivo:** tipo do imóvel + condição + bairro.\n3. **Preço em DESTAQUE gigante** (ou condição, se o preço não for o argumento).\n4. **Logo + código** no rodapé (confiança + próximo passo).\n5. **Layout limpo**, hierarquia foto → preço → marca; adicione 2-3 bullets só se houver diferencial que valha dizer."
      }
+    ],
+    "slides": [
+     "slides/anuncio-estatico-foto-do-imovel-preco/1.jpg"
     ]
    }
   ],

@@ -392,7 +392,7 @@ function exemplosHTML(){
   const sel=cur.exemplos.length>1?`<div class="exrow">${cur.exemplos.map((e,i)=>`<button class="expill ${i===curEx?'on':''}" onclick="selEx(${i})">Exemplo ${i+1} · @${esc(e.criador)}</button>`).join("")}</div>`:"";
   const player=ex.driveId?`<div class="player"><iframe src="${drivePlay(ex.driveId)}" allow="autoplay; fullscreen" allowfullscreen></iframe></div>`
       :ex.localVid?`<div class="player"><video src="${ex.localVid}" controls playsinline preload="metadata"></video></div>`
-      :(ex.slides&&ex.slides.length)?`<div class="slides">${ex.slides.map((s,i)=>`<div class="slide"><img src="${s}" loading="lazy" alt="slide ${i+1}"><span class="slnum">${i+1}/${ex.slides.length}</span></div>`).join("")}</div><div class="slhint">← carrossel de fotos · arraste →</div>`
+      :(ex.slides&&ex.slides.length)?`<div class="slides">${ex.slides.map((s,i)=>`<div class="slide"><img src="${s}" loading="lazy" alt="slide ${i+1}">${ex.slides.length>1?`<span class="slnum">${i+1}/${ex.slides.length}</span>`:""}</div>`).join("")}</div><div class="slhint">${ex.slides.length>1?"← carrossel de fotos · arraste →":"imagem do anúncio"}</div>`
       :`<div class="player"><div class="novid">Sem vídeo${/photo/.test(ex.link||"")?" (carrossel de fotos)":""}.${ex.link?` <a class="src" href="${ex.link}" target="_blank" rel="noopener">ver original ↗</a>`:""}</div></div>`;
   const exmeta=`<div class="exmeta"><span>👤 <b>@${esc(ex.criador||"—")}</b></span>${ex.metrica&&ex.metrica!=="—"?`<span>📊 ${esc(ex.metrica)}</span>`:""}${ex.link?`<span><a class="src" href="${ex.link}" target="_blank" rel="noopener">post original ↗</a></span>`:""}</div>`;
   const hasAna=ex.analise&&ex.analise.length,hasTr=ex.temTranscricao;
