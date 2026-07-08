@@ -122,7 +122,33 @@
    "porque": "- **Humor de nicho = compartilhamento interno:** corretor marca corretor, o vídeo circula na tribo.\n- **Conexão por identificação:** mostra o corretor como gente que sofre as mesmas coisas — humaniza antes de vender.\n- **Produção sinaliza profissionalismo** sem precisar falar de si.",
    "aplicar": "- Escolha UMA dor universal do corretor (ou do comprador) e exagere em 3 cenas.\n- Versão comprador: \"os tipos de cliente numa visita de imóvel\".\n- Regra: a piada é COM o público, nunca deboche do cliente pagante.",
    "guia": "- Timing de corte é tudo — grave sobrando e enxugue na edição.\n- Áudio trend ou trilha ajuda; a fala pode ser mínima (o vídeo funciona no mudo).\n- CTA de comentário (\"marca alguém\") no texto da tela, não na venda.",
-   "prompt": "```\nVocê é roteirista de humor para conteúdo imobiliário. Crie uma esquete de 20-40s \"rotina do corretor\":\n1) CENA-GATILHO reconhecível; 2) 2-3 micro-cenas de escalada cômica exagerando uma dor real; 3) PUNCHLINE + CTA de marcar alguém.\nMEUS DADOS: Dor central: [ ]. Público (corretor/comprador): [ ]. Tom (deboche leve/absurdo): [ ].\nTOM: rir COM, não DE. Fala mínima, vídeo funciona no mudo.\nENTREGUE: 1) roteiro cena a cena; 2) texto de tela por cena; 3) sugestão de áudio trend; 4) legenda com CTA; 5) 5 hashtags.\n```"
+   "prompt": "```\nVocê é roteirista de humor para conteúdo imobiliário. Crie uma esquete de 20-40s \"rotina do corretor\":\n1) CENA-GATILHO reconhecível; 2) 2-3 micro-cenas de escalada cômica exagerando uma dor real; 3) PUNCHLINE + CTA de marcar alguém.\nMEUS DADOS: Dor central: [ ]. Público (corretor/comprador): [ ]. Tom (deboche leve/absurdo): [ ].\nTOM: rir COM, não DE. Fala mínima, vídeo funciona no mudo.\nENTREGUE: 1) roteiro cena a cena; 2) texto de tela por cena; 3) sugestão de áudio trend; 4) legenda com CTA; 5) 5 hashtags.\n```",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **humanização e conexão** — mostrar o corretor como pessoa real gera identificação e simpatia.\n- Ótimo pra **construir marca pessoal** (a assinatura visual + o tom)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[OS TIMESTAMPS]:** o dia real em horários. Inclua os momentos honestos e nada glamourosos (0 leads, espera, cancelamento) — é onde mora a identificação.\n- **[A IRONIA]:** o contraste que gera a piada (o flex × a realidade).\n- **[ASSINATURA VISUAL]:** um elemento recorrente (cor, objeto) que vira sua marca."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier só flex:\n\n> \"Equilibre o glamour com a honestidade cômica — a graça é a ironia (BMW × 0 leads). Puro flex vira arrogância e não conecta.\"\n\nSe propuser narração:\n\n> \"Sem narração — a copy vive nos cards de horário. Cada timestamp é uma micro-piada.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Puro flex sem ironia** — arrogante, não conecta.\n2. **Cenas longas** — o formato vive do ritmo rápido entre horários.\n3. **Fecho amargo** — termine leve/irônico, não reclamão.\n4. **Sem assinatura visual** — perde a construção de marca."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Micro-cenas de 5-6s por horário; rótulo de hora na tela em cada uma.\n- Assinatura visual recorrente (cor/objeto).\n- Música que dá ritmo; sem narração.\n- Arco: expectativa → frustração → ironia final."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto engajamento por identificação (comentários \"é exatamente meu dia\") + construção de marca pessoal. É conteúdo de conexão/topo — não é conversão direta, mas aquece a audiência e humaniza o corretor."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -132,7 +158,40 @@
     "link": "https://tiktok.com/@tiagocadore/video/7467301264175418629",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "O dia inteiro do corretor em timestamps na tela — com a ironia real embutida (flex do carro × \"NOVAS LEADS: 0\", cliente que cancela, financiamento reprovado) — que humaniza pela identificação e pelo humor."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-3s | Corretor de gravata verde rindo, café na mão, no quarto | \"Rotina de um Corretor de Imóveis\" | Hook: promete o \"dia real\" (e o tom leve) |\n| ~4-8s | Gaveta organizadora de meias | \"08:30 Pega meia\" | Micro-cena cotidiana (constrói o ritmo) |\n| ~8-12s | Volante da BMW, gravando story | \"08:45 Posta o volante da BM\" | Ironia do flex (a imagem × a realidade que vem) |\n| ~12-16s | Chegando na imobiliária | \"09:00 Chega na imobiliária\" | Rotina |\n| ~16-22s | Tela do PC: \"NOVAS LEADS: 0\" | \"09:30 Confere leads\" | Punchline: zero leads (a piada central) |\n| ~22-28s | Em pé na frente de uma casa | \"11:59 Cliente cancela\" | A frustração real do corretor |\n| ~28-34s | Tomando café dentro do carro | \"12:00 Toma café\" | Respiro cômico |\n| ~34-40s | Sorrindo no PC | \"13:35 Simula financiamento\" | Esperança… |\n| ~40-46s | Reação de frustração no PC | \"13:45 Cliente reprova\" | …quebrada (o crédito não passou) |\n| ~46-56s | Mexendo no celular na mesa | \"14:00 / 16:00 Espera cliente\" | O tédio da espera (repetição = piada) |\n| ~56-63s | Happy hour com amigos | \"18:00 Happy hour no crédito\" | Fecho irônico e leve |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A copy vive nos timestamps** — cada card de horário é uma micro-piada; não há narração.\n- **A estrutura é a montanha-russa real do corretor:** flex → 0 leads → cancelamento → esperança → reprovação → espera → happy hook irônico.\n- **O humor é autodepreciativo** — mostra o lado nada glamouroso, o que gera identificação (\"é exatamente isso\").\n- **O fecho (\"happy hour no crédito\")** amarra com ironia leve, sem amargura."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Gravata verde** como assinatura visual recorrente (branding pessoal).\n- **Cada cena rotulada com horário** — o timestamp organiza a narrativa e cria expectativa.\n- **Cenas curtas e variadas** (quarto, carro, escritório, rua) mantêm o ritmo."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Sem narração** — música conduz; o ritmo vem do corte entre timestamps. A leitura dos cards é o \"roteiro\"."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Identificação** — todo corretor reconhece o próprio dia (0 leads, cancelamento, espera).\n2. **Humor autodepreciativo** — desarma e humaniza (o oposto do flex vazio).\n3. **Ritmo de timestamps** — a curiosidade de \"o que vem no próximo horário\" segura.\n4. **Ironia** — o contraste (BMW × 0 leads) é a graça."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Puro flex sem ironia — vira arrogância; a graça é a honestidade cômica.\n- ❌ Narração explicando as piadas — os timestamps bastam.\n- ❌ Cenas longas demais — o formato vive do ritmo rápido entre horários.\n- ❌ Terminar amargo — o fecho é leve/irônico, não reclamão."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Liste seu dia real em timestamps** — inclua os momentos nada glamourosos (0 leads, espera, cancelamento).\n2. **Grave micro-cenas** de cada horário (5-6s cada), com um rótulo de hora na tela.\n3. **Costure o arco:** expectativa → frustração → ironia final.\n4. **Adote uma assinatura visual** (a gravata verde do exemplo) pra marca.\n5. **Feche leve** — uma piada final que humaniza, sem amargura."
+     }
+    ]
    }
   ],
   "num": 2
@@ -2250,7 +2309,33 @@
    "porque": "- **Inverte o senso comum** (preço não é o que importa) — para o scroll e ensina.\n- **Cada pergunta expõe uma armadilha real** com número (INCC +20%, multa de 50%) — utilidade que salva (64,5K saves).\n- **Autoridade nomeada** (advogada, 11 anos) + CTA de comentar caso = leads.",
    "aplicar": "- Corretor honesto pode fazer a versão \"o que perguntar antes de assinar\" — posiciona como aliado do comprador.\n- Cada pergunta ataca uma armadilha real (reajuste, distrato, contrato).\n- Ótimo para reciclar como anúncio educativo (já roda como ads).",
    "guia": "- Informação juridicamente correta e verificável (erro aqui é grave).\n- Uma armadilha por pergunta, sempre com número/consequência.\n- Segure a \"melhor\" pergunta pro fim (a promessa do hook).\n- CTA de comentar caso/dúvida → leads nos comentários.",
-   "prompt": "```\nVocê é especialista (corretor/advogado) protegendo o comprador. Crie um vídeo \"advertência — as X perguntas antes de assinar\":\n1) INVERSÃO + PROMESSA (0-10s): \"não pergunte [óbvio], pergunte isso — X perguntas, a última é a que mais salva\"; 2) cada PERGUNTA expõe uma armadilha real com número/consequência; 3) ASSINATURA de autoridade + CTA de comentar caso.\nMEUS DADOS: As X perguntas: [ ]. A armadilha por trás de cada uma (com número): [ ]. Minha credencial: [ ].\nTOM: autoridade que protege, técnico e verificável. Segurar a melhor pergunta pro fim. CTA de comentar caso.\nENTREGUE: 1) roteiro pergunta a pergunta com tempos; 2) legenda; 3) 5 hashtags; 4) resposta modelo pros comentários de casos.\n```"
+   "prompt": "```\nVocê é especialista (corretor/advogado) protegendo o comprador. Crie um vídeo \"advertência — as X perguntas antes de assinar\":\n1) INVERSÃO + PROMESSA (0-10s): \"não pergunte [óbvio], pergunte isso — X perguntas, a última é a que mais salva\"; 2) cada PERGUNTA expõe uma armadilha real com número/consequência; 3) ASSINATURA de autoridade + CTA de comentar caso.\nMEUS DADOS: As X perguntas: [ ]. A armadilha por trás de cada uma (com número): [ ]. Minha credencial: [ ].\nTOM: autoridade que protege, técnico e verificável. Segurar a melhor pergunta pro fim. CTA de comentar caso.\nENTREGUE: 1) roteiro pergunta a pergunta com tempos; 2) legenda; 3) 5 hashtags; 4) resposta modelo pros comentários de casos.\n```",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade** — posicionar você como o expert que protege o cliente (não o vendedor a qualquer custo).\n- Ótimo como **anúncio educativo** e como gerador de leads via comentários (\"comenta seu caso\")."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A INVERSÃO]:** \"não pergunte [o óbvio], pergunte isso\" + promessa numerada (\"são X perguntas, a última é a que mais salva\").\n- **[AS ARMADILHAS]:** cada ponto expõe um risco real do seu mercado, com número/consequência (reajuste, distrato, cláusula).\n- **[A CREDENCIAL]:** sua autoridade no fecho + \"comenta seu caso\"."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se os pontos vierem vagos:\n\n> \"Cada pergunta tem que expor uma armadilha CONCRETA com número/consequência (ex.: 'INCC corrige +20% antes das chaves'). Conselho vago não gera save.\"\n\nSe revelar cedo:\n\n> \"Guarde a 'melhor' pergunta pro fim — a promessa do hook ('a última é a que mais salva') é o que segura até o final.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Informação incorreta** — aqui o erro é grave (jurídico/financeiro); confirme a base.\n2. **Pontos vagos sem número** — cada um precisa de uma consequência concreta.\n3. **Revelar a melhor no começo** — mata a retenção.\n4. **Estética amadora** — a autoridade deste formato vem também do ambiente/figurino.\n5. **CTA de venda** — o CTA é \"comenta seu caso\" (gera lead sem parecer venda)."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Estética de autoridade: ambiente cuidado, figurino de especialista, luz quente.\n- Talking head em meia-figura, gestos marcados, legendas limpas.\n- Fala firme e articulada; sem música competindo.\n- Corte pontual pra detalhe de status, sem quebrar o fluxo."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Altíssimo salvamento e compartilhamento (o exemplo: 64,5K saves / 25,7K shares) — utilidade que economiza dinheiro se salva. Constrói autoridade e vira consultório nos comentários (leads). Roda bem como anúncio educativo de médio/longo prazo."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2733,7 +2818,33 @@
    "porque": "- **Subversão de formato:** o espectador reconhece o \"tour de imóvel\" e é pego pela quebra.\n- **Humor = compartilhamento** fora do público comprador (alcance amplo).\n- **O imóvel entra sem parecer anúncio** — associa a marca do corretor a leveza.",
    "aplicar": "- Comece um tour \"sério\" e quebre com um imprevisto roteirizado (o cachorro, o vizinho, a falha técnica).\n- O imóvel fica de cenário; a piada é o conteúdo.\n- Regra: a comédia não pode depreciar o imóvel nem o cliente.",
    "guia": "- O setup precisa parecer 100% um tour real (a quebra só funciona se enganar).\n- Timing de comédia; corte seco no plot twist.\n- Deixe o imóvel visível o tempo todo (venda subliminar).\n- Áudio/trend ajuda; fala mínima funciona.",
-   "prompt": "```\nVocê é roteirista de humor imobiliário. Crie um \"tour com plot twist\":\n1) SETUP sério (0-3s) — parece um tour de imóvel normal; 2) INTERRUPÇÃO cômica que subverte o formato; 3) ESCALADA da piada com o imóvel de cenário.\nMEUS DADOS: Imóvel: [ ]. O plot twist/imprevisto: [ ]. Tom (absurdo/constrangedor leve): [ ].\nTOM: o setup engana, a quebra surpreende. Comédia sem depreciar imóvel/cliente. Imóvel sempre visível.\nENTREGUE: 1) roteiro setup→twist→fecho; 2) texto de tela; 3) legenda; 4) 5 hashtags; 5) sugestão de áudio.\n```"
+   "prompt": "```\nVocê é roteirista de humor imobiliário. Crie um \"tour com plot twist\":\n1) SETUP sério (0-3s) — parece um tour de imóvel normal; 2) INTERRUPÇÃO cômica que subverte o formato; 3) ESCALADA da piada com o imóvel de cenário.\nMEUS DADOS: Imóvel: [ ]. O plot twist/imprevisto: [ ]. Tom (absurdo/constrangedor leve): [ ].\nTOM: o setup engana, a quebra surpreende. Comédia sem depreciar imóvel/cliente. Imóvel sempre visível.\nENTREGUE: 1) roteiro setup→twist→fecho; 2) texto de tela; 3) legenda; 4) 5 hashtags; 5) sugestão de áudio.\n```",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance e entretenimento** (topo de funil) — a surpresa viraliza fora da bolha imobiliária.\n- Quando você quer mostrar um imóvel **sem parecer anúncio** — a performance disfarça o tour."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O SETUP]:** a expectativa a ser quebrada (\"estava gravando um tour e aí…\"). Deixe o \"e aí…\" no ar.\n- **[A SUBVERSÃO]:** o inesperado — dança, mágica, um \"erro\" cômico, pet invadindo. Tem que surpreender de verdade.\n- **[O TOUR DISFARÇADO]:** garanta que a performance passe por todos os ambientes."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se propuser explicar a piada:\n\n> \"Não explique a surpresa em texto — o setup ('...e aí…') basta. A subversão tem que ser vista, não narrada.\"\n\nSe a subversão for morna:\n\n> \"A quebra de expectativa precisa ser genuinamente inesperada e bem executada — uma dança/performance ensaiada, não um gesto tímido. Se não surpreende, não é plot twist.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Explicar a piada** — mata a surpresa.\n2. **Cortes que quebram o take** — a fluidez contínua é o charme.\n3. **Performance fraca/mal ensaiada** — o twist não entrega.\n4. **Esquecer o imóvel** — a performance tem que atravessar os cômodos (é o tour)."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Take único contínuo seguindo a performance pela casa.\n- Casa vazia/clara vira palco; luz boa.\n- Setup fixo na tela o vídeo todo (adaptar o texto pro PT).\n- Música/coreografia ensaiada; assinatura visual (o tênis verde do exemplo)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance e compartilhamento (entretenimento puro) + mostra o imóvel inteiro sem cara de anúncio. Formato de topo/branding — exige ousadia e ensaio, mas o teto de viralização é alto. Adaptar o texto de setup do inglês pro português."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -2743,7 +2854,40 @@
     "link": "https://instagram.com/p/C_nnk9Ox0CI",
     "en": true,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Estava gravando um tour e aí…\" — a expectativa de um tour comum é quebrada por uma dança que atravessa a casa inteira; a surpresa é o hook e o imóvel aparece de brinde."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-2s | Fachada; corretor andando normal em direção à casa | \"Was filming a house tour today and then…\" (fixo o vídeo todo) | Setup: prepara um tour normal (a expectativa a ser quebrada) |\n| ~2-4s | Ele começa a dançar já no caminho da entrada | (música) | O plot twist: a performance inesperada começa |\n| ~4-12s | Dança atravessando entrada, sala, cozinha, ilha, sala ampla (pulos, braços pro alto) | (música/coreografia) | A performance É o tour — cada cômodo aparece pela dança |\n| ~12-15s | Sai dançando pro deck externo | (música) | Fecho de energia, mostrando a área externa |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A copy é só o setup fixo** (\"was filming a house tour and then…\") — abre um loop de expectativa que o vídeo subverte.\n- **Não há mais texto** — a surpresa carrega tudo; explicar mataria o efeito.\n- **O \"and then…\" é o motor** — a reticência promete que algo inesperado vem."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Take único contínuo** seguindo a dança pela casa — a fluidez impressiona.\n- **A casa vazia e clara** vira \"palco\" — o imóvel aparece 100% enquanto ele dança.\n- **Detalhe de marca:** tênis/solado verde (assinatura visual recorrente)."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Sem fala** — a música e a coreografia são o conteúdo (transcrição mínima: \"3, 2, 1, GO!\"). O ritmo é ditado pela dança, não por cortes."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Quebra de expectativa** — o cérebro para pra entender a subversão do \"tour normal\".\n2. **Entretenimento puro** — a dança diverte e gera compartilhamento (viraliza fora da bolha).\n3. **Loop do \"and then…\"** — a reticência segura até o payoff.\n4. **Tour disfarçado** — mostra o imóvel inteiro sem parecer anúncio."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Explicar a piada em texto — a surpresa É o formato.\n- ❌ Cortes que quebram o take — a fluidez da performance contínua é o charme.\n- ❌ Coreografia mal ensaiada — se a performance for fraca, o plot twist não entrega.\n- ❌ Esquecer de mostrar o imóvel — a dança tem que passar por todos os ambientes."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escreva o setup de expectativa:** \"estava gravando um tour e aí…\" (deixe o \"e aí…\" no ar).\n2. **Escolha a subversão** — dança, mágica, um \"erro\" cômico, um pet invadindo. Algo inesperado.\n3. **Ensaie um take único** em que a performance atravessa todos os cômodos (o tour disfarçado).\n4. **Deixe o texto de setup fixo** e não explique mais nada.\n5. **Adote uma assinatura visual** (o tênis verde) e feche com energia."
+     }
+    ]
    }
   ],
   "num": 29
@@ -2872,7 +3016,33 @@
    "porque": "- **Número de autoridade** (\"90%\") legitima a tese logo de cara.\n- **Eliminar alternativas** cria suspense e derruba as objeções do espectador (ele pensa \"então é o quê?\").\n- **Posiciona o imóvel como o caminho comprovado** dos ricos — desejo + autoridade.",
    "aplicar": "- Qualquer estatística de patrimônio/valorização como hook, seguida da eliminação e da revelação.\n- Variações: \"o ativo que mais protegeu da inflação nos últimos 20 anos…\", \"onde os ricos guardam dinheiro em crise…\".\n- Sempre com fonte verificável (a estatística vai ser questionada).",
    "guia": "- A estatística precisa de fonte real — cite na legenda.\n- A eliminação (3-4 \"não foi\") é o motor de retenção; não pule.\n- Revele só depois de eliminar as alternativas.\n- Feche com um caminho prático (\"como começar com R$X\").",
-   "prompt": "```\nVocê é roteirista de conteúdo imobiliário de autoridade. Crie um vídeo \"estatística como hook\":\n1) ESTATÍSTICA-ÂNCORA (0-3s): \"[X]% dos [ricos/milionários] [feito]…\"; 2) ELIMINAÇÃO de 3-4 alternativas óbvias (\"não foi X, não foi Y…\"); 3) REVELAÇÃO: o mercado imobiliário; 4) DESDOBRAMENTO + CTA.\nMEUS DADOS: Estatística + fonte: [ ]. Alternativas a eliminar: [ ]. O caminho prático: [ ].\nTOM: autoridade, suspense pela eliminação. Fonte verificável na legenda.\nENTREGUE: 1) roteiro; 2) sequência de eliminação; 3) legenda com fonte; 4) 5 hashtags; 5) CTA prático.\n```"
+   "prompt": "```\nVocê é roteirista de conteúdo imobiliário de autoridade. Crie um vídeo \"estatística como hook\":\n1) ESTATÍSTICA-ÂNCORA (0-3s): \"[X]% dos [ricos/milionários] [feito]…\"; 2) ELIMINAÇÃO de 3-4 alternativas óbvias (\"não foi X, não foi Y…\"); 3) REVELAÇÃO: o mercado imobiliário; 4) DESDOBRAMENTO + CTA.\nMEUS DADOS: Estatística + fonte: [ ]. Alternativas a eliminar: [ ]. O caminho prático: [ ].\nTOM: autoridade, suspense pela eliminação. Fonte verificável na legenda.\nENTREGUE: 1) roteiro; 2) sequência de eliminação; 3) legenda com fonte; 4) 5 hashtags; 5) CTA prático.\n```",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade + desejo** — posicionar o imóvel como o \"caminho comprovado dos ricos\".\n- Formato de **isca de topo** (alcance) que também aquece pra conversão."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A ESTATÍSTICA]:** um número alto e redondo, COM fonte real (\"90% dos milionários…\", \"o ativo que mais valorizou em 20 anos…\").\n- **[AS ELIMINAÇÕES]:** 3-5 alternativas óbvias pra derrubar em sequência (ações, cripto, NFT, empreendedorismo…).\n- **[O B-ROLL]:** imagens aspiracionais fortes (mansões, cidade) que sustentem a tese de \"riqueza real\"."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se revelar cedo:\n\n> \"Não revele 'mercado imobiliário' antes de eliminar as alternativas — a eliminação em sequência É o motor de retenção.\"\n\nSe a estatística vier solta:\n\n> \"Toda estatística precisa de fonte (cite na legenda) — o número vai ser questionado nos comentários.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Revelar antes de eliminar** — mata o suspense.\n2. **Estatística sem fonte** — perde credibilidade.\n3. **B-roll fraco/genérico** — a tese de \"milionários\" precisa de imagens que sustentem.\n4. **Eliminar só 1 alternativa** — a força está na sequência (3-5 \"não foi\")."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- B-roll aspiracional (mansões, aéreo da cidade) numa escalada de desejo.\n- Texto branco em negrito; ❌ vermelho nas eliminações → ✅ verde na revelação.\n- Narração/música com ritmo de suspense (uma alternativa por vez).\n- Enxuto (~15s); fonte na legenda + CTA de \"como começar\"."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Bom alcance e salvamento (autoridade numérica + desejo). Funciona como isca de topo e como anúncio. Variações fortes: \"o ativo que mais protegeu da inflação em 20 anos\", \"onde os ricos guardam dinheiro em crise\"."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -3747,7 +3917,33 @@
    "porque": "- **Transparência do PRÓPRIO bolso** (não de cliente) é o que mais gera confiança — não tem interesse de venda aparente.\n- **Números reais respondem a curiosidade universal** (\"quanto custa de verdade?\") — salva e compartilha (2.871 saves).\n- **Prova por vivência:** quem comprou fala com autoridade de quem passou pelo processo.",
    "aplicar": "- Corretor pode mostrar a própria compra/investimento com transparência total.\n- Ou fazer com um cliente disposto a expor os números (com autorização).\n- Versão série: \"quanto custa manter esse apê\" (condomínio, IPTU, luz).",
    "guia": "- Números 100% reais e honestos — o público detecta maquiagem.\n- Inclua o desconfortável (o que custou mais, o que se arrependeu).\n- Tom de \"compartilhando minha experiência\", não de venda.\n- Funciona melhor de quem realmente comprou (autenticidade).",
-   "prompt": "```\nVocê é comprador/corretor mostrando transparência financeira. Crie um vídeo \"quanto custou de verdade\":\n1) PERGUNTA + PRÓPRIA COMPRA (0-5s): \"quanto pagamos no nosso [imóvel]?\"; 2) FICHA + números reais (metragem, quando, valor); 3) DESDOBRAMENTO honesto (parcelas, condições, o que achou).\nMEUS DADOS: Imóvel + ficha: [ ]. Valores reais (compra, parcela, custos): [ ]. O desconfortável honesto: [ ].\nTOM: transparência total, \"minha experiência\". Números reais, incluir o desconfortável. Sem cara de venda.\nENTREGUE: 1) roteiro; 2) os números a mostrar; 3) legenda; 4) 5 hashtags; 5) próximos temas da série (\"quanto custa manter\").\n```"
+   "prompt": "```\nVocê é comprador/corretor mostrando transparência financeira. Crie um vídeo \"quanto custou de verdade\":\n1) PERGUNTA + PRÓPRIA COMPRA (0-5s): \"quanto pagamos no nosso [imóvel]?\"; 2) FICHA + números reais (metragem, quando, valor); 3) DESDOBRAMENTO honesto (parcelas, condições, o que achou).\nMEUS DADOS: Imóvel + ficha: [ ]. Valores reais (compra, parcela, custos): [ ]. O desconfortável honesto: [ ].\nTOM: transparência total, \"minha experiência\". Números reais, incluir o desconfortável. Sem cara de venda.\nENTREGUE: 1) roteiro; 2) os números a mostrar; 3) legenda; 4) 5 hashtags; 5) próximos temas da série (\"quanto custa manter\").\n```",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **confiança + alcance** — abrir os números reais do próprio bolso (ou de um cliente que autorize) remove o interesse de venda aparente e maximiza a credibilidade.\n- Gera muito **compartilhamento** via a pergunta-debate (\"caro ou barato?\")."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O HOOK-PERGUNTA]:** \"quanto pagamos no nosso [imóvel]?\".\n- **[A FICHA]:** metragem, quartos, quando comprou — ANTES do preço (cria expectativa).\n- **[O NÚMERO REAL]:** o valor exato + data (dá pra checar valorização).\n- **[A PERGUNTA-DEBATE]:** \"achou caro ou barato?\" no fim."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se propuser maquiar o número:\n\n> \"Use o valor REAL e exato — o público detecta arredondamento e a confiança cai. A honestidade é o produto.\"\n\nSe revelar o preço cedo:\n\n> \"Mostre a ficha (o que o dinheiro comprou) ANTES do preço — o espectador forma uma expectativa e o número no fim vira o payoff.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Maquiar o número** — quebra a confiança.\n2. **Revelar o preço no começo** — perde a expectativa.\n3. **Estética de venda/anúncio** — o valor é ser \"o casal/pessoa real\", não o corretor.\n4. **Não pedir opinião** — \"caro ou barato?\" é o que multiplica o share."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- POV em 1ª pessoa (mão abrindo a porta), câmera na mão, luz natural — vibe vlog caseiro.\n- Imóvel decorado real (aspiracional-mas-alcançável).\n- Narração própria (voz autêntica) + som ambiente.\n- Preço só no fim + pergunta; responda os comentários (crowdsourcing de mercado)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto compartilhamento (o exemplo: 2.690 shares) — a transparência + a enquete viralizam. Constrói confiança e autoridade sem parecer venda. Versão-série forte: \"quanto custa MANTER esse apê\" (condomínio, IPTU, luz)."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -3825,7 +4021,33 @@
    "porque": "- **Disseca UM caso real com TODOS os números** — a transparência total é rara e valiosíssima (2.500 saves).\n- **Expõe as armadilhas escondidas** (INCC, parcela anual, ITBI, contrapiso) que \"ninguém conta\".\n- **Ancora na objeção real** do público (classe média com medo de furada).",
    "aplicar": "- Pegue um caso real (cliente/próprio) e mostre TODOS os custos de um processo, sem esconder nada.\n- Formato react (print/anúncio em cima, você comentando embaixo) ou narração com números na tela.\n- Serve pra QUALQUER processo com custos escondidos: planta, financiamento, leilão.",
    "guia": "- Números reais e completos — o valor é justamente não esconder nada.\n- Nomeie cada custo escondido (INCC, ITBI, parcela balão, contrapiso).\n- Conclusão prática e honesta (quando vale, quando não vale).\n- CTA de \"comenta sua experiência\" gera debate e leads.",
-   "prompt": "```\nVocê é analista imobiliário dissecando um caso real. Crie um vídeo \"custos reais de [processo]\":\n1) DÚVIDA + ARMADILHA (0-15s): a objeção nº1 + a ilusão que engana (\"a placa de parcela a partir de R$X\"); 2) CASO REAL número a número, expondo TODOS os custos escondidos; 3) CONCLUSÃO honesta + CTA de comentar experiência.\nMEUS DADOS: O processo: [ ]. Caso real com todos os números: [ ]. Custos escondidos a nomear: [ ]. Público: [ ].\nTOM: transparência total, \"peguei um caso real\". Nomear cada custo escondido. Conclusão honesta.\nENTREGUE: 1) roteiro número a número; 2) textos de tela dos valores; 3) legenda; 4) 5 hashtags; 5) CTA.\n```"
+   "prompt": "```\nVocê é analista imobiliário dissecando um caso real. Crie um vídeo \"custos reais de [processo]\":\n1) DÚVIDA + ARMADILHA (0-15s): a objeção nº1 + a ilusão que engana (\"a placa de parcela a partir de R$X\"); 2) CASO REAL número a número, expondo TODOS os custos escondidos; 3) CONCLUSÃO honesta + CTA de comentar experiência.\nMEUS DADOS: O processo: [ ]. Caso real com todos os números: [ ]. Custos escondidos a nomear: [ ]. Público: [ ].\nTOM: transparência total, \"peguei um caso real\". Nomear cada custo escondido. Conclusão honesta.\nENTREGUE: 1) roteiro número a número; 2) textos de tela dos valores; 3) legenda; 4) 5 hashtags; 5) CTA.\n```",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **autoridade por transparência** — dissecar TODOS os custos de um caso real vira você na fonte confiável do nicho.\n- Gera **leads qualificados** (quem assiste 3 min de custos está realmente considerando comprar) e muito save."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O CASO REAL]:** um cliente (com autorização) ou você mesmo, com nome e números reais.\n- **[A ISCA DO MERCADO]:** a promessa que ilude (\"parcela a partir de R$800\").\n- **[OS CUSTOS]:** cada um nomeado (entrada, parcela-balão, parcela anual, INCC, ITBI, cartório, contrapiso).\n- **[A CONCLUSÃO HONESTA]:** quando vale / quando não vale."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se sugerir esconder um custo:\n\n> \"Não simplifique escondendo custo — o valor É a completude. Faltar um item quebra a confiança que sustenta o formato.\"\n\nSe virar anti-produto raivoso:\n\n> \"A conclusão tem que ser equilibrada (quando vale, quando não). Hater perde autoridade; consultor honesto ganha.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Esconder algum custo** — a completude é o valor.\n2. **Virar anti-planta raivoso** — feche equilibrado.\n3. **Caso genérico/inventado** — sem nome e números reais, perde o peso.\n4. **Cortar a duração** — aqui o vídeo longo É o filtro de qualificação.\n5. **Números sem b-roll de prova** — a placa, a planilha e o imóvel vazio tornam irrefutável."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Estúdio de podcast (mic, luz ambiente) = \"canal sério de análise\".\n- Números em VERMELHO na tela (custo/alerta); legenda branca pra fala.\n- Intercale b-roll de prova (print da simulação, planilha do INCC, apê no contrapiso).\n- Voz didática, ritmo de aula-enxuta; deixe longo (filtra o lead certo)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto salvamento e comentários (o exemplo: 2.500 saves / 480 comentários) — utilidade + debate. Lead altamente qualificado. Adaptação pró-corretor: o mesmo raio-X \"os custos reais, e por que ainda assim compensa neste caso\" — honestidade que vende mais que esconder."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -5118,7 +5340,33 @@
    "porque": "- **Produção quase zero + longevidade** = o criativo mais barato e durável do arsenal.\n- **Preço na imagem qualifica o clique:** quem clica já aceitou o valor.\n- **Imagem estática não fadiga** como vídeo — roda meses sem trocar.",
    "aplicar": "- Todo imóvel de portfólio vira um estático: foto + preço + bullets.\n- Teste 2-3 fotos diferentes (fachada vs ambiente) pra achar a que converte.\n- Ideal pra rodar constante e barato como base de conversão.",
    "guia": "- Uma foto forte só; preço grande; máximo 4 bullets.\n- Preço visível SEMPRE (filtra e qualifica).\n- Testar variações de foto/headline; manter o que tem melhor custo por lead.\n- Card do link com a ficha técnica completa.",
-   "prompt": "```\nVocê é designer/copywriter de anúncio estático imobiliário. Crie um anúncio de imagem única:\nElementos: 1) foto forte do imóvel; 2) preço em destaque; 3) 3-4 bullets de característica essencial; 4) CTA \"agende visita\".\nMEUS DADOS: Imóvel + melhor foto: [ ]. Preço: [ ]. 4 specs essenciais: [ ]. Imobiliária/CTA: [ ].\nTOM: clareza total, preço visível, produção mínima. Um só criativo que roda meses.\nENTREGUE: 1) layout descrito (o que vai onde); 2) headline + preço; 3) os 4 bullets; 4) copy do anúncio; 5) 2 variações de foto pra testar.\n```"
+   "prompt": "```\nVocê é designer/copywriter de anúncio estático imobiliário. Crie um anúncio de imagem única:\nElementos: 1) foto forte do imóvel; 2) preço em destaque; 3) 3-4 bullets de característica essencial; 4) CTA \"agende visita\".\nMEUS DADOS: Imóvel + melhor foto: [ ]. Preço: [ ]. 4 specs essenciais: [ ]. Imobiliária/CTA: [ ].\nTOM: clareza total, preço visível, produção mínima. Um só criativo que roda meses.\nENTREGUE: 1) layout descrito (o que vai onde); 2) headline + preço; 3) os 4 bullets; 4) copy do anúncio; 5) 2 variações de foto pra testar.\n```",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **conversão direta** com baixo custo de produção — não precisa filmar, só uma boa foto + arte.\n- Quando o imóvel tem um **preço/condição competitivo** que vale destacar pra qualificar o lead.\n- Ótimo pra escalar teste de imóveis (troca a foto/preço e roda vários)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[A FOTO]:** a melhor imagem do imóvel — é 70% do resultado. Fachada ou ambiente-símbolo, boa luz.\n- **[PREÇO/CONDIÇÃO]:** faixa ou selo visível (\"a partir de R$X\", \"entrada facilitada\").\n- **[3-4 BULLETS]:** os destaques que respondem as dúvidas óbvias (metragem, quartos, vagas, local).\n- **[CTA]:** ação + canal (WhatsApp/formulário)."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se vier texto corrido:\n\n> \"Transforme em 3-4 bullets escaneáveis — o card se decide em 2 segundos, não é pra ler parágrafo.\"\n\nSe poluir de informação:\n\n> \"Corte pra no máximo 4 destaques. Hierarquia: foto > preço > bullets > CTA. Excesso mata a clareza.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Foto ruim/escura** — é 70% do anúncio.\n2. **Informação demais** — 3-4 bullets, não 10.\n3. **Esconder preço competitivo** — mostrá-lo qualifica o lead.\n4. **CTA vago** — direcione pro canal (WhatsApp/formulário)."
+    },
+    {
+     "titulo": "Produção",
+     "corpo": "- Arte limpa: foto de fundo + faixa de preço + bullets + logo + CTA.\n- Contraste do texto sobre a foto (caixa/faixa) pra leitura.\n- Formatos: 1:1 (feed) e 9:16 (stories/reels).\n- Teste variações de foto e de preço/condição."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Custo por lead baixo quando a foto e a oferta são fortes; o preço no card qualifica (menos curioso, mais lead quente). É o cavalo de batalha do tráfego imobiliário de conversão — barato de produzir e fácil de escalar/testar. Asset viewable na Biblioteca de Anúncios do Meta (não baixável)."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -5128,7 +5376,40 @@
     "link": "",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um card que entrega tudo num olhar — foto forte do imóvel + preço + 3-4 bullets de destaque + CTA — pra qualificar o lead antes do clique."
+     },
+     {
+      "titulo": "Anatomia do card (por zona)",
+      "corpo": "| Zona | Elemento | Função |\n|---|---|---|\n| Imagem (fundo) | Foto mais vendedora do imóvel (fachada/ambiente-símbolo) | Para o scroll; é 70% do impacto |\n| Faixa/selo | Preço OU condição (\"a partir de R$X\", \"entrada facilitada\") | Qualifica e ancora o valor |\n| Bullets | 3-4 destaques (metragem, quartos, vagas, localização, diferencial) | Responde as dúvidas óbvias sem exigir clique |\n| Marca | Logo/nome da imobiliária + contato | Confiança e canal |\n| CTA | \"Saiba mais / Agende visita / Chame no WhatsApp\" | Direciona a ação |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **A copy é escaneável, não corrida** — bullets curtos, não parágrafo. O leitor decide em 2 segundos.\n- **O preço/condição qualifica o lead** — quem clica já sabe a faixa, o que melhora o custo por lead qualificado.\n- **Hierarquia clara:** foto > preço > bullets > CTA. Cada elemento tem seu peso visual."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **A foto é o hook** — precisa ser a melhor imagem do imóvel, bem iluminada.\n- **Contraste do texto sobre a foto** (faixa/caixa) garante leitura.\n- **Layout limpo** — respiro entre os blocos; nada de poluir com 10 informações."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- Não se aplica (imagem estática)."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Clareza/escaneabilidade** — decisão instantânea reduz atrito.\n2. **Ancoragem de preço** — qualifica o lead e filtra curiosos.\n3. **Prova visual** — a foto boa gera desejo.\n4. **CTA único e direto** — sem dispersão."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Poluir com informação demais — 3-4 bullets, não 10.\n- ❌ Foto ruim/escura — a imagem é 70% do anúncio.\n- ❌ Esconder o preço quando ele é competitivo — mostrá-lo qualifica.\n- ❌ CTA vago (\"veja mais\") sem canal claro — direcione pro WhatsApp/formulário."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escolha a melhor foto** do imóvel (fachada ou ambiente-símbolo, boa luz).\n2. **Defina o preço/condição** em faixa ou selo bem visível.\n3. **Liste 3-4 bullets** que respondem as dúvidas óbvias (metragem, quartos, vagas, local).\n4. **Coloque marca + CTA** com canal direto.\n5. **Mantenha a hierarquia:** foto > preço > bullets > CTA; layout limpo."
+     }
+    ]
    }
   ],
   "num": 54

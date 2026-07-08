@@ -114,7 +114,7 @@ for pid, md in meta.items():
                     rel.append(f"slides/{e['slug']}/{i}.jpg")
                 ex["slides"] = rel
             e["exemplos"].append(ex)
-        # prompt profundo APROVADO + guia de uso (do primeiro exemplo que tiver 03-prompt-replicacao/)
+        # prompt profundo APROVADO (do primeiro exemplo que tiver prompt.md)
         for exdir in exdirs:
             pp = os.path.join(exdir, "03-prompt-replicacao", "prompt.md")
             if os.path.exists(pp):
@@ -123,10 +123,13 @@ for pid, md in meta.items():
                 body = "\n".join(raw[idx+1:]).strip() if idx is not None else "\n".join(raw).strip()
                 if body:
                     e["formato"]["prompt"] = body
-                gp = os.path.join(exdir, "03-prompt-replicacao", "guia-de-uso.md")
-                if os.path.exists(gp):
-                    e["formato"]["guiaPrompt"] = [{"titulo": t, "corpo": c}
-                                                  for t, c in parse_sections(open(gp, encoding="utf-8").read())]
+                break
+        # guia de uso (do primeiro exemplo que tiver guia-de-uso.md) — independente do prompt.md
+        for exdir in exdirs:
+            gp = os.path.join(exdir, "03-prompt-replicacao", "guia-de-uso.md")
+            if os.path.exists(gp):
+                e["formato"]["guiaPrompt"] = [{"titulo": t, "corpo": c}
+                                              for t, c in parse_sections(open(gp, encoding="utf-8").read())]
                 break
     out.append(e)
 
