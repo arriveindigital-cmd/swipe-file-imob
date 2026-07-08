@@ -2248,9 +2248,9 @@
   "id": "A25",
   "tipo": "organico",
   "nome": "Números na Tela",
-  "exemplo": "Diego Vieira",
-  "link": "https://tiktok.com/@diegovieiracorretor/video/7590951885239012616",
-  "metrica": "—",
+  "exemplo": "mardoniorego.corretor",
+  "link": "https://tiktok.com/@mardoniorego.corretor/video/7534344740750281990",
+  "metrica": "21,1K likes / 3.378 saves",
   "plataforma": "TikTok",
   "status": "confirmado",
   "objetivos": [
@@ -2269,17 +2269,78 @@
    "porque": "- **Número grande = parada de scroll instantânea** — não precisa de narração.\n- **Empilhar specs** cria sensação de \"isso é surreal\" que compartilha.\n- **B-roll bonito** dá lastro visual aos números.",
    "aplicar": "- Qualquer imóvel com um número impressionante (metragem, valor, vagas, altura).\n- Empilhe 3 números fortes na abertura.\n- Funciona pra alto padrão E pra \"número surpreendente\" de baixo padrão (\"R$149 mil / 2 quartos / pronto pra morar\").",
    "guia": "- Os 3 números têm que ser os mais impressionantes, grandes e legíveis no 1º frame.\n- B-roll estável e bonito; música que valoriza.\n- Sem narração; os números + a imagem bastam.\n- CTA discreto no fim.",
-   "prompt": "```\nVocê é editor(a) de conteúdo imobiliário. Crie um vídeo \"números como hook\":\n1) NÚMEROS-CHOQUE na tela (0-3s): 3 specs de maior impacto (m²/R$/suítes/vagas); 2) B-ROLL cinematográfico que prova os números; 3) CTA/assinatura.\nMEUS DADOS: Imóvel: [ ]. Os 3 números mais impressionantes: [ ]. Contato/CTA: [ ].\nTOM: escala, impacto, sem fala. Números grandes e legíveis no 1º frame.\nENTREGUE: 1) os 3 números da capa; 2) shot list do b-roll; 3) legenda; 4) 5 hashtags; 5) CTA.\n```"
+   "prompt": "Você é um copywriter especialista em hooks de retenção para imóveis. Crie um roteiro de \"número como hook\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. NÚMERO-HOOK NA TELA (0-4s): o dado bruto (R$, m², spec absurdo) em DESTAQUE grande na tela\n2. PERGUNTA-LOOP: \"sabe o que tem dentro de [número]?\" — abre a curiosidade\n3. O TOUR: o desejo/voyeurismo que o número prometeu\n4. SPECS/FECHO: detalhes extras na legenda\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O número impressionante: [R$ / METRAGEM / SPEC ABSURDO]\n- O imóvel: [DESCRIÇÃO CURTA]\n- Specs pra legenda: [METRAGEM, SUÍTES, ETC.]\n\n**Regras de tom:**\n- O número TEM que estar em DESTAQUE na TELA (não só na legenda) — é a isca\n- Escolha o número MAIS impressionante do imóvel\n- Abra um loop com a pergunta e ENTREGUE no tour\n- Sem número visível = vira só b-roll estético (não é este formato)\n\n**Entregue:**\n1. 3 opções de texto de tela com o número (formatação/destaque sugeridos)\n2. A pergunta-loop de abertura\n3. Roteiro do tour (a entrega)\n4. Legenda com specs + 5 hashtags\n5. 3 variações do número-hook pra testar qual retém mais",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **parar o scroll** com um imóvel que tem um número impressionante (preço alto, metragem absurda, spec raro).\n- Ótima **isca de topo** (alcance) que também gera desejo e leads pro imóvel."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O NÚMERO]:** o dado MAIS impressionante do imóvel. Preço, metragem, \"5 suítes\", \"elevador privativo\" — o que causar mais choque.\n- **[O TOUR]:** o que o número prometeu. Se disse \"17 milhões\", mostre por que vale isso."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o número ficar escondido:\n\n> \"O número TEM que aparecer em DESTAQUE na tela nos primeiros segundos — grande, legível. Ele é a isca; na legenda só não para o scroll.\"\n\nSe o tour não entregar:\n\n> \"O tour precisa entregar 'o que tem dentro' do número prometido — o loop aberto sem payoff frustra e derruba a retenção.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Número só na legenda** — tem que estar na TELA.\n2. **Número morno** — precisa impressionar de verdade.\n3. **Loop sem payoff** — prometeu, entregue no tour.\n4. **B-roll sem número** — aí é tour estético, não este formato."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Tour cinematográfico (drone + interiores).\n- Número em destaque dourado/grande logo na abertura, sempre legível.\n- Narração que abre o loop (\"sabe o que tem dentro de…\") + música no tour."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance e salvamento (o número absurdo + voyeurismo) — 3.378 saves no exemplo. Funciona como isca orgânica de topo e como anúncio (o número é um hook de scroll poderoso). O loop da pergunta segura a retenção até o fim."
+    }
+   ]
   },
   "exemplos": [
    {
-    "criador": "diegovieiracorretor",
-    "driveId": "1I8vkh0tTvUMKJWTzPv2KmX02rIbUwU-Q",
-    "metrica": "—",
-    "link": "https://tiktok.com/@diegovieiracorretor/video/7590951885239012616",
+    "criador": "mardoniorego",
+    "driveId": "",
+    "metrica": "21,1K likes / 3.378 saves",
+    "link": "https://tiktok.com/@mardoniorego.corretor/video/7534344740750281990",
     "en": false,
-    "temTranscricao": false,
-    "analise": []
+    "temTranscricao": true,
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"MANSÃO 17 MILHÕES\" em dourado gigante na tela — o número absurdo é a isca que para o scroll, e o tour entrega o voyeurismo que o número prometeu."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Fachada da mansão; texto \"MANSÃO **17 MILHÕES** — CIDADE ALPHAVILLE\" (dourado gigante) | \"Sabe o que tem dentro de uma mansão de 17 milhões? Me acompanha e você vai conhecer cada detalhe\" | Hook: o número (17 milhões) em DESTAQUE na tela + pergunta que abre o loop |\n| 4-30s | Living pé-direito alto, escada dourada, piscina, área gourmet | (narração/tour) | O tour — o desejo que o número prometeu |\n| 30-43s | Aérea, fachada de vidro dourado | (fecho) | Fecho + specs na legenda (metragem, suítes) |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O número é a estrela — e está NA TELA**, não escondido na legenda. \"17 MILHÕES\" em dourado gigante para o scroll.\n- **A pergunta abre o loop** (\"sabe o que tem dentro?\") — a curiosidade segura até o fim.\n- **O tour entrega o voyeurismo** que o número prometeu.\n- **Specs adicionais na legenda** (metragem, nº de suítes) alimentam quem quer os detalhes."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Número dourado grande** na capa/tela — a informação-âncora sempre visível.\n- **Tour cinematográfico** da mansão (drone + interiores de luxo).\n- **Som original / narração** conduz."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração no hook** (\"sabe o que tem dentro…\") + tour com música — o loop da pergunta segura a retenção."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Ancoragem de número absurdo** — \"17 milhões\" para o scroll na hora.\n2. **Voyeurismo** — todo mundo quer ver por dentro do inacessível.\n3. **Curiosidade (loop)** — \"sabe o que tem dentro?\".\n4. **Desejo** — a mansão alimenta a aspiração."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Deixar o número só na legenda — ele TEM que estar em destaque na tela (é a isca).\n- ❌ Número morno — precisa ser impressionante (R$ alto, metragem absurda, spec raro).\n- ❌ Abrir o loop e não entregar — o tour tem que mostrar \"o que tem dentro\".\n- ❌ B-roll sem número — aí vira só um tour estético (outro formato)."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escolha o número mais impressionante** do imóvel (preço, metragem, um spec absurdo).\n2. **Coloque o número em DESTAQUE na tela** (capa/primeiros segundos), grande e legível.\n3. **Abra um loop** (\"sabe o que tem dentro de [número]?\").\n4. **Entregue o tour** que o número prometeu.\n5. **Specs extras na legenda** pra quem quer os detalhes. O número na tela é inegociável."
+     }
+    ],
+    "localVid": "videos/numeros-como-hook-sobre-b-roll.mp4",
+    "transcricao": "E você, sabe o que é que tem dentro de uma mansão de 17 milhões?\nNão? Pois me acompanha e você vai conhecer cada detalhe dessa propriedade."
    }
   ],
   "num": 25
@@ -4781,9 +4842,9 @@
   "id": "A52",
   "tipo": "organico",
   "nome": "POV do Corretor",
-  "exemplo": "sibeleimoveis",
-  "link": "https://instagram.com/p/DFoIJNNSgFI",
-  "metrica": "45,6 mil curtidas",
+  "exemplo": "annecarolinelima_",
+  "link": "https://tiktok.com/@annecarolinelima_/video/7146862260252577030",
+  "metrica": "20,6K likes",
   "plataforma": "Instagram",
   "status": "confirmado",
   "objetivos": [
@@ -4801,17 +4862,78 @@
    "porque": "- **Surfar uma trend com contexto de nicho** = alcance da trend + identificação da tribo.\n- **Situação hiperespecífica** (\"cliente do anúncio de R$2,8 mi\") faz o corretor se ver na cena.\n- **Barreira zero:** 1 áudio trend + 1 texto de contexto + reação.",
    "aplicar": "- Pegue o áudio/trend do momento e enquadre com uma situação hiperespecífica da rotina do corretor.\n- Variações: \"eu vendo que o cliente 'vai pensar'\", \"eu recebendo lead às 23h de domingo\".\n- Regra: usar o áudio no pico da trend (vida curta) e contexto que a tribo reconhece.",
    "guia": "- Áudio trend no pico (2 semanas de validade) — agilidade > perfeição.\n- Contexto hiperespecífico no texto (quanto mais nichado, mais identificação).\n- Reação/timing sincronizado ao áudio.\n- CTA de marcar outro corretor.",
-   "prompt": "```\nVocê é roteirista de meme para corretor(a). Crie um \"POV do corretor reagindo\" sobre um áudio trend:\n1) CONTEXTO na tela (0-3s): \"eu [situação hiperespecífica da rotina do corretor]\"; 2) REAÇÃO sincronizada ao áudio trend; 3) PUNCHLINE + CTA de marcar corretor.\nMEUS DADOS: Áudio trend + momento de pico: [ ]. Situação hiperespecífica do corretor: [ ]. Público (corretor/comprador): [ ].\nTOM: humor de nicho, identificação da tribo. Áudio no pico. Contexto hiperespecífico.\nENTREGUE: 1) texto de contexto + 3 variações; 2) descrição da reação; 3) legenda; 4) 5 hashtags; 5) CTA de marcar.\n```"
+   "prompt": "Você é um roteirista de humor para redes sociais especialista no nicho imobiliário. Crie um meme POV do corretor, seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. SETUP POV (0-6s): \"Eis que você é corretor(a) e [situação/recebe isso]:\" — enquadramento na primeira pessoa\n2. ÁUDIO DE TREND: um som viral encaixado no contexto do corretor (a fala do cliente/da situação)\n3. PUNCHLINE/REAÇÃO: o humor de reconhecimento\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O áudio/trend que vou usar: [DESCREVA O SOM/TREND]\n- A situação do corretor que ele ressignifica: [A SITUAÇÃO — ex.: cliente que só olha e não fecha, cliente que acha caro]\n\n**Regras de tom:**\n- Humor de IDENTIFICAÇÃO (todo corretor já viveu) — não piada interna obscura\n- O áudio de trend é o coração — o texto só monta a cena\n- Leveza; convide à marcação (\"marca aquele corretor que…\")\n- Ressignifique o trend PRO nicho (não use genérico)\n\n**Entregue:**\n1. 3 opções de texto de setup POV\n2. Sugestão de como encaixar o áudio (o que a \"fala\" representa)\n3. 5 hashtags\n4. Legenda que convida à marcação de colegas\n5. 3 variações da mesma situação pra testar",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **alcance e conexão** (topo de funil) — o humor de reconhecimento viraliza e humaniza.\n- Quando surgir um **áudio de trend em alta** que dê pra ressignificar pro corretor."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O TREND]:** um áudio viral em ASCENSÃO (não saturado). Ele carrega a piada.\n- **[A SITUAÇÃO]:** uma dor/cena universal do corretor (cliente que só olha, que some, que acha caro). Quanto mais gente já viveu, maior o alcance."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o humor vier genérico:\n\n> \"Ressignifique o trend PRO nicho imobiliário — a graça está em reconhecer a cena específica do corretor, não uma piada genérica.\"\n\nSe o texto competir com o áudio:\n\n> \"O áudio de trend é o coração. O texto de setup só monta a cena em uma linha — não explique a piada.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Áudio mudo/sem trend** — o som viral É o formato.\n2. **Trend saturado** — pegue o que está subindo, não o que já morreu.\n3. **Piada genérica** — tem que ser a cena específica do corretor.\n4. **Explicar demais** — o setup + o áudio bastam."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Selfie simples (ou print de WhatsApp) — produção zero reforça a autenticidade.\n- Texto de POV no topo. Use o áudio original do trend.\n- Deixe o áudio tocar / reaja com a expressão."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance (o trend distribui) + forte conexão (identificação da classe). As marcações de colegas (\"isso é você\") multiplicam o alcance. É conteúdo de topo/humanização — não é ad de conversão."
+    }
+   ]
   },
   "exemplos": [
    {
-    "criador": "sibeleimoveis",
-    "driveId": "1sREnRaQSoDRemNBL-9YfC9b8ydmdXhGd",
-    "metrica": "45,6 mil curtidas",
-    "link": "https://instagram.com/p/DFoIJNNSgFI",
+    "criador": "annecarolinelima",
+    "driveId": "",
+    "metrica": "20,6K likes",
+    "link": "https://tiktok.com/@annecarolinelima_/video/7146862260252577030",
     "en": false,
-    "temTranscricao": false,
-    "analise": []
+    "temTranscricao": true,
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"Eis que você é corretora e recebe esse áudio do cliente\" — um áudio de trend engraçado colocado na boca de um cliente imaginário faz o corretor rir de reconhecimento e viraliza pela identificação da classe."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-6s | Selfie da corretora; texto \"Eis que você é corretora de imóveis e recebe esse áudio do seu cliente:\" | (setup) | Hook-setup: o enquadramento POV (\"você é corretor e recebe isso\") |\n| 6-26s | Print do WhatsApp com a mensagem de áudio tocando | (áudio de trend) \"…essa corretora que você indicou… ela vende [tudo]…\" | O áudio de trend (a piada) — o punchline que gera a identificação |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O setup POV é o gancho** — \"eis que você é corretora e recebe isso\" convida o espectador a se colocar na cena.\n- **O áudio de trend é a piada pronta** — um som viral já engraçado, ressignificado para o contexto do corretor (o \"cliente\" absurdo).\n- **O humor é de RECONHECIMENTO** — o corretor se vê na situação e marca colegas.\n- **O áudio é reaproveitável** — outros corretores usam o mesmo som (o formato se propaga sozinho)."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Selfie simples + print do WhatsApp** — produção zero, o que reforça a autenticidade.\n- **Texto de POV no topo** enquadra a cena.\n- **Áudio de trend reconhecível** é o coração do vídeo."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **O áudio de trend É o conteúdo** — a fala/som viral carrega a piada. Sem ele, não existe formato."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Identificação de classe** — \"todo corretor já viveu isso\".\n2. **Trend / áudio viral** — o som pega carona na distribuição do TikTok.\n3. **POV** — a imersão (\"você é corretor e…\").\n4. **Leveza** — humor gera compartilhamento e marcação de colegas."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Usar áudio sem faixa de som / mudo — o trend É o formato.\n- ❌ Trend genérico sem adaptação ao nicho — a graça está em ressignificar pro corretor.\n- ❌ Explicar demais a piada — o áudio + o setup bastam.\n- ❌ Áudio velho/saturado — pegue trends em ascensão."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Ache um áudio de trend em alta** que possa ser ressignificado pro corretor.\n2. **Escreva o setup POV:** \"eis que você é corretor e [situação]…\".\n3. **Encaixe o áudio** como a fala do cliente/da situação.\n4. **Reaja / deixe o áudio tocar** — o humor de reconhecimento faz o resto.\n5. **Legenda que reforça** a identificação (\"marca aquele corretor que…\")."
+     }
+    ],
+    "localVid": "videos/meme-pov-do-corretor-reagindo-trend.mp4",
+    "transcricao": "Eis que você é corretora de imóveis e recebe esse áudio do seu cliente:\nÔ, Luan, essa corretora que você indicou, se ela for lá em Rio Verde, ela vende a chácara até pro Tom Gatão.\nAté pro seu tio Alcindo ela vende a chácara.\nViu? É perigoso ela vender pra mim, eu comprar a chácara que já é minha, viu?"
    }
   ],
   "num": 52
@@ -4820,9 +4942,9 @@
   "id": "B01",
   "tipo": "anuncio",
   "nome": "Vendido em X Dias",
-  "exemplo": "feltnegociosimobiliarios",
-  "link": "https://tiktok.com/@feltnegociosimobiliarios/video/7581259444214861076",
-  "metrica": "—",
+  "exemplo": "dabbyaeliezer",
+  "link": "https://tiktok.com/@dabbyaeliezer/video/7557874030016089400",
+  "metrica": "983 likes / 370 shares",
   "plataforma": "TikTok",
   "status": "confirmado",
   "objetivos": [
@@ -4839,18 +4961,78 @@
    "porque": "- **Velocidade de venda é o argumento nº1 pra captar proprietário:** \"eu vendo rápido\" vale mais que \"eu tenho imóveis\".\n- **Prova social concreta** (um número de dias) é irrefutável e memorável.\n- **Como anúncio, mira captação** — o proprietário com imóvel parado é o alvo.",
    "aplicar": "- Todo fechamento rápido vira criativo: \"vendido em X dias — quer o mesmo pro seu?\".\n- Acumule: uma série de \"vendidos em X dias\" comunica método, não sorte.\n- Mira captação de proprietário (público que quer velocidade + segurança).",
    "guia": "- Número de dias REAL e verificável na capa.\n- O tour/contexto justifica a velocidade (imóvel bom, bem precificado).\n- CTA de captação (\"quer vender rápido?\"), não de compra.\n- Rodar como anúncio geolocalizado pra proprietários da região.",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário de captação. Crie um anúncio \"vendida em X dias\":\n1) SELO (0-3s): \"VENDIDA EM [X] DIAS\" sobre o imóvel; 2) TOUR/CONTEXTO que justifica a velocidade; 3) CTA de captação de proprietário.\nMEUS DADOS: Imóvel + tempo real de venda: [ ]. Por que vendeu rápido: [ ]. Público (proprietário): [ ]. CTA: [ ].\nTOM: prova de velocidade, mira o proprietário. Número real na capa. CTA de captação, não de compra.\nENTREGUE: 1) texto do selo; 2) roteiro; 3) copy do anúncio; 4) headline do card; 5) 1ª mensagem de WhatsApp.\n```"
+   "prompt": "Você é um copywriter especialista em prova social imobiliária para captação. Crie um roteiro de \"vendida em X dias\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. HOOK: RECORDE + TRACK RECORD (0-4s): \"já vendi [X] casas, e essa foi a mais rápida: [Y] dias\" — com o número de dias em DESTAQUE\n2. O LOOP: \"veja e entenderá por quê\"\n3. O PORQUÊ: o tour da casa (ou a estratégia de marketing) que justifica a rapidez\n4. FECHO: grandiosidade + mira o proprietário\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Track record: [QUANTAS VENDAS/CASAS]\n- O tempo de venda (real): [X DIAS]\n- O porquê (a casa incrível OU a estratégia): [A JUSTIFICATIVA]\n\n**Regras de tom:**\n- O número de dias REAL e verificável (nunca infle)\n- Destaque o tempo no texto (é a isca)\n- O alvo é o PROPRIETÁRIO (que quer vender rápido), não o comprador\n- Entregue o \"porquê\" prometido (tour ou estratégia)\n\n**Entregue:**\n1. O texto do hook (com track record + dias)\n2. O roteiro do tour/estratégia (o porquê)\n3. 5 hashtags\n4. Legenda mirando o proprietário\n5. Resposta pro comentário cético (\"foi sorte / tava barato\")",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **captar proprietário** — a prova de velocidade é o argumento mais forte pra quem tem imóvel parado.\n- Depois de uma venda genuinamente rápida (o formato vive da veracidade do número)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[X DIAS]:** o tempo REAL de venda. Quanto menor, mais forte — mas nunca invente.\n- **[TRACK RECORD]:** \"já vendi X casas\" ancora sua autoridade antes do recorde.\n- **[O PORQUÊ]:** o que justificou a rapidez — a casa incrível (tour) OU a estratégia de marketing. Prometa e ENTREGUE."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o hook não destacar o tempo:\n\n> \"Coloque o número de dias em DESTAQUE no hook e no texto de tela — é a isca do formato.\"\n\nSe esquecer o alvo:\n\n> \"Feche mirando o PROPRIETÁRIO que quer vender rápido ('seu imóvel podia estar vendido assim'), não o comprador.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Inflar o tempo** — proprietários checam; número furado destrói a captação.\n2. **Prometer o porquê e não entregar** — o tour/estratégia tem que justificar a rapidez.\n3. **Esconder o número** — o tempo é a estrela, tem que estar na tela.\n4. **Mirar comprador** — o alvo é quem quer VENDER."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Tour cinematográfico (drone + interiores) OU você falando a estratégia.\n- Texto de hook grande com o número de dias destacado, sempre à vista.\n- Música que dá clima de conquista."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alta prova social (o tempo curto impressiona) + geração de lead de captação (proprietário se identifica). Funciona muito bem como anúncio mirando quem tem imóvel parado."
+    }
+   ]
   },
   "exemplos": [
    {
-    "criador": "feltnegociosimobiliarios",
-    "driveId": "17DFAVf-KyC3QfHDuZy39KSxR02x5ThRu",
-    "metrica": "—",
-    "link": "https://tiktok.com/@feltnegociosimobiliarios/video/7581259444214861076",
+    "criador": "dabbyaeliezer",
+    "driveId": "",
+    "metrica": "983 likes / 370 shares",
+    "link": "https://tiktok.com/@dabbyaeliezer/video/7557874030016089400",
     "en": false,
     "temTranscricao": true,
-    "analise": [],
-    "transcricao": "80 milhões de reais, hoje eu vou levar vocês para conhecer comigo,\nsimplesmente uma das casas mais incríveis aqui de Alphaville.\nE olha, a fachada dessa casa diz muito sobre ela, mas a parte interna.\nAqui a gente tem o living principal do imóvel, com pé direito com 9 metros de altura.\nIsso mesmo, cinema, aqui a gente tem a melhor experiência de áudio e vídeo.\nE além disso, você tem o conforto de ter poltronas na Tuzzi de linha italiana aqui dentro do seu imóvel.\nAgora, eu sei que vocês gostam de mármore, revestimento e um belo acabamento.\nAqui a gente tem sala de jantar, destaque para esses lustres maravilhosos, toda casa voltada com vista para reserva.\nE aqui você tem o conforto de ter uma sala de lareira toda revestida em onix paginado.\nAgora, se o assunto é receber seus amigos para as melhores confraternizações, você tem uma área gourmet completa, também com vista voltada para a reserva.\nE além disso, você vai ter sauna.\nE para finalizar nosso vídeo, é óbvio que é uma vista maravilhosa e fantástica para a natureza."
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "\"42 casas vendidas, e essa foi em 7 DIAS — veja por quê\" — a velocidade de venda no hook prova o poder do corretor, e o tour da casa incrível justifica o recorde."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-4s | Fachada iluminada; texto \"O CARA JÁ FEZ 42 CASAS E ESSA FOI A VENDA MAIS RÁPIDA DA HISTÓRIA, VENDIDA EM **7 DIAS**, VEJA E ENTENDERÁ POR QUE!\" | \"O cara já fez 42 casas e essa foi a venda mais rápida — vendida em 7 dias, veja por quê\" | Hook: track record (42 casas) + o recorde (7 dias, destacado) + loop (\"veja por quê\") |\n| 4-60s | Tour cinematográfico (living, TV, closet espelhado, corredor, home theater) | (b-roll) | O \"porquê\" — a casa espetacular que justifica a venda rápida |\n| 60-76s | Piscina, garagem, fachada de vidro | (b-roll) | Fecho de grandiosidade |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O hook empilha três provas:** track record (42 casas = autoridade), o recorde de velocidade (7 dias, destacado em amarelo) e o loop (\"veja e entenderá por quê\").\n- **O tour ENTREGA o \"porquê\"** — a casa é tão incrível que a venda rápida faz sentido. (Em outras versões, o \"porquê\" pode ser a estratégia de marketing.)\n- **A velocidade é a prova social que capta proprietário** — quem tem imóvel parado pensa \"por que o meu não vende assim?\".\n- **O número de dias é a estrela** — quanto menor, mais forte."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Tour cinematográfico** de casa de luxo (drone + interiores).\n- **Texto de hook grande** com \"7 DIAS\" e \"42 CASAS\" destacados em amarelo — a informação-chave sempre à vista.\n- **Música** dá o clima."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Narração curta no hook** + música no tour — o loop \"veja por quê\" segura até o fim."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Prova social de velocidade** — \"7 dias\" é irresistível pra quem quer vender rápido.\n2. **Autoridade por track record** — \"42 casas\" estabelece o corretor como máquina de vendas.\n3. **Loop aberto** — \"veja e entenderá por quê\" garante a retenção.\n4. **Desejo** — a casa incrível alimenta a aspiração.\n5. **FOMO do proprietário** — \"meu imóvel podia estar vendido assim\"."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Inventar/inflar o tempo — proprietários e concorrentes checam; número furado destrói a captação.\n- ❌ Prometer o \"porquê\" e não entregar — o tour (ou a estratégia) tem que justificar a rapidez.\n- ❌ Focar no comprador — o alvo é o PROPRIETÁRIO que quer vender rápido.\n- ❌ Esconder o número de dias no hook — é a estrela do formato."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Abra com o recorde + track record:** \"já vendi X casas, e essa foi a mais rápida: Y dias\".\n2. **Destaque o número de dias** no texto (é a isca).\n3. **Abra o loop** (\"veja e entenderá por quê\").\n4. **Entregue o porquê** — o tour da casa (ou a estratégia de marketing que usou).\n5. **Feche mirando o proprietário** (a prova de velocidade é o argumento de captação). Número de tempo sempre real."
+     }
+    ],
+    "localVid": "videos/vendida-em-x-dias-prova-social.mp4",
+    "transcricao": "O cara já fez 42 casas, e essa foi a venda mais rápida da história.\nFoi vendida em 7 dias.\nVeja e entenderá o porquê."
    }
   ],
   "num": 53
@@ -6633,9 +6815,9 @@
   "id": "B21",
   "tipo": "anuncio",
   "nome": "Vocês Pediram",
-  "exemplo": "Rodrigo Cerqueira Tenda",
-  "link": "https://www.facebook.com/ads/library/?id=795531910079991",
-  "metrica": "267 dias rodando",
+  "exemplo": "lucasbordalocorretor",
+  "link": "https://tiktok.com/@lucasbordalocorretor/video/7294323882553625862",
+  "metrica": "104,4K likes / 14,8K saves",
   "plataforma": "Meta Ads",
   "status": "candidato",
   "objetivos": [
@@ -6653,17 +6835,77 @@
    "porque": "- **Parece diálogo, não anúncio:** \"vocês pediram\" cria continuidade com a audiência.\n- **Prova de escuta:** o corretor mostra que ouve os seguidores — gera conexão.\n- **Reduz a resistência a anúncio** (é uma \"resposta\", não uma venda fria).",
    "aplicar": "- Sempre que a audiência pedir algo nos comentários/enquetes, responda com um criativo.\n- \"Vocês pediram apê de 2 quartos até R$X — separei estes três.\"\n- Funciona melhor pra quem já tem alguma audiência engajada.",
    "guia": "- O \"pedido\" tem que ser crível (idealmente real, de comentários/enquete).\n- Entregar exatamente o que foi pedido.\n- Tom de continuidade da conversa, não de venda.\n- CTA leve (\"vem ver\", \"me chama\").",
-   "prompt": "```\nVocê é copywriter de anúncio imobiliário. Crie um anúncio \"resposta à audiência\":\n1) REFERÊNCIA AO PEDIDO (0-5s): \"vocês pediram [X], aqui está\"; 2) ENTREGA do que foi pedido; 3) CTA leve.\nMEUS DADOS: O que a audiência pediu: [ ]. O que estou entregando: [ ]. Público: [ ].\nTOM: diálogo, prova de escuta. \"Vocês pediram\". Entregar exatamente o pedido. CTA leve.\nENTREGUE: 1) roteiro; 2) copy; 3) headline; 4) CTA; 5) variação da 1ª frase.\n```"
+   "prompt": "Você é um estrategista de conteúdo imobiliário. Crie um roteiro de \"resposta à audiência\", seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. O PEDIDO (0-3s): fixar um comentário REAL do público como hook (\"responder ao comentário: [pedido]\")\n2. O ATENDIMENTO: entregar exatamente o que a audiência pediu (o tour/oferta específica)\n3. REAÇÃO/LEGENDA: energia que acompanha a entrega\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- O comentário/pedido real: [O QUE PEDIRAM — ex.: \"mostra os quartos\", \"e o preço?\"]\n- O que vou entregar: [O TOUR/OFERTA QUE RESPONDE O PEDIDO]\n\n**Regras de tom:**\n- Use um pedido REAL (o recurso \"responder ao comentário\" prova que é verdadeiro)\n- Entregue LITERALMENTE o que pediram — reciprocidade é o gatilho\n- O pedido é o hook: tem que estar visível de cara\n- Transmita que você OUVE o público (prova de escuta)\n\n**Entregue:**\n1. Como enquadrar o pedido no hook (texto de tela)\n2. Roteiro do que mostrar (a entrega do pedido)\n3. Legenda com energia\n4. 5 hashtags\n5. 3 ideias de outros comentários que renderiam novos vídeos deste formato",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Quando um vídeo seu **gerou pedidos nos comentários** (\"mostra os quartos\", \"quanto custa?\").\n- Pra **construir relação + reaproveitar engajamento** — cada comentário vira uma pauta e um novo criativo."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[O PEDIDO]:** um comentário REAL. O recurso \"responder ao comentário\" do TikTok/Reels fixa o pedido e prova que é verdadeiro.\n- **[O ATENDIMENTO]:** entregue LITERALMENTE o que pediram — se pediram os quartos, mostre os quartos."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se o pedido parecer inventado:\n\n> \"Use um pedido REAL dos comentários — o gatilho é a prova de escuta; comentário forjado quebra a autenticidade.\"\n\nSe a entrega fugir do pedido:\n\n> \"Entregue exatamente o que foi pedido. Se o comentário é 'mostra os quartos', o vídeo é sobre os quartos — nada de tour genérico.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Comentário forjado** — use um pedido real (o sticker nativo denuncia).\n2. **Não entregar o pedido** — reciprocidade quebrada = formato quebrado.\n3. **Esconder o pedido** — o comentário é o hook, tem que abrir o vídeo.\n4. **Ignorar os comentários como fonte** — cada pedido relevante é um vídeo novo."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Use o recurso nativo \"responder ao comentário\" pra fixar o pedido como sticker.\n- Grave o tour/entrega específica. Legenda com energia.\n- Áudio: narração ou música (o exemplo veio mudo por bloqueio da plataforma, mas com áudio funciona melhor)."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Altíssimo salvamento (14,8K saves no exemplo) — o público salva o imóvel que ELE pediu pra ver. Forte conexão (prova de escuta) + conversão (o tour vende). Excelente como anúncio e como motor de conteúdo recorrente (comentários → pautas)."
+    }
+   ]
   },
   "exemplos": [
    {
-    "criador": "rodrigo",
+    "criador": "lucasbordalocorretor",
     "driveId": "",
-    "metrica": "267 dias rodando",
-    "link": "https://www.facebook.com/ads/library/?id=795531910079991",
+    "metrica": "104,4K likes / 14,8K saves",
+    "link": "https://tiktok.com/@lucasbordalocorretor/video/7294323882553625862",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um comentário real do público (\"mostra os quartos\") vira o gancho do vídeo inteiro — atender o pedido transforma o engajamento em conteúdo e prova que o corretor escuta."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-3s | Sticker do TikTok \"Responder ao comentário de gabriellabatista_: **Mostra os quartos** 🙏\" fixo sobre a fachada | (sem áudio) | Hook: o pedido real da audiência é o enquadramento — responde um comentário |\n| ~3s-fim | Tour dos quartos, closets, banheiros; legenda \"QUE CASA MEUS AMIGOS 🤩🤩🤩\" | (b-roll) | O atendimento — entrega exatamente o que pediram |\n| fecho | Ambientes finais / fachada | | Fecho de desejo |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **O sticker de comentário É o hook** — o recurso \"responder ao comentário\" do TikTok fixa o pedido real na tela e enquadra o vídeo todo.\n- **Atender o pedido específico** (\"mostra os quartos\") gera reciprocidade e prova de escuta — o corretor mostra que ouve o público.\n- **A legenda entusiasmada** (\"QUE CASA MEUS AMIGOS\") mantém a energia do tour.\n- **Reaproveita o engajamento** — os comentários viram pautas; cada pedido é um vídeo novo."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Sticker de comentário fixo** no canto (recurso nativo da plataforma) — dá autenticidade e enquadramento.\n- **Tour dos ambientes pedidos** (quartos, closets) — a entrega literal.\n- **Legenda de reação** grande."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- Neste exemplo o download veio **sem faixa de áudio** (bloqueio de som da plataforma); a mecânica é 100% visual (sticker + tour). Em versões com áudio, uma narração/música acompanha o tour."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Reciprocidade** — atende exatamente o que pediram.\n2. **Prova de escuta** — o corretor responde ao público (constrói relação).\n3. **Pertencimento** — a audiência influencia o conteúdo (\"fui eu que pedi\").\n4. **Desejo** — o tour do imóvel alimenta a aspiração."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Inventar o comentário — use um pedido REAL (o sticker nativo prova que é verdadeiro).\n- ❌ Não entregar o que pediram — se o comentário é \"mostra os quartos\", mostre os quartos.\n- ❌ Ignorar os comentários como fonte de pauta — cada pedido é um vídeo.\n- ❌ Esconder o pedido — o sticker é o hook, tem que estar visível de cara."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Garimpe os comentários** dos seus vídeos por pedidos (\"mostra os quartos\", \"e a cozinha?\").\n2. **Use o recurso \"responder ao comentário\"** pra fixar o pedido real como hook.\n3. **Entregue exatamente o que pediram** — o tour/oferta específica.\n4. **Legenda com energia** que acompanha a entrega.\n5. **Repita** — transforme cada comentário relevante em um novo criativo."
+     }
+    ],
+    "localVid": "videos/resposta-a-audiencia-como-criativo.mp4"
    }
   ],
   "num": 73

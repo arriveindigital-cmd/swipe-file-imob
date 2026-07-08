@@ -85,7 +85,15 @@ for pid, md in meta.items():
                       en=md["en"], temTranscricao=False, analise=[])
             vids = glob.glob(os.path.join(exdir, "01-video", "*.mp4"))
             if vids:
-                ex["driveId"] = drive.get(os.path.splitext(os.path.basename(vids[0]))[0], "")
+                did = drive.get(os.path.splitext(os.path.basename(vids[0]))[0], "")
+                if did:
+                    ex["driveId"] = did
+                else:
+                    # não está no Drive → auto-hospeda no próprio repo
+                    vid_out = os.path.join(OUTDIR, "videos")
+                    os.makedirs(vid_out, exist_ok=True)
+                    shutil.copy(vids[0], os.path.join(vid_out, e["slug"] + ".mp4"))
+                    ex["localVid"] = f"videos/{e['slug']}.mp4"
             ana = os.path.join(exdir, "02-analise", "analise-estrutura.md")
             if os.path.exists(ana):
                 ex["analise"] = [{"titulo": t, "corpo": c} for t, c in parse_sections(open(ana, encoding="utf-8").read()) if t.lower() != "metadados"]
