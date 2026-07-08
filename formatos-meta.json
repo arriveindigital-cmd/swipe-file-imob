@@ -1,84 +1,330 @@
 {
-"A01": {"nome":"Vox Pop", "desc":"Entrevista de rua com pergunta banal que vira escada de curiosidade sobre imóveis de alto valor."},
-"A02": {"nome":"Rotina", "desc":"Esquete de humor exagerando as dores do dia a dia do corretor — riso de reconhecimento."},
-"A03": {"nome":"Um Dia Comigo", "desc":"Bastidor cronológico de um dia real de visitas, do preparo do imóvel ao fechamento."},
-"A04": {"nome":"Q&A Rápido", "desc":"Listicle numerado respondendo as perguntas que todo comprador faz, em 1-2 frases cada."},
-"A05": {"nome":"Desabafo", "desc":"Confissão crua sobre a carreira que gera identificação e comunidade nos comentários."},
-"A06": {"nome":"Teaser", "desc":"Cada spec do imóvel é revelado como cliffhanger, sempre puxando pro próximo — retenção construída."},
-"A07": {"nome":"Sim ou Não?", "desc":"Pergunta binária na tela sobre o imóvel, sem fala — barreira zero pra comentar."},
-"A08": {"nome":"Vendeu Rápido", "desc":"Provocação ao cético + prova de velocidade de venda ('vendida em menos de um mês')."},
-"A09": {"nome":"Série", "desc":"Um imóvel de destaque vira vários vídeos ('Parte 1, 2, 3…'), forçando o follow."},
-"A10": {"nome":"Mito ou Verdade", "desc":"Corrige um mito comum do mercado com a regra técnica real — autoridade + debate."},
-"A11": {"nome":"Se Eu Soubesse", "desc":"Hook de arrependimento + revelação de um direito/benefício desconhecido com valor em R$."},
-"A12": {"nome":"Explicador", "desc":"Programa habitacional (MCMV) traduzido em lista de benefícios sobre b-roll de rotina."},
-"A13": {"nome":"Lista de Erros", "desc":"Listicle em 1ª pessoa: 'X erros que EU cometi' — autoridade por vivência, com números."},
-"A14": {"nome":"Dramatização", "desc":"Reencenação do diálogo real da dor do cliente (ex.: financiamento negado) + a solução."},
-"A15": {"nome":"Bastidores", "desc":"Erros e 'foras' da gravação que humanizam quem sempre aparece impecável."},
-"A16": {"nome":"Segredo do Banco", "desc":"Inimigo comum + revelação de uma mecânica escondida (amortização) com matemática simples."},
-"A17": {"nome":"Trend de Venda", "desc":"Dono anuncia a casa com humor auto-depreciativo, vendendo os perrengues da obra como vantagem."},
-"A18": {"nome":"Walk & Talk", "desc":"Corretor caminha e narra ao vivo dentro do imóvel — visita guiada, não catálogo."},
-"A19": {"nome":"Quanto Compra", "desc":"'O que R$X compra em [bairro]' — o imóvel vira unidade de comparação e debate."},
-"A20": {"nome":"Just Sold", "desc":"Selo 'vendido' sobre walk cinematográfico — prova social pura, sem fala."},
-"A21": {"nome":"Adivinha o Preço", "desc":"Tour com o valor revelado só no final — a curiosidade do preço segura o vídeo inteiro."},
-"A22": {"nome":"Você Faria?", "desc":"Imóvel dos sonhos + dilema divertido com mecanismo de compartilhamento embutido."},
-"A23": {"nome":"Virada de Carreira", "desc":"'Por que eu saí de X' — loop aberto + origem improvável que converte espectador em fã."},
-"A24": {"nome":"Alerta do Expert", "desc":"'Não pergunte o preço, pergunte isso' — inversão + armadilhas reais com número."},
-"A25": {"nome":"Números na Tela", "desc":"Os specs de peso (m², R$, suítes) batem antes de qualquer palavra sobre b-roll de mansão."},
-"A26": {"nome":"Cabe no Bolso", "desc":"Tour com preço + entrada + parcela mensal na capa — a métrica real de decisão do comprador."},
-"A27": {"nome":"Dá pra Acreditar?", "desc":"Descrença provocada sobre um spec ('esse lote é 12x25?') + a prova visual."},
-"A28": {"nome":"POV do Dono", "desc":"'POV: você acabou de comprar…' — texto em 2ª pessoa + tour cinematográfico sem fala."},
-"A29": {"nome":"Plot Twist", "desc":"Começa como tour sério e é interrompido por uma quebra cômica — subversão de formato."},
-"A30": {"nome":"A Conta do Lucro", "desc":"Dois amigos fazem a matemática completa de um investimento, do capital ao lucro líquido."},
-"A31": {"nome":"90% dos Ricos", "desc":"Estatística de patrimônio + eliminação das alternativas óbvias até revelar o imóvel."},
-"A32": {"nome":"Manifesto", "desc":"Uma frase-filosofia forte sobre b-roll que o público reposta como se fosse sua."},
-"A33": {"nome":"Versus", "desc":"'Planta ou usado?' decidido por perfil — cada situação recebe um veredito seco."},
-"A34": {"nome":"Meme da Compra", "desc":"Frase-meme auto-irônica sobre a decisão de compra sincronizada a um áudio trend."},
-"A35": {"nome":"Tabela de Parcela", "desc":"Tabela renda→parcela→imóvel com CTA de salvar — cada um procura a própria linha."},
-"A36": {"nome":"A Casa Possível", "desc":"Comprador mostra a casa real e imperfeita com honestidade radical — anti-flex que identifica."},
-"A37": {"nome":"Passo a Passo", "desc":"Roadmap das fases de um processo (reforma, compra) com CTA de print."},
-"A38": {"nome":"Anatomia do Negócio", "desc":"Os números impossíveis do deal empilhados na capa + o passo a passo de como foi feito."},
-"A39": {"nome":"Entrega de Chaves", "desc":"Momento real de emoção + pergunta-prova ('quanto de entrada? — zero') que gera leads."},
-"A40": {"nome":"Quanto Custou", "desc":"Transparência total dos números da própria compra — confiança máxima por não ter venda."},
-"A41": {"nome":"Custos Reais", "desc":"Um caso real dissecado número a número, expondo os custos escondidos que ninguém conta."},
-"A42": {"nome":"Corte de Podcast", "desc":"Trecho de conversa com opinião polêmica + legenda grande — autoridade emprestada."},
-"A43": {"nome":"Diário da Compra", "desc":"Casal documenta a própria jornada de compra/obra em série — fidelização de novela."},
-"A44": {"nome":"Abre a Planilha", "desc":"Viabilidade de investimento contada como história, com todos os números na mesa."},
-"A45": {"nome":"Print do Lucro", "desc":"Faturamento bruto → custos → líquido honesto, com print como prova de renda."},
-"A46": {"nome":"Você Compraria?", "desc":"Novidade + preço chocante + enquete ('R$26.800 — você compraria?') que gera milhares de comentários."},
-"A47": {"nome":"Quanto Custa Morar", "desc":"Custo de vida item a item escrito à mão, com o total segurado até o último segundo."},
-"A48": {"nome":"Antes e Depois", "desc":"'Ninguém queria essa casa' → reforma → lucro: história de virada com números."},
-"A49": {"nome":"Fui na Contramão", "desc":"Decisão contraintuitiva ('vendi minha casa pra alugar') defendida com lógica real."},
-"A50": {"nome":"De Não a Sim", "desc":"Jornada real de aprovação de financiamento, com os perrengues e a reviravolta."},
-"A51": {"nome":"iPhone vs Apê", "desc":"'Enquanto você parcela um iPhone, tem gente financiando um apê' — provocação identitária com número."},
-"A52": {"nome":"POV do Corretor", "desc":"Trend adaptada à rotina hiperespecífica do corretor — humor de nicho que a tribo reconhece."},
-"B01": {"nome":"Vendido em X Dias", "desc":"Selo de velocidade de venda como prova social — mira a captação de proprietário."},
-"B02": {"nome":"Card de Oferta", "desc":"Anúncio de imagem única: foto + preço em destaque + bullets. Produção zero, roda meses."},
-"B03": {"nome":"Vender o Futuro", "desc":"Reframe de terreno vazio em oportunidade ('é só mato… mas é assim que nascem oportunidades')."},
-"B04": {"nome":"Prova de Volume", "desc":"'Vendemos X imóveis por mês' — prova social esmagadora que mira o proprietário."},
-"B05": {"nome":"Tour de Mansão", "desc":"'Por dentro de uma mansão de R$X' — aspiração pura com preço na abertura."},
-"B06": {"nome":"Oi, Sou o Fulano", "desc":"Corretor se apresenta pelo nome no terreno real — anti-anúncio que roda 657 dias."},
-"B07": {"nome":"Já Vendeu Tudo", "desc":"Prova de tração ('lotes vendidos antes do lançamento') traduzida em benefício pro morador."},
-"B08": {"nome":"Ganhe Como o Grande", "desc":"Assimetria de retorno ('3-5x mais com o mesmo capital') + segurança jurídica."},
-"B09": {"nome":"Saia do Aluguel", "desc":"Oportunidade local + facilidades empilhadas (MCMV, subsídio, entrada parcelada)."},
-"B10": {"nome":"Imagine Morar", "desc":"Visualização guiada: o comprador se vê usando o imóvel, spec por spec como experiência."},
-"B11": {"nome":"Sua Consultora", "desc":"Anti-aluguel + reframe de investimento + a virada pessoal ('e eu, [nome], estou aqui pra guiar')."},
-"B12": {"nome":"Pra Corretor Vender", "desc":"Anúncio B2B que fala com quem vende: 'coloque na sua carteira, veja como é fácil vender'."},
-"B13": {"nome":"Melhor Endereço", "desc":"Bairro como herói: copy mínima + vídeo de 15s + card com a ficha completa."},
-"B14": {"nome":"Efeito Mike Tyson", "desc":"História de celebridade com paradoxo como porta pra uma tese sobre patrimônio."},
-"B15": {"nome":"Anti-Hype", "desc":"Usa um anúncio viral bizarro como contraste pra se posicionar ('não preciso de truque')."},
-"B16": {"nome":"Convite VIP", "desc":"Convite pra open house/evento com data, local e condição exclusiva do dia."},
-"B17": {"nome":"Tudo Aberto", "desc":"Ficha técnica 100% transparente na copy (valor + condomínio + IPTU) — filtra lead quente."},
-"B18": {"nome":"O Primeiro da Região", "desc":"Diálogo encenado de novidade + claim de pioneirismo ('o primeiro do estado com…')."},
-"B19": {"nome":"Comenta que Envio", "desc":"Valor no vídeo + CTA de palavra-chave que dispara automação de DM."},
-"B20": {"nome":"Cidade que Valoriza", "desc":"Tese de valorização regional + lista de ofertas com desconto 'de/por'."},
-"B21": {"nome":"Vocês Pediram", "desc":"Responde a um pedido da audiência — parece diálogo, não anúncio."},
-"B22": {"nome":"Proprietário, Alugue Rápido", "desc":"A 1ª palavra filtra o público + dupla promessa (velocidade + garantia) + nota do Google."},
-"B23": {"nome":"Ninguém Te Conta", "desc":"Expõe a dor oculta do investidor iniciante + a solução do produto + prova de valorização."},
-"B24": {"nome":"Morador Real", "desc":"UGC: um morador mostra e usa o condomínio — prova social que anúncio não compra."},
-"B25": {"nome":"O Sonho Virou Pesadelo", "desc":"Caso real de conflito com construtora como alerta educativo + contraposicionamento."},
-"B26": {"nome":"Ele Estava Quebrado", "desc":"Storytelling de transformação em frases curtas com herói inesperado e números."},
-"B27": {"nome":"X ou Y?", "desc":"Série educativa 'planta ou pronto?' como anúncio evergreen — recorde de 685 dias."},
-"B28": {"nome":"Feito pra Alugar", "desc":"Imóvel descrito pela ótica do rendimento: cada spec justificado pela ocupação/ROI."},
-"B29": {"nome":"Simulação Grátis", "desc":"Caso real de aprovação número a número + didática da entrada + isca de simulação."},
-"B30": {"nome":"Quem Sou Eu", "desc":"Cartão de visita em vídeo do corretor — vende a pessoa, roda permanente."}
+  "A01": {
+    "nome": "Vox Pop",
+    "desc": "Entrevista de rua com pergunta banal que vira escada de curiosidade sobre imóveis de alto valor."
+  },
+  "A02": {
+    "nome": "Rotina",
+    "desc": "Esquete de humor exagerando as dores do dia a dia do corretor — riso de reconhecimento."
+  },
+  "A03": {
+    "nome": "Um Dia Comigo",
+    "desc": "Bastidor cronológico de um dia real de visitas, do preparo do imóvel ao fechamento."
+  },
+  "A04": {
+    "nome": "Q&A Rápido",
+    "desc": "Listicle numerado respondendo as perguntas que todo comprador faz, em 1-2 frases cada."
+  },
+  "A05": {
+    "nome": "Desabafo",
+    "desc": "Confissão crua sobre a carreira que gera identificação e comunidade nos comentários."
+  },
+  "A06": {
+    "nome": "Teaser",
+    "desc": "Cada spec do imóvel é revelado como cliffhanger, sempre puxando pro próximo — retenção construída."
+  },
+  "A07": {
+    "nome": "Sim ou Não?",
+    "desc": "Pergunta binária na tela sobre o imóvel, sem fala — barreira zero pra comentar."
+  },
+  "A08": {
+    "nome": "Vendeu Rápido",
+    "desc": "Provocação ao cético + prova de velocidade de venda ('vendida em menos de um mês')."
+  },
+  "A09": {
+    "nome": "Série",
+    "desc": "Um imóvel de destaque vira vários vídeos ('Parte 1, 2, 3…'), forçando o follow."
+  },
+  "A10": {
+    "nome": "Mito ou Verdade",
+    "desc": "Corrige um mito comum do mercado com a regra técnica real — autoridade + debate."
+  },
+  "A11": {
+    "nome": "Se Eu Soubesse",
+    "desc": "Hook de arrependimento + revelação de um direito/benefício desconhecido com valor em R$."
+  },
+  "A12": {
+    "nome": "Explicador",
+    "desc": "Programa habitacional (MCMV) traduzido em lista de benefícios sobre b-roll de rotina."
+  },
+  "A13": {
+    "nome": "Lista de Erros",
+    "desc": "Listicle em 1ª pessoa: 'X erros que EU cometi' — autoridade por vivência, com números."
+  },
+  "A14": {
+    "nome": "Dramatização",
+    "desc": "Reencenação do diálogo real da dor do cliente (ex.: financiamento negado) + a solução."
+  },
+  "A15": {
+    "nome": "Bastidores",
+    "desc": "Erros e 'foras' da gravação que humanizam quem sempre aparece impecável."
+  },
+  "A16": {
+    "nome": "Segredo do Banco",
+    "desc": "Inimigo comum + revelação de uma mecânica escondida (amortização) com matemática simples."
+  },
+  "A17": {
+    "nome": "Trend de Venda",
+    "desc": "Dono anuncia a casa com humor auto-depreciativo, vendendo os perrengues da obra como vantagem."
+  },
+  "A18": {
+    "nome": "Walk & Talk",
+    "desc": "Corretor caminha e narra ao vivo dentro do imóvel — visita guiada, não catálogo."
+  },
+  "A19": {
+    "nome": "Quanto Compra",
+    "desc": "'O que R$X compra em [bairro]' — o imóvel vira unidade de comparação e debate."
+  },
+  "A20": {
+    "nome": "Just Sold",
+    "desc": "Selo 'vendido' sobre walk cinematográfico — prova social pura, sem fala."
+  },
+  "A21": {
+    "nome": "Tour Aspiracional",
+    "desc": "Um take cinematográfico único na hora dourada vende o estilo de vida — o deslumbre é o hook, sem uma palavra na tela."
+  },
+  "A22": {
+    "nome": "Você Faria?",
+    "desc": "Imóvel dos sonhos + dilema divertido com mecanismo de compartilhamento embutido."
+  },
+  "A23": {
+    "nome": "Virada de Carreira",
+    "desc": "'Por que eu saí de X' — loop aberto + origem improvável que converte espectador em fã."
+  },
+  "A24": {
+    "nome": "Alerta do Expert",
+    "desc": "'Não pergunte o preço, pergunte isso' — inversão + armadilhas reais com número."
+  },
+  "A25": {
+    "nome": "Números na Tela",
+    "desc": "Os specs de peso (m², R$, suítes) batem antes de qualquer palavra sobre b-roll de mansão."
+  },
+  "A26": {
+    "nome": "Cabe no Bolso",
+    "desc": "Tour com preço + entrada + parcela mensal na capa — a métrica real de decisão do comprador."
+  },
+  "A27": {
+    "nome": "Dá pra Acreditar?",
+    "desc": "Descrença provocada sobre um spec ('esse lote é 12x25?') + a prova visual."
+  },
+  "A28": {
+    "nome": "POV do Dono",
+    "desc": "'POV: você acabou de comprar…' — texto em 2ª pessoa + tour cinematográfico sem fala."
+  },
+  "A29": {
+    "nome": "Plot Twist",
+    "desc": "Começa como tour sério e é interrompido por uma quebra cômica — subversão de formato."
+  },
+  "A30": {
+    "nome": "A Conta do Lucro",
+    "desc": "Dois amigos fazem a matemática completa de um investimento, do capital ao lucro líquido."
+  },
+  "A31": {
+    "nome": "90% dos Ricos",
+    "desc": "Estatística de patrimônio + eliminação das alternativas óbvias até revelar o imóvel."
+  },
+  "A32": {
+    "nome": "Manifesto",
+    "desc": "Uma frase-filosofia forte sobre b-roll que o público reposta como se fosse sua."
+  },
+  "A33": {
+    "nome": "Versus",
+    "desc": "'Planta ou usado?' decidido por perfil — cada situação recebe um veredito seco."
+  },
+  "A34": {
+    "nome": "Meme da Compra",
+    "desc": "Frase-meme auto-irônica sobre a decisão de compra sincronizada a um áudio trend."
+  },
+  "A35": {
+    "nome": "Tabela de Parcela",
+    "desc": "Tabela renda→parcela→imóvel com CTA de salvar — cada um procura a própria linha."
+  },
+  "A36": {
+    "nome": "A Casa Possível",
+    "desc": "Comprador mostra a casa real e imperfeita com honestidade radical — anti-flex que identifica."
+  },
+  "A37": {
+    "nome": "Passo a Passo",
+    "desc": "Roadmap das fases de um processo (reforma, compra) com CTA de print."
+  },
+  "A38": {
+    "nome": "Anatomia do Negócio",
+    "desc": "Os números impossíveis do deal empilhados na capa + o passo a passo de como foi feito."
+  },
+  "A39": {
+    "nome": "Entrega de Chaves",
+    "desc": "Momento real de emoção + pergunta-prova ('quanto de entrada? — zero') que gera leads."
+  },
+  "A40": {
+    "nome": "Quanto Custou",
+    "desc": "Transparência total dos números da própria compra — confiança máxima por não ter venda."
+  },
+  "A41": {
+    "nome": "Custos Reais",
+    "desc": "Um caso real dissecado número a número, expondo os custos escondidos que ninguém conta."
+  },
+  "A42": {
+    "nome": "Corte de Podcast",
+    "desc": "Trecho de conversa com opinião polêmica + legenda grande — autoridade emprestada."
+  },
+  "A43": {
+    "nome": "Diário da Compra",
+    "desc": "Casal documenta a própria jornada de compra/obra em série — fidelização de novela."
+  },
+  "A44": {
+    "nome": "Abre a Planilha",
+    "desc": "Viabilidade de investimento contada como história, com todos os números na mesa."
+  },
+  "A45": {
+    "nome": "Print do Lucro",
+    "desc": "Faturamento bruto → custos → líquido honesto, com print como prova de renda."
+  },
+  "A46": {
+    "nome": "Você Compraria?",
+    "desc": "Novidade + preço chocante + enquete ('R$26.800 — você compraria?') que gera milhares de comentários."
+  },
+  "A47": {
+    "nome": "Quanto Custa Morar",
+    "desc": "Custo de vida item a item escrito à mão, com o total segurado até o último segundo."
+  },
+  "A48": {
+    "nome": "Antes e Depois",
+    "desc": "'Ninguém queria essa casa' → reforma → lucro: história de virada com números."
+  },
+  "A49": {
+    "nome": "Fui na Contramão",
+    "desc": "Decisão contraintuitiva ('vendi minha casa pra alugar') defendida com lógica real."
+  },
+  "A50": {
+    "nome": "De Não a Sim",
+    "desc": "Jornada real de aprovação de financiamento, com os perrengues e a reviravolta."
+  },
+  "A51": {
+    "nome": "iPhone vs Apê",
+    "desc": "'Enquanto você parcela um iPhone, tem gente financiando um apê' — provocação identitária com número."
+  },
+  "A52": {
+    "nome": "POV do Corretor",
+    "desc": "Trend adaptada à rotina hiperespecífica do corretor — humor de nicho que a tribo reconhece."
+  },
+  "B01": {
+    "nome": "Vendido em X Dias",
+    "desc": "Selo de velocidade de venda como prova social — mira a captação de proprietário."
+  },
+  "B02": {
+    "nome": "Card de Oferta",
+    "desc": "Anúncio de imagem única: foto + preço em destaque + bullets. Produção zero, roda meses."
+  },
+  "B03": {
+    "nome": "Vender o Futuro",
+    "desc": "Reframe de terreno vazio em oportunidade ('é só mato… mas é assim que nascem oportunidades')."
+  },
+  "B04": {
+    "nome": "Prova de Volume",
+    "desc": "'Vendemos X imóveis por mês' — prova social esmagadora que mira o proprietário."
+  },
+  "B05": {
+    "nome": "Tour de Mansão",
+    "desc": "'Por dentro de uma mansão de R$X' — aspiração pura com preço na abertura."
+  },
+  "B06": {
+    "nome": "Oi, Sou o Fulano",
+    "desc": "Corretor se apresenta pelo nome no terreno real — anti-anúncio que roda 657 dias."
+  },
+  "B07": {
+    "nome": "Já Vendeu Tudo",
+    "desc": "Prova de tração ('lotes vendidos antes do lançamento') traduzida em benefício pro morador."
+  },
+  "B08": {
+    "nome": "Ganhe Como o Grande",
+    "desc": "Assimetria de retorno ('3-5x mais com o mesmo capital') + segurança jurídica."
+  },
+  "B09": {
+    "nome": "Saia do Aluguel",
+    "desc": "Oportunidade local + facilidades empilhadas (MCMV, subsídio, entrada parcelada)."
+  },
+  "B10": {
+    "nome": "Imagine Morar",
+    "desc": "Visualização guiada: o comprador se vê usando o imóvel, spec por spec como experiência."
+  },
+  "B11": {
+    "nome": "Sua Consultora",
+    "desc": "Anti-aluguel + reframe de investimento + a virada pessoal ('e eu, [nome], estou aqui pra guiar')."
+  },
+  "B12": {
+    "nome": "Pra Corretor Vender",
+    "desc": "Anúncio B2B que fala com quem vende: 'coloque na sua carteira, veja como é fácil vender'."
+  },
+  "B13": {
+    "nome": "Melhor Endereço",
+    "desc": "Bairro como herói: copy mínima + vídeo de 15s + card com a ficha completa."
+  },
+  "B14": {
+    "nome": "Efeito Mike Tyson",
+    "desc": "História de celebridade com paradoxo como porta pra uma tese sobre patrimônio."
+  },
+  "B15": {
+    "nome": "Anti-Hype",
+    "desc": "Usa um anúncio viral bizarro como contraste pra se posicionar ('não preciso de truque')."
+  },
+  "B16": {
+    "nome": "Convite VIP",
+    "desc": "Convite pra open house/evento com data, local e condição exclusiva do dia."
+  },
+  "B17": {
+    "nome": "Tudo Aberto",
+    "desc": "Ficha técnica 100% transparente na copy (valor + condomínio + IPTU) — filtra lead quente."
+  },
+  "B18": {
+    "nome": "O Primeiro da Região",
+    "desc": "Diálogo encenado de novidade + claim de pioneirismo ('o primeiro do estado com…')."
+  },
+  "B19": {
+    "nome": "Comenta que Envio",
+    "desc": "Valor no vídeo + CTA de palavra-chave que dispara automação de DM."
+  },
+  "B20": {
+    "nome": "Cidade que Valoriza",
+    "desc": "Tese de valorização regional + lista de ofertas com desconto 'de/por'."
+  },
+  "B21": {
+    "nome": "Vocês Pediram",
+    "desc": "Responde a um pedido da audiência — parece diálogo, não anúncio."
+  },
+  "B22": {
+    "nome": "Proprietário, Alugue Rápido",
+    "desc": "A 1ª palavra filtra o público + dupla promessa (velocidade + garantia) + nota do Google."
+  },
+  "B23": {
+    "nome": "Ninguém Te Conta",
+    "desc": "Expõe a dor oculta do investidor iniciante + a solução do produto + prova de valorização."
+  },
+  "B24": {
+    "nome": "Morador Real",
+    "desc": "UGC: um morador mostra e usa o condomínio — prova social que anúncio não compra."
+  },
+  "B25": {
+    "nome": "O Sonho Virou Pesadelo",
+    "desc": "Caso real de conflito com construtora como alerta educativo + contraposicionamento."
+  },
+  "B26": {
+    "nome": "Ele Estava Quebrado",
+    "desc": "Storytelling de transformação em frases curtas com herói inesperado e números."
+  },
+  "B27": {
+    "nome": "X ou Y?",
+    "desc": "Série educativa 'planta ou pronto?' como anúncio evergreen — recorde de 685 dias."
+  },
+  "B28": {
+    "nome": "Feito pra Alugar",
+    "desc": "Imóvel descrito pela ótica do rendimento: cada spec justificado pela ocupação/ROI."
+  },
+  "B29": {
+    "nome": "Simulação Grátis",
+    "desc": "Caso real de aprovação número a número + didática da entrada + isca de simulação."
+  },
+  "B30": {
+    "nome": "Quem Sou Eu",
+    "desc": "Cartão de visita em vídeo do corretor — vende a pessoa, roda permanente."
+  }
 }

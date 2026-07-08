@@ -1932,29 +1932,55 @@
  {
   "id": "A21",
   "tipo": "organico",
-  "nome": "Adivinha o Preço",
+  "nome": "Tour Aspiracional",
   "exemplo": "Rafael Brotto / luxlistings",
   "link": "https://tiktok.com/@rafaelbrottoo/video/7595203527199313173",
   "metrica": "—",
   "plataforma": "TikTok",
   "status": "confirmado",
   "objetivos": [
-   "Conversão",
-   "Base"
+   "Base",
+   "Conversão"
   ],
   "en": false,
   "ads": true,
-  "nomeLongo": "Tour + preço revelado só no final (retenção)",
-  "desc": "Tour com o valor revelado só no final — a curiosidade do preço segura o vídeo inteiro.",
-  "slug": "tour-preco-revelado-so-no-final",
+  "nomeLongo": "Tour cinematográfico aspiracional (desejo puro)",
+  "desc": "Um take cinematográfico único na hora dourada vende o estilo de vida — o deslumbre é o hook, sem uma palavra na tela.",
+  "slug": "tour-cinematografico-aspiracional",
   "formato": {
-   "estrutura": "1. **[PROMESSA DO PREÇO]** \"quanto custa esse imóvel?\" na capa/legenda (abre o loop). → *slot: a promessa.*\n2. **[TOUR SEM REVELAR]** ambientes de luxo, o desejo crescendo (preço adiado). → *slot: o tour.*\n3. **[REVELAÇÃO NO FINAL]** o preço (texto/legenda) — o payoff. → *slot: a revelação.*\n\n- **Fixo:** adiar o preço (loop de retenção); desejo crescendo; revelar no fim; música.\n- **Variável:** o imóvel, o preço.",
-   "hook": "Promessa de tour + retenção pelo preço: mostra o imóvel impressionante e sinaliza que **o valor só é revelado no final** (\"aguenta até o fim pra ver quanto custa\"). A curiosidade do preço segura o espectador o vídeo inteiro.",
-   "blocos": "- **Isca de tour (0-3s):** \"olha esse imóvel — adivinha quanto custa?\".\n- **Tour crescente (3-40s):** ambientes do menos pro mais impressionante, sem revelar o preço.\n- **Revelação do preço (fim):** o número, no clímax — o momento do comentário/compartilhamento.",
-   "porque": "- **Preço segurado = retenção quase total:** ninguém sai antes de saber o valor.\n- **Palpite mental:** o espectador chuta o preço e volta pra conferir (replay).\n- **Ordem crescente** de ambientes mantém a curva de interesse subindo.",
-   "aplicar": "- Qualquer imóvel com um valor \"surpreendente\" (mais barato ou mais caro do que parece).\n- Peça o palpite na legenda (\"quanto você acha?\") — dobra o comentário.\n- Funciona pra alto E baixo padrão (a surpresa pode ser \"só R$X\").",
-   "guia": "- NUNCA revele o preço antes do fim — é a única regra inviolável.\n- Ambientes em ordem crescente de impacto.\n- Peça o palpite no texto/legenda; revele no último segundo.\n- Capa com \"adivinha o preço\" reforça a isca.",
-   "prompt": "```\nVocê é roteirista de tour imobiliário. Crie um \"tour com preço no final\":\n1) ISCA (0-3s): \"olha esse imóvel — adivinha o preço?\"; 2) TOUR crescente sem revelar o valor; 3) REVELAÇÃO do preço no clímax.\nMEUS DADOS: Imóvel + ambientes em ordem de impacto: [ ]. Preço (surpreendente pra mais ou pra menos): [ ]. Público: [ ].\nTOM: curiosidade, palpite. Preço só no fim, sempre. Capa \"adivinha o preço\".\nENTREGUE: 1) ordem dos ambientes; 2) texto de capa; 3) legenda pedindo palpite; 4) 5 hashtags; 5) momento exato da revelação.\n```"
+   "estrutura": "1. **[TAKE-DESEJO DE ABERTURA]** o ângulo mais bonito do imóvel na hora dourada, câmera em movimento lento. → *slot: o take de abertura.*\n2. **[ORBIT/DOLLY CONTÍNUO]** um único movimento hipnótico que percorre o ambiente-símbolo (piscina, fogueira, vista). → *slot: o movimento.*\n3. **[FECHO NA VISTA/CÉU]** o take termina no elemento aspiracional (pôr do sol, piscina iluminada). → *slot: o fecho.*\n\n- **Fixo:** b-roll cinematográfico; hora dourada/entardecer; movimento de câmera lento e contínuo; música que embala; SEM narração, número ou preço na tela.\n- **Variável:** o imóvel, o ambiente-símbolo, a música.",
+   "hook": "O hook é 100% visual e emocional: **a imagem mais bonita do imóvel na hora dourada, com a câmera já em movimento.** Não há texto nem fala — o que para o scroll é o próprio deslumbre (o fogo, a piscina turquesa, o céu). É o oposto do hook de informação: aqui o gatilho é o desejo imediato.",
+   "blocos": "- **Abertura-desejo (0-3s):** o ângulo mais impactante já com câmera se movendo — deslumbre instantâneo.\n- **Orbit/dolly contínuo (3-12s):** um único movimento fluido que revela o ambiente (deck → fogueira → piscina), sem cortes bruscos.\n- **Fecho aspiracional (12-15s):** a câmera pousa no elemento-símbolo (piscina iluminada, pôr do sol) — deixa o desejo no ar.",
+   "porque": "- **Vende o estilo de vida, não o imóvel** — o espectador se imagina ali; a aspiração gera salvamento e compartilhamento.\n- **Movimento contínuo hipnotiza** — um take fluido segura mais que cortes rápidos quando a imagem é linda.\n- **Sem texto = universal** — funciona em qualquer feed, viraliza fora da bolha imobiliária (\"vídeo satisfatório/estético\").\n- **Hora dourada faz o trabalho pesado** — a luz quente + luz artificial acesa cria o clima de sonho.",
+   "aplicar": "- Reserve para o imóvel/ambiente MAIS fotogênico (piscina, vista, área gourmet).\n- Grave na hora dourada (fim de tarde) com as luzes internas já acesas — o contraste quente é o segredo.\n- Um único movimento de câmera bem ensaiado vale mais que dez cortes.\n- Use como topo de funil (alcance/branding) e como âncora de desejo antes de um CTA em outro post.",
+   "guia": "- **Luz:** golden hour + luzes internas acesas (contraste quente/frio).\n- **Câmera:** movimento único, lento e estabilizado (gimbal/drone). Nada de zoom nervoso.\n- **Ambiente-símbolo:** enquadre o elemento que vende o sonho (fogueira, piscina, vista).\n- **Áudio:** música cinematográfica/ambiente que embala — sem narração.\n- **Duração:** 10-15s, o suficiente pra um take respirar.",
+   "prompt": "Você é diretor(a) de fotografia especialista em imóveis de alto padrão. Crie um roteiro de \"tour cinematográfico aspiracional\" (desejo puro, SEM fala/texto na tela), seguindo EXATAMENTE esta estrutura:\n\n**Estrutura obrigatória:**\n1. ABERTURA-DESEJO (0-3s): o ângulo mais bonito do imóvel na hora dourada, com a câmera já em movimento lento\n2. ORBIT/DOLLY contínuo: um único movimento hipnótico que percorre o ambiente-símbolo (piscina, fogueira, vista)\n3. FECHO na vista/piscina/pôr do sol — deixa o desejo no ar\n\n**Meus dados:**\n- Corretor(a) + @: [NOME + @]\n- Imóvel + ambiente mais fotogênico: [DESCRIÇÃO — ex.: deck com piscina e vista]\n- Horário de gravação possível: [ENTARDECER / OUTRO]\n- Estilo de música: [CINEMATOGRÁFICA / LO-FI / OUTRO]\n\n**Regras de tom:**\n- SEM narração, SEM texto/número/preço na tela — o deslumbre é o hook\n- Hora dourada + luzes internas acesas (contraste quente/frio é o segredo)\n- UM único movimento de câmera lento e estabilizado (nada de cortes nervosos)\n- Vender o estilo de vida, não a ficha técnica\n\n**Entregue:**\n1. Shot list do movimento único (ponto de partida → trajeto → ponto final)\n2. Direção de luz e melhor horário\n3. Sugestão de mood/estilo de música\n4. Legenda curta (o texto vive na legenda, não no vídeo)\n5. 5 hashtags de estética/imóvel de alto padrão",
+   "guiaPrompt": [
+    {
+     "titulo": "Quando usar",
+     "corpo": "- Pra **branding e alcance de topo** — vender o estilo de vida do alto padrão, construir a marca do corretor.\n- Como **âncora de desejo** antes de um post com CTA (o desejo aquece; a conversão vem depois).\n- Quando você tem um imóvel/ambiente genuinamente deslumbrante (piscina, vista, área gourmet)."
+    },
+    {
+     "titulo": "Como preencher",
+     "corpo": "- **[AMBIENTE-SÍMBOLO]:** o elemento mais fotogênico — o que faz alguém parar o scroll. Fogueira, piscina, vista.\n- **[HORÁRIO]:** hora dourada (fim de tarde), com as luzes internas já acesas. É o segredo da estética.\n- **[MÚSICA]:** cinematográfica/ambiente que embala o take."
+    },
+    {
+     "titulo": "Direção de copywriting para a IA",
+     "corpo": "Se sugerir texto na tela:\n\n> \"Nada de texto, número ou preço na tela — este formato é 100% imagem. O texto vive só na legenda.\"\n\nSe propuser cortes rápidos:\n\n> \"Um único movimento de câmera lento e contínuo. O efeito é hipnótico/satisfatório — cortes nervosos quebram isso.\""
+    },
+    {
+     "titulo": "Erros comuns",
+     "corpo": "1. **Encher de texto/números** — vira outro formato (número como hook). Aqui é silêncio visual.\n2. **Luz dura de meio-dia** — mata o clima; grave na hora dourada.\n3. **Cortes nervosos** — quebram o efeito hipnótico do take único.\n4. **Ambiente comum** — este formato exige o espaço MAIS bonito."
+    },
+    {
+     "titulo": "Gravação",
+     "corpo": "- Golden hour + luzes internas acesas (contraste quente/frio).\n- Gimbal ou drone: um movimento único, lento, estabilizado.\n- Enquadre o ambiente-símbolo; feche na vista/piscina/céu.\n- Música cinematográfica; legenda curta; 10-15s."
+    },
+    {
+     "titulo": "Métricas de referência",
+     "corpo": "Alto alcance e salvamento (vídeo \"estético/satisfatório\" viraliza fora da bolha) + construção de marca de alto padrão. Não é um formato de conversão direta — é desejo e branding. Funciona como anúncio de topo/awareness."
+    }
+   ]
   },
   "exemplos": [
    {
@@ -1964,7 +1990,40 @@
     "link": "https://tiktok.com/@rafaelbrottoo/video/7595203527199313173",
     "en": false,
     "temTranscricao": false,
-    "analise": []
+    "analise": [
+     {
+      "titulo": "Veredito em uma linha",
+      "corpo": "Um único take hipnótico ao entardecer — fogueira, piscina turquesa e o brilho quente da casa — vende o estilo de vida sem uma palavra: o deslumbre é o hook."
+     },
+     {
+      "titulo": "Estrutura segundo a segundo",
+      "corpo": "| Tempo | Imagem | Texto / Fala | Função |\n|---|---|---|---|\n| 0-3s | Deck com fogueira acesa, sofás, a casa moderna iluminada ao fundo; céu de fim de tarde | (só música) | Abertura-desejo: o ângulo mais bonito já com a câmera em movimento lento |\n| 3-12s | Orbit/dolly contínuo — a câmera desliza revelando a piscina com luz turquesa ao lado da fogueira | (só música) | O movimento hipnótico que percorre o ambiente-símbolo |\n| 12-15s | A câmera pousa na piscina iluminada com o céu crepuscular ao fundo | (só música) | Fecho aspiracional — o desejo fica no ar |"
+     },
+     {
+      "titulo": "Análise de copy",
+      "corpo": "- **Não há copy falada nem texto na tela** — e é exatamente o ponto. O formato aposta 100% na imagem.\n- **A \"mensagem\" é o estilo de vida** — o espectador não recebe informação, recebe uma sensação (calma, luxo, sonho).\n- **O trabalho de copy migra pra legenda** (curta) e pra música — não pro vídeo."
+     },
+     {
+      "titulo": "Análise de estética & imagem",
+      "corpo": "- **Hora dourada + luzes internas acesas** — o contraste do céu frio com o brilho quente da casa é o coração da estética.\n- **Elementos-símbolo enquadrados:** fogueira (aconchego) + piscina turquesa (luxo) + arquitetura moderna.\n- **Um único movimento de câmera** lento e estabilizado (gimbal/drone) — sem cortes, o que dá a sensação \"satisfatória\"."
+     },
+     {
+      "titulo": "Áudio & ritmo",
+      "corpo": "- **Sem narração** — música ambiente/cinematográfica embala o take. O ritmo é o do movimento de câmera, não o de cortes."
+     },
+     {
+      "titulo": "Gatilhos psicológicos",
+      "corpo": "1. **Aspiração** — \"eu quero morar aqui\" (o estilo de vida, não a planta).\n2. **Deslumbre visual** — a beleza para o scroll sem precisar de texto.\n3. **Efeito hipnótico** — o take contínuo prende (vídeo \"satisfatório\").\n4. **Universalidade** — sem texto, viraliza fora da bolha imobiliária."
+     },
+     {
+      "titulo": "O que NÃO fazer",
+      "corpo": "- ❌ Encher de texto/números — descaracteriza o formato (aí vira \"número como hook\").\n- ❌ Cortes rápidos nervosos — quebram o efeito hipnótico do take único.\n- ❌ Gravar em luz dura de meio-dia — perde o clima; a hora dourada é inegociável.\n- ❌ Usar um ambiente feio/comum — este formato exige o imóvel MAIS fotogênico."
+     },
+     {
+      "titulo": "Como replicar",
+      "corpo": "1. **Escolha o imóvel/ambiente mais fotogênico** (piscina, vista, área gourmet).\n2. **Grave na hora dourada** com as luzes internas acesas (contraste quente/frio).\n3. **Planeje UM movimento de câmera** lento e contínuo que passe pelo elemento-símbolo.\n4. **Feche na vista/piscina/céu** — deixe o desejo no ar.\n5. **Música cinematográfica** + legenda curta; nada de texto na tela."
+     }
+    ]
    }
   ],
   "num": 21
